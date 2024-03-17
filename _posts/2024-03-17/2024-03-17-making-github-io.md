@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "github.io 사이트 만들기(Feat. Jekyll)"
+title:      "github.io 사이트 만들기(With. Jekyll)"
 subtitle:   " \"Making a github.io site\""
 date:       2024-03-17 17:00:00
 author:     "JacksonJang"
