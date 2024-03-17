@@ -5,6 +5,7 @@ subtitle:   " \"Hello World, Hello Blog\""
 date:       2024-03-16 22:00:00
 author:     "JacksonJang"
 header-img: "assets/posts/post-bg_2024.jpg"
+post_assets: "/assets/posts/2024-03-16"
 catalog: true
 tags:
     - Hello world
@@ -18,11 +19,19 @@ tags:
 
 [Type is Beautiful](http://www.typeisbeautiful.com/)
 
-<img src="{{ '/assets/logo.jpg' | relative_url }}" alt="대체 텍스트">
+<img src="{{ '/assets/logo.jpg' | relative_url }}">
+<!-- <img src="{{ page.post_assets }}/github.png"> -->
 
 `font` 테스트
 
 * **Bold Test** 테스트 
 * ㅎㅇ
+
+
+코드 테스트
+
+```swift
+let test = "test"
+```
 
 —— JacksonJang 2024.03
