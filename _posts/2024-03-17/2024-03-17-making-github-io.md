@@ -21,8 +21,8 @@ tags:
 ### Jekyll Theme 1줄 요약
 정적 사이트의 디자인이나 레이아웃을 템플릿화 시킨 테마입니다. <br />
 밑에는 다양한 지킬 테마를 볼 수 있는 사이트들 입니다.
-- http://jekyllthemes.org/
-- https://github.com/topics/jekyll-theme
+- [http://jekyllthemes.org/](http://jekyllthemes.org/)
+- [https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme)
 
 위에서 원하시는 테마를 선택하고 다운 받으시거나, github에서 fork 하셔도 됩니다!
 
