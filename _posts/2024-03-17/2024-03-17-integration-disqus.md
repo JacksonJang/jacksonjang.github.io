@@ -8,9 +8,7 @@ header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-03-17"
 catalog: true
 tags:
-    - github.io
-    - git
-    - Jekyll
+    - DISQUS
 ---
 
 > DISQUS 가입하기
