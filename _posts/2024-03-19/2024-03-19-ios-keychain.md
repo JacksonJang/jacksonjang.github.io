@@ -19,7 +19,7 @@ tags:
 ## Keychain 정의
 Keychain은 비밀번호나 인증 토큰과 같은 민감한 정보를 안전하게 저장할 수 있게 도와주는 Security 프레임워크의 기능입니다.
 <br />
-Apple Document : [https://developer.apple.com/documentation/security/keychain_services]("https://developer.apple.com/documentation/security/keychain_services/")
+Apple Document : [https://developer.apple.com/documentation/security/keychain_services](https://developer.apple.com/documentation/security/keychain_services/)
 
 > 참고로 Keychain은 앱을 삭제해도 유지되는 값이므로, 앱 설계를 하실 때 매우 신중하게 선택해서 진행해 주셔야 합니다.
 
@@ -134,4 +134,4 @@ let status = SecItemCopyMatching(query as CFDictionary, &item)
 ```
 
 ## github 예시 주소
-[https://github.com/JacksonJang/KeychainExample]("https://github.com/JacksonJang/KeychainExample")
+[https://github.com/JacksonJang/KeychainExample](https://github.com/JacksonJang/KeychainExample)

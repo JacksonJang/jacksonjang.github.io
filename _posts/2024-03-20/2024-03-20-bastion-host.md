@@ -43,9 +43,9 @@ Bastion Host는 **외부에서 내부 네트워크에 접근할 수 있는 유�
 권장되는 내용으로는 **Bastion Host 에 접근할 특정 IP 만 명시적으로 접근을 허용**하고, **SSH 포트는 22가 아닌 다른 포트를 사용**할 것이며, **로그인 시 Two Factor 인증**을 통해 보안을 강화하는 것이 권장되고 있습니다.
 
 ## 참고 링크
-- [https://harris91.vercel.app/bastion-host]("https://harris91.vercel.app/bastion-host")
-- [https://blog.naver.com/pentamkt/221034903499]("https://blog.naver.com/pentamkt/221034903499")
-- [https://velog.io/@makeitcloud/%EB%9E%80-Bastion-host-%EB%9E%80]("https://velog.io/@makeitcloud/%EB%9E%80-Bastion-host-%EB%9E%80")
-- [https://www.lesstif.com/ws/%EB%B2%A0%EC%8A%A4%EC%B2%9C-%ED%98%B8%EC%8A%A4%ED%8A%B8-43843897.html]("https://www.lesstif.com/ws/%EB%B2%A0%EC%8A%A4%EC%B2%9C-%ED%98%B8%EC%8A%A4%ED%8A%B8-43843897.html")
+- [https://harris91.vercel.app/bastion-host](https://harris91.vercel.app/bastion-host)
+- [https://blog.naver.com/pentamkt/221034903499](https://blog.naver.com/pentamkt/221034903499)
+- [https://velog.io/@makeitcloud/%EB%9E%80-Bastion-host-%EB%9E%80](https://velog.io/@makeitcloud/%EB%9E%80-Bastion-host-%EB%9E%80)
+- [https://www.lesstif.com/ws/%EB%B2%A0%EC%8A%A4%EC%B2%9C-%ED%98%B8%EC%8A%A4%ED%8A%B8-43843897.html](https://www.lesstif.com/ws/%EB%B2%A0%EC%8A%A4%EC%B2%9C-%ED%98%B8%EC%8A%A4%ED%8A%B8-43843897.html)
 
 ## 끝
