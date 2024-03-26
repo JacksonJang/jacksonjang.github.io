@@ -47,11 +47,13 @@ if(navigator.serviceWorker){
     
     if(data.command == "UPDATE_FOUND"){
       console.log("UPDATE_FOUND_BY_SW", data);
-      createSnackbar({
-        message: "Content updated.",
-        actionText:"refresh",
-        action: function(e){location.reload()}
-      })
+      location.reload()
+      // 업데이트 여부 물어보는거 삭제
+      // createSnackbar({
+      //   message: "Content updated.",
+      //   actionText:"refresh",
+      //   action: function(e){location.reload()}
+      // })
     }
   }
 }
