@@ -71,7 +71,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "안녕하세요. iOS 개발자 장효원입니다."
+sidebar-about-description: "안녕하세요. <br /> Full-Stack 개발자 장효원입니다. <br />EMAIL: hyo961015@naver.com"
 sidebar-avatar: "/assets/logo.jpg" # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
