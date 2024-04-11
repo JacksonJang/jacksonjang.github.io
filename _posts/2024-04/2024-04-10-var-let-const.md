@@ -142,11 +142,12 @@ user = {
 // 객체의 속성은 변경 가능
 user.age = 19;
 ```
+위와 같은 코드로는 변경 가능합니다.
 
+아래는 전체 코드입니다.
 `예시 전체`
 
 ```js
-
 // user 객체 선언
 const user = {
   name: "jacksonjang",
@@ -158,9 +159,6 @@ user = {
   name: "changeName",
   age: 10 
 }
-
-// 객체의 속성은 변경 가능
-user.age = 19;
 
 // 객체의 속성은 변경 가능
 user.age = 19;
