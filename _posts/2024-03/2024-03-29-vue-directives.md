@@ -25,7 +25,6 @@ Element의 text를 업데이트 하는데 사용됩니다.
 ## v-html
 Element의 innerHTML 을 업데이트합니다.
 <br />
->[!WARNING]
 > XSS 공격을 당할 수 있기 때문에 신뢰할 수 있는 컨텐츠에만 v-html을 사용하고, 사용자가 제공하는 컨텐츠에는 절대 사용하면 안됩니다.
 ```html
 <div v-html="html"></div>

@@ -61,8 +61,7 @@ Apache Tomcat version 9.0 implements the Servlet 4.0
 
 <img width="600px" src="{{ page.post_assets }}/springboot_docs.png" />
 [공식 홈페이지의 docs](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)에도 명시되어 있듯이 현재 SpringBoot3는 Servlet 5.0 이상을 지원하고 있으며, Tomcat 10.1을 지원한다고 명시되어 있습니다.
->[!NOTE]
->Servlet 5.0은 **javax.*** 에서 **jakarta.servlet** 으로 변경된 버전입니다.
+> Servlet 5.0은 **javax.*** 에서 **jakarta.servlet** 으로 변경된 버전입니다.
 
 <br />
 따라서 앞으로는 스프링부트3 프로젝트를 JDK17과 함께 만들어서 사용합시다!

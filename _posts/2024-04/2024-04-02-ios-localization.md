@@ -33,7 +33,6 @@ Xcode 15가 출시되면서 구분되어 생성할 수 있게 바뀌었습니다
 <img src="{{ page.post_assets }}/common-2.png" /> <br />
 **Run** -> **Options** -> **App Language** 를 통해 내가 사용하는 언어에 대해 설정이 가능합니다.
 
-> [!CAUTION]
 > Localizable.strings 와 Localizable.stringdict 는 중복해서 사용할 수 없습니다. <br />
 > 한마디로 **같은 이름의 Localizable**을 사용할 수 없습니다.
 
@@ -99,7 +98,6 @@ String(localized: "123 Test")
 ```
 
 <img src="{{ page.post_assets }}/localize-4.png" /> <br />
-> [!IMPORTANT] 중요한 사실
 > 아래와 같은 코드(NSLocalizedString)를 이용해서 컴파일 후 실행하게 되면 자동으로 Catalog에 입력이 됩니다.
 > 따라서, 이전에 NSLocalizedString를 사용했었다면 하나의 카탈로그에서 관리할 수 있다.
 >

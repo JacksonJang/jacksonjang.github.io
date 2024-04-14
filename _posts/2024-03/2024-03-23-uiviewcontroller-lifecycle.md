@@ -56,7 +56,6 @@ open func loadView()
 ```
 위 과정에서 @IBOutlet, @IBAction 등이 생성되고 view 객체들과 자동으로 연결됩니다.
 
-> [!IMPORTANT] 
 > 만약, 스토리보드와 xib으로 직접 만들어서 사용할 시(즉, Interface Builder를 이용할 시), 절대 loadView 메서드를 override 하면 안됩니다.
 
 [애플 공식 문서 내용]

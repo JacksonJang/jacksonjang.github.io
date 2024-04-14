@@ -69,7 +69,6 @@ sh required_reason_api_text_scanner.sh ./
 - Privacy Nutrition Label Types(NSPrivacyCollectedDataTypes) : 앱이나 타사 SDK가 수집하는 데이터 유형을 설명하는 딕셔너리 배열로, 사용자가 자신의 데이터가 어떻게 사용되는지 이해할 수 있도록 합니다.
 - Privacy Accessed API Types(NSPrivacyAccessedAPITypes) : 앱이나 타사 SDK가 접근하는 API 유형을 설명하는 딕셔너리 배열입니다.
 
->[!NOTE]
 > 앱이나 사용하는 타사 SDK가 OS, iPadOS, tvOS, visionOS, and watchOS 중 하나에서 작동한다면, NSPrivacyAccessedAPITypes 를 제공해야 합니다.
 
 ## API 의 타입에 대해서는 공식 문서에서..

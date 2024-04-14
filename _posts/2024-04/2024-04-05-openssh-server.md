@@ -70,7 +70,6 @@ sudo systemctl stop ssh
 sudo systemctl disable ssh
 ```
 
-> [!NOTE]
 > 중지는 말 그대로 중지되지만 재부팅 하게되면 다시 실행되고, 비활성화를 하면 완전히 비활성화돼서 사용도 못하고 재부팅 해도 다시 시작되지 않습니다.
 
 ### SSH 서비스 시작
