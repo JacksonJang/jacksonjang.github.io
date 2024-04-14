@@ -162,3 +162,6 @@ func readStepCount(completion: @escaping (Double) -> Void) {
     healthStore.execute(query)
 }
 ```
+
+## github 예제
+[https://github.com/JacksonJang/HealthKitExample.git](https://github.com/JacksonJang/HealthKitExample.git)
