@@ -9,8 +9,7 @@ post_assets: "/assets/posts/2024-04-05"
 catalog: true
 tags:
     - Linux
-    - MySQL
-    - Procedure
+    - Ubuntu
 ---
 > Ubuntu 20 버전 기준으로 작성되었습니다.
 

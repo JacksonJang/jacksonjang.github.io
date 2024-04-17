@@ -9,8 +9,6 @@ post_assets: "/assets/posts/2024-04-06"
 catalog: true
 tags:
     - Linux
-    - MySQL
-    - Procedure
 ---
 > Ubuntu 20 버전을 사용하고 있습니다.
 
