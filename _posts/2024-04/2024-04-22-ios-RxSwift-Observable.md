@@ -53,6 +53,10 @@ Disposed
 ```
 
 ## Cold Observable vs Hot Observable
+[간단 요약]
+- Cold Observable : 구독자가 구독을 **시작할 때** 이벤트가 생성되며, 각 구독자는 독립적으로 이벤트를 받습니다.
+- Hot Observable : 구독자가 구독을 **시작하기 전**에 이벤트가 발생하며, 이벤트 스트림은 구독자와 상관없이 지속됩니다.
+
 갑자기 웬 뜨겁고 차가운 것을 갖고 오는지 궁금하실 수 있습니다.
 <br />
 RxSwift 공식 문서의 [HotAndColdObservables.md](https://github.com/ReactiveX/RxSwift/blob/main/Documentation/HotAndColdObservables.md)를 살펴보면, 자세하게 나와있지만 제가 쉽게 풀어서 설명하겠습니다.
