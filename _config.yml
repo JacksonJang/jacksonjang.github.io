@@ -64,8 +64,12 @@ disqus_username: jacksonjang-github-io
 netease_comment: false
 
 # Analytics settings
-# Baidu Analytics
-# ba_track_id: [your track id]
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-328C5Z6327"
+    anonymize_ip         : # true, false (default)
 
 # Google Analytics
 #ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
