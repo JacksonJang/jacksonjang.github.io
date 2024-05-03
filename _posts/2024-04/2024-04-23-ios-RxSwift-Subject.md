@@ -22,8 +22,9 @@ tags:
 ## Subject의 종류
 - `PublishSubject` : 구독 후에 발생하는 이벤트만 방출합니다.(즉 초기 값은 없음)
 구독 전에 이벤트를 전달해도 구독자는 구독을 하지 않았기 때문에 받을 수 없습니다.
+
 ```swift
- let subject = PublishSubject<String>()
+let subject = PublishSubject<String>()
 
 subject.onNext("You can't see this message")
 
@@ -42,6 +43,7 @@ PublishSubject: PublishSubject response 2
 ```
 
 - `BehaviorSubject` : 초기 값을 가질 수 있으며 이벤트를 갖고 있다가 구독자가 구독하면 방출합니다.
+
 ```swift
 let subject = BehaviorSubject(value: "BehaviorSubject Init")
         
@@ -108,6 +110,7 @@ ReplaySubject Ex1 : Event 3
 ```
 
 위 코드에서 `Event 2`와 `Event 3`을 빼면 어떻게 될까? 궁금해서 해봤습니다.
+
 ```swift
  let subject = AsyncSubject<String>()
         

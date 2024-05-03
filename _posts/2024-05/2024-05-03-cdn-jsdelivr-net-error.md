@@ -24,7 +24,7 @@ tags:
 <br />
 `Your connection is not private` 에러가 발생하고 있었고, 해당 에러는 SSL 인증과 관련된 에러였다.
 
-<img src="{{ page.post_assets }}/privjsdelivracy.png" /> <br />
+<img src="{{ page.post_assets }}/jsdelivr.png" /> <br />
 혹시 몰라서 [https://www.jsdelivr.com/](https://www.jsdelivr.com/) 사이트에 접속해서 모든 cdn을 확인하였으나, 모두 접속이 안되었다.
 
 이러한 에러가 인터넷 문제 때문인지 특정 지역만 그런건지 몰라서 해당 부분을 더 자세히 찾아보니...(우리만 겪은게 아니였다!)

@@ -247,9 +247,9 @@ countRef: {countRef.current}
 위 코드에서 `countRef`의 속성 값이 증가하고 있지만(**console.log**로 확인 가능), UI 렌더링이 없기 때문에 보여지지 않는 모습을 확인 할 수 있습니다
 
 ## 참고 자료
-[React.js 공식 홈페이지 문서](https://react.dev/reference/react)
-[useEffect 관련 StackOverFlow](https://stackoverflow.com/questions/55020041/react-hooks-useeffect-cleanup-for-only-componentwillunmount)
-[useEffect 문서](https://legacy.reactjs.org/docs/hooks-effect.html)
-[[React]Hook: useContext](https://jaylee-log.tistory.com/55)
-[리액트의 Hooks 완벽 정복하기](https://velog.io/@velopert/react-hooks)
-[useReducer를 어떻게, 그리고 언제 사용할까?](https://eun-jee.com/post/front-end/react/04-useReducer/)
+- [React.js 공식 홈페이지 문서](https://react.dev/reference/react)
+- [useEffect 관련 StackOverFlow](https://stackoverflow.com/questions/55020041/react-hooks-useeffect-cleanup-for-only-componentwillunmount)
+- [useEffect 문서](https://legacy.reactjs.org/docs/hooks-effect.html)
+- [[React]Hook: useContext](https://jaylee-log.tistory.com/55)
+- [리액트의 Hooks 완벽 정복하기](https://velog.io/@velopert/react-hooks)
+- [useReducer를 어떻게, 그리고 언제 사용할까?](https://eun-jee.com/post/front-end/react/04-useReducer/)
