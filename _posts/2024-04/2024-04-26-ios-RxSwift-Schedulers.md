@@ -80,7 +80,7 @@ Observable.of("Operation 1", "Operation 2", "Operation 3")
 ```
 
 ## 참고링크
-[Managing Concurrency in RxSwift with Schedulers](https://medium.com/@mumensh/managing-concurrency-in-rxswift-with-schedulers-6874ee2dff96)
+- [Managing Concurrency in RxSwift with Schedulers](https://medium.com/@mumensh/managing-concurrency-in-rxswift-with-schedulers-6874ee2dff96)
 
 ## github 예제
 [https://github.com/JacksonJang/RxSwiftScheduler](https://github.com/JacksonJang/RxSwiftScheduler)

@@ -108,4 +108,4 @@ open func viewDidDisappear(_ animated: Bool)
 여러번 호출할 수 있는 메서드이기 때문에 최초 한번만 실행해야 하는 로직이 있다면, 피해주셔야 합니다.
 
 ## 참고 링크
-[https://bicycleforthemind.tistory.com/33](https://bicycleforthemind.tistory.com/33)
+- [https://bicycleforthemind.tistory.com/33](https://bicycleforthemind.tistory.com/33)

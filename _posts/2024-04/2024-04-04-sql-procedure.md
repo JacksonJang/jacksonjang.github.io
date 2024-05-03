@@ -61,4 +61,4 @@ END
 ```
 
 ## 참고링크
-[https://dev.mysql.com/doc/refman/8.3/en/create-procedure.html](https://dev.mysql.com/doc/refman/8.3/en/create-procedure.html)
+- [https://dev.mysql.com/doc/refman/8.3/en/create-procedure.html](https://dev.mysql.com/doc/refman/8.3/en/create-procedure.html)

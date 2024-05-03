@@ -63,4 +63,4 @@ tags:
 규모가 큰 앱을 만든다면 `네이티브 앱`을 규모가 작은 앱이라면 `하이브리드 앱`을 추천해 드립니다.
 
 ## 참고자료
-[앱의 종류 : 네이티브 앱 vs 웹 앱 vs 하이브리드 앱](https://blog.hectodata.co.kr/app_kinds)
+- [앱의 종류 : 네이티브 앱 vs 웹 앱 vs 하이브리드 앱](https://blog.hectodata.co.kr/app_kinds)

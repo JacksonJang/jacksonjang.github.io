@@ -197,4 +197,4 @@ amb response : amb subject2
 [https://github.com/JacksonJang/RxSwiftExample](https://github.com/JacksonJang/RxSwiftExample)
 
 ## 참고자료
-[THE 5 MOST IMPORTANT COMBINING OPERATORS IN RXSWIFT](https://andreaslydemann.com/the-5-most-important-combining-operators-in-rxswift/)
+- [THE 5 MOST IMPORTANT COMBINING OPERATORS IN RXSWIFT](https://andreaslydemann.com/the-5-most-important-combining-operators-in-rxswift/)
