@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "[Backend] 2024년 FCM HTTP v1 삭제 관련(FCM 삭제)"
-subtitle:   "\"iOS Export Compliance Information\""
+title:      "[Backend] 2024년 6월 FCM HTTP v1 삭제 관련(FCM 삭제)"
+subtitle:   "\"About FCM will be removed June 2024\""
 date:       2024-05-08 19:00:00
 author:     "JacksonJang"
 header-img: "assets/posts/post-bg_2024.jpg"
