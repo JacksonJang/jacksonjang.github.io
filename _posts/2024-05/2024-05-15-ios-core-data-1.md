@@ -103,12 +103,15 @@ Xcode로 Build 할 때 class의 extension을 생성합니다. 이 class의 exten
 - People+CoreDataProperties.swift
 
 ### Class Definition 의 파일 내용
+**CoreDataExample+CoreDataModel.swift**
 ```swift
-// CoreDataExample+CoreDataModel.swift
 import Foundation
 import CoreData
+```
+<br />
 
-// People+CoreDataClass.swift
+**People+CoreDataClass.swift**
+```swift
 import Foundation
 import CoreData
 
@@ -116,8 +119,11 @@ import CoreData
 public class People: NSManagedObject {
 
 }
+```
+<br />
 
-// People+CoreDataProperties.swift
+**People+CoreDataProperties.swift**
+```swift
 import Foundation
 import CoreData
 
@@ -153,12 +159,15 @@ extension People : Identifiable {
 즉, `Category/Extension`에서는 클래스에 대한 관리는 직접 가능하다는 것을 눈치챌 수 있습니다. 파일 내용 또한 동일하지만, `People`에 대한 클래스가 없어서 직접 선언해줘야 합니다.
 
 ### Category/Extension 의 파일 내용
+**CoreDataExample+CoreDataModel.swift**
 ```swift
-// CoreDataExample+CoreDataModel.swift
 import Foundation
 import CoreData
+```
+<br />
 
-// People+CoreDataProperties.swift
+**People+CoreDataProperties.swift**
+```swift
 import Foundation
 import CoreData
 
