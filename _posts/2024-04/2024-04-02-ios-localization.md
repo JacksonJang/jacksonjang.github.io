@@ -65,14 +65,14 @@ Xcode15 and later
 그럼 위와 같이 설정할 수 있습니다.
 
 <p />
-간단히 설명하자면 다음과 같습니다.(참고로 Key는 다른 이름으로 설정해도 됩니다.)
+간단히 설명하자면 다음과 같습니다.(**참고로 Key는 다른 이름으로 설정해도 됩니다.**)
 <br />
 - Key : Xcode15 and later
 - en : Xcode15 and later
 - ko : Xcode15 이후
 
 ```swift
-String(localized: "Xcode15 and later")
+String(localized: String.LocalizationValue("Xcode15 and later"))
 ```
 그럼 Key 값이 **Xcode15 and later** 이니까, 언어가 영어라면 "Xcode15 and later", 한국어라면 "Xcode15 이후"로 보여지게 됩니다.
 
@@ -86,13 +86,13 @@ Key 값이 **%lld Test**이고, ko 를 **%lld 테스트**로 설정 했다고 �
 
 그럼 아래와 같은 코드를 입력하면 다음과 같은 결과 값을 얻을 수 있습니다.
 ```swift
-String(localized: "\(123) Test")
+String(localized: String.LocalizationValue("\(123) Test"))
 // 결과값 : 123 테스트"
 ```
 
 그치만, 저 같은 경우는 String 형태로 해도 되지 않을까? 해서 아래와 같이 테스트 해봤는데... 결과는 안됐었다
 ```swift
-String(localized: "123 Test")
+String(localized: String.LocalizationValue("123 Test"))
 // 결과값 : 123 Test
 // 참고로 결과값은 Key 값이 그대로 보여진 것이다. 제대로 되었다면, 한글이 보여져야함
 ```
