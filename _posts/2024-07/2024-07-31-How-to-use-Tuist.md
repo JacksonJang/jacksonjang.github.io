@@ -31,8 +31,12 @@ Tuist는 추상적인 복잡한 Xcode의 프로젝트들을 생성하는 CLI 툴
 curl -Ls https://install.tuist.io | bash
 ```
 예전에는 curl 을 통해서 설치 후 사용하였으나, 현재는 **mise**를 통해 사용하고 있습니다.
+<br />
+
 관련 주소 : [https://tuist.io/blog/2023/12/15/rtx-default/](https://tuist.io/blog/2023/
 12/15/rtx-default/)
+<br />
+
 **관련 사진**
 <img src="{{ page.post_assets }}/deprecated.png" style="height:200px" /> <br />
 
@@ -54,15 +58,18 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> "${ZDOTDIR-$HOME}/.zshrc"
 ```
 이후에 `mise` 명령어를 편하게 사용하기 위해 위에처럼 설정해 주시고~
 
+
 ```sh
 mise install tuist
 ```
 mise 를 통해서 `tuist`를 설치하면 됩니다!
 
+
 ```sh
 echo 'alias tuist="mise exec -- tuist"' >> "${ZDOTDIR-$HOME}/.zshrc"
 ```
 이후에 `tuist` 명령어를 편하게 사용하기 위해 위에처럼 설정해 주시면 설치는 끝!
+
 
 ### command not found: tuist 혹은 mise 해결법
 ```sh
@@ -82,13 +89,13 @@ cd 폴더명
 ```sh
 tuist init --platform ios
 ```
-
-저 같은 경우에는 **WorkList** 라는 프로젝트 이름으로 진행하겠습니다.
 ```
 mkdir WorkList
 cd WorkList
 tuist init --platform ios
 ```
+저 같은 경우에는 **WorkList** 라는 프로젝트 이름으로 진행하겠습니다.
+<br />
 위에처럼 진행했다면, 아래처럼 정상적으로 프로젝트가 생성된 것을 확인할 수 있습니다.
 <img src="{{ page.post_assets }}/tuist_folder.png" style="height:200px" /> 
 
