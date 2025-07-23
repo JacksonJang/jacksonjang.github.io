@@ -1,0 +1,143 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>/</id>
+  <title>Jacksonjang Blog</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2025-07-23T23:22:25+08:00</updated>
+  <author>
+    <name>Jacksonjang</name>
+    <uri>/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Jacksonjang </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>[SwiftUI] @ObservedObject vs @StateObject</title>
+    <link href="/posts/ObservedObject-vs-StateObject/" rel="alternate" type="text/html" title="[SwiftUI] @ObservedObject vs @StateObject" />
+    <published>2024-08-06T03:00:00+08:00</published>
+  
+    <updated>2024-08-06T03:00:00+08:00</updated>
+  
+    <id>/posts/ObservedObject-vs-StateObject/</id>
+    <content type="text/html" src="/posts/ObservedObject-vs-StateObject/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="iOS" />
+    
+  
+
+  <summary>핵심 정리    공통점 : 객체의 상태 변화를 감지하고 뷰를 업데이트하는 데 사용되는 속성 래퍼입니다.   @StateObject는 부모 뷰가 직접 객체를 소유하고 관리합니다.   @ObservedObject는 부모 뷰에서 객체를 관찰하고 업데이트를 반영합니다.   ObservableObject 란? @StateObject 와 @ObservedObject에 대해 알기 전에 우선적으로 ObservableObject 라는 프로토콜에 대해 이해할 필요가 있습니다.  @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) public protocol ObservableObject : AnyObject {      /// The type of publishe...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>[iOS] Tuist 사용하기 (1)</title>
+    <link href="/posts/How-to-use-Tuist/" rel="alternate" type="text/html" title="[iOS] Tuist 사용하기 (1)" />
+    <published>2024-08-01T03:00:00+08:00</published>
+  
+    <updated>2024-08-01T03:00:00+08:00</updated>
+  
+    <id>/posts/How-to-use-Tuist/</id>
+    <content type="text/html" src="/posts/How-to-use-Tuist/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="iOS" />
+    
+  
+
+  <summary>Tuist 주소 https://github.com/tuist/tuist  Tuist 란? Tuist is a command line tool that leverages project generation to abstract intricacies of Xcode projects, and uses it as a foundation to help teams maintain and optimize their large modular projects.  Tuist는 추상적인 복잡한 Xcode의 프로젝트들을 생성하는 CLI 툴이며, 큰 모듈화된 프로젝트들을 최적화하며 팀의 유지보수 하는데 도움을 줍니다.  간단히 말하면 Xcode 프로젝트를 관리하는 툴입니다.  Tuist의 필요성 협업을 하다보면 Xcode 프로...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>[Mac] VSCode 연속입력 키보드 이슈 해결</title>
+    <link href="/posts/vscode-tip-1/" rel="alternate" type="text/html" title="[Mac] VSCode 연속입력 키보드 이슈 해결" />
+    <published>2024-05-19T09:00:00+08:00</published>
+  
+    <updated>2024-05-19T09:00:00+08:00</updated>
+  
+    <id>/posts/vscode-tip-1/</id>
+    <content type="text/html" src="/posts/vscode-tip-1/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Etc" />
+    
+  
+
+  <summary>매 번 블로그를 작성하면서 vscode 를 사용하고 있었는데, 자꾸 키보드 타이핑을 하면서 화살표로 움직이거나 한글을 입력하고 스페이스를 하면 글자가 짤리는 그런 이슈들이 있어서 짜증나서 알아보게 되어서 메모용으로 기록합니다.  defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false   위 코드를 터미널에 입력 후 VSCode를 재 실행하면 끝!</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>[iOS] Core Data 사용하기 (1)</title>
+    <link href="/posts/ios-core-data-1/" rel="alternate" type="text/html" title="[iOS] Core Data 사용하기 (1)" />
+    <published>2024-05-15T23:00:00+08:00</published>
+  
+    <updated>2024-05-15T23:00:00+08:00</updated>
+  
+    <id>/posts/ios-core-data-1/</id>
+    <content type="text/html" src="/posts/ios-core-data-1/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="iOS" />
+    
+  
+
+  <summary>CoreData를 사용할 일이 있어서 공부할 겸 포스팅하게 되었습니다.  Core Data 프로젝트 생성   프로젝트를 생성할 떄, 위와 같이 Storage에 Core Data를 체크해서 생성해주면 됩니다.  저는 우선 CoreDataExample이라는 이름으로 프로젝트 생성을 진행하겠습니다.  그러면 아래와 같이 정상적으로 생성된 것을 확인할 수 있습니다. 프로젝트 구조    그리고 AppDelegate안에 NSPersistentContainer타입의 persistentContainer 변수와 saveContext() 함수명이 생성된 것을 확인할 수 있습니다.  SceneDelegate에도 추가되어 있는 것을 확인할 수 있습니다. func sceneDidEnterBackground(_ scene: U...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>[iOS] 바텀시트 만들어보기(with. UIPanGestureRecognizer)</title>
+    <link href="/posts/ios-bottom-sheet/" rel="alternate" type="text/html" title="[iOS] 바텀시트 만들어보기(with. UIPanGestureRecognizer)" />
+    <published>2024-05-11T23:00:00+08:00</published>
+  
+    <updated>2024-05-11T23:00:00+08:00</updated>
+  
+    <id>/posts/ios-bottom-sheet/</id>
+    <content type="text/html" src="/posts/ios-bottom-sheet/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="iOS" />
+    
+  
+
+  <summary>오늘은 UIPanGestureRecognizer를 사용해서 바텀 시트를 만들어 보면서 UIPanGestureRecognizer에 대해 알아보겠습니다.  UIPanGestureRecognizer 란?    A continuous gesture recognizer that interprets panning gestures.   UIPanGestureRecognizer는 연속적인 제스처 인식기로 그리는 제스처를 해석합니다.  UIPanGestureRecognizer에 대해 추가적으로 더 설명하자면, 사용자의 손가락이 화면에 닿는 순간부터 움직임을 추적하기 시작하여, 움직임이 종료될 때까지의 전 과정을 감지합니다.  우리는 움직임을 추적하는 메커니즘을 이용해서 바텀 시트를 제작할 예정입니다.  UIPanGes...</summary>
+
+  </entry>
+
+</feed>
+
+

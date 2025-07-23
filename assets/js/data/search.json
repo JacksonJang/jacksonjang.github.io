@@ -1,0 +1,484 @@
+[
+  {
+    "title": "[SwiftUI] @ObservedObject vs @StateObject",
+    "url": "/posts/ObservedObject-vs-StateObject/",
+    "categories": "iOS",
+    "tags": "iOS, SwiftUI",
+    "date": "2024-08-06 03:00:00 +0800",
+    "content": "핵심 정리    공통점 : 객체의 상태 변화를 감지하고 뷰를 업데이트하는 데 사용되는 속성 래퍼입니다.   @StateObject는 부모 뷰가 직접 객체를 소유하고 관리합니다.   @ObservedObject는 부모 뷰에서 객체를 관찰하고 업데이트를 반영합니다.   ObservableObject 란? @StateObject 와 @ObservedObje..."
+  },
+  {
+    "title": "[iOS] Tuist 사용하기 (1)",
+    "url": "/posts/How-to-use-Tuist/",
+    "categories": "iOS",
+    "tags": "iOS, Tuist",
+    "date": "2024-08-01 03:00:00 +0800",
+    "content": "Tuist 주소 https://github.com/tuist/tuist  Tuist 란? Tuist is a command line tool that leverages project generation to abstract intricacies of Xcode projects, and uses it as a foundation to help teams..."
+  },
+  {
+    "title": "[Mac] VSCode 연속입력 키보드 이슈 해결",
+    "url": "/posts/vscode-tip-1/",
+    "categories": "Etc",
+    "tags": "Mac, VSCode",
+    "date": "2024-05-19 09:00:00 +0800",
+    "content": "매 번 블로그를 작성하면서 vscode 를 사용하고 있었는데, 자꾸 키보드 타이핑을 하면서 화살표로 움직이거나 한글을 입력하고 스페이스를 하면 글자가 짤리는 그런 이슈들이 있어서 짜증나서 알아보게 되어서 메모용으로 기록합니다.  defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool fa..."
+  },
+  {
+    "title": "[iOS] Core Data 사용하기 (1)",
+    "url": "/posts/ios-core-data-1/",
+    "categories": "iOS",
+    "tags": "iOS, CoreData",
+    "date": "2024-05-15 23:00:00 +0800",
+    "content": "CoreData를 사용할 일이 있어서 공부할 겸 포스팅하게 되었습니다.  Core Data 프로젝트 생성   프로젝트를 생성할 떄, 위와 같이 Storage에 Core Data를 체크해서 생성해주면 됩니다.  저는 우선 CoreDataExample이라는 이름으로 프로젝트 생성을 진행하겠습니다.  그러면 아래와 같이 정상적으로 생성된 것을 확인할 수 있..."
+  },
+  {
+    "title": "[iOS] 바텀시트 만들어보기(with. UIPanGestureRecognizer)",
+    "url": "/posts/ios-bottom-sheet/",
+    "categories": "iOS",
+    "tags": "iOS, UIPanGestureRecognizer, BottomSheet",
+    "date": "2024-05-11 23:00:00 +0800",
+    "content": "오늘은 UIPanGestureRecognizer를 사용해서 바텀 시트를 만들어 보면서 UIPanGestureRecognizer에 대해 알아보겠습니다.  UIPanGestureRecognizer 란?    A continuous gesture recognizer that interprets panning gestures.   UIPanGestureRec..."
+  },
+  {
+    "title": "[iOS] UIImagePickerController vs PHPickerViewController",
+    "url": "/posts/ios-imagepicker-example/",
+    "categories": "iOS",
+    "tags": "iOS, UIImagePickerController, PHPickerViewController",
+    "date": "2024-05-10 03:00:00 +0800",
+    "content": "오늘은 카메라와 앨범 기능을 사용하기 위해 UIImagePickerController와 PHPickerViewController에 대해 알아보겠습니다.  UIImagePickerController 사용하기  우선 UIImagePickerController를 사용하기 위해서 info.plist에 권한에 대한 설명을 함께 추가해야 합니다.  단, iOS ..."
+  },
+  {
+    "title": "[Backend] 2024년 6월 FCM HTTP v1 삭제 관련(FCM 삭제)",
+    "url": "/posts/backend-fcm-httpv1/",
+    "categories": "Etc",
+    "tags": "Backend, Firebase, FCM",
+    "date": "2024-05-09 03:00:00 +0800",
+    "content": "중요      Sending messages (including upstream messages) with those APIs was deprecated on June 20, 2023, and will be removed in June 2024. 위 내용을 해석하면 “해당 API를 사용한 메시지 전송(업스트림 메시지 포함)은 2023년 6월 20일에 ..."
+  },
+  {
+    "title": "[iOS] TestFlight 수출 규정 준수 정보",
+    "url": "/posts/ios-testflight/",
+    "categories": "iOS",
+    "tags": "Swift, iOS, TestFlight",
+    "date": "2024-05-07 23:00:00 +0800",
+    "content": "TestFlight에 올리면 귀찮은 일   TestFlight를 올리면 위와 같이 수출 규정 준수 정보(Export Compliance Information)이 뜬다.  이 경우에는 TestFlight에서 맨 아래를 누르고 Save를 클릭하면 됩니다.   하지만..!   깔끔한 해결 방법 Project -&amp;gt; TARGETS -&amp;gt; Info 로 ..."
+  },
+  {
+    "title": "[iOS] UIDatePicker 사용하기",
+    "url": "/posts/ios-uidatepicker/",
+    "categories": "iOS",
+    "tags": "Swift, iOS, UIDatePicker",
+    "date": "2024-05-06 23:00:00 +0800",
+    "content": "UIDatePicker를 사용할 일이 있어서 블로그엔 포스팅한 적이 없어서 내용 정리 해봤습니다!  UIDatePickerStyle @available(iOS 13.4, *) public enum UIDatePickerStyle : Int, @unchecked Sendable {           /// Automatically pick the bes..."
+  },
+  {
+    "title": "[iOS] try increasing the minimum deployment target 에러 해결법",
+    "url": "/posts/ios-minimum-target-error/",
+    "categories": "iOS",
+    "tags": "Swift, Xcode15, iOS",
+    "date": "2024-05-05 23:00:00 +0800",
+    "content": "FSCalendar의 예시 파일을 실행하니 아래와 같은 에러를 마주하게 되었습니다.  에러 메시지 SDK does not contain &#39;libarclite&#39; at the path &#39;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/liba..."
+  },
+  {
+    "title": "[Linux] 서버 계정 추가 및 root 권한 설정하기 (초간단)",
+    "url": "/posts/linux-adduser/",
+    "categories": "Linux",
+    "tags": "Linux",
+    "date": "2024-05-05 03:00:00 +0800",
+    "content": "일반적으로 서버를 aws나 호스팅 업체를 통해 구축하게 되면 ubuntu(우분투 사용하면)거나 root 계정을 부여받게 됩니다.  그래서 오늘은 서버 관리자가 직접 계정을 생성해서 루트 권한을 부여하는 것까지 알아보겠습니다.  서버 계정 추가하기 adduser 사용자계정명  서버에 접속하고나서 위에처럼 간단한 명령어를 통해 사용자 계정을 추가할 수 있..."
+  },
+  {
+    "title": "[Frontend] cdn.jsdelivr.net SSL 에러 사태",
+    "url": "/posts/cdn-jsdelivr-net-error/",
+    "categories": "Javascript",
+    "tags": "Frontend, Javascript, jsdelivr",
+    "date": "2024-05-04 01:30:00 +0800",
+    "content": "에러 확인 2024년 5월 2일 오전 10시(추정시간)에 발생한 의문의 접속 장애로 인해 고객사 측에서 문의가 왔었다.    그래서 에러에 대한 부분 확인해 보니 hls.js@latest 에서 에러가 발생하고 있었다(?)    해당 cdn 주소(https://cdn.jsdelivr.net/npm/hls.js@latest)에 접속해 보니  Your co..."
+  },
+  {
+    "title": "[iOS] SDK does not contain 'libarclite' at the path 에러 해결법",
+    "url": "/posts/cocoapods-errror-libarclite/",
+    "categories": "iOS",
+    "tags": "Xcode, iOS, Cocoapods",
+    "date": "2024-05-02 03:00:00 +0800",
+    "content": "에러 코코아 팟을 이용해서 Podfile에 라이브러리를 추가하고 프로젝트를 실행 했을 때 다음과 같은 에러가 뜰 때 해결법을 공유하겠습니다!  clang: error: SDK does not contain &#39;libarclite&#39; at the path &#39;/Applications/Xcode.app/Contents/Developer/Toolchains/Xc..."
+  },
+  {
+    "title": "[Xcode] Console 로그를 볼 수 없을 때",
+    "url": "/posts/xcode-console-not-showing/",
+    "categories": "iOS",
+    "tags": "Xcode, iOS",
+    "date": "2024-04-30 03:00:00 +0800",
+    "content": "에러 갑자기 Xcode를 키고나서 콘솔 창이 안보여서 “Show the debug area”의 버튼을 눌러서 보여지게 할려고 했는데, 그마저도 Xcode 버그 때문에 보여지지 않아서 방법을 찾아봤습니다.  해결법 Command + Shift + Y 를 눌러서 보여주게 합니다!  관련링크 Can’t see console log"
+  },
+  {
+    "title": "[iOS] Sandbox:rsync.samba 에러 해결법",
+    "url": "/posts/ios-sandbox-rsync-error/",
+    "categories": "iOS",
+    "tags": "Swift, RxSwift, Xcode15, iOS",
+    "date": "2024-04-28 21:00:00 +0800",
+    "content": "에러 메시지     error: Sandbox: rsync.samba(5159) deny(1) file-write-create /Users/janghyowon/Library/Developer/Xcode/DerivedData   Xcode 15.0.1 기준으로 빌드하니까 위와 같은 에러가 발생했었습니다.  우선 에러를 해결하고 싶어하셔서 들어오셨을테니 ..."
+  },
+  {
+    "title": "[React.js] 알면 유용한 Hooks",
+    "url": "/posts/react-hooks/",
+    "categories": "React.js",
+    "tags": "Frontend, React.js",
+    "date": "2024-04-28 03:00:00 +0800",
+    "content": "React Hook React Hook은 React 16.8 버전에서 도입된 새로운 기능입니다. 관련 링크 : https://ko.legacy.reactjs.org/blog/2019/02/06/react-v16.8.0.html  React Hook은 함수형 컴포넌트에서 클래스 컴포넌트의 여러 기능들을 사용할 수 있게해서 상태관리나 생명주기 관리 등을 ..."
+  },
+  {
+    "title": "[iOS] RxSwift 사용하기(5) - Schedulers",
+    "url": "/posts/ios-RxSwift-Schedulers/",
+    "categories": "iOS",
+    "tags": "Swift, RxSwift, Schedulers, iOS",
+    "date": "2024-04-27 03:00:00 +0800",
+    "content": "Scheduler Scheduler는 특정 코드를 실행할 때 사용할 스레드 또는 큐를 결정하는 역할을 합니다.  RxSwift에서 Scheduler를 사용함으로서 동시성을 쉽게 처리할 수 있습니다.  MainScheduler 메인 쓰레드에서의 실행을 보장합니다.(UI 업데이트 사용에 적절해요)  Observable.just(&quot;Hello, RxSwift..."
+  },
+  {
+    "title": "[iOS] RxSwift 사용하기(4) - Operators",
+    "url": "/posts/ios-RxSwift-Operators/",
+    "categories": "iOS",
+    "tags": "Swift, RxSwift, Operators, iOS",
+    "date": "2024-04-26 03:00:00 +0800",
+    "content": "Operator 사용하기 RxMarbles 사이트에서 Rx Observables에 대한 학습용 다이어그램을 제공하고 있습니다.  직접 코딩하기 귀찮거나 간단히 확인하고 싶을 땐 위 사이트를 통해 확인하는 게 좋습니다!  다만, 2021년 10월 27일 기준으로 수정된 내용이 없으므로 일부 메서드들은 없을 수 있습니다.(예: amb)  RxSwift에서..."
+  },
+  {
+    "title": "[iOS] RxSwift 사용하기(3) - Subject",
+    "url": "/posts/ios-RxSwift-Subject/",
+    "categories": "iOS",
+    "tags": "Swift, RxSwift, Subject, iOS",
+    "date": "2024-04-24 03:00:00 +0800",
+    "content": "Subject 란? Subject는 이벤트를 받아서 구독자에게 전달할 수 있으며 직접 스트림을 생성할 수 있습니다.  한 마디로 구독자들은 Subject를 구독할 수 있으며, 특정 작업이나 동작이 발생 했을 때 Subject로 전달하고, 이를 구독한 구독자들(Observer들)에게 방출됩니다.  Subject의 종류    PublishSubject :..."
+  },
+  {
+    "title": "[iOS] RxSwift 사용하기(2) - Observable",
+    "url": "/posts/ios-RxSwift-Observable/",
+    "categories": "iOS",
+    "tags": "Swift, RxSwift, Observable, iOS",
+    "date": "2024-04-23 03:00:00 +0800",
+    "content": "Observable 이란? Observable은 이벤트를 방출하는 스트림입니다.  구독자(Observer)들이 구독(Subscribe)을 하면 새로운 값이 방출될 때마다 알림을 받아서 이벤트를 처리할 수 있습니다.     Observer 란 이벤트 스트림을 구독하는데 사용합니다. 데이터의 변화를 감지하고 이에 대한 작업을 수행할 수 있습니다.    각..."
+  },
+  {
+    "title": "[iOS] RxSwift 사용하기(1)",
+    "url": "/posts/ios-RxSwift/",
+    "categories": "iOS",
+    "tags": "Swift, RxSwift, iOS",
+    "date": "2024-04-22 03:00:00 +0800",
+    "content": "RxSwift 란?    RxSwift is as compositional as the asynchronous work it drives. The core unit is RxSwift itself, while other dependencies can be added for UI Work, testing, and more.   RxSwift는 비동기 작..."
+  },
+  {
+    "title": "[CS] 네이티브앱 vs 하이브리드앱 vs 웹앱",
+    "url": "/posts/native-hybrid-web-app/",
+    "categories": "CS",
+    "tags": "CS, Android, iOS, Frontend",
+    "date": "2024-04-21 03:00:00 +0800",
+    "content": "네이티브앱, 하이브리드앱, 웹앱에 대한 개념을 구체적으로 설명하기 위해 포스팅 했습니다.  네이티브앱(Native App) Android는 주로 Java와 Kotlin 언어로 개발되며, iOS는 Objective-C와 Swift를 사용하여 개발된 특정 플랫폼용 운영체제입니다.  다른 방식(하이브리드, 웹)에 비해 성능이 뛰어난 편이며 UI 만드는 것에..."
+  },
+  {
+    "title": "[Swift] 연관 타입(associatedtype) 란?",
+    "url": "/posts/swift-associatedtype/",
+    "categories": "iOS",
+    "tags": "Swift",
+    "date": "2024-04-19 03:00:00 +0800",
+    "content": "Swift 5.6 버전에서 associatedtype 이라는 연관타입이 생겼습니다. https://www.hackingwithswift.com/example-code/language/what-is-a-protocol-associated-type   In essence, they mark holes in protocols that must be fill..."
+  },
+  {
+    "title": "[React.js] props 란?",
+    "url": "/posts/react-props/",
+    "categories": "React.js",
+    "tags": "Frontend, React.js",
+    "date": "2024-04-17 03:00:00 +0800",
+    "content": "props는 properties의 줄임말로, 부모 컴포넌트에서 자식 컴포넌트로 데이터를 전달할 때 사용합니다. 각 컴포넌트는 받은 props를 사용하여 렌더링하거나 다른 자식 컴포넌트에게 전달할 수 있습니다.  Props Drilling 한 컴포넌트에서 시작하여 여러 단계의 중첩된 컴포넌트를 거쳐 props를 전달하는 과정  Props Drilling..."
+  },
+  {
+    "title": "[iOS] App Store connect access for is required. add an account in accounts settings 에러 해결",
+    "url": "/posts/ios-upload-error/",
+    "categories": "iOS",
+    "tags": "iOS",
+    "date": "2024-04-16 03:00:00 +0800",
+    "content": "App Store connect access for is required. add an account in accounts settings  앱을 배포하려다가 에러를 발견해서 해결법을 알아보니… 간단했었다.  해결법 : Xcode 재시작(restart)  위 해결법으로도 되지 않는다면 Xcode에 연결된 계정을 삭제 했다가 다시 시도하면 될 것 같다...."
+  },
+  {
+    "title": "[iOS] HealthKit을 사용해 보자!",
+    "url": "/posts/ios-healthkit/",
+    "categories": "iOS",
+    "tags": "iOS, Swift, HealthKit",
+    "date": "2024-04-15 03:00:00 +0800",
+    "content": "요즘 코로나19 팬데믹 시대가 끝을 보이면서 다시 건강과 관련된 피트니스 앱을 통해 마이데이터 앱들이 많이 출시되고 있습니다. 그래서 HealthKit도 점차 많이 사용되고 있어서 HealthKit 프레임워크도 알아보겠다는 마음으로 포스팅 시작합니다.  프로젝트 설정 HealthKit 추가   Project Targets -&amp;gt; Signing &amp;a..."
+  },
+  {
+    "title": "[iOS] Bounds 와 Frame 의 차이점",
+    "url": "/posts/ios-bounds-frame/",
+    "categories": "iOS",
+    "tags": "iOS, Swift",
+    "date": "2024-04-14 03:00:00 +0800",
+    "content": "요약 : bounds는 자기 자신 기준, frame은 상위(부모)뷰 기준   Bounds 와 Frame 의 차이점   Apple Developer Documnet Frame    The frame rectangle, which describes the view’s location and size in its superview’s coordinate s..."
+  },
+  {
+    "title": "[CS] HTTP Only Cookie 사용하기",
+    "url": "/posts/httponly/",
+    "categories": "CS",
+    "tags": "Frontend, Backend, CS",
+    "date": "2024-04-12 03:00:00 +0800",
+    "content": "HttpOnly를 사용하면, XSS 공격을 예방할 수 있습니다.   우리가 인터넷을 사용하다 보면 HTTP 및 HTTPS 통신을 자주 하게 됩니다. 그러다 보면 로그인이나 상품을 구매할 수도 있고 다양한 활동들을 하게 되는데, 이때 사용되는 것이 쿠키입니다.  쿠키(Cookie) 쿠키(Cookie)는 세션 및 기타 정보를 관리하기 위해 사용합니다. 이..."
+  },
+  {
+    "title": "[Javascript] var, let, const 차이점",
+    "url": "/posts/var-let-const/",
+    "categories": "Javascript",
+    "tags": "Javascript, Frontend",
+    "date": "2024-04-11 03:00:00 +0800",
+    "content": "var ES5(2009)까지는 var는 변수 선언하는 유일한 방법이었습니다.  과거에는 절대적으로 사용하고 있었으며 호이스팅 때문에 예기치 않은 버그를 유발하곤 했었습니다.  그래서 ES6(ES2015) 이후부터는 let, const 더 많이 사용합니다.(굳이 var를 사용할 이유가 없어졌기 때문에)  특징    사용 가능한 범위 : 전역 혹은 함수 ..."
+  },
+  {
+    "title": "[Spring Boot] 스프링부트 프로젝트 생성 ",
+    "url": "/posts/start-spring-boot/",
+    "categories": "Spring boot",
+    "tags": "Java, Spring Boot, Backend",
+    "date": "2024-04-10 03:00:00 +0800",
+    "content": "start.spring.io에서 프로젝트 생성     Project : 사용할 빌드 자동화 도구   Language : 사용할 언어   Spring Boot : 스프링부트 버전   Group : 일반적으로 프로젝트의 도메인 이름을 거꾸로 써서 사용     예시 : jacksonjang.io 라면, io.jacksonjang           Artif..."
+  },
+  {
+    "title": "[Spring Boot] 스프링부트 2.x 이제 퇴물이다!",
+    "url": "/posts/spring-boot-support/",
+    "categories": "Spring Boot",
+    "tags": "Java, Tomcat, Gradle, Spring Boot, Backend",
+    "date": "2024-04-09 03:00:00 +0800",
+    "content": "스프링부트 2.x 이제 퇴물이다!   요약 다음과 같은 스펙을 사용하자    JDK 17 이상   Tomcat 10.x 이상   Gradle 7.5 이상   시작 안녕하세요.  다소 제목이 자극적이게 느껴질 수도 있겠지만, 시대가 빠르게 변화하면서 스프링부트도 빠르게 변화하고 있습니다.   보통 일반적인 경우로 스프링부트 2.7 버전을 많이 사용 했으..."
+  },
+  {
+    "title": "[CS] MVC vs MVVM 패턴",
+    "url": "/posts/ios-mvc-mvvm/",
+    "categories": "CS",
+    "tags": "CS, iOS, Swift, Architecture",
+    "date": "2024-04-07 22:00:00 +0800",
+    "content": "iOS 기준으로 Swift 언어를 사용해서 간단히 설명하겠습니다.   개요 제가 개발을 시작했었을 때, 처음 배웠던 아키텍처 패턴으로 MVC를 배웠었습니다.  아키텍처 패턴 중에서 제일 유명한 패턴으로 소프트웨어 개발에서 사용되고 있습니다.  하지만, 모바일 OS에서는 MVC를 대신해서 MVVM이 대중적으로 자리를 잡았습니다.  그렇지만 우리가 이러한..."
+  },
+  {
+    "title": "[Linux] sudo: /usr/bin/sudo must be owned by uid 0 and have the setuid bit set 에러 해결법",
+    "url": "/posts/sudo-chmod-error/",
+    "categories": "Linux",
+    "tags": "Linux, Ubuntu",
+    "date": "2024-04-06 20:00:00 +0800",
+    "content": "Ubuntu 20 버전을 사용하고 있습니다.   난 오늘 실수로 sudo chmod 777 /usr/bin/ 을 통해 sudo 권한을 강제로 바꿔버려서 제목과 같은 에러를 겪어 버렸습니다.. 매우매우 치명적인 실수라 처음부터 다시 설치할까 싶었지만, 이 에러를 해결할 수 있을까 라는 생각이 들어서 직접 해결해 보기로 했습니다.  방법을 찾아보니 Ubu..."
+  },
+  {
+    "title": "[Linux] openssh-server 란?",
+    "url": "/posts/openssh-server/",
+    "categories": "Linux",
+    "tags": "Linux, Ubuntu",
+    "date": "2024-04-06 03:00:00 +0800",
+    "content": "Ubuntu 20 버전 기준으로 작성되었습니다.   요즘 회사 홈페이지 제작을 하면서 서버 세팅이 필요한 일이 생겼다. 그래서 오늘 회사에서 데스크톱을 이용해서 공용으로 사용할 서버 컴퓨터를 사용하기 위해 서버 구축을 진행하게 되었다.  AWS나 NHN Cloud를 사용해도 되었지만, 내부 개발 사이트용으로만 사용할 것이라 이런 방식으로 진행했습니다...."
+  },
+  {
+    "title": "[SQL] 프로시저 란?",
+    "url": "/posts/sql-procedure/",
+    "categories": "MySQL",
+    "tags": "SQL, MySQL, Procedure",
+    "date": "2024-04-05 03:00:00 +0800",
+    "content": "MySQL 8 버전 기준으로 작성되었습니다.   Procedure 란?    어떤 업무를 수행하기 위한 절차를 의미한다.   위에처럼 요약할 수 있지만 설명이 부진하다고 생각해서 추가적으로 설명하겠습니다.  데이터베이스에서 실행할 수 있는 하나 이상의 SQL 문을 모아 놓은 것이며, 복잡한 작업을 하나의 블록으로 캡슐화한 것을 의미합니다.   즉, 프..."
+  },
+  {
+    "title": "[iOS] ITMS-91053: Missing api 해결법 (2024년 5월 1일부터 시행)",
+    "url": "/posts/required-reason-api/",
+    "categories": "iOS",
+    "tags": "iOS, Privacy, Manifest",
+    "date": "2024-04-04 03:00:00 +0800",
+    "content": "매우 귀찮은 작업임이 분명하다     앱을 심사 받으려고 하니까, ITMS-91053: Missing api declaration의 장문 메일이 왔었습니다.  애플의 문서 내용 중 일부 If you upload an app to App Store Connect that uses required reason API without describing th..."
+  },
+  {
+    "title": "[iOS] Localization 사용해서 글로벌 앱 만들기",
+    "url": "/posts/ios-localization/",
+    "categories": "iOS",
+    "tags": "iOS, Swift, Localization",
+    "date": "2024-04-03 03:00:00 +0800",
+    "content": "Xcode 15 이상에서는 문자열 카탈로그가 문자열을 현지화하는 데 권장되는 방법입니다. (애플 문서 내용 중 일부)   Localization 기능은 글로벌 앱을 만들기 위해서 필수적으로 존재해야 하는 중요한 기능입니다.  오늘은 Xcode 15 이상에서 사용할 수 있는 stringsdict 와 이전부터 전통적으로 사용해왔던 strings의 사용법에..."
+  },
+  {
+    "title": "[iOS] SceneDelegate 란?",
+    "url": "/posts/sceneDelegate/",
+    "categories": "iOS",
+    "tags": "iOS, Swift",
+    "date": "2024-04-02 03:00:00 +0800",
+    "content": "iOS 12에서의 AppDelegate 기존 iOS 12에서는 아래와 같이 AppDelegate에서 Process Lifecycle과 UI Lifecycle을 모두 담당 했습니다. 즉, 앱의 시작부터 종료까지 모든 생명주기를 담당 했는데… iOS 13에서는 AppDelegate도 분업이라는 것을 하기 시작합니다.    AppDelegate에 대한 설명..."
+  },
+  {
+    "title": "[Vue.js] Vue.js 기초(4) - watch, nextTick",
+    "url": "/posts/vue-js-watch-nextTick/",
+    "categories": "Vue.js",
+    "tags": "Frontend, Vue.js",
+    "date": "2024-04-01 03:00:00 +0800",
+    "content": "watch    데이터의 변화를 감지하고, 그에 반응하여 특정 로직을 실행할 때 사용됩니다.   newValue는 변경되는 값, oldValue는 변경전 값이 호출됩니다.  $nextTick $nextTick은 데이터 변경에 따른 DOM의 업데이트가 완료된 바로 그 시점에 원하는 코드를 안전하게 실행할 수 있습니다.  예시 코드 new Vue({   ..."
+  },
+  {
+    "title": "[iOS] layoutIfNeeded() 알아보기",
+    "url": "/posts/layoutIfNeeded/",
+    "categories": "iOS",
+    "tags": "iOS, Swift",
+    "date": "2024-03-31 21:00:00 +0800",
+    "content": "layoutIfNeeded() Lays out the subviews immediately, if layout updates are pending.  해석하자면, 레이아웃 업데이트가 대기중이라면, 서브뷰를 즉시 배치합니다.  layoutIfNeeded()는 시스템이 자동으로 레이아웃을 업데이트하는 다음 주기를 기다리지 않고, 호출된 시점에 레이아웃을 ..."
+  },
+  {
+    "title": "[iOS] setNeedsLayout()와 setNeedsDisplay()의 차이",
+    "url": "/posts/setNeedsLayout-setNeedsDisplay/",
+    "categories": "iOS",
+    "tags": "iOS, Swift",
+    "date": "2024-03-30 11:00:00 +0800",
+    "content": "setNeedsLayout() Invalidates the current layout of the receiver and triggers a layout update during the next update cycle.  위의 말은 번역하자면, 현재 레이아웃을 무효화하고 다음 업데이트 사이클에 레이아웃을 업데이트 한다는 것을 의미합니다.  setNee..."
+  },
+  {
+    "title": "[Vue.js] Vue.js 기초(3) - 지시자",
+    "url": "/posts/vue-directives/",
+    "categories": "Vue.js",
+    "tags": "Frontend, Vue.js",
+    "date": "2024-03-30 02:00:00 +0800",
+    "content": "Vue.js의 문서를 기반으로 작성했습니다.  v-text Element의 text를 업데이트 하는데 사용됩니다.  &amp;lt;p v-text=&quot;msg&quot;&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;{{ msg }}&amp;lt;/p&amp;gt;   v-html Element의 innerHTML 을 업데이트합니다.     XSS 공격을 당할 수 있기 때문에 신뢰할 수 있..."
+  },
+  {
+    "title": "[iOS] AppDelegate 란?",
+    "url": "/posts/appdelegate/",
+    "categories": "iOS",
+    "tags": "iOS, Swift",
+    "date": "2024-03-28 13:00:00 +0800",
+    "content": "AppDelegate 역할 AppDelegate는 단어 그대로 App + Delegate로 앱이 해야할 일을 대신 구현한다는 의미이며, 앱의 시작부터 종료까지 다양한 라이프 사이클을 관리하고 있습니다.  그럼 프로젝트를 생성하면 기본적으로 생성되는 메서드들을 하나씩 알아보겠습니다.  application(_:didFinishLaunchingWithOp..."
+  },
+  {
+    "title": "[Vue.js] Vue.js 기초(2) - $el",
+    "url": "/posts/vue-js-el/",
+    "categories": "Vue.js",
+    "tags": "Frontend, Vue.js",
+    "date": "2024-03-28 03:00:00 +0800",
+    "content": "$el 옵션은 new 를 통한 Vue 인스턴스 생성시에만 유효하며, DOM 요소를 참조하는데 사용합니다.   $el 에 대한 기본 설명 $el은 Vue 인스턴스가 마운트된 DOM 요소를 참조하는 Vue 인스턴스의 속성입니다. 발음은 &quot;엘&quot;($el)이라고 부르며, “엘리먼트”의 줄임말입니다.   즉, mounted가 호출된 이후부터 사용 가능합니다.  ..."
+  },
+  {
+    "title": "[iOS] UIView 라이프사이클",
+    "url": "/posts/uiview-lifecycle/",
+    "categories": "iOS",
+    "tags": "iOS, Swift, UIView",
+    "date": "2024-03-27 04:00:00 +0800",
+    "content": "UIKit에 정의된 UIView 살펴보기  @available(iOS 2.0, *) @MainActor open class UIView : UIResponder, NSCoding, UIAppearance, UIAppearanceContainer, UIDynamicItem, UITraitEnvironment, UICoordinateSpace, UIFoc..."
+  },
+  {
+    "title": "[Vue.js] Vue.js 기초(1) - 라이프사이클",
+    "url": "/posts/vue-js-lifecycle/",
+    "categories": "Vue.js",
+    "tags": "Frontend, Vue.js",
+    "date": "2024-03-26 03:00:00 +0800",
+    "content": "Vue.js는 데이터의 변화를 자동으로 감지하고 UI를 업데이트할 수 있어, 웹 개발의 복잡성을 크게 줄일 수 있는 직관적이고 강력한 프레임워크이다.   라이프 사이클    컴포넌트나 인스턴스가 생성되고 업데이트되며 소멸되는 전체 과정을 말합니다.   각 단계에서 특정 작업을 수행하기 위해 라이프사이클 훅을 사용할 수 있습니다. 예를 들어, 컴포넌트가..."
+  },
+  {
+    "title": "[CS] 싱글 페이지 어플리케이션(SPA) 란?",
+    "url": "/posts/spa/",
+    "categories": "CS",
+    "tags": "CS, SPA",
+    "date": "2024-03-25 11:00:00 +0800",
+    "content": "싱글 페이지 어플리케이션 (SPA)    SPA는 웹 어플리케이션의 구조나 아키텍처를 설명하는 용어로, 서버로 부터 새로운 페이지를 불러오지 않고 현재의 페이지를 동적으로 다시 작성함으로써 사용자와 소통하는 웹 애플리케이션이나 웹사이트를 말합니다.   SPA를 사용하면 페이지를 새로고침 할 필요없이 필요한 데이터가 있다면 서버로 부터 비동기로 데이터를..."
+  },
+  {
+    "title": "[iOS] AVFoundation을 이용해서 바코드 인식 앱 만들기",
+    "url": "/posts/avfoundation/",
+    "categories": "iOS",
+    "tags": "iOS, Swift, AVFoundation, Barcode",
+    "date": "2024-03-24 22:00:00 +0800",
+    "content": "AVFoundation 이란?    멀티미디어(카메라, 오디오 재생 및 레코드, 이미지 생성 등)를 처리하기 위한 프레임워크 입니다.   만들게 될 바코드 앱 원리 비디오 촬영 기능을 통해 디바이스의 화면에 출력 시키고, 카메라를 통해 바코드를 입력 받아서 바코드의 값을 꺼내쓸 예정입니다.  사용되는 클래스 설명         AVCaptureVide..."
+  },
+  {
+    "title": "[iOS] UIViewController 라이프사이클",
+    "url": "/posts/uiviewcontroller-lifecycle/",
+    "categories": "iOS",
+    "tags": "iOS, Swift",
+    "date": "2024-03-23 23:00:00 +0800",
+    "content": "iOS 개발에서 중요한 것은 문법도 중요하지만, 그 전에 애플리케이션이 어떻게 동작하고 관리되는지 알아야 효율적인 앱을 만들 수 있다고 생각해서 정리했습니다.  UIKit에 정의된 UIViewController 살펴보기  @available(iOS 2.0, *) @MainActor open class UIViewController : UIRespond..."
+  },
+  {
+    "title": "[CS] 알고리즘이란?",
+    "url": "/posts/algorithm/",
+    "categories": "CS",
+    "tags": "CS, Algorithm",
+    "date": "2024-03-23 21:00:00 +0800",
+    "content": "방통대에서 알고리즘 공부를 더 효율적으로 하기 위해 나름 정리한 정보를 메모할겸 포스팅 하게 되었습니다!  자, 그럼 알고리즘에 대해 알아볼까요?     알고리즘은 주어진 문제를 해결하거나 함수를 계산하기 위해 따라야 할 명령어들을 단계적으로 나열한 것이다.   알고리즘의 특징    입력 : 알고리즘은 0개 이상의 입력을 받을 수 있다. 이 입력은 알..."
+  },
+  {
+    "title": "[iOS] Objective-C, Swift 서로 사용하기",
+    "url": "/posts/using-swift-in-objc/",
+    "categories": "iOS",
+    "tags": "iOS, Swift, Objective-C",
+    "date": "2024-03-23 03:30:00 +0800",
+    "content": "실무에서 모든 프로젝트가 Swift 언어로 되어 있으면 얼마나 편했을까? 라는 생각이 들 때가 있다.  왜냐하면, 많은 곳에서 Objective-C를 사용하는 프로젝트가 있기 때문이다!  (Swift에 관심 없는 Objc 개발자도 있기 때문)  만약 Swift는 잘 다루고 Objective-C는 잘 다루지 못하고 이해만 가능한 상황이라면, Swift로..."
+  },
+  {
+    "title": "[iOS] Realm 을 사용해 보자!",
+    "url": "/posts/realm/",
+    "categories": "iOS",
+    "tags": "iOS, Swift, Realm",
+    "date": "2024-03-22 03:00:00 +0800",
+    "content": "(종결) 그럼 Realm 은 어떻게 읽는가?? 공식 사이트에 따르면, Realm은 “렘”으로 발음합니다.      iOS 톡방 중 Realm에 대한 발음에 대한 논란 사진.jpg   Realm 이란?    Realm 은 모바일 데이터베이스 라이브러리로 Android, iOS, Tablets, Wearables 에서도 사용 가능한 라이브러리 입니다.  ..."
+  },
+  {
+    "title": "[CS] 배스천 호스트 란?",
+    "url": "/posts/bastion-host/",
+    "categories": "CS",
+    "tags": "CS, BastionHost, Server",
+    "date": "2024-03-21 03:00:00 +0800",
+    "content": "요약 : 배스천 호스트(Bastion Host)란 침입 차단 소프트웨어가 설치되어 내부와 외부 네트워크 사이에서 일종의 게이트 역할을 수행하는 호스트입니다.   Bastion 본래 뜻   출처 : 네이버  Bastion은 수호자, 보루, 요새와 같은 뜻을 가지고 있습니다. 이는 네트워크에서도 비슷한 역할을 수행합니다.      각 나라별로 다음과 같이..."
+  },
+  {
+    "title": "[iOS] Keychain으로 저장해보자! (with. Security)",
+    "url": "/posts/ios-keychain/",
+    "categories": "iOS",
+    "tags": "iOS, Swift, Security, Keychain",
+    "date": "2024-03-20 03:30:00 +0800",
+    "content": "Keychain에 대해서 이해하는 것이 중요!   Keychain 정의 Keychain은 비밀번호나 인증 토큰과 같은 민감한 정보를 안전하게 저장할 수 있게 도와주는 Security 프레임워크의 기능입니다.  Apple Document : https://developer.apple.com/documentation/security/keychain_ser..."
+  },
+  {
+    "title": "[CS] 프레임워크 vs 라이브러리",
+    "url": "/posts/framework-vs-library/",
+    "categories": "CS",
+    "tags": "CS, Framework, Library",
+    "date": "2024-03-20 03:00:00 +0800",
+    "content": "요약하면 프레임워크와 라이브러리의 차이는 “제어”를 “누가” 하느냐 입니다.   프레임워크(Framework) 프레임워크가 애플리케이션의 전반적인 흐름을 제어하고 프레임워크가 제공하는 규칙이나 인터페이스를 따라야 한다.  라이브러리(Library) 개발자가 애플리케이션의 전반적인 흐름을 제어하고, 필요에 따라 기능을 호출하여 필요한 작업을 수행할 수 ..."
+  },
+  {
+    "title": "[iOS] UserDefaults 사용하기",
+    "url": "/posts/iOS-UserDefaults/",
+    "categories": "iOS",
+    "tags": "iOS, Swift, UserDefaults",
+    "date": "2024-03-19 03:09:00 +0800",
+    "content": "UserDefaults에 대해 자세히 알아보자!   UserDefaults는 실무에서도 자주 사용하는 저장 방식이라 필수적으로 알아야 할 기본적인 내용이라 정리할 기회가 생겨서 정리하게 되었습니다.  Apple에서 설명하는 UserDefaults https://developer.apple.com/documentation/foundation/userde..."
+  },
+  {
+    "title": "DISQUS 사용하기",
+    "url": "/posts/integration-disqus/",
+    "categories": "Etc",
+    "tags": "DISQUS",
+    "date": "2024-03-18 02:26:11 +0800",
+    "content": "DISQUS 가입하기           DISQUS 사이트에 접속해서 Get Start를 눌러줍니다.  사이트 주소 : https://disqus.com/           DISQUS 에 가입합니다.             가입 후 로그인을 하게 되면, 아래와 같은 화면이 나옵니다.   여기서 저는 github.io 에 넣을 예정이라, I Want t..."
+  },
+  {
+    "title": "github.io 사이트 만들기(With. Jekyll)",
+    "url": "/posts/making-github-io/",
+    "categories": "Etc",
+    "tags": "github.io, git, Jekyll",
+    "date": "2024-03-18 01:00:00 +0800",
+    "content": "지킬 테마를 이용하면 만들기 쉬워요!   준비물    git 에 대한 지식   Jekyll Theme 1줄 요약 정적 사이트의 디자인이나 레이아웃을 템플릿화 시킨 테마입니다.  밑에는 다양한 지킬 테마를 볼 수 있는 사이트들 입니다.    http://jekyllthemes.org/   https://github.com/topics/jekyll-the..."
+  },
+  {
+    "title": "Hello World",
+    "url": "/posts/hello-world/",
+    "categories": "Etc",
+    "tags": "Hello world",
+    "date": "2024-03-17 06:00:00 +0800",
+    "content": "“Hello world”   테스트 제목  테스트 내용  Type is Beautiful     font 테스트     Bold Test 테스트   ㅎㅇ   코드 테스트  let test = &quot;test&quot;   —— JacksonJang 2024.03"
+  },
+  {
+    "title": "템플릿",
+    "url": "/posts/Spring_boo_@ControllerAdvice/",
+    "categories": "Etc",
+    "tags": "Etc",
+    "date": "2000-01-02 03:00:00 +0800",
+    "content": "여기에 글 작성"
+  }
+  
+]
+
