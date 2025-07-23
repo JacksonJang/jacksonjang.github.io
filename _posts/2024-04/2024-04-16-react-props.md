@@ -4,9 +4,10 @@ title:      "[React.js] props 란?"
 subtitle:   "\"React.js props\""
 date:       2024-04-16 19:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-04-16"
 catalog: true
+categories:
+    - React.js
 tags:
     - Frontend
     - React.js

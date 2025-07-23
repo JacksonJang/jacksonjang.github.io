@@ -4,9 +4,10 @@ title:      "[iOS] UIView 라이프사이클"
 subtitle:   " \"UIView LifeCycle\""
 date:       2024-03-26 20:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-03-26"
 catalog: true
+categories:
+    - iOS
 tags:
     - iOS
     - Swift

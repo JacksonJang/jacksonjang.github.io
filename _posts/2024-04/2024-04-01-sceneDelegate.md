@@ -4,9 +4,10 @@ title:      "[iOS] SceneDelegate 란?"
 subtitle:   " \"What's the SceneDelegate?\""
 date:       2024-04-01 19:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-04-01"
 catalog: true
+categories:
+    - iOS
 tags:
     - iOS
     - Swift

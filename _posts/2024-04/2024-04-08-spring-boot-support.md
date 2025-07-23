@@ -4,9 +4,10 @@ title:      "[Spring Boot] 스프링부트 2.x 이제 퇴물이다!"
 subtitle:   "\"Spring Boot doesn't support 2.x\""
 date:       2024-04-08 19:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-04-08"
 catalog: true
+categories:
+    - Spring Boot
 tags:
     - Java
     - Tomcat

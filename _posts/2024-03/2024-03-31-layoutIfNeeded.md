@@ -4,9 +4,10 @@ title:      "[iOS] layoutIfNeeded() 알아보기"
 subtitle:   " \"Learn about layoutIfNeeded()\""
 date:       2024-03-31 13:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-03-31"
 catalog: true
+categories:
+    - iOS
 tags:
     - iOS
     - Swift

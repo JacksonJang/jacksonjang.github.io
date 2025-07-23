@@ -4,9 +4,10 @@ title:      "Hello World"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2024-03-16 22:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-03-16"
 catalog: true
+categories:
+    - Etc
 tags:
     - Hello world
 ---

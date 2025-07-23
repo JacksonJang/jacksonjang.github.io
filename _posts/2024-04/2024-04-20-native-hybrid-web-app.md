@@ -4,9 +4,10 @@ title:      "[CS] 네이티브앱 vs 하이브리드앱 vs 웹앱"
 subtitle:   "\"Difference between Native app, Hybrid app, Web app\""
 date:       2024-04-20 19:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-04-20"
 catalog: true
+categories:
+    - CS
 tags:
     - CS
     - Android

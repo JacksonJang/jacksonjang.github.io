@@ -4,9 +4,10 @@ title:      "[CS] MVC vs MVVM 패턴"
 subtitle:   " \"What difference between MVC and MVVM\""
 date:       2024-04-07 14:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-04-07"
 catalog: true
+categories:
+    - CS
 tags:
     - CS
     - iOS

@@ -4,9 +4,10 @@ title:      "[iOS] RxSwift 사용하기(2) - Observable"
 subtitle:   "\"Let's use RxSwift - Observable\""
 date:       2024-04-22 19:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-04-22"
 catalog: true
+categories:
+    - iOS
 tags:
     - Swift
     - RxSwift

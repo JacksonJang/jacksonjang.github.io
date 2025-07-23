@@ -4,9 +4,10 @@ title:      "[Vue.js] Vue.js 기초(4) - watch, nextTick"
 subtitle:   " \"Vue.js watch, nextTick\""
 date:       2024-03-31 19:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-03-31"
 catalog: true
+categories:
+    - Vue.js
 tags:
     - Frontend
     - Vue.js

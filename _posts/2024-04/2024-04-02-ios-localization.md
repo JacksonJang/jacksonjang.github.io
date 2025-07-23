@@ -4,9 +4,10 @@ title:      "[iOS] Localization 사용해서 글로벌 앱 만들기"
 subtitle:   " \"Using Localization to make a global app\""
 date:       2024-04-02 19:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-04-02"
 catalog: true
+categories:
+    - iOS
 tags:
     - iOS
     - Swift

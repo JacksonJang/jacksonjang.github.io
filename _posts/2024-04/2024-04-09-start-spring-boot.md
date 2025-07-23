@@ -4,9 +4,10 @@ title:      "[Spring Boot] 스프링부트 프로젝트 생성 "
 subtitle:   "\"Create Spring Boot Project\""
 date:       2024-04-09 19:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-04-09"
 catalog: true
+categories:
+    - Spring boot
 tags:
     - Java
     - Spring Boot

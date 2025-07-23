@@ -4,9 +4,10 @@ title:      "[iOS] RxSwift 사용하기(5) - Schedulers"
 subtitle:   "\"Let's use RxSwift - Schedulers\""
 date:       2024-04-26 19:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-04-26"
 catalog: true
+categories:
+    - iOS
 tags:
     - Swift
     - RxSwift

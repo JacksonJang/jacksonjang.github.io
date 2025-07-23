@@ -4,9 +4,10 @@ title:      "[iOS] UserDefaults 사용하기"
 subtitle:   " \"Using UserDefaults\""
 date:       2024-03-18 19:09:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-03-18"
 catalog: true
+categories:
+    - iOS
 tags:
     - iOS
     - Swift

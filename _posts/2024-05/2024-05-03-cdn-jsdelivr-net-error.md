@@ -4,9 +4,10 @@ title:      "[Frontend] cdn.jsdelivr.net SSL 에러 사태"
 subtitle:   "\"Error : cdn.jsdelivr.net SSL\""
 date:       2024-05-03 17:30:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-05-03"
 catalog: true
+categories:
+    - Javascript
 tags:
     - Frontend
     - Javascript

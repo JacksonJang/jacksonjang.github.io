@@ -4,9 +4,10 @@ title:      "[Linux] sudo: /usr/bin/sudo must be owned by uid 0 and have the set
 subtitle:   " \"How to solve sudo: /usr/bin/sudo must be owned by uid 0 and have the setuid bit set?\""
 date:       2024-04-06 12:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-04-06"
 catalog: true
+categories:
+    - Linux
 tags:
     - Linux
     - Ubuntu

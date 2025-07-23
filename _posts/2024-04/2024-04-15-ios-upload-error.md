@@ -4,9 +4,10 @@ title:      "[iOS] App Store connect access for is required. add an account in a
 subtitle:   "\"Solve App Store connect access for is required. add an account in accounts settings\""
 date:       2024-04-15 19:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-04-15"
 catalog: true
+categories:
+    - iOS
 tags:
     - iOS
 ---

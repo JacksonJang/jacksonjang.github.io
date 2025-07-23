@@ -4,9 +4,10 @@ title:      "[SQL] 프로시저 란?"
 subtitle:   " \"What's the procedure?\""
 date:       2024-04-04 19:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-04-04"
 catalog: true
+categories:
+    - MySQL
 tags:
     - SQL
     - MySQL

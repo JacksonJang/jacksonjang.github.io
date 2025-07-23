@@ -4,13 +4,13 @@ title:      "[SwiftUI] @ObservedObject vs @StateObject"
 subtitle:   "\"@ObservedObject vs @StateObject\""
 date:       2024-08-05 19:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-08-05"
 catalog: true
+categories:
+    - iOS
 tags:
     - iOS
     - SwiftUI
-    - 
 ---
 
 ## 핵심 정리

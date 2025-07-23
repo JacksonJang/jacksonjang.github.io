@@ -4,9 +4,10 @@ title:      "[Javascript] var, let, const 차이점"
 subtitle:   "\"What different var, let and const?\""
 date:       2024-04-10 19:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-04-10"
 catalog: true
+categories:
+    - Javascript
 tags:
     - Javascript
     - Frontend

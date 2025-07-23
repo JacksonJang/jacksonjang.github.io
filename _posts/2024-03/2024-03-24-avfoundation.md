@@ -4,9 +4,10 @@ title:      "[iOS] AVFoundation을 이용해서 바코드 인식 앱 만들기"
 subtitle:   " \"Using AVFoundation to make app to detect a barcode\""
 date:       2024-03-24 14:00:00
 author:     "JacksonJang"
-header-img: "assets/posts/post-bg_2024.jpg"
 post_assets: "/assets/posts/2024-03-24"
 catalog: true
+categories:
+    - iOS
 tags:
     - iOS
     - Swift
