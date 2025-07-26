@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-07-26T14:42:40+08:00</updated>
+  <updated>2025-07-26T15:43:45+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title>[SwiftUI] @ObservedObject vs @StateObject</title>
     <link href="/posts/ObservedObject-vs-StateObject/" rel="alternate" type="text/html" title="[SwiftUI] @ObservedObject vs @StateObject" />
-    <published>2024-08-06T03:00:00+08:00</published>
+    <published>2024-08-06T04:00:00+09:00</published>
   
-    <updated>2024-08-06T03:00:00+08:00</updated>
+    <updated>2024-08-06T04:00:00+09:00</updated>
   
     <id>/posts/ObservedObject-vs-StateObject/</id>
     <content type="text/html" src="/posts/ObservedObject-vs-StateObject/" />
@@ -46,9 +46,9 @@
   <entry>
     <title>[iOS] Tuist 사용하기 (1)</title>
     <link href="/posts/How-to-use-Tuist/" rel="alternate" type="text/html" title="[iOS] Tuist 사용하기 (1)" />
-    <published>2024-08-01T03:00:00+08:00</published>
+    <published>2024-08-01T04:00:00+09:00</published>
   
-    <updated>2024-08-01T03:00:00+08:00</updated>
+    <updated>2024-08-01T04:00:00+09:00</updated>
   
     <id>/posts/How-to-use-Tuist/</id>
     <content type="text/html" src="/posts/How-to-use-Tuist/" />
@@ -70,9 +70,9 @@
   <entry>
     <title>[Mac] VSCode 연속입력 키보드 이슈 해결</title>
     <link href="/posts/vscode-tip-1/" rel="alternate" type="text/html" title="[Mac] VSCode 연속입력 키보드 이슈 해결" />
-    <published>2024-05-19T09:00:00+08:00</published>
+    <published>2024-05-19T10:00:00+09:00</published>
   
-    <updated>2024-05-19T09:00:00+08:00</updated>
+    <updated>2024-05-19T10:00:00+09:00</updated>
   
     <id>/posts/vscode-tip-1/</id>
     <content type="text/html" src="/posts/vscode-tip-1/" />
@@ -94,9 +94,9 @@
   <entry>
     <title>[iOS] Core Data 사용하기 (1)</title>
     <link href="/posts/ios-core-data-1/" rel="alternate" type="text/html" title="[iOS] Core Data 사용하기 (1)" />
-    <published>2024-05-15T23:00:00+08:00</published>
+    <published>2024-05-16T00:00:00+09:00</published>
   
-    <updated>2024-05-15T23:00:00+08:00</updated>
+    <updated>2024-05-16T00:00:00+09:00</updated>
   
     <id>/posts/ios-core-data-1/</id>
     <content type="text/html" src="/posts/ios-core-data-1/" />
@@ -118,9 +118,9 @@
   <entry>
     <title>[iOS] 바텀시트 만들어보기(with. UIPanGestureRecognizer)</title>
     <link href="/posts/ios-bottom-sheet/" rel="alternate" type="text/html" title="[iOS] 바텀시트 만들어보기(with. UIPanGestureRecognizer)" />
-    <published>2024-05-11T23:00:00+08:00</published>
+    <published>2024-05-12T00:00:00+09:00</published>
   
-    <updated>2024-05-11T23:00:00+08:00</updated>
+    <updated>2024-05-12T00:00:00+09:00</updated>
   
     <id>/posts/ios-bottom-sheet/</id>
     <content type="text/html" src="/posts/ios-bottom-sheet/" />
