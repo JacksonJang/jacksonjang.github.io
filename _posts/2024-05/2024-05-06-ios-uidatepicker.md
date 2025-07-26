@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] UIDatePicker 사용하기"
 subtitle:   "\"Use UIDatePicker\""
 date:       2024-05-06 15:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-05-06"
 catalog: true
 categories:

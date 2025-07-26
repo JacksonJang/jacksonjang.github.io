@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] Keychain으로 저장해보자! (with. Security)"
 subtitle:   " \"Let's save it with Keychain! (with. Security)\""
 date:       2024-03-19 19:30:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-03-19"
 catalog: true
 categories:

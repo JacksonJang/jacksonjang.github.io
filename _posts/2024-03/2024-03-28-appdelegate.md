@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] AppDelegate 란?"
 subtitle:   " \"What's the AppDelegate?\""
 date:       2024-03-28 05:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-03-28"
 catalog: true
 categories:

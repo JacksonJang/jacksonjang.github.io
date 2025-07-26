@@ -3,7 +3,7 @@ layout:     post
 title:      "[CS] 알고리즘이란?"
 subtitle:   " \"What's the algorithm?\""
 date:       2024-03-23 13:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-03-23"
 catalog: true
 categories:

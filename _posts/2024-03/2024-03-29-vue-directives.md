@@ -3,7 +3,7 @@ layout:     post
 title:      "[Vue.js] Vue.js 기초(3) - 지시자"
 subtitle:   " \"Vue.js Directives\""
 date:       2024-03-29 18:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-03-29"
 catalog: true
 categories:

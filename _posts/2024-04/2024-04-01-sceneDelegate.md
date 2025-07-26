@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] SceneDelegate 란?"
 subtitle:   " \"What's the SceneDelegate?\""
 date:       2024-04-01 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-01"
 catalog: true
 categories:

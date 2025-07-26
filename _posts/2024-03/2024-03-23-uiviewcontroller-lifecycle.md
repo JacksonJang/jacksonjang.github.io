@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] UIViewController 라이프사이클"
 subtitle:   " \"UIViewController LifeCycle\""
 date:       2024-03-23 15:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-03-23"
 catalog: true
 categories:

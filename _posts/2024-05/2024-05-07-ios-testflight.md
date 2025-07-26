@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] TestFlight 수출 규정 준수 정보"
 subtitle:   "\"iOS Export Compliance Information\""
 date:       2024-05-07 15:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-05-07"
 catalog: true
 categories:

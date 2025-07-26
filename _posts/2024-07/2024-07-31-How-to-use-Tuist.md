@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] Tuist 사용하기 (1)"
 subtitle:   "\"How to use Tuist? (1)\""
 date:       2024-07-31 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-07-31"
 catalog: true
 categories:

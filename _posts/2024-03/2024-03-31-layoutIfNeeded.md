@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] layoutIfNeeded() 알아보기"
 subtitle:   " \"Learn about layoutIfNeeded()\""
 date:       2024-03-31 13:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-03-31"
 catalog: true
 categories:

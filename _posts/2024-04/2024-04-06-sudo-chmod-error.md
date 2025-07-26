@@ -3,7 +3,7 @@ layout:     post
 title:      "[Linux] sudo: /usr/bin/sudo must be owned by uid 0 and have the setuid bit set 에러 해결법"
 subtitle:   " \"How to solve sudo: /usr/bin/sudo must be owned by uid 0 and have the setuid bit set?\""
 date:       2024-04-06 12:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-06"
 catalog: true
 categories:

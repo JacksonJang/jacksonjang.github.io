@@ -3,7 +3,7 @@ layout:     post
 title:      "[CS] 배스천 호스트 란?"
 subtitle:   " \"What's a Bastion Host?\""
 date:       2024-03-20 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-03-20"
 catalog: true
 categories:

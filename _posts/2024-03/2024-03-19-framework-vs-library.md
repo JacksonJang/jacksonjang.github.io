@@ -3,7 +3,7 @@ layout:     post
 title:      "[CS] 프레임워크 vs 라이브러리"
 subtitle:   " \"Framework vs Library\""
 date:       2024-03-19 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-03-19"
 catalog: true
 categories:

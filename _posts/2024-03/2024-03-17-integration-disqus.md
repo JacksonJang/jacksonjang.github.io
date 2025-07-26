@@ -3,7 +3,7 @@ layout:     post
 title:      "DISQUS 사용하기"
 subtitle:   " \"Using DISQUS\""
 date:       2024-03-17 18:26:11
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-03-17"
 catalog: true
 categories:

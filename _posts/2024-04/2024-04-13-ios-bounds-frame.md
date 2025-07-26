@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] Bounds 와 Frame 의 차이점"
 subtitle:   "\"What's the difference between Bounds and Frame\""
 date:       2024-04-13 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-13"
 catalog: true
 categories:

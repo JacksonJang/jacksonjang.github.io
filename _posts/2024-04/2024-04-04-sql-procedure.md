@@ -3,7 +3,7 @@ layout:     post
 title:      "[SQL] 프로시저 란?"
 subtitle:   " \"What's the procedure?\""
 date:       2024-04-04 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-04"
 catalog: true
 categories:

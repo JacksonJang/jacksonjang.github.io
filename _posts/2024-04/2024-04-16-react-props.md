@@ -3,7 +3,7 @@ layout:     post
 title:      "[React.js] props 란?"
 subtitle:   "\"React.js props\""
 date:       2024-04-16 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-16"
 catalog: true
 categories:

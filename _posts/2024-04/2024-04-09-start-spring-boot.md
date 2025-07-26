@@ -3,11 +3,11 @@ layout:     post
 title:      "[Spring Boot] 스프링부트 프로젝트 생성 "
 subtitle:   "\"Create Spring Boot Project\""
 date:       2024-04-09 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-09"
 catalog: true
 categories:
-    - Spring boot
+    - Spring Boot
 tags:
     - Java
     - Spring Boot

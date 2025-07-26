@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] 바텀시트 만들어보기(with. UIPanGestureRecognizer)"
 subtitle:   "\"iOS Make BottomSheet(with.UIPanGestureRecognizer)\""
 date:       2024-05-11 15:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-05-11"
 catalog: true
 categories:

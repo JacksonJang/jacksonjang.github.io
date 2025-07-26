@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] Localization 사용해서 글로벌 앱 만들기"
 subtitle:   " \"Using Localization to make a global app\""
 date:       2024-04-02 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-02"
 catalog: true
 categories:

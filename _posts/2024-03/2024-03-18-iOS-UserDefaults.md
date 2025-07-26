@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] UserDefaults 사용하기"
 subtitle:   " \"Using UserDefaults\""
 date:       2024-03-18 19:09:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-03-18"
 catalog: true
 categories:

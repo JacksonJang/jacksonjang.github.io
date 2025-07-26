@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] setNeedsLayout()와 setNeedsDisplay()의 차이"
 subtitle:   " \"setNeedsLayout() vs setNeedsDisplay()\""
 date:       2024-03-30 03:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-03-30"
 catalog: true
 categories:

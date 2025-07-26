@@ -3,7 +3,7 @@ layout:     post
 title:      "Hello World"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2024-03-16 22:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-03-16"
 catalog: true
 categories:

@@ -3,7 +3,7 @@ layout:     post
 title:      "[React.js] 알면 유용한 Hooks"
 subtitle:   "\"React.js, useful to know Hooks\""
 date:       2024-04-27 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-27"
 catalog: true
 categories:

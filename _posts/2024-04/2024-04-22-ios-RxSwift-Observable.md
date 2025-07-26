@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] RxSwift 사용하기(2) - Observable"
 subtitle:   "\"Let's use RxSwift - Observable\""
 date:       2024-04-22 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-22"
 catalog: true
 categories:

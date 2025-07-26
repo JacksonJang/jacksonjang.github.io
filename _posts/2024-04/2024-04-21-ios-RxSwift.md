@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] RxSwift 사용하기(1)"
 subtitle:   "\"Let's use RxSwift\""
 date:       2024-04-21 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-21"
 catalog: true
 categories:

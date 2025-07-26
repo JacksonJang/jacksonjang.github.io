@@ -3,7 +3,7 @@ layout:     post
 title:      "[Spring Boot] 스프링부트 2.x 이제 퇴물이다!"
 subtitle:   "\"Spring Boot doesn't support 2.x\""
 date:       2024-04-08 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-08"
 catalog: true
 categories:

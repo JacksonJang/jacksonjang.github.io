@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] UIView 라이프사이클"
 subtitle:   " \"UIView LifeCycle\""
 date:       2024-03-26 20:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-03-26"
 catalog: true
 categories:

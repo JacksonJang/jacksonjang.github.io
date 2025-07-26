@@ -3,7 +3,7 @@ layout:     post
 title:      "[Linux] 서버 계정 추가 및 root 권한 설정하기 (초간단)"
 subtitle:   "\"Linux : Adding Server Account and Set the authorization as root(simply)\""
 date:       2024-05-04 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-05-04"
 catalog: true
 categories:

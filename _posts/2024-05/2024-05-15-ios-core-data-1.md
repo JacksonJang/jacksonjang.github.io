@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] Core Data 사용하기 (1)"
 subtitle:   "\"Let's use Core Data in iOS - 1\""
 date:       2024-05-15 15:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-05-15"
 catalog: true
 categories:

@@ -3,7 +3,7 @@ layout:     post
 title:      "[CS] 네이티브앱 vs 하이브리드앱 vs 웹앱"
 subtitle:   "\"Difference between Native app, Hybrid app, Web app\""
 date:       2024-04-20 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-20"
 catalog: true
 categories:
@@ -28,7 +28,7 @@ tags:
 앱을 수정해야 한다면 웹이 아니라서 앱 심사를 거쳐야 하는 단점이 있습니다.
 
 ## 웹앱 (Web App)
-반면 웹앱은 HTML, CSS, Javascript 등으로 만들어진 `웹`을 의미합니다. 즉, 별도의 앱을 설치하지 않고 인터넷 브라우저 기반으로 이용할 수 있습니다. 반응형 웹을 만들어 놓으면 운영체제에 상관없이 보여질 수 있어서 네이티브 앱에 비해 비용과 시간이 적은 편입니다.
+반면 웹앱은 HTML, CSS, JavaScript 등으로 만들어진 `웹`을 의미합니다. 즉, 별도의 앱을 설치하지 않고 인터넷 브라우저 기반으로 이용할 수 있습니다. 반응형 웹을 만들어 놓으면 운영체제에 상관없이 보여질 수 있어서 네이티브 앱에 비해 비용과 시간이 적은 편입니다.
 
 웹앱도 단점이 있습니다.
 <br />

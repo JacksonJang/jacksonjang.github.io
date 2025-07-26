@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] try increasing the minimum deployment target 에러 해결법"
 subtitle:   "\"How to solve the error 'try increasing the minimum deployment target' \""
 date:       2024-05-05 15:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-05-05"
 catalog: true
 categories:

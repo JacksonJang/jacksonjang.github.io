@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] SDK does not contain 'libarclite' at the path 에러 해결법"
 subtitle:   "\"Error : SDK does not contain 'libarclite' at the path' \""
 date:       2024-05-01 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-05-01"
 catalog: true
 categories:

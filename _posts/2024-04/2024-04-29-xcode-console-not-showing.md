@@ -3,7 +3,7 @@ layout:     post
 title:      "[Xcode] Console 로그를 볼 수 없을 때"
 subtitle:   "\"Can't see console log in Xcode' \""
 date:       2024-04-29 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 
 post_assets: "/assets/posts/2024-04-29"
 catalog: true

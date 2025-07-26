@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] ITMS-91053: Missing api 해결법 (2024년 5월 1일부터 시행)"
 subtitle:   " \"Describing use of required reason API\""
 date:       2024-04-03 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-03"
 catalog: true
 categories:

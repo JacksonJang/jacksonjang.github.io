@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] Sandbox:rsync.samba 에러 해결법"
 subtitle:   "\"How to solve the error 'Sandbox:rsync.samba' \""
 date:       2024-04-28 13:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 
 post_assets: "/assets/posts/2024-04-28"
 catalog: true

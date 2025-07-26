@@ -3,7 +3,7 @@ layout:     post
 title:      "[Vue.js] Vue.js 기초(1) - 라이프사이클"
 subtitle:   " \"Vue.js basic - lifecycle\""
 date:       2024-03-25 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-03-25"
 catalog: true
 categories:

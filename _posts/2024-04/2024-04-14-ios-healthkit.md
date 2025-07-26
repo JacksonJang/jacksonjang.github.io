@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] HealthKit을 사용해 보자!"
 subtitle:   "\"Let's use HealthKit in Swift\""
 date:       2024-04-14 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-14"
 catalog: true
 categories:

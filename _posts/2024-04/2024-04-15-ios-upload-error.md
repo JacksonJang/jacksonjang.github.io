@@ -3,7 +3,7 @@ layout:     post
 title:      "[iOS] App Store connect access for is required. add an account in accounts settings 에러 해결"
 subtitle:   "\"Solve App Store connect access for is required. add an account in accounts settings\""
 date:       2024-04-15 19:00:00
-author:     "JacksonJang"
+author:     JacksonJang
 post_assets: "/assets/posts/2024-04-15"
 catalog: true
 categories:
