@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-07-27T18:41:41+09:00</updated>
+  <updated>2025-07-27T18:42:04+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>[JavaScript] null vs undefined 차이 제대로 알기</title>
+    <link href="/posts/js-null-undefined/" rel="alternate" type="text/html" title="[JavaScript] null vs undefined 차이 제대로 알기" />
+    <published>2025-07-28T03:00:00+09:00</published>
+  
+    <updated>2025-07-28T03:00:00+09:00</updated>
+  
+    <id>/posts/js-null-undefined/</id>
+    <content type="text/html" src="/posts/js-null-undefined/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="JavaScript" />
+    
+  
+
+  <summary>JavaScript 의 null, undefined 알아보기 undefined 의미 JavaScript에서 undefined는 변수를 선언하고 값을 할당하지 않은 상태를 의미합니다. let x;    null 의미 null은 변수를 선언하고 빈 값을 할당한 상태입니다. let x = null;    위 차이에 대해 구분하는 테스트하기(typeof 사용) JavaScript에서는 typeof 라는 연산자가 있습니다.  이 연산자를 이용해서 타입들에 대해 볼 수 있는데 아래와 같이 Console 창에서 바로 확인 가능합니다.    typeof null         // &amp;#39;object&amp;#39; typeof undefined    // &amp;#39;undefined&amp;#39; typeof 1            // &amp;#39;number&amp;#39; ...</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>CoreData를 사용할 일이 있어서 공부할 겸 포스팅하게 되었습니다.  Core Data 프로젝트 생성   프로젝트를 생성할 떄, 위와 같이 Storage에 Core Data를 체크해서 생성해주면 됩니다.  저는 우선 CoreDataExample이라는 이름으로 프로젝트 생성을 진행하겠습니다.  그러면 아래와 같이 정상적으로 생성된 것을 확인할 수 있습니다. 프로젝트 구조    그리고 AppDelegate안에 NSPersistentContainer타입의 persistentContainer 변수와 saveContext() 함수명이 생성된 것을 확인할 수 있습니다.  SceneDelegate에도 추가되어 있는 것을 확인할 수 있습니다. func sceneDidEnterBackground(_ scene: U...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[iOS] 바텀시트 만들어보기(with. UIPanGestureRecognizer)</title>
-    <link href="/posts/ios-bottom-sheet/" rel="alternate" type="text/html" title="[iOS] 바텀시트 만들어보기(with. UIPanGestureRecognizer)" />
-    <published>2024-05-12T00:00:00+09:00</published>
-  
-    <updated>2024-05-12T00:00:00+09:00</updated>
-  
-    <id>/posts/ios-bottom-sheet/</id>
-    <content type="text/html" src="/posts/ios-bottom-sheet/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="iOS" />
-    
-  
-
-  <summary>오늘은 UIPanGestureRecognizer를 사용해서 바텀 시트를 만들어 보면서 UIPanGestureRecognizer에 대해 알아보겠습니다.  UIPanGestureRecognizer 란?    A continuous gesture recognizer that interprets panning gestures.   UIPanGestureRecognizer는 연속적인 제스처 인식기로 그리는 제스처를 해석합니다.  UIPanGestureRecognizer에 대해 추가적으로 더 설명하자면, 사용자의 손가락이 화면에 닿는 순간부터 움직임을 추적하기 시작하여, 움직임이 종료될 때까지의 전 과정을 감지합니다.  우리는 움직임을 추적하는 메커니즘을 이용해서 바텀 시트를 제작할 예정입니다.  UIPanGes...</summary>
 
   </entry>
 
