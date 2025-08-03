@@ -30,24 +30,22 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="[iOS] Sandbox:rsync.samba 에러 해결법" />
-<meta name="author" content="JacksonJang" />
+<meta property="og:title" content="ControllerAdvice" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="에러 메시지 error: Sandbox: rsync.samba(5159) deny(1) file-write-create /Users/janghyowon/Library/Developer/Xcode/DerivedData" />
-<meta property="og:description" content="에러 메시지 error: Sandbox: rsync.samba(5159) deny(1) file-write-create /Users/janghyowon/Library/Developer/Xcode/DerivedData" />
-<link rel="canonical" href="/posts/ios-sandbox-rsync-error/" />
-<meta property="og:url" content="/posts/ios-sandbox-rsync-error/" />
+<meta name="description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
+<meta property="og:description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
+<link rel="canonical" href="/tags/controlleradvice/" />
+<meta property="og:url" content="/tags/controlleradvice/" />
 <meta property="og:site_name" content="Jacksonjang Blog" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-04-28T22:00:00+09:00" />
+<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="[iOS] Sandbox:rsync.samba 에러 해결법" />
+<meta property="twitter:title" content="ControllerAdvice" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"JacksonJang","url":"https://github.com/JacksonJang/"},"dateModified":"2024-04-28T22:00:00+09:00","datePublished":"2024-04-28T22:00:00+09:00","description":"에러 메시지 error: Sandbox: rsync.samba(5159) deny(1) file-write-create /Users/janghyowon/Library/Developer/Xcode/DerivedData","headline":"[iOS] Sandbox:rsync.samba 에러 해결법","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/ios-sandbox-rsync-error/"},"url":"/posts/ios-sandbox-rsync-error/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"ControllerAdvice","url":"/tags/controlleradvice/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>[iOS] Sandbox:rsync.samba 에러 해결법 | Jacksonjang Blog
+  <title>ControllerAdvice | Jacksonjang Blog
   </title>
 
   <!--
@@ -111,16 +109,9 @@
   <!-- 3rd-party Dependencies -->
 
   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.32.2/dist/tocbot.min.css">
-  
 
   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
-  
 
-  
-    <!-- Image Popup -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
   <!-- Scripts -->
@@ -161,13 +152,6 @@
 <!-- layout specified -->
 
 
-  
-
-  
-    <!-- image lazy-loading & popup & clipboard -->
-    
-  
-
 
 
 
@@ -217,37 +201,9 @@
 
   
 
-  
-    
-
-    
-
-  
-
-  
-    
-
-    
-
-  
-
-  
-    
-
-    
-
-  
-
-  
-    
-
-    
-
-  
 
 
-
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
 
 
 
@@ -255,15 +211,11 @@
 
 
 
-<script defer src="/assets/js/dist/post.min.js"></script>
+<script defer src="/assets/js/dist/misc.min.js"></script>
 
 
 
 <!-- Pageviews -->
-
-  
-
-  
 
 
 
@@ -424,10 +376,14 @@
           
         
           
+            <span>
+              <a href="/tags/">Tags</a>
+            </span>
+          
         
           
             
-              <span>[iOS] Sandbox:rsync.samba 에러 해결법</span>
+              <span>ControllerAdvice</span>
             
 
           
@@ -441,7 +397,7 @@
     </button>
 
     <div id="topbar-title">
-      Post
+      Tag
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -467,301 +423,27 @@
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
             
-              <!-- Refactor the HTML structure -->
+              
 
 
 
-<!--
-  In order to allow a wide table to scroll horizontally,
-  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
--->
-
-
-
-<!--
-  Fixed kramdown code highlight rendering:
-  https://github.com/penibelst/jekyll-compress-html/issues/101
-  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
--->
-
-
-
-<!-- Change the icon of checkbox -->
-
-
-
-<!-- Handle images -->
-
-
-
-
-  
-  
-
-  
-    
-      
-      
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
+<article class="px-1">
   
     
 
+
+
+<div id="page-tag">
+  <h1 class="ps-lg-2">
+    <i class="fa fa-tag fa-fw text-muted"></i>
+    ControllerAdvice
+    <span class="lead text-muted ps-2">1</span>
+  </h1>
+  <ul class="content ps-0">
     
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-
-  
-
-
-<!-- Add header for code snippets -->
-
-
-
-<!-- Create heading anchors -->
-
-
-
-
-
-  
-  
-
-  
-    
-    
-
-    
-      
-        
-        
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-
-    
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-
-
-
-<!-- return -->
-
-
-
-
-
-
-
-
-
-
-<article class="px-1" data-toc="true">
-  <header>
-    <h1 data-toc-skip>[iOS] Sandbox:rsync.samba 에러 해결법</h1>
-    
-
-    <div class="post-meta text-muted">
-      <!-- published date -->
-      <span>
-        Posted
+      <li class="d-flex justify-content-between px-md-3">
+        <a href="/posts/spring-boot-error-handler/">[Spring Boot] 에러를 효과적으로 처리하는 2가지 방법(@ExceptionHandler, @ControllerAdvice 사용)</a>
+        <span class="dash flex-grow-1"></span>
         <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
@@ -772,228 +454,22 @@
 
 <time
   
-  data-ts="1714276800"
+    class="text-muted small text-nowrap"
+  
+  data-ts="1754197200"
   data-df="ll"
   
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
 >
-  Apr 28, 2024
+  Aug  3, 2025
 </time>
 
-      </span>
-
-      <!-- lastmod date -->
-      
-
-      
-
-      <div class="d-flex justify-content-between">
-        <!-- author(s) -->
-        <span>
-          
-
-          By
-
-          <em>
-            
-              
-                <a href="https://github.com/JacksonJang/">JacksonJang</a>
-                
-              
-            
-          </em>
-        </span>
-
-        <div>
-          <!-- pageviews -->
-          
-
-          <!-- read time -->
-          <!-- Calculate the post's reading time, and display the word count in tooltip -->
-
-
-
-<!-- words per minute -->
-
-
-
-
-
-
-
-
-
-
-<!-- return element -->
-<span
-  class="readtime"
-  data-bs-toggle="tooltip"
-  data-bs-placement="bottom"
-  title="112 words"
->
-  <em>1 min</em> read</span>
-
-        </div>
-      </div>
-    </div>
-  </header>
-
-  
-    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
-      <span class="label text-truncate">[iOS] Sandbox:rsync.samba 에러 해결법</span>
-      <button type="button" class="toc-trigger btn me-1">
-        <i class="fa-solid fa-list-ul fa-fw"></i>
-      </button>
-    </div>
-
-    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
-      <span class="label ps-2 pe-1">Contents</span>
-      <i class="fa-solid fa-angle-right fa-fw"></i>
-    </button>
-
-    <dialog id="toc-popup" class="p-0">
-      <div class="header d-flex flex-row align-items-center justify-content-between">
-        <div class="label text-truncate py-2 ms-4">[iOS] Sandbox:rsync.samba 에러 해결법</div>
-        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
-          <i class="fas fa-close"></i>
-        </button>
-      </div>
-      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
-    </dialog>
-  
-
-  <div class="content">
-    <h2 id="에러-메시지"><span class="me-2">에러 메시지</span><a href="#에러-메시지" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><a href="/assets/posts/2024-04-28/error.png" class="popup img-link shimmer"><img src="/assets/posts/2024-04-28/error.png" loading="lazy"></a></p>
-<blockquote>
-  <p>error: Sandbox: rsync.samba(5159) deny(1) file-write-create /Users/janghyowon/Library/Developer/Xcode/DerivedData</p>
-</blockquote>
-
-<p>Xcode 15.0.1 기준으로 빌드하니까 위와 같은 에러가 발생했었습니다.
-<br />
-우선 에러를 해결하고 싶어하셔서 들어오셨을테니 해결법부터 말씀드리자면</p>
-
-<p><a href="/assets/posts/2024-04-28/Build_Settings.png" class="popup img-link shimmer"><img src="/assets/posts/2024-04-28/Build_Settings.png" loading="lazy"></a>
-<strong>해결법</strong> : Project TARGETS -&gt; Build Settings -&gt; ENABLE_USER_SCRIPT_SANDBOXING 검색 후 -&gt; <strong>YES</strong> 를 <strong>NO</strong> 로 변경</p>
-
-<p>그리고 다시 빌드!
-<a href="/assets/posts/2024-04-28/Build_Success.png" class="popup img-link shimmer"><img src="/assets/posts/2024-04-28/Build_Success.png" loading="lazy"></a>
-간단하죠?</p>
-
-<h2 id="관련링크"><span class="me-2">관련링크</span><a href="#관련링크" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><a href="https://forums.developer.apple.com/forums/thread/731041">Xcode 15 beta build issues</a></p>
-
-  </div>
-
-  <div class="post-tail-wrapper text-muted">
-    <!-- categories -->
+      </li>
     
-      <div class="post-meta mb-3">
-        <i class="far fa-folder-open fa-fw me-1"></i>
-        
-          <a href="/categories/ios/">iOS</a>
-      </div>
-    
-
-    <!-- tags -->
-    
-      <div class="post-tags">
-        <i class="fa fa-tags fa-fw me-1"></i>
-        
-          <a
-            href="/tags/swift/"
-            class="post-tag no-text-decoration"
-          >Swift</a>
-        
-          <a
-            href="/tags/rxswift/"
-            class="post-tag no-text-decoration"
-          >RxSwift</a>
-        
-          <a
-            href="/tags/xcode15/"
-            class="post-tag no-text-decoration"
-          >Xcode15</a>
-        
-          <a
-            href="/tags/ios/"
-            class="post-tag no-text-decoration"
-          >iOS</a>
-        
-      </div>
-    
-
-    <div
-      class="
-        post-tail-bottom
-        d-flex justify-content-between align-items-center mt-5 pb-2
-      "
-    >
-      <div class="license-wrapper">
-        
-          
-
-          This post is licensed under 
-        <a href="https://creativecommons.org/licenses/by/4.0/">
-          CC BY 4.0
-        </a>
-         by the author.
-        
-      </div>
-
-      <!-- Post sharing snippet -->
-
-<div class="share-wrapper d-flex align-items-center">
-  <span class="share-label text-muted">Share</span>
-  <span class="share-icons">
-    
-    
-    
-
-    
-
-      
-
-      <a href="https://twitter.com/intent/tweet?text=[iOS]%20Sandbox:rsync.samba%20%EC%97%90%EB%9F%AC%20%ED%95%B4%EA%B2%B0%EB%B2%95%20-%20Jacksonjang%20Blog&url=%2Fposts%2Fios-sandbox-rsync-error%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
-        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
-      </a>
-    
-
-      
-
-      <a href="https://www.facebook.com/sharer/sharer.php?title=[iOS]%20Sandbox:rsync.samba%20%EC%97%90%EB%9F%AC%20%ED%95%B4%EA%B2%B0%EB%B2%95%20-%20Jacksonjang%20Blog&u=%2Fposts%2Fios-sandbox-rsync-error%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
-        <i class="fa-fw fab fa-facebook-square"></i>
-      </a>
-    
-
-      
-
-      <a href="https://t.me/share/url?url=%2Fposts%2Fios-sandbox-rsync-error%2F&text=[iOS]%20Sandbox:rsync.samba%20%EC%97%90%EB%9F%AC%20%ED%95%B4%EA%B2%B0%EB%B2%95%20-%20Jacksonjang%20Blog" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
-        <i class="fa-fw fab fa-telegram"></i>
-      </a>
-    
-
-    <button
-      id="copy-link"
-      aria-label="Copy link"
-      class="btn small"
-      data-bs-toggle="tooltip"
-      data-bs-placement="top"
-      title="Copy link"
-      data-title-succeed="Link copied successfully!"
-    >
-      <i class="fa-fw fas fa-link pe-none fs-6"></i>
-    </button>
-  </span>
+  </ul>
 </div>
 
-    </div>
-    <!-- .post-tail-bottom -->
-  </div>
-  <!-- div.post-tail-wrapper -->
+  
 </article>
-
 
             
           </main>
@@ -2757,598 +2233,12 @@
             </div>
 
             
-              
-              
-
-
-
-
-
-
-  <div class="toc-border-cover z-3"></div>
-  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
-    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
-    <nav id="toc"></nav>
-  </section>
-
-
-            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
-            
-              
-              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
-
-<!-- The total size of related posts -->
-
-
-<!-- An random integer that bigger than 0 -->
-
-
-<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  <aside id="related-posts" aria-labelledby="related-label">
-    <h3 class="mb-4" id="related-label">Further Reading</h3>
-    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
-      
-        <article class="col">
-          <a href="/posts/ios-minimum-target-error/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1714888800"
-  data-df="ll"
-  
->
-  May  6, 2024
-</time>
-
-              <h4 class="pt-0 my-2">[iOS] try increasing the minimum deployment target 에러 해결법</h4>
-              <div class="text-muted">
-                <p>FSCalendar의 예시 파일을 실행하니 아래와 같은 에러를 마주하게 되었습니다.  에러 메시지 1 SDK does not contain &#39;libarclite&#39; at the path &#39;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/li...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/ios-RxSwift-Schedulers/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1714125600"
-  data-df="ll"
-  
->
-  Apr 27, 2024
-</time>
-
-              <h4 class="pt-0 my-2">[iOS] RxSwift 사용하기(5) - Schedulers</h4>
-              <div class="text-muted">
-                <p>Scheduler Scheduler는 특정 코드를 실행할 때 사용할 스레드 또는 큐를 결정하는 역할을 합니다.  RxSwift에서 Scheduler를 사용함으로서 동시성을 쉽게 처리할 수 있습니다.  MainScheduler 메인 쓰레드에서의 실행을 보장합니다.(UI 업데이트 사용에 적절해요)  Observable.just(&quot;Hello, RxSwift...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/ios-RxSwift-Operators/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1714039200"
-  data-df="ll"
-  
->
-  Apr 26, 2024
-</time>
-
-              <h4 class="pt-0 my-2">[iOS] RxSwift 사용하기(4) - Operators</h4>
-              <div class="text-muted">
-                <p>Operator 사용하기 RxMarbles 사이트에서 Rx Observables에 대한 학습용 다이어그램을 제공하고 있습니다.  직접 코딩하기 귀찮거나 간단히 확인하고 싶을 땐 위 사이트를 통해 확인하는 게 좋습니다!  다만, 2021년 10월 27일 기준으로 수정된 내용이 없으므로 일부 메서드들은 없을 수 있습니다.(예: amb)  RxSwift에서...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-    </nav>
-  </aside>
-  <!-- #related-posts -->
-
-
-            
-              
-              <!-- Navigation buttons at the bottom of the post. -->
-
-<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
-  
-  
-
-  
-    <a
-      href="/posts/react-hooks/"
-      class="btn btn-outline-primary"
-      aria-label="Older"
-    >
-      <p>[React.js] 알면 유용한 Hooks</p>
-    </a>
-  
-
-  
-    <a
-      href="/posts/xcode-console-not-showing/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>[Xcode] Console 로그를 볼 수 없을 때</p>
-    </a>
-  
-</nav>
-
             
 
             <!-- The Footer -->
@@ -5134,11 +4024,6 @@
     
 
     <!-- Embedded scripts -->
-
-    
-      
-      <!-- The comments switcher -->
-
 
     
 

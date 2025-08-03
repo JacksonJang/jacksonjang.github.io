@@ -1,5 +1,13 @@
 [
   {
+    "title": "[Spring Boot] 에러를 효과적으로 처리하는 2가지 방법(@ExceptionHandler, @ControllerAdvice 사용)",
+    "url": "/posts/spring-boot-error-handler/",
+    "categories": "Spring Boot",
+    "tags": "Spring Boot, ControllerAdvice",
+    "date": "2025-08-03 23:00:00 +0900",
+    "content": "왜 필요해요? 프로젝트를 진행하다 보면 에러 응답 포맷을 변경해야 하는 상황이 생길 수 있습니다. 예를 들어, 고객 요구사항 변경, 공통 응답 규격 개편, 코드 리팩터링 등..  이때 모든 컨트롤러에 동일한 보일러플레이트 코드가 존재해서 수정할 때 유지보수 비용이 커집니다.    try-catch 문 @RestController public class..."
+  },
+  {
     "title": "[JavaScript] null vs undefined 차이 제대로 알기",
     "url": "/posts/js-null-undefined/",
     "categories": "JavaScript",

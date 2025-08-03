@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-07-27T18:42:04+09:00</updated>
+  <updated>2025-08-03T17:38:48+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>[Spring Boot] 에러를 효과적으로 처리하는 2가지 방법(@ExceptionHandler, @ControllerAdvice 사용)</title>
+    <link href="/posts/spring-boot-error-handler/" rel="alternate" type="text/html" title="[Spring Boot] 에러를 효과적으로 처리하는 2가지 방법(@ExceptionHandler, @ControllerAdvice 사용)" />
+    <published>2025-08-03T23:00:00+09:00</published>
+  
+    <updated>2025-08-03T23:00:00+09:00</updated>
+  
+    <id>/posts/spring-boot-error-handler/</id>
+    <content type="text/html" src="/posts/spring-boot-error-handler/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Spring Boot" />
+    
+  
+
+  <summary>왜 필요해요? 프로젝트를 진행하다 보면 에러 응답 포맷을 변경해야 하는 상황이 생길 수 있습니다. 예를 들어, 고객 요구사항 변경, 공통 응답 규격 개편, 코드 리팩터링 등..  이때 모든 컨트롤러에 동일한 보일러플레이트 코드가 존재해서 수정할 때 유지보수 비용이 커집니다.    try-catch 문 @RestController public class TryCatchController {    @GetMapping(&amp;quot;/tryCatch&amp;quot;)   public String tryCatch() {     try {       throw new IllegalArgumentException(&amp;quot;IllegalArgument 에러&amp;quot;);     } catch (Exception e) {       return &amp;quot;에러가 발...</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>매 번 블로그를 작성하면서 vscode 를 사용하고 있었는데, 자꾸 키보드 타이핑을 하면서 화살표로 움직이거나 한글을 입력하고 스페이스를 하면 글자가 짤리는 그런 이슈들이 있어서 짜증나서 알아보게 되어서 메모용으로 기록합니다.  defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false   위 코드를 터미널에 입력 후 VSCode를 재 실행하면 끝!</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[iOS] Core Data 사용하기 (1)</title>
-    <link href="/posts/ios-core-data-1/" rel="alternate" type="text/html" title="[iOS] Core Data 사용하기 (1)" />
-    <published>2024-05-16T00:00:00+09:00</published>
-  
-    <updated>2024-05-16T00:00:00+09:00</updated>
-  
-    <id>/posts/ios-core-data-1/</id>
-    <content type="text/html" src="/posts/ios-core-data-1/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="iOS" />
-    
-  
-
-  <summary>CoreData를 사용할 일이 있어서 공부할 겸 포스팅하게 되었습니다.  Core Data 프로젝트 생성   프로젝트를 생성할 떄, 위와 같이 Storage에 Core Data를 체크해서 생성해주면 됩니다.  저는 우선 CoreDataExample이라는 이름으로 프로젝트 생성을 진행하겠습니다.  그러면 아래와 같이 정상적으로 생성된 것을 확인할 수 있습니다. 프로젝트 구조    그리고 AppDelegate안에 NSPersistentContainer타입의 persistentContainer 변수와 saveContext() 함수명이 생성된 것을 확인할 수 있습니다.  SceneDelegate에도 추가되어 있는 것을 확인할 수 있습니다. func sceneDidEnterBackground(_ scene: U...</summary>
 
   </entry>
 
