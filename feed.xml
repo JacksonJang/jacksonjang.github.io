@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-08-03T17:40:10+09:00</updated>
+  <updated>2025-08-09T23:47:19+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Database Replication 사용하기(with MySQL)</title>
+    <link href="/posts/database-replication/" rel="alternate" type="text/html" title="Database Replication 사용하기(with MySQL)" />
+    <published>2025-08-09T22:00:00+09:00</published>
+  
+    <updated>2025-08-09T22:00:00+09:00</updated>
+  
+    <id>/posts/database-replication/</id>
+    <content type="text/html" src="/posts/database-replication/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="DevOps" />
+    
+  
+
+  <summary>고객사의 대규모 서비스를 도입하게 되어, 관련 내용을 정리하게 되었습니다.  Database Replication 이란? 사용자가 많은 서비스에서는 하나의 DB로 모든 요청을 처리하기 어려울 수 있습니다. 그래서 이를 해결하기 위해 고안된 기술이 Database Replication입니다.   Database를 Replication(복제)해서 DB Read/Write 역할을 나눠서 성능과 안정성을 증가시키고, 일반적으로 Source/Replica 구조를 사용하며 다음과 같은 역할을 수행합니다.     Source(혹은 Master) : Write(INSERT, UPDATE, DELETE)   Replica(혹은 Slave) : Read(SELECT)    *참고 : MySQL 8.0 이후로 Master...</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Tuist 주소 https://github.com/tuist/tuist  Tuist 란? Tuist is a command line tool that leverages project generation to abstract intricacies of Xcode projects, and uses it as a foundation to help teams maintain and optimize their large modular projects.  Tuist는 추상적인 복잡한 Xcode의 프로젝트들을 생성하는 CLI 툴이며, 큰 모듈화된 프로젝트들을 최적화하며 팀의 유지보수 하는데 도움을 줍니다.  간단히 말하면 Xcode 프로젝트를 관리하는 툴입니다.  Tuist의 필요성 협업을 하다보면 Xcode 프로...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[Mac] VSCode 연속입력 키보드 이슈 해결</title>
-    <link href="/posts/vscode-tip-1/" rel="alternate" type="text/html" title="[Mac] VSCode 연속입력 키보드 이슈 해결" />
-    <published>2024-05-19T10:00:00+09:00</published>
-  
-    <updated>2024-05-19T10:00:00+09:00</updated>
-  
-    <id>/posts/vscode-tip-1/</id>
-    <content type="text/html" src="/posts/vscode-tip-1/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Etc" />
-    
-  
-
-  <summary>매 번 블로그를 작성하면서 vscode 를 사용하고 있었는데, 자꾸 키보드 타이핑을 하면서 화살표로 움직이거나 한글을 입력하고 스페이스를 하면 글자가 짤리는 그런 이슈들이 있어서 짜증나서 알아보게 되어서 메모용으로 기록합니다.  defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false   위 코드를 터미널에 입력 후 VSCode를 재 실행하면 끝!</summary>
 
   </entry>
 

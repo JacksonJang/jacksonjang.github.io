@@ -1,5 +1,13 @@
 [
   {
+    "title": "Database Replication 사용하기(with MySQL)",
+    "url": "/posts/database-replication/",
+    "categories": "DevOps",
+    "tags": "DevOps, MySQL",
+    "date": "2025-08-09 22:00:00 +0900",
+    "content": "고객사의 대규모 서비스를 도입하게 되어, 관련 내용을 정리하게 되었습니다.  Database Replication 이란? 사용자가 많은 서비스에서는 하나의 DB로 모든 요청을 처리하기 어려울 수 있습니다. 그래서 이를 해결하기 위해 고안된 기술이 Database Replication입니다.   Database를 Replication(복제)해서 DB R..."
+  },
+  {
     "title": "[Spring Boot] 에러를 효과적으로 처리하는 2가지 방법(@ExceptionHandler, @ControllerAdvice 사용)",
     "url": "/posts/spring-boot-error-handler/",
     "categories": "Spring Boot",
