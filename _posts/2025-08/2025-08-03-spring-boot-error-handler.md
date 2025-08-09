@@ -13,14 +13,14 @@ tags:
     - ControllerAdvice
 ---
 
-# 왜 필요해요?
+## 왜 필요해요?
 프로젝트를 진행하다 보면 에러 응답 포맷을 변경해야 하는 상황이 생길 수 있습니다. 예를 들어, 고객 요구사항 변경, 공통 응답 규격 개편, 코드 리팩터링 등..
 
 이때 모든 컨트롤러에 동일한 보일러플레이트 코드가 존재해서 수정할 때 유지보수 비용이 커집니다.
 <br />
 <br />
 
-# try-catch 문
+## try-catch 문
 ```java
 @RestController
 public class TryCatchController {
@@ -52,7 +52,7 @@ public class TryCatchController {
 <br />
 <br />
 
-# @ExceptionHandler + @ControllerAdvice 사용
+## @ExceptionHandler + @ControllerAdvice 사용
 ```java
 @ControllerAdvice
 public class ErrorHandler {
@@ -68,7 +68,7 @@ public class ErrorHandler {
 <br />
 <br />
 
-# @ExceptionHandler 란?
+## @ExceptionHandler 란?
 `Spring MVC`에서 `컨트롤러 메서드`에서 발생한 예외를 처리하기 위해 사용하는 어노테이션입니다.
 <br />
 선언한 컨트롤러에서만 발생하는 예외에 대해 처리한다고 보시면 됩니다.
@@ -88,7 +88,7 @@ public class ErrorHandler {
 <br />
 <br />
 
-# @ControllerAdvice 란?
+## @ControllerAdvice 란?
 `Spring MVC`에서 `모든 컨트롤러`에 전역적으로 적용할 수 있는 기능을 제공하는 어노테이션입니다.
 
 에러 처리 외에도 데이터 바인딩, 전역 모델 속성도 추가할 수 있지만
@@ -111,7 +111,7 @@ public class ErrorHandler {
 <br />
 <br />
 
-# 에러 처리 순서에 대해 주의하세요!
+## 에러 처리 순서에 대해 주의하세요!
 `@ExceptionHandler`와 `@ControllerAdvice`를 사용할 때, 주의할 내용이 있습니다.
 
 ```java
@@ -137,7 +137,7 @@ public class ExceptionHandlerController {
 
 아무리 `@ExceptionHandler`, `@ControllerAdvice` 를 사용한다고 해도 컨트롤러 메서드 안에 `try-catch` 를 사용한다면 `try-catch`가 우선적으로 적용됩니다.
 
-# @RestControllerAdvice 란?
+## @RestControllerAdvice 란?
 `@ControllerAdvice` 외 `@RestControllerAdvice` 도 있습니다.
 `@RestControllerAdvice`는 단순하게 `@ControllerAdvice` 와 `@ResponseBody` 를 합친 어노테이션입니다.
 
@@ -154,7 +154,7 @@ public @interface RestControllerAdvice
 <br />
 <br />
 
-# 예외 처리하는 우선순위 요약
+## 예외 처리하는 우선순위 요약
 우선순위가 높은 순서대로 나열했습니다.
 <br />
 1. 메서드 내부의 [try-catch](#try-catch-문)
@@ -162,7 +162,7 @@ public @interface RestControllerAdvice
 3. [`@ControllerAdvice`](#controlleradvice-란) or [`@RestControllerAdvice`](#restcontrolleradvice-란)
 
 
-# @Order 사용으로 순서 정하기
+## @Order 사용으로 순서 정하기
 만약, 아래처럼 2개의 `@ControllerAdvice`가 존재하면 어떻게 될까요?
 ```java
 @ControllerAdvice
@@ -203,5 +203,5 @@ public class ErrorHandler {
 }
 ```
 
-# github 예시 주소
+## github 예시 주소
 github 주소 : [https://github.com/JacksonJang/SpringBootErrorHandlerExample](https://github.com/JacksonJang/SpringBootErrorHandlerExample)
