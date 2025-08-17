@@ -1,5 +1,13 @@
 [
   {
+    "title": "Spring Boot와 함께 Database Replication 사용하기",
+    "url": "/posts/database-replication-with-spring-boot/",
+    "categories": "Spring Boot",
+    "tags": "Spring Boot",
+    "date": "2025-08-17 22:00:00 +0900",
+    "content": "앞서 정리한 Database Replication 사용하기(with MySQL) 글에서 살펴본 것처럼,  Spring Boot 환경에서도 동일하게 적용할 수 있습니다.  Master/Source와 Slave/Replica의 명칭 관련해서는 설명의 편의를 위해 Master와 Replica를 사용하겠습니다. (MySQL 8.0 이후로 Master/Slav..."
+  },
+  {
     "title": "Database Replication 사용하기(with MySQL)",
     "url": "/posts/database-replication/",
     "categories": "DevOps",
