@@ -151,7 +151,7 @@ def choose_news_topic(news_items: list) -> dict | None:
     link = chosen["link"]
     # 한국어 메타
     return {
-        "title": f"요즘 뉴스로 배우는 영어표현: {headline}",
+        "title": f"뉴스로 배우는 영어: {headline}",
         "subtitle": "실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현",
         "primary_keyword": f"뉴스 영어표현 {headline.lower()}",
         "tags": ["영어", "표현", "뉴스영어", "ESL"],
