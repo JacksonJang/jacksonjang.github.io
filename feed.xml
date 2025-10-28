@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-28T21:48:20+09:00</updated>
+  <updated>2025-10-28T21:51:41+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -28,30 +28,6 @@
   
     <id>/posts/%EC%9A%94%EC%A6%98-%EB%89%B4%EC%8A%A4%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-israel-says-coffin-from-hamas-did-not-contain-another-hostages-body/</id>
     <content type="text/html" src="/posts/%EC%9A%94%EC%A6%98-%EB%89%B4%EC%8A%A4%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-israel-says-coffin-from-hamas-did-not-contain-another-hostages-body/" />
-    <author>
-      <name>Jacksonjang</name>
-    </author>
-
-  
-    
-    <category term="English" />
-    
-  
-
-  <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>요즘 뉴스로 배우는 영어표현: Amazon confirms 14,000 job losses in corporate division</title>
-    <link href="/posts/%EC%9A%94%EC%A6%98-%EB%89%B4%EC%8A%A4%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-amazon-confirms-14000-job-losses-in-corporate-division/" rel="alternate" type="text/html" title="요즘 뉴스로 배우는 영어표현: Amazon confirms 14,000 job losses in corporate division" />
-    <published>2025-10-28T21:43:39+09:00</published>
-  
-    <updated>2025-10-28T21:43:39+09:00</updated>
-  
-    <id>/posts/%EC%9A%94%EC%A6%98-%EB%89%B4%EC%8A%A4%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-amazon-confirms-14000-job-losses-in-corporate-division/</id>
-    <content type="text/html" src="/posts/%EC%9A%94%EC%A6%98-%EB%89%B4%EC%8A%A4%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-amazon-confirms-14000-job-losses-in-corporate-division/" />
     <author>
       <name>Jacksonjang</name>
     </author>
@@ -135,6 +111,30 @@
   
 
   <summary>왜 필요해요? 프로젝트를 진행하다 보면 에러 응답 포맷을 변경해야 하는 상황이 생길 수 있습니다. 예를 들어, 고객 요구사항 변경, 공통 응답 규격 개편, 코드 리팩터링 등..  이때 모든 컨트롤러에 동일한 보일러플레이트 코드가 존재해서 수정할 때 유지보수 비용이 커집니다.    try-catch 문 @RestController public class TryCatchController {    @GetMapping(&amp;quot;/tryCatch&amp;quot;)   public String tryCatch() {     try {       throw new IllegalArgumentException(&amp;quot;IllegalArgument 에러&amp;quot;);     } catch (Exception e) {       return &amp;quot;에러가 발...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>[JavaScript] null vs undefined 차이 제대로 알기</title>
+    <link href="/posts/js-null-undefined/" rel="alternate" type="text/html" title="[JavaScript] null vs undefined 차이 제대로 알기" />
+    <published>2025-07-28T03:00:00+09:00</published>
+  
+    <updated>2025-07-28T03:00:00+09:00</updated>
+  
+    <id>/posts/js-null-undefined/</id>
+    <content type="text/html" src="/posts/js-null-undefined/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="JavaScript" />
+    
+  
+
+  <summary>JavaScript 의 null, undefined 알아보기 undefined 의미 JavaScript에서 undefined는 변수를 선언하고 값을 할당하지 않은 상태를 의미합니다. let x;    null 의미 null은 변수를 선언하고 빈 값을 할당한 상태입니다. let x = null;    위 차이에 대해 구분하는 테스트하기(typeof 사용) JavaScript에서는 typeof 라는 연산자가 있습니다.  이 연산자를 이용해서 타입들에 대해 볼 수 있는데 아래와 같이 Console 창에서 바로 확인 가능합니다.    typeof null         // &amp;#39;object&amp;#39; typeof undefined    // &amp;#39;undefined&amp;#39; typeof 1            // &amp;#39;number&amp;#39; ...</summary>
 
   </entry>
 
