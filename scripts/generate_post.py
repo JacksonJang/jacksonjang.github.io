@@ -4,7 +4,6 @@ import sys
 import json
 import yaml
 import time
-import random
 import datetime as dt
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -22,7 +21,7 @@ OUTPUT_EXT = os.getenv("OUTPUT_EXT", ".md")
 TIMEZONE = os.getenv("TIMEZONE", "Asia/Seoul")
 SITE_BASE_URL = os.getenv("SITE_BASE_URL", "https://jacksonjang.github.io")
 TOPIC_CONFIG = os.getenv("TOPIC_CONFIG", "scripts/daily_config.yml")
-MIN_WORDS = int(os.getenv("MIN_WORDS", "650"))  # safer lower bound for ESL posts
+MIN_WORDS = int(os.getenv("MIN_WORDS", "650"))
 INTERNAL_LINKS_COUNT = int(os.getenv("INTERNAL_LINKS_COUNT", "3"))
 # =====================================
 
@@ -38,7 +37,7 @@ def today_kst() -> dt.datetime:
 
 def slugify(text: str) -> str:
     text = text.strip().lower()
-    text = re.sub(r"[^\w\s-]", "", text, flags=re.UNICODE)
+    text = re.sub(r"[^\w\s-]", "", text)
     text = re.sub(r"[\s_-]+", "-", text)
     text = re.sub(r"^-+|-+$", "", text)
     return text or "post"
@@ -82,20 +81,6 @@ def load_topic_config(path: str) -> dict:
     return data
 
 def pick_topic(config: dict) -> dict:
-    """
-    daily_config.yml (optional)
-    ---
-    defaults:
-      category: "English"
-      tags: ["English", "Expressions"]
-      primary_keyword: "natural English expressions"
-    topics:
-      - title: "10 Better Ways to Say 'I'm tired'"
-        subtitle: "Sound natural, not textbook"
-        primary_keyword: "ways to say i'm tired"
-        tags: ["english", "alternatives", "speaking"]
-        category: "English"
-    """
     builtin = [
         {
             "title": "10 Better Ways to Say “I’m sorry”",
@@ -177,23 +162,74 @@ At the end, add this section verbatim if list is non-empty:
 
 
 def _extract_text_from_response(resp) -> str:
-    """Handle various SDK response shapes robustly."""
+    # Responses API (new)
     try:
-        # 1) Preferred helper (OpenAI SDK v1+)
         text = (getattr(resp, "output_text", None) or "").strip()
         if text:
             return text
-        # 2) Walk generic content tree
         if hasattr(resp, "output") and resp.output:
             parts = []
             for block in resp.output:
                 for c in getattr(block, "content", []) or []:
                     if getattr(c, "type", "") == "output_text" and getattr(c, "text", ""):
                         parts.append(c.text)
-            return "\n".join(parts).strip()
+            joined = "\n".join(parts).strip()
+            if joined:
+                return joined
+    except Exception:
+        pass
+    # Chat Completions
+    try:
+        if hasattr(resp, "choices") and resp.choices:
+            msg = resp.choices[0].message
+            if hasattr(msg, "content"):
+                return (msg.content or "").strip()
     except Exception:
         pass
     return ""
+
+
+def _call_responses(prompt: str, model: str, temperature: float):
+    # Try Responses API with flexible kwargs for SDK variations
+    try:
+        # Prefer max_output_tokens name; if TypeError, caller will retry with alt params
+        return client.responses.create(
+            model=model,
+            input=prompt,
+            temperature=temperature,
+            max_output_tokens=MAX_TOKENS,
+        )
+    except TypeError:
+        # Some SDKs use max_tokens instead
+        return client.responses.create(
+            model=model,
+            input=prompt,
+            temperature=temperature,
+            max_tokens=MAX_TOKENS,
+        )
+
+
+def _call_chat(prompt: str, model: str, temperature: float):
+    # Fallback to Chat Completions API
+    try:
+        return client.chat.completions.create(
+            model=model,
+            temperature=temperature,
+            max_tokens=MAX_TOKENS,
+            messages=[
+                {"role": "system", "content": "You write clear, accurate ESL posts that feel helpful, modern, and concise."},
+                {"role": "user", "content": prompt},
+            ],
+        )
+    except TypeError:
+        # Very old SDKs might not accept temperature/max_tokens; try minimal
+        return client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": "You write clear, accurate ESL posts that feel helpful, modern, and concise."},
+                {"role": "user", "content": prompt},
+            ],
+        )
 
 
 def call_openai(prompt: str, model=MODEL_NAME, temperature=TEMPERATURE, max_retries=4) -> str:
@@ -202,13 +238,12 @@ def call_openai(prompt: str, model=MODEL_NAME, temperature=TEMPERATURE, max_retr
     active_temp = temperature
     for attempt in range(max_retries):
         try:
-            resp = client.responses.create(
-                model=active_model,
-                modalities=["text"],
-                input=prompt,                 # String prompt (safer)
-                temperature=active_temp,      # gpt-5 only supports 1.0
-                max_output_tokens=MAX_TOKENS,
-            )
+            # Try Responses API first
+            try:
+                resp = _call_responses(prompt, active_model, active_temp)
+            except Exception as e1:
+                # If Responses API not available/compatible, try Chat Completions
+                resp = _call_chat(prompt, active_model, active_temp)
             text = _extract_text_from_response(resp)
             if not text:
                 raise RuntimeError("empty_output_text")
@@ -221,7 +256,7 @@ def call_openai(prompt: str, model=MODEL_NAME, temperature=TEMPERATURE, max_retr
                 # After half attempts, force fallback
                 if attempt >= max_retries // 2 and active_model != FALLBACK_MODEL:
                     active_model = FALLBACK_MODEL
-                    active_temp = 0.7  # 4o-mini supports standard temps
+                    active_temp = 0.7
                 continue
             raise
 
@@ -272,11 +307,9 @@ def write_post_file(meta: dict, body_md: str) -> Path:
 
 # ---------- Main ----------
 def main():
-    # 1) Load topic
     config = load_topic_config(TOPIC_CONFIG)
     topic = pick_topic(config)
 
-    # 2) Build meta
     now_kst = today_kst()
     title = topic["title"]
     subtitle = topic["subtitle"]
@@ -284,7 +317,6 @@ def main():
     tags = topic.get("tags", [])
     category = topic.get("category", "English")
 
-    # internal links (last posts)
     internal_links = list_recent_posts(12)
 
     meta = {
@@ -301,18 +333,15 @@ def main():
         "description": subtitle,
     }
 
-    # 3) Generate body
     print(f"[generate_post] model={MODEL_NAME}, temp={TEMPERATURE}, title='{title}'")
     body_md = generate_body(title, subtitle, primary_kw, internal_links)
 
-    # 4) Sanity check & retry guard
     too_short = (not body_md) or (len(body_md.split()) < MIN_WORDS)
     if too_short:
         print("WARNING: Generated body seems too short. Retrying with fallback...", file=sys.stderr)
         body_md = call_openai(build_prompt(title, subtitle, primary_kw, internal_links),
                               model=FALLBACK_MODEL, temperature=0.7)
         if (not body_md) or (len(body_md.split()) < MIN_WORDS):
-            # Final safeguard: placeholder to avoid empty page
             body_md = f"""\
 **Temporary note**: Generation failed today. Here’s a short outline so the page isn’t empty.
 
@@ -330,11 +359,8 @@ def main():
 - …
 """
 
-    # 5) Write file
     out_path = write_post_file(meta, body_md)
     print(f"[generate_post] Wrote: {out_path}")
-
-    # 6) CI logs
     print(json.dumps({
         "file": str(out_path),
         "title": title,
