@@ -1,145 +1,236 @@
 import os
 import re
-import random
+import sys
+import json
+import yaml
+import datetime as dt
 from pathlib import Path
-from datetime import datetime
-from zoneinfo import ZoneInfo
 
+from openai import OpenAI
 import frontmatter
 
-# --- OpenAI (v0 스타일) ---
-# pip install openai
-import openai
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# ========= Editable defaults =========
+MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+TEMPERATURE = float(os.getenv("OPENAI_TEMPERATURE", "0.7"))
+MAX_TOKENS = int(os.getenv("OPENAI_MAX_TOKENS", "1200"))  # model may ignore
+POSTS_DIR = os.getenv("POSTS_DIR", "_posts")              # Jekyll default
+OUTPUT_EXT = os.getenv("OUTPUT_EXT", ".md")
+TIMEZONE = os.getenv("TIMEZONE", "Asia/Seoul")            # metadata only
+SITE_BASE_URL = os.getenv("SITE_BASE_URL", "https://example.github.io")
+# Optional topic config file (if absent, script falls back to defaults)
+TOPIC_CONFIG = os.getenv("TOPIC_CONFIG", "scripts/daily_config.yml")
+# =====================================
 
-# -----------------------------
-# 유틸
-# -----------------------------
-def to_slug(s: str) -> str:
-    s = s.lower().strip()
-    s = re.sub(r"[^\w\s-]", "", s)     # 특수문자 제거
-    s = re.sub(r"\s+", "-", s)         # 공백 -> 하이픈
-    s = re.sub(r"-+", "-", s)          # 연속 하이픈 -> 하나
-    return s
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+if not client:
+    print("ERROR: OPENAI_API_KEY is not set.", file=sys.stderr)
+    sys.exit(1)
 
-def choose_keyword(date_seed: str) -> dict:
+
+# ---------- Utilities ----------
+def today_kst() -> dt.datetime:
+    # GitHub Actions runner is UTC; for filename we usually want "today" (UTC).
+    # If you want strict KST date in filename, adjust hours (+9).
+    # Here we use KST for date stamp to match the user's local publish date.
+    return dt.datetime.utcnow() + dt.timedelta(hours=9)
+
+
+def slugify(text: str) -> str:
+    text = text.strip().lower()
+    text = re.sub(r"[^\w\s-]", "", text, flags=re.UNICODE)
+    text = re.sub(r"[\s_-]+", "-", text)
+    text = re.sub(r"^-+|-+$", "", text)
+    return text or "post"
+
+
+def load_topic_config(path: str) -> dict:
+    p = Path(path)
+    if not p.exists():
+        return {}
+    with p.open("r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    return data
+
+
+def ensure_dir(path: Path):
+    path.mkdir(parents=True, exist_ok=True)
+
+
+def pick_topic(config: dict) -> dict:
     """
-    날짜 기반으로 안정적으로 키워드 선택 (매일 다른 주제)
+    Structure of daily_config.yml (example):
+    ---
+    defaults:
+      category: "Dev"
+      tags: ["automation", "python"]
+      primary_keyword: "automation"
+    topics:
+      - title: "How to Automate Daily Writing with GitHub Actions"
+        subtitle: "From idea to published post"
+        primary_keyword: "github actions blog"
+        tags: ["github", "actions", "blog"]
+        category: "Automation"
     """
-    pool = [
-        {"cat": "English", "tagset": ["English", "Expressions", "Daily Conversation"], "kw": "daily native English expressions"},
-        {"cat": "Business English", "tagset": ["English", "Business", "Email"], "kw": "email expressions for work"},
-        {"cat": "Travel", "tagset": ["English", "Travel", "Airport"], "kw": "English phrases at the airport"},
-        {"cat": "Meetings", "tagset": ["English", "Meetings", "Office"], "kw": "useful English phrases for meetings"},
-        {"cat": "Feelings", "tagset": ["English", "Idioms", "Feelings"], "kw": "English idioms for emotions"},
-        {"cat": "Casual Talk", "tagset": ["English", "Slang", "Casual"], "kw": "casual English phrases with examples"},
-        {"cat": "Phone", "tagset": ["English", "Phone", "Conversation"], "kw": "phone call expressions in English"},
-        {"cat": "Restaurant", "tagset": ["English", "Restaurant", "Ordering"], "kw": "ordering food in English phrases"},
-    ]
-    # 날짜 문자열을 시드로 사용해 매일 같은 선택이 되게 함
-    rnd = random.Random(date_seed)
-    return rnd.choice(pool)
+    if not config:
+        return {
+            "title": "Automating Daily Writing with GitHub Actions",
+            "subtitle": "From idea capture to published post",
+            "primary_keyword": "GitHub Actions blog automation",
+            "tags": ["automation", "GitHub", "Python"],
+            "category": "Automation"
+        }
 
-# -----------------------------
-# 본문 생성 프롬프트
-# -----------------------------
-def build_prompt(title: str, subtitle: str, keyword: str):
-    return f"""
-You are writing an SEO-optimized blog post for a GitHub Pages (Jekyll) site.
-TITLE: {title}
-SUBTITLE: {subtitle}
-PRIMARY KEYWORD: {keyword}
+    defaults = config.get("defaults", {}) or {}
+    topics = config.get("topics", []) or []
 
-Write ONLY the markdown **body** (no front matter).
-Rules:
-- One friendly intro (50–80 words).
-- Then 5 sections (H2 level) each for ONE expression:
-  - H2: the expression (in quotes)
-  - 2–3 sentence explanation (concise, practical)
-  - 1–2 example lines in blockquote style
-  - A **Korean translation line** like: **Korean:** …
-- Use simple, natural, everyday English.
-- Keep it helpful for Korean learners.
-- Use <br /> between big blocks to improve readability.
-- End with a short, encouraging conclusion.
+    if topics:
+        # Simple rotation: pick by day of year
+        idx = (today_kst().timetuple().tm_yday - 1) % len(topics)
+        chosen = topics[idx]
+    else:
+        # Only defaults exist
+        chosen = {}
 
-Tone: warm, practical, native-like.
-"""
-
-# -----------------------------
-# 본문 생성 (OpenAI)
-# -----------------------------
-def generate_body(title: str, subtitle: str, keyword: str) -> str:
-    prompt = build_prompt(title, subtitle, keyword)
-
-    # gpt-4o-mini 예시 (기존 Actions 예제와 호환)
-    resp = openai.ChatCompletion.create(
-        model="gpt-4o-mini",
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.7,
-    )
-    return resp["choices"][0]["message"]["content"].strip()
-
-# -----------------------------
-# 메인 생성기
-# -----------------------------
-def main():
-    # 한국 시간 기준
-    now_kst = datetime.now(ZoneInfo("Asia/Seoul"))
-    date_ymd = now_kst.strftime("%Y-%m-%d")
-    date_full = now_kst.strftime("%Y-%m-%d %H:%M:%S")
-
-    # 키워드/카테고리/태그 선택
-    pick = choose_keyword(date_ymd)
-    category = pick["cat"]
-    tags = pick["tagset"]
-    primary_kw = pick["kw"]
-
-    # 제목/부제목
-    title = f"[English Expression] 5 Essential Daily Phrases You Should Know"
-    # 원하는 경우 날짜를 제목에 노출하려면 아래로 교체:
-    # title = f"[English Expression] 5 Essential Phrases ({date_ymd})"
-    subtitle = "Sound like a native speaker with these simple yet powerful expressions"
-
-    # 파일/에셋 경로
-    post_assets = f"/assets/posts/{date_ymd}"
-    # 파일명용 슬러그 (날짜 + 주제)
-    basename = f"{date_ymd}-daily-english-expression"
-    slug = to_slug(basename)
-
-    # 본문 생성
-    body_md = generate_body(title, subtitle, primary_kw)
-
-    # Front Matter 구성 (요청 양식 그대로)
-    fm = {
-        "layout": "post",
-        "title": title,
-        "subtitle": subtitle,
-        "date": date_full,
-        "author": "JacksonJang",
-        "post_assets": post_assets,
-        "catalog": True,
-        "categories": [category],
-        "tags": tags,
+    return {
+        "title": chosen.get("title") or "Daily Tech Notes",
+        "subtitle": chosen.get("subtitle") or "Practical notes for busy builders",
+        "primary_keyword": chosen.get("primary_keyword") or defaults.get("primary_keyword") or "software productivity",
+        "tags": chosen.get("tags") or defaults.get("tags") or ["notes", "dev"],
+        "category": chosen.get("category") or defaults.get("category") or "Notes",
     }
 
-    # 포스트 객체 생성
-    post = frontmatter.Post(body_md, **fm)
 
-    # 저장 경로: _posts/auto/YYYY-MM-DD-xxx.md
-    out_dir = Path("_posts/auto")
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / f"{slug}.md"
+# ---------- Prompting ----------
+def build_prompt(title: str, subtitle: str, keyword: str) -> str:
+    return f"""
+You are a concise, practical technical writer for a personal dev blog (GitHub Pages).
+Write a Markdown blog post in English that feels friendly and expert, optimized for SEO around the primary keyword: "{keyword}".
 
-    with open(out_path, "w", encoding="utf-8") as f:
-        frontmatter.dump(post, f)
+Constraints:
+- Target length: 600–900 words.
+- Use clear section headings (##), short paragraphs, and bullet lists where helpful.
+- Include 3–5 specific code or command snippets if relevant.
+- Start with a one-paragraph hook (2–3 sentences), no heading.
+- End with a brief "Takeaways" section using bullets.
+- Avoid fluffy filler and avoid hallucinating facts or APIs.
+- No self-promotion, no generic “as an AI model” phrasing.
 
-    print(f"✅ Auto post created: {out_path}")
+Blog meta:
+- Title: {title}
+- Subtitle: {subtitle}
+- Primary keyword: {keyword}
+
+Tone:
+- Clear, actionable, slightly playful but professional.
+- Assume readers are developers with limited time.
+
+Now produce only the Markdown body (no YAML front matter).
+    """.strip()
+
+
+def generate_body(title: str, subtitle: str, keyword: str) -> str:
+    prompt = build_prompt(title, subtitle, keyword)
+    resp = client.chat.completions.create(
+        model=MODEL_NAME,
+        temperature=TEMPERATURE,
+        messages=[
+            {"role": "system", "content": "You write crisp, accurate technical posts."},
+            {"role": "user", "content": prompt},
+        ],
+    )
+    content = resp.choices[0].message.content or ""
+    return content.strip()
+
+
+# ---------- File writers ----------
+def build_front_matter(meta: dict, body: str) -> frontmatter.Post:
+    """
+    Returns a frontmatter.Post with YAML FM and Markdown content.
+    Jekyll expects at least: layout, title, date.
+    """
+    post = frontmatter.Post(body)
+    # minimal set
+    post["layout"] = meta.get("layout", "post")
+    post["title"] = meta["title"]
+    post["subtitle"] = meta["subtitle"]
+    post["date"] = meta["date_iso"]
+    post["tags"] = meta.get("tags", [])
+    post["categories"] = [meta.get("category", "Notes")]
+    post["canonical_url"] = meta.get("canonical_url")
+    post["lang"] = meta.get("lang", "en")
+    post["timezone"] = TIMEZONE
+    # Optional SEO
+    post["description"] = meta.get("description") or meta["subtitle"]
+    post["keywords"] = meta.get("keywords") or meta.get("tags") or []
+    return post
+
+
+def write_post_file(meta: dict, body_md: str) -> Path:
+    ensure_dir(Path(POSTS_DIR))
+
+    date = meta["date_obj"]
+    slug = slugify(meta["title"])
+    filename = f"{date.strftime('%Y-%m-%d')}-{slug}{OUTPUT_EXT}"
+    out_path = Path(POSTS_DIR) / filename
+
+    post = build_front_matter(meta, body_md)
+    with out_path.open("w", encoding="utf-8") as f:
+        frontmatter.dump(post, f, sort_keys=False)
+
+    return out_path
+
+
+# ---------- Main ----------
+def main():
+    # 1) Load topic
+    config = load_topic_config(TOPIC_CONFIG)
+    topic = pick_topic(config)
+
+    # 2) Build meta
+    now_kst = today_kst()
+    title = topic["title"]
+    subtitle = topic["subtitle"]
+    primary_kw = topic["primary_keyword"]
+    tags = topic.get("tags", [])
+    category = topic.get("category", "Notes")
+
+    meta = {
+        "title": title,
+        "subtitle": subtitle,
+        "primary_keyword": primary_kw,
+        "tags": tags,
+        "category": category,
+        "date_obj": now_kst,
+        "date_iso": now_kst.strftime("%Y-%m-%d %H:%M:%S %z").strip(),
+        "canonical_url": f"{SITE_BASE_URL}/{now_kst.strftime('%Y')}/{now_kst.strftime('%m')}/{now_kst.strftime('%d')}/{slugify(title)}/",
+        "lang": "en",
+        "keywords": [primary_kw] + tags if primary_kw not in tags else tags,
+        "description": subtitle,
+    }
+
+    # 3) Generate body
+    print(f"[generate_post] model={MODEL_NAME}, temp={TEMPERATURE}, title='{title}'")
+    body_md = generate_body(title, subtitle, primary_kw)
+
+    if not body_md or len(body_md.split()) < 50:
+        print("WARNING: Generated body seems too short. Will still write the file.", file=sys.stderr)
+
+    # 4) Write file
+    out_path = write_post_file(meta, body_md)
+    print(f"[generate_post] Wrote: {out_path}")
+
+    # 5) Print minimal JSON for logs
+    print(json.dumps({
+        "file": str(out_path),
+        "title": title,
+        "tags": tags,
+        "category": category
+    }, ensure_ascii=False))
+
 
 if __name__ == "__main__":
-    """
-    GitHub Actions 예시와 함께 사용 가정:
-      - env: OPENAI_API_KEY
-      - pip: openai, python-frontmatter
-    """
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"[generate_post] ERROR: {e}", file=sys.stderr)
+        sys.exit(1)
