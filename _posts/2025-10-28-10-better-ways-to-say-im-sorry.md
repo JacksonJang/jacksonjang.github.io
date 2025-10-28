@@ -157,6 +157,3 @@ A: You could say "I messed up," "Let me make it up to you," or "I didn’t mean 
 - Acknowledge feelings to build understanding.
 - Offer solutions to make amends.
 - Reflect on your mistakes to improve future interactions.
-
-## Further reading
-- [템플릿](https://jacksonjang.github.io)
