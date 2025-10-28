@@ -183,8 +183,9 @@ def call_openai(messages, model=MODEL_NAME, temperature=TEMPERATURE, max_retries
                 model=model,
                 temperature=temperature,
                 messages=messages,
-                max_tokens=MAX_TOKENS
+                max_completion_tokens=MAX_TOKENS
             )
+
             return resp.choices[0].message.content.strip()
         except Exception as e:
             msg = str(e).lower()
