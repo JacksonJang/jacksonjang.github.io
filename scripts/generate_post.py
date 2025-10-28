@@ -9,12 +9,13 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 from urllib.request import urlopen, Request
 import xml.etree.ElementTree as ET
+from difflib import SequenceMatcher
 
 from openai import OpenAI
 import frontmatter
 
 # ========= Editable defaults =========
-MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-5")
+MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 FALLBACK_MODEL = os.getenv("OPENAI_FALLBACK_MODEL", "gpt-4o-mini")
 TEMPERATURE = 1.0  # gpt-5 only supports 1.0
 MAX_TOKENS = int(os.getenv("OPENAI_MAX_TOKENS", "1400"))
@@ -25,6 +26,13 @@ SITE_BASE_URL = os.getenv("SITE_BASE_URL", "https://jacksonjang.github.io")
 TOPIC_CONFIG = os.getenv("TOPIC_CONFIG", "scripts/daily_config.yml")
 MIN_WORDS = int(os.getenv("MIN_WORDS", "450"))
 INTERNAL_LINKS_COUNT = int(os.getenv("INTERNAL_LINKS_COUNT", "3"))
+
+# --- Similarity thresholds (tunable via env) ---
+SIM_RATIO_THRESHOLD = float(os.getenv("SIM_RATIO_THRESHOLD", "0.82"))      # SequenceMatcher
+SIM_JACCARD_THRESHOLD = float(os.getenv("SIM_JACCARD_THRESHOLD", "0.60"))  # token Jaccard
+
+# --- Used topics log file ---
+USED_TOPICS_PATH = os.getenv("USED_TOPICS_PATH", str(Path(POSTS_DIR) / ".used_topics.json"))
 
 # News options
 NEWS_LOOKBACK_HOURS = int(os.getenv("NEWS_LOOKBACK_HOURS", "72"))
@@ -43,10 +51,14 @@ if not client:
     print("ERROR: OPENAI_API_KEY is not set.", file=sys.stderr)
     sys.exit(1)
 
-# ---------- Utilities ----------
+# ---------- Time & IO ----------
 def today_kst() -> dt.datetime:
     return dt.datetime.now(ZoneInfo("Asia/Seoul"))
 
+def ensure_dir(path: Path):
+    path.mkdir(parents=True, exist_ok=True)
+
+# ---------- Normalization / Slug ----------
 def slugify(text: str) -> str:
     text = text.strip().lower()
     text = re.sub(r"[^\w\s-]", "", text)
@@ -54,9 +66,162 @@ def slugify(text: str) -> str:
     text = re.sub(r"^-+|-+$", "", text)
     return text or "post"
 
-def ensure_dir(path: Path):
-    path.mkdir(parents=True, exist_ok=True)
+def _clean_headline(h: str) -> str:
+    h = re.sub(r"\s*-\s*[A-Za-z0-9 .,'’“”&]+$", "", h)  # “ - Reuters”
+    h = re.sub(r"\s*\|.*$", "", h)                      # “ | BBC”
+    h = re.sub(r"\s*\(.*?\)\s*$", "", h)                # trailing parentheses
+    return h.strip()[:160]
 
+# ---------- Similarity helpers ----------
+_STOPWORDS = {
+    "a","an","the","to","of","in","on","for","and","or","but","with","by","at",
+    "from","as","is","are","was","were","be","been","being","that","this","those",
+    "these","it","its","into","over","about","after","before","up","down","out",
+    "off","than"
+}
+
+def _canonical_text(title: str | None, source_title: str | None) -> str:
+    """
+    유사도 비교용 표준 문자열:
+    - news_headline(=source_title)을 우선
+    - 없으면 title
+    - 둘 다 있으면 "source_title // title"
+    - 숫자 통일(14k -> 14000 변환 등 간단화), 기호 제거
+    """
+    parts = []
+    if source_title:
+        parts.append(_clean_headline(source_title))
+    if title:
+        parts.append(title)
+    text = " // ".join([p for p in parts if p]).lower()
+
+    # 숫자 단순 정규화: 14k -> 14000, 1.2m -> 1200000
+    def _expand_num(m):
+        num, suffix = m.group(1), m.group(2).lower()
+        try:
+            base = float(num.replace(",", ""))
+        except ValueError:
+            return m.group(0)
+        if suffix == "k":
+            base *= 1_000
+        elif suffix == "m":
+            base *= 1_000_000
+        elif suffix == "b":
+            base *= 1_000_000_000
+        return str(int(base))
+    text = re.sub(r"(\d+(?:\.\d+)?)([kKmMbB])\b", _expand_num, text)
+
+    # 기호 축소
+    text = re.sub(r"[^\w\s]", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+def _tokenize(s: str) -> set[str]:
+    toks = [t for t in re.split(r"\s+", s) if t]
+    toks = [t for t in toks if t not in _STOPWORDS]
+    return set(toks)
+
+def _seq_ratio(a: str, b: str) -> float:
+    return SequenceMatcher(None, a, b).ratio()
+
+def _jaccard(a: str, b: str) -> float:
+    A, B = _tokenize(a), _tokenize(b)
+    if not A and not B:
+        return 1.0
+    if not A or not B:
+        return 0.0
+    inter = len(A & B)
+    union = len(A | B)
+    return inter / union if union else 0.0
+
+def is_similar(a_text: str, b_text: str) -> bool:
+    r = _seq_ratio(a_text, b_text)
+    j = _jaccard(a_text, b_text)
+    return (r >= SIM_RATIO_THRESHOLD) or (j >= SIM_JACCARD_THRESHOLD)
+
+# ---------- Topic key ----------
+def _topic_key(title: str | None, source_title: str | None = None) -> str:
+    parts = []
+    if source_title:
+        parts.append(_clean_headline(source_title))
+    if title:
+        parts.append(title)
+    if not parts:
+        return ""
+    return slugify(" // ".join(parts))
+
+# ---------- Existing keys & used log ----------
+def _read_post_keys_from_file(fpath: Path) -> tuple[list[str], list[str]]:
+    """
+    returns: (keys, canonical_texts)
+    """
+    keys, ctexts = [], []
+    try:
+        post = frontmatter.load(fpath)
+        title = (post.get("title") or "").strip()
+        source_title = (post.get("source_title") or "").strip()
+        if title or source_title:
+            keys.append(_topic_key(title, source_title))
+            ctexts.append(_canonical_text(title, source_title))
+    except Exception:
+        stem = fpath.stem
+        try:
+            slug = "-".join(stem.split("-")[3:]) or stem
+        except Exception:
+            slug = stem
+        keys.append(slugify(slug))
+        ctexts.append(slugify(slug))
+    return [k for k in keys if k], [c for c in ctexts if c]
+
+def _load_used_topics(path: str) -> list[dict]:
+    p = Path(path)
+    if not p.exists():
+        return []
+    try:
+        with p.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data if isinstance(data, list) else []
+    except Exception:
+        return []
+
+def _save_used_topic(path: str, record: dict):
+    p = Path(path)
+    ensure_dir(p.parent)
+    data = _load_used_topics(path)
+    data.append(record)
+    with p.open("w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def collect_existing_topics(posts_dir: str, used_path: str):
+    """
+    returns:
+      existing_keys: set[str]
+      existing_canonicals: list[str]  (유사도 비교용)
+    """
+    existing_keys: set[str] = set()
+    existing_canonicals: list[str] = []
+
+    p = Path(posts_dir)
+    if p.exists():
+        for f in p.glob(f"*{OUTPUT_EXT}"):
+            keys, ctexts = _read_post_keys_from_file(f)
+            for k in keys:
+                if k:
+                    existing_keys.add(k)
+            existing_canonicals.extend(ctexts)
+
+    # used_topics 병합
+    for rec in _load_used_topics(used_path):
+        k = rec.get("key")
+        c = rec.get("canonical", "")
+        if k:
+            existing_keys.add(k)
+        if c:
+            existing_canonicals.append(c)
+
+    return existing_keys, existing_canonicals
+
+# ---------- Recent posts for internal links ----------
 def list_recent_posts(n=10):
     p = Path(POSTS_DIR)
     if not p.exists():
@@ -84,6 +249,7 @@ def list_recent_posts(n=10):
             continue
     return items
 
+# ---------- Config ----------
 def load_topic_config(path: str) -> dict:
     p = Path(path)
     if not p.exists():
@@ -92,7 +258,7 @@ def load_topic_config(path: str) -> dict:
         data = yaml.safe_load(f) or {}
     return data
 
-# ---------- News fetchers ----------
+# ---------- RSS ----------
 def _http_get(url: str, timeout=10) -> bytes:
     req = Request(url, headers={"User-Agent": "Mozilla/5.0 (DailyPostBot)"})
     with urlopen(req, timeout=timeout) as r:
@@ -136,31 +302,86 @@ def fetch_trending_news(feeds: list, lookback_hours: int, max_items: int) -> lis
     pool.sort(key=lambda x: x["published_ts"], reverse=True)
     return pool[:max_items]
 
-def _clean_headline(h: str) -> str:
-    h = re.sub(r"\s*-\s*[A-Za-z0-9 .,'’“”&]+$", "", h)
-    h = re.sub(r"\s*\|.*$", "", h)
-    h = re.sub(r"\s*\(.*?\)\s*$", "", h)
-    return h.strip()[:120]
+# ---------- Candidate evaluation (중복 + 유사도 회피) ----------
+def _dup_or_similar(candidate_title: str, candidate_source: str | None,
+                    existing_keys: set[str], existing_canonicals: list[str]) -> bool:
+    cand_key = _topic_key(candidate_title, candidate_source)
+    if cand_key in existing_keys:
+        return True
+    cand_canonical = _canonical_text(candidate_title, candidate_source)
+    for prev in existing_canonicals:
+        if is_similar(cand_canonical, prev):
+            return True
+    return False
 
-def choose_news_topic(news_items: list) -> dict | None:
+# ---------- Topic choosers ----------
+def choose_news_topic(news_items: list, existing_keys: set[str], existing_canonicals: list[str]) -> dict | None:
     if not news_items:
         return None
     idx = (today_kst().timetuple().tm_yday - 1) % len(news_items)
-    chosen = news_items[idx]
-    headline = _clean_headline(chosen["title"])
-    link = chosen["link"]
-    # 한국어 메타
+
+    for i in range(len(news_items)):
+        cand = news_items[(idx + i) % len(news_items)]
+        headline = _clean_headline(cand["title"])
+        title = f"뉴스로 배우는 영어: {headline}"
+        if not _dup_or_similar(title, headline, existing_keys, existing_canonicals):
+            return {
+                "title": title,
+                "subtitle": "실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현",
+                "primary_keyword": f"뉴스 영어표현 {headline.lower()}",
+                "tags": ["영어", "표현", "뉴스영어", "ESL"],
+                "category": "English",
+                "news_headline": headline,
+                "news_link": cand["link"]
+            }
+    return None
+
+def pick_topic_from_config_or_builtin(config: dict, existing_keys: set[str], existing_canonicals: list[str]) -> dict:
+    builtin = [
+        {
+            "title": "사과를 더 자연스럽게 말하는 10가지 표현",
+            "subtitle": "I'm sorry 대신 진짜 상황에 맞는 표현",
+            "primary_keyword": "사과 영어표현",
+            "tags": ["영어", "표현", "사과"],
+            "category": "English"
+        },
+        {
+            "title": "Very 대신 쓸 수 있는 힘 있는 단어 25",
+            "subtitle": "단문으로 더 또렷하게",
+            "primary_keyword": "very 대체 표현",
+            "tags": ["영어", "어휘", "라이팅"],
+            "category": "English"
+        },
+    ]
+    defaults = (config.get("defaults") or {})
+    topics = (config.get("topics") or []) or builtin
+    idx = (today_kst().timetuple().tm_yday - 1) % len(topics)
+
+    for i in range(len(topics)):
+        cand = topics[(idx + i) % len(topics)]
+        title = cand.get("title") or "요즘 뉴스로 배우는 영어표현"
+        if not _dup_or_similar(title, None, existing_keys, existing_canonicals):
+            return {
+                "title": title,
+                "subtitle": cand.get("subtitle") or "실전 중심, 간결한 설명",
+                "primary_keyword": cand.get("primary_keyword") or defaults.get("primary_keyword") or "영어 표현",
+                "tags": cand.get("tags") or defaults.get("tags") or ["영어", "표현"],
+                "category": cand.get("category") or defaults.get("category") or "English",
+            }
+
+    # 모두 유사/중복이면 날짜 suffix로 강제 유일화
+    today = today_kst().strftime("%Y-%m-%d")
+    base = topics[idx]
+    base_title = (base.get("title") or "영어 표현 업데이트") + f" - {today}"
     return {
-        "title": f"뉴스로 배우는 영어: {headline}",
-        "subtitle": "실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현",
-        "primary_keyword": f"뉴스 영어표현 {headline.lower()}",
-        "tags": ["영어", "표현", "뉴스영어", "ESL"],
-        "category": "English",
-        "news_headline": headline,
-        "news_link": link
+        "title": base_title,
+        "subtitle": base.get("subtitle") or "실전 중심, 간결한 설명",
+        "primary_keyword": base.get("primary_keyword") or "영어 표현",
+        "tags": base.get("tags") or ["영어", "표현"],
+        "category": base.get("category") or "English",
     }
 
-# ---------- Prompting (한국어) ----------
+# ---------- Prompting ----------
 def build_prompt(title: str, subtitle: str, keyword: str, internal_links: list, news_meta: dict | None) -> str:
     links_md = ""
     if internal_links:
@@ -300,7 +521,7 @@ def build_front_matter(meta: dict, body: str) -> frontmatter.Post:
     post["tags"] = meta.get("tags", [])
     post["categories"] = [meta.get("category", "English")]
     post["canonical_url"] = meta.get("canonical_url")
-    post["lang"] = "ko"  # 한국어로 변경
+    post["lang"] = "ko"
     post["timezone"] = TIMEZONE
     post["description"] = meta.get("description") or meta["subtitle"]
     post["keywords"] = meta.get("keywords") or meta.get("tags") or []
@@ -331,8 +552,8 @@ def write_post_file(meta: dict, body_md: str) -> Path:
         f.write(text)
     return out_path
 
-# ---------- Topic selection fallback ----------
-def pick_topic_from_config_or_builtin(config: dict) -> dict:
+# ---------- Builtins for fallback ----------
+def load_config_topics(config: dict) -> list[dict]:
     builtin = [
         {
             "title": "사과를 더 자연스럽게 말하는 10가지 표현",
@@ -349,25 +570,18 @@ def pick_topic_from_config_or_builtin(config: dict) -> dict:
             "category": "English"
         },
     ]
-    defaults = (config.get("defaults") or {})
-    topics = (config.get("topics") or []) or builtin
-    idx = (today_kst().timetuple().tm_yday - 1) % len(topics)
-    chosen = topics[idx]
-    return {
-        "title": chosen.get("title") or "요즘 뉴스로 배우는 영어표현",
-        "subtitle": chosen.get("subtitle") or "실전 중심, 간결한 설명",
-        "primary_keyword": chosen.get("primary_keyword") or defaults.get("primary_keyword") or "영어 표현",
-        "tags": chosen.get("tags") or defaults.get("tags") or ["영어", "표현"],
-        "category": chosen.get("category") or defaults.get("category") or "English",
-    }
+    topics = (config.get("topics") or [])
+    return topics or builtin
 
 # ---------- Main ----------
 def main():
     config = load_topic_config(TOPIC_CONFIG)
+    existing_keys, existing_canonicals = collect_existing_topics(POSTS_DIR, USED_TOPICS_PATH)
+
     news_items = fetch_trending_news(NEWS_FEEDS, NEWS_LOOKBACK_HOURS, NEWS_MAX_ITEMS)
-    topic = choose_news_topic(news_items)
+    topic = choose_news_topic(news_items, existing_keys, existing_canonicals)
     if not topic:
-        topic = pick_topic_from_config_or_builtin(config)
+        topic = pick_topic_from_config_or_builtin(config, existing_keys, existing_canonicals)
 
     now_kst = today_kst()
     internal_links = list_recent_posts(12)
@@ -387,6 +601,10 @@ def main():
         "news_link": topic.get("news_link"),
         "news_headline": topic.get("news_headline"),
     }
+
+    # 최종 충돌 방지(키 + 유사도)
+    if _dup_or_similar(meta["title"], meta.get("news_headline"), existing_keys, existing_canonicals):
+        meta["title"] = f"{meta['title']} - {now_kst.strftime('%Y-%m-%d')}"
 
     print(f"[generate_post] model={MODEL_NAME}, temp={TEMPERATURE}, title='{meta['title']}'")
 
@@ -418,6 +636,19 @@ def main():
 
     out_path = write_post_file(meta, body_md)
     print(f"[generate_post] Wrote: {out_path}")
+
+    # ---- used_topics.json에 기록 ----
+    used_record = {
+        "timestamp": int(time.time()),
+        "date_iso": meta["date_iso"],
+        "key": _topic_key(meta["title"], meta.get("news_headline")),
+        "title": meta["title"],
+        "source_title": meta.get("news_headline") or "",
+        "canonical": _canonical_text(meta["title"], meta.get("news_headline")),
+        "canonical_url": meta["canonical_url"],
+    }
+    _save_used_topic(USED_TOPICS_PATH, used_record)
+
     print(json.dumps({
         "file": str(out_path),
         "title": meta["title"],
@@ -425,6 +656,7 @@ def main():
         "category": meta["category"],
         "news_headline": meta.get("news_headline"),
         "news_link": meta.get("news_link"),
+        "used_log": USED_TOPICS_PATH
     }, ensure_ascii=False))
 
 if __name__ == "__main__":
