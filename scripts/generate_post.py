@@ -11,8 +11,8 @@ import frontmatter
 
 # ========= Editable defaults =========
 MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-5")
-TEMPERATURE = float(os.getenv("OPENAI_TEMPERATURE", "0.7"))
-MAX_TOKENS = int(os.getenv("OPENAI_MAX_TOKENS", "1200"))  # model may ignore
+TEMPERATURE = 1.0
+MAX_TOKENS = int(os.getenv("OPENAI_MAX_TOKENS", "1200"))
 POSTS_DIR = os.getenv("POSTS_DIR", "_posts")              # Jekyll default
 OUTPUT_EXT = os.getenv("OUTPUT_EXT", ".md")
 TIMEZONE = os.getenv("TIMEZONE", "Asia/Seoul")            # metadata only
