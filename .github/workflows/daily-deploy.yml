@@ -1,4 +1,4 @@
-name: Deploy Jekyll with Chirpy
+name: Auto Daily Deploy
 
 on:
   workflow_run:
