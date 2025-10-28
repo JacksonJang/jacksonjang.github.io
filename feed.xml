@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-28T21:05:21+09:00</updated>
+  <updated>2025-10-28T21:12:41+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>10 Better Ways to Say “I’m sorry”</title>
+    <link href="/posts/10-better-ways-to-say-im-sorry/" rel="alternate" type="text/html" title="10 Better Ways to Say “I’m sorry”" />
+    <published>2025-10-28T21:06:06+09:00</published>
+  
+    <updated>2025-10-28T21:06:06+09:00</updated>
+  
+    <id>/posts/10-better-ways-to-say-im-sorry/</id>
+    <content type="text/html" src="/posts/10-better-ways-to-say-im-sorry/" />
+    <author>
+      <name>Jacksonjang</name>
+    </author>
+
+  
+    
+    <category term="English" />
+    
+  
+
+  <summary>Natural apologies for real life</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>JavaScript 의 null, undefined 알아보기 undefined 의미 JavaScript에서 undefined는 변수를 선언하고 값을 할당하지 않은 상태를 의미합니다. let x;    null 의미 null은 변수를 선언하고 빈 값을 할당한 상태입니다. let x = null;    위 차이에 대해 구분하는 테스트하기(typeof 사용) JavaScript에서는 typeof 라는 연산자가 있습니다.  이 연산자를 이용해서 타입들에 대해 볼 수 있는데 아래와 같이 Console 창에서 바로 확인 가능합니다.    typeof null         // &amp;#39;object&amp;#39; typeof undefined    // &amp;#39;undefined&amp;#39; typeof 1            // &amp;#39;number&amp;#39; ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[SwiftUI] @ObservedObject vs @StateObject</title>
-    <link href="/posts/ObservedObject-vs-StateObject/" rel="alternate" type="text/html" title="[SwiftUI] @ObservedObject vs @StateObject" />
-    <published>2024-08-06T04:00:00+09:00</published>
-  
-    <updated>2024-08-06T04:00:00+09:00</updated>
-  
-    <id>/posts/ObservedObject-vs-StateObject/</id>
-    <content type="text/html" src="/posts/ObservedObject-vs-StateObject/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="iOS" />
-    
-  
-
-  <summary>핵심 정리    공통점 : 객체의 상태 변화를 감지하고 뷰를 업데이트하는 데 사용되는 속성 래퍼입니다.   @StateObject는 부모 뷰가 직접 객체를 소유하고 관리합니다.   @ObservedObject는 부모 뷰에서 객체를 관찰하고 업데이트를 반영합니다.   ObservableObject 란? @StateObject 와 @ObservedObject에 대해 알기 전에 우선적으로 ObservableObject 라는 프로토콜에 대해 이해할 필요가 있습니다.  @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) public protocol ObservableObject : AnyObject {      /// The type of publishe...</summary>
 
   </entry>
 
