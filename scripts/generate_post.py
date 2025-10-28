@@ -7,6 +7,7 @@ import time
 import random
 import datetime as dt
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from openai import OpenAI
 import frontmatter
@@ -14,15 +15,15 @@ import frontmatter
 # ========= Editable defaults =========
 MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-5")
 FALLBACK_MODEL = os.getenv("OPENAI_FALLBACK_MODEL", "gpt-4o-mini")
-TEMPERATURE = 1.0
+TEMPERATURE = 1.0  # gpt-5 only supports 1.0
 MAX_TOKENS = int(os.getenv("OPENAI_MAX_TOKENS", "1400"))
 POSTS_DIR = os.getenv("POSTS_DIR", "_posts")              # Jekyll default
 OUTPUT_EXT = os.getenv("OUTPUT_EXT", ".md")
 TIMEZONE = os.getenv("TIMEZONE", "Asia/Seoul")
 SITE_BASE_URL = os.getenv("SITE_BASE_URL", "https://jacksonjang.github.io")
 TOPIC_CONFIG = os.getenv("TOPIC_CONFIG", "scripts/daily_config.yml")
-MIN_WORDS = 450  # 안전 하한
-INTERNAL_LINKS_COUNT = 3
+MIN_WORDS = int(os.getenv("MIN_WORDS", "650"))  # safer lower bound for ESL posts
+INTERNAL_LINKS_COUNT = int(os.getenv("INTERNAL_LINKS_COUNT", "3"))
 # =====================================
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -33,7 +34,7 @@ if not client:
 
 # ---------- Utilities ----------
 def today_kst() -> dt.datetime:
-    return dt.datetime.utcnow() + dt.timedelta(hours=9)
+    return dt.datetime.now(ZoneInfo("Asia/Seoul"))
 
 def slugify(text: str) -> str:
     text = text.strip().lower()
@@ -58,14 +59,15 @@ def list_recent_posts(n=10):
             date_str = post.get("date")
             if not title or not date_str:
                 continue
-            # Canonical URL이 있으면 사용, 없으면 추정
             canonical = post.get("canonical_url")
             if not canonical:
-                # from filename: YYYY-MM-DD-slug.ext
-                stem = f.stem
-                y, m, d, *_ = stem.split("-")
-                slug = "-".join(stem.split("-")[3:])
-                canonical = f"{SITE_BASE_URL}/{y}/{m}/{d}/{slug}/"
+                stem = f.stem  # YYYY-MM-DD-slug
+                try:
+                    y, m, d, *_ = stem.split("-")
+                    slug = "-".join(stem.split("-")[3:])
+                    canonical = f"{SITE_BASE_URL}/{y}/{m}/{d}/{slug}/"
+                except Exception:
+                    canonical = SITE_BASE_URL
             items.append({"title": title, "url": canonical})
         except Exception:
             continue
@@ -94,7 +96,6 @@ def pick_topic(config: dict) -> dict:
         tags: ["english", "alternatives", "speaking"]
         category: "English"
     """
-    # Built-in rotation buckets if config is missing/empty
     builtin = [
         {
             "title": "10 Better Ways to Say “I’m sorry”",
@@ -175,42 +176,59 @@ At the end, add this section verbatim if list is non-empty:
     """.strip()
 
 
-def call_openai(messages, model=MODEL_NAME, temperature=TEMPERATURE, max_retries=4):
+def _extract_text_from_response(resp) -> str:
+    """Handle various SDK response shapes robustly."""
+    try:
+        # 1) Preferred helper (OpenAI SDK v1+)
+        text = (getattr(resp, "output_text", None) or "").strip()
+        if text:
+            return text
+        # 2) Walk generic content tree
+        if hasattr(resp, "output") and resp.output:
+            parts = []
+            for block in resp.output:
+                for c in getattr(block, "content", []) or []:
+                    if getattr(c, "type", "") == "output_text" and getattr(c, "text", ""):
+                        parts.append(c.text)
+            return "\n".join(parts).strip()
+    except Exception:
+        pass
+    return ""
+
+
+def call_openai(prompt: str, model=MODEL_NAME, temperature=TEMPERATURE, max_retries=4) -> str:
     delay = 3
+    active_model = model
+    active_temp = temperature
     for attempt in range(max_retries):
         try:
-            # messages 형식을 그대로 input으로 넘길 수 있어요.
-            # (SDK v1.40+ 기준)
             resp = client.responses.create(
-                model=model,
-                temperature=temperature,
-                input=messages,                 
-                max_output_tokens=MAX_TOKENS
+                model=active_model,
+                modalities=["text"],
+                input=prompt,                 # String prompt (safer)
+                temperature=active_temp,      # gpt-5 only supports 1.0
+                max_output_tokens=MAX_TOKENS,
             )
-            content = (resp.output_text or "").strip()  # ✅ 핵심
-            if not content:
-                print("[generate_post] WARN: empty output_text; raw response below:", file=sys.stderr)
-                print(resp, file=sys.stderr)
-            return content
+            text = _extract_text_from_response(resp)
+            if not text:
+                raise RuntimeError("empty_output_text")
+            return text
         except Exception as e:
             msg = str(e).lower()
-            if "insufficient_quota" in msg or "rate" in msg or "429" in msg:
+            if any(key in msg for key in ["rate", "429", "quota", "empty_output_text", "unsupported_value"]):
                 time.sleep(delay)
                 delay = min(delay * 2, 30)
-                if attempt >= max_retries // 2 and model != FALLBACK_MODEL:
-                    model = FALLBACK_MODEL
-                    # Responses API에서 fallback은 temperature 자유도가 보통 더 큼
-                    temperature = 0.7
+                # After half attempts, force fallback
+                if attempt >= max_retries // 2 and active_model != FALLBACK_MODEL:
+                    active_model = FALLBACK_MODEL
+                    active_temp = 0.7  # 4o-mini supports standard temps
                 continue
             raise
 
+
 def generate_body(title: str, subtitle: str, keyword: str, internal_links: list) -> str:
     prompt = build_prompt(title, subtitle, keyword, internal_links)
-    messages = [
-        {"role": "system", "content": "You write clear, accurate ESL posts that feel helpful, modern, and concise."},
-        {"role": "user", "content": prompt},
-    ]
-    content = call_openai(messages)
+    content = call_openai(prompt)
     return content
 
 
@@ -287,9 +305,30 @@ def main():
     print(f"[generate_post] model={MODEL_NAME}, temp={TEMPERATURE}, title='{title}'")
     body_md = generate_body(title, subtitle, primary_kw, internal_links)
 
-    # 4) Basic sanity check
-    if not body_md or len(body_md.split()) < MIN_WORDS:
-        print("WARNING: Generated body seems too short.", file=sys.stderr)
+    # 4) Sanity check & retry guard
+    too_short = (not body_md) or (len(body_md.split()) < MIN_WORDS)
+    if too_short:
+        print("WARNING: Generated body seems too short. Retrying with fallback...", file=sys.stderr)
+        body_md = call_openai(build_prompt(title, subtitle, primary_kw, internal_links),
+                              model=FALLBACK_MODEL, temperature=0.7)
+        if (not body_md) or (len(body_md.split()) < MIN_WORDS):
+            # Final safeguard: placeholder to avoid empty page
+            body_md = f"""\
+**Temporary note**: Generation failed today. Here’s a short outline so the page isn’t empty.
+
+## Meaning & Nuance
+- A post about "{primary_kw}" will be here.
+
+## Top Alternatives
+- Coming soon.
+
+## Mini Dialogue
+- A: …
+- B: …
+
+## Takeaways
+- …
+"""
 
     # 5) Write file
     out_path = write_post_file(meta, body_md)

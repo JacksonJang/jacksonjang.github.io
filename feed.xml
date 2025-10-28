@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-28T21:12:41+09:00</updated>
+  <updated>2025-10-28T21:21:47+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>10 Better Ways to Say “I’m sorry”</title>
+    <link href="/posts/10-better-ways-to-say-im-sorry-2/" rel="alternate" type="text/html" title="10 Better Ways to Say “I’m sorry”" />
+    <published>2025-10-28T21:12:50+09:00</published>
+  
+    <updated>2025-10-28T21:12:50+09:00</updated>
+  
+    <id>/posts/10-better-ways-to-say-im-sorry-2/</id>
+    <content type="text/html" src="/posts/10-better-ways-to-say-im-sorry-2/" />
+    <author>
+      <name>Jacksonjang</name>
+    </author>
+
+  
+    
+    <category term="English" />
+    
+  
+
+  <summary>Natural apologies for real life</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>왜 필요해요? 프로젝트를 진행하다 보면 에러 응답 포맷을 변경해야 하는 상황이 생길 수 있습니다. 예를 들어, 고객 요구사항 변경, 공통 응답 규격 개편, 코드 리팩터링 등..  이때 모든 컨트롤러에 동일한 보일러플레이트 코드가 존재해서 수정할 때 유지보수 비용이 커집니다.    try-catch 문 @RestController public class TryCatchController {    @GetMapping(&amp;quot;/tryCatch&amp;quot;)   public String tryCatch() {     try {       throw new IllegalArgumentException(&amp;quot;IllegalArgument 에러&amp;quot;);     } catch (Exception e) {       return &amp;quot;에러가 발...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[JavaScript] null vs undefined 차이 제대로 알기</title>
-    <link href="/posts/js-null-undefined/" rel="alternate" type="text/html" title="[JavaScript] null vs undefined 차이 제대로 알기" />
-    <published>2025-07-28T03:00:00+09:00</published>
-  
-    <updated>2025-07-28T03:00:00+09:00</updated>
-  
-    <id>/posts/js-null-undefined/</id>
-    <content type="text/html" src="/posts/js-null-undefined/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="JavaScript" />
-    
-  
-
-  <summary>JavaScript 의 null, undefined 알아보기 undefined 의미 JavaScript에서 undefined는 변수를 선언하고 값을 할당하지 않은 상태를 의미합니다. let x;    null 의미 null은 변수를 선언하고 빈 값을 할당한 상태입니다. let x = null;    위 차이에 대해 구분하는 테스트하기(typeof 사용) JavaScript에서는 typeof 라는 연산자가 있습니다.  이 연산자를 이용해서 타입들에 대해 볼 수 있는데 아래와 같이 Console 창에서 바로 확인 가능합니다.    typeof null         // &amp;#39;object&amp;#39; typeof undefined    // &amp;#39;undefined&amp;#39; typeof 1            // &amp;#39;number&amp;#39; ...</summary>
 
   </entry>
 
