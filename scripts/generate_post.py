@@ -18,12 +18,12 @@ MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-5")
 FALLBACK_MODEL = os.getenv("OPENAI_FALLBACK_MODEL", "gpt-4o-mini")
 TEMPERATURE = 1.0  # gpt-5 only supports 1.0
 MAX_TOKENS = int(os.getenv("OPENAI_MAX_TOKENS", "1400"))
-POSTS_DIR = os.getenv("POSTS_DIR", "_posts")
+POSTS_DIR = os.getenv("POSTS_DIR", "_posts/auto")
 OUTPUT_EXT = os.getenv("OUTPUT_EXT", ".md")
 TIMEZONE = os.getenv("TIMEZONE", "Asia/Seoul")
 SITE_BASE_URL = os.getenv("SITE_BASE_URL", "https://jacksonjang.github.io")
 TOPIC_CONFIG = os.getenv("TOPIC_CONFIG", "scripts/daily_config.yml")
-MIN_WORDS = int(os.getenv("MIN_WORDS", "650"))
+MIN_WORDS = int(os.getenv("MIN_WORDS", "450"))
 INTERNAL_LINKS_COUNT = int(os.getenv("INTERNAL_LINKS_COUNT", "3"))
 
 # News options
