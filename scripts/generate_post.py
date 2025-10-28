@@ -10,7 +10,7 @@ from openai import OpenAI
 import frontmatter
 
 # ========= Editable defaults =========
-MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-5")
 TEMPERATURE = float(os.getenv("OPENAI_TEMPERATURE", "0.7"))
 MAX_TOKENS = int(os.getenv("OPENAI_MAX_TOKENS", "1200"))  # model may ignore
 POSTS_DIR = os.getenv("POSTS_DIR", "_posts")              # Jekyll default
@@ -174,8 +174,11 @@ def write_post_file(meta: dict, body_md: str) -> Path:
     out_path = Path(POSTS_DIR) / filename
 
     post = build_front_matter(meta, body_md)
+    
+    text = frontmatter.dumps(post, sort_keys=False)
+
     with out_path.open("w", encoding="utf-8") as f:
-        frontmatter.dump(post, f, sort_keys=False)
+        f.write(text)
 
     return out_path
 
