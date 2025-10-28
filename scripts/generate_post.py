@@ -179,23 +179,28 @@ def call_openai(messages, model=MODEL_NAME, temperature=TEMPERATURE, max_retries
     delay = 3
     for attempt in range(max_retries):
         try:
-            resp = client.chat.completions.create(
+            # messages 형식을 그대로 input으로 넘길 수 있어요.
+            # (SDK v1.40+ 기준)
+            resp = client.responses.create(
                 model=model,
                 temperature=temperature,
-                messages=messages,
-                max_completion_tokens=MAX_TOKENS
+                input=messages,                 
+                max_output_tokens=MAX_TOKENS
             )
-
-            return resp.choices[0].message.content.strip()
+            content = (resp.output_text or "").strip()  # ✅ 핵심
+            if not content:
+                print("[generate_post] WARN: empty output_text; raw response below:", file=sys.stderr)
+                print(resp, file=sys.stderr)
+            return content
         except Exception as e:
             msg = str(e).lower()
             if "insufficient_quota" in msg or "rate" in msg or "429" in msg:
                 time.sleep(delay)
                 delay = min(delay * 2, 30)
-                # simple fallback once we hit half of retries
                 if attempt >= max_retries // 2 and model != FALLBACK_MODEL:
                     model = FALLBACK_MODEL
-                    temperature = 0.7  # fallback model 보통 허용
+                    # Responses API에서 fallback은 temperature 자유도가 보통 더 큼
+                    temperature = 0.7
                 continue
             raise
 
