@@ -8,7 +8,6 @@ import datetime as dt
 from pathlib import Path
 from zoneinfo import ZoneInfo
 from urllib.request import urlopen, Request
-from urllib.parse import quote
 import xml.etree.ElementTree as ET
 
 from openai import OpenAI
@@ -19,7 +18,7 @@ MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-5")
 FALLBACK_MODEL = os.getenv("OPENAI_FALLBACK_MODEL", "gpt-4o-mini")
 TEMPERATURE = 1.0  # gpt-5 only supports 1.0
 MAX_TOKENS = int(os.getenv("OPENAI_MAX_TOKENS", "1400"))
-POSTS_DIR = os.getenv("POSTS_DIR", "_posts/auto")
+POSTS_DIR = os.getenv("POSTS_DIR", "_posts")
 OUTPUT_EXT = os.getenv("OUTPUT_EXT", ".md")
 TIMEZONE = os.getenv("TIMEZONE", "Asia/Seoul")
 SITE_BASE_URL = os.getenv("SITE_BASE_URL", "https://jacksonjang.github.io")
@@ -27,16 +26,13 @@ TOPIC_CONFIG = os.getenv("TOPIC_CONFIG", "scripts/daily_config.yml")
 MIN_WORDS = int(os.getenv("MIN_WORDS", "650"))
 INTERNAL_LINKS_COUNT = int(os.getenv("INTERNAL_LINKS_COUNT", "3"))
 
-# News options (환경변수로 커스터마이즈 가능)
+# News options
 NEWS_LOOKBACK_HOURS = int(os.getenv("NEWS_LOOKBACK_HOURS", "72"))
 NEWS_MAX_ITEMS = int(os.getenv("NEWS_MAX_ITEMS", "50"))
-
-# 기본 RSS 목록 (API 키 불필요)
 DEFAULT_NEWS_FEEDS = [
     "https://feeds.reuters.com/reuters/topNews",
     "https://feeds.bbci.co.uk/news/world/rss.xml",
-    # Google News 글로벌 Top (영문). 지역/언어 바꾸고 싶으면 NID 인자 생략하고 hl, gl만 사용
-    f"https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en",
 ]
 USER_NEWS_FEEDS = [u for u in (os.getenv("NEWS_FEEDS", "").split(",")) if u.strip()]
 NEWS_FEEDS = USER_NEWS_FEEDS or DEFAULT_NEWS_FEEDS
@@ -46,7 +42,6 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 if not client:
     print("ERROR: OPENAI_API_KEY is not set.", file=sys.stderr)
     sys.exit(1)
-
 
 # ---------- Utilities ----------
 def today_kst() -> dt.datetime:
@@ -77,7 +72,7 @@ def list_recent_posts(n=10):
                 continue
             canonical = post.get("canonical_url")
             if not canonical:
-                stem = f.stem  # YYYY-MM-DD-slug
+                stem = f.stem
                 try:
                     y, m, d, *_ = stem.split("-")
                     slug = "-".join(stem.split("-")[3:])
@@ -97,7 +92,6 @@ def load_topic_config(path: str) -> dict:
         data = yaml.safe_load(f) or {}
     return data
 
-
 # ---------- News fetchers ----------
 def _http_get(url: str, timeout=10) -> bytes:
     req = Request(url, headers={"User-Agent": "Mozilla/5.0 (DailyPostBot)"})
@@ -105,16 +99,11 @@ def _http_get(url: str, timeout=10) -> bytes:
         return r.read()
 
 def _parse_rss(xml_bytes: bytes) -> list:
-    """
-    Returns list of dicts: {title, link, published_ts}
-    """
     out = []
     try:
         root = ET.fromstring(xml_bytes)
     except ET.ParseError:
         return out
-
-    # RSS items live under channel/item
     for item in root.findall(".//item"):
         title = (item.findtext("title") or "").strip()
         link = (item.findtext("link") or "").strip()
@@ -125,9 +114,7 @@ def _parse_rss(xml_bytes: bytes) -> list:
     return out
 
 def _parse_pubdate(pubdate: str) -> float:
-    # Try common RFC822-like formats; fallback to now
     try:
-        # Example: Tue, 28 Oct 2025 09:34:00 GMT
         from email.utils import parsedate_to_datetime
         dt_obj = parsedate_to_datetime(pubdate)
         return dt_obj.timestamp()
@@ -146,40 +133,34 @@ def fetch_trending_news(feeds: list, lookback_hours: int, max_items: int) -> lis
                     pool.append(it)
         except Exception:
             continue
-    # 정렬: 최신순
     pool.sort(key=lambda x: x["published_ts"], reverse=True)
     return pool[:max_items]
 
+def _clean_headline(h: str) -> str:
+    h = re.sub(r"\s*-\s*[A-Za-z0-9 .,'’“”&]+$", "", h)
+    h = re.sub(r"\s*\|.*$", "", h)
+    h = re.sub(r"\s*\(.*?\)\s*$", "", h)
+    return h.strip()[:120]
+
 def choose_news_topic(news_items: list) -> dict | None:
-    """
-    Deterministically choose one item by day-of-year to keep daily stability.
-    """
     if not news_items:
         return None
     idx = (today_kst().timetuple().tm_yday - 1) % len(news_items)
     chosen = news_items[idx]
     headline = _clean_headline(chosen["title"])
     link = chosen["link"]
-    # ESL 주제 메타 구성
+    # 한국어 메타
     return {
-        "title": f"Talking About: {headline}",
-        "subtitle": "Practical English for discussing today’s news (no fluff, just useful phrases)",
-        "primary_keyword": f"english phrases about {headline.lower()}",
-        "tags": ["english", "news", "phrases", "real-world"],
+        "title": f"요즘 뉴스로 배우는 영어표현: {headline}",
+        "subtitle": "실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현",
+        "primary_keyword": f"뉴스 영어표현 {headline.lower()}",
+        "tags": ["영어", "표현", "뉴스영어", "ESL"],
         "category": "English",
         "news_headline": headline,
         "news_link": link
     }
 
-def _clean_headline(h: str) -> str:
-    # 괄호나 매체명, 너무 긴 꼬리 제거
-    h = re.sub(r"\s*-\s*[A-Za-z0-9 .,'’“”&]+$", "", h)      # " - Reuters" 꼬리 제거
-    h = re.sub(r"\s*\|.*$", "", h)                           # " | BBC News" 꼬리 제거
-    h = re.sub(r"\s*\(.*?\)\s*$", "", h)                     # 말미 괄호 제거
-    return h.strip()[:120]
-
-
-# ---------- Prompting ----------
+# ---------- Prompting (한국어) ----------
 def build_prompt(title: str, subtitle: str, keyword: str, internal_links: list, news_meta: dict | None) -> str:
     links_md = ""
     if internal_links:
@@ -187,43 +168,43 @@ def build_prompt(title: str, subtitle: str, keyword: str, internal_links: list, 
 
     news_context = ""
     if news_meta:
-        # 뉴스 텍스트를 직접 인용하지 말고 '주제'로만 활용하도록 분명히 지시
         news_context = f"""
-Context (do NOT quote any article; paraphrase broadly):
-- Today’s theme: "{news_meta.get('news_headline','')}"
-- Reference link (for background only, do not quote): {news_meta.get('news_link','')}
-"""
+배경(기사 전문을 인용하지 말고, 주제만 참고):
+- 오늘의 이슈: "{news_meta.get('news_headline','')}"
+- 참고 링크(인용 금지, 맥락만 파악용): {news_meta.get('news_link','')}
+""".strip()
 
     return f"""
-You are a crisp, practical ESL content writer for a GitHub Pages blog.
-Write in **English** only. Optimize for the primary SEO keyword: "{keyword}".
+당신은 한국어로 글을 쓰는 실용적인 ESL(영어 학습) 콘텐츠 라이터입니다.
+본문은 **한국어**로 설명하되, 예시 문장은 **영어 문장 + (짧은 한국어 번역)** 형태로 제공합니다.
+주요 SEO 키워드: "{keyword}"
 
 {news_context}
 
-Constraints:
-- 700–1000 words; tight sentences; developer-friendly tone (no fluff).
-- Structure (use H2/###):
-  - Hook (2–3 sentences, no heading)
-  - ## Meaning & Nuance
-  - ## Top Alternatives (10–25 items)
-    - bullet list, each with a one-line use-case and a **short example sentence**
-  - ## Mini Dialogue (6–8 turns, natural, casual)
-  - ## Common Mistakes (Don’t say… → Say…)
-  - ## Quick Q&A (2–3 concise Q&As that include the keyword naturally)
-  - ## Takeaways (3–5 bullets)
-- Avoid fake facts. Do not quote or reproduce news text verbatim; keep it generic.
+작성 규칙:
+- 분량: 700–1000단어. 문장은 간결하고 실용적으로.
+- 섹션 구조(H2/### 사용):
+  - 훅(도입): 2–3문장, 헤딩 없이
+  - ## 의미 & 뉘앙스
+  - ## 상황별 대체 표현 (10–25개)
+    - 각 항목: **영어 표현** — 한 줄 용도 설명(한국어) + *예문 1문장(영어) (간단 번역)*
+  - ## 미니 대화 (6–8턴, 자연스러운 일상 회화)
+    - 각 턴: 영어 대사 (한 줄 한국어 번역)
+  - ## 흔한 실수 (Don’t say… → Say…)
+  - ## 빠른 Q&A (키워드를 자연스럽게 포함한 2–3개)
+  - ## 핵심 정리 (3–5개 불릿)
+- 뉴스 텍스트를 그대로 인용하지 말고, 주제 전반에 적용 가능한 보편적 표현으로 작성.
+- 필요 시 3–5개 표현을 비교하는 작은 마크다운 표를 추가.
 
-Metadata:
-- Title: {title}
-- Subtitle: {subtitle}
+메타데이터:
+- 제목: {title}
+- 부제목: {subtitle}
 
-If helpful, add a small table (Markdown) comparing 3–5 similar phrases.
-
+내부 링크(있다면):
+{links_md}
 """.strip()
 
-
 def _extract_text_from_response(resp) -> str:
-    # Responses API (new)
     try:
         text = (getattr(resp, "output_text", None) or "").strip()
         if text:
@@ -239,7 +220,6 @@ def _extract_text_from_response(resp) -> str:
                 return joined
     except Exception:
         pass
-    # Chat Completions
     try:
         if hasattr(resp, "choices") and resp.choices:
             msg = resp.choices[0].message
@@ -249,11 +229,8 @@ def _extract_text_from_response(resp) -> str:
         pass
     return ""
 
-
 def _call_responses(prompt: str, model: str, temperature: float):
-    # Try Responses API with flexible kwargs for SDK variations
     try:
-        # Prefer max_output_tokens name; if TypeError, caller will retry with alt params
         return client.responses.create(
             model=model,
             input=prompt,
@@ -261,7 +238,6 @@ def _call_responses(prompt: str, model: str, temperature: float):
             max_output_tokens=MAX_TOKENS,
         )
     except TypeError:
-        # Some SDKs use max_tokens instead
         return client.responses.create(
             model=model,
             input=prompt,
@@ -269,29 +245,25 @@ def _call_responses(prompt: str, model: str, temperature: float):
             max_tokens=MAX_TOKENS,
         )
 
-
 def _call_chat(prompt: str, model: str, temperature: float):
-    # Fallback to Chat Completions API
     try:
         return client.chat.completions.create(
             model=model,
             temperature=temperature,
             max_tokens=MAX_TOKENS,
             messages=[
-                {"role": "system", "content": "You write clear, accurate ESL posts that feel helpful, modern, and concise."},
+                {"role": "system", "content": "You write clear, accurate ESL posts (Korean explanations with English examples)."},
                 {"role": "user", "content": prompt},
             ],
         )
     except TypeError:
-        # Very old SDKs might not accept temperature/max_tokens; try minimal
         return client.chat.completions.create(
             model=model,
             messages=[
-                {"role": "system", "content": "You write clear, accurate ESL posts that feel helpful, modern, and concise."},
+                {"role": "system", "content": "You write clear, accurate ESL posts (Korean explanations with English examples)."},
                 {"role": "user", "content": prompt},
             ],
         )
-
 
 def call_openai(prompt: str, model=MODEL_NAME, temperature=TEMPERATURE, max_retries=4) -> str:
     delay = 3
@@ -299,11 +271,9 @@ def call_openai(prompt: str, model=MODEL_NAME, temperature=TEMPERATURE, max_retr
     active_temp = temperature
     for attempt in range(max_retries):
         try:
-            # Try Responses API first
             try:
                 resp = _call_responses(prompt, active_model, active_temp)
             except Exception:
-                # If Responses API not available/compatible, try Chat Completions
                 resp = _call_chat(prompt, active_model, active_temp)
             text = _extract_text_from_response(resp)
             if not text:
@@ -311,17 +281,16 @@ def call_openai(prompt: str, model=MODEL_NAME, temperature=TEMPERATURE, max_retr
             return text
         except Exception as e:
             msg = str(e).lower()
-            # resilient backoff + model fallback
             if any(key in msg for key in ["rate", "429", "quota", "empty_output_text", "unsupported_value", "timeout"]):
                 time.sleep(delay)
                 delay = min(delay * 2, 30)
                 if attempt >= max_retries // 2 and active_model != FALLBACK_MODEL:
                     active_model = FALLBACK_MODEL
-                    active_temp = 0.7  # fallback 모델은 자유롭게 온도 사용
+                    active_temp = 0.7
                 continue
             raise
 
-
+# ---------- File writers ----------
 def build_front_matter(meta: dict, body: str) -> frontmatter.Post:
     post = frontmatter.Post(body)
     post["layout"] = meta.get("layout", "post")
@@ -331,11 +300,10 @@ def build_front_matter(meta: dict, body: str) -> frontmatter.Post:
     post["tags"] = meta.get("tags", [])
     post["categories"] = [meta.get("category", "English")]
     post["canonical_url"] = meta.get("canonical_url")
-    post["lang"] = "en"
+    post["lang"] = "ko"  # 한국어로 변경
     post["timezone"] = TIMEZONE
     post["description"] = meta.get("description") or meta["subtitle"]
     post["keywords"] = meta.get("keywords") or meta.get("tags") or []
-    # 뉴스 출처(참고용 링크) 추가 - 템플릿에 따라 표시하지 않을 수도 있음
     if meta.get("news_link"):
         post["source_link"] = meta["news_link"]
     if meta.get("news_headline"):
@@ -363,36 +331,21 @@ def write_post_file(meta: dict, body_md: str) -> Path:
         f.write(text)
     return out_path
 
-
-# ---------- Topic selection ----------
+# ---------- Topic selection fallback ----------
 def pick_topic_from_config_or_builtin(config: dict) -> dict:
     builtin = [
         {
-            "title": "10 Better Ways to Say “I’m sorry”",
-            "subtitle": "Natural apologies for real life",
-            "primary_keyword": "ways to say i'm sorry",
-            "tags": ["english", "alternatives", "apologizing"],
+            "title": "사과를 더 자연스럽게 말하는 10가지 표현",
+            "subtitle": "I'm sorry 대신 진짜 상황에 맞는 표현",
+            "primary_keyword": "사과 영어표현",
+            "tags": ["영어", "표현", "사과"],
             "category": "English"
         },
         {
-            "title": "Stop Saying “Very” — 25 Stronger Words",
-            "subtitle": "Sound concise and confident",
-            "primary_keyword": "alternatives to very",
-            "tags": ["english", "vocabulary", "concise"],
-            "category": "English"
-        },
-        {
-            "title": "‘I think’ Alternatives for Polite Opinions",
-            "subtitle": "Soften your tone without sounding weak",
-            "primary_keyword": "i think alternatives",
-            "tags": ["english", "speaking", "politeness"],
-            "category": "English"
-        },
-        {
-            "title": "‘I’m busy’—Natural Ways to Decline",
-            "subtitle": "Stay friendly while saying no",
-            "primary_keyword": "polite ways to say no",
-            "tags": ["english", "phrases", "polite"],
+            "title": "Very 대신 쓸 수 있는 힘 있는 단어 25",
+            "subtitle": "단문으로 더 또렷하게",
+            "primary_keyword": "very 대체 표현",
+            "tags": ["영어", "어휘", "라이팅"],
             "category": "English"
         },
     ]
@@ -401,31 +354,24 @@ def pick_topic_from_config_or_builtin(config: dict) -> dict:
     idx = (today_kst().timetuple().tm_yday - 1) % len(topics)
     chosen = topics[idx]
     return {
-        "title": chosen.get("title") or "Daily English Expressions",
-        "subtitle": chosen.get("subtitle") or "Natural, concise, modern",
-        "primary_keyword": chosen.get("primary_keyword") or defaults.get("primary_keyword") or "english expressions",
-        "tags": chosen.get("tags") or defaults.get("tags") or ["english", "expressions"],
+        "title": chosen.get("title") or "요즘 뉴스로 배우는 영어표현",
+        "subtitle": chosen.get("subtitle") or "실전 중심, 간결한 설명",
+        "primary_keyword": chosen.get("primary_keyword") or defaults.get("primary_keyword") or "영어 표현",
+        "tags": chosen.get("tags") or defaults.get("tags") or ["영어", "표현"],
         "category": chosen.get("category") or defaults.get("category") or "English",
     }
-
 
 # ---------- Main ----------
 def main():
     config = load_topic_config(TOPIC_CONFIG)
-
-    # 1) 뉴스에서 주제 선택 (우선 시도)
     news_items = fetch_trending_news(NEWS_FEEDS, NEWS_LOOKBACK_HOURS, NEWS_MAX_ITEMS)
     topic = choose_news_topic(news_items)
-
-    # 2) 실패 시 config/builtin에서 선택
     if not topic:
         topic = pick_topic_from_config_or_builtin(config)
 
     now_kst = today_kst()
-
     internal_links = list_recent_posts(12)
 
-    # 메타 구성
     meta = {
         "title": topic["title"],
         "subtitle": topic["subtitle"],
@@ -435,21 +381,18 @@ def main():
         "date_obj": now_kst,
         "date_iso": now_kst.strftime("%Y-%m-%d %H:%M:%S %z").strip(),
         "canonical_url": f"{SITE_BASE_URL}/{now_kst.strftime('%Y')}/{now_kst.strftime('%m')}/{now_kst.strftime('%d')}/{slugify(topic['title'])}/",
-        "lang": "en",
+        "lang": "ko",
         "keywords": [topic["primary_keyword"]] + [t for t in topic.get("tags", []) if t != topic["primary_keyword"]],
         "description": topic["subtitle"],
-        # 뉴스 정보(있다면)
         "news_link": topic.get("news_link"),
         "news_headline": topic.get("news_headline"),
     }
 
     print(f"[generate_post] model={MODEL_NAME}, temp={TEMPERATURE}, title='{meta['title']}'")
 
-    # 본문 생성
     prompt = build_prompt(meta["title"], meta["subtitle"], meta["primary_keyword"], internal_links, topic if topic.get("news_headline") else None)
     body_md = call_openai(prompt)
 
-    # 길이 점검 + 폴백
     too_short = (not body_md) or (len(body_md.split()) < MIN_WORDS)
     if too_short:
         print("WARNING: Generated body seems too short. Retrying with fallback...", file=sys.stderr)
@@ -457,19 +400,19 @@ def main():
         if (not body_md) or (len(body_md.split()) < MIN_WORDS):
             pk = meta["primary_keyword"]
             body_md = f"""\
-**Temporary note**: Generation failed today. Here’s a short outline so the page isn’t empty.
+**임시 안내**: 오늘은 자동 생성에 실패했어요. 페이지가 비지 않도록 개요를 남깁니다.
 
-## Meaning & Nuance
-- A post about "{pk}" will be here.
+## 의미 & 뉘앙스
+- "{pk}" 관련 글이 여기에 게시될 예정입니다.
 
-## Top Alternatives
-- Coming soon.
+## 상황별 대체 표현
+- 준비 중...
 
-## Mini Dialogue
-- A: …
-- B: …
+## 미니 대화
+- A: … (번역)
+- B: … (번역)
 
-## Takeaways
+## 핵심 정리
 - …
 """
 
@@ -483,7 +426,6 @@ def main():
         "news_headline": meta.get("news_headline"),
         "news_link": meta.get("news_link"),
     }, ensure_ascii=False))
-
 
 if __name__ == "__main__":
     try:
