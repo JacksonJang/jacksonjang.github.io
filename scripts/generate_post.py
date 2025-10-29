@@ -577,6 +577,17 @@ def load_config_topics(config: dict) -> list[dict]:
     topics = (config.get("topics") or [])
     return topics or builtin
 
+def all_news_exhausted(news_items: list, existing_keys: set[str], existing_canonicals: list[str]) -> bool:
+    if not news_items:
+        return True
+    for it in news_items:
+        headline = _clean_headline(it["title"])
+        title = f"뉴스로 배우는 영어: {headline}"
+        if not _dup_or_similar(title, headline, existing_keys, existing_canonicals):
+            return False
+    return True
+
+
 # ---------- Main ----------
 def main():
     config = load_topic_config(TOPIC_CONFIG)
@@ -584,8 +595,11 @@ def main():
 
     news_items = fetch_trending_news(NEWS_FEEDS, NEWS_LOOKBACK_HOURS, NEWS_MAX_ITEMS)
     topic = choose_news_topic(news_items, existing_keys, existing_canonicals)
-    if not topic:
-        topic = pick_topic_from_config_or_builtin(config, existing_keys, existing_canonicals)
+    
+    # 뉴스만 허용: 후보가 없거나 모두 중복/유사면 스킵 후 종료
+    if (not news_items) or (topic is None) or all_news_exhausted(news_items, existing_keys, existing_canonicals):
+        print("[generate_post] SKIP: 뉴스 주제가 모두 사용되었습니다(또는 최근 뉴스 없음). 포스트 생성을 건너뜁니다.")
+        sys.exit(0)
 
     now_kst = today_kst()
     internal_links = list_recent_posts(12)
@@ -608,7 +622,8 @@ def main():
 
     # 최종 충돌 방지(키 + 유사도)
     if _dup_or_similar(meta["title"], meta.get("news_headline"), existing_keys, existing_canonicals):
-        meta["title"] = f"{meta['title']} - {now_kst.strftime('%Y-%m-%d')}"
+        print("[generate_post] SKIP: 최종 중복/유사 판정. 포스트 생성을 건너뜁니다.")
+        sys.exit(0)
 
     print(f"[generate_post] model={MODEL_NAME}, temp={TEMPERATURE}, title='{meta['title']}'")
 
