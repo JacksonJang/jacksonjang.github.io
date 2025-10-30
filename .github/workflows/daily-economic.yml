@@ -20,7 +20,7 @@ jobs:
         with:
           fetch-depth: 0
           python-version: '3.11'
-      - run: pip install openai python-frontmatter pyyaml feedparser
+      - run: pip install requests tzdata openai python-frontmatter pyyaml feedparser
       - name: Generate post
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
