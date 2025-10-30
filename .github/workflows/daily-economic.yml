@@ -1,7 +1,7 @@
 name: Daily Economic
 on:
   schedule:
-    - cron: '30 15 * * *'
+    - cron: '30 20 * * *'
   workflow_dispatch:
 
 permissions:
@@ -9,34 +9,49 @@ permissions:
 
 concurrency:
   group: daily-economic
-  cancel-in-progress: false  
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
+
       - uses: actions/setup-python@v5
         with:
-          fetch-depth: 0
           python-version: '3.11'
+
       - run: pip install requests tzdata openai python-frontmatter pyyaml feedparser
+
+      - name: Git config
+        run: |
+          git config --global user.name "auto-writer-bot"
+          git config --global user.email "actions@users.noreply.github.com"
+          git config --global safe.directory "$GITHUB_WORKSPACE"
+
+      - name: Sync branch before generation
+        run: |
+          # 워킹 트리 깨끗한 상태에서 최신 커밋 받기
+          git pull --rebase origin "${{ github.ref_name }}"
+
       - name: Generate post
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python scripts/generate_economic.py
+
       - name: Commit & Push
         run: |
-            git config user.name "auto-writer-bot"
-            git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
 
-            git pull --rebase origin ${{ github.ref_name }}
+          git commit -m "chore(post): daily article $(date -u '+%Y-%m-%d')"
 
-            git add .
-            if git diff --cached --quiet; then
-              echo "No changes to commit."
-              exit 0
-            fi
-
-            git commit -m "chore(post): daily article $(date -u '+%Y-%m-%d')"
-            git push origin HEAD:${{ github.ref_name }}
+          # 혹시 다른 커밋이 사이에 들어왔으면 받아서 리베이스 후 푸시
+          git pull --rebase origin "${{ github.ref_name }}" || true
+          git push origin HEAD:"${{ github.ref_name }}"
