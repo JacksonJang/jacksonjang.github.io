@@ -314,9 +314,43 @@ def _dup_or_similar(candidate_title: str, candidate_source: str | None,
             return True
     return False
 
+# ---------- News SEO helpers ----------
+_BRAND_STOP = {"reuters","bbc","ap","bloomberg","cnn","nytimes","nyt","washington","guardian","yahoo","forbes","wsj","post"}
+
+def _clean_publisher_trail(s: str) -> str:
+    s = re.sub(r"\s*-\s*[A-Za-z0-9 .,'’“”&]+$", "", s)   # " - Reuters"
+    s = re.sub(r"\s*\|.*$", "", s)                       # " | BBC"
+    s = re.sub(r"\s*\(.*?\)\s*$", "", s)                 # "(update)" 등
+    return s.strip()
+
+def _extract_news_keywords(headline: str, max_terms: int = 3) -> list[str]:
+    """영문 헤드라인에서 브랜드/불용어 제거 후 핵심 토큰 2~3개 추출"""
+    h = _clean_publisher_trail(headline)
+    h = re.sub(r"[\"“”’'`]+", "", h)
+    h = re.sub(r"[^\w\s\-&:/]", " ", h).lower()
+    stop = _STOPWORDS | _BRAND_STOP | {
+        "breaking","live","update","analysis","exclusive","opinion","video","photos",
+        "says","set","sets","new","plan","plans","after","amid","ahead","over","as","from","by","with","for"
+    }
+    toks = [t for t in re.split(r"\s+|/|:|–|-", h) if t]
+    toks = [t for t in toks if (t not in stop and not re.fullmatch(r"\d+", t) and len(t) >= 3)]
+    toks = sorted(set(toks), key=lambda x: (len(x) >= 6, len(x)), reverse=True)
+    return toks[:max_terms]
+
+def _join_news_keyword_phrase(keywords: list[str]) -> str:
+    def cap(w: str) -> str:
+        return w if not w.isalpha() else (w[:1].upper() + w[1:])
+    if not keywords:
+        return ""
+    if len(keywords) >= 3:
+        head = ", ".join(cap(w) for w in keywords[:2])
+        tail = cap(keywords[2])
+        return f"{head}, {tail}"
+    return ", ".join(cap(w) for w in keywords)
+
 # ---------- SEO Title/SubTitle Optimizer ----------
-SEO_MIN_LEN = 28       # 한글 기준 대략 28~64자 권장
-SEO_MAX_LEN = 64
+SEO_MIN_LEN = 32       # 모바일 SERP 친화 길이
+SEO_MAX_LEN = 58
 
 def _normalize(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "").strip())
@@ -329,21 +363,19 @@ def _length_ok(title: str) -> bool:
     return SEO_MIN_LEN <= l <= SEO_MAX_LEN
 
 def _clean_quotes(s: str) -> str:
-    # 불필요한 따옴표/특수문자 제거
     return re.sub(r"[\"“”’'`]+", "", s or "")
+
+def _clip_no_ellipsis(s: str, max_len: int = SEO_MAX_LEN) -> str:
+    s = _normalize(s)
+    return s[:max_len] if len(s) > max_len else s
 
 def is_seo_title_good(title: str, keyword: str) -> bool:
     t = _normalize(title)
     return bool(
         t and
         _length_ok(t) and
-        _has_keyword_early(t, keyword) and
-        not re.search(r"^\W+$", t)   # 기호만 있는 경우 방지
+        _has_keyword_early(t, "뉴스 영어표현")  # 의도 고정 배치
     )
-
-def _clip(s: str, max_len: int = SEO_MAX_LEN) -> str:
-    s = _normalize(s)
-    return s if len(s) <= max_len else s[:max_len-1] + "…"
 
 def _extract_angle_from_news(news_meta: dict | None) -> str:
     if not news_meta:
@@ -367,31 +399,48 @@ def _title_candidates(keyword: str, angle: str, year: int) -> list[str]:
         f"{k} 실용 영어표현 모음 | {angle}" if angle else f"{k} 실용 영어표현 모음",
     ]
 
+def _news_title_candidates(kw_phrase: str, year: int) -> list[str]:
+    return [
+        f"뉴스 영어표현: {kw_phrase} — 예문으로 바로 익히기",
+        f"뉴스 영어표현: {kw_phrase} 핵심표현 정리 ({year})",
+        f"뉴스 영어표현: {kw_phrase} 자연스럽게 말하는 법",
+        f"뉴스 영어표현: {kw_phrase} 필수 패턴 20가지",
+        f"뉴스 영어표현: {kw_phrase} 네이티브식 표현 모음",
+    ]
+
 def optimize_title(title: str, keyword: str, news_meta: dict | None) -> str:
     year = dt.datetime.now().year
-    angle = _extract_angle_from_news(news_meta)
+    # 뉴스가 아닐 때(비뉴스) 기존 로직
+    if not news_meta or not news_meta.get("news_headline"):
+        raw = _clean_quotes(_normalize(title))
+        if is_seo_title_good(raw, keyword):
+            return _clip_no_ellipsis(raw, SEO_MAX_LEN)
+        for cand in _title_candidates(keyword, _extract_angle_from_news(news_meta), year):
+            cand = _clip_no_ellipsis(cand)
+            if is_seo_title_good(cand, keyword):
+                return cand
+        return _clip_no_ellipsis(f"{keyword} 가이드: 의미·뉘앙스·예문 총정리 ({year})")
 
+    # 뉴스 전용
+    kws = news_meta.get("news_keywords") or _extract_news_keywords(news_meta["news_headline"], 3)
+    kw_phrase = _join_news_keyword_phrase(kws) or "핵심 이슈"
     raw = _clean_quotes(_normalize(title))
     if is_seo_title_good(raw, keyword):
-        return _clip(raw, SEO_MAX_LEN)
-
-    for cand in _title_candidates(keyword, angle, year):
-        cand = _clip(cand)
+        return _clip_no_ellipsis(raw)
+    for cand in _news_title_candidates(kw_phrase, year):
+        cand = _clip_no_ellipsis(cand)
         if is_seo_title_good(cand, keyword):
             return cand
-
-    fallback = _clip(f"{keyword} 가이드: 의미·뉘앙스·예문 총정리 ({year})")
-    return fallback
+    return _clip_no_ellipsis(f"뉴스 영어표현: {kw_phrase} 핵심표현 정리")
 
 def optimize_subtitle(subtitle: str, keyword: str) -> str:
     sub = _clean_quotes(_normalize(subtitle))
-    if not sub or len(sub) < 20:
-        sub = f"{keyword}를 자연스럽게 말하는 핵심 표현, 상황별 대체 문장, 회화 스크립트까지 한 번에 정리"
-    sub = _clip(sub, 90)
-    if keyword.lower() not in sub.lower():
-        sub = _clip(f"{sub} — {keyword}", 90)
+    if not sub or len(sub) < 22:
+        sub = f"{keyword} — 실전 예문과 패턴으로 10분 만에 정리"
+    sub = _clip_no_ellipsis(sub, 90)
+    if "뉴스 영어표현" not in sub:
+        sub = _clip_no_ellipsis(f"{sub} · 뉴스 영어표현", 90)
     return sub
-
 
 # ---------- Topic choosers ----------
 def choose_news_topic(news_items: list, existing_keys: set[str], existing_canonicals: list[str]) -> dict | None:
@@ -402,16 +451,21 @@ def choose_news_topic(news_items: list, existing_keys: set[str], existing_canoni
     for i in range(len(news_items)):
         cand = news_items[(idx + i) % len(news_items)]
         headline = _clean_headline(cand["title"])
-        title = f"뉴스로 배우는 영어: {headline}"
-        if not _dup_or_similar(title, headline, existing_keys, existing_canonicals):
+        # 핵심 키워드 압축 → 짧은 구로
+        kws = _extract_news_keywords(headline, max_terms=3)
+        kw_phrase = _join_news_keyword_phrase(kws) or headline[:50]
+        base_title = f"뉴스 영어표현: {kw_phrase}"
+
+        if not _dup_or_similar(base_title, headline, existing_keys, existing_canonicals):
             return {
-                "title": title,
+                "title": base_title,
                 "subtitle": "실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현",
-                "primary_keyword": f"뉴스 영어표현 {headline.lower()}",
+                "primary_keyword": f"뉴스 영어표현 {kw_phrase}",
                 "tags": ["영어", "표현", "뉴스영어", "ESL"],
                 "category": "English",
                 "news_headline": headline,
-                "news_link": cand["link"]
+                "news_link": cand["link"],
+                "news_keywords": kws
             }
     return None
 
@@ -686,7 +740,6 @@ def all_news_exhausted(news_items: list, existing_keys: set[str], existing_canon
         if not _dup_or_similar(title, headline, existing_keys, existing_canonicals):
             return False
     return True
-
 
 # ---------- Main ----------
 def main():
