@@ -314,6 +314,85 @@ def _dup_or_similar(candidate_title: str, candidate_source: str | None,
             return True
     return False
 
+# ---------- SEO Title/SubTitle Optimizer ----------
+SEO_MIN_LEN = 28       # 한글 기준 대략 28~64자 권장
+SEO_MAX_LEN = 64
+
+def _normalize(s: str) -> str:
+    return re.sub(r"\s+", " ", (s or "").strip())
+
+def _has_keyword_early(title: str, keyword: str, early_chars: int = 18) -> bool:
+    return _normalize(keyword).lower() in _normalize(title).lower()[:early_chars]
+
+def _length_ok(title: str) -> bool:
+    l = len(_normalize(title))
+    return SEO_MIN_LEN <= l <= SEO_MAX_LEN
+
+def _clean_quotes(s: str) -> str:
+    # 불필요한 따옴표/특수문자 제거
+    return re.sub(r"[\"“”’'`]+", "", s or "")
+
+def is_seo_title_good(title: str, keyword: str) -> bool:
+    t = _normalize(title)
+    return bool(
+        t and
+        _length_ok(t) and
+        _has_keyword_early(t, keyword) and
+        not re.search(r"^\W+$", t)   # 기호만 있는 경우 방지
+    )
+
+def _clip(s: str, max_len: int = SEO_MAX_LEN) -> str:
+    s = _normalize(s)
+    return s if len(s) <= max_len else s[:max_len-1] + "…"
+
+def _extract_angle_from_news(news_meta: dict | None) -> str:
+    if not news_meta:
+        return ""
+    headline = (news_meta.get("news_headline") or "").strip()
+    if not headline:
+        return ""
+    toks = re.findall(r"[A-Za-z가-힣0-9]{3,}", headline)[:2]
+    return " / ".join(toks)
+
+def _title_candidates(keyword: str, angle: str, year: int) -> list[str]:
+    k = _clean_quotes(keyword)
+    return [
+        f"{k} 완전 정복: 의미·뉘앙스·예문 25가지 가이드 ({year})",
+        f"{k} 뜻과 자연스러운 대체 표현 20선 | 회화 예문·흔한 실수 교정",
+        f"{k} 한 번에 끝내기: 핵심 단어·상황별 표현·간단 회화 ({year})",
+        f"{k} 네이티브처럼 쓰는 법 | 의미·뉘앙스·Don’t say → Say",
+        f"{k} 실전 가이드: 업무·일상에서 바로 쓰는 예문 모음",
+        f"{k} 필수 패턴 총정리 | 짧은 한국어 번역과 함께 배우기",
+        f"{k} 핵심만 뽑은 요약: 표현 비교표·FAQ·핵심 정리 ({year})",
+        f"{k} 실용 영어표현 모음 | {angle}" if angle else f"{k} 실용 영어표현 모음",
+    ]
+
+def optimize_title(title: str, keyword: str, news_meta: dict | None) -> str:
+    year = dt.datetime.now().year
+    angle = _extract_angle_from_news(news_meta)
+
+    raw = _clean_quotes(_normalize(title))
+    if is_seo_title_good(raw, keyword):
+        return _clip(raw, SEO_MAX_LEN)
+
+    for cand in _title_candidates(keyword, angle, year):
+        cand = _clip(cand)
+        if is_seo_title_good(cand, keyword):
+            return cand
+
+    fallback = _clip(f"{keyword} 가이드: 의미·뉘앙스·예문 총정리 ({year})")
+    return fallback
+
+def optimize_subtitle(subtitle: str, keyword: str) -> str:
+    sub = _clean_quotes(_normalize(subtitle))
+    if not sub or len(sub) < 20:
+        sub = f"{keyword}를 자연스럽게 말하는 핵심 표현, 상황별 대체 문장, 회화 스크립트까지 한 번에 정리"
+    sub = _clip(sub, 90)
+    if keyword.lower() not in sub.lower():
+        sub = _clip(f"{sub} — {keyword}", 90)
+    return sub
+
+
 # ---------- Topic choosers ----------
 def choose_news_topic(news_items: list, existing_keys: set[str], existing_canonicals: list[str]) -> dict | None:
     if not news_items:
@@ -624,19 +703,23 @@ def main():
 
     now_kst = today_kst()
     internal_links = list_recent_posts(12)
+    
+    # === [SEO] 제목/부제목 자동 교정 ===
+    fixed_title = optimize_title(topic["title"], topic["primary_keyword"], topic)
+    fixed_subtitle = optimize_subtitle(topic["subtitle"], topic["primary_keyword"])
 
     meta = {
-        "title": topic["title"],
-        "subtitle": topic["subtitle"],
+        "title": fixed_title,
+        "subtitle": fixed_subtitle,
         "primary_keyword": topic["primary_keyword"],
         "tags": topic.get("tags", []),
         "category": topic.get("category", "English"),
         "date_obj": now_kst,
         "date_iso": now_kst.strftime("%Y-%m-%d %H:%M:%S %z").strip(),
-        "canonical_url": f"{SITE_BASE_URL}/{now_kst.strftime('%Y')}/{now_kst.strftime('%m')}/{now_kst.strftime('%d')}/{slugify(topic['title'])}/",
+        "canonical_url": f"{SITE_BASE_URL}/{now_kst.strftime('%Y')}/{now_kst.strftime('%m')}/{now_kst.strftime('%d')}/{slugify(fixed_title)}/",
         "lang": "ko",
         "keywords": [topic["primary_keyword"]] + [t for t in topic.get("tags", []) if t != topic["primary_keyword"]],
-        "description": topic["subtitle"],
+        "description": fixed_subtitle,
         "news_link": topic.get("news_link"),
         "news_headline": topic.get("news_headline"),
     }
