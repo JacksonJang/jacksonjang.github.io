@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-31T08:09:50+09:00</updated>
+  <updated>2025-10-31T08:36:46+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>우주 전쟁 준비, 투자할 주식은 무엇인가?</title>
+    <link href="/posts/%EC%9A%B0%EC%A3%BC-%EC%A0%84%EC%9F%81-%EC%A4%80%EB%B9%84-%ED%88%AC%EC%9E%90%ED%95%A0-%EC%A3%BC%EC%8B%9D%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/" rel="alternate" type="text/html" title="우주 전쟁 준비, 투자할 주식은 무엇인가?" />
+    <published>2025-10-31T08:36:25+09:00</published>
+  
+    <updated>2025-10-31T08:36:25+09:00</updated>
+  
+    <id>/posts/%EC%9A%B0%EC%A3%BC-%EC%A0%84%EC%9F%81-%EC%A4%80%EB%B9%84-%ED%88%AC%EC%9E%90%ED%95%A0-%EC%A3%BC%EC%8B%9D%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/</id>
+    <content type="text/html" src="/posts/%EC%9A%B0%EC%A3%BC-%EC%A0%84%EC%9F%81-%EC%A4%80%EB%B9%84-%ED%88%AC%EC%9E%90%ED%95%A0-%EC%A3%BC%EC%8B%9D%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>우주 전쟁 준비, 투자할 주식은 무엇인가? · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>항공관제사 급여 미지급, 공항 운영에 심각한 영향 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>뉴스 영어표현: Benefits, Saturday, Whether</title>
-    <link href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-benefits-saturday-whether/" rel="alternate" type="text/html" title="뉴스 영어표현: Benefits, Saturday, Whether" />
-    <published>2025-10-31T06:08:29+09:00</published>
-  
-    <updated>2025-10-31T06:08:29+09:00</updated>
-  
-    <id>/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-benefits-saturday-whether/</id>
-    <content type="text/html" src="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-benefits-saturday-whether/" />
-    <author>
-      <name>Jacksonjang</name>
-    </author>
-
-  
-    
-    <category term="English" />
-    
-  
-
-  <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
 
   </entry>
 
