@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-30T17:21:15+09:00</updated>
+  <updated>2025-10-30T17:47:09+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>트럼프, 중국의 펜타닐 관세 10%로 인하 조정</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%A4%91%EA%B5%AD%EC%9D%98-%ED%8E%9C%ED%83%80%EB%8B%90-%EA%B4%80%EC%84%B8-10%EB%A1%9C-%EC%9D%B8%ED%95%98-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="트럼프, 중국의 펜타닐 관세 10%로 인하 조정" />
+    <published>2025-10-30T17:46:46+09:00</published>
+  
+    <updated>2025-10-30T17:46:46+09:00</updated>
+  
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%A4%91%EA%B5%AD%EC%9D%98-%ED%8E%9C%ED%83%80%EB%8B%90-%EA%B4%80%EC%84%B8-10%EB%A1%9C-%EC%9D%B8%ED%95%98-%EC%A1%B0%EC%A0%95/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%A4%91%EA%B5%AD%EC%9D%98-%ED%8E%9C%ED%83%80%EB%8B%90-%EA%B4%80%EC%84%B8-10%EB%A1%9C-%EC%9D%B8%ED%95%98-%EC%A1%B0%EC%A0%95/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>트럼프, 중국의 펜타닐 관세 10%로 인하 조정 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>일본은행 금리 동결, 다카이치 총리 취임 첫 회의</title>
-    <link href="/posts/%EC%9D%BC%EB%B3%B8%EC%9D%80%ED%96%89-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EB%8B%A4%EC%B9%B4%EC%9D%B4%EC%B9%98-%EC%B4%9D%EB%A6%AC-%EC%B7%A8%EC%9E%84-%EC%B2%AB-%ED%9A%8C%EC%9D%98/" rel="alternate" type="text/html" title="일본은행 금리 동결, 다카이치 총리 취임 첫 회의" />
-    <published>2025-10-30T13:41:52+09:00</published>
-  
-    <updated>2025-10-30T13:41:52+09:00</updated>
-  
-    <id>/posts/%EC%9D%BC%EB%B3%B8%EC%9D%80%ED%96%89-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EB%8B%A4%EC%B9%B4%EC%9D%B4%EC%B9%98-%EC%B4%9D%EB%A6%AC-%EC%B7%A8%EC%9E%84-%EC%B2%AB-%ED%9A%8C%EC%9D%98/</id>
-    <content type="text/html" src="/posts/%EC%9D%BC%EB%B3%B8%EC%9D%80%ED%96%89-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EB%8B%A4%EC%B9%B4%EC%9D%B4%EC%B9%98-%EC%B4%9D%EB%A6%AC-%EC%B7%A8%EC%9E%84-%EC%B2%AB-%ED%9A%8C%EC%9D%98/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>일본은행 금리 동결, 다카이치 총리 취임 첫 회의 · 경제 뉴스 요약</summary>
 
   </entry>
 
