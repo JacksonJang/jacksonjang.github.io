@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-31T00:11:24+09:00</updated>
+  <updated>2025-10-31T00:44:15+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>메타 주가 10% 하락 AI 투자 우려가 실적 상회</title>
+    <link href="/posts/%EB%A9%94%ED%83%80-%EC%A3%BC%EA%B0%80-10-%ED%95%98%EB%9D%BD-ai-%ED%88%AC%EC%9E%90-%EC%9A%B0%EB%A0%A4%EA%B0%80-%EC%8B%A4%EC%A0%81-%EC%83%81%ED%9A%8C/" rel="alternate" type="text/html" title="메타 주가 10% 하락 AI 투자 우려가 실적 상회" />
+    <published>2025-10-31T00:43:40+09:00</published>
+  
+    <updated>2025-10-31T00:43:40+09:00</updated>
+  
+    <id>/posts/%EB%A9%94%ED%83%80-%EC%A3%BC%EA%B0%80-10-%ED%95%98%EB%9D%BD-ai-%ED%88%AC%EC%9E%90-%EC%9A%B0%EB%A0%A4%EA%B0%80-%EC%8B%A4%EC%A0%81-%EC%83%81%ED%9A%8C/</id>
+    <content type="text/html" src="/posts/%EB%A9%94%ED%83%80-%EC%A3%BC%EA%B0%80-10-%ED%95%98%EB%9D%BD-ai-%ED%88%AC%EC%9E%90-%EC%9A%B0%EB%A0%A4%EA%B0%80-%EC%8B%A4%EC%A0%81-%EC%83%81%ED%9A%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>메타 주가 10% 하락 AI 투자 우려가 실적 상회 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>허쉬 할로윈 매출 실망, 마지막 구매에 희망 있어 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>뉴스 영어표현: Destruction, Satellite, Hurricane</title>
-    <link href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-destruction-satellite-hurricane/" rel="alternate" type="text/html" title="뉴스 영어표현: Destruction, Satellite, Hurricane" />
-    <published>2025-10-30T22:24:24+09:00</published>
-  
-    <updated>2025-10-30T22:24:24+09:00</updated>
-  
-    <id>/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-destruction-satellite-hurricane/</id>
-    <content type="text/html" src="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-destruction-satellite-hurricane/" />
-    <author>
-      <name>Jacksonjang</name>
-    </author>
-
-  
-    
-    <category term="English" />
-    
-  
-
-  <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
 
   </entry>
 
