@@ -1,0 +1,29 @@
+name: Daily Economic
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 매일 0시(UTC 기준)에 한 번 실행
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install openai python-frontmatter pyyaml
+      - name: Generate post
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/generate_economic.py
+      - name: Commit & Push
+        run: |
+          git config user.name "auto-writer-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add .
+          git commit -m "chore(post): daily article $(date -u '+%Y-%m-%d')"
+          git push

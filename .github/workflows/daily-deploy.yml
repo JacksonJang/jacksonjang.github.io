@@ -2,7 +2,7 @@ name: Auto Daily Deploy
 
 on:
   workflow_run:
-    workflows: ["Daily Post"]
+    workflows: ["Daily Post", "Daily Economic"]
     types: [completed]
 
 jobs:
