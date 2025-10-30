@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-30T13:42:13+09:00</updated>
+  <updated>2025-10-30T14:11:40+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>뉴스 영어표현: Criticises, Australia, Operator</title>
+    <link href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-criticises-australia-operator/" rel="alternate" type="text/html" title="뉴스 영어표현: Criticises, Australia, Operator" />
+    <published>2025-10-30T14:10:16+09:00</published>
+  
+    <updated>2025-10-30T14:10:16+09:00</updated>
+  
+    <id>/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-criticises-australia-operator/</id>
+    <content type="text/html" src="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-criticises-australia-operator/" />
+    <author>
+      <name>Jacksonjang</name>
+    </author>
+
+  
+    
+    <category term="English" />
+    
+  
+
+  <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
+
+  </entry>
 
   
   <entry>
@@ -100,30 +124,6 @@
   
     <id>/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-played-prince-roger-%EC%98%88%EB%AC%B8%EC%9C%BC%EB%A1%9C-%EB%B0%94%EB%A1%9C-%EC%9D%B5%ED%9E%88%EA%B8%B0/</id>
     <content type="text/html" src="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-played-prince-roger-%EC%98%88%EB%AC%B8%EC%9C%BC%EB%A1%9C-%EB%B0%94%EB%A1%9C-%EC%9D%B5%ED%9E%88%EA%B8%B0/" />
-    <author>
-      <name>Jacksonjang</name>
-    </author>
-
-  
-    
-    <category term="English" />
-    
-  
-
-  <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>뉴스 영어표현: Immediately, Pentagon, Testing</title>
-    <link href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-immediately-pentagon-testing/" rel="alternate" type="text/html" title="뉴스 영어표현: Immediately, Pentagon, Testing" />
-    <published>2025-10-30T12:23:31+09:00</published>
-  
-    <updated>2025-10-30T12:23:31+09:00</updated>
-  
-    <id>/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-immediately-pentagon-testing/</id>
-    <content type="text/html" src="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-immediately-pentagon-testing/" />
     <author>
       <name>Jacksonjang</name>
     </author>
