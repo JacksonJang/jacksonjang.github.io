@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-31T00:44:15+09:00</updated>
+  <updated>2025-10-31T01:13:27+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>뉴스 영어표현: Government, Shutdown, Hurting</title>
+    <link href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-government-shutdown-hurting/" rel="alternate" type="text/html" title="뉴스 영어표현: Government, Shutdown, Hurting" />
+    <published>2025-10-31T01:12:30+09:00</published>
+  
+    <updated>2025-10-31T01:12:30+09:00</updated>
+  
+    <id>/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-government-shutdown-hurting/</id>
+    <content type="text/html" src="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-government-shutdown-hurting/" />
+    <author>
+      <name>Jacksonjang</name>
+    </author>
+
+  
+    
+    <category term="English" />
+    
+  
+
+  <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>허쉬 할로윈 매출 실망, 마지막 구매에 희망 있어</title>
-    <link href="/posts/%ED%97%88%EC%89%AC-%ED%95%A0%EB%A1%9C%EC%9C%88-%EB%A7%A4%EC%B6%9C-%EC%8B%A4%EB%A7%9D-%EB%A7%88%EC%A7%80%EB%A7%89-%EA%B5%AC%EB%A7%A4%EC%97%90-%ED%9D%AC%EB%A7%9D-%EC%9E%88%EC%96%B4/" rel="alternate" type="text/html" title="허쉬 할로윈 매출 실망, 마지막 구매에 희망 있어" />
-    <published>2025-10-30T22:47:19+09:00</published>
-  
-    <updated>2025-10-30T22:47:19+09:00</updated>
-  
-    <id>/posts/%ED%97%88%EC%89%AC-%ED%95%A0%EB%A1%9C%EC%9C%88-%EB%A7%A4%EC%B6%9C-%EC%8B%A4%EB%A7%9D-%EB%A7%88%EC%A7%80%EB%A7%89-%EA%B5%AC%EB%A7%A4%EC%97%90-%ED%9D%AC%EB%A7%9D-%EC%9E%88%EC%96%B4/</id>
-    <content type="text/html" src="/posts/%ED%97%88%EC%89%AC-%ED%95%A0%EB%A1%9C%EC%9C%88-%EB%A7%A4%EC%B6%9C-%EC%8B%A4%EB%A7%9D-%EB%A7%88%EC%A7%80%EB%A7%89-%EA%B5%AC%EB%A7%A4%EC%97%90-%ED%9D%AC%EB%A7%9D-%EC%9E%88%EC%96%B4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>허쉬 할로윈 매출 실망, 마지막 구매에 희망 있어 · 경제 뉴스 요약</summary>
 
   </entry>
 
