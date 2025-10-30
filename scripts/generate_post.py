@@ -383,43 +383,64 @@ def pick_topic_from_config_or_builtin(config: dict, existing_keys: set[str], exi
 
 # ---------- Prompting ----------
 def build_prompt(title: str, subtitle: str, keyword: str, internal_links: list, news_meta: dict | None) -> str:
+    """
+    SEO 최적화형 ESL(영어 학습) 콘텐츠 프롬프트 생성 함수
+    """
+
+    INTERNAL_LINKS_COUNT = 3  # 링크 최대 3개 노출 제한
+
+    # 내부 링크 마크다운 변환
     links_md = ""
     if internal_links:
-        links_md = "\n".join([f"- [{it['title']}]({it['url']})" for it in internal_links[:INTERNAL_LINKS_COUNT]])
+        links_md = "\n".join(
+            [f"- [{it['title']}]({it['url']})" for it in internal_links[:INTERNAL_LINKS_COUNT]]
+        )
 
+    # 뉴스 맥락 정보 (인용 금지)
     news_context = ""
     if news_meta:
         news_context = f"""
 배경(기사 전문을 인용하지 말고, 주제만 참고):
-- 오늘의 이슈: "{news_meta.get('news_headline','')}"
-- 참고 링크(인용 금지, 맥락만 파악용): {news_meta.get('news_link','')}
+- 오늘의 이슈: "{news_meta.get('news_headline', '')}"
+- 참고 링크(인용 금지, 맥락만 파악용): {news_meta.get('news_link', '')}
 """.strip()
 
+    # SEO 최적화형 ESL 프롬프트
     return f"""
-당신은 한국어로 글을 쓰는 실용적인 ESL(영어 학습) 콘텐츠 라이터입니다.
-본문은 **한국어**로 설명하되, 예시 문장은 **영어 문장 + (짧은 한국어 번역)** 형태로 제공합니다.
-주요 SEO 키워드: "{keyword}"
+당신은 **SEO에 최적화된 실용 영어(ESL) 콘텐츠 라이터**입니다.
+글은 **한국어 설명 중심**으로 작성하고, 예시 문장은 **영어 문장 + (짧은 한국어 번역)** 형태로 제공합니다.
+**핵심 SEO 키워드:** “{keyword}”
+연관 LSI 키워드(자연스럽게 포함): 영어회화, 영어표현, 영어공부, 영어뉘앙스, 자연스러운영어, 일상영어, 영어학습팁
 
 {news_context}
 
 작성 규칙:
 - 분량: 700–1000단어. 문장은 간결하고 실용적으로.
-- 섹션 구조(H2/### 사용):
-  - 훅(도입): 2–3문장, 헤딩 없이
+- SEO 최적화 구조(H2/H3 사용):
+  - (도입부, 헤딩 없음): 2~3문장으로 {keyword}와 연결된 상황 제시
   - ## 의미 & 뉘앙스
   - ## 핵심 단어
-    - 각 항목: 대명사 제외한 영어 사전에 있는 **단어**
+    - 각 항목: **영어 단어 — 간단 의미(한국어)** + 예문 1문장
   - ## 상황별 대체 표현 (10–25개)
     - 각 항목: **영어 표현** — 한 줄 용도 설명(한국어)
-    - *예문은 1문장(영어) 아래 줄에 한국어 번역으로 줄바꿈*
+    - 예문: 영어 1줄 + 한국어 번역 줄바꿈
+    - 필요 시 비교 표(3–5개 표현 비교)
   - ## 간단 회화 (6–8턴, 자연스러운 일상 회화)
     - 각 턴: 영어 대사 (한 줄 한국어 번역)
   - ## 흔한 실수 (Don’t say… → Say…)
     - 각 항목: 영어 문장 (한 줄 한국어 번역)
-  - ## 빠른 Q&A (키워드를 자연스럽게 포함한 2–3개)
+  - ## 빠른 Q&A (2–3개)
+    - 질문과 답변에 “{keyword}”를 자연스럽게 포함
+    - 마지막에 CTR 유도 문장(예: “이 표현, 바로 말해보세요!”)
   - ## 핵심 정리 (3–5개 불릿)
-- 뉴스 텍스트를 그대로 인용하지 말고, 주제 전반에 적용 가능한 보편적 표현으로 작성.
-- 필요 시 3–5개 표현을 비교하는 작은 마크다운 표를 추가.
+    - SEO 강화를 위해 {keyword}를 반복 포함
+
+세부 지침(SEO 강화):
+- 본문 내 “{keyword}”의 밀도를 약 1.5–2% 수준으로 유지
+- H2/H3 계층 구조를 명확히 구분
+- FAQ, 표, 불릿을 적극 활용해 가독성과 체류시간 향상
+- 뉴스 텍스트를 인용하지 말고 주제 전반에 적용 가능한 표현으로 작성
+- 모든 예문은 실용적인 일상 또는 비즈니스 상황 기반으로 작성
 
 메타데이터:
 - 제목: {title}
