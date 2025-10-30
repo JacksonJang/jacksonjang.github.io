@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-31T06:37:47+09:00</updated>
+  <updated>2025-10-31T07:10:14+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>뉴스 영어표현: Identities, Confirms, Hostages</title>
+    <link href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-identities-confirms-hostages/" rel="alternate" type="text/html" title="뉴스 영어표현: Identities, Confirms, Hostages" />
+    <published>2025-10-31T07:09:20+09:00</published>
+  
+    <updated>2025-10-31T07:09:20+09:00</updated>
+  
+    <id>/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-identities-confirms-hostages/</id>
+    <content type="text/html" src="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-identities-confirms-hostages/" />
+    <author>
+      <name>Jacksonjang</name>
+    </author>
+
+  
+    
+    <category term="English" />
+    
+  
+
+  <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>TC 에너지 전망, S&amp;P 글로벌에 의해 안정적 변경</title>
-    <link href="/posts/tc-%EC%97%90%EB%84%88%EC%A7%80-%EC%A0%84%EB%A7%9D-sp-%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%97%90-%EC%9D%98%ED%95%B4-%EC%95%88%EC%A0%95%EC%A0%81-%EB%B3%80%EA%B2%BD/" rel="alternate" type="text/html" title="TC 에너지 전망, S&amp;amp;P 글로벌에 의해 안정적 변경" />
-    <published>2025-10-31T04:36:37+09:00</published>
-  
-    <updated>2025-10-31T04:36:37+09:00</updated>
-  
-    <id>/posts/tc-%EC%97%90%EB%84%88%EC%A7%80-%EC%A0%84%EB%A7%9D-sp-%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%97%90-%EC%9D%98%ED%95%B4-%EC%95%88%EC%A0%95%EC%A0%81-%EB%B3%80%EA%B2%BD/</id>
-    <content type="text/html" src="/posts/tc-%EC%97%90%EB%84%88%EC%A7%80-%EC%A0%84%EB%A7%9D-sp-%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%97%90-%EC%9D%98%ED%95%B4-%EC%95%88%EC%A0%95%EC%A0%81-%EB%B3%80%EA%B2%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>TC 에너지 전망, S&amp;amp;P 글로벌에 의해 안정적 변경 · 경제 뉴스 요약</summary>
 
   </entry>
 
