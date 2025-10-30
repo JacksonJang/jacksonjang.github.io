@@ -47,12 +47,7 @@ USED_TOPICS_LIMIT = int(os.getenv("USED_TOPICS_LIMIT", "400"))
 SIMILARITY_THRESHOLD = float(os.getenv("SIMILARITY_THRESHOLD", "0.72"))  # 0~1, 높을수록 엄격
 
 # 내부 링크(있다면 자동 삽입). 없으면 비워두세요.
-INTERNAL_LINKS = [
-    # 예: (앵커텍스트, 상대링크)
-    ("Spring Boot 예외 처리 가이드", "/spring-boot-exception-handler/"),
-    ("GitHub Actions로 자동 글쓰기", "/automation-with-github-actions/"),
-    ("ChatGPT 프롬프트 모음", "/best-chatgpt-prompts/"),
-]
+INTERNAL_LINKS = []
 
 # -----------------------------
 # RSS 소스 (지정한 6개)
