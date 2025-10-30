@@ -30,24 +30,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="[iOS] UIViewController 라이프사이클" />
-<meta name="author" content="JacksonJang" />
+<meta property="og:title" content="Jacksonjang Blog" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="iOS 개발에서 중요한 것은 문법도 중요하지만, 그 전에 애플리케이션이 어떻게 동작하고 관리되는지 알아야 효율적인 앱을 만들 수 있다고 생각해서 정리했습니다." />
-<meta property="og:description" content="iOS 개발에서 중요한 것은 문법도 중요하지만, 그 전에 애플리케이션이 어떻게 동작하고 관리되는지 알아야 효율적인 앱을 만들 수 있다고 생각해서 정리했습니다." />
-<link rel="canonical" href="/posts/uiviewcontroller-lifecycle/" />
-<meta property="og:url" content="/posts/uiviewcontroller-lifecycle/" />
+<meta name="description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
+<meta property="og:description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
+<link rel="canonical" href="/page12/" />
+<meta property="og:url" content="/page12/" />
 <meta property="og:site_name" content="Jacksonjang Blog" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-03-24T00:00:00+09:00" />
+<meta property="og:type" content="website" />
+<link rel="prev" href="/page11" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="[iOS] UIViewController 라이프사이클" />
+<meta property="twitter:title" content="Jacksonjang Blog" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"JacksonJang","url":"https://github.com/JacksonJang/"},"dateModified":"2024-03-24T00:00:00+09:00","datePublished":"2024-03-24T00:00:00+09:00","description":"iOS 개발에서 중요한 것은 문법도 중요하지만, 그 전에 애플리케이션이 어떻게 동작하고 관리되는지 알아야 효율적인 앱을 만들 수 있다고 생각해서 정리했습니다.","headline":"[iOS] UIViewController 라이프사이클","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/uiviewcontroller-lifecycle/"},"url":"/posts/uiviewcontroller-lifecycle/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"Jacksonjang Blog","url":"/page12/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>[iOS] UIViewController 라이프사이클 | Jacksonjang Blog
+  <title>Jacksonjang Blog
   </title>
 
   <!--
@@ -111,16 +110,11 @@
   <!-- 3rd-party Dependencies -->
 
   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.36.4/dist/tocbot.min.css">
-  
 
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
   
 
-  
-    <!-- Image Popup -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
   <!-- Scripts -->
@@ -164,9 +158,6 @@
   
 
   
-    <!-- image lazy-loading & popup & clipboard -->
-    
-  
 
 
 
@@ -224,30 +215,9 @@
 
   
 
-  
-    
-
-    
-
-  
-
-  
-    
-
-    
-
-  
-
-  
-    
-
-    
-
-  
 
 
-
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.18/dayjs.min.js,npm/dayjs@1.11.18/locale/en.js,npm/dayjs@1.11.18/plugin/relativeTime.js,npm/dayjs@1.11.18/plugin/localizedFormat.js,npm/tocbot@4.36.4/dist/tocbot.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.18/dayjs.min.js,npm/dayjs@1.11.18/locale/en.js,npm/dayjs@1.11.18/plugin/relativeTime.js,npm/dayjs@1.11.18/plugin/localizedFormat.js"></script>
 
 
 
@@ -255,15 +225,11 @@
 
 
 
-<script defer src="/assets/js/dist/post.min.js"></script>
+<script defer src="/assets/js/dist/home.min.js"></script>
 
 
 
 <!-- Pageviews -->
-
-  
-
-  
 
 
 
@@ -292,7 +258,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item">
+      <li class="nav-item active">
         <a href="/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>HOME</span>
@@ -415,23 +381,9 @@
       
 
       
-        
-          
-            <span>
-              <a href="/">Home</a>
-            </span>
+        <!-- index page -->
+        <span>Home</span>
 
-          
-        
-          
-        
-          
-            
-              <span>[iOS] UIViewController 라이프사이클</span>
-            
-
-          
-        
       
     </nav>
     <!-- endof #breadcrumb -->
@@ -441,7 +393,7 @@
     </button>
 
     <div id="topbar-title">
-      Post
+      Jacksonjang Blog
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -510,115 +462,6 @@
   
 
   
-    
-    
-
-    
-      
-        
-        
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-
-    
-  
 
   
   
@@ -648,17 +491,40 @@
 
 
 
+<!-- Get pinned posts on current page -->
 
-<article class="px-1" data-toc="true">
-  <header>
-    <h1 data-toc-skip>[iOS] UIViewController 라이프사이클</h1>
-    
 
-    <div class="post-meta text-muted">
-      <!-- published date -->
-      <span>
-        Posted
-        <!--
+
+
+
+
+<!-- Get normal posts on current page -->
+
+
+
+
+
+<div id="post-list" class="flex-grow-1 px-xl-1">
+  
+    <article class="card-wrapper card">
+      <a href="/posts/hello-world/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+
+        <div class="col-md-12">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">Hello World</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>“Hello world”   테스트 제목  테스트 내용  Type is Beautiful     font 테스트     Bold Test 테스트   ㅎㅇ   코드 테스트  let test = "test"   —— JacksonJang 2024.03</p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -668,341 +534,256 @@
 
 <time
   
-  data-ts="1711173600"
+  data-ts="1710594000"
   data-df="ll"
   
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
 >
-  Mar 24, 2024
+  Mar 17, 2024
 </time>
 
-      </span>
 
-      <!-- lastmod date -->
-      
-
-      
-
-      <div class="d-flex justify-content-between">
-        <!-- author(s) -->
-        <span>
-          
-
-          By
-
-          <em>
-            
-              
-                <a href="https://github.com/JacksonJang/">JacksonJang</a>
+                <!-- categories -->
                 
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      Etc
+                  </span>
+                
+              </div>
+
               
-            
-          </em>
-        </span>
-
-        <div>
-          <!-- pageviews -->
-          
-
-          <!-- read time -->
-          <!-- Calculate the post's reading time, and display the word count in tooltip -->
-
-
-
-<!-- words per minute -->
-
-
-
-
-
-
-
-
-
-
-<!-- return element -->
-<span
-  class="readtime"
-  data-bs-toggle="tooltip"
-  data-bs-placement="bottom"
-  title="811 words"
->
-  <em>4 min</em> read</span>
-
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
         </div>
-      </div>
-    </div>
-  </header>
-
+      </a>
+    </article>
   
-    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
-      <span class="label text-truncate">[iOS] UIViewController 라이프사이클</span>
-      <button type="button" class="toc-trigger btn me-1">
-        <i class="fa-solid fa-list-ul fa-fw"></i>
-      </button>
-    </div>
-
-    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
-      <span class="label ps-2 pe-1">Contents</span>
-      <i class="fa-solid fa-angle-right fa-fw"></i>
-    </button>
-
-    <dialog id="toc-popup" class="p-0">
-      <div class="header d-flex flex-row align-items-center justify-content-between">
-        <div class="label text-truncate py-2 ms-4">[iOS] UIViewController 라이프사이클</div>
-        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
-          <i class="fas fa-close"></i>
-        </button>
-      </div>
-      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
-    </dialog>
-  
-
-  <div class="content">
-    <p>iOS 개발에서 중요한 것은 문법도 중요하지만, 그 전에 애플리케이션이 어떻게 동작하고 관리되는지 알아야 효율적인 앱을 만들 수 있다고 생각해서 정리했습니다.</p>
-
-<h2 id="uikit에-정의된-uiviewcontroller-살펴보기"><span class="me-2">UIKit에 정의된 UIViewController 살펴보기</span><a href="#uikit에-정의된-uiviewcontroller-살펴보기" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<div class="language-swift highlighter-rouge"><div class="code-header">
-        <span data-label-text="Swift"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-</pre></td><td class="rouge-code"><pre><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">2.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
-<span class="kd">@MainActor</span> <span class="kd">open</span> <span class="kd">class</span> <span class="kt">UIViewController</span> <span class="p">:</span> <span class="kt">UIResponder</span><span class="p">,</span> <span class="kt">NSCoding</span><span class="p">,</span> <span class="kt">UIAppearanceContainer</span><span class="p">,</span> <span class="kt">UITraitEnvironment</span><span class="p">,</span> <span class="kt">UIContentContainer</span><span class="p">,</span> <span class="kt">UIFocusEnvironment</span> <span class="p">{</span>
-
-    <span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">nibName</span> <span class="nv">nibNameOrNil</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">bundle</span> <span class="nv">nibBundleOrNil</span><span class="p">:</span> <span class="kt">Bundle</span><span class="p">?)</span>
-
-    <span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">coder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span>
-
-    <span class="kd">open</span> <span class="kd">func</span> <span class="nf">loadView</span><span class="p">()</span>
-
-    <span class="kd">open</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span>
-
-    <span class="kd">open</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span>
-
-    <span class="kd">open</span> <span class="kd">func</span> <span class="nf">viewDidAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span>
-
-    <span class="kd">open</span> <span class="kd">func</span> <span class="nf">viewWillDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span>
-
-    <span class="kd">open</span> <span class="kd">func</span> <span class="nf">viewDidDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span>
-</pre></td></tr></tbody></table></code></div></div>
-<p>위에처럼 정의되어 있는 모습을 확인할 수 있습니다.
-예전에는 <code class="language-plaintext highlighter-rouge">@MainActor</code>는 Swift 5.5에서 나온 개념으로 <strong>메인 쓰레드에서 실행되도록 보장하는 역할</strong> 이라고 보시면 됩니다.</p>
-
-<p>이제 하나씩 자세히 살펴 보겠습니다.</p>
-
-<h2 id="init"><span class="me-2">init</span><a href="#init" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<div class="language-swift highlighter-rouge"><div class="code-header">
-        <span data-label-text="Swift"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td><td class="rouge-code"><pre><span class="c1">// nib file 을 통해 인스턴스를 생성할 때 사용</span>
-<span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">nibName</span> <span class="nv">nibNameOrNil</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">bundle</span> <span class="nv">nibBundleOrNil</span><span class="p">:</span> <span class="kt">Bundle</span><span class="p">?)</span>
-
-<span class="c1">// 스토리보드를 통해 인스턴스를 생성할 때 사용</span>
-<span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">coder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span>
-</pre></td></tr></tbody></table></code></div></div>
-
-<h2 id="loadview"><span class="me-2"><a href="https://developer.apple.com/documentation/uikit/uiviewcontroller/1621454-loadview">loadView</a></span><a href="#loadview" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<div class="language-swift highlighter-rouge"><div class="code-header">
-        <span data-label-text="Swift"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre><span class="c1">// 뷰 컨트롤러의 view를 메모리에 올립니다.</span>
-<span class="kd">open</span> <span class="kd">func</span> <span class="nf">loadView</span><span class="p">()</span>
-</pre></td></tr></tbody></table></code></div></div>
-<p>위 과정에서 @IBOutlet, @IBAction 등이 생성되고 view 객체들과 자동으로 연결됩니다.</p>
-
-<blockquote>
-  <p>만약, 스토리보드와 xib으로 직접 만들어서 사용할 시(즉, Interface Builder를 이용할 시), 절대 loadView 메서드를 override 하면 안됩니다.</p>
-</blockquote>
-
-<p>[애플 공식 문서 내용]</p>
-<pre><code class="language-none">If you use Interface Builder to create your views and initialize the view controller,
-you must not override this method.
-</code></pre>
-
-<h2 id="viewdidload"><span class="me-2"><a href="https://developer.apple.com/documentation/uikit/uiviewcontroller/1621495-viewdidload">viewDidLoad</a></span><a href="#viewdidload" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<div class="language-swift highlighter-rouge"><div class="code-header">
-        <span data-label-text="Swift"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="kd">open</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span>
-</pre></td></tr></tbody></table></code></div></div>
-<p>viewDidLoad는 UIViewController의 view가 메모리에 올라가면 호출됩니다.
-위에서 이미 loadView를 통해 view가 올라가졌으니 viewDidLoad로 왔겠죠??</p>
-
-<p>위에서 설명한 메서드(init, loadView, viewDidLoad)들은 최초 1번만 호출됩니다.</p>
-
-<h2 id="viewwillappear"><span class="me-2"><a href="https://developer.apple.com/documentation/uikit/uiviewcontroller/1621510-viewwillappear/">viewWillAppear</a></span><a href="#viewwillappear" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<div class="language-swift highlighter-rouge"><div class="code-header">
-        <span data-label-text="Swift"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="kd">open</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span>
-</pre></td></tr></tbody></table></code></div></div>
-<p>화면에 보이기 직전에 호출됩니다.
-<br />
-그치만, 너무 오래 걸리는 작업을 여기에 넣게되면 버벅거리는걸 느끼게 될 수 있어서 가급적이면 viewDidLoad에서 처리하는게 좋아요.</p>
-<p />
-
-<p>여러번 호출할 수 있는 메서드이기 때문에 최초 한번만 실행해야 하는 로직이 있다면, 피해주셔야 합니다.</p>
-
-<h2 id="viewdidappear"><span class="me-2"><a href="https://developer.apple.com/documentation/uikit/uiviewcontroller/1621423-viewdidappear">viewDidAppear</a></span><a href="#viewdidappear" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<div class="language-swift highlighter-rouge"><div class="code-header">
-        <span data-label-text="Swift"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="kd">open</span> <span class="kd">func</span> <span class="nf">viewDidAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span>
-</pre></td></tr></tbody></table></code></div></div>
-<p>화면에 완전히 나타난 후 호출됩니다.</p>
-<p />
-
-<p>여러번 호출할 수 있는 메서드이기 때문에 최초 한번만 실행해야 하는 로직이 있다면, 피해주셔야 합니다.</p>
-
-<h2 id="viewwilldisappear"><span class="me-2"><a href="https://developer.apple.com/documentation/uikit/uiviewcontroller/1621485-viewwilldisappear">viewWillDisappear</a></span><a href="#viewwilldisappear" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<div class="language-swift highlighter-rouge"><div class="code-header">
-        <span data-label-text="Swift"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="kd">open</span> <span class="kd">func</span> <span class="nf">viewWillDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span>
-</pre></td></tr></tbody></table></code></div></div>
-<p>뷰가 제거되기 직전에 호출됩니다.</p>
-<p />
-
-<p>여러번 호출할 수 있는 메서드이기 때문에 최초 한번만 실행해야 하는 로직이 있다면, 피해주셔야 합니다.</p>
-
-<h2 id="viewdiddisappear"><span class="me-2"><a href="https://developer.apple.com/documentation/uikit/uiviewcontroller/1621477-viewdiddisappear">viewDidDisappear</a></span><a href="#viewdiddisappear" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<div class="language-swift highlighter-rouge"><div class="code-header">
-        <span data-label-text="Swift"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="kd">open</span> <span class="kd">func</span> <span class="nf">viewDidDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span>
-</pre></td></tr></tbody></table></code></div></div>
-<p>뷰가 뷰 계층에서 완전히 사라진 후 호출됩니다.</p>
-<p />
-
-<p>여러번 호출할 수 있는 메서드이기 때문에 최초 한번만 실행해야 하는 로직이 있다면, 피해주셔야 합니다.</p>
-
-<h2 id="참고-링크"><span class="me-2">참고 링크</span><a href="#참고-링크" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<ul>
-  <li><a href="https://bicycleforthemind.tistory.com/33">https://bicycleforthemind.tistory.com/33</a></li>
-</ul>
-
-  </div>
-
-  <div class="post-tail-wrapper text-muted">
-    <!-- categories -->
-    
-      <div class="post-meta mb-3">
-        <i class="far fa-folder-open fa-fw me-1"></i>
-        
-          <a href="/categories/ios/">iOS</a>
-      </div>
-    
-
-    <!-- tags -->
-    
-      <div class="post-tags">
-        <i class="fa fa-tags fa-fw me-1"></i>
-        
-          <a
-            href="/tags/ios/"
-            class="post-tag no-text-decoration"
-          >iOS</a>
-        
-          <a
-            href="/tags/swift/"
-            class="post-tag no-text-decoration"
-          >Swift</a>
-        
-      </div>
-    
-
-    <div
-      class="
-        post-tail-bottom
-        d-flex justify-content-between align-items-center mt-5 pb-2
-      "
-    >
-      <div class="license-wrapper">
-        
-          
-
-          This post is licensed under 
-        <a href="https://creativecommons.org/licenses/by/4.0/">
-          CC BY 4.0
-        </a>
-         by the author.
-        
-      </div>
-
-      <!-- Post sharing snippet -->
-
-<div class="share-wrapper d-flex align-items-center">
-  <span class="share-label text-muted">Share</span>
-  <span class="share-icons">
-    
-    
-    
-
-    
-
-      
-
-      <a href="https://twitter.com/intent/tweet?text=[iOS]%20UIViewController%20%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4%20-%20Jacksonjang%20Blog&url=%2Fposts%2Fuiviewcontroller-lifecycle%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
-        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
-      </a>
-    
-
-      
-
-      <a href="https://www.facebook.com/sharer/sharer.php?title=[iOS]%20UIViewController%20%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4%20-%20Jacksonjang%20Blog&u=%2Fposts%2Fuiviewcontroller-lifecycle%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
-        <i class="fa-fw fab fa-facebook-square"></i>
-      </a>
-    
-
-      
-
-      <a href="https://t.me/share/url?url=%2Fposts%2Fuiviewcontroller-lifecycle%2F&text=[iOS]%20UIViewController%20%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4%20-%20Jacksonjang%20Blog" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
-        <i class="fa-fw fab fa-telegram"></i>
-      </a>
-    
-
-    <button
-      id="copy-link"
-      aria-label="Copy link"
-      class="btn small"
-      data-bs-toggle="tooltip"
-      data-bs-placement="top"
-      title="Copy link"
-      data-title-succeed="Link copied successfully!"
-    >
-      <i class="fa-fw fas fa-link pe-none fs-6"></i>
-    </button>
-  </span>
 </div>
+<!-- #post-list -->
 
-    </div>
-    <!-- .post-tail-bottom -->
-  </div>
-  <!-- div.post-tail-wrapper -->
-</article>
+
+  <!-- The paginator for post list on HomgPage. -->
+
+<nav aria-label="Page Navigation">
+  <ul class="pagination align-items-center mt-4 mb-0">
+    <!-- left arrow -->
+    
+
+    <li class="page-item ">
+      <a class="page-link" href="/page11" aria-label="previous-page">
+        <i class="fas fa-angle-left"></i>
+      </a>
+    </li>
+
+    <!-- page numbers -->
+    
+    
+
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/"
+          >1</a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+          <li class="page-item disabled">
+            <span class="page-link">...</span>
+          </li>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/page10"
+          >10</a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/page11"
+          >11</a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item  active">
+          <a
+            class="page-link"
+            href="/page12"
+          >12</a>
+        </li>
+      
+    
+
+    <!-- mobile pagination -->
+    <li class="page-index align-middle">
+      <span>12</span>
+      <span class="text-muted">/ 12</span>
+    </li>
+
+    <!-- right arrow -->
+    
+
+    <li class="page-item disabled">
+      <a class="page-link" href="#" aria-label="next-page">
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
+<!-- .pagination -->
+
+
 
 
             
@@ -3662,598 +3443,12 @@ you must not override this method.
             </div>
 
             
-              
-              
-
-
-
-
-
-
-  <div class="toc-border-cover z-3"></div>
-  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
-    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
-    <nav id="toc"></nav>
-  </section>
-
-
-            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
-            
-              
-              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
-
-<!-- The total size of related posts -->
-
-
-<!-- An random integer that bigger than 0 -->
-
-
-<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  <aside id="related-posts" aria-labelledby="related-label">
-    <h3 class="mb-4" id="related-label">Further Reading</h3>
-    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
-      
-        <article class="col">
-          <a href="/posts/ios-mvc-mvvm/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1712466000"
-  data-df="ll"
-  
->
-  Apr  7, 2024
-</time>
-
-              <h4 class="pt-0 my-2">[CS] MVC vs MVVM 패턴</h4>
-              <div class="text-muted">
-                <p>iOS 기준으로 Swift 언어를 사용해서 간단히 설명하겠습니다.   개요 제가 개발을 시작했었을 때, 처음 배웠던 아키텍처 패턴으로 MVC를 배웠었습니다.  아키텍처 패턴 중에서 제일 유명한 패턴으로 소프트웨어 개발에서 사용되고 있습니다.  하지만, 모바일 OS에서는 MVC를 대신해서 MVVM이 대중적으로 자리를 잡았습니다.  그렇지만 우리가 이러한...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/appdelegate/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1711569600"
-  data-df="ll"
-  
->
-  Mar 28, 2024
-</time>
-
-              <h4 class="pt-0 my-2">[iOS] AppDelegate 란?</h4>
-              <div class="text-muted">
-                <p>AppDelegate 역할 AppDelegate는 단어 그대로 App + Delegate로 앱이 해야할 일을 대신 구현한다는 의미이며, 앱의 시작부터 종료까지 다양한 라이프 사이클을 관리하고 있습니다.  그럼 프로젝트를 생성하면 기본적으로 생성되는 메서드들을 하나씩 알아보겠습니다.  application(_:didFinishLaunchingWithOp...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/uiview-lifecycle/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1711450800"
-  data-df="ll"
-  
->
-  Mar 27, 2024
-</time>
-
-              <h4 class="pt-0 my-2">[iOS] UIView 라이프사이클</h4>
-              <div class="text-muted">
-                <p>UIKit에 정의된 UIView 살펴보기  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 @available(iOS 2.0, *) @MainActor open class UIView : UIResponder, NSCoding, UIAppearance, UIAppearanceContainer, UIDynamicItem,...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-    </nav>
-  </aside>
-  <!-- #related-posts -->
-
-
-            
-              
-              <!-- Navigation buttons at the bottom of the post. -->
-
-<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
-  
-  
-
-  
-    <a
-      href="/posts/algorithm/"
-      class="btn btn-outline-primary"
-      aria-label="Older"
-    >
-      <p>[CS] 알고리즘이란?</p>
-    </a>
-  
-
-  
-    <a
-      href="/posts/avfoundation/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>[iOS] AVFoundation을 이용해서 바코드 인식 앱 만들기</p>
-    </a>
-  
-</nav>
-
             
 
             <!-- The Footer -->
@@ -6934,11 +6129,6 @@ you must not override this method.
     
 
     <!-- Embedded scripts -->
-
-    
-      
-      <!-- The comments switcher -->
-
 
     
 
