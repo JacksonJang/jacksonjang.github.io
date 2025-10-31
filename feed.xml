@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-31T20:08:56+09:00</updated>
+  <updated>2025-10-31T20:36:54+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>유튜브TV, 디즈니의 가격 인상 압박 주장</title>
+    <link href="/posts/%EC%9C%A0%ED%8A%9C%EB%B8%8Ctv-%EB%94%94%EC%A6%88%EB%8B%88%EC%9D%98-%EA%B0%80%EA%B2%A9-%EC%9D%B8%EC%83%81-%EC%95%95%EB%B0%95-%EC%A3%BC%EC%9E%A5/" rel="alternate" type="text/html" title="유튜브TV, 디즈니의 가격 인상 압박 주장" />
+    <published>2025-10-31T20:36:37+09:00</published>
+  
+    <updated>2025-10-31T20:36:37+09:00</updated>
+  
+    <id>/posts/%EC%9C%A0%ED%8A%9C%EB%B8%8Ctv-%EB%94%94%EC%A6%88%EB%8B%88%EC%9D%98-%EA%B0%80%EA%B2%A9-%EC%9D%B8%EC%83%81-%EC%95%95%EB%B0%95-%EC%A3%BC%EC%9E%A5/</id>
+    <content type="text/html" src="/posts/%EC%9C%A0%ED%8A%9C%EB%B8%8Ctv-%EB%94%94%EC%A6%88%EB%8B%88%EC%9D%98-%EA%B0%80%EA%B2%A9-%EC%9D%B8%EC%83%81-%EC%95%95%EB%B0%95-%EC%A3%BC%EC%9E%A5/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>유튜브TV, 디즈니의 가격 인상 압박 주장 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>스페이스엑스와 블루 오리진, NASA에 달 탐사 계획 제출 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>뉴스 영어표현: Hurricane, Struggles, Jamaica</title>
-    <link href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-hurricane-struggles-jamaica/" rel="alternate" type="text/html" title="뉴스 영어표현: Hurricane, Struggles, Jamaica" />
-    <published>2025-10-31T18:10:55+09:00</published>
-  
-    <updated>2025-10-31T18:10:55+09:00</updated>
-  
-    <id>/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-hurricane-struggles-jamaica/</id>
-    <content type="text/html" src="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-hurricane-struggles-jamaica/" />
-    <author>
-      <name>Jacksonjang</name>
-    </author>
-
-  
-    
-    <category term="English" />
-    
-  
-
-  <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
 
   </entry>
 
