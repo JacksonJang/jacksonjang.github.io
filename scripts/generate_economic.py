@@ -219,7 +219,9 @@ SEO_SYSTEM = (
 
 def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
     if _openai_client is None:
+        print("[WARN] OpenAI client not initialized (check OPENAI_API_KEY)")
         return None
+
     try:
         user_prompt = f"""
 다음 RSS 경제 뉴스를 기반으로 한국어 SEO 포스트를 작성하세요.
@@ -243,39 +245,38 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
 ## Sources
 (필요 시 실제 출처로 소스명 1줄만 남기세요. 링크 생성 금지)
 """
+
         resp = _openai_client.responses.create(
             model=MODEL_NAME,
             tools=[{"type": "web_search"}],
-            messages=[
+            input=[
                 {"role": "system", "content": SEO_SYSTEM},
                 {"role": "user", "content": user_prompt},
-            ],
+            ], 
             temperature=TEMPERATURE,
-            n=1,
-            response_format={"type": "json_object"},
+            response_format={"type": "json_object"},  # 또는 format="json"
         )
+
         txt = resp.output_text.strip()
         data = json.loads(txt)
 
-        # minimal validation
-        if not isinstance(data, dict):
-            return None
-        if "title" not in data or "body_md" not in data:
+        if not isinstance(data, dict) or "title" not in data or "body_md" not in data:
+            print("[WARN] AI 응답 형식 불일치:", data)
             return None
 
-        # normalize title length
+        # 제목 길이 정규화
         title = str(data["title"]).strip().strip("「」\"' ")
         if len(title) > 60:
             title = title[:57].rstrip() + "…"
         data["title"] = title
 
-        # normalize terms
+        # terms 정규화
         terms = data.get("terms") or []
         if not isinstance(terms, list):
             terms = []
         data["terms"] = [str(t).strip() for t in terms if str(t).strip()][:12]
 
-        # normalize related
+        # related 정규화
         related = data.get("related") or []
         norm_related: List[Dict[str, str]] = []
         if isinstance(related, list):
@@ -289,10 +290,14 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
                     norm_related.append({"symbol": sym, "name": name, "why": why})
         data["related"] = norm_related
 
+        print("[generate_post] ✅ web_search 기반 AI 생성 성공")
         return data
+
     except Exception as e:
-        print("[WARN] AI 단일 호출 실패:", e)
+        print("[WARN] AI 단일 호출(web_search) 실패:", repr(e))
+        traceback.print_exc()
         return None
+
 
 # -----------------------------
 # 본문 + 프론트매터 구성
