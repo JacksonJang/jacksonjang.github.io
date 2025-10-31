@@ -218,7 +218,7 @@ SEO_SYSTEM = (
 )
 
 def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
-    if _openai_chat is None:
+    if _openai_client is None:
         return None
     try:
         user_prompt = f"""
@@ -243,7 +243,7 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
 ## Sources
 (필요 시 실제 출처로 소스명 1줄만 남기세요. 링크 생성 금지)
 """
-        resp = _openai_chat.create(
+        resp = _openai_client.responses.create(
             model=MODEL_NAME,
             tools=[{"type": "web_search"}],
             messages=[
@@ -254,7 +254,7 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
             n=1,
             response_format={"type": "json_object"},
         )
-        txt = resp.choices[0].message.content.strip()
+        txt = resp.output_text.strip()
         data = json.loads(txt)
 
         # minimal validation
