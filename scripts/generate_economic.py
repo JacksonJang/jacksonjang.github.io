@@ -249,15 +249,12 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
         resp = _openai_client.responses.create(
             model=MODEL_NAME,
             tools=[{"type": "web_search"}],
-            input=[
-                {"role": "system", "content": SEO_SYSTEM},
-                {"role": "user", "content": user_prompt},
-            ],
+            input=user_prompt,
             temperature=TEMPERATURE,
-            format="json",
+            format="json"
         )
 
-        txt = resp.output_text.strip()
+        txt = getattr(resp, "output_text", None)
         data = json.loads(txt)
 
         if not isinstance(data, dict) or "title" not in data or "body_md" not in data:
