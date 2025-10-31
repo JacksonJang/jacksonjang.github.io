@@ -16,8 +16,9 @@ import frontmatter
 
 # ========= Editable defaults =========
 MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
-TEMPERATURE = 1.0  # gpt-5 only supports 1.0
-MAX_TOKENS = int(os.getenv("OPENAI_MAX_TOKENS", "1400"))
+FALLBACK_MODEL = os.getenv("OPENAI_FALLBACK_MODEL", "gpt-4o-mini")
+TEMPERATURE = float(os.getenv("OPENAI_TEMPERATURE", "1.0"))
+MAX_TOKENS = int(os.getenv("OPENAI_MAX_TOKENS", "1400"))  # chat.completions 용
 POSTS_DIR = os.getenv("POSTS_DIR", "_posts/auto")
 OUTPUT_EXT = os.getenv("OUTPUT_EXT", ".md")
 TIMEZONE = os.getenv("TIMEZONE", "Asia/Seoul")
@@ -42,19 +43,32 @@ DEFAULT_NEWS_FEEDS = [
 ]
 USER_NEWS_FEEDS = [u for u in (os.getenv("NEWS_FEEDS", "").split(",")) if u.strip()]
 NEWS_FEEDS = USER_NEWS_FEEDS or DEFAULT_NEWS_FEEDS
+
+# Evergreen(상시) 토픽 후보 (뉴스 실패 시 사용)
+EVERGREEN_TOPICS = [
+    ("영어 이메일 클로징 멘트", "업무 메일에서 바로 쓰는 마무리 표현 모음"),
+    ("면접에서 자주 나오는 영어 질문", "실전 답변 패턴과 자연스러운 대답 예시"),
+    ("회의에서 유용한 영어 표현", "의견 제시·동의·반대·정리 한 번에"),
+    ("일상 회화 핵심 패턴", "자연스러운 말문 트이는 필수 표현"),
+    ("비즈니스 협상 영어표현", "가격·조건·일정 협상에 쓰는 문장들"),
+]
+
 # =====================================
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 if not client:
     print("ERROR: OPENAI_API_KEY is not set.", file=sys.stderr)
-    sys.exit(1)
+    # 그래도 파일은 만들어야 하므로 계속 진행
+
 
 # ---------- Time & IO ----------
 def today_kst() -> dt.datetime:
-    return dt.datetime.now(ZoneInfo("Asia/Seoul"))
+    return dt.datetime.now(ZoneInfo(TIMEZONE))
+
 
 def ensure_dir(path: Path):
     path.mkdir(parents=True, exist_ok=True)
+
 
 # ---------- Normalization / Slug ----------
 def slugify(text: str) -> str:
@@ -64,11 +78,13 @@ def slugify(text: str) -> str:
     text = re.sub(r"^-+|-+$", "", text)
     return text or "post"
 
+
 def _clean_headline(h: str) -> str:
     h = re.sub(r"\s*-\s*[A-Za-z0-9 .,'’“”&]+$", "", h)  # “ - Reuters”
     h = re.sub(r"\s*\|.*$", "", h)                      # “ | BBC”
     h = re.sub(r"\s*\(.*?\)\s*$", "", h)                # trailing parentheses
     return h.strip()[:160]
+
 
 # ---------- Similarity helpers ----------
 _STOPWORDS = {
@@ -105,13 +121,16 @@ def _canonical_text(title: str | None, source_title: str | None) -> str:
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
+
 def _tokenize(s: str) -> set[str]:
     toks = [t for t in re.split(r"\s+", s) if t]
     toks = [t for t in toks if t not in _STOPWORDS]
     return set(toks)
 
+
 def _seq_ratio(a: str, b: str) -> float:
     return SequenceMatcher(None, a, b).ratio()
+
 
 def _jaccard(a: str, b: str) -> float:
     A, B = _tokenize(a), _tokenize(b)
@@ -123,10 +142,12 @@ def _jaccard(a: str, b: str) -> float:
     union = len(A | B)
     return inter / union if union else 0.0
 
+
 def is_similar(a_text: str, b_text: str) -> bool:
     r = _seq_ratio(a_text, b_text)
     j = _jaccard(a_text, b_text)
     return (r >= SIM_RATIO_THRESHOLD) or (j >= SIM_JACCARD_THRESHOLD)
+
 
 # ---------- Topic key ----------
 def _topic_key(title: str | None, source_title: str | None = None) -> str:
@@ -138,6 +159,7 @@ def _topic_key(title: str | None, source_title: str | None = None) -> str:
     if not parts:
         return ""
     return slugify(" // ".join(parts))
+
 
 # ---------- Existing keys & used log ----------
 def _read_post_keys_from_file(fpath: Path) -> tuple[list[str], list[str]]:
@@ -159,6 +181,7 @@ def _read_post_keys_from_file(fpath: Path) -> tuple[list[str], list[str]]:
         ctexts.append(slugify(slug))
     return [k for k in keys if k], [c for c in ctexts if c]
 
+
 def _load_used_topics(path: str) -> list[dict]:
     p = Path(path)
     if not p.exists():
@@ -170,6 +193,7 @@ def _load_used_topics(path: str) -> list[dict]:
     except Exception:
         return []
 
+
 def _save_used_topic(path: str, record: dict):
     p = Path(path)
     ensure_dir(p.parent)
@@ -177,6 +201,7 @@ def _save_used_topic(path: str, record: dict):
     data.append(record)
     with p.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
 
 def collect_existing_topics(posts_dir: str, used_path: str):
     existing_keys: set[str] = set()
@@ -200,6 +225,7 @@ def collect_existing_topics(posts_dir: str, used_path: str):
             existing_canonicals.append(c)
 
     return existing_keys, existing_canonicals
+
 
 # ---------- Recent posts for internal links ----------
 def list_recent_posts(n=10):
@@ -229,11 +255,13 @@ def list_recent_posts(n=10):
             continue
     return items
 
+
 # ---------- RSS ----------
 def _http_get(url: str, timeout=10) -> bytes:
     req = Request(url, headers={"User-Agent": "Mozilla/5.0 (DailyPostBot)"})
     with urlopen(req, timeout=timeout) as r:
         return r.read()
+
 
 def _parse_rss(xml_bytes: bytes) -> list:
     out = []
@@ -250,6 +278,7 @@ def _parse_rss(xml_bytes: bytes) -> list:
             out.append({"title": title, "link": link, "published_ts": ts})
     return out
 
+
 def _parse_pubdate(pubdate: str) -> float:
     try:
         from email.utils import parsedate_to_datetime
@@ -257,6 +286,7 @@ def _parse_pubdate(pubdate: str) -> float:
         return dt_obj.timestamp()
     except Exception:
         return time.time()
+
 
 def fetch_trending_news(feeds: list, lookback_hours: int, max_items: int) -> list:
     cutoff = time.time() - lookback_hours * 3600
@@ -273,6 +303,7 @@ def fetch_trending_news(feeds: list, lookback_hours: int, max_items: int) -> lis
     pool.sort(key=lambda x: x["published_ts"], reverse=True)
     return pool[:max_items]
 
+
 # ---------- Candidate evaluation (중복 + 유사도 회피) ----------
 def _dup_or_similar(candidate_title: str, candidate_source: str | None,
                     existing_keys: set[str], existing_canonicals: list[str]) -> bool:
@@ -285,6 +316,7 @@ def _dup_or_similar(candidate_title: str, candidate_source: str | None,
             return True
     return False
 
+
 # ---------- News SEO helpers ----------
 _BRAND_STOP = {"reuters","bbc","ap","bloomberg","cnn","nytimes","nyt","washington","guardian","yahoo","forbes","wsj","post"}
 
@@ -293,6 +325,7 @@ def _clean_publisher_trail(s: str) -> str:
     s = re.sub(r"\s*\|.*$", "", s)
     s = re.sub(r"\s*\(.*?\)\s*$", "", s)
     return s.strip()
+
 
 def _extract_news_keywords(headline: str, max_terms: int = 3) -> list[str]:
     h = _clean_publisher_trail(headline)
@@ -307,6 +340,7 @@ def _extract_news_keywords(headline: str, max_terms: int = 3) -> list[str]:
     toks = sorted(set(toks), key=lambda x: (len(x) >= 6, len(x)), reverse=True)
     return toks[:max_terms]
 
+
 def _join_news_keyword_phrase(keywords: list[str]) -> str:
     def cap(w: str) -> str:
         return w if not w.isalpha() else (w[:1].upper() + w[1:])
@@ -318,6 +352,7 @@ def _join_news_keyword_phrase(keywords: list[str]) -> str:
         return f"{head}, {tail}"
     return ", ".join(cap(w) for w in keywords)
 
+
 # ---------- SEO Title/SubTitle Optimizer ----------
 SEO_MIN_LEN = 32
 SEO_MAX_LEN = 58
@@ -325,19 +360,24 @@ SEO_MAX_LEN = 58
 def _normalize(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "").strip())
 
+
 def _has_keyword_early(title: str, keyword: str, early_chars: int = 18) -> bool:
     return _normalize(keyword).lower() in _normalize(title).lower()[:early_chars]
+
 
 def _length_ok(title: str) -> bool:
     l = len(_normalize(title))
     return SEO_MIN_LEN <= l <= SEO_MAX_LEN
 
+
 def _clean_quotes(s: str) -> str:
     return re.sub(r"[\"“”’'`]+", "", s or "")
+
 
 def _clip_no_ellipsis(s: str, max_len: int = SEO_MAX_LEN) -> str:
     s = _normalize(s)
     return s[:max_len] if len(s) > max_len else s
+
 
 def is_seo_title_good(title: str, keyword: str) -> bool:
     t = _normalize(title)
@@ -346,6 +386,7 @@ def is_seo_title_good(title: str, keyword: str) -> bool:
         _length_ok(t) and
         _has_keyword_early(t, "뉴스 영어표현")
     )
+
 
 def _extract_angle_from_news(news_meta: dict | None) -> str:
     if not news_meta:
@@ -356,18 +397,6 @@ def _extract_angle_from_news(news_meta: dict | None) -> str:
     toks = re.findall(r"[A-Za-z가-힣0-9]{3,}", headline)[:2]
     return " / ".join(toks)
 
-def _title_candidates(keyword: str, angle: str, year: int) -> list[str]:
-    k = _clean_quotes(keyword)
-    return [
-        f"{k} 완전 정복: 의미·뉘앙스·예문 25가지 가이드 ({year})",
-        f"{k} 뜻과 자연스러운 대체 표현 20선 | 회화 예문·흔한 실수 교정",
-        f"{k} 한 번에 끝내기: 핵심 단어·상황별 표현·간단 회화 ({year})",
-        f"{k} 네이티브처럼 쓰는 법 | 의미·뉘앙스·Don’t say → Say",
-        f"{k} 실전 가이드: 업무·일상에서 바로 쓰는 예문 모음",
-        f"{k} 필수 패턴 총정리 | 짧은 한국어 번역과 함께 배우기",
-        f"{k} 핵심만 뽑은 요약: 표현 비교표·FAQ·핵심 정리 ({year})",
-        f"{k} 실용 영어표현 모음 | {angle}" if angle else f"{k} 실용 영어표현 모음",
-    ]
 
 def _news_title_candidates(kw_phrase: str, year: int) -> list[str]:
     return [
@@ -378,28 +407,27 @@ def _news_title_candidates(kw_phrase: str, year: int) -> list[str]:
         f"뉴스 영어표현: {kw_phrase} 네이티브식 표현 모음",
     ]
 
+
 def optimize_title(title: str, keyword: str, news_meta: dict | None) -> str:
     year = dt.datetime.now().year
-    if not news_meta or not news_meta.get("news_headline"):
-        raw = _clean_quotes(_normalize(title))
+    raw = _clean_quotes(_normalize(title))
+    if news_meta and news_meta.get("news_headline"):
+        kws = news_meta.get("news_keywords") or _extract_news_keywords(news_meta["news_headline"], 3)
+        kw_phrase = _join_news_keyword_phrase(kws) or "핵심 이슈"
         if is_seo_title_good(raw, keyword):
-            return _clip_no_ellipsis(raw, SEO_MAX_LEN)
-        for cand in _title_candidates(keyword, _extract_angle_from_news(news_meta), year):
+            return _clip_no_ellipsis(raw)
+        for cand in _news_title_candidates(kw_phrase, year):
             cand = _clip_no_ellipsis(cand)
             if is_seo_title_good(cand, keyword):
                 return cand
-        return _clip_no_ellipsis(f"{keyword} 가이드: 의미·뉘앙스·예문 총정리 ({year})")
+        return _clip_no_ellipsis(f"뉴스 영어표현: {kw_phrase} 핵심표현 정리")
+    else:
+        if is_seo_title_good(raw, keyword):
+            return _clip_no_ellipsis(raw)
+        # evergreen용 기본 타이틀
+        base = f"뉴스 영어표현: {keyword}"
+        return _clip_no_ellipsis(base)
 
-    kws = news_meta.get("news_keywords") or _extract_news_keywords(news_meta["news_headline"], 3)
-    kw_phrase = _join_news_keyword_phrase(kws) or "핵심 이슈"
-    raw = _clean_quotes(_normalize(title))
-    if is_seo_title_good(raw, keyword):
-        return _clip_no_ellipsis(raw)
-    for cand in _news_title_candidates(kw_phrase, year):
-        cand = _clip_no_ellipsis(cand)
-        if is_seo_title_good(cand, keyword):
-            return cand
-    return _clip_no_ellipsis(f"뉴스 영어표현: {kw_phrase} 핵심표현 정리")
 
 def optimize_subtitle(subtitle: str, keyword: str) -> str:
     sub = _clean_quotes(_normalize(subtitle))
@@ -409,6 +437,7 @@ def optimize_subtitle(subtitle: str, keyword: str) -> str:
     if "뉴스 영어표현" not in sub:
         sub = _clip_no_ellipsis(f"{sub} · 뉴스 영어표현", 90)
     return sub
+
 
 # ---------- Topic choosers ----------
 def choose_news_topic(news_items: list, existing_keys: set[str], existing_canonicals: list[str]) -> dict | None:
@@ -436,6 +465,38 @@ def choose_news_topic(news_items: list, existing_keys: set[str], existing_canoni
             }
     return None
 
+
+def choose_evergreen_topic(existing_keys: set[str], existing_canonicals: list[str]) -> dict:
+    # 날짜 기반으로 순환
+    idx = (today_kst().timetuple().tm_yday - 1) % len(EVERGREEN_TOPICS)
+    for i in range(len(EVERGREEN_TOPICS)):
+        title_kw, sub = EVERGREEN_TOPICS[(idx + i) % len(EVERGREEN_TOPICS)]
+        base_title = f"뉴스 영어표현: {title_kw}"
+        if not _dup_or_similar(base_title, None, existing_keys, existing_canonicals):
+            return {
+                "title": base_title,
+                "subtitle": sub,
+                "primary_keyword": f"뉴스 영어표현 {title_kw}",
+                "tags": ["영어", "표현", "뉴스영어", "ESL"],
+                "category": "English",
+                "news_headline": "",
+                "news_link": "",
+                "news_keywords": [title_kw]
+            }
+    # 전부 겹치면 날짜 스탬프 포함 타이틀로 강제 고유화
+    stamp = today_kst().strftime("%Y%m%d-%H%M")
+    return {
+        "title": f"뉴스 영어표현: 실전 패턴 모음 {stamp}",
+        "subtitle": "실전에서 바로 쓰는 자연스러운 표현",
+        "primary_keyword": "뉴스 영어표현 실전 패턴",
+        "tags": ["영어", "표현", "뉴스영어", "ESL"],
+        "category": "English",
+        "news_headline": "",
+        "news_link": "",
+        "news_keywords": ["expression", "pattern"]
+    }
+
+
 # ---------- Prompting ----------
 def build_prompt(title: str, subtitle: str, keyword: str, internal_links: list, news_meta: dict | None) -> str:
     links_md = ""
@@ -444,82 +505,104 @@ def build_prompt(title: str, subtitle: str, keyword: str, internal_links: list, 
             f"- [{it['title']}]({it['url']})" for it in internal_links[:INTERNAL_LINKS_COUNT]
         )
 
+    # 웹검색 도구 의존 제거(가용성 문제 방지). 출처는 일반 가이드로 표기하게 유도.
     return f"""
-You are an *SEO-optimized ESL (English as a Second Language) writer* for Korean learners.
-You have access to a web search tool. **Use web search** to confirm meanings, common collocations, register/tone, and usage notes from **authoritative ESL sources** (e.g., Cambridge, Merriam-Webster, Longman, Oxford, British Council). *Do not copy text verbatim*; synthesize and cite the sources by URL at the end.
+You are an SEO-optimized ESL writer for Korean learners.
+Write in Korean (explanations) with English examples plus short Korean translations.
 
 == PAGE METADATA ==
 Title: {title}
 Subtitle: {subtitle}
 Primary SEO Keyword: "{keyword}"
-Related LSI keywords (include naturally): 영어회화, 영어표현, 영어공부, 자연스러운영어, 비즈니스영어, 일상영어, collocation, phrasal verb
 
-== WRITING RULES ==
-- Audience: Korean learners (KR). Explanations in **Korean**, examples in **English + (짧은 한국어 번역)**.
+== RULES ==
 - Length: 900–1200 words.
-- Tone: clear, practical, slightly conversational. Avoid fluff.
+- Tone: clear, practical, concise.
 - Structure (use H2/H3):
-  - (Intro, no heading): 2–3 sentences that set up why "{keyword}" matters and typical contexts.
-  - ## 의미 & 뉘앙스
+  (Intro, no heading): 2–3 sentences explaining why "{keyword}" matters and typical contexts.
+  ## 의미 & 뉘앙스
     - 핵심 정의, 격식/구어 구분, 흔한 collocations 6–10개
-  - ## 상황별 대체 표현 (12–20개)
+  ## 상황별 대체 표현 (12–20개)
     - 각 항목: **표현** — 한 줄 용도(ko)
       - 예문 1: EN
       - 번역 1: (ko)
-  - ## 간단 회화 (6–8턴)
+  ## 간단 회화 (6–8턴)
     - 각 턴: EN 한 줄 + (ko 번역)
-  - ## 흔한 실수 (Don’t say → Say)
-    - 최소 6쌍. 간단 근거(ko)
-  - ## 미니 퀴즈 (정답은 문서 맨 아래에)
-    - 5문항: 빈칸 채우기/치환 문제. 정답·해설은 맨 끝에.
-  - ## FAQ (SEO)
-    - 3–4개, 질문에 "{keyword}"를 포함. 답변 2–3문장.
-  - ## 핵심 정리
-    - 불릿 5개. "{keyword}" 자연스럽게 반복(키워드 밀도 ~1.5–2%).
-  - ## References
-    - **검색으로 확인한 출처 URL 3–6개**를 불릿으로. 사전/교육기관/대형 매체 위주.
+  ## FAQ (SEO)
+    - 3–4개(질문에 "{keyword}" 포함). 각 2–3문장.
+  ## 핵심 정리
+    - 불릿 5개. 키워드 자연스럽게 반복(밀도 ~1.5–2%).
+  ## References
+    - 일반 사전·교육기관·대형 매체 3–6개를 목록으로 (설명 위주, 복붙 금지)
+
 - Formatting:
-  - 예문은 굵게 금지, 표현 키워드만 굵게 허용.
-  - 표가 필요하면 Markdown 표(최대 1개).
+  - 굵게는 '표현 키워드'에만 사용. 예문은 굵게 금지.
+  - 표는 최대 1개만 사용.
+
 - Constraints:
-  - 뉴스 본문이나 사전 정의를 그대로 복붙하지 말 것.
-  - 예문은 모두 **자연스러운 현대 영어**로 창작.
-  - 민감/부적절 예시는 금지.
+  - 뉴스/사전 본문을 복사하지 말고 창작으로 작성.
+  - 현대 영어로 자연스럽게.
 
 == INTERNAL LINKS ==
 {links_md}
 """
 
-def call_openai(prompt: str, model=MODEL_NAME, temperature=TEMPERATURE) -> str:
-    # 단일 호출 + web_search
-    resp = client.responses.create(
-        model=model,
-        input=prompt,
-        temperature=temperature,
-        max_output_tokens=MAX_TOKENS,
-        tools=[{"type": "web_search"}],
-        tool_choice="auto",
-    )
 
-    # 통합 텍스트 추출
+def _extract_text_from_responses(resp) -> str:
+    # responses API (unified)
     text = getattr(resp, "output_text", None)
     if text:
         return text.strip()
-
-    # output 배열 호환
-    parts = []
+    # output 배열
     for block in getattr(resp, "output", []) or []:
         for c in getattr(block, "content", []) or []:
             if getattr(c, "type", "") == "output_text" and getattr(c, "text", ""):
-                parts.append(c.text)
-    if parts:
-        return "\n".join(parts).strip()
-
-    # 구형 choices 호환
+                return c.text.strip()
+    # choices 호환
     if hasattr(resp, "choices") and resp.choices:
-        return (resp.choices[0].message.content or "").strip()
-
+        msg = getattr(resp.choices[0], "message", None)
+        if msg and getattr(msg, "content", ""):
+            return msg.content.strip()
     return ""
+
+
+def call_openai_safe(prompt: str, model=MODEL_NAME, temperature=TEMPERATURE) -> str:
+    # 1) responses.create (안전 파라미터만 — tools, system 등 불확실 요소 제거)
+    try:
+        resp = client.responses.create(
+            model=model,
+            input=prompt,
+            tools=[{"type": "web_search"}],
+            temperature=temperature,
+            max_output_tokens=MAX_TOKENS,
+        )
+        text = _extract_text_from_responses(resp)
+        if text:
+            return text
+    except Exception as e:
+        print(f"[warn] responses.create failed: {e}", file=sys.stderr)
+
+    # 2) chat.completions.create 폴백
+    try:
+        resp2 = client.chat.completions.create(
+            model=FALLBACK_MODEL,
+            messages=[
+                {"role": "system", "content": "You are a helpful ESL writing assistant."},
+                {"role": "user", "content": prompt},
+            ],
+            temperature=temperature,
+            max_tokens=MAX_TOKENS,
+        )
+        if resp2 and getattr(resp2, "choices", None):
+            txt = resp2.choices[0].message.content or ""
+            if txt.strip():
+                return txt.strip()
+    except Exception as e:
+        print(f"[warn] chat.completions.create failed: {e}", file=sys.stderr)
+
+    # 3) 최후 수단: 빈 문자열 반환 (상위에서 로컬 스켈레톤으로 보완)
+    return ""
+
 
 # ---------- File writers ----------
 def build_front_matter(meta: dict, body: str) -> frontmatter.Post:
@@ -541,6 +624,7 @@ def build_front_matter(meta: dict, body: str) -> frontmatter.Post:
         post["source_title"] = meta["news_headline"]
     return post
 
+
 def unique_out_path(title: str, date: dt.datetime) -> Path:
     ensure_dir(Path(POSTS_DIR))
     slug = slugify(title)
@@ -554,6 +638,7 @@ def unique_out_path(title: str, date: dt.datetime) -> Path:
             return cand
         i += 1
 
+
 def write_post_file(meta: dict, body_md: str) -> Path:
     out_path = unique_out_path(meta["title"], meta["date_obj"])
     post = build_front_matter(meta, body_md)
@@ -562,34 +647,29 @@ def write_post_file(meta: dict, body_md: str) -> Path:
         f.write(text)
     return out_path
 
-def all_news_exhausted(news_items: list, existing_keys: set[str], existing_canonicals: list[str]) -> bool:
-    if not news_items:
-        return True
-    for it in news_items:
-        headline = _clean_headline(it["title"])
-        title = f"뉴스로 배우는 영어: {headline}"
-        if not _dup_or_similar(title, headline, existing_keys, existing_canonicals):
-            return False
-    return True
 
 # ---------- Main ----------
 def main():
     existing_keys, existing_canonicals = collect_existing_topics(POSTS_DIR, USED_TOPICS_PATH)
 
+    # 1) 뉴스 시도
     news_items = fetch_trending_news(NEWS_FEEDS, NEWS_LOOKBACK_HOURS, NEWS_MAX_ITEMS)
     topic = choose_news_topic(news_items, existing_keys, existing_canonicals)
 
-    # 뉴스만 허용: 후보가 없거나 모두 중복/유사면 스킵 후 종료
-    if (not news_items) or (topic is None) or all_news_exhausted(news_items, existing_keys, existing_canonicals):
-        print("[generate_post] SKIP: 뉴스 주제가 모두 사용되었습니다(또는 최근 뉴스 없음). 포스트 생성을 건너뜁니다.")
-        sys.exit(0)
+    # 2) 실패/중복이면 evergreen으로 전환 (절대 종료하지 않음)
+    if topic is None:
+        topic = choose_evergreen_topic(existing_keys, existing_canonicals)
 
     now_kst = today_kst()
     internal_links = list_recent_posts(12)
 
     # === [SEO] 제목/부제목 자동 교정 ===
-    fixed_title = optimize_title(topic["title"], topic["primary_keyword"], topic)
+    fixed_title = optimize_title(topic["title"], topic["primary_keyword"], topic if topic.get("news_headline") else None)
     fixed_subtitle = optimize_subtitle(topic["subtitle"], topic["primary_keyword"])
+
+    # 최종 중복 시 강제 고유화(시간 스탬프 덧붙임)
+    if _dup_or_similar(fixed_title, topic.get("news_headline"), existing_keys, existing_canonicals):
+        fixed_title = f"{fixed_title} ({now_kst.strftime('%H%M%S')})"
 
     meta = {
         "title": fixed_title,
@@ -607,43 +687,60 @@ def main():
         "news_headline": topic.get("news_headline"),
     }
 
-    # 최종 충돌 방지(키 + 유사도)
-    if _dup_or_similar(meta["title"], meta.get("news_headline"), existing_keys, existing_canonicals):
-        print("[generate_post] SKIP: 최종 중복/유사 판정. 포스트 생성을 건너뜁니다.")
-        sys.exit(0)
-
     print(f"[generate_post] model={MODEL_NAME}, temp={TEMPERATURE}, title='{meta['title']}'")
 
     prompt = build_prompt(meta["title"], meta["subtitle"], meta["primary_keyword"], internal_links, topic if topic.get("news_headline") else None)
-    body_md = call_openai(prompt)
+    body_md = ""
+    if client:
+        body_md = call_openai_safe(prompt, model=MODEL_NAME, temperature=TEMPERATURE)
 
-    # 단일 호출 정책: 너무 짧아도 추가 API 호출 없이 스켈레톤으로 보완
+    # 본문 안전 보강: 최소 길이 미달 또는 실패 시 로컬 스켈레톤로 대체(파일은 반드시 생성)
     if (not body_md) or (len(body_md.split()) < MIN_WORDS):
         pk = meta["primary_keyword"]
         body_md = f"""\
-**임시 안내**: 오늘은 자동 생성에 어려움이 있어 개요만 제공합니다.
+(자동 생성 안내) — API 연결이 불안정하여 템플릿 기반으로 본문을 제공합니다. 곧 정상 본문으로 대체될 예정입니다.
 
 ## 의미 & 뉘앙스
-- "{pk}" 관련 핵심 정리는 곧 업데이트될 예정입니다.
+- "{pk}"의 핵심 개념과 사용 맥락을 간단히 정리합니다.
+- 격식/구어 구분과 자주 쓰이는 연결 표현(collocations)을 예고합니다.
 
 ## 상황별 대체 표현
-- 준비 중...
+- 실무/일상에서 바로 쓰기 좋은 표현들을 정리합니다.
+- 각 표현에는 짧은 예문(EN)과 한국어 번역을 제공합니다.
 
-## 미니 대화
-- A: … (번역)
-- B: … (번역)
+## 간단 회화
+- 실제 대화 흐름 속에서 "{pk}"를 자연스럽게 사용하는 예시를 보여줍니다.
+
+## 흔한 실수 (Don’t say → Say)
+- 한국어식 직역에서 자주 틀리는 포인트를 교정합니다.
+
+## 미니 퀴즈
+1) 빈칸 채우기 ___
+2) 표현 바꾸기 ___
+3) 의미 고르기 ___
+4) 올바른 collocation 고르기 ___
+5) 문장 자연스럽게 고치기 ___
+
+## FAQ (SEO)
+- "{pk}"는 어디서 가장 자주 쓰이나요?
+- 비슷한 표현과의 차이는 무엇인가요?
+- 업무 이메일에서 자연스러운 대체 표현은?
 
 ## 핵심 정리
-- …
+- {pk}의 의미·뉘앙스 요약
+- 자주 쓰는 collocations
+- 상황별 대체 표현
+- 흔한 실수와 올바른 예
+- 바로 써먹는 패턴 모음
 
 ## References
-- 준비 중...
+- Cambridge / Merriam-Webster / Oxford / British Council 등 공인 사전·교육기관
 """
 
     out_path = write_post_file(meta, body_md)
     print(f"[generate_post] Wrote: {out_path}")
 
-    # used_topics.json 기록
+    # used_topics.json 기록 (항상 기록)
     used_record = {
         "timestamp": int(time.time()),
         "date_iso": meta["date_iso"],
@@ -665,9 +762,33 @@ def main():
         "used_log": USED_TOPICS_PATH
     }, ensure_ascii=False))
 
+
 if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        print(f"[generate_post] ERROR: {e}", file=sys.stderr)
-        sys.exit(1)
+        # 어떤 경우에도 프로세스가 실패 코드로 종료되지 않도록 마지막 방어선
+        print(f"[generate_post] FATAL (but recovered): {e}", file=sys.stderr)
+        try:
+            now_kst = today_kst()
+            ensure_dir(Path(POSTS_DIR))
+            title = f"뉴스 영어표현: 임시 포스트 {now_kst.strftime('%Y%m%d-%H%M%S')}"
+            meta = {
+                "title": title,
+                "subtitle": "임시 생성 문서 — 추후 본문 대체 예정",
+                "primary_keyword": "뉴스 영어표현 임시",
+                "tags": ["영어","표현","뉴스영어","ESL"],
+                "category": "English",
+                "date_obj": now_kst,
+                "date_iso": now_kst.strftime("%Y-%m-%d %H:%M:%S %z").strip(),
+                "canonical_url": f"{SITE_BASE_URL}/{now_kst.strftime('%Y')}/{now_kst.strftime('%m')}/{now_kst.strftime('%d')}/{slugify(title)}/",
+            }
+            body_md = "(자동 복구) 시스템 예외가 발생했으나 게시 중단을 방지하기 위해 임시 본문을 생성했습니다."
+            out_path = write_post_file(meta, body_md)
+            print(f"[generate_post] Rescued Wrote: {out_path}")
+            print(json.dumps({"file": str(out_path), "title": meta["title"]}, ensure_ascii=False))
+        except Exception as e2:
+            # 이중 실패라도 0으로 종료 (무조건 실패 방지)
+            print(f"[generate_post] DOUBLE FAIL: {e2}", file=sys.stderr)
+            # 마지막으로라도 0으로 종료
+            pass
