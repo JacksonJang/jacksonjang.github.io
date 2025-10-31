@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-01T02:40:11+09:00</updated>
+  <updated>2025-11-01T03:16:11+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>뉴스 영어표현: Spacecraft, Possible, Hurtling</title>
+    <link href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-spacecraft-possible-hurtling/" rel="alternate" type="text/html" title="뉴스 영어표현: Spacecraft, Possible, Hurtling" />
+    <published>2025-11-01T03:15:17+09:00</published>
+  
+    <updated>2025-11-01T03:15:17+09:00</updated>
+  
+    <id>/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-spacecraft-possible-hurtling/</id>
+    <content type="text/html" src="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-spacecraft-possible-hurtling/" />
+    <author>
+      <name>Jacksonjang</name>
+    </author>
+
+  
+    
+    <category term="English" />
+    
+  
+
+  <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>뉴스 영어표현: Relations, Turning, Marking</title>
+    <link href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-relations-turning-marking/" rel="alternate" type="text/html" title="뉴스 영어표현: Relations, Turning, Marking" />
+    <published>2025-11-01T03:14:46+09:00</published>
+  
+    <updated>2025-11-01T03:14:46+09:00</updated>
+  
+    <id>/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-relations-turning-marking/</id>
+    <content type="text/html" src="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-relations-turning-marking/" />
+    <author>
+      <name>Jacksonjang</name>
+    </author>
+
+  
+    
+    <category term="English" />
+    
+  
+
+  <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
+
+  </entry>
 
   
   <entry>
@@ -76,54 +124,6 @@
   
     <id>/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-congressional-unexpected-lawmakers/</id>
     <content type="text/html" src="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-congressional-unexpected-lawmakers/" />
-    <author>
-      <name>Jacksonjang</name>
-    </author>
-
-  
-    
-    <category term="English" />
-    
-  
-
-  <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>삼성, AI 칩 제조 자동화에 Nvidia GPU 50,000대 도입</title>
-    <link href="/posts/%EC%82%BC%EC%84%B1-ai-%EC%B9%A9-%EC%A0%9C%EC%A1%B0-%EC%9E%90%EB%8F%99%ED%99%94%EC%97%90-nvidia-gpu-50000%EB%8C%80-%EB%8F%84%EC%9E%85/" rel="alternate" type="text/html" title="삼성, AI 칩 제조 자동화에 Nvidia GPU 50,000대 도입" />
-    <published>2025-11-01T01:46:30+09:00</published>
-  
-    <updated>2025-11-01T01:46:30+09:00</updated>
-  
-    <id>/posts/%EC%82%BC%EC%84%B1-ai-%EC%B9%A9-%EC%A0%9C%EC%A1%B0-%EC%9E%90%EB%8F%99%ED%99%94%EC%97%90-nvidia-gpu-50000%EB%8C%80-%EB%8F%84%EC%9E%85/</id>
-    <content type="text/html" src="/posts/%EC%82%BC%EC%84%B1-ai-%EC%B9%A9-%EC%A0%9C%EC%A1%B0-%EC%9E%90%EB%8F%99%ED%99%94%EC%97%90-nvidia-gpu-50000%EB%8C%80-%EB%8F%84%EC%9E%85/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>삼성, AI 칩 제조 자동화에 Nvidia GPU 50,000대 도입 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>뉴스 영어표현: Centrist, Victory, Claims</title>
-    <link href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-centrist-victory-claims/" rel="alternate" type="text/html" title="뉴스 영어표현: Centrist, Victory, Claims" />
-    <published>2025-11-01T01:12:15+09:00</published>
-  
-    <updated>2025-11-01T01:12:15+09:00</updated>
-  
-    <id>/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-centrist-victory-claims/</id>
-    <content type="text/html" src="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-centrist-victory-claims/" />
     <author>
       <name>Jacksonjang</name>
     </author>
