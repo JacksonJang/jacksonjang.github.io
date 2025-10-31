@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 
 """
-Single-call OpenAI version of generate_post.py
+Single-call OpenAI version of generate_post.py (with OpenAI-based related picks)
 - RSS Source: Reuters, BBC, Investing.com, MarketWatch, Yahoo Finance, CNBC
-- Exactly ONE OpenAI chat.completions call (title + body + search terms in JSON)
-- No web_search tool assumption (kept robust). Yahoo Finance search used for related tickers.
-- Dedup via used_topics.json; fallback paths preserved.
+- Exactly ONE OpenAI chat.completions call (title + body + terms + related in JSON)
+- Related stocks/ETFs are proposed directly by OpenAI (no Yahoo Finance).
+- Dedup via used_topics.json; fallback paths minimal for strict single-call design.
 """
 
 import os
@@ -23,7 +23,6 @@ from zoneinfo import ZoneInfo
 from difflib import SequenceMatcher
 from typing import List, Optional, Dict, Any
 
-import requests
 import frontmatter
 import feedparser
 import yaml
@@ -44,10 +43,7 @@ USED_TOPICS_LIMIT = int(os.getenv("USED_TOPICS_LIMIT", "400"))
 SIMILARITY_THRESHOLD = float(os.getenv("SIMILARITY_THRESHOLD", "0.72"))  # 0~1, 높을수록 엄격
 
 # 내부 링크(있다면 자동 삽입). 없으면 비워두세요.
-INTERNAL_LINKS = []
-
-# 검색 기반 관련 종목 켜기/끄기
-USE_WEB_SEARCH = os.getenv("USE_WEB_SEARCH", "true").lower() == "true"
+INTERNAL_LINKS: List[tuple[str, str]] = []
 
 # -----------------------------
 # RSS 소스 (지정한 6개)
@@ -88,10 +84,8 @@ class NewsItem:
 # -----------------------------
 # 유틸
 # -----------------------------
-
 def ensure_dir(p: Path) -> None:
     p.mkdir(parents=True, exist_ok=True)
-
 
 def now_kst() -> datetime:
     try:
@@ -99,14 +93,12 @@ def now_kst() -> datetime:
     except Exception:
         return datetime.utcnow().replace(tzinfo=ZoneInfo("UTC")).astimezone(ZoneInfo("Asia/Seoul"))
 
-
 def to_slug(s: str) -> str:
     s = s.lower().strip()
     s = re.sub(r"[^\w\s-]", "", s)
     s = re.sub(r"\s+", "-", s)
     s = re.sub(r"-+", "-", s)
     return s
-
 
 def load_used_topics() -> List[str]:
     if USED_TOPICS_FILE.exists():
@@ -118,17 +110,14 @@ def load_used_topics() -> List[str]:
             pass
     return []
 
-
 def save_used_topics(titles: List[str]) -> None:
     ensure_dir(USED_TOPICS_FILE.parent)
     if len(titles) > USED_TOPICS_LIMIT:
         titles = titles[-USED_TOPICS_LIMIT:]
     USED_TOPICS_FILE.write_text(json.dumps(titles, ensure_ascii=False, indent=2), encoding="utf-8")
 
-
 def is_similar(a: str, b: str) -> float:
     return SequenceMatcher(None, a.lower(), b.lower()).ratio()
-
 
 def is_duplicate_or_similar(title: str, used_list: List[str]) -> bool:
     if title in used_list:
@@ -138,7 +127,6 @@ def is_duplicate_or_similar(title: str, used_list: List[str]) -> bool:
             return True
     return False
 
-
 def pick_not_used(candidate_items: List[NewsItem], used_titles: List[str]) -> Optional[NewsItem]:
     candidate_items = sorted(candidate_items, key=lambda x: x.published or now_kst(), reverse=True)
     for item in candidate_items:
@@ -146,11 +134,9 @@ def pick_not_used(candidate_items: List[NewsItem], used_titles: List[str]) -> Op
             return item
     return None
 
-
 # -----------------------------
 # 피드 로딩
 # -----------------------------
-
 def parse_published(entry: Any) -> Optional[datetime]:
     try:
         if hasattr(entry, "published_parsed") and entry.published_parsed:
@@ -163,7 +149,6 @@ def parse_published(entry: Any) -> Optional[datetime]:
     except Exception:
         pass
     return None
-
 
 def fetch_news_from_rss() -> List[NewsItem]:
     items: List[NewsItem] = []
@@ -181,102 +166,28 @@ def fetch_news_from_rss() -> List[NewsItem]:
             print(f"[WARN] RSS 실패: {src['name']} - {ex}")
     return items
 
-
 # -----------------------------
-# 검색 기반 관련 종목 추천 (Yahoo Finance Search)
+# 관련 종목 추천 (OpenAI가 직접 제안)
 # -----------------------------
-YF_SEARCH_URL = "https://query1.finance.yahoo.com/v1/finance/search"
-
-
-def yf_search_one(q: str, lang="ko-KR", region="KR", quotes_count=5) -> List[dict]:
-    try:
-        r = requests.get(
-            YF_SEARCH_URL,
-            params={"q": q, "lang": lang, "region": region, "quotesCount": quotes_count, "newsCount": 0},
-            timeout=6,
-        )
-        if r.status_code == 200:
-            js = r.json()
-            return js.get("quotes", []) or []
-    except Exception:
-        pass
-    return []
-
-
-def score_quote(q: dict) -> float:
-    score = 0.0
-    qt = (q.get("quoteType") or "").upper()
-    exch = (q.get("exchDisp") or "").upper()
-    nm = (q.get("shortname") or q.get("longname") or q.get("symbol") or "").lower()
-
-    if qt in {"EQUITY", "ETF"}:
-        score += 2.0
-    if any(x in exch for x in ["KOREA", "KOSPI", "KOSDAQ", "NYSE", "NASDAQ"]):
-        score += 1.0
-    score += max(0.0, 1.0 - (len(nm) / 60.0))
-    return score
-
-
-def dedup_quotes(quotes: List[dict], limit=6) -> List[dict]:
-    out = []
-    seen = set()
-    for q in sorted(quotes, key=score_quote, reverse=True):
-        sym = q.get("symbol")
-        nm = q.get("shortname") or q.get("longname") or ""
-        key = (sym, nm)
-        if sym and key not in seen:
-            out.append(q)
-            seen.add(key)
-        if len(out) >= limit:
-            break
-    return out
-
-
-def related_stocks_from_terms(terms: List[str]) -> List[tuple]:
-    if not USE_WEB_SEARCH:
-        return []
-    all_quotes: List[dict] = []
-    for region in ["KR", "US"]:
-        for t in terms[:12]:
-            if len(t) < 2:
-                continue
-            qs = yf_search_one(t, lang="ko-KR", region=region, quotes_count=5)
-            for q in qs:
-                qt = (q.get("quoteType") or "").upper()
-                if qt in {"EQUITY", "ETF", "CRYPTOCURRENCY", "INDEX"}:
-                    all_quotes.append(q)
-    picks = dedup_quotes(all_quotes, limit=6)
+def related_md_from_ai(related: List[Dict[str, str]]) -> str:
+    """ai_generate_all()가 반환한 related 목록을 이용해 MD 섹션 생성"""
+    picks = related or []
     if not picks:
-        return [("SPY", "SPDR S&P 500", "미국 대형주 분산"), ("ACWI", "MSCI ACWI", "글로벌 분산")]
-    results = []
-    for q in picks:
-        sym = q.get("symbol")
-        nm = q.get("shortname") or q.get("longname") or sym
-        qt = (q.get("quoteType") or "").upper()
-        why = {
-            "EQUITY": "핵심 관련 기업",
-            "ETF": "관련 테마/섹터 ETF",
-            "CRYPTOCURRENCY": "디지털 자산 테마",
-            "INDEX": "관련 지수",
-        }.get(qt, "관련 자산")
-        results.append((sym, nm, why))
-    return results
-
-
-def related_stocks_md(terms: List[str]) -> str:
-    picks = related_stocks_from_terms(terms)
-    if not picks:
-        picks = [("SPY", "SPDR S&P 500", "미국 대형주 분산"), ("ACWI", "MSCI ACWI", "글로벌 분산")]
-    lines = ["\n## 관련 종목", "검색 기반으로 연관성이 높은 종목/ETF를 제안합니다. (투자 권유 아님)"]
-    for tk, nm, why in picks:
-        lines.append(f"- **{tk}** — {nm} · {why}")
+        picks = [
+            {"symbol": "SPY", "name": "SPDR S&P 500", "why": "미국 대형주 분산"},
+            {"symbol": "ACWI", "name": "MSCI ACWI", "why": "글로벌 분산"},
+        ]
+    lines = ["\n## 관련 종목", "OpenAI 제안 기반의 연관 종목/ETF입니다. (투자 권유 아님)"]
+    for it in picks:
+        sym = (it.get("symbol") or it.get("ticker") or "-").strip()
+        nm = (it.get("name") or it.get("fullname") or sym).strip()
+        why = (it.get("why") or it.get("reason") or "관련성 높은 자산").strip()
+        lines.append(f"- **{sym}** — {nm} · {why}")
     return "\n".join(lines)
-
 
 # -----------------------------
 # 날짜 교정
 # -----------------------------
-
 def normalize_dates_in_body(body: str, picked: NewsItem, today_kst: datetime) -> str:
     src_text = f"{picked.title} {picked.summary or ''}"
     pattern = r"(20[1-2][0-9])년\s*(1[0-2]|[1-9])월"
@@ -293,18 +204,18 @@ def normalize_dates_in_body(body: str, picked: NewsItem, today_kst: datetime) ->
 
     return re.sub(pattern, repl, body)
 
-
 # -----------------------------
-# OpenAI: 단 한 번의 호출로 title/body/terms 생성
+# OpenAI: 단 한 번의 호출로 title/body/terms/related 생성
 # -----------------------------
-
 SEO_SYSTEM = (
     "You are an SEO-oriented Korean finance editor. "
-    "Return strict JSON with keys: title, body_md, terms[]. Keep titles <=60 chars. "
-    "Body must be markdown with sections: '# {title}', '## 오늘의 경제 이슈 한눈에 보기', '## 무슨 일이 있었나', '## 왜 중요한가', '## 투자자 체크포인트', '## 한줄 정리', '## Sources'. "
+    "Return strict JSON with keys: title, body_md, terms[], related[]. Keep titles <=60 chars. "
+    "related must be a list of up to 6 objects with keys: symbol (ticker like TSLA/KRW=X/GC=F/SPY), "
+    "name (short common name), why (1 short Korean phrase). "
+    "Body must be markdown with sections: '# {title}', '## 오늘의 경제 이슈 한눈에 보기', "
+    "'## 무슨 일이 있었나', '## 왜 중요한가', '## 투자자 체크포인트', '## 한줄 정리', '## Sources'. "
     "Avoid hype; be precise and neutral; cite only provided info; do not invent dates."
 )
-
 
 def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
     if _openai_chat is None:
@@ -314,7 +225,7 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
 다음 RSS 경제 뉴스를 기반으로 한국어 SEO 포스트를 작성하세요.
 - 오늘 날짜는 {today_str} 입니다. 날짜/시점 표기는 오늘 기준으로 하세요.
 - 출력은 반드시 JSON(UTF-8) 한 덩어리로 반환하세요.
-- JSON 키: title(<=60자), body_md(마크다운 본문), terms(최대 12개의 관련 검색어; 기업/ETF/원자재/환율/지수 등)
+- JSON 키: title(<=60자), body_md(마크다운 본문), terms(최대 12개), related(최대 6개; 각 항목은 {{symbol,name,why}})
 
 입력 뉴스:
 - 소스: {item.source}
@@ -334,6 +245,7 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
 """
         resp = _openai_chat.create(
             model=MODEL_NAME,
+            tools=[{"type": "web_search"}],
             messages=[
                 {"role": "system", "content": SEO_SYSTEM},
                 {"role": "user", "content": user_prompt},
@@ -344,21 +256,39 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
         )
         txt = resp.choices[0].message.content.strip()
         data = json.loads(txt)
+
         # minimal validation
         if not isinstance(data, dict):
             return None
         if "title" not in data or "body_md" not in data:
             return None
+
         # normalize title length
         title = str(data["title"]).strip().strip("「」\"' ")
         if len(title) > 60:
             title = title[:57].rstrip() + "…"
         data["title"] = title
-        # terms list
+
+        # normalize terms
         terms = data.get("terms") or []
         if not isinstance(terms, list):
             terms = []
         data["terms"] = [str(t).strip() for t in terms if str(t).strip()][:12]
+
+        # normalize related
+        related = data.get("related") or []
+        norm_related: List[Dict[str, str]] = []
+        if isinstance(related, list):
+            for it in related[:6]:
+                if not isinstance(it, dict):
+                    continue
+                sym = str(it.get("symbol") or it.get("ticker") or "").strip()
+                name = str(it.get("name") or it.get("fullname") or sym or "").strip()
+                why = str(it.get("why") or it.get("reason") or "").strip()
+                if sym and name:
+                    norm_related.append({"symbol": sym, "name": name, "why": why})
+        data["related"] = norm_related
+
         return data
     except Exception as e:
         print("[WARN] AI 단일 호출 실패:", e)
@@ -367,7 +297,6 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
 # -----------------------------
 # 본문 + 프론트매터 구성
 # -----------------------------
-
 def build_internal_links(max_links: int = 3) -> str:
     if not INTERNAL_LINKS:
         return ""
@@ -376,7 +305,6 @@ def build_internal_links(max_links: int = 3) -> str:
     for text, href in picks:
         lines.append(f"- [{text}]({href})")
     return "\n".join(lines)
-
 
 def to_markdown_frontmatter(
     title: str,
@@ -409,19 +337,17 @@ def to_markdown_frontmatter(
         fm["post_assets"] = post_assets_dir
     return fm
 
-
 def write_post_file(filename: Path, fm: Dict[str, Any], body_md: str) -> None:
     post = frontmatter.Post(body_md, **fm)
     ensure_dir(filename.parent)
     filename.write_text(frontmatter.dumps(post), encoding="utf-8")
     print(f"[generate_post] Wrote: {filename}")
 
-
 # -----------------------------
 # 메인 로직
 # -----------------------------
-
 def extract_terms_rule_based(seo_title: str, item: NewsItem) -> List[str]:
+    # (현재는 미사용. 필요 시 fallback 용도로 유지)
     base = f"{seo_title} {item.title} {item.summary}"
     extra = set()
     for w in re.findall(r"[A-Za-z][A-Za-z0-9&.\-]{1,20}", base):
@@ -444,7 +370,6 @@ def extract_terms_rule_based(seo_title: str, item: NewsItem) -> List[str]:
         if len(out) >= 12:
             break
     return out
-
 
 def main():
     ensure_dir(POSTS_DIR)
@@ -481,20 +406,19 @@ def main():
 
     # === 단 한 번의 OpenAI 호출 ===
     ai_data = ai_generate_all(picked, today_str)
+    if not ai_data:
+        return  # 실패 시 조용히 종료(원하면 규칙기반 fallback로 바꿀 수 있음)
 
-    if ai_data:
-        seo_title = ai_data.get("title")
-        body = ai_data.get("body_md")
-        terms = ai_data.get("terms") or []
-    else:
-        exit(0)
+    seo_title = ai_data.get("title") or picked.title
+    body = ai_data.get("body_md") or ""
+    terms = ai_data.get("terms") or []
+    related = ai_data.get("related") or []
 
+    # 날짜 교정
     body = normalize_dates_in_body(body, picked, today)
 
-    # 검색 기반 '관련 종목' 섹션 (terms 우선, 없으면 규칙 기반 추출)
-    if not terms:
-        terms = extract_terms_rule_based(seo_title, picked)
-    body += "\n" + related_stocks_md(terms)
+    # 관련 종목 섹션 (OpenAI 제안 기반; 없으면 기본값)
+    body += "\n" + related_md_from_ai(related)
 
     # 내부링크(옵션)
     body += build_internal_links()
@@ -511,13 +435,13 @@ def main():
 
     fm = to_markdown_frontmatter(
         title=seo_title,
-        date_kst=today,
-        category=category,
-        tags=tags,
-        post_assets_dir=post_assets_dir,
-        canonical_url=canonical_url,
-        source_title=picked.title,
-        source_link=picked.link,
+        date_kst= today,
+        category= category,
+        tags= tags,
+        post_assets_dir= post_assets_dir,
+        canonical_url= canonical_url,
+        source_title= picked.title,
+        source_link= picked.link,
     )
 
     # 파일 기록
@@ -537,8 +461,8 @@ def main():
         "news_title": picked.title,
         "news_link": picked.link,
         "terms": terms,
+        "related": related,
     }, ensure_ascii=False, indent=2))
-
 
 if __name__ == "__main__":
     try:
