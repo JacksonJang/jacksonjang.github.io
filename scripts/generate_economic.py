@@ -252,9 +252,9 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
             input=[
                 {"role": "system", "content": SEO_SYSTEM},
                 {"role": "user", "content": user_prompt},
-            ], 
+            ],
             temperature=TEMPERATURE,
-            response_format={"type": "json_object"},  # 또는 format="json"
+            response_format={"type": "json"}
         )
 
         txt = resp.output_text.strip()
