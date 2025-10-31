@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-01T08:10:39+09:00</updated>
+  <updated>2025-11-01T08:35:31+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>미국 SNAP 지원, 정부 셧다운에도 지급</title>
+    <link href="/posts/%EB%AF%B8%EA%B5%AD-snap-%EC%A7%80%EC%9B%90-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4%EC%97%90%EB%8F%84-%EC%A7%80%EA%B8%89/" rel="alternate" type="text/html" title="미국 SNAP 지원, 정부 셧다운에도 지급" />
+    <published>2025-11-01T08:34:54+09:00</published>
+  
+    <updated>2025-11-01T08:34:54+09:00</updated>
+  
+    <id>/posts/%EB%AF%B8%EA%B5%AD-snap-%EC%A7%80%EC%9B%90-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4%EC%97%90%EB%8F%84-%EC%A7%80%EA%B8%89/</id>
+    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-snap-%EC%A7%80%EC%9B%90-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4%EC%97%90%EB%8F%84-%EC%A7%80%EA%B8%89/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>미국 SNAP 지원, 정부 셧다운에도 지급 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>SNAP 혜택, 셧다운 속에서도 유지 판결</title>
-    <link href="/posts/snap-%ED%98%9C%ED%83%9D-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%86%8D%EC%97%90%EC%84%9C%EB%8F%84-%EC%9C%A0%EC%A7%80-%ED%8C%90%EA%B2%B0/" rel="alternate" type="text/html" title="SNAP 혜택, 셧다운 속에서도 유지 판결" />
-    <published>2025-11-01T06:36:21+09:00</published>
-  
-    <updated>2025-11-01T06:36:21+09:00</updated>
-  
-    <id>/posts/snap-%ED%98%9C%ED%83%9D-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%86%8D%EC%97%90%EC%84%9C%EB%8F%84-%EC%9C%A0%EC%A7%80-%ED%8C%90%EA%B2%B0/</id>
-    <content type="text/html" src="/posts/snap-%ED%98%9C%ED%83%9D-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%86%8D%EC%97%90%EC%84%9C%EB%8F%84-%EC%9C%A0%EC%A7%80-%ED%8C%90%EA%B2%B0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>SNAP 혜택, 셧다운 속에서도 유지 판결 · 경제 뉴스 요약</summary>
 
   </entry>
 
