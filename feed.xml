@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-31T17:13:52+09:00</updated>
+  <updated>2025-10-31T17:45:45+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>엔비디아, 프라이드 치킨 주식에 효력 발휘</title>
+    <link href="/posts/%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%B9%98%ED%82%A8-%EC%A3%BC%EC%8B%9D%EC%97%90-%ED%9A%A8%EB%A0%A5-%EB%B0%9C%ED%9C%98/" rel="alternate" type="text/html" title="엔비디아, 프라이드 치킨 주식에 효력 발휘" />
+    <published>2025-10-31T17:45:28+09:00</published>
+  
+    <updated>2025-10-31T17:45:28+09:00</updated>
+  
+    <id>/posts/%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%B9%98%ED%82%A8-%EC%A3%BC%EC%8B%9D%EC%97%90-%ED%9A%A8%EB%A0%A5-%EB%B0%9C%ED%9C%98/</id>
+    <content type="text/html" src="/posts/%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%B9%98%ED%82%A8-%EC%A3%BC%EC%8B%9D%EC%97%90-%ED%9A%A8%EB%A0%A5-%EB%B0%9C%ED%9C%98/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>엔비디아, 프라이드 치킨 주식에 효력 발휘 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>디즈니 콘텐츠, 유튜브TV에서 퇴출 결정된 이유 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>뉴스 영어표현: Touts, Trump, Rare — 예문으로 바로 익히기</title>
-    <link href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-touts-trump-rare-%EC%98%88%EB%AC%B8%EC%9C%BC%EB%A1%9C-%EB%B0%94%EB%A1%9C-%EC%9D%B5%ED%9E%88%EA%B8%B0/" rel="alternate" type="text/html" title="뉴스 영어표현: Touts, Trump, Rare — 예문으로 바로 익히기" />
-    <published>2025-10-31T15:15:06+09:00</published>
-  
-    <updated>2025-10-31T15:15:06+09:00</updated>
-  
-    <id>/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-touts-trump-rare-%EC%98%88%EB%AC%B8%EC%9C%BC%EB%A1%9C-%EB%B0%94%EB%A1%9C-%EC%9D%B5%ED%9E%88%EA%B8%B0/</id>
-    <content type="text/html" src="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-touts-trump-rare-%EC%98%88%EB%AC%B8%EC%9C%BC%EB%A1%9C-%EB%B0%94%EB%A1%9C-%EC%9D%B5%ED%9E%88%EA%B8%B0/" />
-    <author>
-      <name>Jacksonjang</name>
-    </author>
-
-  
-    
-    <category term="English" />
-    
-  
-
-  <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
 
   </entry>
 
