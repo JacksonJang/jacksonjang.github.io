@@ -222,12 +222,15 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
         print("[WARN] OpenAI client not initialized (check OPENAI_API_KEY)")
         return None
 
-    try:
-        user_prompt = f"""
+    # web_search는 Responses API에서만 지원. 모델은 gpt-4o 계열 권장
+    model_name = os.getenv("OPENAI_MODEL", "gpt-4o")
+
+    user_prompt = f"""
 다음 RSS 경제 뉴스를 기반으로 한국어 SEO 포스트를 작성하세요.
 - 오늘 날짜는 {today_str} 입니다. 날짜/시점 표기는 오늘 기준으로 하세요.
-- 출력은 반드시 JSON(UTF-8) 한 덩어리로 반환하세요.
+- 출력은 반드시 "유효한 JSON" 한 덩어리만 반환하세요. 서론/코드블록/설명 금지.
 - JSON 키: title(<=60자), body_md(마크다운 본문), terms(최대 12개), related(최대 6개; 각 항목은 {{symbol,name,why}})
+- 링크는 만들지 말고 Sources 섹션에는 소스명만 한 줄로 넣으세요.
 
 입력 뉴스:
 - 소스: {item.source}
@@ -235,7 +238,7 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
 - 링크: {item.link}
 - 요약: {item.summary[:800]}
 
-본문 섹션 규칙:
+본문 섹션 규칙(제목 포함):
 # <제목>
 ## 오늘의 경제 이슈 한눈에 보기
 ## 무슨 일이 있었나
@@ -243,52 +246,82 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
 ## 투자자 체크포인트
 ## 한줄 정리
 ## Sources
-(필요 시 실제 출처로 소스명 1줄만 남기세요. 링크 생성 금지)
 """
 
+    try:
+        # ✅ format/response_format 없이 호출 (구버전 SDK 호환)
         resp = _openai_client.responses.create(
-            model=MODEL_NAME,
-            tools=[{"type": "web_search"}],
-            input=user_prompt,
+            model=model_name,
+            system=SEO_SYSTEM,
+            input=user_prompt,                 # 문자열 한 덩어리
+            tools=[{"type": "web_search"}],    # web_search 사용
             temperature=TEMPERATURE,
         )
 
+        # 결과 텍스트 추출 (SDK별 호환)
         txt = getattr(resp, "output_text", None)
-        data = json.loads(txt)
-
-        if not isinstance(data, dict) or "title" not in data or "body_md" not in data:
-            print("[WARN] AI 응답 형식 불일치:", data)
+        if not txt:
+            try:
+                blocks = getattr(resp, "output", [])
+                if blocks and hasattr(blocks[0], "content"):
+                    c0 = blocks[0].content
+                    if c0 and hasattr(c0[0], "text") and hasattr(c0[0].text, "value"):
+                        txt = c0[0].text.value
+            except Exception:
+                pass
+        if not txt:
+            print("[WARN] Responses API: output_text 비어있음")
             return None
 
-        # 제목 길이 정규화
+        txt = txt.strip()
+
+        # 코드펜스/잡문 제거 → JSON만 추출
+        import re, json as _json
+        fence = re.compile(r"^```(?:json)?\s*(.*?)\s*```$", re.DOTALL)
+        m = fence.match(txt)
+        if m:
+            txt = m.group(1).strip()
+        if not (txt.startswith("{") and txt.endswith("}")):
+            m2 = re.search(r"\{.*\}", txt, re.DOTALL)
+            if m2:
+                txt = m2.group(0).strip()
+
+        data = _json.loads(txt)
+
+        # 최소 유효성 검사/정규화
+        if not isinstance(data, dict) or "title" not in data or "body_md" not in data:
+            print("[WARN] AI 응답 형식 불일치:", type(data))
+            return None
+
         title = str(data["title"]).strip().strip("「」\"' ")
         if len(title) > 60:
             title = title[:57].rstrip() + "…"
         data["title"] = title
 
-        # terms 정규화
-        terms = data.get("terms") or []
-        if not isinstance(terms, list):
-            terms = []
+        terms = data.get("terms")
+        if not isinstance(terms, list): terms = []
         data["terms"] = [str(t).strip() for t in terms if str(t).strip()][:12]
 
-        # related 정규화
-        related = data.get("related") or []
+        related = data.get("related")
         norm_related: List[Dict[str, str]] = []
         if isinstance(related, list):
             for it in related[:6]:
-                if not isinstance(it, dict):
-                    continue
-                sym = str(it.get("symbol") or it.get("ticker") or "").strip()
-                name = str(it.get("name") or it.get("fullname") or sym or "").strip()
-                why = str(it.get("why") or it.get("reason") or "").strip()
-                if sym and name:
-                    norm_related.append({"symbol": sym, "name": name, "why": why})
+                if isinstance(it, dict):
+                    sym = str(it.get("symbol") or it.get("ticker") or "").strip()
+                    name = str(it.get("name") or it.get("fullname") or sym).strip()
+                    why  = str(it.get("why") or it.get("reason") or "").strip()
+                    if sym and name:
+                        norm_related.append({"symbol": sym, "name": name, "why": why})
         data["related"] = norm_related
 
         print("[generate_post] ✅ web_search 기반 AI 생성 성공")
         return data
 
+    except TypeError as te:
+        print("[WARN] TypeError on responses.create:", te)
+        # 만약 이 단계에서 'tools'도 지원 안 한다면, SDK가 더 오래된 것입니다.
+        # 하지만 파일은 폴백으로 생성되도록 main()에서 처리하세요.
+        return None
     except Exception as e:
         print("[WARN] AI 단일 호출(web_search) 실패:", repr(e))
         traceback.print_exc()
