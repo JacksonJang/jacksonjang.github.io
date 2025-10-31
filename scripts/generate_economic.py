@@ -254,7 +254,7 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
                 {"role": "user", "content": user_prompt},
             ],
             temperature=TEMPERATURE,
-            response_format={"type": "json"}
+            format="json",
         )
 
         txt = resp.output_text.strip()
