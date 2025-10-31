@@ -30,7 +30,7 @@ import yaml
 # -----------------------------
 # 환경설정 (환경변수로 재정의 가능)
 # -----------------------------
-MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-4.1")
+MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 TEMPERATURE = float(os.getenv("OPENAI_TEMPERATURE", "1.0"))  # gpt-5 권장 1.0
 TIMEZONE = os.getenv("TIMEZONE", "Asia/Seoul")
 POSTS_DIR = Path(os.getenv("POSTS_DIR", "_posts/auto"))
