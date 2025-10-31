@@ -14,12 +14,27 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
+          fetch-depth: 0
           python-version: '3.11'
       - run: pip install openai python-frontmatter pyyaml
+      
+      
       - name: Generate post
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python scripts/generate_post.py
+
+      - name: Git config
+        run: |
+          git config --global user.name "auto-writer-bot"
+          git config --global user.email "actions@users.noreply.github.com"
+          git config --global safe.directory "$GITHUB_WORKSPACE"
+
+      - name: Sync branch before generation
+        run: |
+          # 워킹 트리 깨끗한 상태에서 최신 커밋 받기
+          git pull --rebase origin "${{ github.ref_name }}"
+
       - name: Commit & Push
         run: |
           git add -A
