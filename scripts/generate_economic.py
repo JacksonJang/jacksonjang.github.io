@@ -251,7 +251,6 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
             tools=[{"type": "web_search"}],
             input=user_prompt,
             temperature=TEMPERATURE,
-            format="json"
         )
 
         txt = getattr(resp, "output_text", None)
