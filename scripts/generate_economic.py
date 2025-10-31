@@ -249,11 +249,12 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
 """
 
     try:
-        # ✅ format/response_format 없이 호출 (구버전 SDK 호환)
         resp = _openai_client.responses.create(
             model=model_name,
-            system=SEO_SYSTEM,
-            input=user_prompt,                 # 문자열 한 덩어리
+             input=[
+                {"role": "system", "content": SEO_SYSTEM},
+                {"role": "user", "content": user_prompt}
+            ],
             tools=[{"type": "web_search"}],    # web_search 사용
             temperature=TEMPERATURE,
         )
