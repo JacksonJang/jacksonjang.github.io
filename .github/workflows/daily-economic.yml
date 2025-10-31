@@ -24,6 +24,13 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          # openai는 최신으로 (Responses API/response_format 호환)
+          pip install --upgrade openai
+          pip install requests tzdata python-frontmatter pyyaml feedparser
+
       - run: pip install requests tzdata openai python-frontmatter pyyaml feedparser
 
       - name: Git config
