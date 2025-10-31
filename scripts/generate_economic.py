@@ -93,8 +93,37 @@ class NewsItem:
 def ensure_dir(p: Path) -> None:
     p.mkdir(parents=True, exist_ok=True)
 
+# ↓ 기존 상단 util 근처에 추가
+def normalize_dates_in_body(body: str, picked: NewsItem, today_kst: datetime) -> str:
+    """
+    본문 내 'YYYY년 M월' 같은 절대 날짜가 원문에 명시되어 있지 않은데
+    과거 연도(예: 2023)가 들어가면 게시일(오늘) 기준으로 교정한다.
+    - 원문(title/summary)에 같은 연-월 문자열이 있으면 그대로 둔다(사실 보존).
+    """
+    src_text = f"{picked.title} {picked.summary or ''}"
+    # 찾을 패턴: 2019~2024년, (1~12)월
+    pattern = r"(20[1-2][0-9])년\s*(1[0-2]|[1-9])월"
+
+    def repl(m):
+        y, mm = m.group(1), m.group(2)
+        matched = f"{y}년 {mm}월"
+        if matched in src_text:
+            return matched  # 원문에 있으면 보존
+        # 원문에 없는데 과거 연도면 오늘의 연도로 교정
+        this_year = today_kst.year
+        if int(y) != this_year:
+            return f"{this_year}년 {mm}월"
+        return matched
+
+    return re.sub(pattern, repl, body)
+
 def now_kst() -> datetime:
-    return datetime.now(ZoneInfo(TIMEZONE))
+    # 혹시 런너에 tzdata가 없어도 KST 오프셋 포함되게 보정
+    try:
+        return datetime.now(ZoneInfo(TIMEZONE))
+    except Exception:
+        # tzdata 미설치 대비: +09:00 수동 보정 (표시용)
+        return datetime.utcnow().replace(tzinfo=ZoneInfo("UTC")).astimezone(ZoneInfo("Asia/Seoul"))
 
 def to_slug(s: str) -> str:
     s = s.lower().strip()
@@ -372,6 +401,13 @@ def ai_generate_body(item: NewsItem, seo_title: str) -> Optional[str]:
 # {seo_title}
 ## 오늘의 경제 이슈 한눈에 보기
 
+주의:
+- 모든 날짜/시점 서술은 게시일({today_kst}) 기준으로 작성하세요.
+- 원문에 '구체적 과거 날짜(연/월/일)'가 명시된 경우에만 그 과거 날짜를 인용하세요.
+- 과장, 확정적 표현 금지. 전망은 '가능성' 수준.
+- 마크다운 문법 준수, 한국어 작성.
+- '용어 풀이' 섹션은 포함하지 말 것.
+
 ## 핵심 요약
 (핵심 2~3줄)
 
@@ -546,7 +582,9 @@ def main():
 
     print(f"[generate_post] Picked: {picked.source}: {picked.title}")
     seo_title = ai_generate_title(picked) or fallback_seo_title(picked)
+    today = now_kst()
     body = ai_generate_body(picked, seo_title) or fallback_body(picked, seo_title)
+    body = normalize_dates_in_body(body, picked, today)  # ← 추가
 
     # 검색 기반 '관련 종목' 섹션 추가
     body += "\n" + related_stocks_md(picked, seo_title)
