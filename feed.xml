@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-31T22:23:20+09:00</updated>
+  <updated>2025-10-31T22:24:17+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>ACA 오픈 등록, 보험료 급등에 주목</title>
+    <link href="/posts/aca-%EC%98%A4%ED%94%88-%EB%93%B1%EB%A1%9D-%EB%B3%B4%ED%97%98%EB%A3%8C-%EA%B8%89%EB%93%B1%EC%97%90-%EC%A3%BC%EB%AA%A9/" rel="alternate" type="text/html" title="ACA 오픈 등록, 보험료 급등에 주목" />
+    <published>2025-10-31T22:23:41+09:00</published>
+  
+    <updated>2025-10-31T22:23:41+09:00</updated>
+  
+    <id>/posts/aca-%EC%98%A4%ED%94%88-%EB%93%B1%EB%A1%9D-%EB%B3%B4%ED%97%98%EB%A3%8C-%EA%B8%89%EB%93%B1%EC%97%90-%EC%A3%BC%EB%AA%A9/</id>
+    <content type="text/html" src="/posts/aca-%EC%98%A4%ED%94%88-%EB%93%B1%EB%A1%9D-%EB%B3%B4%ED%97%98%EB%A3%8C-%EA%B8%89%EB%93%B1%EC%97%90-%EC%A3%BC%EB%AA%A9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>ACA 오픈 등록, 보험료 급등에 주목 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>S&amp;P 500 급락 우려, 기술주 매도해야 할까?</title>
-    <link href="/posts/sp-500-%EA%B8%89%EB%9D%BD-%EC%9A%B0%EB%A0%A4-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EB%A7%A4%EB%8F%84%ED%95%B4%EC%95%BC-%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="S&amp;amp;P 500 급락 우려, 기술주 매도해야 할까?" />
-    <published>2025-10-31T19:43:05+09:00</published>
-  
-    <updated>2025-10-31T19:43:05+09:00</updated>
-  
-    <id>/posts/sp-500-%EA%B8%89%EB%9D%BD-%EC%9A%B0%EB%A0%A4-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EB%A7%A4%EB%8F%84%ED%95%B4%EC%95%BC-%ED%95%A0%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/sp-500-%EA%B8%89%EB%9D%BD-%EC%9A%B0%EB%A0%A4-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EB%A7%A4%EB%8F%84%ED%95%B4%EC%95%BC-%ED%95%A0%EA%B9%8C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>S&amp;amp;P 500 급락 우려, 기술주 매도해야 할까? · 경제 뉴스 요약</summary>
 
   </entry>
 
