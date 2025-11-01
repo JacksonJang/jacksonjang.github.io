@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-02T04:36:49+09:00</updated>
+  <updated>2025-11-02T05:37:02+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>일본 영양사의 면역력 강화 과일 5선 발표</title>
+    <link href="/posts/%EC%9D%BC%EB%B3%B8-%EC%98%81%EC%96%91%EC%82%AC%EC%9D%98-%EB%A9%B4%EC%97%AD%EB%A0%A5-%EA%B0%95%ED%99%94-%EA%B3%BC%EC%9D%BC-5%EC%84%A0-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="일본 영양사의 면역력 강화 과일 5선 발표" />
+    <published>2025-11-02T05:36:34+09:00</published>
+  
+    <updated>2025-11-02T05:36:34+09:00</updated>
+  
+    <id>/posts/%EC%9D%BC%EB%B3%B8-%EC%98%81%EC%96%91%EC%82%AC%EC%9D%98-%EB%A9%B4%EC%97%AD%EB%A0%A5-%EA%B0%95%ED%99%94-%EA%B3%BC%EC%9D%BC-5%EC%84%A0-%EB%B0%9C%ED%91%9C/</id>
+    <content type="text/html" src="/posts/%EC%9D%BC%EB%B3%B8-%EC%98%81%EC%96%91%EC%82%AC%EC%9D%98-%EB%A9%B4%EC%97%AD%EB%A0%A5-%EA%B0%95%ED%99%94-%EA%B3%BC%EC%9D%BC-5%EC%84%A0-%EB%B0%9C%ED%91%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>일본 영양사의 면역력 강화 과일 5선 발표 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>고액의료보험료 증가, 플랜 변경 고려 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>일본 영양사의 장수 비결, 5가지 과일</title>
-    <link href="/posts/%EC%9D%BC%EB%B3%B8-%EC%98%81%EC%96%91%EC%82%AC%EC%9D%98-%EC%9E%A5%EC%88%98-%EB%B9%84%EA%B2%B0-5%EA%B0%80%EC%A7%80-%EA%B3%BC%EC%9D%BC/" rel="alternate" type="text/html" title="일본 영양사의 장수 비결, 5가지 과일" />
-    <published>2025-11-01T22:38:52+09:00</published>
-  
-    <updated>2025-11-01T22:38:52+09:00</updated>
-  
-    <id>/posts/%EC%9D%BC%EB%B3%B8-%EC%98%81%EC%96%91%EC%82%AC%EC%9D%98-%EC%9E%A5%EC%88%98-%EB%B9%84%EA%B2%B0-5%EA%B0%80%EC%A7%80-%EA%B3%BC%EC%9D%BC/</id>
-    <content type="text/html" src="/posts/%EC%9D%BC%EB%B3%B8-%EC%98%81%EC%96%91%EC%82%AC%EC%9D%98-%EC%9E%A5%EC%88%98-%EB%B9%84%EA%B2%B0-5%EA%B0%80%EC%A7%80-%EA%B3%BC%EC%9D%BC/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>일본 영양사의 장수 비결, 5가지 과일 · 경제 뉴스 요약</summary>
 
   </entry>
 
