@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-02T06:36:12+09:00</updated>
+  <updated>2025-11-02T07:38:17+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>신용카드 즉시 결제의 의미</title>
+    <link href="/posts/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EC%A6%89%EC%8B%9C-%EA%B2%B0%EC%A0%9C%EC%9D%98-%EC%9D%98%EB%AF%B8/" rel="alternate" type="text/html" title="신용카드 즉시 결제의 의미" />
+    <published>2025-11-02T07:37:49+09:00</published>
+  
+    <updated>2025-11-02T07:37:49+09:00</updated>
+  
+    <id>/posts/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EC%A6%89%EC%8B%9C-%EA%B2%B0%EC%A0%9C%EC%9D%98-%EC%9D%98%EB%AF%B8/</id>
+    <content type="text/html" src="/posts/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EC%A6%89%EC%8B%9C-%EA%B2%B0%EC%A0%9C%EC%9D%98-%EC%9D%98%EB%AF%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>신용카드 즉시 결제의 의미 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>장수 비결로 떠오르는 일본의 건강 과일 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>버핏, 주식 계속 매도 - 버크셔 해서웨이 재무 실적</title>
-    <link href="/posts/%EB%B2%84%ED%95%8F-%EC%A3%BC%EC%8B%9D-%EA%B3%84%EC%86%8D-%EB%A7%A4%EB%8F%84-%EB%B2%84%ED%81%AC%EC%85%94-%ED%95%B4%EC%84%9C%EC%9B%A8%EC%9D%B4-%EC%9E%AC%EB%AC%B4-%EC%8B%A4%EC%A0%81/" rel="alternate" type="text/html" title="버핏, 주식 계속 매도 - 버크셔 해서웨이 재무 실적" />
-    <published>2025-11-02T00:35:50+09:00</published>
-  
-    <updated>2025-11-02T00:35:50+09:00</updated>
-  
-    <id>/posts/%EB%B2%84%ED%95%8F-%EC%A3%BC%EC%8B%9D-%EA%B3%84%EC%86%8D-%EB%A7%A4%EB%8F%84-%EB%B2%84%ED%81%AC%EC%85%94-%ED%95%B4%EC%84%9C%EC%9B%A8%EC%9D%B4-%EC%9E%AC%EB%AC%B4-%EC%8B%A4%EC%A0%81/</id>
-    <content type="text/html" src="/posts/%EB%B2%84%ED%95%8F-%EC%A3%BC%EC%8B%9D-%EA%B3%84%EC%86%8D-%EB%A7%A4%EB%8F%84-%EB%B2%84%ED%81%AC%EC%85%94-%ED%95%B4%EC%84%9C%EC%9B%A8%EC%9D%B4-%EC%9E%AC%EB%AC%B4-%EC%8B%A4%EC%A0%81/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>버핏, 주식 계속 매도 - 버크셔 해서웨이 재무 실적 · 경제 뉴스 요약</summary>
 
   </entry>
 
