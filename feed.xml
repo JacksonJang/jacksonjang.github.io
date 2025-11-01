@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-01T20:36:43+09:00</updated>
+  <updated>2025-11-01T21:59:37+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Berkshire Hathaway, 3분기 수익 34% 증가</title>
+    <link href="/posts/berkshire-hathaway-3%EB%B6%84%EA%B8%B0-%EC%88%98%EC%9D%B5-34-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="Berkshire Hathaway, 3분기 수익 34% 증가" />
+    <published>2025-11-01T21:59:08+09:00</published>
+  
+    <updated>2025-11-01T21:59:08+09:00</updated>
+  
+    <id>/posts/berkshire-hathaway-3%EB%B6%84%EA%B8%B0-%EC%88%98%EC%9D%B5-34-%EC%A6%9D%EA%B0%80/</id>
+    <content type="text/html" src="/posts/berkshire-hathaway-3%EB%B6%84%EA%B8%B0-%EC%88%98%EC%9D%B5-34-%EC%A6%9D%EA%B0%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Berkshire Hathaway, 3분기 수익 34% 증가 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>상속 재산 반환 요구, 어떻게 해야 할까? · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>상속 재산 반환 요구, 어떻게 대처해야 하나?</title>
-    <link href="/posts/%EC%83%81%EC%86%8D-%EC%9E%AC%EC%82%B0-%EB%B0%98%ED%99%98-%EC%9A%94%EA%B5%AC-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8C%80%EC%B2%98%ED%95%B4%EC%95%BC-%ED%95%98%EB%82%98/" rel="alternate" type="text/html" title="상속 재산 반환 요구, 어떻게 대처해야 하나?" />
-    <published>2025-11-01T15:45:27+09:00</published>
-  
-    <updated>2025-11-01T15:45:27+09:00</updated>
-  
-    <id>/posts/%EC%83%81%EC%86%8D-%EC%9E%AC%EC%82%B0-%EB%B0%98%ED%99%98-%EC%9A%94%EA%B5%AC-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8C%80%EC%B2%98%ED%95%B4%EC%95%BC-%ED%95%98%EB%82%98/</id>
-    <content type="text/html" src="/posts/%EC%83%81%EC%86%8D-%EC%9E%AC%EC%82%B0-%EB%B0%98%ED%99%98-%EC%9A%94%EA%B5%AC-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8C%80%EC%B2%98%ED%95%B4%EC%95%BC-%ED%95%98%EB%82%98/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>상속 재산 반환 요구, 어떻게 대처해야 하나? · 경제 뉴스 요약</summary>
 
   </entry>
 
