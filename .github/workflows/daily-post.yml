@@ -1,7 +1,7 @@
 name: Daily Post
 on:
   schedule:
-    - cron: '0 * * * *'  # 매시간 0분마다 실행 (UTC 기준)
+    # - cron: '0 * * * *'  # 매시간 0분마다 실행 (UTC 기준)
   workflow_dispatch:
 
 permissions:
