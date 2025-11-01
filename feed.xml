@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-01T18:36:55+09:00</updated>
+  <updated>2025-11-01T19:39:37+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>게임 산업의 AI 혁신: 완전한 변화 예고</title>
+    <link href="/posts/%EA%B2%8C%EC%9E%84-%EC%82%B0%EC%97%85%EC%9D%98-ai-%ED%98%81%EC%8B%A0-%EC%99%84%EC%A0%84%ED%95%9C-%EB%B3%80%ED%99%94-%EC%98%88%EA%B3%A0/" rel="alternate" type="text/html" title="게임 산업의 AI 혁신: 완전한 변화 예고" />
+    <published>2025-11-01T19:39:07+09:00</published>
+  
+    <updated>2025-11-01T19:39:07+09:00</updated>
+  
+    <id>/posts/%EA%B2%8C%EC%9E%84-%EC%82%B0%EC%97%85%EC%9D%98-ai-%ED%98%81%EC%8B%A0-%EC%99%84%EC%A0%84%ED%95%9C-%EB%B3%80%ED%99%94-%EC%98%88%EA%B3%A0/</id>
+    <content type="text/html" src="/posts/%EA%B2%8C%EC%9E%84-%EC%82%B0%EC%97%85%EC%9D%98-ai-%ED%98%81%EC%8B%A0-%EC%99%84%EC%A0%84%ED%95%9C-%EB%B3%80%ED%99%94-%EC%98%88%EA%B3%A0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>게임 산업의 AI 혁신: 완전한 변화 예고 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>유산 상속 관련 분쟁과 법적 조언 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>상속 재산 문제로 논란, 어떻게 해결할까?</title>
-    <link href="/posts/%EC%83%81%EC%86%8D-%EC%9E%AC%EC%82%B0-%EB%AC%B8%EC%A0%9C%EB%A1%9C-%EB%85%BC%EB%9E%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="상속 재산 문제로 논란, 어떻게 해결할까?" />
-    <published>2025-11-01T13:40:25+09:00</published>
-  
-    <updated>2025-11-01T13:40:25+09:00</updated>
-  
-    <id>/posts/%EC%83%81%EC%86%8D-%EC%9E%AC%EC%82%B0-%EB%AC%B8%EC%A0%9C%EB%A1%9C-%EB%85%BC%EB%9E%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%A0%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/%EC%83%81%EC%86%8D-%EC%9E%AC%EC%82%B0-%EB%AC%B8%EC%A0%9C%EB%A1%9C-%EB%85%BC%EB%9E%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%A0%EA%B9%8C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>상속 재산 문제로 논란, 어떻게 해결할까? · 경제 뉴스 요약</summary>
 
   </entry>
 
