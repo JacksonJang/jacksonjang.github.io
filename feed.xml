@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-02T02:36:24+09:00</updated>
+  <updated>2025-11-02T03:43:43+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>장수 비결로 떠오르는 일본의 건강 과일</title>
+    <link href="/posts/%EC%9E%A5%EC%88%98-%EB%B9%84%EA%B2%B0%EB%A1%9C-%EB%96%A0%EC%98%A4%EB%A5%B4%EB%8A%94-%EC%9D%BC%EB%B3%B8%EC%9D%98-%EA%B1%B4%EA%B0%95-%EA%B3%BC%EC%9D%BC/" rel="alternate" type="text/html" title="장수 비결로 떠오르는 일본의 건강 과일" />
+    <published>2025-11-02T03:43:10+09:00</published>
+  
+    <updated>2025-11-02T03:43:10+09:00</updated>
+  
+    <id>/posts/%EC%9E%A5%EC%88%98-%EB%B9%84%EA%B2%B0%EB%A1%9C-%EB%96%A0%EC%98%A4%EB%A5%B4%EB%8A%94-%EC%9D%BC%EB%B3%B8%EC%9D%98-%EA%B1%B4%EA%B0%95-%EA%B3%BC%EC%9D%BC/</id>
+    <content type="text/html" src="/posts/%EC%9E%A5%EC%88%98-%EB%B9%84%EA%B2%B0%EB%A1%9C-%EB%96%A0%EC%98%A4%EB%A5%B4%EB%8A%94-%EC%9D%BC%EB%B3%B8%EC%9D%98-%EA%B1%B4%EA%B0%95-%EA%B3%BC%EC%9D%BC/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>장수 비결로 떠오르는 일본의 건강 과일 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Berkshire Hathaway, 3분기 수익 34% 증가 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>정부 셧다운 속 여행 보험의 한계</title>
-    <link href="/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%86%8D-%EC%97%AC%ED%96%89-%EB%B3%B4%ED%97%98%EC%9D%98-%ED%95%9C%EA%B3%84/" rel="alternate" type="text/html" title="정부 셧다운 속 여행 보험의 한계" />
-    <published>2025-11-01T20:36:19+09:00</published>
-  
-    <updated>2025-11-01T20:36:19+09:00</updated>
-  
-    <id>/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%86%8D-%EC%97%AC%ED%96%89-%EB%B3%B4%ED%97%98%EC%9D%98-%ED%95%9C%EA%B3%84/</id>
-    <content type="text/html" src="/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%86%8D-%EC%97%AC%ED%96%89-%EB%B3%B4%ED%97%98%EC%9D%98-%ED%95%9C%EA%B3%84/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>정부 셧다운 속 여행 보험의 한계 · 경제 뉴스 요약</summary>
 
   </entry>
 
