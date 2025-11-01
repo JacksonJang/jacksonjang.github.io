@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-01T19:39:37+09:00</updated>
+  <updated>2025-11-01T20:36:43+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>정부 셧다운 속 여행 보험의 한계</title>
+    <link href="/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%86%8D-%EC%97%AC%ED%96%89-%EB%B3%B4%ED%97%98%EC%9D%98-%ED%95%9C%EA%B3%84/" rel="alternate" type="text/html" title="정부 셧다운 속 여행 보험의 한계" />
+    <published>2025-11-01T20:36:19+09:00</published>
+  
+    <updated>2025-11-01T20:36:19+09:00</updated>
+  
+    <id>/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%86%8D-%EC%97%AC%ED%96%89-%EB%B3%B4%ED%97%98%EC%9D%98-%ED%95%9C%EA%B3%84/</id>
+    <content type="text/html" src="/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%86%8D-%EC%97%AC%ED%96%89-%EB%B3%B4%ED%97%98%EC%9D%98-%ED%95%9C%EA%B3%84/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>정부 셧다운 속 여행 보험의 한계 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>상속 재산 반환 요구, 어떻게 대처해야 하나? · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>유산 상속 관련 분쟁과 법적 조언</title>
-    <link href="/posts/%EC%9C%A0%EC%82%B0-%EC%83%81%EC%86%8D-%EA%B4%80%EB%A0%A8-%EB%B6%84%EC%9F%81%EA%B3%BC-%EB%B2%95%EC%A0%81-%EC%A1%B0%EC%96%B8/" rel="alternate" type="text/html" title="유산 상속 관련 분쟁과 법적 조언" />
-    <published>2025-11-01T14:38:45+09:00</published>
-  
-    <updated>2025-11-01T14:38:45+09:00</updated>
-  
-    <id>/posts/%EC%9C%A0%EC%82%B0-%EC%83%81%EC%86%8D-%EA%B4%80%EB%A0%A8-%EB%B6%84%EC%9F%81%EA%B3%BC-%EB%B2%95%EC%A0%81-%EC%A1%B0%EC%96%B8/</id>
-    <content type="text/html" src="/posts/%EC%9C%A0%EC%82%B0-%EC%83%81%EC%86%8D-%EA%B4%80%EB%A0%A8-%EB%B6%84%EC%9F%81%EA%B3%BC-%EB%B2%95%EC%A0%81-%EC%A1%B0%EC%96%B8/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>유산 상속 관련 분쟁과 법적 조언 · 경제 뉴스 요약</summary>
 
   </entry>
 
