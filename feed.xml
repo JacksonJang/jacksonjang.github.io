@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-01T15:45:53+09:00</updated>
+  <updated>2025-11-01T16:35:56+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>상속 재산 반환 요구, 어떻게 해야 할까?</title>
+    <link href="/posts/%EC%83%81%EC%86%8D-%EC%9E%AC%EC%82%B0-%EB%B0%98%ED%99%98-%EC%9A%94%EA%B5%AC-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%95%BC-%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="상속 재산 반환 요구, 어떻게 해야 할까?" />
+    <published>2025-11-01T16:35:27+09:00</published>
+  
+    <updated>2025-11-01T16:35:27+09:00</updated>
+  
+    <id>/posts/%EC%83%81%EC%86%8D-%EC%9E%AC%EC%82%B0-%EB%B0%98%ED%99%98-%EC%9A%94%EA%B5%AC-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%95%BC-%ED%95%A0%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/%EC%83%81%EC%86%8D-%EC%9E%AC%EC%82%B0-%EB%B0%98%ED%99%98-%EC%9A%94%EA%B5%AC-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%95%BC-%ED%95%A0%EA%B9%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>상속 재산 반환 요구, 어떻게 해야 할까? · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>유산 반환 요구, 어떻게 대응해야 하나? · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>상속재산 반환 문제, 어떻게 해결할까?</title>
-    <link href="/posts/%EC%83%81%EC%86%8D%EC%9E%AC%EC%82%B0-%EB%B0%98%ED%99%98-%EB%AC%B8%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="상속재산 반환 문제, 어떻게 해결할까?" />
-    <published>2025-11-01T11:20:20+09:00</published>
-  
-    <updated>2025-11-01T11:20:20+09:00</updated>
-  
-    <id>/posts/%EC%83%81%EC%86%8D%EC%9E%AC%EC%82%B0-%EB%B0%98%ED%99%98-%EB%AC%B8%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%A0%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/%EC%83%81%EC%86%8D%EC%9E%AC%EC%82%B0-%EB%B0%98%ED%99%98-%EB%AC%B8%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%A0%EA%B9%8C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>상속재산 반환 문제, 어떻게 해결할까? · 경제 뉴스 요약</summary>
 
   </entry>
 
