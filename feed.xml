@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-02T23:37:49+09:00</updated>
+  <updated>2025-11-03T00:36:49+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>신용카드 즉시 상환, 이상한가요?</title>
+    <link href="/posts/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EC%A6%89%EC%8B%9C-%EC%83%81%ED%99%98-%EC%9D%B4%EC%83%81%ED%95%9C%EA%B0%80%EC%9A%94/" rel="alternate" type="text/html" title="신용카드 즉시 상환, 이상한가요?" />
+    <published>2025-11-03T00:36:23+09:00</published>
+  
+    <updated>2025-11-03T00:36:23+09:00</updated>
+  
+    <id>/posts/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EC%A6%89%EC%8B%9C-%EC%83%81%ED%99%98-%EC%9D%B4%EC%83%81%ED%95%9C%EA%B0%80%EC%9A%94/</id>
+    <content type="text/html" src="/posts/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EC%A6%89%EC%8B%9C-%EC%83%81%ED%99%98-%EC%9D%B4%EC%83%81%ED%95%9C%EA%B0%80%EC%9A%94/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>신용카드 즉시 상환, 이상한가요? · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>AI 투자자, 창업자 경계 신호 두 가지 공유 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>VC가 말하는 창업자 투자 경고 신호</title>
-    <link href="/posts/vc%EA%B0%80-%EB%A7%90%ED%95%98%EB%8A%94-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%88%AC%EC%9E%90-%EA%B2%BD%EA%B3%A0-%EC%8B%A0%ED%98%B8/" rel="alternate" type="text/html" title="VC가 말하는 창업자 투자 경고 신호" />
-    <published>2025-11-02T19:38:24+09:00</published>
-  
-    <updated>2025-11-02T19:38:24+09:00</updated>
-  
-    <id>/posts/vc%EA%B0%80-%EB%A7%90%ED%95%98%EB%8A%94-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%88%AC%EC%9E%90-%EA%B2%BD%EA%B3%A0-%EC%8B%A0%ED%98%B8/</id>
-    <content type="text/html" src="/posts/vc%EA%B0%80-%EB%A7%90%ED%95%98%EB%8A%94-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%88%AC%EC%9E%90-%EA%B2%BD%EA%B3%A0-%EC%8B%A0%ED%98%B8/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>VC가 말하는 창업자 투자 경고 신호 · 경제 뉴스 요약</summary>
 
   </entry>
 
