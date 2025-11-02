@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-02T20:37:05+09:00</updated>
+  <updated>2025-11-02T21:58:52+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AI 투자에서 창업자 경계 신호 두 가지</title>
+    <link href="/posts/ai-%ED%88%AC%EC%9E%90%EC%97%90%EC%84%9C-%EC%B0%BD%EC%97%85%EC%9E%90-%EA%B2%BD%EA%B3%84-%EC%8B%A0%ED%98%B8-%EB%91%90-%EA%B0%80%EC%A7%80/" rel="alternate" type="text/html" title="AI 투자에서 창업자 경계 신호 두 가지" />
+    <published>2025-11-02T21:58:27+09:00</published>
+  
+    <updated>2025-11-02T21:58:27+09:00</updated>
+  
+    <id>/posts/ai-%ED%88%AC%EC%9E%90%EC%97%90%EC%84%9C-%EC%B0%BD%EC%97%85%EC%9E%90-%EA%B2%BD%EA%B3%84-%EC%8B%A0%ED%98%B8-%EB%91%90-%EA%B0%80%EC%A7%80/</id>
+    <content type="text/html" src="/posts/ai-%ED%88%AC%EC%9E%90%EC%97%90%EC%84%9C-%EC%B0%BD%EC%97%85%EC%9E%90-%EA%B2%BD%EA%B3%84-%EC%8B%A0%ED%98%B8-%EB%91%90-%EA%B0%80%EC%A7%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>AI 투자에서 창업자 경계 신호 두 가지 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>사회보장연금과 주식 투자 균형 잡기 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>은퇴 재정 계획: 사회 보장, 주식, TIPS 전략</title>
-    <link href="/posts/%EC%9D%80%ED%87%B4-%EC%9E%AC%EC%A0%95-%EA%B3%84%ED%9A%8D-%EC%82%AC%ED%9A%8C-%EB%B3%B4%EC%9E%A5-%EC%A3%BC%EC%8B%9D-tips-%EC%A0%84%EB%9E%B5/" rel="alternate" type="text/html" title="은퇴 재정 계획: 사회 보장, 주식, TIPS 전략" />
-    <published>2025-11-02T14:39:39+09:00</published>
-  
-    <updated>2025-11-02T14:39:39+09:00</updated>
-  
-    <id>/posts/%EC%9D%80%ED%87%B4-%EC%9E%AC%EC%A0%95-%EA%B3%84%ED%9A%8D-%EC%82%AC%ED%9A%8C-%EB%B3%B4%EC%9E%A5-%EC%A3%BC%EC%8B%9D-tips-%EC%A0%84%EB%9E%B5/</id>
-    <content type="text/html" src="/posts/%EC%9D%80%ED%87%B4-%EC%9E%AC%EC%A0%95-%EA%B3%84%ED%9A%8D-%EC%82%AC%ED%9A%8C-%EB%B3%B4%EC%9E%A5-%EC%A3%BC%EC%8B%9D-tips-%EC%A0%84%EB%9E%B5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>은퇴 재정 계획: 사회 보장, 주식, TIPS 전략 · 경제 뉴스 요약</summary>
 
   </entry>
 
