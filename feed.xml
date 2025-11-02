@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-03T02:37:12+09:00</updated>
+  <updated>2025-11-03T03:43:16+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>미국 식량 낭비와 SNAP 논쟁이 주는 시사점</title>
+    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%8B%9D%EB%9F%89-%EB%82%AD%EB%B9%84%EC%99%80-snap-%EB%85%BC%EC%9F%81%EC%9D%B4-%EC%A3%BC%EB%8A%94-%EC%8B%9C%EC%82%AC%EC%A0%90/" rel="alternate" type="text/html" title="미국 식량 낭비와 SNAP 논쟁이 주는 시사점" />
+    <published>2025-11-03T03:42:52+09:00</published>
+  
+    <updated>2025-11-03T03:42:52+09:00</updated>
+  
+    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%8B%9D%EB%9F%89-%EB%82%AD%EB%B9%84%EC%99%80-snap-%EB%85%BC%EC%9F%81%EC%9D%B4-%EC%A3%BC%EB%8A%94-%EC%8B%9C%EC%82%AC%EC%A0%90/</id>
+    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%8B%9D%EB%9F%89-%EB%82%AD%EB%B9%84%EC%99%80-snap-%EB%85%BC%EC%9F%81%EC%9D%B4-%EC%A3%BC%EB%8A%94-%EC%8B%9C%EC%82%AC%EC%A0%90/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>미국 식량 낭비와 SNAP 논쟁이 주는 시사점 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>월가 분석가 추천 배당주 3가지 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>AI 투자에서 창업자 경계 신호 두 가지</title>
-    <link href="/posts/ai-%ED%88%AC%EC%9E%90%EC%97%90%EC%84%9C-%EC%B0%BD%EC%97%85%EC%9E%90-%EA%B2%BD%EA%B3%84-%EC%8B%A0%ED%98%B8-%EB%91%90-%EA%B0%80%EC%A7%80/" rel="alternate" type="text/html" title="AI 투자에서 창업자 경계 신호 두 가지" />
-    <published>2025-11-02T21:58:27+09:00</published>
-  
-    <updated>2025-11-02T21:58:27+09:00</updated>
-  
-    <id>/posts/ai-%ED%88%AC%EC%9E%90%EC%97%90%EC%84%9C-%EC%B0%BD%EC%97%85%EC%9E%90-%EA%B2%BD%EA%B3%84-%EC%8B%A0%ED%98%B8-%EB%91%90-%EA%B0%80%EC%A7%80/</id>
-    <content type="text/html" src="/posts/ai-%ED%88%AC%EC%9E%90%EC%97%90%EC%84%9C-%EC%B0%BD%EC%97%85%EC%9E%90-%EA%B2%BD%EA%B3%84-%EC%8B%A0%ED%98%B8-%EB%91%90-%EA%B0%80%EC%A7%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>AI 투자에서 창업자 경계 신호 두 가지 · 경제 뉴스 요약</summary>
 
   </entry>
 

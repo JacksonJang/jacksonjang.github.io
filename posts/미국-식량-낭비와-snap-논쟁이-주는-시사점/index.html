@@ -14,7 +14,7 @@
 
 
 <!-- `site.alt_lang` can specify a language different from the UI -->
-<html lang="en" >
+<html lang="ko" >
   <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7">
@@ -30,24 +30,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Jacksonjang Blog" />
-<meta property="og:locale" content="en" />
-<meta name="description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<meta property="og:description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<link rel="canonical" href="/page13/" />
-<meta property="og:url" content="/page13/" />
+<meta property="og:title" content="미국 식량 낭비와 SNAP 논쟁이 주는 시사점" />
+<meta name="author" content="JacksonJang" />
+<meta property="og:locale" content="ko" />
+<meta name="description" content="미국 식량 낭비와 SNAP 논쟁이 주는 시사점 · 경제 뉴스 요약" />
+<meta property="og:description" content="미국 식량 낭비와 SNAP 논쟁이 주는 시사점 · 경제 뉴스 요약" />
+<link rel="canonical" href="https://www.cnbc.com/2025/11/02/snap-benefits-hunger-in-america-us-food-waste.html" />
+<meta property="og:url" content="https://www.cnbc.com/2025/11/02/snap-benefits-hunger-in-america-us-food-waste.html" />
 <meta property="og:site_name" content="Jacksonjang Blog" />
-<meta property="og:type" content="website" />
-<link rel="prev" href="/page12" />
-<link rel="next" href="/page14" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-11-03T03:42:52+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Jacksonjang Blog" />
+<meta property="twitter:title" content="미국 식량 낭비와 SNAP 논쟁이 주는 시사점" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"Jacksonjang Blog","url":"/page13/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"JacksonJang","url":"https://github.com/JacksonJang/"},"dateModified":"2025-11-03T03:42:52+09:00","datePublished":"2025-11-03T03:42:52+09:00","description":"미국 식량 낭비와 SNAP 논쟁이 주는 시사점 · 경제 뉴스 요약","headline":"미국 식량 낭비와 SNAP 논쟁이 주는 시사점","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.cnbc.com/2025/11/02/snap-benefits-hunger-in-america-us-food-waste.html"},"url":"https://www.cnbc.com/2025/11/02/snap-benefits-hunger-in-america-us-food-waste.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Jacksonjang Blog
+  <title>미국 식량 낭비와 SNAP 논쟁이 주는 시사점 | Jacksonjang Blog
   </title>
 
   <!--
@@ -111,11 +111,16 @@
   <!-- 3rd-party Dependencies -->
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.36.4/dist/tocbot.min.css">
+  
 
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
   
 
+  
+    <!-- Image Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
   <!-- Scripts -->
@@ -159,6 +164,9 @@
   
 
   
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
 
 
 
@@ -216,9 +224,30 @@
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.18/dayjs.min.js,npm/dayjs@1.11.18/locale/en.js,npm/dayjs@1.11.18/plugin/relativeTime.js,npm/dayjs@1.11.18/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.18/dayjs.min.js,npm/dayjs@1.11.18/locale/en.js,npm/dayjs@1.11.18/plugin/relativeTime.js,npm/dayjs@1.11.18/plugin/localizedFormat.js,npm/tocbot@4.36.4/dist/tocbot.min.js"></script>
 
 
 
@@ -226,11 +255,15 @@
 
 
 
-<script defer src="/assets/js/dist/home.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
 <!-- Pageviews -->
+
+  
+
+  
 
 
 
@@ -259,7 +292,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a href="/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>HOME</span>
@@ -382,9 +415,23 @@
       
 
       
-        <!-- index page -->
-        <span>Home</span>
+        
+          
+            <span>
+              <a href="/">Home</a>
+            </span>
 
+          
+        
+          
+        
+          
+            
+              <span>미국 식량 낭비와 SNAP 논쟁이 주는 시사점</span>
+            
+
+          
+        
       
     </nav>
     <!-- endof #breadcrumb -->
@@ -394,7 +441,7 @@
     </button>
 
     <div id="topbar-title">
-      Jacksonjang Blog
+      Post
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -463,6 +510,93 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -492,40 +626,19 @@
 
 
 
-<!-- Get pinned posts on current page -->
 
+<article class="px-1" data-toc="true">
+  <header>
+    <h1 data-toc-skip>미국 식량 낭비와 SNAP 논쟁이 주는 시사점</h1>
+    
+      <p class="post-desc fw-light mb-4">미국 식량 낭비와 SNAP 논쟁이 주는 시사점 · 경제 뉴스 요약</p>
+    
 
-
-
-
-
-<!-- Get normal posts on current page -->
-
-
-
-
-
-<div id="post-list" class="flex-grow-1 px-xl-1">
-  
-    <article class="card-wrapper card">
-      <a href="/posts/%EC%9B%94%EA%B0%80-%EC%84%A0%EB%AC%BC-%EC%8B%9C%EC%9E%A5-%EC%97%B0%EC%A4%80-%EB%B6%88%ED%99%95%EC%8B%A4%EC%84%B1%EA%B3%BC-%EB%B9%85%ED%85%8C%ED%81%AC-%EC%8B%A4%EC%A0%81-%EC%98%81%ED%96%A5/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">월가 선물 시장, 연준 불확실성과 빅테크 실적 영향</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>월가 선물 시장, 연준 불확실성과 빅테크 실적 영향 · 경제 뉴스 요약</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Posted
+        <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -535,904 +648,247 @@
 
 <time
   
-  data-ts="1761784870"
+  data-ts="1762076572"
   data-df="ll"
   
->
-  Oct 30, 2025
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Economy
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-updates-settled-meeting/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">뉴스 영어표현: Updates, Settled, Meeting</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1761783082"
-  data-df="ll"
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Oct 30, 2025
+  Nov  3, 2025
 </time>
 
+      </span>
 
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      English
-                  </span>
-                
-              </div>
+      <!-- lastmod date -->
+      
 
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
+
+          By
+
+          <em>
+            
               
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%A4%91%EA%B5%AD%EC%9D%98-%ED%8E%9C%ED%83%80%EB%8B%90-%EA%B4%80%EC%84%B8-10%EB%A1%9C-%EC%9D%B8%ED%95%98-%EC%A1%B0%EC%A0%95/" class="post-preview row g-0 flex-md-row-reverse">
-        
+                <a href="https://github.com/JacksonJang/">JacksonJang</a>
+                
+              
+            
+          </em>
+        </span>
 
-        
+        <div>
+          <!-- pageviews -->
+          
 
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">트럼프, 중국의 펜타닐 관세 10%로 인하 조정</h1>
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
 
-            <div class="card-text content mt-0 mb-3">
-              <p>트럼프, 중국의 펜타닐 관세 10%로 인하 조정 · 경제 뉴스 요약</p>
-            </div>
 
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
+
+<!-- words per minute -->
 
 
 
 
-<time
-  
-  data-ts="1761781606"
-  data-df="ll"
-  
+
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="499 words"
 >
-  Oct 30, 2025
-</time>
+  <em>2 min</em> read</span>
 
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Economy
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
         </div>
+      </div>
+    </div>
+  </header>
+
+  
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">미국 식량 낭비와 SNAP 논쟁이 주는 시사점</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">미국 식량 낭비와 SNAP 논쟁이 주는 시사점</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
+
+  <div class="content">
+    <h1 id="미국-식량-낭비와-snap-논쟁이-주는-시사점">미국 식량 낭비와 SNAP 논쟁이 주는 시사점</h1>
+
+<h2 id="오늘의-경제-이슈-한눈에-보기"><span class="me-2">오늘의 경제 이슈 한눈에 보기</span><a href="#오늘의-경제-이슈-한눈에-보기" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>미국에서 식량 지원 프로그램인 SNAP에 대한 정치적 논쟁이 계속되면서, 미국 내 식량 낭비 문제도 주목받고 있습니다. 매년 최대 3820억 달러 상당의 식량이 낭비되고 있으며, 많은 미국인이 기아를 걱정하고 있습니다.</p>
+
+<h2 id="무슨-일이-있었나"><span class="me-2">무슨 일이 있었나</span><a href="#무슨-일이-있었나" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>SNAP(Supplemental Nutrition Assistance Program) 지원에 대한 정치적 갈등이 지속되는 가운데, 식량 불안과 낭비가 동시에 조명받고 있습니다. CNBC에 따르면 매년 약 4000억 달러에 가까운 식량이 낭비되고 있습니다.</p>
+
+<h2 id="왜-중요한가"><span class="me-2">왜 중요한가</span><a href="#왜-중요한가" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>식량 지원 정책과 낭비는 경제와 환경에 모두 큰 영향을 미칩니다. 식량 낭비는 자원을 불필요하게 사용하며, 기아 문제 해결에 걸림돌이 됩니다. 이는 글로벌 식량 안전과 경제 효율성을 저해할 수 있습니다.</p>
+
+<h2 id="투자자-체크포인트"><span class="me-2">투자자 체크포인트</span><a href="#투자자-체크포인트" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>식량 관련 산업 및 기업의 정책 및 움직임</li>
+  <li>환경, 사회, 거버넌스(ESG) 투자 기회 탐색</li>
+  <li>미국 정치 변화가 글로벌 시장에 미치는 영향</li>
+</ul>
+
+<h2 id="한줄-정리"><span class="me-2">한줄 정리</span><a href="#한줄-정리" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>미국의 식량 낭비 문제와 SNAP 정치적 논쟁은 경제적, 환경적으로 중요한 시사점을 제공합니다.</p>
+
+<h2 id="sources"><span class="me-2">Sources</span><a href="#sources" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>CNBC Top News &amp; Analysis</p>
+
+<h2 id="관련-종목"><span class="me-2">관련 종목</span><a href="#관련-종목" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>OpenAI 제안 기반의 연관 종목/ETF입니다. (투자 권유 아님)</p>
+<ul>
+  <li><strong>KRW=X</strong> — 한국 원화 · 환율 변동 가능성</li>
+  <li><strong>CORN</strong> — 옥수수 선물 · 식량 가격 영향</li>
+  <li><strong>WMT</strong> — 월마트 · 소매업 특성</li>
+  <li><strong>XLP</strong> — 소비재 ETF · 소비재 산업</li>
+  <li><strong>ADM</strong> — 아처 대니얼스 미들랜드 · 농업 기업</li>
+  <li><strong>GIS</strong> — 제너럴 밀스 · 식품 회사</li>
+</ul>
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/categories/economy/">Economy</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/tags/%EA%B2%BD%EC%A0%9C/"
+            class="post-tag no-text-decoration"
+          >경제</a>
+        
+          <a
+            href="/tags/%EC%8B%9C%EC%9E%A5/"
+            class="post-tag no-text-decoration"
+          >시장</a>
+        
+          <a
+            href="/tags/%ED%88%AC%EC%9E%90/"
+            class="post-tag no-text-decoration"
+          >투자</a>
+        
+          <a
+            href="/tags/%EB%89%B4%EC%8A%A4%EC%9A%94%EC%95%BD/"
+            class="post-tag no-text-decoration"
+          >뉴스요약</a>
+        
+          <a
+            href="/tags/finance/"
+            class="post-tag no-text-decoration"
+          >Finance</a>
+        
+      </div>
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Share</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+
+      
+
+      <a href="https://twitter.com/intent/tweet?text=%EB%AF%B8%EA%B5%AD%20%EC%8B%9D%EB%9F%89%20%EB%82%AD%EB%B9%84%EC%99%80%20SNAP%20%EB%85%BC%EC%9F%81%EC%9D%B4%20%EC%A3%BC%EB%8A%94%20%EC%8B%9C%EC%82%AC%EC%A0%90%20-%20Jacksonjang%20Blog&url=%2Fposts%2F%25EB%25AF%25B8%25EA%25B5%25AD-%25EC%258B%259D%25EB%259F%2589-%25EB%2582%25AD%25EB%25B9%2584%25EC%2599%2580-snap-%25EB%2585%25BC%25EC%259F%2581%25EC%259D%25B4-%25EC%25A3%25BC%25EB%258A%2594-%25EC%258B%259C%25EC%2582%25AC%25EC%25A0%2590%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-record-%ED%95%B5%EC%8B%AC%ED%91%9C%ED%98%84-%EC%A0%95%EB%A6%AC/" class="post-preview row g-0 flex-md-row-reverse">
-        
+    
 
-        
+      
 
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">뉴스 영어표현: Record 핵심표현 정리</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1761779620"
-  data-df="ll"
-  
->
-  Oct 30, 2025
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      English
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
+      <a href="https://www.facebook.com/sharer/sharer.php?title=%EB%AF%B8%EA%B5%AD%20%EC%8B%9D%EB%9F%89%20%EB%82%AD%EB%B9%84%EC%99%80%20SNAP%20%EB%85%BC%EC%9F%81%EC%9D%B4%20%EC%A3%BC%EB%8A%94%20%EC%8B%9C%EC%82%AC%EC%A0%90%20-%20Jacksonjang%20Blog&u=%2Fposts%2F%25EB%25AF%25B8%25EA%25B5%25AD-%25EC%258B%259D%25EB%259F%2589-%25EB%2582%25AD%25EB%25B9%2584%25EC%2599%2580-snap-%25EB%2585%25BC%25EC%259F%2581%25EC%259D%25B4-%25EC%25A3%25BC%25EB%258A%2594-%25EC%258B%259C%25EC%2582%25AC%25EC%25A0%2590%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
       </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-scherzinger-community-featuring/" class="post-preview row g-0 flex-md-row-reverse">
-        
+    
 
-        
+      
 
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">뉴스 영어표현: Scherzinger, Community, Featuring</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1761775788"
-  data-df="ll"
-  
->
-  Oct 30, 2025
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      English
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
+      <a href="https://t.me/share/url?url=%2Fposts%2F%25EB%25AF%25B8%25EA%25B5%25AD-%25EC%258B%259D%25EB%259F%2589-%25EB%2582%25AD%25EB%25B9%2584%25EC%2599%2580-snap-%25EB%2585%25BC%25EC%259F%2581%25EC%259D%25B4-%25EC%25A3%25BC%25EB%258A%2594-%25EC%258B%259C%25EC%2582%25AC%25EC%25A0%2590%2F&text=%EB%AF%B8%EA%B5%AD%20%EC%8B%9D%EB%9F%89%20%EB%82%AD%EB%B9%84%EC%99%80%20SNAP%20%EB%85%BC%EC%9F%81%EC%9D%B4%20%EC%A3%BC%EB%8A%94%20%EC%8B%9C%EC%82%AC%EC%A0%90%20-%20Jacksonjang%20Blog" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
       </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-%ED%95%B5%EC%8B%AC-%EC%9D%B4%EC%8A%88-%ED%95%B5%EC%8B%AC%ED%91%9C%ED%98%84-%EC%A0%95%EB%A6%AC/" class="post-preview row g-0 flex-md-row-reverse">
-        
+    
 
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">뉴스 영어표현: 핵심 이슈 핵심표현 정리</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1761772485"
-  data-df="ll"
-  
->
-  Oct 30, 2025
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      English
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-criticises-australia-operator/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">뉴스 영어표현: Criticises, Australia, Operator</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1761768616"
-  data-df="ll"
-  
->
-  Oct 30, 2025
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      English
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/%EC%9D%BC%EB%B3%B8%EC%9D%80%ED%96%89-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EB%8B%A4%EC%B9%B4%EC%9D%B4%EC%B9%98-%EC%B4%9D%EB%A6%AC-%EC%B7%A8%EC%9E%84-%EC%B2%AB-%ED%9A%8C%EC%9D%98/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">일본은행 금리 동결, 다카이치 총리 취임 첫 회의</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>일본은행 금리 동결, 다카이치 총리 취임 첫 회의 · 경제 뉴스 요약</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1761766912"
-  data-df="ll"
-  
->
-  Oct 30, 2025
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Economy
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/%EC%8B%9C%EC%A7%84%ED%95%91-%ED%8A%B8%EB%9F%BC%ED%94%84-%EB%B6%80%EC%82%B0-%ED%9A%8C%EB%8B%B4-%ED%99%94%ED%95%B4-%EB%A9%94%EC%8B%9C%EC%A7%80-%ED%91%9C%EB%AA%85-%EC%86%8D-%EB%AF%B8%EC%A4%91-%EB%AC%B4%EC%97%AD-%EA%B4%80%EC%84%B8-%EA%B8%B4%EC%9E%A5-%EA%B3%A0%EC%A1%B0-%EC%86%8D-%EC%99%84%ED%99%94-%EA%B8%B0%EB%8C%80-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%8B%9C%EC%9E%A5-%EC%A3%BC%EB%AA%A9/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">시진핑 트럼프 부산 회담, 화해 메시지 표명 속 미중 무역 관세 긴장 고조 속 완화 기대 글로벌 시장 주목</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>TL;DR    시진핑과 트럼프가 부산에서 회담을 갖고 “파트너이자 친구”라는 화해 메시지를 표했습니다.   올해 미중 간 무역·관세 긴장이 높아진 가운데 완화 신호가 나올지에 시장이 주목합니다.   즉각적 결론보다, 공동성명과 후속 조치가 실제 변화를 가를 가능성이 큽니다.   무슨 일이 있었나    중국 시진핑 국가주석과 도널드 트럼프 전 미국 대...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1761765937"
-  data-df="ll"
-  
->
-  Oct 30, 2025
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Economy
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/%EB%89%B4%EC%8A%A4-%EC%98%81%EC%96%B4%ED%91%9C%ED%98%84-redistricting-democrats-virginia/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">뉴스 영어표현: Redistricting, Democrats, Virginia</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>실제 이슈를 바탕으로 바로 써먹는 자연스러운 영어 표현 · 뉴스 영어표현</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1761765121"
-  data-df="ll"
-  
->
-  Oct 30, 2025
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      English
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
 </div>
-<!-- #post-list -->
 
-
-  <!-- The paginator for post list on HomgPage. -->
-
-<nav aria-label="Page Navigation">
-  <ul class="pagination align-items-center mt-4 mb-0">
-    <!-- left arrow -->
-    
-
-    <li class="page-item ">
-      <a class="page-link" href="/page12" aria-label="previous-page">
-        <i class="fas fa-angle-left"></i>
-      </a>
-    </li>
-
-    <!-- page numbers -->
-    
-    
-
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- show number -->
-        <li class="page-item ">
-          <a
-            class="page-link"
-            href="/"
-          >1</a>
-        </li>
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-          <li class="page-item disabled">
-            <span class="page-link">...</span>
-          </li>
-          
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- show number -->
-        <li class="page-item ">
-          <a
-            class="page-link"
-            href="/page12"
-          >12</a>
-        </li>
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- show number -->
-        <li class="page-item  active">
-          <a
-            class="page-link"
-            href="/page13"
-          >13</a>
-        </li>
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- show number -->
-        <li class="page-item ">
-          <a
-            class="page-link"
-            href="/page14"
-          >14</a>
-        </li>
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-          <li class="page-item disabled">
-            <span class="page-link">...</span>
-          </li>
-          
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- show number -->
-        <li class="page-item ">
-          <a
-            class="page-link"
-            href="/page23"
-          >23</a>
-        </li>
-      
-    
-
-    <!-- mobile pagination -->
-    <li class="page-index align-middle">
-      <span>13</span>
-      <span class="text-muted">/ 23</span>
-    </li>
-
-    <!-- right arrow -->
-    
-
-    <li class="page-item ">
-      <a class="page-link" href="/page14" aria-label="next-page">
-        <i class="fas fa-angle-right"></i>
-      </a>
-    </li>
-  </ul>
-</nav>
-<!-- .pagination -->
-
-
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
+</article>
 
 
             
@@ -4476,12 +3932,1074 @@
             </div>
 
             
+              
+              
+
+
+
+
+
+
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">Further Reading</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/%EB%A9%94%ED%83%80-%EC%A3%BC%EA%B0%80-10-%ED%95%98%EB%9D%BD-ai-%ED%88%AC%EC%9E%90-%EC%9A%B0%EB%A0%A4%EA%B0%80-%EC%8B%A4%EC%A0%81-%EC%83%81%ED%9A%8C/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1761806620"
+  data-df="ll"
+  
+>
+  Oct 31, 2025
+</time>
+
+              <h4 class="pt-0 my-2">메타 주가 10% 하락 AI 투자 우려가 실적 상회</h4>
+              <div class="text-muted">
+                <p>메타 주가 10% 하락 AI 투자 우려가 실적 상회 · 경제 뉴스 요약</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/%EC%9C%A0%EB%9F%BD%EC%A4%91%EC%95%99%EC%9D%80%ED%96%89-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EA%B2%BD%EC%A0%9C-%ED%9A%8C%EB%B3%B5%EC%84%B8-%EB%B3%B4%EC%9D%B8%EB%8B%A4/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1761803025"
+  data-df="ll"
+  
+>
+  Oct 30, 2025
+</time>
+
+              <h4 class="pt-0 my-2">유럽중앙은행 금리 동결, 경제 회복세 보인다</h4>
+              <div class="text-muted">
+                <p>유럽중앙은행 금리 동결, 경제 회복세 보인다 · 경제 뉴스 요약</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/%EC%9D%80%ED%87%B4-%EC%A4%80%EB%B9%84-64%EC%84%B8%EC%9D%98-%EC%9E%AC%EC%A0%95-%EA%B2%80%ED%86%A0/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1762069296"
+  data-df="ll"
+  
+>
+  Nov  3, 2025
+</time>
+
+              <h4 class="pt-0 my-2">은퇴 준비: 64세의 재정 검토</h4>
+              <div class="text-muted">
+                <p>은퇴 준비: 64세의 재정 검토 · 경제 뉴스 요약</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <a
+      href="/posts/%EC%9D%80%ED%87%B4-%EC%A4%80%EB%B9%84-64%EC%84%B8%EC%9D%98-%EC%9E%AC%EC%A0%95-%EA%B2%80%ED%86%A0/"
+      class="btn btn-outline-primary"
+      aria-label="Older"
+    >
+      <p>은퇴 준비: 64세의 재정 검토</p>
+    </a>
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
+  
+</nav>
+
             
 
             <!-- The Footer -->
@@ -7546,6 +8064,11 @@
     
 
     <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
 
     
 
