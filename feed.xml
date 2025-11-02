@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-02T21:58:52+09:00</updated>
+  <updated>2025-11-02T22:38:41+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>월가 분석가 추천 배당주 3가지</title>
+    <link href="/posts/%EC%9B%94%EA%B0%80-%EB%B6%84%EC%84%9D%EA%B0%80-%EC%B6%94%EC%B2%9C-%EB%B0%B0%EB%8B%B9%EC%A3%BC-3%EA%B0%80%EC%A7%80/" rel="alternate" type="text/html" title="월가 분석가 추천 배당주 3가지" />
+    <published>2025-11-02T22:38:10+09:00</published>
+  
+    <updated>2025-11-02T22:38:10+09:00</updated>
+  
+    <id>/posts/%EC%9B%94%EA%B0%80-%EB%B6%84%EC%84%9D%EA%B0%80-%EC%B6%94%EC%B2%9C-%EB%B0%B0%EB%8B%B9%EC%A3%BC-3%EA%B0%80%EC%A7%80/</id>
+    <content type="text/html" src="/posts/%EC%9B%94%EA%B0%80-%EB%B6%84%EC%84%9D%EA%B0%80-%EC%B6%94%EC%B2%9C-%EB%B0%B0%EB%8B%B9%EC%A3%BC-3%EA%B0%80%EC%A7%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>월가 분석가 추천 배당주 3가지 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>AI 창업자 경계 신호와 투자 결정 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>사회보장연금과 주식 투자 균형 잡기</title>
-    <link href="/posts/%EC%82%AC%ED%9A%8C%EB%B3%B4%EC%9E%A5%EC%97%B0%EA%B8%88%EA%B3%BC-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90-%EA%B7%A0%ED%98%95-%EC%9E%A1%EA%B8%B0/" rel="alternate" type="text/html" title="사회보장연금과 주식 투자 균형 잡기" />
-    <published>2025-11-02T16:35:43+09:00</published>
-  
-    <updated>2025-11-02T16:35:43+09:00</updated>
-  
-    <id>/posts/%EC%82%AC%ED%9A%8C%EB%B3%B4%EC%9E%A5%EC%97%B0%EA%B8%88%EA%B3%BC-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90-%EA%B7%A0%ED%98%95-%EC%9E%A1%EA%B8%B0/</id>
-    <content type="text/html" src="/posts/%EC%82%AC%ED%9A%8C%EB%B3%B4%EC%9E%A5%EC%97%B0%EA%B8%88%EA%B3%BC-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90-%EA%B7%A0%ED%98%95-%EC%9E%A1%EA%B8%B0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>사회보장연금과 주식 투자 균형 잡기 · 경제 뉴스 요약</summary>
 
   </entry>
 
