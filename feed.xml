@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-02T13:42:47+09:00</updated>
+  <updated>2025-11-02T14:40:07+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>은퇴 재정 계획: 사회 보장, 주식, TIPS 전략</title>
+    <link href="/posts/%EC%9D%80%ED%87%B4-%EC%9E%AC%EC%A0%95-%EA%B3%84%ED%9A%8D-%EC%82%AC%ED%9A%8C-%EB%B3%B4%EC%9E%A5-%EC%A3%BC%EC%8B%9D-tips-%EC%A0%84%EB%9E%B5/" rel="alternate" type="text/html" title="은퇴 재정 계획: 사회 보장, 주식, TIPS 전략" />
+    <published>2025-11-02T14:39:39+09:00</published>
+  
+    <updated>2025-11-02T14:39:39+09:00</updated>
+  
+    <id>/posts/%EC%9D%80%ED%87%B4-%EC%9E%AC%EC%A0%95-%EA%B3%84%ED%9A%8D-%EC%82%AC%ED%9A%8C-%EB%B3%B4%EC%9E%A5-%EC%A3%BC%EC%8B%9D-tips-%EC%A0%84%EB%9E%B5/</id>
+    <content type="text/html" src="/posts/%EC%9D%80%ED%87%B4-%EC%9E%AC%EC%A0%95-%EA%B3%84%ED%9A%8D-%EC%82%AC%ED%9A%8C-%EB%B3%B4%EC%9E%A5-%EC%A3%BC%EC%8B%9D-tips-%EC%A0%84%EB%9E%B5/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>은퇴 재정 계획: 사회 보장, 주식, TIPS 전략 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>신용카드 즉시 결제의 의미 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>은퇴를 앞둔 64세 투자자의 재정 고민</title>
-    <link href="/posts/%EC%9D%80%ED%87%B4%EB%A5%BC-%EC%95%9E%EB%91%94-64%EC%84%B8-%ED%88%AC%EC%9E%90%EC%9E%90%EC%9D%98-%EC%9E%AC%EC%A0%95-%EA%B3%A0%EB%AF%BC/" rel="alternate" type="text/html" title="은퇴를 앞둔 64세 투자자의 재정 고민" />
-    <published>2025-11-02T06:35:47+09:00</published>
-  
-    <updated>2025-11-02T06:35:47+09:00</updated>
-  
-    <id>/posts/%EC%9D%80%ED%87%B4%EB%A5%BC-%EC%95%9E%EB%91%94-64%EC%84%B8-%ED%88%AC%EC%9E%90%EC%9E%90%EC%9D%98-%EC%9E%AC%EC%A0%95-%EA%B3%A0%EB%AF%BC/</id>
-    <content type="text/html" src="/posts/%EC%9D%80%ED%87%B4%EB%A5%BC-%EC%95%9E%EB%91%94-64%EC%84%B8-%ED%88%AC%EC%9E%90%EC%9E%90%EC%9D%98-%EC%9E%AC%EC%A0%95-%EA%B3%A0%EB%AF%BC/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>은퇴를 앞둔 64세 투자자의 재정 고민 · 경제 뉴스 요약</summary>
 
   </entry>
 
