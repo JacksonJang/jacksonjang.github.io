@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-03T20:25:43+09:00</updated>
+  <updated>2025-11-03T20:34:03+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Ryanair CEO, 영국 여행세 인상 비판</title>
+    <link href="/posts/ryanair-ceo-%EC%98%81%EA%B5%AD-%EC%97%AC%ED%96%89%EC%84%B8-%EC%9D%B8%EC%83%81-%EB%B9%84%ED%8C%90/" rel="alternate" type="text/html" title="Ryanair CEO, 영국 여행세 인상 비판" />
+    <published>2025-11-03T20:33:27+09:00</published>
+  
+    <updated>2025-11-03T20:33:27+09:00</updated>
+  
+    <id>/posts/ryanair-ceo-%EC%98%81%EA%B5%AD-%EC%97%AC%ED%96%89%EC%84%B8-%EC%9D%B8%EC%83%81-%EB%B9%84%ED%8C%90/</id>
+    <content type="text/html" src="/posts/ryanair-ceo-%EC%98%81%EA%B5%AD-%EC%97%AC%ED%96%89%EC%84%B8-%EC%9D%B8%EC%83%81-%EB%B9%84%ED%8C%90/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Ryanair CEO, 영국 여행세 인상 비판 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>투자자들이 실적 서프라이즈에 무관심한 이유 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Nvidia CEO 부동산 포트폴리오 집중 조명</title>
-    <link href="/posts/nvidia-ceo-%EB%B6%80%EB%8F%99%EC%82%B0-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%A7%91%EC%A4%91-%EC%A1%B0%EB%AA%85/" rel="alternate" type="text/html" title="Nvidia CEO 부동산 포트폴리오 집중 조명" />
-    <published>2025-11-03T19:28:12+09:00</published>
-  
-    <updated>2025-11-03T19:28:12+09:00</updated>
-  
-    <id>/posts/nvidia-ceo-%EB%B6%80%EB%8F%99%EC%82%B0-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%A7%91%EC%A4%91-%EC%A1%B0%EB%AA%85/</id>
-    <content type="text/html" src="/posts/nvidia-ceo-%EB%B6%80%EB%8F%99%EC%82%B0-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%A7%91%EC%A4%91-%EC%A1%B0%EB%AA%85/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Nvidia CEO 부동산 포트폴리오 집중 조명 · 경제 뉴스 요약</summary>
 
   </entry>
 
