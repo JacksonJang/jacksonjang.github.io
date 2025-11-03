@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T06:44:47+09:00</updated>
+  <updated>2025-11-04T06:52:53+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AMD 실적 발표, 주가 상승세 유지할까?</title>
+    <link href="/posts/amd-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%9C%A0%EC%A7%80%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="AMD 실적 발표, 주가 상승세 유지할까?" />
+    <published>2025-11-04T06:52:19+09:00</published>
+  
+    <updated>2025-11-04T06:52:19+09:00</updated>
+  
+    <id>/posts/amd-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%9C%A0%EC%A7%80%ED%95%A0%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/amd-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%9C%A0%EC%A7%80%ED%95%A0%EA%B9%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>AMD 실적 발표, 주가 상승세 유지할까? · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>신용카드 사용 후 즉시 상환, 현명한 소비법인가? · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>워렌 버핏, 버크셔의 애플 지분 또 감축?</title>
-    <link href="/posts/%EC%9B%8C%EB%A0%8C-%EB%B2%84%ED%95%8F-%EB%B2%84%ED%81%AC%EC%85%94%EC%9D%98-%EC%95%A0%ED%94%8C-%EC%A7%80%EB%B6%84-%EB%98%90-%EA%B0%90%EC%B6%95/" rel="alternate" type="text/html" title="워렌 버핏, 버크셔의 애플 지분 또 감축?" />
-    <published>2025-11-04T05:12:33+09:00</published>
-  
-    <updated>2025-11-04T05:12:33+09:00</updated>
-  
-    <id>/posts/%EC%9B%8C%EB%A0%8C-%EB%B2%84%ED%95%8F-%EB%B2%84%ED%81%AC%EC%85%94%EC%9D%98-%EC%95%A0%ED%94%8C-%EC%A7%80%EB%B6%84-%EB%98%90-%EA%B0%90%EC%B6%95/</id>
-    <content type="text/html" src="/posts/%EC%9B%8C%EB%A0%8C-%EB%B2%84%ED%95%8F-%EB%B2%84%ED%81%AC%EC%85%94%EC%9D%98-%EC%95%A0%ED%94%8C-%EC%A7%80%EB%B6%84-%EB%98%90-%EA%B0%90%EC%B6%95/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>워렌 버핏, 버크셔의 애플 지분 또 감축? · 경제 뉴스 요약</summary>
 
   </entry>
 
