@@ -326,12 +326,13 @@ def ai_generate_all(
     try:
         resp = _openai_client.responses.create(
             model=model_name,
-             input=[
+            input=[
                 {"role": "system", "content": SEO_SYSTEM},
-                {"role": "user", "content": user_prompt}
+                {"role": "user", "content": user_prompt},
             ],
             tools=[{"type": "web_search"}],    # web_search 사용
             temperature=TEMPERATURE,
+            response_format={"type": "json_object"},
         )
 
         # 결과 텍스트 추출 (SDK별 호환)
@@ -339,10 +340,21 @@ def ai_generate_all(
         if not txt:
             try:
                 blocks = getattr(resp, "output", [])
-                if blocks and hasattr(blocks[0], "content"):
-                    c0 = blocks[0].content
-                    if c0 and hasattr(c0[0], "text") and hasattr(c0[0].text, "value"):
-                        txt = c0[0].text.value
+                collected: List[str] = []
+                for block in blocks:
+                    content_items = getattr(block, "content", []) or []
+                    for content in content_items:
+                        if getattr(content, "type", None) == "output_text":
+                            text_obj = getattr(content, "text", None)
+                            if text_obj is None:
+                                continue
+                            value = getattr(text_obj, "value", None)
+                            if isinstance(value, str):
+                                collected.append(value)
+                            elif isinstance(text_obj, str):
+                                collected.append(text_obj)
+                if collected:
+                    txt = "".join(collected)
             except Exception:
                 pass
         if not txt:
@@ -362,7 +374,13 @@ def ai_generate_all(
             if m2:
                 txt = m2.group(0).strip()
 
-        data = _json.loads(txt)
+        try:
+            data = _json.loads(txt)
+        except _json.JSONDecodeError as decode_err:
+            snippet = txt[:500]
+            print("[WARN] AI JSON 파싱 실패:", decode_err)
+            print("[WARN] 응답 일부:", snippet + ("…" if len(txt) > 500 else ""))
+            return None
 
         # 최소 유효성 검사/정규화
         if not isinstance(data, dict) or "title" not in data or "body_md" not in data:
