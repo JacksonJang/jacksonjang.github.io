@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-03T08:36:11+09:00</updated>
+  <updated>2025-11-03T11:23:20+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>중국 PMI 실망 속 아시아 시장 혼조세</title>
+    <link href="/posts/%EC%A4%91%EA%B5%AD-pmi-%EC%8B%A4%EB%A7%9D-%EC%86%8D-%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8/" rel="alternate" type="text/html" title="중국 PMI 실망 속 아시아 시장 혼조세" />
+    <published>2025-11-03T11:22:49+09:00</published>
+  
+    <updated>2025-11-03T11:22:49+09:00</updated>
+  
+    <id>/posts/%EC%A4%91%EA%B5%AD-pmi-%EC%8B%A4%EB%A7%9D-%EC%86%8D-%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8/</id>
+    <content type="text/html" src="/posts/%EC%A4%91%EA%B5%AD-pmi-%EC%8B%A4%EB%A7%9D-%EC%86%8D-%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>중국 PMI 실망 속 아시아 시장 혼조세 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>OTT 경쟁 심화, &amp;#39;스트레인저 씽스&amp;#39; 종영 주목 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 식품 낭비와 식량 불안정 문제</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%8B%9D%ED%92%88-%EB%82%AD%EB%B9%84%EC%99%80-%EC%8B%9D%EB%9F%89-%EB%B6%88%EC%95%88%EC%A0%95-%EB%AC%B8%EC%A0%9C/" rel="alternate" type="text/html" title="미국 식품 낭비와 식량 불안정 문제" />
-    <published>2025-11-03T04:36:07+09:00</published>
-  
-    <updated>2025-11-03T04:36:07+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%8B%9D%ED%92%88-%EB%82%AD%EB%B9%84%EC%99%80-%EC%8B%9D%EB%9F%89-%EB%B6%88%EC%95%88%EC%A0%95-%EB%AC%B8%EC%A0%9C/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%8B%9D%ED%92%88-%EB%82%AD%EB%B9%84%EC%99%80-%EC%8B%9D%EB%9F%89-%EB%B6%88%EC%95%88%EC%A0%95-%EB%AC%B8%EC%A0%9C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 식품 낭비와 식량 불안정 문제 · 경제 뉴스 요약</summary>
 
   </entry>
 
