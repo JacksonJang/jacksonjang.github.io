@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T06:52:53+09:00</updated>
+  <updated>2025-11-04T07:11:38+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>팔란티어, AI 도입으로 실적 상회</title>
+    <link href="/posts/%ED%8C%94%EB%9E%80%ED%8B%B0%EC%96%B4-ai-%EB%8F%84%EC%9E%85%EC%9C%BC%EB%A1%9C-%EC%8B%A4%EC%A0%81-%EC%83%81%ED%9A%8C/" rel="alternate" type="text/html" title="팔란티어, AI 도입으로 실적 상회" />
+    <published>2025-11-04T07:11:02+09:00</published>
+  
+    <updated>2025-11-04T07:11:02+09:00</updated>
+  
+    <id>/posts/%ED%8C%94%EB%9E%80%ED%8B%B0%EC%96%B4-ai-%EB%8F%84%EC%9E%85%EC%9C%BC%EB%A1%9C-%EC%8B%A4%EC%A0%81-%EC%83%81%ED%9A%8C/</id>
+    <content type="text/html" src="/posts/%ED%8C%94%EB%9E%80%ED%8B%B0%EC%96%B4-ai-%EB%8F%84%EC%9E%85%EC%9C%BC%EB%A1%9C-%EC%8B%A4%EC%A0%81-%EC%83%81%ED%9A%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>팔란티어, AI 도입으로 실적 상회 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>이더리움, 해킹으로 인한 7% 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>신용카드 사용 후 즉시 상환, 현명한 소비법인가?</title>
-    <link href="/posts/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EC%82%AC%EC%9A%A9-%ED%9B%84-%EC%A6%89%EC%8B%9C-%EC%83%81%ED%99%98-%ED%98%84%EB%AA%85%ED%95%9C-%EC%86%8C%EB%B9%84%EB%B2%95%EC%9D%B8%EA%B0%80/" rel="alternate" type="text/html" title="신용카드 사용 후 즉시 상환, 현명한 소비법인가?" />
-    <published>2025-11-04T05:46:03+09:00</published>
-  
-    <updated>2025-11-04T05:46:03+09:00</updated>
-  
-    <id>/posts/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EC%82%AC%EC%9A%A9-%ED%9B%84-%EC%A6%89%EC%8B%9C-%EC%83%81%ED%99%98-%ED%98%84%EB%AA%85%ED%95%9C-%EC%86%8C%EB%B9%84%EB%B2%95%EC%9D%B8%EA%B0%80/</id>
-    <content type="text/html" src="/posts/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EC%82%AC%EC%9A%A9-%ED%9B%84-%EC%A6%89%EC%8B%9C-%EC%83%81%ED%99%98-%ED%98%84%EB%AA%85%ED%95%9C-%EC%86%8C%EB%B9%84%EB%B2%95%EC%9D%B8%EA%B0%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>신용카드 사용 후 즉시 상환, 현명한 소비법인가? · 경제 뉴스 요약</summary>
 
   </entry>
 
