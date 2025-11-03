@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-03T19:27:46+09:00</updated>
+  <updated>2025-11-03T19:28:43+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Nvidia CEO 부동산 포트폴리오 집중 조명</title>
+    <link href="/posts/nvidia-ceo-%EB%B6%80%EB%8F%99%EC%82%B0-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%A7%91%EC%A4%91-%EC%A1%B0%EB%AA%85/" rel="alternate" type="text/html" title="Nvidia CEO 부동산 포트폴리오 집중 조명" />
+    <published>2025-11-03T19:28:12+09:00</published>
+  
+    <updated>2025-11-03T19:28:12+09:00</updated>
+  
+    <id>/posts/nvidia-ceo-%EB%B6%80%EB%8F%99%EC%82%B0-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%A7%91%EC%A4%91-%EC%A1%B0%EB%AA%85/</id>
+    <content type="text/html" src="/posts/nvidia-ceo-%EB%B6%80%EB%8F%99%EC%82%B0-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%A7%91%EC%A4%91-%EC%A1%B0%EB%AA%85/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Nvidia CEO 부동산 포트폴리오 집중 조명 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>중국 PMI 부진 속 아시아 시장 혼조세 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>아시아 시장 혼조세, 중국 PMI 예상 미달</title>
-    <link href="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8-%EC%A4%91%EA%B5%AD-pmi-%EC%98%88%EC%83%81-%EB%AF%B8%EB%8B%AC/" rel="alternate" type="text/html" title="아시아 시장 혼조세, 중국 PMI 예상 미달" />
-    <published>2025-11-03T13:39:11+09:00</published>
-  
-    <updated>2025-11-03T13:39:11+09:00</updated>
-  
-    <id>/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8-%EC%A4%91%EA%B5%AD-pmi-%EC%98%88%EC%83%81-%EB%AF%B8%EB%8B%AC/</id>
-    <content type="text/html" src="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8-%EC%A4%91%EA%B5%AD-pmi-%EC%98%88%EC%83%81-%EB%AF%B8%EB%8B%AC/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>아시아 시장 혼조세, 중국 PMI 예상 미달 · 경제 뉴스 요약</summary>
 
   </entry>
 
