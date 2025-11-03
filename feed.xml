@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-03T19:48:12+09:00</updated>
+  <updated>2025-11-03T19:55:29+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>유언장이 필요 없는 경우?</title>
+    <link href="/posts/%EC%9C%A0%EC%96%B8%EC%9E%A5%EC%9D%B4-%ED%95%84%EC%9A%94-%EC%97%86%EB%8A%94-%EA%B2%BD%EC%9A%B0/" rel="alternate" type="text/html" title="유언장이 필요 없는 경우?" />
+    <published>2025-11-03T19:55:01+09:00</published>
+  
+    <updated>2025-11-03T19:55:01+09:00</updated>
+  
+    <id>/posts/%EC%9C%A0%EC%96%B8%EC%9E%A5%EC%9D%B4-%ED%95%84%EC%9A%94-%EC%97%86%EB%8A%94-%EA%B2%BD%EC%9A%B0/</id>
+    <content type="text/html" src="/posts/%EC%9C%A0%EC%96%B8%EC%9E%A5%EC%9D%B4-%ED%95%84%EC%9A%94-%EC%97%86%EB%8A%94-%EA%B2%BD%EC%9A%B0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>유언장이 필요 없는 경우? · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>희토류 주식 급등, 글로벌 경쟁 심화 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>호주 증시, 거래 마감 시점 소폭 상승</title>
-    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A6%9D%EC%8B%9C-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C%EC%A0%90-%EC%86%8C%ED%8F%AD-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="호주 증시, 거래 마감 시점 소폭 상승" />
-    <published>2025-11-03T14:41:30+09:00</published>
-  
-    <updated>2025-11-03T14:41:30+09:00</updated>
-  
-    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A6%9D%EC%8B%9C-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C%EC%A0%90-%EC%86%8C%ED%8F%AD-%EC%83%81%EC%8A%B9/</id>
-    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A6%9D%EC%8B%9C-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C%EC%A0%90-%EC%86%8C%ED%8F%AD-%EC%83%81%EC%8A%B9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>호주 증시, 거래 마감 시점 소폭 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
