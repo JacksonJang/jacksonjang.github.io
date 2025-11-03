@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T06:11:10+09:00</updated>
+  <updated>2025-11-04T06:27:59+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>OPEC+, 글로벌 원유 과잉 완화 조치</title>
+    <link href="/posts/opec-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%9B%90%EC%9C%A0-%EA%B3%BC%EC%9E%89-%EC%99%84%ED%99%94-%EC%A1%B0%EC%B9%98/" rel="alternate" type="text/html" title="OPEC+, 글로벌 원유 과잉 완화 조치" />
+    <published>2025-11-04T06:27:24+09:00</published>
+  
+    <updated>2025-11-04T06:27:24+09:00</updated>
+  
+    <id>/posts/opec-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%9B%90%EC%9C%A0-%EA%B3%BC%EC%9E%89-%EC%99%84%ED%99%94-%EC%A1%B0%EC%B9%98/</id>
+    <content type="text/html" src="/posts/opec-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%9B%90%EC%9C%A0-%EA%B3%BC%EC%9E%89-%EC%99%84%ED%99%94-%EC%A1%B0%EC%B9%98/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>OPEC+, 글로벌 원유 과잉 완화 조치 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>유산 분배: 불균등 수익과 가족 갈등 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>기술주 주도, 엘리 릴리 반등 성공</title>
-    <link href="/posts/%EA%B8%B0%EC%88%A0%EC%A3%BC-%EC%A3%BC%EB%8F%84-%EC%97%98%EB%A6%AC-%EB%A6%B4%EB%A6%AC-%EB%B0%98%EB%93%B1-%EC%84%B1%EA%B3%B5/" rel="alternate" type="text/html" title="기술주 주도, 엘리 릴리 반등 성공" />
-    <published>2025-11-04T04:42:26+09:00</published>
-  
-    <updated>2025-11-04T04:42:26+09:00</updated>
-  
-    <id>/posts/%EA%B8%B0%EC%88%A0%EC%A3%BC-%EC%A3%BC%EB%8F%84-%EC%97%98%EB%A6%AC-%EB%A6%B4%EB%A6%AC-%EB%B0%98%EB%93%B1-%EC%84%B1%EA%B3%B5/</id>
-    <content type="text/html" src="/posts/%EA%B8%B0%EC%88%A0%EC%A3%BC-%EC%A3%BC%EB%8F%84-%EC%97%98%EB%A6%AC-%EB%A6%B4%EB%A6%AC-%EB%B0%98%EB%93%B1-%EC%84%B1%EA%B3%B5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>기술주 주도, 엘리 릴리 반등 성공 · 경제 뉴스 요약</summary>
 
   </entry>
 
