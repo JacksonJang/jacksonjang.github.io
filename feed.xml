@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T07:11:38+09:00</updated>
+  <updated>2025-11-04T07:34:02+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>스타벅스, 보유캐피탈과 중국 사업 합작사 설립</title>
+    <link href="/posts/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EB%B3%B4%EC%9C%A0%EC%BA%90%ED%94%BC%ED%83%88%EA%B3%BC-%EC%A4%91%EA%B5%AD-%EC%82%AC%EC%97%85-%ED%95%A9%EC%9E%91%EC%82%AC-%EC%84%A4%EB%A6%BD/" rel="alternate" type="text/html" title="스타벅스, 보유캐피탈과 중국 사업 합작사 설립" />
+    <published>2025-11-04T07:33:21+09:00</published>
+  
+    <updated>2025-11-04T07:33:21+09:00</updated>
+  
+    <id>/posts/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EB%B3%B4%EC%9C%A0%EC%BA%90%ED%94%BC%ED%83%88%EA%B3%BC-%EC%A4%91%EA%B5%AD-%EC%82%AC%EC%97%85-%ED%95%A9%EC%9E%91%EC%82%AC-%EC%84%A4%EB%A6%BD/</id>
+    <content type="text/html" src="/posts/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EB%B3%B4%EC%9C%A0%EC%BA%90%ED%94%BC%ED%83%88%EA%B3%BC-%EC%A4%91%EA%B5%AD-%EC%82%AC%EC%97%85-%ED%95%A9%EC%9E%91%EC%82%AC-%EC%84%A4%EB%A6%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>스타벅스, 보유캐피탈과 중국 사업 합작사 설립 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>OPEC+, 글로벌 원유 과잉 완화 조치 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>이더리움, 해킹으로 인한 7% 하락</title>
-    <link href="/posts/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%ED%95%B4%ED%82%B9%EC%9C%BC%EB%A1%9C-%EC%9D%B8%ED%95%9C-7-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="이더리움, 해킹으로 인한 7% 하락" />
-    <published>2025-11-04T05:53:01+09:00</published>
-  
-    <updated>2025-11-04T05:53:01+09:00</updated>
-  
-    <id>/posts/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%ED%95%B4%ED%82%B9%EC%9C%BC%EB%A1%9C-%EC%9D%B8%ED%95%9C-7-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%ED%95%B4%ED%82%B9%EC%9C%BC%EB%A1%9C-%EC%9D%B8%ED%95%9C-7-%ED%95%98%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>이더리움, 해킹으로 인한 7% 하락 · 경제 뉴스 요약</summary>
 
   </entry>
 
