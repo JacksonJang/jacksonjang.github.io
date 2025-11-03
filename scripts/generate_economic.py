@@ -523,8 +523,8 @@ def main():
     ranked = sorted(all_items, key=score_item, reverse=True)[:40]
     picked = pick_not_used(ranked, used_links)
     if not picked:
-        print("[generate_post] 유사도 회피 실패 → 최신으로 대체")
-        picked = sorted(all_items, key=lambda x: x.published or now_kst(), reverse=True)[0]
+        print("[generate_post] 유사도 회피 실패 → OpenAI 호출 없이 종료")
+        return
 
     print(f"[generate_post] Picked: {picked.source}: {picked.title}")
 
