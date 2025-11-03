@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-03T20:43:09+09:00</updated>
+  <updated>2025-11-03T20:52:44+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>주식시장 주목 요인: 고용 데이터와 실적 발표</title>
+    <link href="/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EC%A3%BC%EB%AA%A9-%EC%9A%94%EC%9D%B8-%EA%B3%A0%EC%9A%A9-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%99%80-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="주식시장 주목 요인: 고용 데이터와 실적 발표" />
+    <published>2025-11-03T20:52:10+09:00</published>
+  
+    <updated>2025-11-03T20:52:10+09:00</updated>
+  
+    <id>/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EC%A3%BC%EB%AA%A9-%EC%9A%94%EC%9D%B8-%EA%B3%A0%EC%9A%A9-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%99%80-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EC%A3%BC%EB%AA%A9-%EC%9A%94%EC%9D%B8-%EA%B3%A0%EC%9A%A9-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%99%80-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>주식시장 주목 요인: 고용 데이터와 실적 발표 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>OpenAI의 지출과 수익, 큰 질문이 제기되다 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>유언장이 필요 없는 경우?</title>
-    <link href="/posts/%EC%9C%A0%EC%96%B8%EC%9E%A5%EC%9D%B4-%ED%95%84%EC%9A%94-%EC%97%86%EB%8A%94-%EA%B2%BD%EC%9A%B0/" rel="alternate" type="text/html" title="유언장이 필요 없는 경우?" />
-    <published>2025-11-03T19:55:01+09:00</published>
-  
-    <updated>2025-11-03T19:55:01+09:00</updated>
-  
-    <id>/posts/%EC%9C%A0%EC%96%B8%EC%9E%A5%EC%9D%B4-%ED%95%84%EC%9A%94-%EC%97%86%EB%8A%94-%EA%B2%BD%EC%9A%B0/</id>
-    <content type="text/html" src="/posts/%EC%9C%A0%EC%96%B8%EC%9E%A5%EC%9D%B4-%ED%95%84%EC%9A%94-%EC%97%86%EB%8A%94-%EA%B2%BD%EC%9A%B0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>유언장이 필요 없는 경우? · 경제 뉴스 요약</summary>
 
   </entry>
 
