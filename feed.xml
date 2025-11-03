@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-03T13:48:04+09:00</updated>
+  <updated>2025-11-03T14:41:56+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>호주 증시, 거래 마감 시점 소폭 상승</title>
+    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A6%9D%EC%8B%9C-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C%EC%A0%90-%EC%86%8C%ED%8F%AD-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="호주 증시, 거래 마감 시점 소폭 상승" />
+    <published>2025-11-03T14:41:30+09:00</published>
+  
+    <updated>2025-11-03T14:41:30+09:00</updated>
+  
+    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A6%9D%EC%8B%9C-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C%EC%A0%90-%EC%86%8C%ED%8F%AD-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A6%9D%EC%8B%9C-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C%EC%A0%90-%EC%86%8C%ED%8F%AD-%EC%83%81%EC%8A%B9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>호주 증시, 거래 마감 시점 소폭 상승 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>중국 공장 활동 둔화, 예측에 미치지 못해 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>중국 PMI 실망 속 아시아 시장 혼조세</title>
-    <link href="/posts/%EC%A4%91%EA%B5%AD-pmi-%EC%8B%A4%EB%A7%9D-%EC%86%8D-%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8/" rel="alternate" type="text/html" title="중국 PMI 실망 속 아시아 시장 혼조세" />
-    <published>2025-11-03T11:22:49+09:00</published>
-  
-    <updated>2025-11-03T11:22:49+09:00</updated>
-  
-    <id>/posts/%EC%A4%91%EA%B5%AD-pmi-%EC%8B%A4%EB%A7%9D-%EC%86%8D-%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8/</id>
-    <content type="text/html" src="/posts/%EC%A4%91%EA%B5%AD-pmi-%EC%8B%A4%EB%A7%9D-%EC%86%8D-%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>중국 PMI 실망 속 아시아 시장 혼조세 · 경제 뉴스 요약</summary>
 
   </entry>
 
