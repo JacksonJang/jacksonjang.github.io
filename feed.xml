@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-03T13:39:06+09:00</updated>
+  <updated>2025-11-03T13:39:41+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>아시아 시장 혼조세, 중국 PMI 예상 미달</title>
+    <link href="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8-%EC%A4%91%EA%B5%AD-pmi-%EC%98%88%EC%83%81-%EB%AF%B8%EB%8B%AC/" rel="alternate" type="text/html" title="아시아 시장 혼조세, 중국 PMI 예상 미달" />
+    <published>2025-11-03T13:39:11+09:00</published>
+  
+    <updated>2025-11-03T13:39:11+09:00</updated>
+  
+    <id>/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8-%EC%A4%91%EA%B5%AD-pmi-%EC%98%88%EC%83%81-%EB%AF%B8%EB%8B%AC/</id>
+    <content type="text/html" src="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8-%EC%A4%91%EA%B5%AD-pmi-%EC%98%88%EC%83%81-%EB%AF%B8%EB%8B%AC/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>아시아 시장 혼조세, 중국 PMI 예상 미달 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>미국 주식 선물 상승, 11월 랠리 예고 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>‘Mag 7’ 논란과 시장 다각화 전략 중요성</title>
-    <link href="/posts/mag-7-%EB%85%BC%EB%9E%80%EA%B3%BC-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EA%B0%81%ED%99%94-%EC%A0%84%EB%9E%B5-%EC%A4%91%EC%9A%94%EC%84%B1/" rel="alternate" type="text/html" title="‘Mag 7’ 논란과 시장 다각화 전략 중요성" />
-    <published>2025-11-03T07:38:09+09:00</published>
-  
-    <updated>2025-11-03T07:38:09+09:00</updated>
-  
-    <id>/posts/mag-7-%EB%85%BC%EB%9E%80%EA%B3%BC-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EA%B0%81%ED%99%94-%EC%A0%84%EB%9E%B5-%EC%A4%91%EC%9A%94%EC%84%B1/</id>
-    <content type="text/html" src="/posts/mag-7-%EB%85%BC%EB%9E%80%EA%B3%BC-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EA%B0%81%ED%99%94-%EC%A0%84%EB%9E%B5-%EC%A4%91%EC%9A%94%EC%84%B1/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>‘Mag 7’ 논란과 시장 다각화 전략 중요성 · 경제 뉴스 요약</summary>
 
   </entry>
 
