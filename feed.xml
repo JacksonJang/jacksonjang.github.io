@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T07:45:30+09:00</updated>
+  <updated>2025-11-04T07:52:43+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AI 버블 증가 위험, 주식시장 경고</title>
+    <link href="/posts/ai-%EB%B2%84%EB%B8%94-%EC%A6%9D%EA%B0%80-%EC%9C%84%ED%97%98-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EA%B2%BD%EA%B3%A0/" rel="alternate" type="text/html" title="AI 버블 증가 위험, 주식시장 경고" />
+    <published>2025-11-04T07:52:08+09:00</published>
+  
+    <updated>2025-11-04T07:52:08+09:00</updated>
+  
+    <id>/posts/ai-%EB%B2%84%EB%B8%94-%EC%A6%9D%EA%B0%80-%EC%9C%84%ED%97%98-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EA%B2%BD%EA%B3%A0/</id>
+    <content type="text/html" src="/posts/ai-%EB%B2%84%EB%B8%94-%EC%A6%9D%EA%B0%80-%EC%9C%84%ED%97%98-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EA%B2%BD%EA%B3%A0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>AI 버블 증가 위험, 주식시장 경고 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>AMD 실적 발표, 주가 상승세 유지할까? · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Beyond Meat 실적 연기로 투자자 불만</title>
-    <link href="/posts/beyond-meat-%EC%8B%A4%EC%A0%81-%EC%97%B0%EA%B8%B0%EB%A1%9C-%ED%88%AC%EC%9E%90%EC%9E%90-%EB%B6%88%EB%A7%8C/" rel="alternate" type="text/html" title="Beyond Meat 실적 연기로 투자자 불만" />
-    <published>2025-11-04T06:37:04+09:00</published>
-  
-    <updated>2025-11-04T06:37:04+09:00</updated>
-  
-    <id>/posts/beyond-meat-%EC%8B%A4%EC%A0%81-%EC%97%B0%EA%B8%B0%EB%A1%9C-%ED%88%AC%EC%9E%90%EC%9E%90-%EB%B6%88%EB%A7%8C/</id>
-    <content type="text/html" src="/posts/beyond-meat-%EC%8B%A4%EC%A0%81-%EC%97%B0%EA%B8%B0%EB%A1%9C-%ED%88%AC%EC%9E%90%EC%9E%90-%EB%B6%88%EB%A7%8C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Beyond Meat 실적 연기로 투자자 불만 · 경제 뉴스 요약</summary>
 
   </entry>
 
