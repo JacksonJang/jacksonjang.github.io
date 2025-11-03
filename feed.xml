@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T08:44:09+09:00</updated>
+  <updated>2025-11-04T08:52:13+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Dan Loeb의 AI 주식 투자 전략</title>
+    <link href="/posts/dan-loeb%EC%9D%98-ai-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90-%EC%A0%84%EB%9E%B5/" rel="alternate" type="text/html" title="Dan Loeb의 AI 주식 투자 전략" />
+    <published>2025-11-04T08:51:45+09:00</published>
+  
+    <updated>2025-11-04T08:51:45+09:00</updated>
+  
+    <id>/posts/dan-loeb%EC%9D%98-ai-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90-%EC%A0%84%EB%9E%B5/</id>
+    <content type="text/html" src="/posts/dan-loeb%EC%9D%98-ai-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90-%EC%A0%84%EB%9E%B5/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Dan Loeb의 AI 주식 투자 전략 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>AI 버블 증가 위험, 주식시장 경고 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>스타벅스, 중국 사업 지분 60% 매각 결정</title>
-    <link href="/posts/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EC%A4%91%EA%B5%AD-%EC%82%AC%EC%97%85-%EC%A7%80%EB%B6%84-60-%EB%A7%A4%EA%B0%81-%EA%B2%B0%EC%A0%95/" rel="alternate" type="text/html" title="스타벅스, 중국 사업 지분 60% 매각 결정" />
-    <published>2025-11-04T07:44:57+09:00</published>
-  
-    <updated>2025-11-04T07:44:57+09:00</updated>
-  
-    <id>/posts/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EC%A4%91%EA%B5%AD-%EC%82%AC%EC%97%85-%EC%A7%80%EB%B6%84-60-%EB%A7%A4%EA%B0%81-%EA%B2%B0%EC%A0%95/</id>
-    <content type="text/html" src="/posts/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EC%A4%91%EA%B5%AD-%EC%82%AC%EC%97%85-%EC%A7%80%EB%B6%84-60-%EB%A7%A4%EA%B0%81-%EA%B2%B0%EC%A0%95/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>스타벅스, 중국 사업 지분 60% 매각 결정 · 경제 뉴스 요약</summary>
 
   </entry>
 
