@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-03T12:37:44+09:00</updated>
+  <updated>2025-11-03T13:39:06+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>중국 제조업 PMI 부진, 아시아 증시 영향</title>
+    <link href="/posts/%EC%A4%91%EA%B5%AD-%EC%A0%9C%EC%A1%B0%EC%97%85-pmi-%EB%B6%80%EC%A7%84-%EC%95%84%EC%8B%9C%EC%95%84-%EC%A6%9D%EC%8B%9C-%EC%98%81%ED%96%A5/" rel="alternate" type="text/html" title="중국 제조업 PMI 부진, 아시아 증시 영향" />
+    <published>2025-11-03T13:38:35+09:00</published>
+  
+    <updated>2025-11-03T13:38:35+09:00</updated>
+  
+    <id>/posts/%EC%A4%91%EA%B5%AD-%EC%A0%9C%EC%A1%B0%EC%97%85-pmi-%EB%B6%80%EC%A7%84-%EC%95%84%EC%8B%9C%EC%95%84-%EC%A6%9D%EC%8B%9C-%EC%98%81%ED%96%A5/</id>
+    <content type="text/html" src="/posts/%EC%A4%91%EA%B5%AD-%EC%A0%9C%EC%A1%B0%EC%97%85-pmi-%EB%B6%80%EC%A7%84-%EC%95%84%EC%8B%9C%EC%95%84-%EC%A6%9D%EC%8B%9C-%EC%98%81%ED%96%A5/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>중국 제조업 PMI 부진, 아시아 증시 영향 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>‘Mag 7’ 논란과 시장 다각화 전략 중요성 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 기업의 이익 행진과 고용시장 우려</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EA%B8%B0%EC%97%85%EC%9D%98-%EC%9D%B4%EC%9D%B5-%ED%96%89%EC%A7%84%EA%B3%BC-%EA%B3%A0%EC%9A%A9%EC%8B%9C%EC%9E%A5-%EC%9A%B0%EB%A0%A4/" rel="alternate" type="text/html" title="미국 기업의 이익 행진과 고용시장 우려" />
-    <published>2025-11-03T06:35:51+09:00</published>
-  
-    <updated>2025-11-03T06:35:51+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EA%B8%B0%EC%97%85%EC%9D%98-%EC%9D%B4%EC%9D%B5-%ED%96%89%EC%A7%84%EA%B3%BC-%EA%B3%A0%EC%9A%A9%EC%8B%9C%EC%9E%A5-%EC%9A%B0%EB%A0%A4/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EA%B8%B0%EC%97%85%EC%9D%98-%EC%9D%B4%EC%9D%B5-%ED%96%89%EC%A7%84%EA%B3%BC-%EA%B3%A0%EC%9A%A9%EC%8B%9C%EC%9E%A5-%EC%9A%B0%EB%A0%A4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 기업의 이익 행진과 고용시장 우려 · 경제 뉴스 요약</summary>
 
   </entry>
 
