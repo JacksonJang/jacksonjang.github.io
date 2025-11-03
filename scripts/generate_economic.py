@@ -6,7 +6,7 @@ Single-call OpenAI version of generate_post.py (with OpenAI-based related picks)
 - RSS Source: Reuters, BBC, Investing.com, MarketWatch, Yahoo Finance, CNBC
 - Exactly ONE OpenAI chat.completions call (title + body + terms + related in JSON)
 - Related stocks/ETFs are proposed directly by OpenAI (no Yahoo Finance).
-- Dedup via used_topics.json; fallback paths minimal for strict single-call design.
+- Dedup via RSS link history to avoid repeated coverage.
 """
 
 import os
@@ -20,12 +20,20 @@ from pathlib import Path
 from dataclasses import dataclass
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from difflib import SequenceMatcher
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Set
+
+try:
+    import requests
+except Exception:  # pragma: no cover - optional dependency
+    requests = None
+
+try:
+    from bs4 import BeautifulSoup  # type: ignore
+except Exception:  # pragma: no cover - optional dependency
+    BeautifulSoup = None
 
 import frontmatter
 import feedparser
-import yaml
 
 # -----------------------------
 # 환경설정 (환경변수로 재정의 가능)
@@ -38,9 +46,13 @@ OUTPUT_EXT = os.getenv("OUTPUT_EXT", ".md")
 AUTHOR = os.getenv("POST_AUTHOR", "JacksonJang")
 SITE_BASE_URL = os.getenv("SITE_BASE_URL", "https://jacksonjang.github.io")
 
-USED_TOPICS_FILE = Path(os.getenv("USED_TOPICS_FILE", "data/used_topics.json"))
-USED_TOPICS_LIMIT = int(os.getenv("USED_TOPICS_LIMIT", "400"))
-SIMILARITY_THRESHOLD = float(os.getenv("SIMILARITY_THRESHOLD", "0.72"))  # 0~1, 높을수록 엄격
+DEFAULT_USED_LINKS_PATH = "data/used_links.json"
+USED_LINKS_FILE = Path(
+    os.getenv("USED_LINKS_FILE")
+    or os.getenv("USED_TOPICS_FILE", DEFAULT_USED_LINKS_PATH)
+)
+LEGACY_USED_TOPICS_FILE = Path(os.getenv("USED_TOPICS_FILE", "data/used_topics.json"))
+USED_LINKS_LIMIT = int(os.getenv("USED_LINKS_LIMIT", os.getenv("USED_TOPICS_LIMIT", "400")))
 
 # 내부 링크(있다면 자동 삽입). 없으면 비워두세요.
 INTERNAL_LINKS: List[tuple[str, str]] = []
@@ -100,37 +112,42 @@ def to_slug(s: str) -> str:
     s = re.sub(r"-+", "-", s)
     return s
 
-def load_used_topics() -> List[str]:
-    if USED_TOPICS_FILE.exists():
+def load_used_links() -> List[str]:
+    files_to_try = []
+    if USED_LINKS_FILE.exists():
+        files_to_try.append(USED_LINKS_FILE)
+    if LEGACY_USED_TOPICS_FILE.exists() and LEGACY_USED_TOPICS_FILE not in files_to_try:
+        files_to_try.append(LEGACY_USED_TOPICS_FILE)
+
+    for path in files_to_try:
         try:
-            data = json.loads(USED_TOPICS_FILE.read_text(encoding="utf-8"))
+            data = json.loads(path.read_text(encoding="utf-8"))
             if isinstance(data, list):
-                return data
+                cleaned = []
+                for x in data:
+                    s = str(x).strip()
+                    if not s:
+                        continue
+                    if s.startswith("http://") or s.startswith("https://"):
+                        cleaned.append(s)
+                if cleaned:
+                    return cleaned
         except Exception:
-            pass
+            continue
     return []
 
-def save_used_topics(titles: List[str]) -> None:
-    ensure_dir(USED_TOPICS_FILE.parent)
-    if len(titles) > USED_TOPICS_LIMIT:
-        titles = titles[-USED_TOPICS_LIMIT:]
-    USED_TOPICS_FILE.write_text(json.dumps(titles, ensure_ascii=False, indent=2), encoding="utf-8")
 
-def is_similar(a: str, b: str) -> float:
-    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
+def save_used_links(links: List[str]) -> None:
+    ensure_dir(USED_LINKS_FILE.parent)
+    if len(links) > USED_LINKS_LIMIT:
+        links = links[-USED_LINKS_LIMIT:]
+    USED_LINKS_FILE.write_text(json.dumps(links, ensure_ascii=False, indent=2), encoding="utf-8")
 
-def is_duplicate_or_similar(title: str, used_list: List[str]) -> bool:
-    if title in used_list:
-        return True
-    for t in used_list[-200:]:
-        if is_similar(title, t) >= SIMILARITY_THRESHOLD:
-            return True
-    return False
 
-def pick_not_used(candidate_items: List[NewsItem], used_titles: List[str]) -> Optional[NewsItem]:
+def pick_not_used(candidate_items: List[NewsItem], used_links: List[str]) -> Optional[NewsItem]:
     candidate_items = sorted(candidate_items, key=lambda x: x.published or now_kst(), reverse=True)
     for item in candidate_items:
-        if not is_duplicate_or_similar(item.title, used_titles):
+        if item.link and item.link not in used_links:
             return item
     return None
 
@@ -152,6 +169,7 @@ def parse_published(entry: Any) -> Optional[datetime]:
 
 def fetch_news_from_rss() -> List[NewsItem]:
     items: List[NewsItem] = []
+    seen_links: Set[str] = set()
     for src in RSS_SOURCES:
         try:
             feed = feedparser.parse(src["url"])
@@ -160,11 +178,58 @@ def fetch_news_from_rss() -> List[NewsItem]:
                 link = getattr(e, "link", "").strip()
                 summary = html.unescape(getattr(e, "summary", "")).strip() if hasattr(e, "summary") else ""
                 published = parse_published(e)
-                if title and link:
+                if title and link and link not in seen_links:
+                    seen_links.add(link)
                     items.append(NewsItem(src["name"], title, link, summary, published))
         except Exception as ex:
             print(f"[WARN] RSS 실패: {src['name']} - {ex}")
     return items
+
+
+def extract_article_text(html_text: str, max_chars: int = 2000) -> str:
+    if not html_text:
+        return ""
+
+    text = ""
+    if BeautifulSoup is not None:
+        soup = BeautifulSoup(html_text, "html.parser")
+        for tag in soup(["script", "style", "noscript", "header", "footer"]):
+            tag.decompose()
+        paragraphs = [
+            p.get_text(separator=" ", strip=True)
+            for p in soup.find_all(["p", "li"])
+            if p.get_text(strip=True)
+        ]
+        if paragraphs:
+            text = " ".join(paragraphs)
+        else:
+            text = soup.get_text(separator=" ", strip=True)
+    else:
+        text = re.sub(r"<[^>]+>", " ", html_text)
+
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) > max_chars:
+        text = text[:max_chars].rstrip() + "…"
+    return text
+
+
+def fetch_article_content(link: str, max_chars: int = 2000) -> str:
+    if not link or requests is None:
+        return ""
+    try:
+        resp = requests.get(
+            link,
+            timeout=10,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
+            },
+        )
+        if resp.ok:
+            return extract_article_text(resp.text, max_chars=max_chars)
+    except Exception as ex:
+        print(f"[WARN] 기사 본문 수집 실패: {link} - {ex}")
+    return ""
 
 # -----------------------------
 # 관련 종목 추천 (OpenAI가 직접 제안)
@@ -217,7 +282,11 @@ SEO_SYSTEM = (
     "Avoid hype; be precise and neutral; cite only provided info; do not invent dates."
 )
 
-def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
+def ai_generate_all(
+    item: NewsItem,
+    today_str: str,
+    article_context: str = "",
+) -> Optional[Dict[str, Any]]:
     if _openai_client is None:
         print("[WARN] OpenAI client not initialized (check OPENAI_API_KEY)")
         return None
@@ -225,18 +294,24 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
     # web_search는 Responses API에서만 지원. 모델은 gpt-4o 계열 권장
     model_name = os.getenv("OPENAI_MODEL", "gpt-4o")
 
+    extra_article = ""
+    if article_context:
+        extra_article = textwrap.fill(article_context.strip(), width=120)
+
     user_prompt = f"""
 다음 RSS 경제 뉴스를 기반으로 한국어 SEO 포스트를 작성하세요.
 - 오늘 날짜는 {today_str} 입니다. 날짜/시점 표기는 오늘 기준으로 하세요.
 - 출력은 반드시 "유효한 JSON" 한 덩어리만 반환하세요. 서론/코드블록/설명 금지.
 - JSON 키: title(<=60자), body_md(마크다운 본문), terms(최대 12개), related(최대 6개; 각 항목은 {{symbol,name,why}})
 - 링크는 만들지 말고 Sources 섹션에는 소스명만 한 줄로 넣으세요.
+- 추가 텍스트가 있다면 주요 수치와 배경을 반영해 더 깊이 있게 설명하세요.
 
 입력 뉴스:
 - 소스: {item.source}
 - 제목: {item.title}
 - 링크: {item.link}
 - 요약: {item.summary[:800]}
+{f"- 원문 추가 정보: {extra_article}" if extra_article else ""}
 
 본문 섹션 규칙(제목 포함):
 # <제목>
@@ -251,12 +326,13 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
     try:
         resp = _openai_client.responses.create(
             model=model_name,
-             input=[
+            input=[
                 {"role": "system", "content": SEO_SYSTEM},
-                {"role": "user", "content": user_prompt}
+                {"role": "user", "content": user_prompt},
             ],
             tools=[{"type": "web_search"}],    # web_search 사용
             temperature=TEMPERATURE,
+            response_format={"type": "json_object"},
         )
 
         # 결과 텍스트 추출 (SDK별 호환)
@@ -264,10 +340,21 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
         if not txt:
             try:
                 blocks = getattr(resp, "output", [])
-                if blocks and hasattr(blocks[0], "content"):
-                    c0 = blocks[0].content
-                    if c0 and hasattr(c0[0], "text") and hasattr(c0[0].text, "value"):
-                        txt = c0[0].text.value
+                collected: List[str] = []
+                for block in blocks:
+                    content_items = getattr(block, "content", []) or []
+                    for content in content_items:
+                        if getattr(content, "type", None) == "output_text":
+                            text_obj = getattr(content, "text", None)
+                            if text_obj is None:
+                                continue
+                            value = getattr(text_obj, "value", None)
+                            if isinstance(value, str):
+                                collected.append(value)
+                            elif isinstance(text_obj, str):
+                                collected.append(text_obj)
+                if collected:
+                    txt = "".join(collected)
             except Exception:
                 pass
         if not txt:
@@ -287,7 +374,13 @@ def ai_generate_all(item: NewsItem, today_str: str) -> Optional[Dict[str, Any]]:
             if m2:
                 txt = m2.group(0).strip()
 
-        data = _json.loads(txt)
+        try:
+            data = _json.loads(txt)
+        except _json.JSONDecodeError as decode_err:
+            snippet = txt[:500]
+            print("[WARN] AI JSON 파싱 실패:", decode_err)
+            print("[WARN] 응답 일부:", snippet + ("…" if len(txt) > 500 else ""))
+            return None
 
         # 최소 유효성 검사/정규화
         if not isinstance(data, dict) or "title" not in data or "body_md" not in data:
@@ -414,7 +507,7 @@ def main():
     if not all_items:
         raise RuntimeError("RSS에서 항목을 찾지 못했습니다.")
 
-    used_titles = load_used_topics()
+    used_links = load_used_links()
 
     KEYWORDS = [
         "Fed", "연준", "금리", "CPI", "인플레이션", "환율", "달러", "엔", "유가",
@@ -429,7 +522,7 @@ def main():
         return score
 
     ranked = sorted(all_items, key=score_item, reverse=True)[:40]
-    picked = pick_not_used(ranked, used_titles)
+    picked = pick_not_used(ranked, used_links)
     if not picked:
         print("[generate_post] 유사도 회피 실패 → 최신으로 대체")
         picked = sorted(all_items, key=lambda x: x.published or now_kst(), reverse=True)[0]
@@ -440,7 +533,8 @@ def main():
     today_str = today.strftime("%Y-%m-%d (%Z)")
 
     # === 단 한 번의 OpenAI 호출 ===
-    ai_data = ai_generate_all(picked, today_str)
+    article_context = fetch_article_content(picked.link)
+    ai_data = ai_generate_all(picked, today_str, article_context=article_context)
     if not ai_data:
         return  # 실패 시 조용히 종료(원하면 규칙기반 fallback로 바꿀 수 있음)
 
@@ -482,9 +576,10 @@ def main():
     # 파일 기록
     write_post_file(filename, fm, body)
 
-    # used_topics 갱신 (SEO 제목 기준으로 저장)
-    used_titles.append(seo_title)
-    save_used_topics(used_titles)
+    # 사용한 RSS 링크 기록 (중복 방지)
+    if picked.link:
+        used_links.append(picked.link)
+        save_used_links(used_links)
 
     # 로그 출력
     print(json.dumps({
@@ -497,6 +592,7 @@ def main():
         "news_link": picked.link,
         "terms": terms,
         "related": related,
+        "article_context_excerpt": article_context[:300] + ("…" if article_context and len(article_context) > 300 else ""),
     }, ensure_ascii=False, indent=2))
 
 if __name__ == "__main__":
