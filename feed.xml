@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-03T20:10:09+09:00</updated>
+  <updated>2025-11-03T20:25:43+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>중국, Nexperia 칩 수출 면제 검토에 자동차 주식 상승</title>
+    <link href="/posts/%EC%A4%91%EA%B5%AD-nexperia-%EC%B9%A9-%EC%88%98%EC%B6%9C-%EB%A9%B4%EC%A0%9C-%EA%B2%80%ED%86%A0%EC%97%90-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="중국, Nexperia 칩 수출 면제 검토에 자동차 주식 상승" />
+    <published>2025-11-03T20:25:11+09:00</published>
+  
+    <updated>2025-11-03T20:25:11+09:00</updated>
+  
+    <id>/posts/%EC%A4%91%EA%B5%AD-nexperia-%EC%B9%A9-%EC%88%98%EC%B6%9C-%EB%A9%B4%EC%A0%9C-%EA%B2%80%ED%86%A0%EC%97%90-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%EC%A4%91%EA%B5%AD-nexperia-%EC%B9%A9-%EC%88%98%EC%B6%9C-%EB%A9%B4%EC%A0%9C-%EA%B2%80%ED%86%A0%EC%97%90-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>중국, Nexperia 칩 수출 면제 검토에 자동차 주식 상승 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Nvidia CEO 부동산 포트폴리오 집중 조명 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>아시아-태평양 시장 상승, 중국 지표 주목</title>
-    <link href="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EC%83%81%EC%8A%B9-%EC%A4%91%EA%B5%AD-%EC%A7%80%ED%91%9C-%EC%A3%BC%EB%AA%A9/" rel="alternate" type="text/html" title="아시아-태평양 시장 상승, 중국 지표 주목" />
-    <published>2025-11-03T16:38:38+09:00</published>
-  
-    <updated>2025-11-03T16:38:38+09:00</updated>
-  
-    <id>/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EC%83%81%EC%8A%B9-%EC%A4%91%EA%B5%AD-%EC%A7%80%ED%91%9C-%EC%A3%BC%EB%AA%A9/</id>
-    <content type="text/html" src="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EC%83%81%EC%8A%B9-%EC%A4%91%EA%B5%AD-%EC%A7%80%ED%91%9C-%EC%A3%BC%EB%AA%A9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>아시아-태평양 시장 상승, 중국 지표 주목 · 경제 뉴스 요약</summary>
 
   </entry>
 
