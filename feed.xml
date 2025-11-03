@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T07:52:43+09:00</updated>
+  <updated>2025-11-04T08:10:57+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>IAC, Google AI로 인해 광고 수익 감소</title>
+    <link href="/posts/iac-google-ai%EB%A1%9C-%EC%9D%B8%ED%95%B4-%EA%B4%91%EA%B3%A0-%EC%88%98%EC%9D%B5-%EA%B0%90%EC%86%8C/" rel="alternate" type="text/html" title="IAC, Google AI로 인해 광고 수익 감소" />
+    <published>2025-11-04T08:10:18+09:00</published>
+  
+    <updated>2025-11-04T08:10:18+09:00</updated>
+  
+    <id>/posts/iac-google-ai%EB%A1%9C-%EC%9D%B8%ED%95%B4-%EA%B4%91%EA%B3%A0-%EC%88%98%EC%9D%B5-%EA%B0%90%EC%86%8C/</id>
+    <content type="text/html" src="/posts/iac-google-ai%EB%A1%9C-%EC%9D%B8%ED%95%B4-%EA%B4%91%EA%B3%A0-%EC%88%98%EC%9D%B5-%EA%B0%90%EC%86%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>IAC, Google AI로 인해 광고 수익 감소 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>팔란티어, AI 도입으로 실적 상회 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>AMD 실적 발표, 주가 상승세 유지할까?</title>
-    <link href="/posts/amd-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%9C%A0%EC%A7%80%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="AMD 실적 발표, 주가 상승세 유지할까?" />
-    <published>2025-11-04T06:52:19+09:00</published>
-  
-    <updated>2025-11-04T06:52:19+09:00</updated>
-  
-    <id>/posts/amd-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%9C%A0%EC%A7%80%ED%95%A0%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/amd-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%9C%A0%EC%A7%80%ED%95%A0%EA%B9%8C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>AMD 실적 발표, 주가 상승세 유지할까? · 경제 뉴스 요약</summary>
 
   </entry>
 
