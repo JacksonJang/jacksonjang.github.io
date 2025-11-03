@@ -328,11 +328,10 @@ def ai_generate_all(
             model=model_name,
             input=[
                 {"role": "system", "content": SEO_SYSTEM},
-                {"role": "user", "content": user_prompt},
+                {"role": "user", "content": user_prompt}
             ],
             tools=[{"type": "web_search"}],    # web_search 사용
-            temperature=TEMPERATURE,
-            response_format={"type": "json_object"},
+            temperature=TEMPERATURE
         )
 
         # 결과 텍스트 추출 (SDK별 호환)
