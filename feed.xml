@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-03T22:38:40+09:00</updated>
+  <updated>2025-11-03T22:50:31+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Nvidia, UAE 칩 판매 승인으로 주가 2% 상승</title>
+    <link href="/posts/nvidia-uae-%EC%B9%A9-%ED%8C%90%EB%A7%A4-%EC%8A%B9%EC%9D%B8%EC%9C%BC%EB%A1%9C-%EC%A3%BC%EA%B0%80-2-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="Nvidia, UAE 칩 판매 승인으로 주가 2% 상승" />
+    <published>2025-11-03T22:49:55+09:00</published>
+  
+    <updated>2025-11-03T22:49:55+09:00</updated>
+  
+    <id>/posts/nvidia-uae-%EC%B9%A9-%ED%8C%90%EB%A7%A4-%EC%8A%B9%EC%9D%B8%EC%9C%BC%EB%A1%9C-%EC%A3%BC%EA%B0%80-2-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/nvidia-uae-%EC%B9%A9-%ED%8C%90%EB%A7%A4-%EC%8A%B9%EC%9D%B8%EC%9C%BC%EB%A1%9C-%EC%A3%BC%EA%B0%80-2-%EC%83%81%EC%8A%B9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Nvidia, UAE 칩 판매 승인으로 주가 2% 상승 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Ryanair CEO, 영국 여행세 인상 비판 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>중국, Nexperia 칩 수출 면제 검토에 자동차 주식 상승</title>
-    <link href="/posts/%EC%A4%91%EA%B5%AD-nexperia-%EC%B9%A9-%EC%88%98%EC%B6%9C-%EB%A9%B4%EC%A0%9C-%EA%B2%80%ED%86%A0%EC%97%90-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="중국, Nexperia 칩 수출 면제 검토에 자동차 주식 상승" />
-    <published>2025-11-03T20:25:11+09:00</published>
-  
-    <updated>2025-11-03T20:25:11+09:00</updated>
-  
-    <id>/posts/%EC%A4%91%EA%B5%AD-nexperia-%EC%B9%A9-%EC%88%98%EC%B6%9C-%EB%A9%B4%EC%A0%9C-%EA%B2%80%ED%86%A0%EC%97%90-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9/</id>
-    <content type="text/html" src="/posts/%EC%A4%91%EA%B5%AD-nexperia-%EC%B9%A9-%EC%88%98%EC%B6%9C-%EB%A9%B4%EC%A0%9C-%EA%B2%80%ED%86%A0%EC%97%90-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>중국, Nexperia 칩 수출 면제 검토에 자동차 주식 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
