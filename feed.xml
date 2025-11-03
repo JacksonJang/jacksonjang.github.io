@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-03T13:39:41+09:00</updated>
+  <updated>2025-11-03T13:48:04+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>중국 PMI 부진 속 아시아 시장 혼조세</title>
+    <link href="/posts/%EC%A4%91%EA%B5%AD-pmi-%EB%B6%80%EC%A7%84-%EC%86%8D-%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8/" rel="alternate" type="text/html" title="중국 PMI 부진 속 아시아 시장 혼조세" />
+    <published>2025-11-03T13:47:35+09:00</published>
+  
+    <updated>2025-11-03T13:47:35+09:00</updated>
+  
+    <id>/posts/%EC%A4%91%EA%B5%AD-pmi-%EB%B6%80%EC%A7%84-%EC%86%8D-%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8/</id>
+    <content type="text/html" src="/posts/%EC%A4%91%EA%B5%AD-pmi-%EB%B6%80%EC%A7%84-%EC%86%8D-%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>중국 PMI 부진 속 아시아 시장 혼조세 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>중국 PMI 실망 속 아시아 시장 혼조세 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 주식 선물 상승, 11월 랠리 예고</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%8B%9D-%EC%84%A0%EB%AC%BC-%EC%83%81%EC%8A%B9-11%EC%9B%94-%EB%9E%A0%EB%A6%AC-%EC%98%88%EA%B3%A0/" rel="alternate" type="text/html" title="미국 주식 선물 상승, 11월 랠리 예고" />
-    <published>2025-11-03T08:35:45+09:00</published>
-  
-    <updated>2025-11-03T08:35:45+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%8B%9D-%EC%84%A0%EB%AC%BC-%EC%83%81%EC%8A%B9-11%EC%9B%94-%EB%9E%A0%EB%A6%AC-%EC%98%88%EA%B3%A0/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%8B%9D-%EC%84%A0%EB%AC%BC-%EC%83%81%EC%8A%B9-11%EC%9B%94-%EB%9E%A0%EB%A6%AC-%EC%98%88%EA%B3%A0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 주식 선물 상승, 11월 랠리 예고 · 경제 뉴스 요약</summary>
 
   </entry>
 
