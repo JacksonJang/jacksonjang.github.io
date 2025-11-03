@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-03T22:50:31+09:00</updated>
+  <updated>2025-11-03T22:57:13+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Kimberly-Clark, 켄뷰 인수로 소비재 대형사 탄생</title>
+    <link href="/posts/kimberly-clark-%EC%BC%84%EB%B7%B0-%EC%9D%B8%EC%88%98%EB%A1%9C-%EC%86%8C%EB%B9%84%EC%9E%AC-%EB%8C%80%ED%98%95%EC%82%AC-%ED%83%84%EC%83%9D/" rel="alternate" type="text/html" title="Kimberly-Clark, 켄뷰 인수로 소비재 대형사 탄생" />
+    <published>2025-11-03T22:56:39+09:00</published>
+  
+    <updated>2025-11-03T22:56:39+09:00</updated>
+  
+    <id>/posts/kimberly-clark-%EC%BC%84%EB%B7%B0-%EC%9D%B8%EC%88%98%EB%A1%9C-%EC%86%8C%EB%B9%84%EC%9E%AC-%EB%8C%80%ED%98%95%EC%82%AC-%ED%83%84%EC%83%9D/</id>
+    <content type="text/html" src="/posts/kimberly-clark-%EC%BC%84%EB%B7%B0-%EC%9D%B8%EC%88%98%EB%A1%9C-%EC%86%8C%EB%B9%84%EC%9E%AC-%EB%8C%80%ED%98%95%EC%82%AC-%ED%83%84%EC%83%9D/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Kimberly-Clark, 켄뷰 인수로 소비재 대형사 탄생 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>주식 상승, 하지만 두 가지 위험 주의 필요 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Ryanair CEO, 영국 여행세 인상 비판</title>
-    <link href="/posts/ryanair-ceo-%EC%98%81%EA%B5%AD-%EC%97%AC%ED%96%89%EC%84%B8-%EC%9D%B8%EC%83%81-%EB%B9%84%ED%8C%90/" rel="alternate" type="text/html" title="Ryanair CEO, 영국 여행세 인상 비판" />
-    <published>2025-11-03T20:33:27+09:00</published>
-  
-    <updated>2025-11-03T20:33:27+09:00</updated>
-  
-    <id>/posts/ryanair-ceo-%EC%98%81%EA%B5%AD-%EC%97%AC%ED%96%89%EC%84%B8-%EC%9D%B8%EC%83%81-%EB%B9%84%ED%8C%90/</id>
-    <content type="text/html" src="/posts/ryanair-ceo-%EC%98%81%EA%B5%AD-%EC%97%AC%ED%96%89%EC%84%B8-%EC%9D%B8%EC%83%81-%EB%B9%84%ED%8C%90/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Ryanair CEO, 영국 여행세 인상 비판 · 경제 뉴스 요약</summary>
 
   </entry>
 
