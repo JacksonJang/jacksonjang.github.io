@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T14:52:18+09:00</updated>
+  <updated>2025-11-04T15:17:37+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AI 투자 과열 논란, HSBC 등 경고</title>
+    <link href="/posts/ai-%ED%88%AC%EC%9E%90-%EA%B3%BC%EC%97%B4-%EB%85%BC%EB%9E%80-hsbc-%EB%93%B1-%EA%B2%BD%EA%B3%A0/" rel="alternate" type="text/html" title="AI 투자 과열 논란, HSBC 등 경고" />
+    <published>2025-11-04T15:17:05+09:00</published>
+  
+    <updated>2025-11-04T15:17:05+09:00</updated>
+  
+    <id>/posts/ai-%ED%88%AC%EC%9E%90-%EA%B3%BC%EC%97%B4-%EB%85%BC%EB%9E%80-hsbc-%EB%93%B1-%EA%B2%BD%EA%B3%A0/</id>
+    <content type="text/html" src="/posts/ai-%ED%88%AC%EC%9E%90-%EA%B3%BC%EC%97%B4-%EB%85%BC%EB%9E%80-hsbc-%EB%93%B1-%EA%B2%BD%EA%B3%A0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>AI 투자 과열 논란, HSBC 등 경고 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>은퇴자에게 최고 도시, 중서부 지역 선정 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Jim Cramer, 'Magnificent 7 성장에 집중 필요</title>
-    <link href="/posts/jim-cramer-magnificent-7-%EC%84%B1%EC%9E%A5%EC%97%90-%EC%A7%91%EC%A4%91-%ED%95%84%EC%9A%94/" rel="alternate" type="text/html" title="Jim Cramer, &amp;apos;Magnificent 7 성장에 집중 필요" />
-    <published>2025-11-04T13:54:48+09:00</published>
-  
-    <updated>2025-11-04T13:54:48+09:00</updated>
-  
-    <id>/posts/jim-cramer-magnificent-7-%EC%84%B1%EC%9E%A5%EC%97%90-%EC%A7%91%EC%A4%91-%ED%95%84%EC%9A%94/</id>
-    <content type="text/html" src="/posts/jim-cramer-magnificent-7-%EC%84%B1%EC%9E%A5%EC%97%90-%EC%A7%91%EC%A4%91-%ED%95%84%EC%9A%94/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Jim Cramer, &amp;#39;Magnificent 7 성장에 집중 필요 · 경제 뉴스 요약</summary>
 
   </entry>
 
