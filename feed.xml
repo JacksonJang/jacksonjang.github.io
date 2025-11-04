@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T00:55:52+09:00</updated>
+  <updated>2025-11-05T01:15:09+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Scale AI, Meta 이후 도전에도 성장 지속</title>
+    <link href="/posts/scale-ai-meta-%EC%9D%B4%ED%9B%84-%EB%8F%84%EC%A0%84%EC%97%90%EB%8F%84-%EC%84%B1%EC%9E%A5-%EC%A7%80%EC%86%8D/" rel="alternate" type="text/html" title="Scale AI, Meta 이후 도전에도 성장 지속" />
+    <published>2025-11-05T01:14:26+09:00</published>
+  
+    <updated>2025-11-05T01:14:26+09:00</updated>
+  
+    <id>/posts/scale-ai-meta-%EC%9D%B4%ED%9B%84-%EB%8F%84%EC%A0%84%EC%97%90%EB%8F%84-%EC%84%B1%EC%9E%A5-%EC%A7%80%EC%86%8D/</id>
+    <content type="text/html" src="/posts/scale-ai-meta-%EC%9D%B4%ED%9B%84-%EB%8F%84%EC%A0%84%EC%97%90%EB%8F%84-%EC%84%B1%EC%9E%A5-%EC%A7%80%EC%86%8D/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Scale AI, Meta 이후 도전에도 성장 지속 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>비트코인, AI 우려로 11월 매도세 악화 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Palantir와 Nvidia에 대한 논란</title>
-    <link href="/posts/palantir%EC%99%80-nvidia%EC%97%90-%EB%8C%80%ED%95%9C-%EB%85%BC%EB%9E%80/" rel="alternate" type="text/html" title="Palantir와 Nvidia에 대한 논란" />
-    <published>2025-11-04T23:37:36+09:00</published>
-  
-    <updated>2025-11-04T23:37:36+09:00</updated>
-  
-    <id>/posts/palantir%EC%99%80-nvidia%EC%97%90-%EB%8C%80%ED%95%9C-%EB%85%BC%EB%9E%80/</id>
-    <content type="text/html" src="/posts/palantir%EC%99%80-nvidia%EC%97%90-%EB%8C%80%ED%95%9C-%EB%85%BC%EB%9E%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Palantir와 Nvidia에 대한 논란 · 경제 뉴스 요약</summary>
 
   </entry>
 
