@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T20:46:54+09:00</updated>
+  <updated>2025-11-04T20:53:29+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Yum Brands의 피자헛 전략 검토, 매각 가능성</title>
+    <link href="/posts/yum-brands%EC%9D%98-%ED%94%BC%EC%9E%90%ED%97%9B-%EC%A0%84%EB%9E%B5-%EA%B2%80%ED%86%A0-%EB%A7%A4%EA%B0%81-%EA%B0%80%EB%8A%A5%EC%84%B1/" rel="alternate" type="text/html" title="Yum Brands의 피자헛 전략 검토, 매각 가능성" />
+    <published>2025-11-04T20:52:54+09:00</published>
+  
+    <updated>2025-11-04T20:52:54+09:00</updated>
+  
+    <id>/posts/yum-brands%EC%9D%98-%ED%94%BC%EC%9E%90%ED%97%9B-%EC%A0%84%EB%9E%B5-%EA%B2%80%ED%86%A0-%EB%A7%A4%EA%B0%81-%EA%B0%80%EB%8A%A5%EC%84%B1/</id>
+    <content type="text/html" src="/posts/yum-brands%EC%9D%98-%ED%94%BC%EC%9E%90%ED%97%9B-%EC%A0%84%EB%9E%B5-%EA%B2%80%ED%86%A0-%EB%A7%A4%EA%B0%81-%EA%B0%80%EB%8A%A5%EC%84%B1/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Yum Brands의 피자헛 전략 검토, 매각 가능성 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>S&amp;amp;P 500 투자 적기인가 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Beyond Meat CEO의 적당한 부동산 포트폴리오</title>
-    <link href="/posts/beyond-meat-ceo%EC%9D%98-%EC%A0%81%EB%8B%B9%ED%95%9C-%EB%B6%80%EB%8F%99%EC%82%B0-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/" rel="alternate" type="text/html" title="Beyond Meat CEO의 적당한 부동산 포트폴리오" />
-    <published>2025-11-04T19:15:29+09:00</published>
-  
-    <updated>2025-11-04T19:15:29+09:00</updated>
-  
-    <id>/posts/beyond-meat-ceo%EC%9D%98-%EC%A0%81%EB%8B%B9%ED%95%9C-%EB%B6%80%EB%8F%99%EC%82%B0-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/</id>
-    <content type="text/html" src="/posts/beyond-meat-ceo%EC%9D%98-%EC%A0%81%EB%8B%B9%ED%95%9C-%EB%B6%80%EB%8F%99%EC%82%B0-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Beyond Meat CEO의 적당한 부동산 포트폴리오 · 경제 뉴스 요약</summary>
 
   </entry>
 
