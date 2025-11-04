@@ -136,9 +136,9 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: false # Disable the PWA feature to avoid caching
   cache:
-    enabled: true # The option for PWA offline cache
+    enabled: false # Disable the offline cache to ensure fresh content
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
@@ -223,4 +223,4 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 livereload: true
-incremental: true
+incremental: false # Disable incremental build cache so new Markdown files appear immediately
