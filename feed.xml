@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T05:54:56+09:00</updated>
+  <updated>2025-11-05T06:10:58+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Pinterest 주가 하락, 실적 미스와 약한 전망</title>
+    <link href="/posts/pinterest-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-%EC%8B%A4%EC%A0%81-%EB%AF%B8%EC%8A%A4%EC%99%80-%EC%95%BD%ED%95%9C-%EC%A0%84%EB%A7%9D/" rel="alternate" type="text/html" title="Pinterest 주가 하락, 실적 미스와 약한 전망" />
+    <published>2025-11-05T06:10:21+09:00</published>
+  
+    <updated>2025-11-05T06:10:21+09:00</updated>
+  
+    <id>/posts/pinterest-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-%EC%8B%A4%EC%A0%81-%EB%AF%B8%EC%8A%A4%EC%99%80-%EC%95%BD%ED%95%9C-%EC%A0%84%EB%A7%9D/</id>
+    <content type="text/html" src="/posts/pinterest-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-%EC%8B%A4%EC%A0%81-%EB%AF%B8%EC%8A%A4%EC%99%80-%EC%95%BD%ED%95%9C-%EC%A0%84%EB%A7%9D/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Pinterest 주가 하락, 실적 미스와 약한 전망 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>화이자, 비만 치료제 시장 복귀 난항 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>은퇴자들에게 투자 손실의 교훈</title>
-    <link href="/posts/%EC%9D%80%ED%87%B4%EC%9E%90%EB%93%A4%EC%97%90%EA%B2%8C-%ED%88%AC%EC%9E%90-%EC%86%90%EC%8B%A4%EC%9D%98-%EA%B5%90%ED%9B%88/" rel="alternate" type="text/html" title="은퇴자들에게 투자 손실의 교훈" />
-    <published>2025-11-05T03:15:45+09:00</published>
-  
-    <updated>2025-11-05T03:15:45+09:00</updated>
-  
-    <id>/posts/%EC%9D%80%ED%87%B4%EC%9E%90%EB%93%A4%EC%97%90%EA%B2%8C-%ED%88%AC%EC%9E%90-%EC%86%90%EC%8B%A4%EC%9D%98-%EA%B5%90%ED%9B%88/</id>
-    <content type="text/html" src="/posts/%EC%9D%80%ED%87%B4%EC%9E%90%EB%93%A4%EC%97%90%EA%B2%8C-%ED%88%AC%EC%9E%90-%EC%86%90%EC%8B%A4%EC%9D%98-%EA%B5%90%ED%9B%88/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>은퇴자들에게 투자 손실의 교훈 · 경제 뉴스 요약</summary>
 
   </entry>
 
