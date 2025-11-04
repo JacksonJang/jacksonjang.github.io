@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T14:34:49+09:00</updated>
+  <updated>2025-11-04T14:46:05+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>비욘드 미트 주가 16% 하락, 재무보고 지연</title>
+    <link href="/posts/%EB%B9%84%EC%9A%98%EB%93%9C-%EB%AF%B8%ED%8A%B8-%EC%A3%BC%EA%B0%80-16-%ED%95%98%EB%9D%BD-%EC%9E%AC%EB%AC%B4%EB%B3%B4%EA%B3%A0-%EC%A7%80%EC%97%B0/" rel="alternate" type="text/html" title="비욘드 미트 주가 16% 하락, 재무보고 지연" />
+    <published>2025-11-04T14:45:36+09:00</published>
+  
+    <updated>2025-11-04T14:45:36+09:00</updated>
+  
+    <id>/posts/%EB%B9%84%EC%9A%98%EB%93%9C-%EB%AF%B8%ED%8A%B8-%EC%A3%BC%EA%B0%80-16-%ED%95%98%EB%9D%BD-%EC%9E%AC%EB%AC%B4%EB%B3%B4%EA%B3%A0-%EC%A7%80%EC%97%B0/</id>
+    <content type="text/html" src="/posts/%EB%B9%84%EC%9A%98%EB%93%9C-%EB%AF%B8%ED%8A%B8-%EC%A3%BC%EA%B0%80-16-%ED%95%98%EB%9D%BD-%EC%9E%AC%EB%AC%B4%EB%B3%B4%EA%B3%A0-%EC%A7%80%EC%97%B0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>비욘드 미트 주가 16% 하락, 재무보고 지연 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>트럼프와 머스크, 뉴욕 시장 선거 발언 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>CEO 교체가 주식 매도 신호일 수 있는 이유</title>
-    <link href="/posts/ceo-%EA%B5%90%EC%B2%B4%EA%B0%80-%EC%A3%BC%EC%8B%9D-%EB%A7%A4%EB%8F%84-%EC%8B%A0%ED%98%B8%EC%9D%BC-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%9D%B4%EC%9C%A0/" rel="alternate" type="text/html" title="CEO 교체가 주식 매도 신호일 수 있는 이유" />
-    <published>2025-11-04T13:36:21+09:00</published>
-  
-    <updated>2025-11-04T13:36:21+09:00</updated>
-  
-    <id>/posts/ceo-%EA%B5%90%EC%B2%B4%EA%B0%80-%EC%A3%BC%EC%8B%9D-%EB%A7%A4%EB%8F%84-%EC%8B%A0%ED%98%B8%EC%9D%BC-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%9D%B4%EC%9C%A0/</id>
-    <content type="text/html" src="/posts/ceo-%EA%B5%90%EC%B2%B4%EA%B0%80-%EC%A3%BC%EC%8B%9D-%EB%A7%A4%EB%8F%84-%EC%8B%A0%ED%98%B8%EC%9D%BC-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%9D%B4%EC%9C%A0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>CEO 교체가 주식 매도 신호일 수 있는 이유 · 경제 뉴스 요약</summary>
 
   </entry>
 
