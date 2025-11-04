@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T00:35:58+09:00</updated>
+  <updated>2025-11-05T00:48:06+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>트럼프 행정부, SNAP 지원금 지불 요구받다</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%96%89%EC%A0%95%EB%B6%80-snap-%EC%A7%80%EC%9B%90%EA%B8%88-%EC%A7%80%EB%B6%88-%EC%9A%94%EA%B5%AC%EB%B0%9B%EB%8B%A4/" rel="alternate" type="text/html" title="트럼프 행정부, SNAP 지원금 지불 요구받다" />
+    <published>2025-11-05T00:47:26+09:00</published>
+  
+    <updated>2025-11-05T00:47:26+09:00</updated>
+  
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%96%89%EC%A0%95%EB%B6%80-snap-%EC%A7%80%EC%9B%90%EA%B8%88-%EC%A7%80%EB%B6%88-%EC%9A%94%EA%B5%AC%EB%B0%9B%EB%8B%A4/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%96%89%EC%A0%95%EB%B6%80-snap-%EC%A7%80%EC%9B%90%EA%B8%88-%EC%A7%80%EB%B6%88-%EC%9A%94%EA%B5%AC%EB%B0%9B%EB%8B%A4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>트럼프 행정부, SNAP 지원금 지불 요구받다 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Palantir의 획기적 분기 실적, 월가 반응은? · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 은퇴 위기, TIAA의 경고</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%9D%80%ED%87%B4-%EC%9C%84%EA%B8%B0-tiaa%EC%9D%98-%EA%B2%BD%EA%B3%A0/" rel="alternate" type="text/html" title="미국 은퇴 위기, TIAA의 경고" />
-    <published>2025-11-04T22:42:22+09:00</published>
-  
-    <updated>2025-11-04T22:42:22+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%9D%80%ED%87%B4-%EC%9C%84%EA%B8%B0-tiaa%EC%9D%98-%EA%B2%BD%EA%B3%A0/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%9D%80%ED%87%B4-%EC%9C%84%EA%B8%B0-tiaa%EC%9D%98-%EA%B2%BD%EA%B3%A0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 은퇴 위기, TIAA의 경고 · 경제 뉴스 요약</summary>
 
   </entry>
 
