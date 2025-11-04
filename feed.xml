@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T04:25:01+09:00</updated>
+  <updated>2025-11-05T04:33:30+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>미 달러화 반등, 금리 인하가 촉매</title>
+    <link href="/posts/%EB%AF%B8-%EB%8B%AC%EB%9F%AC%ED%99%94-%EB%B0%98%EB%93%B1-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EA%B0%80-%EC%B4%89%EB%A7%A4/" rel="alternate" type="text/html" title="미 달러화 반등, 금리 인하가 촉매" />
+    <published>2025-11-05T04:32:57+09:00</published>
+  
+    <updated>2025-11-05T04:32:57+09:00</updated>
+  
+    <id>/posts/%EB%AF%B8-%EB%8B%AC%EB%9F%AC%ED%99%94-%EB%B0%98%EB%93%B1-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EA%B0%80-%EC%B4%89%EB%A7%A4/</id>
+    <content type="text/html" src="/posts/%EB%AF%B8-%EB%8B%AC%EB%9F%AC%ED%99%94-%EB%B0%98%EB%93%B1-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EA%B0%80-%EC%B4%89%EB%A7%A4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>미 달러화 반등, 금리 인하가 촉매 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>AI와 경제 변화 속 대규모 해고 사태 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>AI 기술 혁신, 스마트 자금의 방향성</title>
-    <link href="/posts/ai-%EA%B8%B0%EC%88%A0-%ED%98%81%EC%8B%A0-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%9E%90%EA%B8%88%EC%9D%98-%EB%B0%A9%ED%96%A5%EC%84%B1/" rel="alternate" type="text/html" title="AI 기술 혁신, 스마트 자금의 방향성" />
-    <published>2025-11-05T02:08:52+09:00</published>
-  
-    <updated>2025-11-05T02:08:52+09:00</updated>
-  
-    <id>/posts/ai-%EA%B8%B0%EC%88%A0-%ED%98%81%EC%8B%A0-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%9E%90%EA%B8%88%EC%9D%98-%EB%B0%A9%ED%96%A5%EC%84%B1/</id>
-    <content type="text/html" src="/posts/ai-%EA%B8%B0%EC%88%A0-%ED%98%81%EC%8B%A0-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%9E%90%EA%B8%88%EC%9D%98-%EB%B0%A9%ED%96%A5%EC%84%B1/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>AI 기술 혁신, 스마트 자금의 방향성 · 경제 뉴스 요약</summary>
 
   </entry>
 
