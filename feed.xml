@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T05:35:21+09:00</updated>
+  <updated>2025-11-05T05:47:36+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>비트코인, 10만 달러 아래로 하락</title>
+    <link href="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-10%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EC%95%84%EB%9E%98%EB%A1%9C-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="비트코인, 10만 달러 아래로 하락" />
+    <published>2025-11-05T05:47:03+09:00</published>
+  
+    <updated>2025-11-05T05:47:03+09:00</updated>
+  
+    <id>/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-10%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EC%95%84%EB%9E%98%EB%A1%9C-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-10%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EC%95%84%EB%9E%98%EB%A1%9C-%ED%95%98%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>비트코인, 10만 달러 아래로 하락 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>은퇴자들에게 투자 손실의 교훈 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>상업용 부동산, 이색적 섹터의 부상</title>
-    <link href="/posts/%EC%83%81%EC%97%85%EC%9A%A9-%EB%B6%80%EB%8F%99%EC%82%B0-%EC%9D%B4%EC%83%89%EC%A0%81-%EC%84%B9%ED%84%B0%EC%9D%98-%EB%B6%80%EC%83%81/" rel="alternate" type="text/html" title="상업용 부동산, 이색적 섹터의 부상" />
-    <published>2025-11-05T02:39:46+09:00</published>
-  
-    <updated>2025-11-05T02:39:46+09:00</updated>
-  
-    <id>/posts/%EC%83%81%EC%97%85%EC%9A%A9-%EB%B6%80%EB%8F%99%EC%82%B0-%EC%9D%B4%EC%83%89%EC%A0%81-%EC%84%B9%ED%84%B0%EC%9D%98-%EB%B6%80%EC%83%81/</id>
-    <content type="text/html" src="/posts/%EC%83%81%EC%97%85%EC%9A%A9-%EB%B6%80%EB%8F%99%EC%82%B0-%EC%9D%B4%EC%83%89%EC%A0%81-%EC%84%B9%ED%84%B0%EC%9D%98-%EB%B6%80%EC%83%81/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>상업용 부동산, 이색적 섹터의 부상 · 경제 뉴스 요약</summary>
 
   </entry>
 
