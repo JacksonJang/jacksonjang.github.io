@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T19:55:40+09:00</updated>
+  <updated>2025-11-04T20:10:57+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>생계비 부담, 오늘 투표의 주요 쟁점으로</title>
+    <link href="/posts/%EC%83%9D%EA%B3%84%EB%B9%84-%EB%B6%80%EB%8B%B4-%EC%98%A4%EB%8A%98-%ED%88%AC%ED%91%9C%EC%9D%98-%EC%A3%BC%EC%9A%94-%EC%9F%81%EC%A0%90%EC%9C%BC%EB%A1%9C/" rel="alternate" type="text/html" title="생계비 부담, 오늘 투표의 주요 쟁점으로" />
+    <published>2025-11-04T20:10:09+09:00</published>
+  
+    <updated>2025-11-04T20:10:09+09:00</updated>
+  
+    <id>/posts/%EC%83%9D%EA%B3%84%EB%B9%84-%EB%B6%80%EB%8B%B4-%EC%98%A4%EB%8A%98-%ED%88%AC%ED%91%9C%EC%9D%98-%EC%A3%BC%EC%9A%94-%EC%9F%81%EC%A0%90%EC%9C%BC%EB%A1%9C/</id>
+    <content type="text/html" src="/posts/%EC%83%9D%EA%B3%84%EB%B9%84-%EB%B6%80%EB%8B%B4-%EC%98%A4%EB%8A%98-%ED%88%AC%ED%91%9C%EC%9D%98-%EC%A3%BC%EC%9A%94-%EC%9F%81%EC%A0%90%EC%9C%BC%EB%A1%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>생계비 부담, 오늘 투표의 주요 쟁점으로 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>노르웨이 국부펀드, 머스크의 파격 보수 거부 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>나스닥 선물 하락, 기술주 과열 우려</title>
-    <link href="/posts/%EB%82%98%EC%8A%A4%EB%8B%A5-%EC%84%A0%EB%AC%BC-%ED%95%98%EB%9D%BD-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EA%B3%BC%EC%97%B4-%EC%9A%B0%EB%A0%A4/" rel="alternate" type="text/html" title="나스닥 선물 하락, 기술주 과열 우려" />
-    <published>2025-11-04T18:39:12+09:00</published>
-  
-    <updated>2025-11-04T18:39:12+09:00</updated>
-  
-    <id>/posts/%EB%82%98%EC%8A%A4%EB%8B%A5-%EC%84%A0%EB%AC%BC-%ED%95%98%EB%9D%BD-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EA%B3%BC%EC%97%B4-%EC%9A%B0%EB%A0%A4/</id>
-    <content type="text/html" src="/posts/%EB%82%98%EC%8A%A4%EB%8B%A5-%EC%84%A0%EB%AC%BC-%ED%95%98%EB%9D%BD-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EA%B3%BC%EC%97%B4-%EC%9A%B0%EB%A0%A4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>나스닥 선물 하락, 기술주 과열 우려 · 경제 뉴스 요약</summary>
 
   </entry>
 
