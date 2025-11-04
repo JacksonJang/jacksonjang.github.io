@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T08:37:56+09:00</updated>
+  <updated>2025-11-05T08:44:43+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>UPS 항공기 루이빌 공항 사고 발생</title>
+    <link href="/posts/ups-%ED%95%AD%EA%B3%B5%EA%B8%B0-%EB%A3%A8%EC%9D%B4%EB%B9%8C-%EA%B3%B5%ED%95%AD-%EC%82%AC%EA%B3%A0-%EB%B0%9C%EC%83%9D/" rel="alternate" type="text/html" title="UPS 항공기 루이빌 공항 사고 발생" />
+    <published>2025-11-05T08:44:12+09:00</published>
+  
+    <updated>2025-11-05T08:44:12+09:00</updated>
+  
+    <id>/posts/ups-%ED%95%AD%EA%B3%B5%EA%B8%B0-%EB%A3%A8%EC%9D%B4%EB%B9%8C-%EA%B3%B5%ED%95%AD-%EC%82%AC%EA%B3%A0-%EB%B0%9C%EC%83%9D/</id>
+    <content type="text/html" src="/posts/ups-%ED%95%AD%EA%B3%B5%EA%B8%B0-%EB%A3%A8%EC%9D%B4%EB%B9%8C-%EA%B3%B5%ED%95%AD-%EC%82%AC%EA%B3%A0-%EB%B0%9C%EC%83%9D/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>UPS 항공기 루이빌 공항 사고 발생 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Rivian, 3분기 월가 기대치 상회 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Super Micro 주가 하락의 이면</title>
-    <link href="/posts/super-micro-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD%EC%9D%98-%EC%9D%B4%EB%A9%B4/" rel="alternate" type="text/html" title="Super Micro 주가 하락의 이면" />
-    <published>2025-11-05T06:51:51+09:00</published>
-  
-    <updated>2025-11-05T06:51:51+09:00</updated>
-  
-    <id>/posts/super-micro-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD%EC%9D%98-%EC%9D%B4%EB%A9%B4/</id>
-    <content type="text/html" src="/posts/super-micro-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD%EC%9D%98-%EC%9D%B4%EB%A9%B4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Super Micro 주가 하락의 이면 · 경제 뉴스 요약</summary>
 
   </entry>
 
