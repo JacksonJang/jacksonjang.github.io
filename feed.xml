@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T07:46:04+09:00</updated>
+  <updated>2025-11-05T07:53:05+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>미 증시, AI 불안 외 다양한 이유로 하락</title>
+    <link href="/posts/%EB%AF%B8-%EC%A6%9D%EC%8B%9C-ai-%EB%B6%88%EC%95%88-%EC%99%B8-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%9D%B4%EC%9C%A0%EB%A1%9C-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="미 증시, AI 불안 외 다양한 이유로 하락" />
+    <published>2025-11-05T07:52:28+09:00</published>
+  
+    <updated>2025-11-05T07:52:28+09:00</updated>
+  
+    <id>/posts/%EB%AF%B8-%EC%A6%9D%EC%8B%9C-ai-%EB%B6%88%EC%95%88-%EC%99%B8-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%9D%B4%EC%9C%A0%EB%A1%9C-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/%EB%AF%B8-%EC%A6%9D%EC%8B%9C-ai-%EB%B6%88%EC%95%88-%EC%99%B8-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%9D%B4%EC%9C%A0%EB%A1%9C-%ED%95%98%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>미 증시, AI 불안 외 다양한 이유로 하락 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Pinterest 주가, 실적 미달로 급락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Pinterest 주가 하락, 실적 미스와 약한 전망</title>
-    <link href="/posts/pinterest-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-%EC%8B%A4%EC%A0%81-%EB%AF%B8%EC%8A%A4%EC%99%80-%EC%95%BD%ED%95%9C-%EC%A0%84%EB%A7%9D/" rel="alternate" type="text/html" title="Pinterest 주가 하락, 실적 미스와 약한 전망" />
-    <published>2025-11-05T06:10:21+09:00</published>
-  
-    <updated>2025-11-05T06:10:21+09:00</updated>
-  
-    <id>/posts/pinterest-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-%EC%8B%A4%EC%A0%81-%EB%AF%B8%EC%8A%A4%EC%99%80-%EC%95%BD%ED%95%9C-%EC%A0%84%EB%A7%9D/</id>
-    <content type="text/html" src="/posts/pinterest-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-%EC%8B%A4%EC%A0%81-%EB%AF%B8%EC%8A%A4%EC%99%80-%EC%95%BD%ED%95%9C-%EC%A0%84%EB%A7%9D/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Pinterest 주가 하락, 실적 미스와 약한 전망 · 경제 뉴스 요약</summary>
 
   </entry>
 
