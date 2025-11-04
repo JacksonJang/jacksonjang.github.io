@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T18:39:49+09:00</updated>
+  <updated>2025-11-04T18:50:29+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>노르웨이 국부펀드, 머스크의 파격 보수 거부</title>
+    <link href="/posts/%EB%85%B8%EB%A5%B4%EC%9B%A8%EC%9D%B4-%EA%B5%AD%EB%B6%80%ED%8E%80%EB%93%9C-%EB%A8%B8%EC%8A%A4%ED%81%AC%EC%9D%98-%ED%8C%8C%EA%B2%A9-%EB%B3%B4%EC%88%98-%EA%B1%B0%EB%B6%80/" rel="alternate" type="text/html" title="노르웨이 국부펀드, 머스크의 파격 보수 거부" />
+    <published>2025-11-04T18:49:47+09:00</published>
+  
+    <updated>2025-11-04T18:49:47+09:00</updated>
+  
+    <id>/posts/%EB%85%B8%EB%A5%B4%EC%9B%A8%EC%9D%B4-%EA%B5%AD%EB%B6%80%ED%8E%80%EB%93%9C-%EB%A8%B8%EC%8A%A4%ED%81%AC%EC%9D%98-%ED%8C%8C%EA%B2%A9-%EB%B3%B4%EC%88%98-%EA%B1%B0%EB%B6%80/</id>
+    <content type="text/html" src="/posts/%EB%85%B8%EB%A5%B4%EC%9B%A8%EC%9D%B4-%EA%B5%AD%EB%B6%80%ED%8E%80%EB%93%9C-%EB%A8%B8%EC%8A%A4%ED%81%AC%EC%9D%98-%ED%8C%8C%EA%B2%A9-%EB%B3%B4%EC%88%98-%EA%B1%B0%EB%B6%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>노르웨이 국부펀드, 머스크의 파격 보수 거부 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Goldman과 Morgan, 시장 조정 경고 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>닌텐도, 스위치 2 판매 목표 1900만 대로 상향</title>
-    <link href="/posts/%EB%8B%8C%ED%85%90%EB%8F%84-%EC%8A%A4%EC%9C%84%EC%B9%98-2-%ED%8C%90%EB%A7%A4-%EB%AA%A9%ED%91%9C-1900%EB%A7%8C-%EB%8C%80%EB%A1%9C-%EC%83%81%ED%96%A5/" rel="alternate" type="text/html" title="닌텐도, 스위치 2 판매 목표 1900만 대로 상향" />
-    <published>2025-11-04T16:52:14+09:00</published>
-  
-    <updated>2025-11-04T16:52:14+09:00</updated>
-  
-    <id>/posts/%EB%8B%8C%ED%85%90%EB%8F%84-%EC%8A%A4%EC%9C%84%EC%B9%98-2-%ED%8C%90%EB%A7%A4-%EB%AA%A9%ED%91%9C-1900%EB%A7%8C-%EB%8C%80%EB%A1%9C-%EC%83%81%ED%96%A5/</id>
-    <content type="text/html" src="/posts/%EB%8B%8C%ED%85%90%EB%8F%84-%EC%8A%A4%EC%9C%84%EC%B9%98-2-%ED%8C%90%EB%A7%A4-%EB%AA%A9%ED%91%9C-1900%EB%A7%8C-%EB%8C%80%EB%A1%9C-%EC%83%81%ED%96%A5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>닌텐도, 스위치 2 판매 목표 1900만 대로 상향 · 경제 뉴스 요약</summary>
 
   </entry>
 
