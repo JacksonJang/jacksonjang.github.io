@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T02:54:33+09:00</updated>
+  <updated>2025-11-05T03:16:27+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>은퇴자들에게 투자 손실의 교훈</title>
+    <link href="/posts/%EC%9D%80%ED%87%B4%EC%9E%90%EB%93%A4%EC%97%90%EA%B2%8C-%ED%88%AC%EC%9E%90-%EC%86%90%EC%8B%A4%EC%9D%98-%EA%B5%90%ED%9B%88/" rel="alternate" type="text/html" title="은퇴자들에게 투자 손실의 교훈" />
+    <published>2025-11-05T03:15:45+09:00</published>
+  
+    <updated>2025-11-05T03:15:45+09:00</updated>
+  
+    <id>/posts/%EC%9D%80%ED%87%B4%EC%9E%90%EB%93%A4%EC%97%90%EA%B2%8C-%ED%88%AC%EC%9E%90-%EC%86%90%EC%8B%A4%EC%9D%98-%EA%B5%90%ED%9B%88/</id>
+    <content type="text/html" src="/posts/%EC%9D%80%ED%87%B4%EC%9E%90%EB%93%A4%EC%97%90%EA%B2%8C-%ED%88%AC%EC%9E%90-%EC%86%90%EC%8B%A4%EC%9D%98-%EA%B5%90%ED%9B%88/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>은퇴자들에게 투자 손실의 교훈 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Uber, 수익 경신에도 불구하고 8% 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 대법원 관세 판결 대처 방안 검토</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EB%8C%80%EB%B2%95%EC%9B%90-%EA%B4%80%EC%84%B8-%ED%8C%90%EA%B2%B0-%EB%8C%80%EC%B2%98-%EB%B0%A9%EC%95%88-%EA%B2%80%ED%86%A0/" rel="alternate" type="text/html" title="미국 대법원 관세 판결 대처 방안 검토" />
-    <published>2025-11-05T01:40:11+09:00</published>
-  
-    <updated>2025-11-05T01:40:11+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EB%8C%80%EB%B2%95%EC%9B%90-%EA%B4%80%EC%84%B8-%ED%8C%90%EA%B2%B0-%EB%8C%80%EC%B2%98-%EB%B0%A9%EC%95%88-%EA%B2%80%ED%86%A0/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EB%8C%80%EB%B2%95%EC%9B%90-%EA%B4%80%EC%84%B8-%ED%8C%90%EA%B2%B0-%EB%8C%80%EC%B2%98-%EB%B0%A9%EC%95%88-%EA%B2%80%ED%86%A0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 대법원 관세 판결 대처 방안 검토 · 경제 뉴스 요약</summary>
 
   </entry>
 
