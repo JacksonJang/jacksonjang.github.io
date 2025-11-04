@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T13:55:19+09:00</updated>
+  <updated>2025-11-04T14:12:21+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>은퇴자에게 최고 도시, 중서부 지역 선정</title>
+    <link href="/posts/%EC%9D%80%ED%87%B4%EC%9E%90%EC%97%90%EA%B2%8C-%EC%B5%9C%EA%B3%A0-%EB%8F%84%EC%8B%9C-%EC%A4%91%EC%84%9C%EB%B6%80-%EC%A7%80%EC%97%AD-%EC%84%A0%EC%A0%95/" rel="alternate" type="text/html" title="은퇴자에게 최고 도시, 중서부 지역 선정" />
+    <published>2025-11-04T14:11:44+09:00</published>
+  
+    <updated>2025-11-04T14:11:44+09:00</updated>
+  
+    <id>/posts/%EC%9D%80%ED%87%B4%EC%9E%90%EC%97%90%EA%B2%8C-%EC%B5%9C%EA%B3%A0-%EB%8F%84%EC%8B%9C-%EC%A4%91%EC%84%9C%EB%B6%80-%EC%A7%80%EC%97%AD-%EC%84%A0%EC%A0%95/</id>
+    <content type="text/html" src="/posts/%EC%9D%80%ED%87%B4%EC%9E%90%EC%97%90%EA%B2%8C-%EC%B5%9C%EA%B3%A0-%EB%8F%84%EC%8B%9C-%EC%A4%91%EC%84%9C%EB%B6%80-%EC%A7%80%EC%97%AD-%EC%84%A0%EC%A0%95/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>은퇴자에게 최고 도시, 중서부 지역 선정 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>AI로 인한 기록에도 하락한 Palantir 주가 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Sarepta 주가 하락, DMD 신약 임상결과 실망</title>
-    <link href="/posts/sarepta-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-dmd-%EC%8B%A0%EC%95%BD-%EC%9E%84%EC%83%81%EA%B2%B0%EA%B3%BC-%EC%8B%A4%EB%A7%9D/" rel="alternate" type="text/html" title="Sarepta 주가 하락, DMD 신약 임상결과 실망" />
-    <published>2025-11-04T12:29:02+09:00</published>
-  
-    <updated>2025-11-04T12:29:02+09:00</updated>
-  
-    <id>/posts/sarepta-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-dmd-%EC%8B%A0%EC%95%BD-%EC%9E%84%EC%83%81%EA%B2%B0%EA%B3%BC-%EC%8B%A4%EB%A7%9D/</id>
-    <content type="text/html" src="/posts/sarepta-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-dmd-%EC%8B%A0%EC%95%BD-%EC%9E%84%EC%83%81%EA%B2%B0%EA%B3%BC-%EC%8B%A4%EB%A7%9D/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Sarepta 주가 하락, DMD 신약 임상결과 실망 · 경제 뉴스 요약</summary>
 
   </entry>
 
