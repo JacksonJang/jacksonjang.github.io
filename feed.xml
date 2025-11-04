@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T00:48:06+09:00</updated>
+  <updated>2025-11-05T00:55:52+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>뉴저지 주지사 선거, 트럼프와 오바마의 영향</title>
+    <link href="/posts/%EB%89%B4%EC%A0%80%EC%A7%80-%EC%A3%BC%EC%A7%80%EC%82%AC-%EC%84%A0%EA%B1%B0-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EC%98%A4%EB%B0%94%EB%A7%88%EC%9D%98-%EC%98%81%ED%96%A5/" rel="alternate" type="text/html" title="뉴저지 주지사 선거, 트럼프와 오바마의 영향" />
+    <published>2025-11-05T00:55:14+09:00</published>
+  
+    <updated>2025-11-05T00:55:14+09:00</updated>
+  
+    <id>/posts/%EB%89%B4%EC%A0%80%EC%A7%80-%EC%A3%BC%EC%A7%80%EC%82%AC-%EC%84%A0%EA%B1%B0-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EC%98%A4%EB%B0%94%EB%A7%88%EC%9D%98-%EC%98%81%ED%96%A5/</id>
+    <content type="text/html" src="/posts/%EB%89%B4%EC%A0%80%EC%A7%80-%EC%A3%BC%EC%A7%80%EC%82%AC-%EC%84%A0%EA%B1%B0-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EC%98%A4%EB%B0%94%EB%A7%88%EC%9D%98-%EC%98%81%ED%96%A5/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>뉴저지 주지사 선거, 트럼프와 오바마의 영향 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Palantir와 Nvidia에 대한 논란 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Palantir의 획기적 분기 실적, 월가 반응은?</title>
-    <link href="/posts/palantir%EC%9D%98-%ED%9A%8D%EA%B8%B0%EC%A0%81-%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EC%9B%94%EA%B0%80-%EB%B0%98%EC%9D%91%EC%9D%80/" rel="alternate" type="text/html" title="Palantir의 획기적 분기 실적, 월가 반응은?" />
-    <published>2025-11-04T23:12:02+09:00</published>
-  
-    <updated>2025-11-04T23:12:02+09:00</updated>
-  
-    <id>/posts/palantir%EC%9D%98-%ED%9A%8D%EA%B8%B0%EC%A0%81-%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EC%9B%94%EA%B0%80-%EB%B0%98%EC%9D%91%EC%9D%80/</id>
-    <content type="text/html" src="/posts/palantir%EC%9D%98-%ED%9A%8D%EA%B8%B0%EC%A0%81-%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EC%9B%94%EA%B0%80-%EB%B0%98%EC%9D%91%EC%9D%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Palantir의 획기적 분기 실적, 월가 반응은? · 경제 뉴스 요약</summary>
 
   </entry>
 
