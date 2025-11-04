@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T22:56:07+09:00</updated>
+  <updated>2025-11-04T23:12:47+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Palantir의 획기적 분기 실적, 월가 반응은?</title>
+    <link href="/posts/palantir%EC%9D%98-%ED%9A%8D%EA%B8%B0%EC%A0%81-%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EC%9B%94%EA%B0%80-%EB%B0%98%EC%9D%91%EC%9D%80/" rel="alternate" type="text/html" title="Palantir의 획기적 분기 실적, 월가 반응은?" />
+    <published>2025-11-04T23:12:02+09:00</published>
+  
+    <updated>2025-11-04T23:12:02+09:00</updated>
+  
+    <id>/posts/palantir%EC%9D%98-%ED%9A%8D%EA%B8%B0%EC%A0%81-%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EC%9B%94%EA%B0%80-%EB%B0%98%EC%9D%91%EC%9D%80/</id>
+    <content type="text/html" src="/posts/palantir%EC%9D%98-%ED%9A%8D%EA%B8%B0%EC%A0%81-%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EC%9B%94%EA%B0%80-%EB%B0%98%EC%9D%91%EC%9D%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Palantir의 획기적 분기 실적, 월가 반응은? · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Yum Brands의 피자헛 전략 검토, 매각 가능성 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Ferrari, 3분기 실적 예상을 초과하다</title>
-    <link href="/posts/ferrari-3%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EC%98%88%EC%83%81%EC%9D%84-%EC%B4%88%EA%B3%BC%ED%95%98%EB%8B%A4/" rel="alternate" type="text/html" title="Ferrari, 3분기 실적 예상을 초과하다" />
-    <published>2025-11-04T20:46:10+09:00</published>
-  
-    <updated>2025-11-04T20:46:10+09:00</updated>
-  
-    <id>/posts/ferrari-3%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EC%98%88%EC%83%81%EC%9D%84-%EC%B4%88%EA%B3%BC%ED%95%98%EB%8B%A4/</id>
-    <content type="text/html" src="/posts/ferrari-3%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EC%98%88%EC%83%81%EC%9D%84-%EC%B4%88%EA%B3%BC%ED%95%98%EB%8B%A4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Ferrari, 3분기 실적 예상을 초과하다 · 경제 뉴스 요약</summary>
 
   </entry>
 
