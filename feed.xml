@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T06:28:22+09:00</updated>
+  <updated>2025-11-05T06:38:03+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Pinterest 주가, 실적 미달로 급락</title>
+    <link href="/posts/pinterest-%EC%A3%BC%EA%B0%80-%EC%8B%A4%EC%A0%81-%EB%AF%B8%EB%8B%AC%EB%A1%9C-%EA%B8%89%EB%9D%BD/" rel="alternate" type="text/html" title="Pinterest 주가, 실적 미달로 급락" />
+    <published>2025-11-05T06:37:16+09:00</published>
+  
+    <updated>2025-11-05T06:37:16+09:00</updated>
+  
+    <id>/posts/pinterest-%EC%A3%BC%EA%B0%80-%EC%8B%A4%EC%A0%81-%EB%AF%B8%EB%8B%AC%EB%A1%9C-%EA%B8%89%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/pinterest-%EC%A3%BC%EA%B0%80-%EC%8B%A4%EC%A0%81-%EB%AF%B8%EB%8B%AC%EB%A1%9C-%EA%B8%89%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Pinterest 주가, 실적 미달로 급락 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>미 달러화 반등, 금리 인하가 촉매 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>화이자, 비만 치료제 시장 복귀 난항</title>
-    <link href="/posts/%ED%99%94%EC%9D%B4%EC%9E%90-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%8B%9C%EC%9E%A5-%EB%B3%B5%EA%B7%80-%EB%82%9C%ED%95%AD/" rel="alternate" type="text/html" title="화이자, 비만 치료제 시장 복귀 난항" />
-    <published>2025-11-05T03:55:15+09:00</published>
-  
-    <updated>2025-11-05T03:55:15+09:00</updated>
-  
-    <id>/posts/%ED%99%94%EC%9D%B4%EC%9E%90-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%8B%9C%EC%9E%A5-%EB%B3%B5%EA%B7%80-%EB%82%9C%ED%95%AD/</id>
-    <content type="text/html" src="/posts/%ED%99%94%EC%9D%B4%EC%9E%90-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%8B%9C%EC%9E%A5-%EB%B3%B5%EA%B7%80-%EB%82%9C%ED%95%AD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>화이자, 비만 치료제 시장 복귀 난항 · 경제 뉴스 요약</summary>
 
   </entry>
 
