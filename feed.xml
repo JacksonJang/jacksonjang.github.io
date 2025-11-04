@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T07:10:15+09:00</updated>
+  <updated>2025-11-05T07:31:34+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>비만 치료제 메디케어 접근 가능성 논의 중</title>
+    <link href="/posts/%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EB%A9%94%EB%94%94%EC%BC%80%EC%96%B4-%EC%A0%91%EA%B7%BC-%EA%B0%80%EB%8A%A5%EC%84%B1-%EB%85%BC%EC%9D%98-%EC%A4%91/" rel="alternate" type="text/html" title="비만 치료제 메디케어 접근 가능성 논의 중" />
+    <published>2025-11-05T07:30:58+09:00</published>
+  
+    <updated>2025-11-05T07:30:58+09:00</updated>
+  
+    <id>/posts/%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EB%A9%94%EB%94%94%EC%BC%80%EC%96%B4-%EC%A0%91%EA%B7%BC-%EA%B0%80%EB%8A%A5%EC%84%B1-%EB%85%BC%EC%9D%98-%EC%A4%91/</id>
+    <content type="text/html" src="/posts/%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EB%A9%94%EB%94%94%EC%BC%80%EC%96%B4-%EC%A0%91%EA%B7%BC-%EA%B0%80%EB%8A%A5%EC%84%B1-%EB%85%BC%EC%9D%98-%EC%A4%91/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>비만 치료제 메디케어 접근 가능성 논의 중 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Pinterest 주가 하락, 실적 미스와 약한 전망 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>비트코인, 10만 달러 아래로 하락</title>
-    <link href="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-10%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EC%95%84%EB%9E%98%EB%A1%9C-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="비트코인, 10만 달러 아래로 하락" />
-    <published>2025-11-05T05:47:03+09:00</published>
-  
-    <updated>2025-11-05T05:47:03+09:00</updated>
-  
-    <id>/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-10%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EC%95%84%EB%9E%98%EB%A1%9C-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-10%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EC%95%84%EB%9E%98%EB%A1%9C-%ED%95%98%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>비트코인, 10만 달러 아래로 하락 · 경제 뉴스 요약</summary>
 
   </entry>
 
