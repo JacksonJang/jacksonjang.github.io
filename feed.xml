@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T05:13:11+09:00</updated>
+  <updated>2025-11-05T05:35:21+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Papa John's 주가, 아폴로 인수 철회에 10% 하락</title>
+    <link href="/posts/papa-johns-%EC%A3%BC%EA%B0%80-%EC%95%84%ED%8F%B4%EB%A1%9C-%EC%9D%B8%EC%88%98-%EC%B2%A0%ED%9A%8C%EC%97%90-10-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="Papa John&amp;apos;s 주가, 아폴로 인수 철회에 10% 하락" />
+    <published>2025-11-05T05:34:47+09:00</published>
+  
+    <updated>2025-11-05T05:34:47+09:00</updated>
+  
+    <id>/posts/papa-johns-%EC%A3%BC%EA%B0%80-%EC%95%84%ED%8F%B4%EB%A1%9C-%EC%9D%B8%EC%88%98-%EC%B2%A0%ED%9A%8C%EC%97%90-10-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/papa-johns-%EC%A3%BC%EA%B0%80-%EC%95%84%ED%8F%B4%EB%A1%9C-%EC%9D%B8%EC%88%98-%EC%B2%A0%ED%9A%8C%EC%97%90-10-%ED%95%98%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Papa John&amp;#39;s 주가, 아폴로 인수 철회에 10% 하락 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>상업용 부동산, 이색적 섹터의 부상 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>AI와 경제 변화 속 대규모 해고 사태</title>
-    <link href="/posts/ai%EC%99%80-%EA%B2%BD%EC%A0%9C-%EB%B3%80%ED%99%94-%EC%86%8D-%EB%8C%80%EA%B7%9C%EB%AA%A8-%ED%95%B4%EA%B3%A0-%EC%82%AC%ED%83%9C/" rel="alternate" type="text/html" title="AI와 경제 변화 속 대규모 해고 사태" />
-    <published>2025-11-05T02:28:03+09:00</published>
-  
-    <updated>2025-11-05T02:28:03+09:00</updated>
-  
-    <id>/posts/ai%EC%99%80-%EA%B2%BD%EC%A0%9C-%EB%B3%80%ED%99%94-%EC%86%8D-%EB%8C%80%EA%B7%9C%EB%AA%A8-%ED%95%B4%EA%B3%A0-%EC%82%AC%ED%83%9C/</id>
-    <content type="text/html" src="/posts/ai%EC%99%80-%EA%B2%BD%EC%A0%9C-%EB%B3%80%ED%99%94-%EC%86%8D-%EB%8C%80%EA%B7%9C%EB%AA%A8-%ED%95%B4%EA%B3%A0-%EC%82%AC%ED%83%9C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>AI와 경제 변화 속 대규모 해고 사태 · 경제 뉴스 요약</summary>
 
   </entry>
 
