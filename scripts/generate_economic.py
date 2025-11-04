@@ -151,6 +151,49 @@ def pick_not_used(candidate_items: List[NewsItem], used_links: List[str]) -> Opt
             return item
     return None
 
+
+def _sanitize_json_text(raw: str) -> str:
+    """Escape control characters inside JSON strings (e.g. bare newlines)."""
+
+    out_chars: List[str] = []
+    in_string = False
+    escape_next = False
+
+    for ch in raw:
+        if not in_string:
+            out_chars.append(ch)
+            if ch == '"':
+                in_string = True
+            continue
+
+        # We are inside a string literal
+        if escape_next:
+            out_chars.append(ch)
+            escape_next = False
+            continue
+
+        if ch == '\\':
+            out_chars.append(ch)
+            escape_next = True
+            continue
+
+        if ch == '"':
+            out_chars.append(ch)
+            in_string = False
+            continue
+
+        if ch in {'\n', '\r'}:
+            out_chars.append('\\n')
+            continue
+
+        if ord(ch) < 0x20:
+            out_chars.append(f"\\u{ord(ch):04x}")
+            continue
+
+        out_chars.append(ch)
+
+    return "".join(out_chars)
+
 # -----------------------------
 # 피드 로딩
 # -----------------------------
@@ -376,10 +419,22 @@ def ai_generate_all(
         try:
             data = _json.loads(txt)
         except _json.JSONDecodeError as decode_err:
-            snippet = txt[:500]
-            print("[WARN] AI JSON 파싱 실패:", decode_err)
-            print("[WARN] 응답 일부:", snippet + ("…" if len(txt) > 500 else ""))
-            return None
+            sanitized = _sanitize_json_text(txt)
+            if sanitized != txt:
+                try:
+                    data = _json.loads(sanitized)
+                    print("[WARN] AI JSON 개행 보정 후 파싱 성공")
+                except _json.JSONDecodeError as decode_err2:
+                    snippet = txt[:500]
+                    print("[WARN] AI JSON 파싱 실패:", decode_err)
+                    print("[WARN] 응답 일부:", snippet + ("…" if len(txt) > 500 else ""))
+                    print("[WARN] 개행 보정 후에도 실패:", decode_err2)
+                    return None
+            else:
+                snippet = txt[:500]
+                print("[WARN] AI JSON 파싱 실패:", decode_err)
+                print("[WARN] 응답 일부:", snippet + ("…" if len(txt) > 500 else ""))
+                return None
 
         # 최소 유효성 검사/정규화
         if not isinstance(data, dict) or "title" not in data or "body_md" not in data:
