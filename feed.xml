@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T03:45:19+09:00</updated>
+  <updated>2025-11-05T03:55:48+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>화이자, 비만 치료제 시장 복귀 난항</title>
+    <link href="/posts/%ED%99%94%EC%9D%B4%EC%9E%90-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%8B%9C%EC%9E%A5-%EB%B3%B5%EA%B7%80-%EB%82%9C%ED%95%AD/" rel="alternate" type="text/html" title="화이자, 비만 치료제 시장 복귀 난항" />
+    <published>2025-11-05T03:55:15+09:00</published>
+  
+    <updated>2025-11-05T03:55:15+09:00</updated>
+  
+    <id>/posts/%ED%99%94%EC%9D%B4%EC%9E%90-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%8B%9C%EC%9E%A5-%EB%B3%B5%EA%B7%80-%EB%82%9C%ED%95%AD/</id>
+    <content type="text/html" src="/posts/%ED%99%94%EC%9D%B4%EC%9E%90-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%8B%9C%EC%9E%A5-%EB%B3%B5%EA%B7%80-%EB%82%9C%ED%95%AD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>화이자, 비만 치료제 시장 복귀 난항 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>AI 기술 혁신, 스마트 자금의 방향성 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Uber, 수익 경신에도 불구하고 8% 하락</title>
-    <link href="/posts/uber-%EC%88%98%EC%9D%B5-%EA%B2%BD%EC%8B%A0%EC%97%90%EB%8F%84-%EB%B6%88%EA%B5%AC%ED%95%98%EA%B3%A0-8-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="Uber, 수익 경신에도 불구하고 8% 하락" />
-    <published>2025-11-05T01:54:35+09:00</published>
-  
-    <updated>2025-11-05T01:54:35+09:00</updated>
-  
-    <id>/posts/uber-%EC%88%98%EC%9D%B5-%EA%B2%BD%EC%8B%A0%EC%97%90%EB%8F%84-%EB%B6%88%EA%B5%AC%ED%95%98%EA%B3%A0-8-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/uber-%EC%88%98%EC%9D%B5-%EA%B2%BD%EC%8B%A0%EC%97%90%EB%8F%84-%EB%B6%88%EA%B5%AC%ED%95%98%EA%B3%A0-8-%ED%95%98%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Uber, 수익 경신에도 불구하고 8% 하락 · 경제 뉴스 요약</summary>
 
   </entry>
 
