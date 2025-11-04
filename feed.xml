@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T17:16:16+09:00</updated>
+  <updated>2025-11-04T17:44:00+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>마이클 버리, AI 주식에 대한 공매도 베팅</title>
+    <link href="/posts/%EB%A7%88%EC%9D%B4%ED%81%B4-%EB%B2%84%EB%A6%AC-ai-%EC%A3%BC%EC%8B%9D%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%B5%EB%A7%A4%EB%8F%84-%EB%B2%A0%ED%8C%85/" rel="alternate" type="text/html" title="마이클 버리, AI 주식에 대한 공매도 베팅" />
+    <published>2025-11-04T17:43:21+09:00</published>
+  
+    <updated>2025-11-04T17:43:21+09:00</updated>
+  
+    <id>/posts/%EB%A7%88%EC%9D%B4%ED%81%B4-%EB%B2%84%EB%A6%AC-ai-%EC%A3%BC%EC%8B%9D%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%B5%EB%A7%A4%EB%8F%84-%EB%B2%A0%ED%8C%85/</id>
+    <content type="text/html" src="/posts/%EB%A7%88%EC%9D%B4%ED%81%B4-%EB%B2%84%EB%A6%AC-ai-%EC%A3%BC%EC%8B%9D%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%B5%EB%A7%A4%EB%8F%84-%EB%B2%A0%ED%8C%85/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>마이클 버리, AI 주식에 대한 공매도 베팅 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>AI 투자 과열 논란, HSBC 등 경고 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>호주 주식 하락, S&amp;P/ASX 200 지수 0.91% 하락</title>
-    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-%ED%95%98%EB%9D%BD-spasx-200-%EC%A7%80%EC%88%98-091-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="호주 주식 하락, S&amp;amp;P/ASX 200 지수 0.91% 하락" />
-    <published>2025-11-04T14:51:44+09:00</published>
-  
-    <updated>2025-11-04T14:51:44+09:00</updated>
-  
-    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-%ED%95%98%EB%9D%BD-spasx-200-%EC%A7%80%EC%88%98-091-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-%ED%95%98%EB%9D%BD-spasx-200-%EC%A7%80%EC%88%98-091-%ED%95%98%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>호주 주식 하락, S&amp;amp;P/ASX 200 지수 0.91% 하락 · 경제 뉴스 요약</summary>
 
   </entry>
 
