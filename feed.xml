@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T01:40:55+09:00</updated>
+  <updated>2025-11-05T01:55:11+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Uber, 수익 경신에도 불구하고 8% 하락</title>
+    <link href="/posts/uber-%EC%88%98%EC%9D%B5-%EA%B2%BD%EC%8B%A0%EC%97%90%EB%8F%84-%EB%B6%88%EA%B5%AC%ED%95%98%EA%B3%A0-8-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="Uber, 수익 경신에도 불구하고 8% 하락" />
+    <published>2025-11-05T01:54:35+09:00</published>
+  
+    <updated>2025-11-05T01:54:35+09:00</updated>
+  
+    <id>/posts/uber-%EC%88%98%EC%9D%B5-%EA%B2%BD%EC%8B%A0%EC%97%90%EB%8F%84-%EB%B6%88%EA%B5%AC%ED%95%98%EA%B3%A0-8-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/uber-%EC%88%98%EC%9D%B5-%EA%B2%BD%EC%8B%A0%EC%97%90%EB%8F%84-%EB%B6%88%EA%B5%AC%ED%95%98%EA%B3%A0-8-%ED%95%98%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Uber, 수익 경신에도 불구하고 8% 하락 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>트럼프 행정부, SNAP 지원금 지불 요구받다 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>뉴욕 시장 선거, Mamdani-쿠오모 경쟁 심화</title>
-    <link href="/posts/%EB%89%B4%EC%9A%95-%EC%8B%9C%EC%9E%A5-%EC%84%A0%EA%B1%B0-mamdani-%EC%BF%A0%EC%98%A4%EB%AA%A8-%EA%B2%BD%EC%9F%81-%EC%8B%AC%ED%99%94/" rel="alternate" type="text/html" title="뉴욕 시장 선거, Mamdani-쿠오모 경쟁 심화" />
-    <published>2025-11-05T00:12:07+09:00</published>
-  
-    <updated>2025-11-05T00:12:07+09:00</updated>
-  
-    <id>/posts/%EB%89%B4%EC%9A%95-%EC%8B%9C%EC%9E%A5-%EC%84%A0%EA%B1%B0-mamdani-%EC%BF%A0%EC%98%A4%EB%AA%A8-%EA%B2%BD%EC%9F%81-%EC%8B%AC%ED%99%94/</id>
-    <content type="text/html" src="/posts/%EB%89%B4%EC%9A%95-%EC%8B%9C%EC%9E%A5-%EC%84%A0%EA%B1%B0-mamdani-%EC%BF%A0%EC%98%A4%EB%AA%A8-%EA%B2%BD%EC%9F%81-%EC%8B%AC%ED%99%94/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>뉴욕 시장 선거, Mamdani-쿠오모 경쟁 심화 · 경제 뉴스 요약</summary>
 
   </entry>
 
