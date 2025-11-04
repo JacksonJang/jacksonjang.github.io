@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T01:15:09+09:00</updated>
+  <updated>2025-11-05T01:40:55+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>미국 대법원 관세 판결 대처 방안 검토</title>
+    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EB%8C%80%EB%B2%95%EC%9B%90-%EA%B4%80%EC%84%B8-%ED%8C%90%EA%B2%B0-%EB%8C%80%EC%B2%98-%EB%B0%A9%EC%95%88-%EA%B2%80%ED%86%A0/" rel="alternate" type="text/html" title="미국 대법원 관세 판결 대처 방안 검토" />
+    <published>2025-11-05T01:40:11+09:00</published>
+  
+    <updated>2025-11-05T01:40:11+09:00</updated>
+  
+    <id>/posts/%EB%AF%B8%EA%B5%AD-%EB%8C%80%EB%B2%95%EC%9B%90-%EA%B4%80%EC%84%B8-%ED%8C%90%EA%B2%B0-%EB%8C%80%EC%B2%98-%EB%B0%A9%EC%95%88-%EA%B2%80%ED%86%A0/</id>
+    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EB%8C%80%EB%B2%95%EC%9B%90-%EA%B4%80%EC%84%B8-%ED%8C%90%EA%B2%B0-%EB%8C%80%EC%B2%98-%EB%B0%A9%EC%95%88-%EA%B2%80%ED%86%A0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>미국 대법원 관세 판결 대처 방안 검토 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>뉴욕 시장 선거, Mamdani-쿠오모 경쟁 심화 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>비트코인, AI 우려로 11월 매도세 악화</title>
-    <link href="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-ai-%EC%9A%B0%EB%A0%A4%EB%A1%9C-11%EC%9B%94-%EB%A7%A4%EB%8F%84%EC%84%B8-%EC%95%85%ED%99%94/" rel="alternate" type="text/html" title="비트코인, AI 우려로 11월 매도세 악화" />
-    <published>2025-11-04T23:50:40+09:00</published>
-  
-    <updated>2025-11-04T23:50:40+09:00</updated>
-  
-    <id>/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-ai-%EC%9A%B0%EB%A0%A4%EB%A1%9C-11%EC%9B%94-%EB%A7%A4%EB%8F%84%EC%84%B8-%EC%95%85%ED%99%94/</id>
-    <content type="text/html" src="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-ai-%EC%9A%B0%EB%A0%A4%EB%A1%9C-11%EC%9B%94-%EB%A7%A4%EB%8F%84%EC%84%B8-%EC%95%85%ED%99%94/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>비트코인, AI 우려로 11월 매도세 악화 · 경제 뉴스 요약</summary>
 
   </entry>
 
