@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T06:44:47+09:00</updated>
+  <updated>2025-11-05T06:52:31+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Super Micro 주가 하락의 이면</title>
+    <link href="/posts/super-micro-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD%EC%9D%98-%EC%9D%B4%EB%A9%B4/" rel="alternate" type="text/html" title="Super Micro 주가 하락의 이면" />
+    <published>2025-11-05T06:51:51+09:00</published>
+  
+    <updated>2025-11-05T06:51:51+09:00</updated>
+  
+    <id>/posts/super-micro-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD%EC%9D%98-%EC%9D%B4%EB%A9%B4/</id>
+    <content type="text/html" src="/posts/super-micro-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD%EC%9D%98-%EC%9D%B4%EB%A9%B4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Super Micro 주가 하락의 이면 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Papa John&amp;#39;s 주가, 아폴로 인수 철회에 10% 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미 달러화 반등, 금리 인하가 촉매</title>
-    <link href="/posts/%EB%AF%B8-%EB%8B%AC%EB%9F%AC%ED%99%94-%EB%B0%98%EB%93%B1-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EA%B0%80-%EC%B4%89%EB%A7%A4/" rel="alternate" type="text/html" title="미 달러화 반등, 금리 인하가 촉매" />
-    <published>2025-11-05T04:32:57+09:00</published>
-  
-    <updated>2025-11-05T04:32:57+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8-%EB%8B%AC%EB%9F%AC%ED%99%94-%EB%B0%98%EB%93%B1-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EA%B0%80-%EC%B4%89%EB%A7%A4/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8-%EB%8B%AC%EB%9F%AC%ED%99%94-%EB%B0%98%EB%93%B1-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EA%B0%80-%EC%B4%89%EB%A7%A4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미 달러화 반등, 금리 인하가 촉매 · 경제 뉴스 요약</summary>
 
   </entry>
 
