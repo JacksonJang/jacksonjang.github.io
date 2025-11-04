@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-04T15:59:23+09:00</updated>
+  <updated>2025-11-04T16:18:06+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>BP, 3분기 이익 예상 초과</title>
+    <link href="/posts/bp-3%EB%B6%84%EA%B8%B0-%EC%9D%B4%EC%9D%B5-%EC%98%88%EC%83%81-%EC%B4%88%EA%B3%BC/" rel="alternate" type="text/html" title="BP, 3분기 이익 예상 초과" />
+    <published>2025-11-04T16:17:37+09:00</published>
+  
+    <updated>2025-11-04T16:17:37+09:00</updated>
+  
+    <id>/posts/bp-3%EB%B6%84%EA%B8%B0-%EC%9D%B4%EC%9D%B5-%EC%98%88%EC%83%81-%EC%B4%88%EA%B3%BC/</id>
+    <content type="text/html" src="/posts/bp-3%EB%B6%84%EA%B8%B0-%EC%9D%B4%EC%9D%B5-%EC%98%88%EC%83%81-%EC%B4%88%EA%B3%BC/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>BP, 3분기 이익 예상 초과 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>아람코의 3분기 순이익 증가와 생산량 확대 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>은퇴자에게 최고 도시, 중서부 지역 선정</title>
-    <link href="/posts/%EC%9D%80%ED%87%B4%EC%9E%90%EC%97%90%EA%B2%8C-%EC%B5%9C%EA%B3%A0-%EB%8F%84%EC%8B%9C-%EC%A4%91%EC%84%9C%EB%B6%80-%EC%A7%80%EC%97%AD-%EC%84%A0%EC%A0%95/" rel="alternate" type="text/html" title="은퇴자에게 최고 도시, 중서부 지역 선정" />
-    <published>2025-11-04T14:11:44+09:00</published>
-  
-    <updated>2025-11-04T14:11:44+09:00</updated>
-  
-    <id>/posts/%EC%9D%80%ED%87%B4%EC%9E%90%EC%97%90%EA%B2%8C-%EC%B5%9C%EA%B3%A0-%EB%8F%84%EC%8B%9C-%EC%A4%91%EC%84%9C%EB%B6%80-%EC%A7%80%EC%97%AD-%EC%84%A0%EC%A0%95/</id>
-    <content type="text/html" src="/posts/%EC%9D%80%ED%87%B4%EC%9E%90%EC%97%90%EA%B2%8C-%EC%B5%9C%EA%B3%A0-%EB%8F%84%EC%8B%9C-%EC%A4%91%EC%84%9C%EB%B6%80-%EC%A7%80%EC%97%AD-%EC%84%A0%EC%A0%95/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>은퇴자에게 최고 도시, 중서부 지역 선정 · 경제 뉴스 요약</summary>
 
   </entry>
 
