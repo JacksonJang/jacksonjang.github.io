@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T23:50:15+09:00</updated>
+  <updated>2025-11-05T23:57:45+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>항공 교통 관제사 파업, 회복까지 몇 주 소요</title>
+    <link href="/posts/%ED%95%AD%EA%B3%B5-%EA%B5%90%ED%86%B5-%EA%B4%80%EC%A0%9C%EC%82%AC-%ED%8C%8C%EC%97%85-%ED%9A%8C%EB%B3%B5%EA%B9%8C%EC%A7%80-%EB%AA%87-%EC%A3%BC-%EC%86%8C%EC%9A%94/" rel="alternate" type="text/html" title="항공 교통 관제사 파업, 회복까지 몇 주 소요" />
+    <published>2025-11-05T23:57:07+09:00</published>
+  
+    <updated>2025-11-05T23:57:07+09:00</updated>
+  
+    <id>/posts/%ED%95%AD%EA%B3%B5-%EA%B5%90%ED%86%B5-%EA%B4%80%EC%A0%9C%EC%82%AC-%ED%8C%8C%EC%97%85-%ED%9A%8C%EB%B3%B5%EA%B9%8C%EC%A7%80-%EB%AA%87-%EC%A3%BC-%EC%86%8C%EC%9A%94/</id>
+    <content type="text/html" src="/posts/%ED%95%AD%EA%B3%B5-%EA%B5%90%ED%86%B5-%EA%B4%80%EC%A0%9C%EC%82%AC-%ED%8C%8C%EC%97%85-%ED%9A%8C%EB%B3%B5%EA%B9%8C%EC%A7%80-%EB%AA%87-%EC%A3%BC-%EC%86%8C%EC%9A%94/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>항공 교통 관제사 파업, 회복까지 몇 주 소요 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>맥도날드, 매출 기대 이상 기록하며 고객 지출 증가 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>사회보장청 사망자 수급자 논란, 진실은?</title>
-    <link href="/posts/%EC%82%AC%ED%9A%8C%EB%B3%B4%EC%9E%A5%EC%B2%AD-%EC%82%AC%EB%A7%9D%EC%9E%90-%EC%88%98%EA%B8%89%EC%9E%90-%EB%85%BC%EB%9E%80-%EC%A7%84%EC%8B%A4%EC%9D%80/" rel="alternate" type="text/html" title="사회보장청 사망자 수급자 논란, 진실은?" />
-    <published>2025-11-05T22:39:49+09:00</published>
-  
-    <updated>2025-11-05T22:39:49+09:00</updated>
-  
-    <id>/posts/%EC%82%AC%ED%9A%8C%EB%B3%B4%EC%9E%A5%EC%B2%AD-%EC%82%AC%EB%A7%9D%EC%9E%90-%EC%88%98%EA%B8%89%EC%9E%90-%EB%85%BC%EB%9E%80-%EC%A7%84%EC%8B%A4%EC%9D%80/</id>
-    <content type="text/html" src="/posts/%EC%82%AC%ED%9A%8C%EB%B3%B4%EC%9E%A5%EC%B2%AD-%EC%82%AC%EB%A7%9D%EC%9E%90-%EC%88%98%EA%B8%89%EC%9E%90-%EB%85%BC%EB%9E%80-%EC%A7%84%EC%8B%A4%EC%9D%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>사회보장청 사망자 수급자 논란, 진실은? · 경제 뉴스 요약</summary>
 
   </entry>
 
