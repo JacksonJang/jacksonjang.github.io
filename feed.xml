@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T14:53:31+09:00</updated>
+  <updated>2025-11-05T15:17:36+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>비트코인 폭락 속 투자자 불안 고조</title>
+    <link href="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%8F%AD%EB%9D%BD-%EC%86%8D-%ED%88%AC%EC%9E%90%EC%9E%90-%EB%B6%88%EC%95%88-%EA%B3%A0%EC%A1%B0/" rel="alternate" type="text/html" title="비트코인 폭락 속 투자자 불안 고조" />
+    <published>2025-11-05T15:16:58+09:00</published>
+  
+    <updated>2025-11-05T15:16:58+09:00</updated>
+  
+    <id>/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%8F%AD%EB%9D%BD-%EC%86%8D-%ED%88%AC%EC%9E%90%EC%9E%90-%EB%B6%88%EC%95%88-%EA%B3%A0%EC%A1%B0/</id>
+    <content type="text/html" src="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%8F%AD%EB%9D%BD-%EC%86%8D-%ED%88%AC%EC%9E%90%EC%9E%90-%EB%B6%88%EC%95%88-%EA%B3%A0%EC%A1%B0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>비트코인 폭락 속 투자자 불안 고조 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Upstart 주가 하락, 성장 둔화 예상 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Rivian, EV 크레딧 만료로 매출 상승</title>
-    <link href="/posts/rivian-ev-%ED%81%AC%EB%A0%88%EB%94%A7-%EB%A7%8C%EB%A3%8C%EB%A1%9C-%EB%A7%A4%EC%B6%9C-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="Rivian, EV 크레딧 만료로 매출 상승" />
-    <published>2025-11-05T13:39:56+09:00</published>
-  
-    <updated>2025-11-05T13:39:56+09:00</updated>
-  
-    <id>/posts/rivian-ev-%ED%81%AC%EB%A0%88%EB%94%A7-%EB%A7%8C%EB%A3%8C%EB%A1%9C-%EB%A7%A4%EC%B6%9C-%EC%83%81%EC%8A%B9/</id>
-    <content type="text/html" src="/posts/rivian-ev-%ED%81%AC%EB%A0%88%EB%94%A7-%EB%A7%8C%EB%A3%8C%EB%A1%9C-%EB%A7%A4%EC%B6%9C-%EC%83%81%EC%8A%B9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Rivian, EV 크레딧 만료로 매출 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
