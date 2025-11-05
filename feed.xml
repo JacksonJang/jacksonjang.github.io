@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T00:55:16+09:00</updated>
+  <updated>2025-11-06T01:13:32+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>조란 맘다니의 뉴욕 시장 당선과 소상공인</title>
+    <link href="/posts/%EC%A1%B0%EB%9E%80-%EB%A7%98%EB%8B%A4%EB%8B%88%EC%9D%98-%EB%89%B4%EC%9A%95-%EC%8B%9C%EC%9E%A5-%EB%8B%B9%EC%84%A0%EA%B3%BC-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8/" rel="alternate" type="text/html" title="조란 맘다니의 뉴욕 시장 당선과 소상공인" />
+    <published>2025-11-06T01:12:53+09:00</published>
+  
+    <updated>2025-11-06T01:12:53+09:00</updated>
+  
+    <id>/posts/%EC%A1%B0%EB%9E%80-%EB%A7%98%EB%8B%A4%EB%8B%88%EC%9D%98-%EB%89%B4%EC%9A%95-%EC%8B%9C%EC%9E%A5-%EB%8B%B9%EC%84%A0%EA%B3%BC-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8/</id>
+    <content type="text/html" src="/posts/%EC%A1%B0%EB%9E%80-%EB%A7%98%EB%8B%A4%EB%8B%88%EC%9D%98-%EB%89%B4%EC%9A%95-%EC%8B%9C%EC%9E%A5-%EB%8B%B9%EC%84%A0%EA%B3%BC-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>조란 맘다니의 뉴욕 시장 당선과 소상공인 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>트럼프, 민주당의 선거 압승에 대한 반응 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>항공 교통 관제사 파업, 회복까지 몇 주 소요</title>
-    <link href="/posts/%ED%95%AD%EA%B3%B5-%EA%B5%90%ED%86%B5-%EA%B4%80%EC%A0%9C%EC%82%AC-%ED%8C%8C%EC%97%85-%ED%9A%8C%EB%B3%B5%EA%B9%8C%EC%A7%80-%EB%AA%87-%EC%A3%BC-%EC%86%8C%EC%9A%94/" rel="alternate" type="text/html" title="항공 교통 관제사 파업, 회복까지 몇 주 소요" />
-    <published>2025-11-05T23:57:07+09:00</published>
-  
-    <updated>2025-11-05T23:57:07+09:00</updated>
-  
-    <id>/posts/%ED%95%AD%EA%B3%B5-%EA%B5%90%ED%86%B5-%EA%B4%80%EC%A0%9C%EC%82%AC-%ED%8C%8C%EC%97%85-%ED%9A%8C%EB%B3%B5%EA%B9%8C%EC%A7%80-%EB%AA%87-%EC%A3%BC-%EC%86%8C%EC%9A%94/</id>
-    <content type="text/html" src="/posts/%ED%95%AD%EA%B3%B5-%EA%B5%90%ED%86%B5-%EA%B4%80%EC%A0%9C%EC%82%AC-%ED%8C%8C%EC%97%85-%ED%9A%8C%EB%B3%B5%EA%B9%8C%EC%A7%80-%EB%AA%87-%EC%A3%BC-%EC%86%8C%EC%9A%94/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>항공 교통 관제사 파업, 회복까지 몇 주 소요 · 경제 뉴스 요약</summary>
 
   </entry>
 
