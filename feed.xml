@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T12:31:49+09:00</updated>
+  <updated>2025-11-05T12:34:40+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>아시아 시장 급락, AI 밸류에이션 우려 중점</title>
+    <link href="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%EA%B8%89%EB%9D%BD-ai-%EB%B0%B8%EB%A5%98%EC%97%90%EC%9D%B4%EC%85%98-%EC%9A%B0%EB%A0%A4-%EC%A4%91%EC%A0%90/" rel="alternate" type="text/html" title="아시아 시장 급락, AI 밸류에이션 우려 중점" />
+    <published>2025-11-05T12:34:07+09:00</published>
+  
+    <updated>2025-11-05T12:34:07+09:00</updated>
+  
+    <id>/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%EA%B8%89%EB%9D%BD-ai-%EB%B0%B8%EB%A5%98%EC%97%90%EC%9D%B4%EC%85%98-%EC%9A%B0%EB%A0%A4-%EC%A4%91%EC%A0%90/</id>
+    <content type="text/html" src="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EC%8B%9C%EC%9E%A5-%EA%B8%89%EB%9D%BD-ai-%EB%B0%B8%EB%A5%98%EC%97%90%EC%9D%B4%EC%85%98-%EC%9A%B0%EB%A0%A4-%EC%A4%91%EC%A0%90/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>아시아 시장 급락, AI 밸류에이션 우려 중점 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>버지니아 주지사 선거와 정치적 논쟁 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Live Nation, 해외 공연 강세로 내년 기대</title>
-    <link href="/posts/live-nation-%ED%95%B4%EC%99%B8-%EA%B3%B5%EC%97%B0-%EA%B0%95%EC%84%B8%EB%A1%9C-%EB%82%B4%EB%85%84-%EA%B8%B0%EB%8C%80/" rel="alternate" type="text/html" title="Live Nation, 해외 공연 강세로 내년 기대" />
-    <published>2025-11-05T08:51:49+09:00</published>
-  
-    <updated>2025-11-05T08:51:49+09:00</updated>
-  
-    <id>/posts/live-nation-%ED%95%B4%EC%99%B8-%EA%B3%B5%EC%97%B0-%EA%B0%95%EC%84%B8%EB%A1%9C-%EB%82%B4%EB%85%84-%EA%B8%B0%EB%8C%80/</id>
-    <content type="text/html" src="/posts/live-nation-%ED%95%B4%EC%99%B8-%EA%B3%B5%EC%97%B0-%EA%B0%95%EC%84%B8%EB%A1%9C-%EB%82%B4%EB%85%84-%EA%B8%B0%EB%8C%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Live Nation, 해외 공연 강세로 내년 기대 · 경제 뉴스 요약</summary>
 
   </entry>
 
