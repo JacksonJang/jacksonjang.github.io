@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T08:10:24+09:00</updated>
+  <updated>2025-11-06T08:28:38+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>국채, 지금 좋은 투자처로 떠오르다</title>
+    <link href="/posts/%EA%B5%AD%EC%B1%84-%EC%A7%80%EA%B8%88-%EC%A2%8B%EC%9D%80-%ED%88%AC%EC%9E%90%EC%B2%98%EB%A1%9C-%EB%96%A0%EC%98%A4%EB%A5%B4%EB%8B%A4/" rel="alternate" type="text/html" title="국채, 지금 좋은 투자처로 떠오르다" />
+    <published>2025-11-06T08:27:58+09:00</published>
+  
+    <updated>2025-11-06T08:27:58+09:00</updated>
+  
+    <id>/posts/%EA%B5%AD%EC%B1%84-%EC%A7%80%EA%B8%88-%EC%A2%8B%EC%9D%80-%ED%88%AC%EC%9E%90%EC%B2%98%EB%A1%9C-%EB%96%A0%EC%98%A4%EB%A5%B4%EB%8B%A4/</id>
+    <content type="text/html" src="/posts/%EA%B5%AD%EC%B1%84-%EC%A7%80%EA%B8%88-%EC%A2%8B%EC%9D%80-%ED%88%AC%EC%9E%90%EC%B2%98%EB%A1%9C-%EB%96%A0%EC%98%A4%EB%A5%B4%EB%8B%A4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>국채, 지금 좋은 투자처로 떠오르다 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>FAA, 정부 셧다운으로 40개 공항 10% 감축 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>트럼프, NASA 수장에 기술 거물 재지명</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-nasa-%EC%88%98%EC%9E%A5%EC%97%90-%EA%B8%B0%EC%88%A0-%EA%B1%B0%EB%AC%BC-%EC%9E%AC%EC%A7%80%EB%AA%85/" rel="alternate" type="text/html" title="트럼프, NASA 수장에 기술 거물 재지명" />
-    <published>2025-11-06T07:09:40+09:00</published>
-  
-    <updated>2025-11-06T07:09:40+09:00</updated>
-  
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-nasa-%EC%88%98%EC%9E%A5%EC%97%90-%EA%B8%B0%EC%88%A0-%EA%B1%B0%EB%AC%BC-%EC%9E%AC%EC%A7%80%EB%AA%85/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-nasa-%EC%88%98%EC%9E%A5%EC%97%90-%EA%B8%B0%EC%88%A0-%EA%B1%B0%EB%AC%BC-%EC%9E%AC%EC%A7%80%EB%AA%85/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>트럼프, NASA 수장에 기술 거물 재지명 · 경제 뉴스 요약</summary>
 
   </entry>
 
