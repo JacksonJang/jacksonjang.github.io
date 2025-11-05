@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T00:48:23+09:00</updated>
+  <updated>2025-11-06T00:55:16+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>10월 민간 고용, 예상보다 42,000명 증가</title>
+    <link href="/posts/10%EC%9B%94-%EB%AF%BC%EA%B0%84-%EA%B3%A0%EC%9A%A9-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-42000%EB%AA%85-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="10월 민간 고용, 예상보다 42,000명 증가" />
+    <published>2025-11-06T00:54:34+09:00</published>
+  
+    <updated>2025-11-06T00:54:34+09:00</updated>
+  
+    <id>/posts/10%EC%9B%94-%EB%AF%BC%EA%B0%84-%EA%B3%A0%EC%9A%A9-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-42000%EB%AA%85-%EC%A6%9D%EA%B0%80/</id>
+    <content type="text/html" src="/posts/10%EC%9B%94-%EB%AF%BC%EA%B0%84-%EA%B3%A0%EC%9A%A9-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-42000%EB%AA%85-%EC%A6%9D%EA%B0%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>10월 민간 고용, 예상보다 42,000명 증가 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>항공 교통 관제사 파업, 회복까지 몇 주 소요 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>대법원, 트럼프 관세 사건 심리 시작</title>
-    <link href="/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84-%EA%B4%80%EC%84%B8-%EC%82%AC%EA%B1%B4-%EC%8B%AC%EB%A6%AC-%EC%8B%9C%EC%9E%91/" rel="alternate" type="text/html" title="대법원, 트럼프 관세 사건 심리 시작" />
-    <published>2025-11-05T23:49:28+09:00</published>
-  
-    <updated>2025-11-05T23:49:28+09:00</updated>
-  
-    <id>/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84-%EA%B4%80%EC%84%B8-%EC%82%AC%EA%B1%B4-%EC%8B%AC%EB%A6%AC-%EC%8B%9C%EC%9E%91/</id>
-    <content type="text/html" src="/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84-%EA%B4%80%EC%84%B8-%EC%82%AC%EA%B1%B4-%EC%8B%AC%EB%A6%AC-%EC%8B%9C%EC%9E%91/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>대법원, 트럼프 관세 사건 심리 시작 · 경제 뉴스 요약</summary>
 
   </entry>
 
