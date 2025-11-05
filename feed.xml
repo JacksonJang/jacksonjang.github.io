@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T07:46:04+09:00</updated>
+  <updated>2025-11-06T07:51:57+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>주식 시장의 불안 신호, 투자자에게 경고</title>
+    <link href="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EB%B6%88%EC%95%88-%EC%8B%A0%ED%98%B8-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0/" rel="alternate" type="text/html" title="주식 시장의 불안 신호, 투자자에게 경고" />
+    <published>2025-11-06T07:51:15+09:00</published>
+  
+    <updated>2025-11-06T07:51:15+09:00</updated>
+  
+    <id>/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EB%B6%88%EC%95%88-%EC%8B%A0%ED%98%B8-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EB%B6%88%EC%95%88-%EC%8B%A0%ED%98%B8-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>주식 시장의 불안 신호, 투자자에게 경고 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Doordash 주가 20% 하락, 추가 지출 예상 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Lyft, 유럽 진출로 매출 증가 기대</title>
-    <link href="/posts/lyft-%EC%9C%A0%EB%9F%BD-%EC%A7%84%EC%B6%9C%EB%A1%9C-%EB%A7%A4%EC%B6%9C-%EC%A6%9D%EA%B0%80-%EA%B8%B0%EB%8C%80/" rel="alternate" type="text/html" title="Lyft, 유럽 진출로 매출 증가 기대" />
-    <published>2025-11-06T06:42:19+09:00</published>
-  
-    <updated>2025-11-06T06:42:19+09:00</updated>
-  
-    <id>/posts/lyft-%EC%9C%A0%EB%9F%BD-%EC%A7%84%EC%B6%9C%EB%A1%9C-%EB%A7%A4%EC%B6%9C-%EC%A6%9D%EA%B0%80-%EA%B8%B0%EB%8C%80/</id>
-    <content type="text/html" src="/posts/lyft-%EC%9C%A0%EB%9F%BD-%EC%A7%84%EC%B6%9C%EB%A1%9C-%EB%A7%A4%EC%B6%9C-%EC%A6%9D%EA%B0%80-%EA%B8%B0%EB%8C%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Lyft, 유럽 진출로 매출 증가 기대 · 경제 뉴스 요약</summary>
 
   </entry>
 
