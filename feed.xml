@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T12:55:32+09:00</updated>
+  <updated>2025-11-05T12:58:34+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Cava, 경쟁 속 매출 전망 하향 조정</title>
+    <link href="/posts/cava-%EA%B2%BD%EC%9F%81-%EC%86%8D-%EB%A7%A4%EC%B6%9C-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="Cava, 경쟁 속 매출 전망 하향 조정" />
+    <published>2025-11-05T12:58:00+09:00</published>
+  
+    <updated>2025-11-05T12:58:00+09:00</updated>
+  
+    <id>/posts/cava-%EA%B2%BD%EC%9F%81-%EC%86%8D-%EB%A7%A4%EC%B6%9C-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/</id>
+    <content type="text/html" src="/posts/cava-%EA%B2%BD%EC%9F%81-%EC%86%8D-%EB%A7%A4%EC%B6%9C-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Cava, 경쟁 속 매출 전망 하향 조정 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>아시아 시장 급락, AI 밸류에이션 우려 중점 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>AMD, 예상 상회 실적 발표와 시장 반응</title>
-    <link href="/posts/amd-%EC%98%88%EC%83%81-%EC%83%81%ED%9A%8C-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C%EC%99%80-%EC%8B%9C%EC%9E%A5-%EB%B0%98%EC%9D%91/" rel="alternate" type="text/html" title="AMD, 예상 상회 실적 발표와 시장 반응" />
-    <published>2025-11-05T12:31:06+09:00</published>
-  
-    <updated>2025-11-05T12:31:06+09:00</updated>
-  
-    <id>/posts/amd-%EC%98%88%EC%83%81-%EC%83%81%ED%9A%8C-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C%EC%99%80-%EC%8B%9C%EC%9E%A5-%EB%B0%98%EC%9D%91/</id>
-    <content type="text/html" src="/posts/amd-%EC%98%88%EC%83%81-%EC%83%81%ED%9A%8C-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C%EC%99%80-%EC%8B%9C%EC%9E%A5-%EB%B0%98%EC%9D%91/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>AMD, 예상 상회 실적 발표와 시장 반응 · 경제 뉴스 요약</summary>
 
   </entry>
 
