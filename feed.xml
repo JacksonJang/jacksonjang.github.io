@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T18:37:55+09:00</updated>
+  <updated>2025-11-05T18:49:13+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>10월 구인공고, 2021년 2월 이후 최저치</title>
+    <link href="/posts/10%EC%9B%94-%EA%B5%AC%EC%9D%B8%EA%B3%B5%EA%B3%A0-2021%EB%85%84-2%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B5%9C%EC%A0%80%EC%B9%98/" rel="alternate" type="text/html" title="10월 구인공고, 2021년 2월 이후 최저치" />
+    <published>2025-11-05T18:48:33+09:00</published>
+  
+    <updated>2025-11-05T18:48:33+09:00</updated>
+  
+    <id>/posts/10%EC%9B%94-%EA%B5%AC%EC%9D%B8%EA%B3%B5%EA%B3%A0-2021%EB%85%84-2%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B5%9C%EC%A0%80%EC%B9%98/</id>
+    <content type="text/html" src="/posts/10%EC%9B%94-%EA%B5%AC%EC%9D%B8%EA%B3%B5%EA%B3%A0-2021%EB%85%84-2%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B5%9C%EC%A0%80%EC%B9%98/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>10월 구인공고, 2021년 2월 이후 최저치 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>미국 정부 셧다운, 최장 기록 경신 위기 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>IBM, 4분기 수천 명 해고 계획 발표</title>
-    <link href="/posts/ibm-4%EB%B6%84%EA%B8%B0-%EC%88%98%EC%B2%9C-%EB%AA%85-%ED%95%B4%EA%B3%A0-%EA%B3%84%ED%9A%8D-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="IBM, 4분기 수천 명 해고 계획 발표" />
-    <published>2025-11-05T17:32:17+09:00</published>
-  
-    <updated>2025-11-05T17:32:17+09:00</updated>
-  
-    <id>/posts/ibm-4%EB%B6%84%EA%B8%B0-%EC%88%98%EC%B2%9C-%EB%AA%85-%ED%95%B4%EA%B3%A0-%EA%B3%84%ED%9A%8D-%EB%B0%9C%ED%91%9C/</id>
-    <content type="text/html" src="/posts/ibm-4%EB%B6%84%EA%B8%B0-%EC%88%98%EC%B2%9C-%EB%AA%85-%ED%95%B4%EA%B3%A0-%EA%B3%84%ED%9A%8D-%EB%B0%9C%ED%91%9C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>IBM, 4분기 수천 명 해고 계획 발표 · 경제 뉴스 요약</summary>
 
   </entry>
 
