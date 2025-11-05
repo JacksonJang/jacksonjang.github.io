@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T02:17:08+09:00</updated>
+  <updated>2025-11-06T02:34:51+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Cramer: 반도체 소재 제조업체, 매수 추천</title>
+    <link href="/posts/cramer-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%86%8C%EC%9E%AC-%EC%A0%9C%EC%A1%B0%EC%97%85%EC%B2%B4-%EB%A7%A4%EC%88%98-%EC%B6%94%EC%B2%9C/" rel="alternate" type="text/html" title="Cramer: 반도체 소재 제조업체, 매수 추천" />
+    <published>2025-11-06T02:34:09+09:00</published>
+  
+    <updated>2025-11-06T02:34:09+09:00</updated>
+  
+    <id>/posts/cramer-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%86%8C%EC%9E%AC-%EC%A0%9C%EC%A1%B0%EC%97%85%EC%B2%B4-%EB%A7%A4%EC%88%98-%EC%B6%94%EC%B2%9C/</id>
+    <content type="text/html" src="/posts/cramer-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%86%8C%EC%9E%AC-%EC%A0%9C%EC%A1%B0%EC%97%85%EC%B2%B4-%EB%A7%A4%EC%88%98-%EC%B6%94%EC%B2%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Cramer: 반도체 소재 제조업체, 매수 추천 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>조란 맘다니의 뉴욕 시장 당선과 소상공인 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>10월 민간 고용, 예상보다 42,000명 증가</title>
-    <link href="/posts/10%EC%9B%94-%EB%AF%BC%EA%B0%84-%EA%B3%A0%EC%9A%A9-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-42000%EB%AA%85-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="10월 민간 고용, 예상보다 42,000명 증가" />
-    <published>2025-11-06T00:54:34+09:00</published>
-  
-    <updated>2025-11-06T00:54:34+09:00</updated>
-  
-    <id>/posts/10%EC%9B%94-%EB%AF%BC%EA%B0%84-%EA%B3%A0%EC%9A%A9-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-42000%EB%AA%85-%EC%A6%9D%EA%B0%80/</id>
-    <content type="text/html" src="/posts/10%EC%9B%94-%EB%AF%BC%EA%B0%84-%EA%B3%A0%EC%9A%A9-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-42000%EB%AA%85-%EC%A6%9D%EA%B0%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>10월 민간 고용, 예상보다 42,000명 증가 · 경제 뉴스 요약</summary>
 
   </entry>
 
