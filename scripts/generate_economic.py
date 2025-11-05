@@ -326,42 +326,6 @@ SEO_SYSTEM = (
     "Avoid hype; be precise and neutral; cite only provided info; do not invent dates."
 )
 
-AI_RESPONSE_SCHEMA = {
-    "type": "json_schema",
-    "json_schema": {
-        "name": "seo_news_post",
-        "schema": {
-            "type": "object",
-            "properties": {
-                "title": {"type": "string"},
-                "body_md": {"type": "string"},
-                "terms": {
-                    "type": "array",
-                    "items": {"type": "string"},
-                    "maxItems": 12,
-                },
-                "related": {
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                            "symbol": {"type": "string"},
-                            "name": {"type": "string"},
-                            "why": {"type": "string"},
-                        },
-                        "required": ["symbol", "name"],
-                        "additionalProperties": False,
-                    },
-                    "maxItems": 6,
-                },
-            },
-            "required": ["title", "body_md", "terms", "related"],
-            "additionalProperties": False,
-        },
-        "strict": True,
-    },
-}
-
 def ai_generate_all(
     item: NewsItem,
     today_str: str,
@@ -410,11 +374,41 @@ def ai_generate_all(
                 {"role": "system", "content": SEO_SYSTEM},
                 {"role": "user", "content": user_prompt}
             ],
-            tools=[{"type": "web_search"}],    # web_search 사용
-            temperature=TEMPERATURE,
-            max_output_tokens=MAX_OUTPUT_TOKENS,
-            response_format=AI_RESPONSE_SCHEMA,
+            tool_choice="none",  # 텍스트만 받도록
+            temperature=min(TEMPERATURE, 0.3),
+            max_output_tokens=max(4096, MAX_OUTPUT_TOKENS),
+            response_format={
+                "type": "json_schema",
+                "json_schema": {
+                    "name": "seo_post",
+                    "schema": {
+                        "type": "object",
+                        "required": ["title", "body_md"],
+                        "properties": {
+                            "title": {"type": "string", "maxLength": 60},
+                            "body_md": {"type": "string"},
+                            "terms": {"type": "array", "items": {"type": "string"}, "maxItems": 12},
+                            "related": {
+                                "type": "array", "maxItems": 6,
+                                "items": {
+                                    "type": "object",
+                                    "required": ["symbol", "name"],
+                                    "properties": {
+                                        "symbol": {"type": "string"},
+                                        "name": {"type": "string"},
+                                        "why": {"type": "string"}
+                                    },
+                                    "additionalProperties": False
+                                }
+                            }
+                        },
+                        "additionalProperties": False
+                    },
+                    "strict": True
+                }
+            },
         )
+
 
         # 결과 텍스트 추출 (SDK별 호환)
         txt = getattr(resp, "output_text", None)
