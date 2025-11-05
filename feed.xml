@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T12:10:06+09:00</updated>
+  <updated>2025-11-05T12:11:21+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>미국 월세 위기는 뉴욕시를 넘어 확산</title>
+    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%9B%94%EC%84%B8-%EC%9C%84%EA%B8%B0%EB%8A%94-%EB%89%B4%EC%9A%95%EC%8B%9C%EB%A5%BC-%EB%84%98%EC%96%B4-%ED%99%95%EC%82%B0/" rel="alternate" type="text/html" title="미국 월세 위기는 뉴욕시를 넘어 확산" />
+    <published>2025-11-05T12:10:40+09:00</published>
+  
+    <updated>2025-11-05T12:10:40+09:00</updated>
+  
+    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%9B%94%EC%84%B8-%EC%9C%84%EA%B8%B0%EB%8A%94-%EB%89%B4%EC%9A%95%EC%8B%9C%EB%A5%BC-%EB%84%98%EC%96%B4-%ED%99%95%EC%82%B0/</id>
+    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%9B%94%EC%84%B8-%EC%9C%84%EA%B8%B0%EB%8A%94-%EB%89%B4%EC%9A%95%EC%8B%9C%EB%A5%BC-%EB%84%98%EC%96%B4-%ED%99%95%EC%82%B0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>미국 월세 위기는 뉴욕시를 넘어 확산 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>UPS 항공기 루이빌 공항 사고 발생 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Strategy 주가 7개월 만에 최저, 비트코인 영향</title>
-    <link href="/posts/strategy-%EC%A3%BC%EA%B0%80-7%EA%B0%9C%EC%9B%94-%EB%A7%8C%EC%97%90-%EC%B5%9C%EC%A0%80-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%98%81%ED%96%A5/" rel="alternate" type="text/html" title="Strategy 주가 7개월 만에 최저, 비트코인 영향" />
-    <published>2025-11-05T08:27:38+09:00</published>
-  
-    <updated>2025-11-05T08:27:38+09:00</updated>
-  
-    <id>/posts/strategy-%EC%A3%BC%EA%B0%80-7%EA%B0%9C%EC%9B%94-%EB%A7%8C%EC%97%90-%EC%B5%9C%EC%A0%80-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%98%81%ED%96%A5/</id>
-    <content type="text/html" src="/posts/strategy-%EC%A3%BC%EA%B0%80-7%EA%B0%9C%EC%9B%94-%EB%A7%8C%EC%97%90-%EC%B5%9C%EC%A0%80-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%98%81%ED%96%A5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Strategy 주가 7개월 만에 최저, 비트코인 영향 · 경제 뉴스 요약</summary>
 
   </entry>
 
