@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T00:33:03+09:00</updated>
+  <updated>2025-11-06T00:48:23+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>리플, 500억 달러 투자 유치로 400억 달러 가치 평가</title>
+    <link href="/posts/%EB%A6%AC%ED%94%8C-500%EC%96%B5-%EB%8B%AC%EB%9F%AC-%ED%88%AC%EC%9E%90-%EC%9C%A0%EC%B9%98%EB%A1%9C-400%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B0%80%EC%B9%98-%ED%8F%89%EA%B0%80/" rel="alternate" type="text/html" title="리플, 500억 달러 투자 유치로 400억 달러 가치 평가" />
+    <published>2025-11-06T00:47:38+09:00</published>
+  
+    <updated>2025-11-06T00:47:38+09:00</updated>
+  
+    <id>/posts/%EB%A6%AC%ED%94%8C-500%EC%96%B5-%EB%8B%AC%EB%9F%AC-%ED%88%AC%EC%9E%90-%EC%9C%A0%EC%B9%98%EB%A1%9C-400%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B0%80%EC%B9%98-%ED%8F%89%EA%B0%80/</id>
+    <content type="text/html" src="/posts/%EB%A6%AC%ED%94%8C-500%EC%96%B5-%EB%8B%AC%EB%9F%AC-%ED%88%AC%EC%9E%90-%EC%9C%A0%EC%B9%98%EB%A1%9C-400%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B0%80%EC%B9%98-%ED%8F%89%EA%B0%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>리플, 500억 달러 투자 유치로 400억 달러 가치 평가 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>대법원, 트럼프 관세 사건 심리 시작 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>금 rush는 끝났다: 10월의 플래시 크래시는 기회</title>
-    <link href="/posts/%EA%B8%88-rush%EB%8A%94-%EB%81%9D%EB%82%AC%EB%8B%A4-10%EC%9B%94%EC%9D%98-%ED%94%8C%EB%9E%98%EC%8B%9C-%ED%81%AC%EB%9E%98%EC%8B%9C%EB%8A%94-%EA%B8%B0%ED%9A%8C/" rel="alternate" type="text/html" title="금 rush는 끝났다: 10월의 플래시 크래시는 기회" />
-    <published>2025-11-05T23:33:59+09:00</published>
-  
-    <updated>2025-11-05T23:33:59+09:00</updated>
-  
-    <id>/posts/%EA%B8%88-rush%EB%8A%94-%EB%81%9D%EB%82%AC%EB%8B%A4-10%EC%9B%94%EC%9D%98-%ED%94%8C%EB%9E%98%EC%8B%9C-%ED%81%AC%EB%9E%98%EC%8B%9C%EB%8A%94-%EA%B8%B0%ED%9A%8C/</id>
-    <content type="text/html" src="/posts/%EA%B8%88-rush%EB%8A%94-%EB%81%9D%EB%82%AC%EB%8B%A4-10%EC%9B%94%EC%9D%98-%ED%94%8C%EB%9E%98%EC%8B%9C-%ED%81%AC%EB%9E%98%EC%8B%9C%EB%8A%94-%EA%B8%B0%ED%9A%8C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>금 rush는 끝났다: 10월의 플래시 크래시는 기회 · 경제 뉴스 요약</summary>
 
   </entry>
 
