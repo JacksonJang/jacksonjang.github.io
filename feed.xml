@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T02:52:38+09:00</updated>
+  <updated>2025-11-06T03:15:11+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>WBD, 크리스마스까지 매각 또는 분할 발표 예정</title>
+    <link href="/posts/wbd-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%EA%B9%8C%EC%A7%80-%EB%A7%A4%EA%B0%81-%EB%98%90%EB%8A%94-%EB%B6%84%ED%95%A0-%EB%B0%9C%ED%91%9C-%EC%98%88%EC%A0%95/" rel="alternate" type="text/html" title="WBD, 크리스마스까지 매각 또는 분할 발표 예정" />
+    <published>2025-11-06T03:14:33+09:00</published>
+  
+    <updated>2025-11-06T03:14:33+09:00</updated>
+  
+    <id>/posts/wbd-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%EA%B9%8C%EC%A7%80-%EB%A7%A4%EA%B0%81-%EB%98%90%EB%8A%94-%EB%B6%84%ED%95%A0-%EB%B0%9C%ED%91%9C-%EC%98%88%EC%A0%95/</id>
+    <content type="text/html" src="/posts/wbd-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%EA%B9%8C%EC%A7%80-%EB%A7%A4%EA%B0%81-%EB%98%90%EB%8A%94-%EB%B6%84%ED%95%A0-%EB%B0%9C%ED%91%9C-%EC%98%88%EC%A0%95/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>WBD, 크리스마스까지 매각 또는 분할 발표 예정 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>음악 애호가, 치매 위험 40% 감소 가능성 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>모노 자동차 수리 체인, 아이칸의 15% 지분 취득으로 급등</title>
-    <link href="/posts/%EB%AA%A8%EB%85%B8-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%88%98%EB%A6%AC-%EC%B2%B4%EC%9D%B8-%EC%95%84%EC%9D%B4%EC%B9%B8%EC%9D%98-15-%EC%A7%80%EB%B6%84-%EC%B7%A8%EB%93%9D%EC%9C%BC%EB%A1%9C-%EA%B8%89%EB%93%B1/" rel="alternate" type="text/html" title="모노 자동차 수리 체인, 아이칸의 15% 지분 취득으로 급등" />
-    <published>2025-11-06T01:58:40+09:00</published>
-  
-    <updated>2025-11-06T01:58:40+09:00</updated>
-  
-    <id>/posts/%EB%AA%A8%EB%85%B8-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%88%98%EB%A6%AC-%EC%B2%B4%EC%9D%B8-%EC%95%84%EC%9D%B4%EC%B9%B8%EC%9D%98-15-%EC%A7%80%EB%B6%84-%EC%B7%A8%EB%93%9D%EC%9C%BC%EB%A1%9C-%EA%B8%89%EB%93%B1/</id>
-    <content type="text/html" src="/posts/%EB%AA%A8%EB%85%B8-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%88%98%EB%A6%AC-%EC%B2%B4%EC%9D%B8-%EC%95%84%EC%9D%B4%EC%B9%B8%EC%9D%98-15-%EC%A7%80%EB%B6%84-%EC%B7%A8%EB%93%9D%EC%9C%BC%EB%A1%9C-%EA%B8%89%EB%93%B1/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>모노 자동차 수리 체인, 아이칸의 15% 지분 취득으로 급등 · 경제 뉴스 요약</summary>
 
   </entry>
 
