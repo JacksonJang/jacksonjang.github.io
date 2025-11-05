@@ -40,7 +40,7 @@ import feedparser
 # -----------------------------
 MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-5-mini") # gpt-4o-mini , gpt-5-nano , gpt-5-mini
 TEMPERATURE = float(os.getenv("OPENAI_TEMPERATURE", "1.0"))  # gpt-5 권장 1.0
-MAX_OUTPUT_TOKENS = int(os.getenv("OPENAI_MAX_OUTPUT_TOKENS", "3200"))
+MAX_OUTPUT_TOKENS = int(os.getenv("OPENAI_MAX_OUTPUT_TOKENS", 3200))
 TIMEZONE = os.getenv("TIMEZONE", "Asia/Seoul")
 POSTS_DIR = Path(os.getenv("POSTS_DIR", "_posts/auto"))
 OUTPUT_EXT = os.getenv("OUTPUT_EXT", ".md")
@@ -371,7 +371,7 @@ def ai_generate_all(
             model=MODEL_NAME,                      
             temperature=min(TEMPERATURE, 0.3),
             # max_tokens=max(4096, MAX_OUTPUT_TOKENS),
-            max_completion_tokens=max(4096, MAX_OUTPUT_TOKENS)
+            max_completion_tokens=max(4096, MAX_OUTPUT_TOKENS),
             response_format={"type": "json_object"}, 
             messages=[
                 {"role": "system", "content": SEO_SYSTEM},
