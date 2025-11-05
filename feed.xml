@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T17:15:29+09:00</updated>
+  <updated>2025-11-05T17:32:08+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>팔란티어 주가 8% 하락, CEO의 공매도 비난</title>
+    <link href="/posts/%ED%8C%94%EB%9E%80%ED%8B%B0%EC%96%B4-%EC%A3%BC%EA%B0%80-8-%ED%95%98%EB%9D%BD-ceo%EC%9D%98-%EA%B3%B5%EB%A7%A4%EB%8F%84-%EB%B9%84%EB%82%9C/" rel="alternate" type="text/html" title="팔란티어 주가 8% 하락, CEO의 공매도 비난" />
+    <published>2025-11-05T17:31:26+09:00</published>
+  
+    <updated>2025-11-05T17:31:26+09:00</updated>
+  
+    <id>/posts/%ED%8C%94%EB%9E%80%ED%8B%B0%EC%96%B4-%EC%A3%BC%EA%B0%80-8-%ED%95%98%EB%9D%BD-ceo%EC%9D%98-%EA%B3%B5%EB%A7%A4%EB%8F%84-%EB%B9%84%EB%82%9C/</id>
+    <content type="text/html" src="/posts/%ED%8C%94%EB%9E%80%ED%8B%B0%EC%96%B4-%EC%A3%BC%EA%B0%80-8-%ED%95%98%EB%9D%BD-ceo%EC%9D%98-%EA%B3%B5%EB%A7%A4%EB%8F%84-%EB%B9%84%EB%82%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>팔란티어 주가 8% 하락, CEO의 공매도 비난 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Novo Nordisk의 성장 전망 하향 조정 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>재러드 아이잭맨, NASA 수장 재지명</title>
-    <link href="/posts/%EC%9E%AC%EB%9F%AC%EB%93%9C-%EC%95%84%EC%9D%B4%EC%9E%AD%EB%A7%A8-nasa-%EC%88%98%EC%9E%A5-%EC%9E%AC%EC%A7%80%EB%AA%85/" rel="alternate" type="text/html" title="재러드 아이잭맨, NASA 수장 재지명" />
-    <published>2025-11-05T15:46:08+09:00</published>
-  
-    <updated>2025-11-05T15:46:08+09:00</updated>
-  
-    <id>/posts/%EC%9E%AC%EB%9F%AC%EB%93%9C-%EC%95%84%EC%9D%B4%EC%9E%AD%EB%A7%A8-nasa-%EC%88%98%EC%9E%A5-%EC%9E%AC%EC%A7%80%EB%AA%85/</id>
-    <content type="text/html" src="/posts/%EC%9E%AC%EB%9F%AC%EB%93%9C-%EC%95%84%EC%9D%B4%EC%9E%AD%EB%A7%A8-nasa-%EC%88%98%EC%9E%A5-%EC%9E%AC%EC%A7%80%EB%AA%85/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>재러드 아이잭맨, NASA 수장 재지명 · 경제 뉴스 요약</summary>
 
   </entry>
 
