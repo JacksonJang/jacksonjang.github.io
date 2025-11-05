@@ -326,6 +326,42 @@ SEO_SYSTEM = (
     "Avoid hype; be precise and neutral; cite only provided info; do not invent dates."
 )
 
+AI_RESPONSE_SCHEMA = {
+    "type": "json_schema",
+    "json_schema": {
+        "name": "seo_news_post",
+        "schema": {
+            "type": "object",
+            "properties": {
+                "title": {"type": "string"},
+                "body_md": {"type": "string"},
+                "terms": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "maxItems": 12,
+                },
+                "related": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "symbol": {"type": "string"},
+                            "name": {"type": "string"},
+                            "why": {"type": "string"},
+                        },
+                        "required": ["symbol", "name"],
+                        "additionalProperties": False,
+                    },
+                    "maxItems": 6,
+                },
+            },
+            "required": ["title", "body_md", "terms", "related"],
+            "additionalProperties": False,
+        },
+        "strict": True,
+    },
+}
+
 def ai_generate_all(
     item: NewsItem,
     today_str: str,
@@ -377,6 +413,7 @@ def ai_generate_all(
             tools=[{"type": "web_search"}],    # web_search 사용
             temperature=TEMPERATURE,
             max_output_tokens=MAX_OUTPUT_TOKENS,
+            response_format=AI_RESPONSE_SCHEMA,
         )
 
         # 결과 텍스트 추출 (SDK별 호환)
