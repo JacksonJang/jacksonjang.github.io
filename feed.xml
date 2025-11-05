@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T05:47:45+09:00</updated>
+  <updated>2025-11-06T05:54:40+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>구글 클라우드, 월가의 성장 예측을 넘을까?</title>
+    <link href="/posts/%EA%B5%AC%EA%B8%80-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%9B%94%EA%B0%80%EC%9D%98-%EC%84%B1%EC%9E%A5-%EC%98%88%EC%B8%A1%EC%9D%84-%EB%84%98%EC%9D%84%EA%B9%8C/" rel="alternate" type="text/html" title="구글 클라우드, 월가의 성장 예측을 넘을까?" />
+    <published>2025-11-06T05:54:05+09:00</published>
+  
+    <updated>2025-11-06T05:54:05+09:00</updated>
+  
+    <id>/posts/%EA%B5%AC%EA%B8%80-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%9B%94%EA%B0%80%EC%9D%98-%EC%84%B1%EC%9E%A5-%EC%98%88%EC%B8%A1%EC%9D%84-%EB%84%98%EC%9D%84%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/%EA%B5%AC%EA%B8%80-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%9B%94%EA%B0%80%EC%9D%98-%EC%84%B1%EC%9E%A5-%EC%98%88%EC%B8%A1%EC%9D%84-%EB%84%98%EC%9D%84%EA%B9%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>구글 클라우드, 월가의 성장 예측을 넘을까? · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>세금 낭비? 실버스니커즈와 메디케어 혜택 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>뉴욕 타임스, 구독자 증가로 수익 개선</title>
-    <link href="/posts/%EB%89%B4%EC%9A%95-%ED%83%80%EC%9E%84%EC%8A%A4-%EA%B5%AC%EB%8F%85%EC%9E%90-%EC%A6%9D%EA%B0%80%EB%A1%9C-%EC%88%98%EC%9D%B5-%EA%B0%9C%EC%84%A0/" rel="alternate" type="text/html" title="뉴욕 타임스, 구독자 증가로 수익 개선" />
-    <published>2025-11-06T04:43:10+09:00</published>
-  
-    <updated>2025-11-06T04:43:10+09:00</updated>
-  
-    <id>/posts/%EB%89%B4%EC%9A%95-%ED%83%80%EC%9E%84%EC%8A%A4-%EA%B5%AC%EB%8F%85%EC%9E%90-%EC%A6%9D%EA%B0%80%EB%A1%9C-%EC%88%98%EC%9D%B5-%EA%B0%9C%EC%84%A0/</id>
-    <content type="text/html" src="/posts/%EB%89%B4%EC%9A%95-%ED%83%80%EC%9E%84%EC%8A%A4-%EA%B5%AC%EB%8F%85%EC%9E%90-%EC%A6%9D%EA%B0%80%EB%A1%9C-%EC%88%98%EC%9D%B5-%EA%B0%9C%EC%84%A0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>뉴욕 타임스, 구독자 증가로 수익 개선 · 경제 뉴스 요약</summary>
 
   </entry>
 
