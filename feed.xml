@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T19:39:14+09:00</updated>
+  <updated>2025-11-05T19:50:50+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>노보 노디스크, 매출 전망 하향 조정</title>
+    <link href="/posts/%EB%85%B8%EB%B3%B4-%EB%85%B8%EB%94%94%EC%8A%A4%ED%81%AC-%EB%A7%A4%EC%B6%9C-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="노보 노디스크, 매출 전망 하향 조정" />
+    <published>2025-11-05T19:50:14+09:00</published>
+  
+    <updated>2025-11-05T19:50:14+09:00</updated>
+  
+    <id>/posts/%EB%85%B8%EB%B3%B4-%EB%85%B8%EB%94%94%EC%8A%A4%ED%81%AC-%EB%A7%A4%EC%B6%9C-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/</id>
+    <content type="text/html" src="/posts/%EB%85%B8%EB%B3%B4-%EB%85%B8%EB%94%94%EC%8A%A4%ED%81%AC-%EB%A7%A4%EC%B6%9C-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>노보 노디스크, 매출 전망 하향 조정 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>10월 구인공고, 2021년 2월 이후 최저치 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>FTX 창립자 Bankman-Fried의 유죄 판결 도전</title>
-    <link href="/posts/ftx-%EC%B0%BD%EB%A6%BD%EC%9E%90-bankman-fried%EC%9D%98-%EC%9C%A0%EC%A3%84-%ED%8C%90%EA%B2%B0-%EB%8F%84%EC%A0%84/" rel="alternate" type="text/html" title="FTX 창립자 Bankman-Fried의 유죄 판결 도전" />
-    <published>2025-11-05T18:37:21+09:00</published>
-  
-    <updated>2025-11-05T18:37:21+09:00</updated>
-  
-    <id>/posts/ftx-%EC%B0%BD%EB%A6%BD%EC%9E%90-bankman-fried%EC%9D%98-%EC%9C%A0%EC%A3%84-%ED%8C%90%EA%B2%B0-%EB%8F%84%EC%A0%84/</id>
-    <content type="text/html" src="/posts/ftx-%EC%B0%BD%EB%A6%BD%EC%9E%90-bankman-fried%EC%9D%98-%EC%9C%A0%EC%A3%84-%ED%8C%90%EA%B2%B0-%EB%8F%84%EC%A0%84/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>FTX 창립자 Bankman-Fried의 유죄 판결 도전 · 경제 뉴스 요약</summary>
 
   </entry>
 
