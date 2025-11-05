@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T18:49:13+09:00</updated>
+  <updated>2025-11-05T18:55:35+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>연준 정책 입안자들, 12월 회의 앞두고 입장 정리</title>
+    <link href="/posts/%EC%97%B0%EC%A4%80-%EC%A0%95%EC%B1%85-%EC%9E%85%EC%95%88%EC%9E%90%EB%93%A4-12%EC%9B%94-%ED%9A%8C%EC%9D%98-%EC%95%9E%EB%91%90%EA%B3%A0-%EC%9E%85%EC%9E%A5-%EC%A0%95%EB%A6%AC/" rel="alternate" type="text/html" title="연준 정책 입안자들, 12월 회의 앞두고 입장 정리" />
+    <published>2025-11-05T18:55:04+09:00</published>
+  
+    <updated>2025-11-05T18:55:04+09:00</updated>
+  
+    <id>/posts/%EC%97%B0%EC%A4%80-%EC%A0%95%EC%B1%85-%EC%9E%85%EC%95%88%EC%9E%90%EB%93%A4-12%EC%9B%94-%ED%9A%8C%EC%9D%98-%EC%95%9E%EB%91%90%EA%B3%A0-%EC%9E%85%EC%9E%A5-%EC%A0%95%EB%A6%AC/</id>
+    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80-%EC%A0%95%EC%B1%85-%EC%9E%85%EC%95%88%EC%9E%90%EB%93%A4-12%EC%9B%94-%ED%9A%8C%EC%9D%98-%EC%95%9E%EB%91%90%EA%B3%A0-%EC%9E%85%EC%9E%A5-%EC%A0%95%EB%A6%AC/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>연준 정책 입안자들, 12월 회의 앞두고 입장 정리 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Eli Lilly 주식, DuPont의 계획 순조롭게 진행 중 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 정부 셧다운, 최장 기록 경신 위기</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%B5%9C%EC%9E%A5-%EA%B8%B0%EB%A1%9D-%EA%B2%BD%EC%8B%A0-%EC%9C%84%EA%B8%B0/" rel="alternate" type="text/html" title="미국 정부 셧다운, 최장 기록 경신 위기" />
-    <published>2025-11-05T17:43:12+09:00</published>
-  
-    <updated>2025-11-05T17:43:12+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%B5%9C%EC%9E%A5-%EA%B8%B0%EB%A1%9D-%EA%B2%BD%EC%8B%A0-%EC%9C%84%EA%B8%B0/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%B5%9C%EC%9E%A5-%EA%B8%B0%EB%A1%9D-%EA%B2%BD%EC%8B%A0-%EC%9C%84%EA%B8%B0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 정부 셧다운, 최장 기록 경신 위기 · 경제 뉴스 요약</summary>
 
   </entry>
 
