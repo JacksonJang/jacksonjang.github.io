@@ -370,7 +370,8 @@ def ai_generate_all(
         resp = _openai_client.chat.completions.create(
             model=MODEL_NAME,                      
             temperature=min(TEMPERATURE, 0.3),
-            max_tokens=max(4096, MAX_OUTPUT_TOKENS),
+            # max_tokens=max(4096, MAX_OUTPUT_TOKENS),
+            max_completion_tokens=max(4096, MAX_OUTPUT_TOKENS)
             response_format={"type": "json_object"}, 
             messages=[
                 {"role": "system", "content": SEO_SYSTEM},
