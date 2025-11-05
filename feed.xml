@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T22:53:12+09:00</updated>
+  <updated>2025-11-05T23:11:16+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>아마존 주식의 긍정적 전망, 두 가지 요인</title>
+    <link href="/posts/%EC%95%84%EB%A7%88%EC%A1%B4-%EC%A3%BC%EC%8B%9D%EC%9D%98-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D-%EB%91%90-%EA%B0%80%EC%A7%80-%EC%9A%94%EC%9D%B8/" rel="alternate" type="text/html" title="아마존 주식의 긍정적 전망, 두 가지 요인" />
+    <published>2025-11-05T23:10:31+09:00</published>
+  
+    <updated>2025-11-05T23:10:31+09:00</updated>
+  
+    <id>/posts/%EC%95%84%EB%A7%88%EC%A1%B4-%EC%A3%BC%EC%8B%9D%EC%9D%98-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D-%EB%91%90-%EA%B0%80%EC%A7%80-%EC%9A%94%EC%9D%B8/</id>
+    <content type="text/html" src="/posts/%EC%95%84%EB%A7%88%EC%A1%B4-%EC%A3%BC%EC%8B%9D%EC%9D%98-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D-%EB%91%90-%EA%B0%80%EC%A7%80-%EC%9A%94%EC%9D%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>아마존 주식의 긍정적 전망, 두 가지 요인 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>포트폴리오 리스크 노출 재평가 필요성 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>AI 생산성 역설, 기업의 고립 원인 분석</title>
-    <link href="/posts/ai-%EC%83%9D%EC%82%B0%EC%84%B1-%EC%97%AD%EC%84%A4-%EA%B8%B0%EC%97%85%EC%9D%98-%EA%B3%A0%EB%A6%BD-%EC%9B%90%EC%9D%B8-%EB%B6%84%EC%84%9D/" rel="alternate" type="text/html" title="AI 생산성 역설, 기업의 고립 원인 분석" />
-    <published>2025-11-05T20:51:44+09:00</published>
-  
-    <updated>2025-11-05T20:51:44+09:00</updated>
-  
-    <id>/posts/ai-%EC%83%9D%EC%82%B0%EC%84%B1-%EC%97%AD%EC%84%A4-%EA%B8%B0%EC%97%85%EC%9D%98-%EA%B3%A0%EB%A6%BD-%EC%9B%90%EC%9D%B8-%EB%B6%84%EC%84%9D/</id>
-    <content type="text/html" src="/posts/ai-%EC%83%9D%EC%82%B0%EC%84%B1-%EC%97%AD%EC%84%A4-%EA%B8%B0%EC%97%85%EC%9D%98-%EA%B3%A0%EB%A6%BD-%EC%9B%90%EC%9D%B8-%EB%B6%84%EC%84%9D/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>AI 생산성 역설, 기업의 고립 원인 분석 · 경제 뉴스 요약</summary>
 
   </entry>
 
