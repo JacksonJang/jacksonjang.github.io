@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T08:45:36+09:00</updated>
+  <updated>2025-11-06T08:52:42+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>주택 가격 상승: 시어머니 땅에 집을 짓다</title>
+    <link href="/posts/%EC%A3%BC%ED%83%9D-%EA%B0%80%EA%B2%A9-%EC%83%81%EC%8A%B9-%EC%8B%9C%EC%96%B4%EB%A8%B8%EB%8B%88-%EB%95%85%EC%97%90-%EC%A7%91%EC%9D%84-%EC%A7%93%EB%8B%A4/" rel="alternate" type="text/html" title="주택 가격 상승: 시어머니 땅에 집을 짓다" />
+    <published>2025-11-06T08:51:43+09:00</published>
+  
+    <updated>2025-11-06T08:51:43+09:00</updated>
+  
+    <id>/posts/%EC%A3%BC%ED%83%9D-%EA%B0%80%EA%B2%A9-%EC%83%81%EC%8A%B9-%EC%8B%9C%EC%96%B4%EB%A8%B8%EB%8B%88-%EB%95%85%EC%97%90-%EC%A7%91%EC%9D%84-%EC%A7%93%EB%8B%A4/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%ED%83%9D-%EA%B0%80%EA%B2%A9-%EC%83%81%EC%8A%B9-%EC%8B%9C%EC%96%B4%EB%A8%B8%EB%8B%88-%EB%95%85%EC%97%90-%EC%A7%91%EC%9D%84-%EC%A7%93%EB%8B%A4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>주택 가격 상승: 시어머니 땅에 집을 짓다 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>AMC, 수익 기대 초과 달성 및 넷플릭스와 협력 희망 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>주식 시장의 불안 신호, 투자자에게 경고</title>
-    <link href="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EB%B6%88%EC%95%88-%EC%8B%A0%ED%98%B8-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0/" rel="alternate" type="text/html" title="주식 시장의 불안 신호, 투자자에게 경고" />
-    <published>2025-11-06T07:51:15+09:00</published>
-  
-    <updated>2025-11-06T07:51:15+09:00</updated>
-  
-    <id>/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EB%B6%88%EC%95%88-%EC%8B%A0%ED%98%B8-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0/</id>
-    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EB%B6%88%EC%95%88-%EC%8B%A0%ED%98%B8-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>주식 시장의 불안 신호, 투자자에게 경고 · 경제 뉴스 요약</summary>
 
   </entry>
 
