@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T04:28:11+09:00</updated>
+  <updated>2025-11-06T04:36:33+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>S&amp;P 500, 기술주 매수로 상승</title>
+    <link href="/posts/sp-500-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EB%A7%A4%EC%88%98%EB%A1%9C-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="S&amp;amp;P 500, 기술주 매수로 상승" />
+    <published>2025-11-06T04:35:54+09:00</published>
+  
+    <updated>2025-11-06T04:35:54+09:00</updated>
+  
+    <id>/posts/sp-500-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EB%A7%A4%EC%88%98%EB%A1%9C-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/sp-500-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EB%A7%A4%EC%88%98%EB%A1%9C-%EC%83%81%EC%8A%B9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>S&amp;amp;P 500, 기술주 매수로 상승 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Axon, 3분기 실적 부진으로 11% 급락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>WBD, 크리스마스까지 매각 또는 분할 발표 예정</title>
-    <link href="/posts/wbd-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%EA%B9%8C%EC%A7%80-%EB%A7%A4%EA%B0%81-%EB%98%90%EB%8A%94-%EB%B6%84%ED%95%A0-%EB%B0%9C%ED%91%9C-%EC%98%88%EC%A0%95/" rel="alternate" type="text/html" title="WBD, 크리스마스까지 매각 또는 분할 발표 예정" />
-    <published>2025-11-06T03:14:33+09:00</published>
-  
-    <updated>2025-11-06T03:14:33+09:00</updated>
-  
-    <id>/posts/wbd-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%EA%B9%8C%EC%A7%80-%EB%A7%A4%EA%B0%81-%EB%98%90%EB%8A%94-%EB%B6%84%ED%95%A0-%EB%B0%9C%ED%91%9C-%EC%98%88%EC%A0%95/</id>
-    <content type="text/html" src="/posts/wbd-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%EA%B9%8C%EC%A7%80-%EB%A7%A4%EA%B0%81-%EB%98%90%EB%8A%94-%EB%B6%84%ED%95%A0-%EB%B0%9C%ED%91%9C-%EC%98%88%EC%A0%95/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>WBD, 크리스마스까지 매각 또는 분할 발표 예정 · 경제 뉴스 요약</summary>
 
   </entry>
 
