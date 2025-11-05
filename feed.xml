@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T20:46:08+09:00</updated>
+  <updated>2025-11-05T20:52:20+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AI 생산성 역설, 기업의 고립 원인 분석</title>
+    <link href="/posts/ai-%EC%83%9D%EC%82%B0%EC%84%B1-%EC%97%AD%EC%84%A4-%EA%B8%B0%EC%97%85%EC%9D%98-%EA%B3%A0%EB%A6%BD-%EC%9B%90%EC%9D%B8-%EB%B6%84%EC%84%9D/" rel="alternate" type="text/html" title="AI 생산성 역설, 기업의 고립 원인 분석" />
+    <published>2025-11-05T20:51:44+09:00</published>
+  
+    <updated>2025-11-05T20:51:44+09:00</updated>
+  
+    <id>/posts/ai-%EC%83%9D%EC%82%B0%EC%84%B1-%EC%97%AD%EC%84%A4-%EA%B8%B0%EC%97%85%EC%9D%98-%EA%B3%A0%EB%A6%BD-%EC%9B%90%EC%9D%B8-%EB%B6%84%EC%84%9D/</id>
+    <content type="text/html" src="/posts/ai-%EC%83%9D%EC%82%B0%EC%84%B1-%EC%97%AD%EC%84%A4-%EA%B8%B0%EC%97%85%EC%9D%98-%EA%B3%A0%EB%A6%BD-%EC%9B%90%EC%9D%B8-%EB%B6%84%EC%84%9D/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>AI 생산성 역설, 기업의 고립 원인 분석 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>토요타, 미국 관세에도 연간 이익 전망 상향 조정 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>노보 노디스크, 매출 전망 하향 조정</title>
-    <link href="/posts/%EB%85%B8%EB%B3%B4-%EB%85%B8%EB%94%94%EC%8A%A4%ED%81%AC-%EB%A7%A4%EC%B6%9C-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="노보 노디스크, 매출 전망 하향 조정" />
-    <published>2025-11-05T19:50:14+09:00</published>
-  
-    <updated>2025-11-05T19:50:14+09:00</updated>
-  
-    <id>/posts/%EB%85%B8%EB%B3%B4-%EB%85%B8%EB%94%94%EC%8A%A4%ED%81%AC-%EB%A7%A4%EC%B6%9C-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/</id>
-    <content type="text/html" src="/posts/%EB%85%B8%EB%B3%B4-%EB%85%B8%EB%94%94%EC%8A%A4%ED%81%AC-%EB%A7%A4%EC%B6%9C-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>노보 노디스크, 매출 전망 하향 조정 · 경제 뉴스 요약</summary>
 
   </entry>
 
