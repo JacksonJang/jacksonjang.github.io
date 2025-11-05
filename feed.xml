@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T23:57:45+09:00</updated>
+  <updated>2025-11-06T00:15:10+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>트럼프, 민주당의 선거 압승에 대한 반응</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EB%AF%BC%EC%A3%BC%EB%8B%B9%EC%9D%98-%EC%84%A0%EA%B1%B0-%EC%95%95%EC%8A%B9%EC%97%90-%EB%8C%80%ED%95%9C-%EB%B0%98%EC%9D%91/" rel="alternate" type="text/html" title="트럼프, 민주당의 선거 압승에 대한 반응" />
+    <published>2025-11-06T00:14:22+09:00</published>
+  
+    <updated>2025-11-06T00:14:22+09:00</updated>
+  
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EB%AF%BC%EC%A3%BC%EB%8B%B9%EC%9D%98-%EC%84%A0%EA%B1%B0-%EC%95%95%EC%8A%B9%EC%97%90-%EB%8C%80%ED%95%9C-%EB%B0%98%EC%9D%91/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EB%AF%BC%EC%A3%BC%EB%8B%B9%EC%9D%98-%EC%84%A0%EA%B1%B0-%EC%95%95%EC%8A%B9%EC%97%90-%EB%8C%80%ED%95%9C-%EB%B0%98%EC%9D%91/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>트럼프, 민주당의 선거 압승에 대한 반응 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>아마존 주식의 긍정적 전망, 두 가지 요인 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>맥도날드, 매출 기대 이상 기록하며 고객 지출 증가</title>
-    <link href="/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C-%EB%A7%A4%EC%B6%9C-%EA%B8%B0%EB%8C%80-%EC%9D%B4%EC%83%81-%EA%B8%B0%EB%A1%9D%ED%95%98%EB%A9%B0-%EA%B3%A0%EA%B0%9D-%EC%A7%80%EC%B6%9C-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="맥도날드, 매출 기대 이상 기록하며 고객 지출 증가" />
-    <published>2025-11-05T22:52:27+09:00</published>
-  
-    <updated>2025-11-05T22:52:27+09:00</updated>
-  
-    <id>/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C-%EB%A7%A4%EC%B6%9C-%EA%B8%B0%EB%8C%80-%EC%9D%B4%EC%83%81-%EA%B8%B0%EB%A1%9D%ED%95%98%EB%A9%B0-%EA%B3%A0%EA%B0%9D-%EC%A7%80%EC%B6%9C-%EC%A6%9D%EA%B0%80/</id>
-    <content type="text/html" src="/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C-%EB%A7%A4%EC%B6%9C-%EA%B8%B0%EB%8C%80-%EC%9D%B4%EC%83%81-%EA%B8%B0%EB%A1%9D%ED%95%98%EB%A9%B0-%EA%B3%A0%EA%B0%9D-%EC%A7%80%EC%B6%9C-%EC%A6%9D%EA%B0%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>맥도날드, 매출 기대 이상 기록하며 고객 지출 증가 · 경제 뉴스 요약</summary>
 
   </entry>
 
