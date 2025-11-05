@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T17:43:53+09:00</updated>
+  <updated>2025-11-05T17:58:31+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Eli Lilly 주식, DuPont의 계획 순조롭게 진행 중</title>
+    <link href="/posts/eli-lilly-%EC%A3%BC%EC%8B%9D-dupont%EC%9D%98-%EA%B3%84%ED%9A%8D-%EC%88%9C%EC%A1%B0%EB%A1%AD%EA%B2%8C-%EC%A7%84%ED%96%89-%EC%A4%91/" rel="alternate" type="text/html" title="Eli Lilly 주식, DuPont의 계획 순조롭게 진행 중" />
+    <published>2025-11-05T17:57:57+09:00</published>
+  
+    <updated>2025-11-05T17:57:57+09:00</updated>
+  
+    <id>/posts/eli-lilly-%EC%A3%BC%EC%8B%9D-dupont%EC%9D%98-%EA%B3%84%ED%9A%8D-%EC%88%9C%EC%A1%B0%EB%A1%AD%EA%B2%8C-%EC%A7%84%ED%96%89-%EC%A4%91/</id>
+    <content type="text/html" src="/posts/eli-lilly-%EC%A3%BC%EC%8B%9D-dupont%EC%9D%98-%EA%B3%84%ED%9A%8D-%EC%88%9C%EC%A1%B0%EB%A1%AD%EA%B2%8C-%EC%A7%84%ED%96%89-%EC%A4%91/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Eli Lilly 주식, DuPont의 계획 순조롭게 진행 중 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Cava, 연간 전망 하향 조정 - 패스트 캐주얼 경고 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>학생들이 AI에 대해 긍정적인 반응을 보이다</title>
-    <link href="/posts/%ED%95%99%EC%83%9D%EB%93%A4%EC%9D%B4-ai%EC%97%90-%EB%8C%80%ED%95%B4-%EA%B8%8D%EC%A0%95%EC%A0%81%EC%9D%B8-%EB%B0%98%EC%9D%91%EC%9D%84-%EB%B3%B4%EC%9D%B4%EB%8B%A4/" rel="alternate" type="text/html" title="학생들이 AI에 대해 긍정적인 반응을 보이다" />
-    <published>2025-11-05T16:56:04+09:00</published>
-  
-    <updated>2025-11-05T16:56:04+09:00</updated>
-  
-    <id>/posts/%ED%95%99%EC%83%9D%EB%93%A4%EC%9D%B4-ai%EC%97%90-%EB%8C%80%ED%95%B4-%EA%B8%8D%EC%A0%95%EC%A0%81%EC%9D%B8-%EB%B0%98%EC%9D%91%EC%9D%84-%EB%B3%B4%EC%9D%B4%EB%8B%A4/</id>
-    <content type="text/html" src="/posts/%ED%95%99%EC%83%9D%EB%93%A4%EC%9D%B4-ai%EC%97%90-%EB%8C%80%ED%95%B4-%EA%B8%8D%EC%A0%95%EC%A0%81%EC%9D%B8-%EB%B0%98%EC%9D%91%EC%9D%84-%EB%B3%B4%EC%9D%B4%EB%8B%A4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>학생들이 AI에 대해 긍정적인 반응을 보이다 · 경제 뉴스 요약</summary>
 
   </entry>
 
