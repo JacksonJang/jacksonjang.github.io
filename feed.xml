@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T06:09:53+09:00</updated>
+  <updated>2025-11-06T06:28:21+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Snap, 강력한 전망에 25% 주가 급등</title>
+    <link href="/posts/snap-%EA%B0%95%EB%A0%A5%ED%95%9C-%EC%A0%84%EB%A7%9D%EC%97%90-25-%EC%A3%BC%EA%B0%80-%EA%B8%89%EB%93%B1/" rel="alternate" type="text/html" title="Snap, 강력한 전망에 25% 주가 급등" />
+    <published>2025-11-06T06:27:41+09:00</published>
+  
+    <updated>2025-11-06T06:27:41+09:00</updated>
+  
+    <id>/posts/snap-%EA%B0%95%EB%A0%A5%ED%95%9C-%EC%A0%84%EB%A7%9D%EC%97%90-25-%EC%A3%BC%EA%B0%80-%EA%B8%89%EB%93%B1/</id>
+    <content type="text/html" src="/posts/snap-%EA%B0%95%EB%A0%A5%ED%95%9C-%EC%A0%84%EB%A7%9D%EC%97%90-25-%EC%A3%BC%EA%B0%80-%EA%B8%89%EB%93%B1/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Snap, 강력한 전망에 25% 주가 급등 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>캐나다 주식, S&amp;amp;P/TSX 복합지수 1.14% 상승 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>부유함의 의미: 20대부터 80대까지</title>
-    <link href="/posts/%EB%B6%80%EC%9C%A0%ED%95%A8%EC%9D%98-%EC%9D%98%EB%AF%B8-20%EB%8C%80%EB%B6%80%ED%84%B0-80%EB%8C%80%EA%B9%8C%EC%A7%80/" rel="alternate" type="text/html" title="부유함의 의미: 20대부터 80대까지" />
-    <published>2025-11-06T05:11:55+09:00</published>
-  
-    <updated>2025-11-06T05:11:55+09:00</updated>
-  
-    <id>/posts/%EB%B6%80%EC%9C%A0%ED%95%A8%EC%9D%98-%EC%9D%98%EB%AF%B8-20%EB%8C%80%EB%B6%80%ED%84%B0-80%EB%8C%80%EA%B9%8C%EC%A7%80/</id>
-    <content type="text/html" src="/posts/%EB%B6%80%EC%9C%A0%ED%95%A8%EC%9D%98-%EC%9D%98%EB%AF%B8-20%EB%8C%80%EB%B6%80%ED%84%B0-80%EB%8C%80%EA%B9%8C%EC%A7%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>부유함의 의미: 20대부터 80대까지 · 경제 뉴스 요약</summary>
 
   </entry>
 
