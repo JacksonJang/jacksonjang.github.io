@@ -368,50 +368,20 @@ def ai_generate_all(
 """
 
     try:
-        resp = _openai_client.responses.create(
-            model=model_name,
-            input=[
+        resp = _openai_client.chat.completions.create(
+            model=model_name,                        # ex) gpt-4o-mini
+            temperature=min(TEMPERATURE, 0.3),
+            max_tokens=max(4096, MAX_OUTPUT_TOKENS),
+            response_format={"type": "json_object"},  # ★ JSON 강제
+            messages=[
                 {"role": "system", "content": SEO_SYSTEM},
                 {"role": "user", "content": user_prompt}
             ],
-            tool_choice="none",  # 텍스트만 받도록
-            temperature=min(TEMPERATURE, 0.3),
-            max_output_tokens=max(4096, MAX_OUTPUT_TOKENS),
-            response_format={
-                "type": "json_schema",
-                "json_schema": {
-                    "name": "seo_post",
-                    "schema": {
-                        "type": "object",
-                        "required": ["title", "body_md"],
-                        "properties": {
-                            "title": {"type": "string", "maxLength": 60},
-                            "body_md": {"type": "string"},
-                            "terms": {"type": "array", "items": {"type": "string"}, "maxItems": 12},
-                            "related": {
-                                "type": "array", "maxItems": 6,
-                                "items": {
-                                    "type": "object",
-                                    "required": ["symbol", "name"],
-                                    "properties": {
-                                        "symbol": {"type": "string"},
-                                        "name": {"type": "string"},
-                                        "why": {"type": "string"}
-                                    },
-                                    "additionalProperties": False
-                                }
-                            }
-                        },
-                        "additionalProperties": False
-                    },
-                    "strict": True
-                }
-            },
         )
 
-
-        # 결과 텍스트 추출 (SDK별 호환)
-        txt = getattr(resp, "output_text", None)
+        # 표준 추출
+        txt = resp.choices[0].message.content.strip()
+        data = json.loads(txt)
         if not txt:
             try:
                 blocks = getattr(resp, "output", [])
