@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T19:50:50+09:00</updated>
+  <updated>2025-11-05T19:57:02+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>토요타, 미국 관세에도 연간 이익 전망 상향 조정</title>
+    <link href="/posts/%ED%86%A0%EC%9A%94%ED%83%80-%EB%AF%B8%EA%B5%AD-%EA%B4%80%EC%84%B8%EC%97%90%EB%8F%84-%EC%97%B0%EA%B0%84-%EC%9D%B4%EC%9D%B5-%EC%A0%84%EB%A7%9D-%EC%83%81%ED%96%A5-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="토요타, 미국 관세에도 연간 이익 전망 상향 조정" />
+    <published>2025-11-05T19:56:24+09:00</published>
+  
+    <updated>2025-11-05T19:56:24+09:00</updated>
+  
+    <id>/posts/%ED%86%A0%EC%9A%94%ED%83%80-%EB%AF%B8%EA%B5%AD-%EA%B4%80%EC%84%B8%EC%97%90%EB%8F%84-%EC%97%B0%EA%B0%84-%EC%9D%B4%EC%9D%B5-%EC%A0%84%EB%A7%9D-%EC%83%81%ED%96%A5-%EC%A1%B0%EC%A0%95/</id>
+    <content type="text/html" src="/posts/%ED%86%A0%EC%9A%94%ED%83%80-%EB%AF%B8%EA%B5%AD-%EA%B4%80%EC%84%B8%EC%97%90%EB%8F%84-%EC%97%B0%EA%B0%84-%EC%9D%B4%EC%9D%B5-%EC%A0%84%EB%A7%9D-%EC%83%81%ED%96%A5-%EC%A1%B0%EC%A0%95/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>토요타, 미국 관세에도 연간 이익 전망 상향 조정 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>연준 정책 입안자들, 12월 회의 앞두고 입장 정리 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>10월 구인공고, 2021년 2월 이후 최저치</title>
-    <link href="/posts/10%EC%9B%94-%EA%B5%AC%EC%9D%B8%EA%B3%B5%EA%B3%A0-2021%EB%85%84-2%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B5%9C%EC%A0%80%EC%B9%98/" rel="alternate" type="text/html" title="10월 구인공고, 2021년 2월 이후 최저치" />
-    <published>2025-11-05T18:48:33+09:00</published>
-  
-    <updated>2025-11-05T18:48:33+09:00</updated>
-  
-    <id>/posts/10%EC%9B%94-%EA%B5%AC%EC%9D%B8%EA%B3%B5%EA%B3%A0-2021%EB%85%84-2%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B5%9C%EC%A0%80%EC%B9%98/</id>
-    <content type="text/html" src="/posts/10%EC%9B%94-%EA%B5%AC%EC%9D%B8%EA%B3%B5%EA%B3%A0-2021%EB%85%84-2%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B5%9C%EC%A0%80%EC%B9%98/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>10월 구인공고, 2021년 2월 이후 최저치 · 경제 뉴스 요약</summary>
 
   </entry>
 
