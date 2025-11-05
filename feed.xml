@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T07:10:22+09:00</updated>
+  <updated>2025-11-06T07:31:43+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>FAA, 정부 셧다운으로 40개 공항 10% 감축</title>
+    <link href="/posts/faa-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4%EC%9C%BC%EB%A1%9C-40%EA%B0%9C-%EA%B3%B5%ED%95%AD-10-%EA%B0%90%EC%B6%95/" rel="alternate" type="text/html" title="FAA, 정부 셧다운으로 40개 공항 10% 감축" />
+    <published>2025-11-06T07:31:00+09:00</published>
+  
+    <updated>2025-11-06T07:31:00+09:00</updated>
+  
+    <id>/posts/faa-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4%EC%9C%BC%EB%A1%9C-40%EA%B0%9C-%EA%B3%B5%ED%95%AD-10-%EA%B0%90%EC%B6%95/</id>
+    <content type="text/html" src="/posts/faa-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4%EC%9C%BC%EB%A1%9C-40%EA%B0%9C-%EA%B3%B5%ED%95%AD-10-%EA%B0%90%EC%B6%95/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>FAA, 정부 셧다운으로 40개 공항 10% 감축 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>E.l.f. Beauty 주가 29% 급락, 약한 가이던스 영향 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Snap, 강력한 전망에 25% 주가 급등</title>
-    <link href="/posts/snap-%EA%B0%95%EB%A0%A5%ED%95%9C-%EC%A0%84%EB%A7%9D%EC%97%90-25-%EC%A3%BC%EA%B0%80-%EA%B8%89%EB%93%B1/" rel="alternate" type="text/html" title="Snap, 강력한 전망에 25% 주가 급등" />
-    <published>2025-11-06T06:27:41+09:00</published>
-  
-    <updated>2025-11-06T06:27:41+09:00</updated>
-  
-    <id>/posts/snap-%EA%B0%95%EB%A0%A5%ED%95%9C-%EC%A0%84%EB%A7%9D%EC%97%90-25-%EC%A3%BC%EA%B0%80-%EA%B8%89%EB%93%B1/</id>
-    <content type="text/html" src="/posts/snap-%EA%B0%95%EB%A0%A5%ED%95%9C-%EC%A0%84%EB%A7%9D%EC%97%90-25-%EC%A3%BC%EA%B0%80-%EA%B8%89%EB%93%B1/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Snap, 강력한 전망에 25% 주가 급등 · 경제 뉴스 요약</summary>
 
   </entry>
 
