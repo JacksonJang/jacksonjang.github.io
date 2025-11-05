@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T07:31:43+09:00</updated>
+  <updated>2025-11-06T07:46:04+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>퀄컴, 세금 충당금으로 실적 타격 및 주가 하락</title>
+    <link href="/posts/%ED%80%84%EC%BB%B4-%EC%84%B8%EA%B8%88-%EC%B6%A9%EB%8B%B9%EA%B8%88%EC%9C%BC%EB%A1%9C-%EC%8B%A4%EC%A0%81-%ED%83%80%EA%B2%A9-%EB%B0%8F-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="퀄컴, 세금 충당금으로 실적 타격 및 주가 하락" />
+    <published>2025-11-06T07:45:25+09:00</published>
+  
+    <updated>2025-11-06T07:45:25+09:00</updated>
+  
+    <id>/posts/%ED%80%84%EC%BB%B4-%EC%84%B8%EA%B8%88-%EC%B6%A9%EB%8B%B9%EA%B8%88%EC%9C%BC%EB%A1%9C-%EC%8B%A4%EC%A0%81-%ED%83%80%EA%B2%A9-%EB%B0%8F-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/%ED%80%84%EC%BB%B4-%EC%84%B8%EA%B8%88-%EC%B6%A9%EB%8B%B9%EA%B8%88%EC%9C%BC%EB%A1%9C-%EC%8B%A4%EC%A0%81-%ED%83%80%EA%B2%A9-%EB%B0%8F-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>퀄컴, 세금 충당금으로 실적 타격 및 주가 하락 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Lyft, 유럽 진출로 매출 증가 기대 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>E.l.f. Beauty 주가 29% 급락, 약한 가이던스 영향</title>
-    <link href="/posts/elf-beauty-%EC%A3%BC%EA%B0%80-29-%EA%B8%89%EB%9D%BD-%EC%95%BD%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%8D%98%EC%8A%A4-%EC%98%81%ED%96%A5/" rel="alternate" type="text/html" title="E.l.f. Beauty 주가 29% 급락, 약한 가이던스 영향" />
-    <published>2025-11-06T06:35:46+09:00</published>
-  
-    <updated>2025-11-06T06:35:46+09:00</updated>
-  
-    <id>/posts/elf-beauty-%EC%A3%BC%EA%B0%80-29-%EA%B8%89%EB%9D%BD-%EC%95%BD%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%8D%98%EC%8A%A4-%EC%98%81%ED%96%A5/</id>
-    <content type="text/html" src="/posts/elf-beauty-%EC%A3%BC%EA%B0%80-29-%EA%B8%89%EB%9D%BD-%EC%95%BD%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%8D%98%EC%8A%A4-%EC%98%81%ED%96%A5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>E.l.f. Beauty 주가 29% 급락, 약한 가이던스 영향 · 경제 뉴스 요약</summary>
 
   </entry>
 
