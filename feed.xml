@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T20:29:30+09:00</updated>
+  <updated>2025-11-05T20:38:41+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>주식 시장: 기술주 매도 후 숨 고르기</title>
+    <link href="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EB%A7%A4%EB%8F%84-%ED%9B%84-%EC%88%A8-%EA%B3%A0%EB%A5%B4%EA%B8%B0/" rel="alternate" type="text/html" title="주식 시장: 기술주 매도 후 숨 고르기" />
+    <published>2025-11-05T20:37:55+09:00</published>
+  
+    <updated>2025-11-05T20:37:55+09:00</updated>
+  
+    <id>/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EB%A7%A4%EB%8F%84-%ED%9B%84-%EC%88%A8-%EA%B3%A0%EB%A5%B4%EA%B8%B0/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EB%A7%A4%EB%8F%84-%ED%9B%84-%EC%88%A8-%EA%B3%A0%EB%A5%B4%EA%B8%B0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>주식 시장: 기술주 매도 후 숨 고르기 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>노보 노디스크, 매출 전망 하향 조정 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>529 플랜 투자, 대학 진학 포기 시 어떻게 할까?</title>
-    <link href="/posts/529-%ED%94%8C%EB%9E%9C-%ED%88%AC%EC%9E%90-%EB%8C%80%ED%95%99-%EC%A7%84%ED%95%99-%ED%8F%AC%EA%B8%B0-%EC%8B%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="529 플랜 투자, 대학 진학 포기 시 어떻게 할까?" />
-    <published>2025-11-05T19:38:28+09:00</published>
-  
-    <updated>2025-11-05T19:38:28+09:00</updated>
-  
-    <id>/posts/529-%ED%94%8C%EB%9E%9C-%ED%88%AC%EC%9E%90-%EB%8C%80%ED%95%99-%EC%A7%84%ED%95%99-%ED%8F%AC%EA%B8%B0-%EC%8B%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%A0%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/529-%ED%94%8C%EB%9E%9C-%ED%88%AC%EC%9E%90-%EB%8C%80%ED%95%99-%EC%A7%84%ED%95%99-%ED%8F%AC%EA%B8%B0-%EC%8B%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%A0%EA%B9%8C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>529 플랜 투자, 대학 진학 포기 시 어떻게 할까? · 경제 뉴스 요약</summary>
 
   </entry>
 
