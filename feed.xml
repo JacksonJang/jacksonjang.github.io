@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T18:18:58+09:00</updated>
+  <updated>2025-11-05T18:37:55+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>FTX 창립자 Bankman-Fried의 유죄 판결 도전</title>
+    <link href="/posts/ftx-%EC%B0%BD%EB%A6%BD%EC%9E%90-bankman-fried%EC%9D%98-%EC%9C%A0%EC%A3%84-%ED%8C%90%EA%B2%B0-%EB%8F%84%EC%A0%84/" rel="alternate" type="text/html" title="FTX 창립자 Bankman-Fried의 유죄 판결 도전" />
+    <published>2025-11-05T18:37:21+09:00</published>
+  
+    <updated>2025-11-05T18:37:21+09:00</updated>
+  
+    <id>/posts/ftx-%EC%B0%BD%EB%A6%BD%EC%9E%90-bankman-fried%EC%9D%98-%EC%9C%A0%EC%A3%84-%ED%8C%90%EA%B2%B0-%EB%8F%84%EC%A0%84/</id>
+    <content type="text/html" src="/posts/ftx-%EC%B0%BD%EB%A6%BD%EC%9E%90-bankman-fried%EC%9D%98-%EC%9C%A0%EC%A3%84-%ED%8C%90%EA%B2%B0-%EB%8F%84%EC%A0%84/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>FTX 창립자 Bankman-Fried의 유죄 판결 도전 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>IBM, 4분기 수천 명 해고 계획 발표 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>팔란티어 주가 8% 하락, CEO의 공매도 비난</title>
-    <link href="/posts/%ED%8C%94%EB%9E%80%ED%8B%B0%EC%96%B4-%EC%A3%BC%EA%B0%80-8-%ED%95%98%EB%9D%BD-ceo%EC%9D%98-%EA%B3%B5%EB%A7%A4%EB%8F%84-%EB%B9%84%EB%82%9C/" rel="alternate" type="text/html" title="팔란티어 주가 8% 하락, CEO의 공매도 비난" />
-    <published>2025-11-05T17:31:26+09:00</published>
-  
-    <updated>2025-11-05T17:31:26+09:00</updated>
-  
-    <id>/posts/%ED%8C%94%EB%9E%80%ED%8B%B0%EC%96%B4-%EC%A3%BC%EA%B0%80-8-%ED%95%98%EB%9D%BD-ceo%EC%9D%98-%EA%B3%B5%EB%A7%A4%EB%8F%84-%EB%B9%84%EB%82%9C/</id>
-    <content type="text/html" src="/posts/%ED%8C%94%EB%9E%80%ED%8B%B0%EC%96%B4-%EC%A3%BC%EA%B0%80-8-%ED%95%98%EB%9D%BD-ceo%EC%9D%98-%EA%B3%B5%EB%A7%A4%EB%8F%84-%EB%B9%84%EB%82%9C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>팔란티어 주가 8% 하락, CEO의 공매도 비난 · 경제 뉴스 요약</summary>
 
   </entry>
 
