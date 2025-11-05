@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T02:34:51+09:00</updated>
+  <updated>2025-11-06T02:44:41+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>주택 구매자의 평균 연령, 사상 최고 59세</title>
+    <link href="/posts/%EC%A3%BC%ED%83%9D-%EA%B5%AC%EB%A7%A4%EC%9E%90%EC%9D%98-%ED%8F%89%EA%B7%A0-%EC%97%B0%EB%A0%B9-%EC%82%AC%EC%83%81-%EC%B5%9C%EA%B3%A0-59%EC%84%B8/" rel="alternate" type="text/html" title="주택 구매자의 평균 연령, 사상 최고 59세" />
+    <published>2025-11-06T02:43:50+09:00</published>
+  
+    <updated>2025-11-06T02:43:50+09:00</updated>
+  
+    <id>/posts/%EC%A3%BC%ED%83%9D-%EA%B5%AC%EB%A7%A4%EC%9E%90%EC%9D%98-%ED%8F%89%EA%B7%A0-%EC%97%B0%EB%A0%B9-%EC%82%AC%EC%83%81-%EC%B5%9C%EA%B3%A0-59%EC%84%B8/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%ED%83%9D-%EA%B5%AC%EB%A7%A4%EC%9E%90%EC%9D%98-%ED%8F%89%EA%B7%A0-%EC%97%B0%EB%A0%B9-%EC%82%AC%EC%83%81-%EC%B5%9C%EA%B3%A0-59%EC%84%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>주택 구매자의 평균 연령, 사상 최고 59세 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>AMD, AI 목표 발표 준비 중 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>조란 맘다니의 뉴욕 시장 당선과 소상공인</title>
-    <link href="/posts/%EC%A1%B0%EB%9E%80-%EB%A7%98%EB%8B%A4%EB%8B%88%EC%9D%98-%EB%89%B4%EC%9A%95-%EC%8B%9C%EC%9E%A5-%EB%8B%B9%EC%84%A0%EA%B3%BC-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8/" rel="alternate" type="text/html" title="조란 맘다니의 뉴욕 시장 당선과 소상공인" />
-    <published>2025-11-06T01:12:53+09:00</published>
-  
-    <updated>2025-11-06T01:12:53+09:00</updated>
-  
-    <id>/posts/%EC%A1%B0%EB%9E%80-%EB%A7%98%EB%8B%A4%EB%8B%88%EC%9D%98-%EB%89%B4%EC%9A%95-%EC%8B%9C%EC%9E%A5-%EB%8B%B9%EC%84%A0%EA%B3%BC-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8/</id>
-    <content type="text/html" src="/posts/%EC%A1%B0%EB%9E%80-%EB%A7%98%EB%8B%A4%EB%8B%88%EC%9D%98-%EB%89%B4%EC%9A%95-%EC%8B%9C%EC%9E%A5-%EB%8B%B9%EC%84%A0%EA%B3%BC-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>조란 맘다니의 뉴욕 시장 당선과 소상공인 · 경제 뉴스 요약</summary>
 
   </entry>
 
