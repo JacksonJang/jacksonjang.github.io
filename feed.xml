@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T02:44:41+09:00</updated>
+  <updated>2025-11-06T02:52:38+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>S&amp;P 디지털 마켓 50 지수, 체인링크로 검증 가능해져</title>
+    <link href="/posts/sp-%EB%94%94%EC%A7%80%ED%84%B8-%EB%A7%88%EC%BC%93-50-%EC%A7%80%EC%88%98-%EC%B2%B4%EC%9D%B8%EB%A7%81%ED%81%AC%EB%A1%9C-%EA%B2%80%EC%A6%9D-%EA%B0%80%EB%8A%A5%ED%95%B4%EC%A0%B8/" rel="alternate" type="text/html" title="S&amp;amp;P 디지털 마켓 50 지수, 체인링크로 검증 가능해져" />
+    <published>2025-11-06T02:51:50+09:00</published>
+  
+    <updated>2025-11-06T02:51:50+09:00</updated>
+  
+    <id>/posts/sp-%EB%94%94%EC%A7%80%ED%84%B8-%EB%A7%88%EC%BC%93-50-%EC%A7%80%EC%88%98-%EC%B2%B4%EC%9D%B8%EB%A7%81%ED%81%AC%EB%A1%9C-%EA%B2%80%EC%A6%9D-%EA%B0%80%EB%8A%A5%ED%95%B4%EC%A0%B8/</id>
+    <content type="text/html" src="/posts/sp-%EB%94%94%EC%A7%80%ED%84%B8-%EB%A7%88%EC%BC%93-50-%EC%A7%80%EC%88%98-%EC%B2%B4%EC%9D%B8%EB%A7%81%ED%81%AC%EB%A1%9C-%EA%B2%80%EC%A6%9D-%EA%B0%80%EB%8A%A5%ED%95%B4%EC%A0%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>S&amp;amp;P 디지털 마켓 50 지수, 체인링크로 검증 가능해져 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>모노 자동차 수리 체인, 아이칸의 15% 지분 취득으로 급등 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>AMD, AI 목표 발표 준비 중</title>
-    <link href="/posts/amd-ai-%EB%AA%A9%ED%91%9C-%EB%B0%9C%ED%91%9C-%EC%A4%80%EB%B9%84-%EC%A4%91/" rel="alternate" type="text/html" title="AMD, AI 목표 발표 준비 중" />
-    <published>2025-11-06T01:44:43+09:00</published>
-  
-    <updated>2025-11-06T01:44:43+09:00</updated>
-  
-    <id>/posts/amd-ai-%EB%AA%A9%ED%91%9C-%EB%B0%9C%ED%91%9C-%EC%A4%80%EB%B9%84-%EC%A4%91/</id>
-    <content type="text/html" src="/posts/amd-ai-%EB%AA%A9%ED%91%9C-%EB%B0%9C%ED%91%9C-%EC%A4%80%EB%B9%84-%EC%A4%91/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>AMD, AI 목표 발표 준비 중 · 경제 뉴스 요약</summary>
 
   </entry>
 
