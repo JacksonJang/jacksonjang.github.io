@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T06:36:34+09:00</updated>
+  <updated>2025-11-06T06:43:00+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Lyft, 유럽 진출로 매출 증가 기대</title>
+    <link href="/posts/lyft-%EC%9C%A0%EB%9F%BD-%EC%A7%84%EC%B6%9C%EB%A1%9C-%EB%A7%A4%EC%B6%9C-%EC%A6%9D%EA%B0%80-%EA%B8%B0%EB%8C%80/" rel="alternate" type="text/html" title="Lyft, 유럽 진출로 매출 증가 기대" />
+    <published>2025-11-06T06:42:19+09:00</published>
+  
+    <updated>2025-11-06T06:42:19+09:00</updated>
+  
+    <id>/posts/lyft-%EC%9C%A0%EB%9F%BD-%EC%A7%84%EC%B6%9C%EB%A1%9C-%EB%A7%A4%EC%B6%9C-%EC%A6%9D%EA%B0%80-%EA%B8%B0%EB%8C%80/</id>
+    <content type="text/html" src="/posts/lyft-%EC%9C%A0%EB%9F%BD-%EC%A7%84%EC%B6%9C%EB%A1%9C-%EB%A7%A4%EC%B6%9C-%EC%A6%9D%EA%B0%80-%EA%B8%B0%EB%8C%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Lyft, 유럽 진출로 매출 증가 기대 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>구글 클라우드, 월가의 성장 예측을 넘을까? · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>스핀오프 후 급등하는 주식의 평가 및 목표가 업데이트</title>
-    <link href="/posts/%EC%8A%A4%ED%95%80%EC%98%A4%ED%94%84-%ED%9B%84-%EA%B8%89%EB%93%B1%ED%95%98%EB%8A%94-%EC%A3%BC%EC%8B%9D%EC%9D%98-%ED%8F%89%EA%B0%80-%EB%B0%8F-%EB%AA%A9%ED%91%9C%EA%B0%80-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/" rel="alternate" type="text/html" title="스핀오프 후 급등하는 주식의 평가 및 목표가 업데이트" />
-    <published>2025-11-06T05:46:47+09:00</published>
-  
-    <updated>2025-11-06T05:46:47+09:00</updated>
-  
-    <id>/posts/%EC%8A%A4%ED%95%80%EC%98%A4%ED%94%84-%ED%9B%84-%EA%B8%89%EB%93%B1%ED%95%98%EB%8A%94-%EC%A3%BC%EC%8B%9D%EC%9D%98-%ED%8F%89%EA%B0%80-%EB%B0%8F-%EB%AA%A9%ED%91%9C%EA%B0%80-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/</id>
-    <content type="text/html" src="/posts/%EC%8A%A4%ED%95%80%EC%98%A4%ED%94%84-%ED%9B%84-%EA%B8%89%EB%93%B1%ED%95%98%EB%8A%94-%EC%A3%BC%EC%8B%9D%EC%9D%98-%ED%8F%89%EA%B0%80-%EB%B0%8F-%EB%AA%A9%ED%91%9C%EA%B0%80-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>스핀오프 후 급등하는 주식의 평가 및 목표가 업데이트 · 경제 뉴스 요약</summary>
 
   </entry>
 
