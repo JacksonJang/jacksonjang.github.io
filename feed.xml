@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T20:11:46+09:00</updated>
+  <updated>2025-11-05T20:29:30+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Perplexity AI, Amazon의 법적 위협에 반발</title>
+    <link href="/posts/perplexity-ai-amazon%EC%9D%98-%EB%B2%95%EC%A0%81-%EC%9C%84%ED%98%91%EC%97%90-%EB%B0%98%EB%B0%9C/" rel="alternate" type="text/html" title="Perplexity AI, Amazon의 법적 위협에 반발" />
+    <published>2025-11-05T20:28:49+09:00</published>
+  
+    <updated>2025-11-05T20:28:49+09:00</updated>
+  
+    <id>/posts/perplexity-ai-amazon%EC%9D%98-%EB%B2%95%EC%A0%81-%EC%9C%84%ED%98%91%EC%97%90-%EB%B0%98%EB%B0%9C/</id>
+    <content type="text/html" src="/posts/perplexity-ai-amazon%EC%9D%98-%EB%B2%95%EC%A0%81-%EC%9C%84%ED%98%91%EC%97%90-%EB%B0%98%EB%B0%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Perplexity AI, Amazon의 법적 위협에 반발 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>529 플랜 투자, 대학 진학 포기 시 어떻게 할까? · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>맥도날드, 2025년 3분기 실적 발표 예정</title>
-    <link href="/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C-2025%EB%85%84-3%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%98%88%EC%A0%95/" rel="alternate" type="text/html" title="맥도날드, 2025년 3분기 실적 발표 예정" />
-    <published>2025-11-05T19:11:49+09:00</published>
-  
-    <updated>2025-11-05T19:11:49+09:00</updated>
-  
-    <id>/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C-2025%EB%85%84-3%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%98%88%EC%A0%95/</id>
-    <content type="text/html" src="/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C-2025%EB%85%84-3%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%98%88%EC%A0%95/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>맥도날드, 2025년 3분기 실적 발표 예정 · 경제 뉴스 요약</summary>
 
   </entry>
 
