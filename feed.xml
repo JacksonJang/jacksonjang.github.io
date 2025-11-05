@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T23:34:46+09:00</updated>
+  <updated>2025-11-05T23:50:15+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>대법원, 트럼프 관세 사건 심리 시작</title>
+    <link href="/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84-%EA%B4%80%EC%84%B8-%EC%82%AC%EA%B1%B4-%EC%8B%AC%EB%A6%AC-%EC%8B%9C%EC%9E%91/" rel="alternate" type="text/html" title="대법원, 트럼프 관세 사건 심리 시작" />
+    <published>2025-11-05T23:49:28+09:00</published>
+  
+    <updated>2025-11-05T23:49:28+09:00</updated>
+  
+    <id>/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84-%EA%B4%80%EC%84%B8-%EC%82%AC%EA%B1%B4-%EC%8B%AC%EB%A6%AC-%EC%8B%9C%EC%9E%91/</id>
+    <content type="text/html" src="/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84-%EA%B4%80%EC%84%B8-%EC%82%AC%EA%B1%B4-%EC%8B%AC%EB%A6%AC-%EC%8B%9C%EC%9E%91/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>대법원, 트럼프 관세 사건 심리 시작 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>사회보장청 사망자 수급자 논란, 진실은? · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국, 트럼프의 친부자 vs 만다니의 반부자 대립</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EC%B9%9C%EB%B6%80%EC%9E%90-vs-%EB%A7%8C%EB%8B%A4%EB%8B%88%EC%9D%98-%EB%B0%98%EB%B6%80%EC%9E%90-%EB%8C%80%EB%A6%BD/" rel="alternate" type="text/html" title="미국, 트럼프의 친부자 vs 만다니의 반부자 대립" />
-    <published>2025-11-05T22:02:54+09:00</published>
-  
-    <updated>2025-11-05T22:02:54+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EC%B9%9C%EB%B6%80%EC%9E%90-vs-%EB%A7%8C%EB%8B%A4%EB%8B%88%EC%9D%98-%EB%B0%98%EB%B6%80%EC%9E%90-%EB%8C%80%EB%A6%BD/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EC%B9%9C%EB%B6%80%EC%9E%90-vs-%EB%A7%8C%EB%8B%A4%EB%8B%88%EC%9D%98-%EB%B0%98%EB%B6%80%EC%9E%90-%EB%8C%80%EB%A6%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국, 트럼프의 친부자 vs 만다니의 반부자 대립 · 경제 뉴스 요약</summary>
 
   </entry>
 
