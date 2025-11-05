@@ -38,7 +38,7 @@ import feedparser
 # -----------------------------
 # 환경설정 (환경변수로 재정의 가능)
 # -----------------------------
-MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-5-mini") # gpt-4o-mini , gpt-5-nano , gpt-5-mini
 TEMPERATURE = float(os.getenv("OPENAI_TEMPERATURE", "1.0"))  # gpt-5 권장 1.0
 MAX_OUTPUT_TOKENS = int(os.getenv("OPENAI_MAX_OUTPUT_TOKENS", "3200"))
 TIMEZONE = os.getenv("TIMEZONE", "Asia/Seoul")
@@ -336,7 +336,6 @@ def ai_generate_all(
         return None
 
     # web_search는 Responses API에서만 지원. 모델은 gpt-4o 계열 권장
-    model_name = os.getenv("OPENAI_MODEL", "gpt-4o")
 
     extra_article = ""
     if article_context:
@@ -369,10 +368,10 @@ def ai_generate_all(
 
     try:
         resp = _openai_client.chat.completions.create(
-            model=model_name,                        # ex) gpt-4o-mini
+            model=MODEL_NAME,                      
             temperature=min(TEMPERATURE, 0.3),
             max_tokens=max(4096, MAX_OUTPUT_TOKENS),
-            response_format={"type": "json_object"},  # ★ JSON 강제
+            response_format={"type": "json_object"}, 
             messages=[
                 {"role": "system", "content": SEO_SYSTEM},
                 {"role": "user", "content": user_prompt}
