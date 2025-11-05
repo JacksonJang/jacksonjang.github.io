@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T19:12:32+09:00</updated>
+  <updated>2025-11-05T19:39:14+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>529 플랜 투자, 대학 진학 포기 시 어떻게 할까?</title>
+    <link href="/posts/529-%ED%94%8C%EB%9E%9C-%ED%88%AC%EC%9E%90-%EB%8C%80%ED%95%99-%EC%A7%84%ED%95%99-%ED%8F%AC%EA%B8%B0-%EC%8B%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="529 플랜 투자, 대학 진학 포기 시 어떻게 할까?" />
+    <published>2025-11-05T19:38:28+09:00</published>
+  
+    <updated>2025-11-05T19:38:28+09:00</updated>
+  
+    <id>/posts/529-%ED%94%8C%EB%9E%9C-%ED%88%AC%EC%9E%90-%EB%8C%80%ED%95%99-%EC%A7%84%ED%95%99-%ED%8F%AC%EA%B8%B0-%EC%8B%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%A0%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/529-%ED%94%8C%EB%9E%9C-%ED%88%AC%EC%9E%90-%EB%8C%80%ED%95%99-%EC%A7%84%ED%95%99-%ED%8F%AC%EA%B8%B0-%EC%8B%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%A0%EA%B9%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>529 플랜 투자, 대학 진학 포기 시 어떻게 할까? · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>FTX 창립자 Bankman-Fried의 유죄 판결 도전 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Orsted, 분기 순손실 기록 - 트럼프의 해양풍력 영향</title>
-    <link href="/posts/orsted-%EB%B6%84%EA%B8%B0-%EC%88%9C%EC%86%90%EC%8B%A4-%EA%B8%B0%EB%A1%9D-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%ED%95%B4%EC%96%91%ED%92%8D%EB%A0%A5-%EC%98%81%ED%96%A5/" rel="alternate" type="text/html" title="Orsted, 분기 순손실 기록 - 트럼프의 해양풍력 영향" />
-    <published>2025-11-05T18:18:03+09:00</published>
-  
-    <updated>2025-11-05T18:18:03+09:00</updated>
-  
-    <id>/posts/orsted-%EB%B6%84%EA%B8%B0-%EC%88%9C%EC%86%90%EC%8B%A4-%EA%B8%B0%EB%A1%9D-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%ED%95%B4%EC%96%91%ED%92%8D%EB%A0%A5-%EC%98%81%ED%96%A5/</id>
-    <content type="text/html" src="/posts/orsted-%EB%B6%84%EA%B8%B0-%EC%88%9C%EC%86%90%EC%8B%A4-%EA%B8%B0%EB%A1%9D-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%ED%95%B4%EC%96%91%ED%92%8D%EB%A0%A5-%EC%98%81%ED%96%A5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Orsted, 분기 순손실 기록 - 트럼프의 해양풍력 영향 · 경제 뉴스 요약</summary>
 
   </entry>
 
