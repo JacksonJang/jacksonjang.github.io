@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T15:46:49+09:00</updated>
+  <updated>2025-11-05T15:57:53+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Novo Nordisk의 성장 전망 하향 조정</title>
+    <link href="/posts/novo-nordisk%EC%9D%98-%EC%84%B1%EC%9E%A5-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="Novo Nordisk의 성장 전망 하향 조정" />
+    <published>2025-11-05T15:57:22+09:00</published>
+  
+    <updated>2025-11-05T15:57:22+09:00</updated>
+  
+    <id>/posts/novo-nordisk%EC%9D%98-%EC%84%B1%EC%9E%A5-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/</id>
+    <content type="text/html" src="/posts/novo-nordisk%EC%9D%98-%EC%84%B1%EC%9E%A5-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Novo Nordisk의 성장 전망 하향 조정 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>월가의 기술주 고평가, 과도한 집중 우려 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>사모펀드 산업 통합 전망</title>
-    <link href="/posts/%EC%82%AC%EB%AA%A8%ED%8E%80%EB%93%9C-%EC%82%B0%EC%97%85-%ED%86%B5%ED%95%A9-%EC%A0%84%EB%A7%9D/" rel="alternate" type="text/html" title="사모펀드 산업 통합 전망" />
-    <published>2025-11-05T13:57:18+09:00</published>
-  
-    <updated>2025-11-05T13:57:18+09:00</updated>
-  
-    <id>/posts/%EC%82%AC%EB%AA%A8%ED%8E%80%EB%93%9C-%EC%82%B0%EC%97%85-%ED%86%B5%ED%95%A9-%EC%A0%84%EB%A7%9D/</id>
-    <content type="text/html" src="/posts/%EC%82%AC%EB%AA%A8%ED%8E%80%EB%93%9C-%EC%82%B0%EC%97%85-%ED%86%B5%ED%95%A9-%EC%A0%84%EB%A7%9D/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>사모펀드 산업 통합 전망 · 경제 뉴스 요약</summary>
 
   </entry>
 
