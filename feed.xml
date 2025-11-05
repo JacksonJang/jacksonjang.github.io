@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T13:20:11+09:00</updated>
+  <updated>2025-11-05T13:40:40+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Rivian, EV 크레딧 만료로 매출 상승</title>
+    <link href="/posts/rivian-ev-%ED%81%AC%EB%A0%88%EB%94%A7-%EB%A7%8C%EB%A3%8C%EB%A1%9C-%EB%A7%A4%EC%B6%9C-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="Rivian, EV 크레딧 만료로 매출 상승" />
+    <published>2025-11-05T13:39:56+09:00</published>
+  
+    <updated>2025-11-05T13:39:56+09:00</updated>
+  
+    <id>/posts/rivian-ev-%ED%81%AC%EB%A0%88%EB%94%A7-%EB%A7%8C%EB%A3%8C%EB%A1%9C-%EB%A7%A4%EC%B6%9C-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/rivian-ev-%ED%81%AC%EB%A0%88%EB%94%A7-%EB%A7%8C%EB%A3%8C%EB%A1%9C-%EB%A7%A4%EC%B6%9C-%EC%83%81%EC%8A%B9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Rivian, EV 크레딧 만료로 매출 상승 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>버지니아 주지사 선거에서 무당파 유권자, 민주당 지지 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 주요 선거 민주당 승리</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%9A%94-%EC%84%A0%EA%B1%B0-%EB%AF%BC%EC%A3%BC%EB%8B%B9-%EC%8A%B9%EB%A6%AC/" rel="alternate" type="text/html" title="미국 주요 선거 민주당 승리" />
-    <published>2025-11-05T12:47:15+09:00</published>
-  
-    <updated>2025-11-05T12:47:15+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%9A%94-%EC%84%A0%EA%B1%B0-%EB%AF%BC%EC%A3%BC%EB%8B%B9-%EC%8A%B9%EB%A6%AC/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%9A%94-%EC%84%A0%EA%B1%B0-%EB%AF%BC%EC%A3%BC%EB%8B%B9-%EC%8A%B9%EB%A6%AC/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 주요 선거 민주당 승리 · 경제 뉴스 요약</summary>
 
   </entry>
 
