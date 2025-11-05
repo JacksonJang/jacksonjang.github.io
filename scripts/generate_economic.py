@@ -38,7 +38,7 @@ import feedparser
 # -----------------------------
 # 환경설정 (환경변수로 재정의 가능)
 # -----------------------------
-MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-5-mini") # gpt-4o-mini , gpt-5-nano , gpt-5-mini
+MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-4o-mini") # gpt-4o-mini , gpt-5-nano , gpt-5-mini
 TEMPERATURE = float(os.getenv("OPENAI_TEMPERATURE", "1.0"))  # gpt-5 권장 1.0
 MAX_OUTPUT_TOKENS = int(os.getenv("OPENAI_MAX_OUTPUT_TOKENS", 3200))
 TIMEZONE = os.getenv("TIMEZONE", "Asia/Seoul")
@@ -370,8 +370,8 @@ def ai_generate_all(
         resp = _openai_client.chat.completions.create(
             model=MODEL_NAME,                      
             temperature=min(TEMPERATURE, 0.3),
-            # max_tokens=max(4096, MAX_OUTPUT_TOKENS),
-            max_completion_tokens=max(4096, MAX_OUTPUT_TOKENS),
+            max_tokens=max(4096, MAX_OUTPUT_TOKENS),
+            # max_completion_tokens=max(4096, MAX_OUTPUT_TOKENS), # gpt-5-mini 에서 사용
             response_format={"type": "json_object"}, 
             messages=[
                 {"role": "system", "content": SEO_SYSTEM},
