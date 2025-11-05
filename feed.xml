@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-05T13:40:40+09:00</updated>
+  <updated>2025-11-05T13:50:52+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Upstart 주가 하락, 성장 둔화 예상</title>
+    <link href="/posts/upstart-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-%EC%84%B1%EC%9E%A5-%EB%91%94%ED%99%94-%EC%98%88%EC%83%81/" rel="alternate" type="text/html" title="Upstart 주가 하락, 성장 둔화 예상" />
+    <published>2025-11-05T13:50:22+09:00</published>
+  
+    <updated>2025-11-05T13:50:22+09:00</updated>
+  
+    <id>/posts/upstart-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-%EC%84%B1%EC%9E%A5-%EB%91%94%ED%99%94-%EC%98%88%EC%83%81/</id>
+    <content type="text/html" src="/posts/upstart-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-%EC%84%B1%EC%9E%A5-%EB%91%94%ED%99%94-%EC%98%88%EC%83%81/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Upstart 주가 하락, 성장 둔화 예상 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Pinterest의 홀리데이 전망 불안 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>버지니아 주지사 선거에서 무당파 유권자, 민주당 지지</title>
-    <link href="/posts/%EB%B2%84%EC%A7%80%EB%8B%88%EC%95%84-%EC%A3%BC%EC%A7%80%EC%82%AC-%EC%84%A0%EA%B1%B0%EC%97%90%EC%84%9C-%EB%AC%B4%EB%8B%B9%ED%8C%8C-%EC%9C%A0%EA%B6%8C%EC%9E%90-%EB%AF%BC%EC%A3%BC%EB%8B%B9-%EC%A7%80%EC%A7%80/" rel="alternate" type="text/html" title="버지니아 주지사 선거에서 무당파 유권자, 민주당 지지" />
-    <published>2025-11-05T12:54:14+09:00</published>
-  
-    <updated>2025-11-05T12:54:14+09:00</updated>
-  
-    <id>/posts/%EB%B2%84%EC%A7%80%EB%8B%88%EC%95%84-%EC%A3%BC%EC%A7%80%EC%82%AC-%EC%84%A0%EA%B1%B0%EC%97%90%EC%84%9C-%EB%AC%B4%EB%8B%B9%ED%8C%8C-%EC%9C%A0%EA%B6%8C%EC%9E%90-%EB%AF%BC%EC%A3%BC%EB%8B%B9-%EC%A7%80%EC%A7%80/</id>
-    <content type="text/html" src="/posts/%EB%B2%84%EC%A7%80%EB%8B%88%EC%95%84-%EC%A3%BC%EC%A7%80%EC%82%AC-%EC%84%A0%EA%B1%B0%EC%97%90%EC%84%9C-%EB%AC%B4%EB%8B%B9%ED%8C%8C-%EC%9C%A0%EA%B6%8C%EC%9E%90-%EB%AF%BC%EC%A3%BC%EB%8B%B9-%EC%A7%80%EC%A7%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>버지니아 주지사 선거에서 무당파 유권자, 민주당 지지 · 경제 뉴스 요약</summary>
 
   </entry>
 
