@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T16:37:14+09:00</updated>
+  <updated>2025-11-06T16:48:01+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AI 붐의 연료, 광고와 존재적 위험</title>
+    <link href="/posts/ai-%EB%B6%90%EC%9D%98-%EC%97%B0%EB%A3%8C-%EA%B4%91%EA%B3%A0%EC%99%80-%EC%A1%B4%EC%9E%AC%EC%A0%81-%EC%9C%84%ED%97%98/" rel="alternate" type="text/html" title="AI 붐의 연료, 광고와 존재적 위험" />
+    <published>2025-11-06T16:47:27+09:00</published>
+  
+    <updated>2025-11-06T16:47:27+09:00</updated>
+  
+    <id>/posts/ai-%EB%B6%90%EC%9D%98-%EC%97%B0%EB%A3%8C-%EA%B4%91%EA%B3%A0%EC%99%80-%EC%A1%B4%EC%9E%AC%EC%A0%81-%EC%9C%84%ED%97%98/</id>
+    <content type="text/html" src="/posts/ai-%EB%B6%90%EC%9D%98-%EC%97%B0%EB%A3%8C-%EA%B4%91%EA%B3%A0%EC%99%80-%EC%A1%B4%EC%9E%AC%EC%A0%81-%EC%9C%84%ED%97%98/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>AI 붐의 연료, 광고와 존재적 위험 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>HubSpot, Meta AI 책임자 클라라 시흐 이사로 임명 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>호주 주식, S&amp;P/ASX 200 0.29% 상승 마감</title>
-    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-029-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="호주 주식, S&amp;amp;P/ASX 200 0.29% 상승 마감" />
-    <published>2025-11-06T14:57:44+09:00</published>
-  
-    <updated>2025-11-06T14:57:44+09:00</updated>
-  
-    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-029-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/</id>
-    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-029-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>호주 주식, S&amp;amp;P/ASX 200 0.29% 상승 마감 · 경제 뉴스 요약</summary>
 
   </entry>
 
