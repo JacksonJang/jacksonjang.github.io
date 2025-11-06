@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T19:31:01+09:00</updated>
+  <updated>2025-11-06T19:49:04+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>남편의 재정 문제, 어떻게 해결할까?</title>
+    <link href="/posts/%EB%82%A8%ED%8E%B8%EC%9D%98-%EC%9E%AC%EC%A0%95-%EB%AC%B8%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="남편의 재정 문제, 어떻게 해결할까?" />
+    <published>2025-11-06T19:48:23+09:00</published>
+  
+    <updated>2025-11-06T19:48:23+09:00</updated>
+  
+    <id>/posts/%EB%82%A8%ED%8E%B8%EC%9D%98-%EC%9E%AC%EC%A0%95-%EB%AC%B8%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%A0%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/%EB%82%A8%ED%8E%B8%EC%9D%98-%EC%9E%AC%EC%A0%95-%EB%AC%B8%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%A0%EA%B9%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>남편의 재정 문제, 어떻게 해결할까? · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>주식시장 하락: 기술주 AI 가치 우려와 비트코인 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>S&amp;P 500, Nasdaq 한 달 만에 최대 하락</title>
-    <link href="/posts/sp-500-nasdaq-%ED%95%9C-%EB%8B%AC-%EB%A7%8C%EC%97%90-%EC%B5%9C%EB%8C%80-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="S&amp;amp;P 500, Nasdaq 한 달 만에 최대 하락" />
-    <published>2025-11-06T17:32:27+09:00</published>
-  
-    <updated>2025-11-06T17:32:27+09:00</updated>
-  
-    <id>/posts/sp-500-nasdaq-%ED%95%9C-%EB%8B%AC-%EB%A7%8C%EC%97%90-%EC%B5%9C%EB%8C%80-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/sp-500-nasdaq-%ED%95%9C-%EB%8B%AC-%EB%A7%8C%EC%97%90-%EC%B5%9C%EB%8C%80-%ED%95%98%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>S&amp;amp;P 500, Nasdaq 한 달 만에 최대 하락 · 경제 뉴스 요약</summary>
 
   </entry>
 
