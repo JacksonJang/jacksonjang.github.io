@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T12:20:30+09:00</updated>
+  <updated>2025-11-06T12:21:20+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>엘프 뷰티, 하일리 비버의 성공에도 주가 하락</title>
+    <link href="/posts/%EC%97%98%ED%94%84-%EB%B7%B0%ED%8B%B0-%ED%95%98%EC%9D%BC%EB%A6%AC-%EB%B9%84%EB%B2%84%EC%9D%98-%EC%84%B1%EA%B3%B5%EC%97%90%EB%8F%84-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="엘프 뷰티, 하일리 비버의 성공에도 주가 하락" />
+    <published>2025-11-06T12:20:44+09:00</published>
+  
+    <updated>2025-11-06T12:20:44+09:00</updated>
+  
+    <id>/posts/%EC%97%98%ED%94%84-%EB%B7%B0%ED%8B%B0-%ED%95%98%EC%9D%BC%EB%A6%AC-%EB%B9%84%EB%B2%84%EC%9D%98-%EC%84%B1%EA%B3%B5%EC%97%90%EB%8F%84-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/%EC%97%98%ED%94%84-%EB%B7%B0%ED%8B%B0-%ED%95%98%EC%9D%BC%EB%A6%AC-%EB%B9%84%EB%B2%84%EC%9D%98-%EC%84%B1%EA%B3%B5%EC%97%90%EB%8F%84-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>엘프 뷰티, 하일리 비버의 성공에도 주가 하락 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>미국 주요 공항, FAA 예산 삭감으로 항공편 축소 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>주택 가격 상승: 시어머니 땅에 집을 짓다</title>
-    <link href="/posts/%EC%A3%BC%ED%83%9D-%EA%B0%80%EA%B2%A9-%EC%83%81%EC%8A%B9-%EC%8B%9C%EC%96%B4%EB%A8%B8%EB%8B%88-%EB%95%85%EC%97%90-%EC%A7%91%EC%9D%84-%EC%A7%93%EB%8B%A4/" rel="alternate" type="text/html" title="주택 가격 상승: 시어머니 땅에 집을 짓다" />
-    <published>2025-11-06T08:51:43+09:00</published>
-  
-    <updated>2025-11-06T08:51:43+09:00</updated>
-  
-    <id>/posts/%EC%A3%BC%ED%83%9D-%EA%B0%80%EA%B2%A9-%EC%83%81%EC%8A%B9-%EC%8B%9C%EC%96%B4%EB%A8%B8%EB%8B%88-%EB%95%85%EC%97%90-%EC%A7%91%EC%9D%84-%EC%A7%93%EB%8B%A4/</id>
-    <content type="text/html" src="/posts/%EC%A3%BC%ED%83%9D-%EA%B0%80%EA%B2%A9-%EC%83%81%EC%8A%B9-%EC%8B%9C%EC%96%B4%EB%A8%B8%EB%8B%88-%EB%95%85%EC%97%90-%EC%A7%91%EC%9D%84-%EC%A7%93%EB%8B%A4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>주택 가격 상승: 시어머니 땅에 집을 짓다 · 경제 뉴스 요약</summary>
 
   </entry>
 
