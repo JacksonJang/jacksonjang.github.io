@@ -2,7 +2,7 @@ name: Daily Economic
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # UTC 기준
+    - cron: '3,13,23,33,43,53 * * * *'
   workflow_dispatch:
 
 permissions:
