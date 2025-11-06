@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T17:53:45+09:00</updated>
+  <updated>2025-11-06T18:13:38+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Nvidia CEO, AI 경쟁에 대한 발언 수정</title>
+    <link href="/posts/nvidia-ceo-ai-%EA%B2%BD%EC%9F%81%EC%97%90-%EB%8C%80%ED%95%9C-%EB%B0%9C%EC%96%B8-%EC%88%98%EC%A0%95/" rel="alternate" type="text/html" title="Nvidia CEO, AI 경쟁에 대한 발언 수정" />
+    <published>2025-11-06T18:13:03+09:00</published>
+  
+    <updated>2025-11-06T18:13:03+09:00</updated>
+  
+    <id>/posts/nvidia-ceo-ai-%EA%B2%BD%EC%9F%81%EC%97%90-%EB%8C%80%ED%95%9C-%EB%B0%9C%EC%96%B8-%EC%88%98%EC%A0%95/</id>
+    <content type="text/html" src="/posts/nvidia-ceo-ai-%EA%B2%BD%EC%9F%81%EC%97%90-%EB%8C%80%ED%95%9C-%EB%B0%9C%EC%96%B8-%EC%88%98%EC%A0%95/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Nvidia CEO, AI 경쟁에 대한 발언 수정 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>AI 붐의 연료, 광고와 존재적 위험 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>프리랜서로 전환한 수의사, 소득 두 배로 증가</title>
-    <link href="/posts/%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C%EB%A1%9C-%EC%A0%84%ED%99%98%ED%95%9C-%EC%88%98%EC%9D%98%EC%82%AC-%EC%86%8C%EB%93%9D-%EB%91%90-%EB%B0%B0%EB%A1%9C-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="프리랜서로 전환한 수의사, 소득 두 배로 증가" />
-    <published>2025-11-06T16:36:25+09:00</published>
-  
-    <updated>2025-11-06T16:36:25+09:00</updated>
-  
-    <id>/posts/%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C%EB%A1%9C-%EC%A0%84%ED%99%98%ED%95%9C-%EC%88%98%EC%9D%98%EC%82%AC-%EC%86%8C%EB%93%9D-%EB%91%90-%EB%B0%B0%EB%A1%9C-%EC%A6%9D%EA%B0%80/</id>
-    <content type="text/html" src="/posts/%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C%EB%A1%9C-%EC%A0%84%ED%99%98%ED%95%9C-%EC%88%98%EC%9D%98%EC%82%AC-%EC%86%8C%EB%93%9D-%EB%91%90-%EB%B0%B0%EB%A1%9C-%EC%A6%9D%EA%B0%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>프리랜서로 전환한 수의사, 소득 두 배로 증가 · 경제 뉴스 요약</summary>
 
   </entry>
 
