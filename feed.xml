@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T12:21:20+09:00</updated>
+  <updated>2025-11-06T12:23:35+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>DoorDash, 내년 투자 확대 계획 발표</title>
+    <link href="/posts/doordash-%EB%82%B4%EB%85%84-%ED%88%AC%EC%9E%90-%ED%99%95%EB%8C%80-%EA%B3%84%ED%9A%8D-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="DoorDash, 내년 투자 확대 계획 발표" />
+    <published>2025-11-06T12:23:03+09:00</published>
+  
+    <updated>2025-11-06T12:23:03+09:00</updated>
+  
+    <id>/posts/doordash-%EB%82%B4%EB%85%84-%ED%88%AC%EC%9E%90-%ED%99%95%EB%8C%80-%EA%B3%84%ED%9A%8D-%EB%B0%9C%ED%91%9C/</id>
+    <content type="text/html" src="/posts/doordash-%EB%82%B4%EB%85%84-%ED%88%AC%EC%9E%90-%ED%99%95%EB%8C%80-%EA%B3%84%ED%9A%8D-%EB%B0%9C%ED%91%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>DoorDash, 내년 투자 확대 계획 발표 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Pony.ai, 홍콩 상장 첫날 주가 12% 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 주요 공항, FAA 예산 삭감으로 항공편 축소</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%9A%94-%EA%B3%B5%ED%95%AD-faa-%EC%98%88%EC%82%B0-%EC%82%AD%EA%B0%90%EC%9C%BC%EB%A1%9C-%ED%95%AD%EA%B3%B5%ED%8E%B8-%EC%B6%95%EC%86%8C/" rel="alternate" type="text/html" title="미국 주요 공항, FAA 예산 삭감으로 항공편 축소" />
-    <published>2025-11-06T09:45:51+09:00</published>
-  
-    <updated>2025-11-06T09:45:51+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%9A%94-%EA%B3%B5%ED%95%AD-faa-%EC%98%88%EC%82%B0-%EC%82%AD%EA%B0%90%EC%9C%BC%EB%A1%9C-%ED%95%AD%EA%B3%B5%ED%8E%B8-%EC%B6%95%EC%86%8C/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%9A%94-%EA%B3%B5%ED%95%AD-faa-%EC%98%88%EC%82%B0-%EC%82%AD%EA%B0%90%EC%9C%BC%EB%A1%9C-%ED%95%AD%EA%B3%B5%ED%8E%B8-%EC%B6%95%EC%86%8C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 주요 공항, FAA 예산 삭감으로 항공편 축소 · 경제 뉴스 요약</summary>
 
   </entry>
 
