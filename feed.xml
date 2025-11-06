@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T00:27:53+09:00</updated>
+  <updated>2025-11-07T00:46:55+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>추수감사절 칠면조 가격 급등 예고</title>
+    <link href="/posts/%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%B9%A0%EB%A9%B4%EC%A1%B0-%EA%B0%80%EA%B2%A9-%EA%B8%89%EB%93%B1-%EC%98%88%EA%B3%A0/" rel="alternate" type="text/html" title="추수감사절 칠면조 가격 급등 예고" />
+    <published>2025-11-07T00:46:13+09:00</published>
+  
+    <updated>2025-11-07T00:46:13+09:00</updated>
+  
+    <id>/posts/%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%B9%A0%EB%A9%B4%EC%A1%B0-%EA%B0%80%EA%B2%A9-%EA%B8%89%EB%93%B1-%EC%98%88%EA%B3%A0/</id>
+    <content type="text/html" src="/posts/%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%B9%A0%EB%A9%B4%EC%A1%B0-%EA%B0%80%EA%B2%A9-%EA%B8%89%EB%93%B1-%EC%98%88%EA%B3%A0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>추수감사절 칠면조 가격 급등 예고 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>낸시 펠로시, 의회 재선 불출마 선언 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>안전한 투자 등급 채권 펀드 점검 필요</title>
-    <link href="/posts/%EC%95%88%EC%A0%84%ED%95%9C-%ED%88%AC%EC%9E%90-%EB%93%B1%EA%B8%89-%EC%B1%84%EA%B6%8C-%ED%8E%80%EB%93%9C-%EC%A0%90%EA%B2%80-%ED%95%84%EC%9A%94/" rel="alternate" type="text/html" title="안전한 투자 등급 채권 펀드 점검 필요" />
-    <published>2025-11-06T22:58:56+09:00</published>
-  
-    <updated>2025-11-06T22:58:56+09:00</updated>
-  
-    <id>/posts/%EC%95%88%EC%A0%84%ED%95%9C-%ED%88%AC%EC%9E%90-%EB%93%B1%EA%B8%89-%EC%B1%84%EA%B6%8C-%ED%8E%80%EB%93%9C-%EC%A0%90%EA%B2%80-%ED%95%84%EC%9A%94/</id>
-    <content type="text/html" src="/posts/%EC%95%88%EC%A0%84%ED%95%9C-%ED%88%AC%EC%9E%90-%EB%93%B1%EA%B8%89-%EC%B1%84%EA%B6%8C-%ED%8E%80%EB%93%9C-%EC%A0%90%EA%B2%80-%ED%95%84%EC%9A%94/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>안전한 투자 등급 채권 펀드 점검 필요 · 경제 뉴스 요약</summary>
 
   </entry>
 
