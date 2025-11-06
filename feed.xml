@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T12:27:18+09:00</updated>
+  <updated>2025-11-06T12:34:14+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Figma, AI 소프트웨어로 연간 매출 10억 달러 돌파</title>
+    <link href="/posts/figma-ai-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EB%A1%9C-%EC%97%B0%EA%B0%84-%EB%A7%A4%EC%B6%9C-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%8F%8C%ED%8C%8C/" rel="alternate" type="text/html" title="Figma, AI 소프트웨어로 연간 매출 10억 달러 돌파" />
+    <published>2025-11-06T12:33:36+09:00</published>
+  
+    <updated>2025-11-06T12:33:36+09:00</updated>
+  
+    <id>/posts/figma-ai-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EB%A1%9C-%EC%97%B0%EA%B0%84-%EB%A7%A4%EC%B6%9C-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%8F%8C%ED%8C%8C/</id>
+    <content type="text/html" src="/posts/figma-ai-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EB%A1%9C-%EC%97%B0%EA%B0%84-%EB%A7%A4%EC%B6%9C-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%8F%8C%ED%8C%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Figma, AI 소프트웨어로 연간 매출 10억 달러 돌파 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>로빈후드, 매출 두 배 증가 및 새로운 사업 확장 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>아시아 태평양 시장 상승, AI 주식 반등</title>
-    <link href="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EC%83%81%EC%8A%B9-ai-%EC%A3%BC%EC%8B%9D-%EB%B0%98%EB%93%B1/" rel="alternate" type="text/html" title="아시아 태평양 시장 상승, AI 주식 반등" />
-    <published>2025-11-06T12:17:37+09:00</published>
-  
-    <updated>2025-11-06T12:17:37+09:00</updated>
-  
-    <id>/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EC%83%81%EC%8A%B9-ai-%EC%A3%BC%EC%8B%9D-%EB%B0%98%EB%93%B1/</id>
-    <content type="text/html" src="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EC%83%81%EC%8A%B9-ai-%EC%A3%BC%EC%8B%9D-%EB%B0%98%EB%93%B1/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>아시아 태평양 시장 상승, AI 주식 반등 · 경제 뉴스 요약</summary>
 
   </entry>
 
