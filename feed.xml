@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T19:00:01+09:00</updated>
+  <updated>2025-11-06T19:31:01+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>채권 수익률 하락, 성장주에 유리할 것</title>
+    <link href="/posts/%EC%B1%84%EA%B6%8C-%EC%88%98%EC%9D%B5%EB%A5%A0-%ED%95%98%EB%9D%BD-%EC%84%B1%EC%9E%A5%EC%A3%BC%EC%97%90-%EC%9C%A0%EB%A6%AC%ED%95%A0-%EA%B2%83/" rel="alternate" type="text/html" title="채권 수익률 하락, 성장주에 유리할 것" />
+    <published>2025-11-06T19:30:26+09:00</published>
+  
+    <updated>2025-11-06T19:30:26+09:00</updated>
+  
+    <id>/posts/%EC%B1%84%EA%B6%8C-%EC%88%98%EC%9D%B5%EB%A5%A0-%ED%95%98%EB%9D%BD-%EC%84%B1%EC%9E%A5%EC%A3%BC%EC%97%90-%EC%9C%A0%EB%A6%AC%ED%95%A0-%EA%B2%83/</id>
+    <content type="text/html" src="/posts/%EC%B1%84%EA%B6%8C-%EC%88%98%EC%9D%B5%EB%A5%A0-%ED%95%98%EB%9D%BD-%EC%84%B1%EC%9E%A5%EC%A3%BC%EC%97%90-%EC%9C%A0%EB%A6%AC%ED%95%A0-%EA%B2%83/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>채권 수익률 하락, 성장주에 유리할 것 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>S&amp;amp;P 500, Nasdaq 한 달 만에 최대 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Pfizer와 Novo Nordisk의 비만 바이오텍 인수전</title>
-    <link href="/posts/pfizer%EC%99%80-novo-nordisk%EC%9D%98-%EB%B9%84%EB%A7%8C-%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D-%EC%9D%B8%EC%88%98%EC%A0%84/" rel="alternate" type="text/html" title="Pfizer와 Novo Nordisk의 비만 바이오텍 인수전" />
-    <published>2025-11-06T16:57:17+09:00</published>
-  
-    <updated>2025-11-06T16:57:17+09:00</updated>
-  
-    <id>/posts/pfizer%EC%99%80-novo-nordisk%EC%9D%98-%EB%B9%84%EB%A7%8C-%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D-%EC%9D%B8%EC%88%98%EC%A0%84/</id>
-    <content type="text/html" src="/posts/pfizer%EC%99%80-novo-nordisk%EC%9D%98-%EB%B9%84%EB%A7%8C-%EB%B0%94%EC%9D%B4%EC%98%A4%ED%85%8D-%EC%9D%B8%EC%88%98%EC%A0%84/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Pfizer와 Novo Nordisk의 비만 바이오텍 인수전 · 경제 뉴스 요약</summary>
 
   </entry>
 
