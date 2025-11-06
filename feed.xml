@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T14:25:17+09:00</updated>
+  <updated>2025-11-06T14:44:30+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>퀄컴, 실적 발표 및 긍정적 전망 제시</title>
+    <link href="/posts/%ED%80%84%EC%BB%B4-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EB%B0%8F-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D-%EC%A0%9C%EC%8B%9C/" rel="alternate" type="text/html" title="퀄컴, 실적 발표 및 긍정적 전망 제시" />
+    <published>2025-11-06T14:43:53+09:00</published>
+  
+    <updated>2025-11-06T14:43:53+09:00</updated>
+  
+    <id>/posts/%ED%80%84%EC%BB%B4-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EB%B0%8F-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D-%EC%A0%9C%EC%8B%9C/</id>
+    <content type="text/html" src="/posts/%ED%80%84%EC%BB%B4-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EB%B0%8F-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D-%EC%A0%9C%EC%8B%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>퀄컴, 실적 발표 및 긍정적 전망 제시 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>코스트코, 또 다시 월간 매출 증가에도 주가는 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>OpenAI, 정부 지원 가능성 제시</title>
-    <link href="/posts/openai-%EC%A0%95%EB%B6%80-%EC%A7%80%EC%9B%90-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A0%9C%EC%8B%9C/" rel="alternate" type="text/html" title="OpenAI, 정부 지원 가능성 제시" />
-    <published>2025-11-06T13:00:40+09:00</published>
-  
-    <updated>2025-11-06T13:00:40+09:00</updated>
-  
-    <id>/posts/openai-%EC%A0%95%EB%B6%80-%EC%A7%80%EC%9B%90-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A0%9C%EC%8B%9C/</id>
-    <content type="text/html" src="/posts/openai-%EC%A0%95%EB%B6%80-%EC%A7%80%EC%9B%90-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A0%9C%EC%8B%9C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>OpenAI, 정부 지원 가능성 제시 · 경제 뉴스 요약</summary>
 
   </entry>
 
