@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T04:30:33+09:00</updated>
+  <updated>2025-11-07T04:41:38+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AI 버블, 채권 시장의 신뢰로 지속될까?</title>
+    <link href="/posts/ai-%EB%B2%84%EB%B8%94-%EC%B1%84%EA%B6%8C-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EB%A1%9C-%EC%A7%80%EC%86%8D%EB%90%A0%EA%B9%8C/" rel="alternate" type="text/html" title="AI 버블, 채권 시장의 신뢰로 지속될까?" />
+    <published>2025-11-07T04:40:52+09:00</published>
+  
+    <updated>2025-11-07T04:40:52+09:00</updated>
+  
+    <id>/posts/ai-%EB%B2%84%EB%B8%94-%EC%B1%84%EA%B6%8C-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EB%A1%9C-%EC%A7%80%EC%86%8D%EB%90%A0%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/ai-%EB%B2%84%EB%B8%94-%EC%B1%84%EA%B6%8C-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EB%A1%9C-%EC%A7%80%EC%86%8D%EB%90%A0%EA%B9%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>AI 버블, 채권 시장의 신뢰로 지속될까? · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>트럼프, 엘리 릴리 및 노보 노르디스크와 협약 체결 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>트럼프 AI 자문, AI에 대한 연방 구제 없다</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-ai-%EC%9E%90%EB%AC%B8-ai%EC%97%90-%EB%8C%80%ED%95%9C-%EC%97%B0%EB%B0%A9-%EA%B5%AC%EC%A0%9C-%EC%97%86%EB%8B%A4/" rel="alternate" type="text/html" title="트럼프 AI 자문, AI에 대한 연방 구제 없다" />
-    <published>2025-11-07T02:59:36+09:00</published>
-  
-    <updated>2025-11-07T02:59:36+09:00</updated>
-  
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-ai-%EC%9E%90%EB%AC%B8-ai%EC%97%90-%EB%8C%80%ED%95%9C-%EC%97%B0%EB%B0%A9-%EA%B5%AC%EC%A0%9C-%EC%97%86%EB%8B%A4/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-ai-%EC%9E%90%EB%AC%B8-ai%EC%97%90-%EB%8C%80%ED%95%9C-%EC%97%B0%EB%B0%A9-%EA%B5%AC%EC%A0%9C-%EC%97%86%EB%8B%A4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>트럼프 AI 자문, AI에 대한 연방 구제 없다 · 경제 뉴스 요약</summary>
 
   </entry>
 
