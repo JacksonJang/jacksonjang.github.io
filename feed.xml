@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T14:44:30+09:00</updated>
+  <updated>2025-11-06T14:58:29+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>호주 주식, S&amp;P/ASX 200 0.29% 상승 마감</title>
+    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-029-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="호주 주식, S&amp;amp;P/ASX 200 0.29% 상승 마감" />
+    <published>2025-11-06T14:57:44+09:00</published>
+  
+    <updated>2025-11-06T14:57:44+09:00</updated>
+  
+    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-029-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/</id>
+    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-029-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>호주 주식, S&amp;amp;P/ASX 200 0.29% 상승 마감 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>짐 크래머, 시장 하락에 대처하는 법 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>코스트코, 또 다시 월간 매출 증가에도 주가는 하락</title>
-    <link href="/posts/%EC%BD%94%EC%8A%A4%ED%8A%B8%EC%BD%94-%EB%98%90-%EB%8B%A4%EC%8B%9C-%EC%9B%94%EA%B0%84-%EB%A7%A4%EC%B6%9C-%EC%A6%9D%EA%B0%80%EC%97%90%EB%8F%84-%EC%A3%BC%EA%B0%80%EB%8A%94-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="코스트코, 또 다시 월간 매출 증가에도 주가는 하락" />
-    <published>2025-11-06T13:36:32+09:00</published>
-  
-    <updated>2025-11-06T13:36:32+09:00</updated>
-  
-    <id>/posts/%EC%BD%94%EC%8A%A4%ED%8A%B8%EC%BD%94-%EB%98%90-%EB%8B%A4%EC%8B%9C-%EC%9B%94%EA%B0%84-%EB%A7%A4%EC%B6%9C-%EC%A6%9D%EA%B0%80%EC%97%90%EB%8F%84-%EC%A3%BC%EA%B0%80%EB%8A%94-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/%EC%BD%94%EC%8A%A4%ED%8A%B8%EC%BD%94-%EB%98%90-%EB%8B%A4%EC%8B%9C-%EC%9B%94%EA%B0%84-%EB%A7%A4%EC%B6%9C-%EC%A6%9D%EA%B0%80%EC%97%90%EB%8F%84-%EC%A3%BC%EA%B0%80%EB%8A%94-%ED%95%98%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>코스트코, 또 다시 월간 매출 증가에도 주가는 하락 · 경제 뉴스 요약</summary>
 
   </entry>
 
