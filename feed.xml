@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T17:33:06+09:00</updated>
+  <updated>2025-11-06T17:53:45+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>주식시장 하락: 기술주 AI 가치 우려와 비트코인</title>
+    <link href="/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%ED%95%98%EB%9D%BD-%EA%B8%B0%EC%88%A0%EC%A3%BC-ai-%EA%B0%80%EC%B9%98-%EC%9A%B0%EB%A0%A4%EC%99%80-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/" rel="alternate" type="text/html" title="주식시장 하락: 기술주 AI 가치 우려와 비트코인" />
+    <published>2025-11-06T17:53:07+09:00</published>
+  
+    <updated>2025-11-06T17:53:07+09:00</updated>
+  
+    <id>/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%ED%95%98%EB%9D%BD-%EA%B8%B0%EC%88%A0%EC%A3%BC-ai-%EA%B0%80%EC%B9%98-%EC%9A%B0%EB%A0%A4%EC%99%80-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%ED%95%98%EB%9D%BD-%EA%B8%B0%EC%88%A0%EC%A3%BC-ai-%EA%B0%80%EC%B9%98-%EC%9A%B0%EB%A0%A4%EC%99%80-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>주식시장 하락: 기술주 AI 가치 우려와 비트코인 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>프리랜서로 전환한 수의사, 소득 두 배로 증가 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>트럼프, 웨스팅하우스 원자력 투자로 IPO 가능성</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%9B%A8%EC%8A%A4%ED%8C%85%ED%95%98%EC%9A%B0%EC%8A%A4-%EC%9B%90%EC%9E%90%EB%A0%A5-%ED%88%AC%EC%9E%90%EB%A1%9C-ipo-%EA%B0%80%EB%8A%A5%EC%84%B1/" rel="alternate" type="text/html" title="트럼프, 웨스팅하우스 원자력 투자로 IPO 가능성" />
-    <published>2025-11-06T16:22:55+09:00</published>
-  
-    <updated>2025-11-06T16:22:55+09:00</updated>
-  
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%9B%A8%EC%8A%A4%ED%8C%85%ED%95%98%EC%9A%B0%EC%8A%A4-%EC%9B%90%EC%9E%90%EB%A0%A5-%ED%88%AC%EC%9E%90%EB%A1%9C-ipo-%EA%B0%80%EB%8A%A5%EC%84%B1/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%9B%A8%EC%8A%A4%ED%8C%85%ED%95%98%EC%9A%B0%EC%8A%A4-%EC%9B%90%EC%9E%90%EB%A0%A5-%ED%88%AC%EC%9E%90%EB%A1%9C-ipo-%EA%B0%80%EB%8A%A5%EC%84%B1/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>트럼프, 웨스팅하우스 원자력 투자로 IPO 가능성 · 경제 뉴스 요약</summary>
 
   </entry>
 
