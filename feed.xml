@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T02:23:47+09:00</updated>
+  <updated>2025-11-07T02:40:56+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>FAA, 40개 공항에서 항공편 축소 발표</title>
+    <link href="/posts/faa-40%EA%B0%9C-%EA%B3%B5%ED%95%AD%EC%97%90%EC%84%9C-%ED%95%AD%EA%B3%B5%ED%8E%B8-%EC%B6%95%EC%86%8C-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="FAA, 40개 공항에서 항공편 축소 발표" />
+    <published>2025-11-07T02:40:06+09:00</published>
+  
+    <updated>2025-11-07T02:40:06+09:00</updated>
+  
+    <id>/posts/faa-40%EA%B0%9C-%EA%B3%B5%ED%95%AD%EC%97%90%EC%84%9C-%ED%95%AD%EA%B3%B5%ED%8E%B8-%EC%B6%95%EC%86%8C-%EB%B0%9C%ED%91%9C/</id>
+    <content type="text/html" src="/posts/faa-40%EA%B0%9C-%EA%B3%B5%ED%95%AD%EC%97%90%EC%84%9C-%ED%95%AD%EA%B3%B5%ED%8E%B8-%EC%B6%95%EC%86%8C-%EB%B0%9C%ED%91%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>FAA, 40개 공항에서 항공편 축소 발표 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>ESPN, 스포츠 베팅 파트너를 DraftKings로 변경 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>추수감사절 칠면조 가격 급등 예고</title>
-    <link href="/posts/%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%B9%A0%EB%A9%B4%EC%A1%B0-%EA%B0%80%EA%B2%A9-%EA%B8%89%EB%93%B1-%EC%98%88%EA%B3%A0/" rel="alternate" type="text/html" title="추수감사절 칠면조 가격 급등 예고" />
-    <published>2025-11-07T00:46:13+09:00</published>
-  
-    <updated>2025-11-07T00:46:13+09:00</updated>
-  
-    <id>/posts/%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%B9%A0%EB%A9%B4%EC%A1%B0-%EA%B0%80%EA%B2%A9-%EA%B8%89%EB%93%B1-%EC%98%88%EA%B3%A0/</id>
-    <content type="text/html" src="/posts/%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%B9%A0%EB%A9%B4%EC%A1%B0-%EA%B0%80%EA%B2%A9-%EA%B8%89%EB%93%B1-%EC%98%88%EA%B3%A0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>추수감사절 칠면조 가격 급등 예고 · 경제 뉴스 요약</summary>
 
   </entry>
 
