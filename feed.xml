@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T22:59:43+09:00</updated>
+  <updated>2025-11-06T23:26:17+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>낸시 펠로시, 의회 재선 불출마 선언</title>
+    <link href="/posts/%EB%82%B8%EC%8B%9C-%ED%8E%A0%EB%A1%9C%EC%8B%9C-%EC%9D%98%ED%9A%8C-%EC%9E%AC%EC%84%A0-%EB%B6%88%EC%B6%9C%EB%A7%88-%EC%84%A0%EC%96%B8/" rel="alternate" type="text/html" title="낸시 펠로시, 의회 재선 불출마 선언" />
+    <published>2025-11-06T23:25:37+09:00</published>
+  
+    <updated>2025-11-06T23:25:37+09:00</updated>
+  
+    <id>/posts/%EB%82%B8%EC%8B%9C-%ED%8E%A0%EB%A1%9C%EC%8B%9C-%EC%9D%98%ED%9A%8C-%EC%9E%AC%EC%84%A0-%EB%B6%88%EC%B6%9C%EB%A7%88-%EC%84%A0%EC%96%B8/</id>
+    <content type="text/html" src="/posts/%EB%82%B8%EC%8B%9C-%ED%8E%A0%EB%A1%9C%EC%8B%9C-%EC%9D%98%ED%9A%8C-%EC%9E%AC%EC%84%A0-%EB%B6%88%EC%B6%9C%EB%A7%88-%EC%84%A0%EC%96%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>낸시 펠로시, 의회 재선 불출마 선언 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Peloton, 83만 대 자전거 리콜 발표 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>엘리 릴리, 비만 치료제 임상시험 시작</title>
-    <link href="/posts/%EC%97%98%EB%A6%AC-%EB%A6%B4%EB%A6%AC-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%9E%84%EC%83%81%EC%8B%9C%ED%97%98-%EC%8B%9C%EC%9E%91/" rel="alternate" type="text/html" title="엘리 릴리, 비만 치료제 임상시험 시작" />
-    <published>2025-11-06T20:57:40+09:00</published>
-  
-    <updated>2025-11-06T20:57:40+09:00</updated>
-  
-    <id>/posts/%EC%97%98%EB%A6%AC-%EB%A6%B4%EB%A6%AC-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%9E%84%EC%83%81%EC%8B%9C%ED%97%98-%EC%8B%9C%EC%9E%91/</id>
-    <content type="text/html" src="/posts/%EC%97%98%EB%A6%AC-%EB%A6%B4%EB%A6%AC-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%9E%84%EC%83%81%EC%8B%9C%ED%97%98-%EC%8B%9C%EC%9E%91/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>엘리 릴리, 비만 치료제 임상시험 시작 · 경제 뉴스 요약</summary>
 
   </entry>
 
