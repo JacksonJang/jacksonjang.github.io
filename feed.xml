@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T13:49:28+09:00</updated>
+  <updated>2025-11-06T13:58:41+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>소매업체, 관세로 가격 인상 중 - 아마존 선두</title>
+    <link href="/posts/%EC%86%8C%EB%A7%A4%EC%97%85%EC%B2%B4-%EA%B4%80%EC%84%B8%EB%A1%9C-%EA%B0%80%EA%B2%A9-%EC%9D%B8%EC%83%81-%EC%A4%91-%EC%95%84%EB%A7%88%EC%A1%B4-%EC%84%A0%EB%91%90/" rel="alternate" type="text/html" title="소매업체, 관세로 가격 인상 중 - 아마존 선두" />
+    <published>2025-11-06T13:58:06+09:00</published>
+  
+    <updated>2025-11-06T13:58:06+09:00</updated>
+  
+    <id>/posts/%EC%86%8C%EB%A7%A4%EC%97%85%EC%B2%B4-%EA%B4%80%EC%84%B8%EB%A1%9C-%EA%B0%80%EA%B2%A9-%EC%9D%B8%EC%83%81-%EC%A4%91-%EC%95%84%EB%A7%88%EC%A1%B4-%EC%84%A0%EB%91%90/</id>
+    <content type="text/html" src="/posts/%EC%86%8C%EB%A7%A4%EC%97%85%EC%B2%B4-%EA%B4%80%EC%84%B8%EB%A1%9C-%EA%B0%80%EA%B2%A9-%EC%9D%B8%EC%83%81-%EC%A4%91-%EC%95%84%EB%A7%88%EC%A1%B4-%EC%84%A0%EB%91%90/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>소매업체, 관세로 가격 인상 중 - 아마존 선두 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Figma, AI 소프트웨어로 연간 매출 10억 달러 돌파 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>마이크로소프트, 직원들의 제품 우려 제기 허용</title>
-    <link href="/posts/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8-%EC%A7%81%EC%9B%90%EB%93%A4%EC%9D%98-%EC%A0%9C%ED%92%88-%EC%9A%B0%EB%A0%A4-%EC%A0%9C%EA%B8%B0-%ED%97%88%EC%9A%A9/" rel="alternate" type="text/html" title="마이크로소프트, 직원들의 제품 우려 제기 허용" />
-    <published>2025-11-06T12:26:35+09:00</published>
-  
-    <updated>2025-11-06T12:26:35+09:00</updated>
-  
-    <id>/posts/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8-%EC%A7%81%EC%9B%90%EB%93%A4%EC%9D%98-%EC%A0%9C%ED%92%88-%EC%9A%B0%EB%A0%A4-%EC%A0%9C%EA%B8%B0-%ED%97%88%EC%9A%A9/</id>
-    <content type="text/html" src="/posts/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8-%EC%A7%81%EC%9B%90%EB%93%A4%EC%9D%98-%EC%A0%9C%ED%92%88-%EC%9A%B0%EB%A0%A4-%EC%A0%9C%EA%B8%B0-%ED%97%88%EC%9A%A9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>마이크로소프트, 직원들의 제품 우려 제기 허용 · 경제 뉴스 요약</summary>
 
   </entry>
 
