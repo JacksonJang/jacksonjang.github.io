@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T23:47:31+09:00</updated>
+  <updated>2025-11-06T23:58:11+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>보잉 737 맥스 사건, 형사 소송 기각</title>
+    <link href="/posts/%EB%B3%B4%EC%9E%89-737-%EB%A7%A5%EC%8A%A4-%EC%82%AC%EA%B1%B4-%ED%98%95%EC%82%AC-%EC%86%8C%EC%86%A1-%EA%B8%B0%EA%B0%81/" rel="alternate" type="text/html" title="보잉 737 맥스 사건, 형사 소송 기각" />
+    <published>2025-11-06T23:57:30+09:00</published>
+  
+    <updated>2025-11-06T23:57:30+09:00</updated>
+  
+    <id>/posts/%EB%B3%B4%EC%9E%89-737-%EB%A7%A5%EC%8A%A4-%EC%82%AC%EA%B1%B4-%ED%98%95%EC%82%AC-%EC%86%8C%EC%86%A1-%EA%B8%B0%EA%B0%81/</id>
+    <content type="text/html" src="/posts/%EB%B3%B4%EC%9E%89-737-%EB%A7%A5%EC%8A%A4-%EC%82%AC%EA%B1%B4-%ED%98%95%EC%82%AC-%EC%86%8C%EC%86%A1-%EA%B8%B0%EA%B0%81/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>보잉 737 맥스 사건, 형사 소송 기각 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>CarMax 주가 10% 하락, CEO 사임 및 전망 부진 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>스테이블코인, 현금처럼 사용하길 원한다</title>
-    <link href="/posts/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8-%ED%98%84%EA%B8%88%EC%B2%98%EB%9F%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B8-%EC%9B%90%ED%95%9C%EB%8B%A4/" rel="alternate" type="text/html" title="스테이블코인, 현금처럼 사용하길 원한다" />
-    <published>2025-11-06T22:23:52+09:00</published>
-  
-    <updated>2025-11-06T22:23:52+09:00</updated>
-  
-    <id>/posts/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8-%ED%98%84%EA%B8%88%EC%B2%98%EB%9F%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B8-%EC%9B%90%ED%95%9C%EB%8B%A4/</id>
-    <content type="text/html" src="/posts/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8-%ED%98%84%EA%B8%88%EC%B2%98%EB%9F%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B8-%EC%9B%90%ED%95%9C%EB%8B%A4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>스테이블코인, 현금처럼 사용하길 원한다 · 경제 뉴스 요약</summary>
 
   </entry>
 
