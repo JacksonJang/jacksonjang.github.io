@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T05:00:25+09:00</updated>
+  <updated>2025-11-07T05:30:10+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>샌드위치 던진 전 DOJ 직원, 연방 요원 폭행 무죄</title>
+    <link href="/posts/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98-%EB%8D%98%EC%A7%84-%EC%A0%84-doj-%EC%A7%81%EC%9B%90-%EC%97%B0%EB%B0%A9-%EC%9A%94%EC%9B%90-%ED%8F%AD%ED%96%89-%EB%AC%B4%EC%A3%84/" rel="alternate" type="text/html" title="샌드위치 던진 전 DOJ 직원, 연방 요원 폭행 무죄" />
+    <published>2025-11-07T05:29:24+09:00</published>
+  
+    <updated>2025-11-07T05:29:24+09:00</updated>
+  
+    <id>/posts/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98-%EB%8D%98%EC%A7%84-%EC%A0%84-doj-%EC%A7%81%EC%9B%90-%EC%97%B0%EB%B0%A9-%EC%9A%94%EC%9B%90-%ED%8F%AD%ED%96%89-%EB%AC%B4%EC%A3%84/</id>
+    <content type="text/html" src="/posts/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98-%EB%8D%98%EC%A7%84-%EC%A0%84-doj-%EC%A7%81%EC%9B%90-%EC%97%B0%EB%B0%A9-%EC%9A%94%EC%9B%90-%ED%8F%AD%ED%96%89-%EB%AC%B4%EC%A3%84/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>샌드위치 던진 전 DOJ 직원, 연방 요원 폭행 무죄 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>FAA, 40개 공항에서 10% 항공편 축소 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>테슬라 투자자 회의, 머스크의 보수 패키지 논란</title>
-    <link href="/posts/%ED%85%8C%EC%8A%AC%EB%9D%BC-%ED%88%AC%EC%9E%90%EC%9E%90-%ED%9A%8C%EC%9D%98-%EB%A8%B8%EC%8A%A4%ED%81%AC%EC%9D%98-%EB%B3%B4%EC%88%98-%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%85%BC%EB%9E%80/" rel="alternate" type="text/html" title="테슬라 투자자 회의, 머스크의 보수 패키지 논란" />
-    <published>2025-11-07T04:19:04+09:00</published>
-  
-    <updated>2025-11-07T04:19:04+09:00</updated>
-  
-    <id>/posts/%ED%85%8C%EC%8A%AC%EB%9D%BC-%ED%88%AC%EC%9E%90%EC%9E%90-%ED%9A%8C%EC%9D%98-%EB%A8%B8%EC%8A%A4%ED%81%AC%EC%9D%98-%EB%B3%B4%EC%88%98-%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%85%BC%EB%9E%80/</id>
-    <content type="text/html" src="/posts/%ED%85%8C%EC%8A%AC%EB%9D%BC-%ED%88%AC%EC%9E%90%EC%9E%90-%ED%9A%8C%EC%9D%98-%EB%A8%B8%EC%8A%A4%ED%81%AC%EC%9D%98-%EB%B3%B4%EC%88%98-%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%85%BC%EB%9E%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>테슬라 투자자 회의, 머스크의 보수 패키지 논란 · 경제 뉴스 요약</summary>
 
   </entry>
 
