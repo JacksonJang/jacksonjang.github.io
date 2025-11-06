@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T09:46:23+09:00</updated>
+  <updated>2025-11-06T11:02:04+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Pony.ai, 홍콩 상장 첫날 주가 12% 하락</title>
+    <link href="/posts/ponyai-%ED%99%8D%EC%BD%A9-%EC%83%81%EC%9E%A5-%EC%B2%AB%EB%82%A0-%EC%A3%BC%EA%B0%80-12-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="Pony.ai, 홍콩 상장 첫날 주가 12% 하락" />
+    <published>2025-11-06T11:01:27+09:00</published>
+  
+    <updated>2025-11-06T11:01:27+09:00</updated>
+  
+    <id>/posts/ponyai-%ED%99%8D%EC%BD%A9-%EC%83%81%EC%9E%A5-%EC%B2%AB%EB%82%A0-%EC%A3%BC%EA%B0%80-12-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/ponyai-%ED%99%8D%EC%BD%A9-%EC%83%81%EC%9E%A5-%EC%B2%AB%EB%82%A0-%EC%A3%BC%EA%B0%80-12-%ED%95%98%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Pony.ai, 홍콩 상장 첫날 주가 12% 하락 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>64세, 400K 저축으로 은퇴할 수 있을까? · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>국채, 지금 좋은 투자처로 떠오르다</title>
-    <link href="/posts/%EA%B5%AD%EC%B1%84-%EC%A7%80%EA%B8%88-%EC%A2%8B%EC%9D%80-%ED%88%AC%EC%9E%90%EC%B2%98%EB%A1%9C-%EB%96%A0%EC%98%A4%EB%A5%B4%EB%8B%A4/" rel="alternate" type="text/html" title="국채, 지금 좋은 투자처로 떠오르다" />
-    <published>2025-11-06T08:27:58+09:00</published>
-  
-    <updated>2025-11-06T08:27:58+09:00</updated>
-  
-    <id>/posts/%EA%B5%AD%EC%B1%84-%EC%A7%80%EA%B8%88-%EC%A2%8B%EC%9D%80-%ED%88%AC%EC%9E%90%EC%B2%98%EB%A1%9C-%EB%96%A0%EC%98%A4%EB%A5%B4%EB%8B%A4/</id>
-    <content type="text/html" src="/posts/%EA%B5%AD%EC%B1%84-%EC%A7%80%EA%B8%88-%EC%A2%8B%EC%9D%80-%ED%88%AC%EC%9E%90%EC%B2%98%EB%A1%9C-%EB%96%A0%EC%98%A4%EB%A5%B4%EB%8B%A4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>국채, 지금 좋은 투자처로 떠오르다 · 경제 뉴스 요약</summary>
 
   </entry>
 
