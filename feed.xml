@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T12:34:14+09:00</updated>
+  <updated>2025-11-06T13:01:22+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>OpenAI, 정부 지원 가능성 제시</title>
+    <link href="/posts/openai-%EC%A0%95%EB%B6%80-%EC%A7%80%EC%9B%90-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A0%9C%EC%8B%9C/" rel="alternate" type="text/html" title="OpenAI, 정부 지원 가능성 제시" />
+    <published>2025-11-06T13:00:40+09:00</published>
+  
+    <updated>2025-11-06T13:00:40+09:00</updated>
+  
+    <id>/posts/openai-%EC%A0%95%EB%B6%80-%EC%A7%80%EC%9B%90-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A0%9C%EC%8B%9C/</id>
+    <content type="text/html" src="/posts/openai-%EC%A0%95%EB%B6%80-%EC%A7%80%EC%9B%90-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A0%9C%EC%8B%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>OpenAI, 정부 지원 가능성 제시 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>엘프 뷰티, 하일리 비버의 성공에도 주가 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>로빈후드, 매출 두 배 증가 및 새로운 사업 확장</title>
-    <link href="/posts/%EB%A1%9C%EB%B9%88%ED%9B%84%EB%93%9C-%EB%A7%A4%EC%B6%9C-%EB%91%90-%EB%B0%B0-%EC%A6%9D%EA%B0%80-%EB%B0%8F-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%82%AC%EC%97%85-%ED%99%95%EC%9E%A5/" rel="alternate" type="text/html" title="로빈후드, 매출 두 배 증가 및 새로운 사업 확장" />
-    <published>2025-11-06T12:19:52+09:00</published>
-  
-    <updated>2025-11-06T12:19:52+09:00</updated>
-  
-    <id>/posts/%EB%A1%9C%EB%B9%88%ED%9B%84%EB%93%9C-%EB%A7%A4%EC%B6%9C-%EB%91%90-%EB%B0%B0-%EC%A6%9D%EA%B0%80-%EB%B0%8F-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%82%AC%EC%97%85-%ED%99%95%EC%9E%A5/</id>
-    <content type="text/html" src="/posts/%EB%A1%9C%EB%B9%88%ED%9B%84%EB%93%9C-%EB%A7%A4%EC%B6%9C-%EB%91%90-%EB%B0%B0-%EC%A6%9D%EA%B0%80-%EB%B0%8F-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%82%AC%EC%97%85-%ED%99%95%EC%9E%A5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>로빈후드, 매출 두 배 증가 및 새로운 사업 확장 · 경제 뉴스 요약</summary>
 
   </entry>
 
