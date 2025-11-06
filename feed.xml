@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T20:58:16+09:00</updated>
+  <updated>2025-11-06T21:51:06+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Peloton, 83만 대 자전거 리콜 발표</title>
+    <link href="/posts/peloton-83%EB%A7%8C-%EB%8C%80-%EC%9E%90%EC%A0%84%EA%B1%B0-%EB%A6%AC%EC%BD%9C-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="Peloton, 83만 대 자전거 리콜 발표" />
+    <published>2025-11-06T21:50:20+09:00</published>
+  
+    <updated>2025-11-06T21:50:20+09:00</updated>
+  
+    <id>/posts/peloton-83%EB%A7%8C-%EB%8C%80-%EC%9E%90%EC%A0%84%EA%B1%B0-%EB%A6%AC%EC%BD%9C-%EB%B0%9C%ED%91%9C/</id>
+    <content type="text/html" src="/posts/peloton-83%EB%A7%8C-%EB%8C%80-%EC%9E%90%EC%A0%84%EA%B1%B0-%EB%A6%AC%EC%BD%9C-%EB%B0%9C%ED%91%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Peloton, 83만 대 자전거 리콜 발표 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>NWSL, 스타들로 구성된 자문위원회 발족 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Marvell Technology 주가 급등, M&amp;A 소식 영향</title>
-    <link href="/posts/marvell-technology-%EC%A3%BC%EA%B0%80-%EA%B8%89%EB%93%B1-ma-%EC%86%8C%EC%8B%9D-%EC%98%81%ED%96%A5/" rel="alternate" type="text/html" title="Marvell Technology 주가 급등, M&amp;amp;A 소식 영향" />
-    <published>2025-11-06T19:58:03+09:00</published>
-  
-    <updated>2025-11-06T19:58:03+09:00</updated>
-  
-    <id>/posts/marvell-technology-%EC%A3%BC%EA%B0%80-%EA%B8%89%EB%93%B1-ma-%EC%86%8C%EC%8B%9D-%EC%98%81%ED%96%A5/</id>
-    <content type="text/html" src="/posts/marvell-technology-%EC%A3%BC%EA%B0%80-%EA%B8%89%EB%93%B1-ma-%EC%86%8C%EC%8B%9D-%EC%98%81%ED%96%A5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Marvell Technology 주가 급등, M&amp;amp;A 소식 영향 · 경제 뉴스 요약</summary>
 
   </entry>
 
