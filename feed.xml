@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T01:33:19+09:00</updated>
+  <updated>2025-11-07T01:55:22+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>파파존스, 매출 감소: 중간 피자 선호 증가</title>
+    <link href="/posts/%ED%8C%8C%ED%8C%8C%EC%A1%B4%EC%8A%A4-%EB%A7%A4%EC%B6%9C-%EA%B0%90%EC%86%8C-%EC%A4%91%EA%B0%84-%ED%94%BC%EC%9E%90-%EC%84%A0%ED%98%B8-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="파파존스, 매출 감소: 중간 피자 선호 증가" />
+    <published>2025-11-07T01:54:40+09:00</published>
+  
+    <updated>2025-11-07T01:54:40+09:00</updated>
+  
+    <id>/posts/%ED%8C%8C%ED%8C%8C%EC%A1%B4%EC%8A%A4-%EB%A7%A4%EC%B6%9C-%EA%B0%90%EC%86%8C-%EC%A4%91%EA%B0%84-%ED%94%BC%EC%9E%90-%EC%84%A0%ED%98%B8-%EC%A6%9D%EA%B0%80/</id>
+    <content type="text/html" src="/posts/%ED%8C%8C%ED%8C%8C%EC%A1%B4%EC%8A%A4-%EB%A7%A4%EC%B6%9C-%EA%B0%90%EC%86%8C-%EC%A4%91%EA%B0%84-%ED%94%BC%EC%9E%90-%EC%84%A0%ED%98%B8-%EC%A6%9D%EA%B0%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>파파존스, 매출 감소: 중간 피자 선호 증가 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>타겟, 매장 청결 개선으로 고객 경험 향상 시도 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>보잉 737 맥스 사건, 형사 소송 기각</title>
-    <link href="/posts/%EB%B3%B4%EC%9E%89-737-%EB%A7%A5%EC%8A%A4-%EC%82%AC%EA%B1%B4-%ED%98%95%EC%82%AC-%EC%86%8C%EC%86%A1-%EA%B8%B0%EA%B0%81/" rel="alternate" type="text/html" title="보잉 737 맥스 사건, 형사 소송 기각" />
-    <published>2025-11-06T23:57:30+09:00</published>
-  
-    <updated>2025-11-06T23:57:30+09:00</updated>
-  
-    <id>/posts/%EB%B3%B4%EC%9E%89-737-%EB%A7%A5%EC%8A%A4-%EC%82%AC%EA%B1%B4-%ED%98%95%EC%82%AC-%EC%86%8C%EC%86%A1-%EA%B8%B0%EA%B0%81/</id>
-    <content type="text/html" src="/posts/%EB%B3%B4%EC%9E%89-737-%EB%A7%A5%EC%8A%A4-%EC%82%AC%EA%B1%B4-%ED%98%95%EC%82%AC-%EC%86%8C%EC%86%A1-%EA%B8%B0%EA%B0%81/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>보잉 737 맥스 사건, 형사 소송 기각 · 경제 뉴스 요약</summary>
 
   </entry>
 
