@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T12:23:35+09:00</updated>
+  <updated>2025-11-06T12:27:18+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>마이크로소프트, 직원들의 제품 우려 제기 허용</title>
+    <link href="/posts/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8-%EC%A7%81%EC%9B%90%EB%93%A4%EC%9D%98-%EC%A0%9C%ED%92%88-%EC%9A%B0%EB%A0%A4-%EC%A0%9C%EA%B8%B0-%ED%97%88%EC%9A%A9/" rel="alternate" type="text/html" title="마이크로소프트, 직원들의 제품 우려 제기 허용" />
+    <published>2025-11-06T12:26:35+09:00</published>
+  
+    <updated>2025-11-06T12:26:35+09:00</updated>
+  
+    <id>/posts/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8-%EC%A7%81%EC%9B%90%EB%93%A4%EC%9D%98-%EC%A0%9C%ED%92%88-%EC%9A%B0%EB%A0%A4-%EC%A0%9C%EA%B8%B0-%ED%97%88%EC%9A%A9/</id>
+    <content type="text/html" src="/posts/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8-%EC%A7%81%EC%9B%90%EB%93%A4%EC%9D%98-%EC%A0%9C%ED%92%88-%EC%9A%B0%EB%A0%A4-%EC%A0%9C%EA%B8%B0-%ED%97%88%EC%9A%A9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>마이크로소프트, 직원들의 제품 우려 제기 허용 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>아시아 태평양 시장 상승, AI 주식 반등 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Pony.ai, 홍콩 상장 첫날 주가 12% 하락</title>
-    <link href="/posts/ponyai-%ED%99%8D%EC%BD%A9-%EC%83%81%EC%9E%A5-%EC%B2%AB%EB%82%A0-%EC%A3%BC%EA%B0%80-12-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="Pony.ai, 홍콩 상장 첫날 주가 12% 하락" />
-    <published>2025-11-06T11:01:27+09:00</published>
-  
-    <updated>2025-11-06T11:01:27+09:00</updated>
-  
-    <id>/posts/ponyai-%ED%99%8D%EC%BD%A9-%EC%83%81%EC%9E%A5-%EC%B2%AB%EB%82%A0-%EC%A3%BC%EA%B0%80-12-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/ponyai-%ED%99%8D%EC%BD%A9-%EC%83%81%EC%9E%A5-%EC%B2%AB%EB%82%A0-%EC%A3%BC%EA%B0%80-12-%ED%95%98%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Pony.ai, 홍콩 상장 첫날 주가 12% 하락 · 경제 뉴스 요약</summary>
 
   </entry>
 
