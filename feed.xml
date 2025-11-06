@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T19:58:41+09:00</updated>
+  <updated>2025-11-06T20:21:48+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>NWSL, 스타들로 구성된 자문위원회 발족</title>
+    <link href="/posts/nwsl-%EC%8A%A4%ED%83%80%EB%93%A4%EB%A1%9C-%EA%B5%AC%EC%84%B1%EB%90%9C-%EC%9E%90%EB%AC%B8%EC%9C%84%EC%9B%90%ED%9A%8C-%EB%B0%9C%EC%A1%B1/" rel="alternate" type="text/html" title="NWSL, 스타들로 구성된 자문위원회 발족" />
+    <published>2025-11-06T20:21:04+09:00</published>
+  
+    <updated>2025-11-06T20:21:04+09:00</updated>
+  
+    <id>/posts/nwsl-%EC%8A%A4%ED%83%80%EB%93%A4%EB%A1%9C-%EA%B5%AC%EC%84%B1%EB%90%9C-%EC%9E%90%EB%AC%B8%EC%9C%84%EC%9B%90%ED%9A%8C-%EB%B0%9C%EC%A1%B1/</id>
+    <content type="text/html" src="/posts/nwsl-%EC%8A%A4%ED%83%80%EB%93%A4%EB%A1%9C-%EA%B5%AC%EC%84%B1%EB%90%9C-%EC%9E%90%EB%AC%B8%EC%9C%84%EC%9B%90%ED%9A%8C-%EB%B0%9C%EC%A1%B1/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>NWSL, 스타들로 구성된 자문위원회 발족 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>머스크, 글로벌 무역 회복세에 전망 상향 조정 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Nvidia CEO, AI 경쟁에 대한 발언 수정</title>
-    <link href="/posts/nvidia-ceo-ai-%EA%B2%BD%EC%9F%81%EC%97%90-%EB%8C%80%ED%95%9C-%EB%B0%9C%EC%96%B8-%EC%88%98%EC%A0%95/" rel="alternate" type="text/html" title="Nvidia CEO, AI 경쟁에 대한 발언 수정" />
-    <published>2025-11-06T18:13:03+09:00</published>
-  
-    <updated>2025-11-06T18:13:03+09:00</updated>
-  
-    <id>/posts/nvidia-ceo-ai-%EA%B2%BD%EC%9F%81%EC%97%90-%EB%8C%80%ED%95%9C-%EB%B0%9C%EC%96%B8-%EC%88%98%EC%A0%95/</id>
-    <content type="text/html" src="/posts/nvidia-ceo-ai-%EA%B2%BD%EC%9F%81%EC%97%90-%EB%8C%80%ED%95%9C-%EB%B0%9C%EC%96%B8-%EC%88%98%EC%A0%95/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Nvidia CEO, AI 경쟁에 대한 발언 수정 · 경제 뉴스 요약</summary>
 
   </entry>
 
