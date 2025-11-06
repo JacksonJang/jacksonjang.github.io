@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T08:33:41+09:00</updated>
+  <updated>2025-11-07T08:44:24+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>대형 기술주가 S&amp;P 500 하락 이끌어</title>
+    <link href="/posts/%EB%8C%80%ED%98%95-%EA%B8%B0%EC%88%A0%EC%A3%BC%EA%B0%80-sp-500-%ED%95%98%EB%9D%BD-%EC%9D%B4%EB%81%8C%EC%96%B4/" rel="alternate" type="text/html" title="대형 기술주가 S&amp;amp;P 500 하락 이끌어" />
+    <published>2025-11-07T08:43:43+09:00</published>
+  
+    <updated>2025-11-07T08:43:43+09:00</updated>
+  
+    <id>/posts/%EB%8C%80%ED%98%95-%EA%B8%B0%EC%88%A0%EC%A3%BC%EA%B0%80-sp-500-%ED%95%98%EB%9D%BD-%EC%9D%B4%EB%81%8C%EC%96%B4/</id>
+    <content type="text/html" src="/posts/%EB%8C%80%ED%98%95-%EA%B8%B0%EC%88%A0%EC%A3%BC%EA%B0%80-sp-500-%ED%95%98%EB%9D%BD-%EC%9D%B4%EB%81%8C%EC%96%B4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>대형 기술주가 S&amp;amp;P 500 하락 이끌어 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>익스피디아, 여행 계획 여전히 활발하다고 발표 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>DoorDash 주가, 지출 우려 속 급락</title>
-    <link href="/posts/doordash-%EC%A3%BC%EA%B0%80-%EC%A7%80%EC%B6%9C-%EC%9A%B0%EB%A0%A4-%EC%86%8D-%EA%B8%89%EB%9D%BD/" rel="alternate" type="text/html" title="DoorDash 주가, 지출 우려 속 급락" />
-    <published>2025-11-07T07:39:48+09:00</published>
-  
-    <updated>2025-11-07T07:39:48+09:00</updated>
-  
-    <id>/posts/doordash-%EC%A3%BC%EA%B0%80-%EC%A7%80%EC%B6%9C-%EC%9A%B0%EB%A0%A4-%EC%86%8D-%EA%B8%89%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/doordash-%EC%A3%BC%EA%B0%80-%EC%A7%80%EC%B6%9C-%EC%9A%B0%EB%A0%A4-%EC%86%8D-%EA%B8%89%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>DoorDash 주가, 지출 우려 속 급락 · 경제 뉴스 요약</summary>
 
   </entry>
 
