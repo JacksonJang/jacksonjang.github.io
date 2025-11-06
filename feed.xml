@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T12:11:13+09:00</updated>
+  <updated>2025-11-06T12:18:10+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>아시아 태평양 시장 상승, AI 주식 반등</title>
+    <link href="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EC%83%81%EC%8A%B9-ai-%EC%A3%BC%EC%8B%9D-%EB%B0%98%EB%93%B1/" rel="alternate" type="text/html" title="아시아 태평양 시장 상승, AI 주식 반등" />
+    <published>2025-11-06T12:17:37+09:00</published>
+  
+    <updated>2025-11-06T12:17:37+09:00</updated>
+  
+    <id>/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EC%83%81%EC%8A%B9-ai-%EC%A3%BC%EC%8B%9D-%EB%B0%98%EB%93%B1/</id>
+    <content type="text/html" src="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EC%83%81%EC%8A%B9-ai-%EC%A3%BC%EC%8B%9D-%EB%B0%98%EB%93%B1/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>아시아 태평양 시장 상승, AI 주식 반등 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>결혼할까? 53세 싱글맘의 재정 고민 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>64세, 400K 저축으로 은퇴할 수 있을까?</title>
-    <link href="/posts/64%EC%84%B8-400k-%EC%A0%80%EC%B6%95%EC%9C%BC%EB%A1%9C-%EC%9D%80%ED%87%B4%ED%95%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/" rel="alternate" type="text/html" title="64세, 400K 저축으로 은퇴할 수 있을까?" />
-    <published>2025-11-06T08:38:00+09:00</published>
-  
-    <updated>2025-11-06T08:38:00+09:00</updated>
-  
-    <id>/posts/64%EC%84%B8-400k-%EC%A0%80%EC%B6%95%EC%9C%BC%EB%A1%9C-%EC%9D%80%ED%87%B4%ED%95%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/64%EC%84%B8-400k-%EC%A0%80%EC%B6%95%EC%9C%BC%EB%A1%9C-%EC%9D%80%ED%87%B4%ED%95%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>64세, 400K 저축으로 은퇴할 수 있을까? · 경제 뉴스 요약</summary>
 
   </entry>
 
