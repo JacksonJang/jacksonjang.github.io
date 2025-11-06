@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T21:51:06+09:00</updated>
+  <updated>2025-11-06T22:24:33+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>스테이블코인, 현금처럼 사용하길 원한다</title>
+    <link href="/posts/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8-%ED%98%84%EA%B8%88%EC%B2%98%EB%9F%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B8-%EC%9B%90%ED%95%9C%EB%8B%A4/" rel="alternate" type="text/html" title="스테이블코인, 현금처럼 사용하길 원한다" />
+    <published>2025-11-06T22:23:52+09:00</published>
+  
+    <updated>2025-11-06T22:23:52+09:00</updated>
+  
+    <id>/posts/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8-%ED%98%84%EA%B8%88%EC%B2%98%EB%9F%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B8-%EC%9B%90%ED%95%9C%EB%8B%A4/</id>
+    <content type="text/html" src="/posts/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8-%ED%98%84%EA%B8%88%EC%B2%98%EB%9F%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B8-%EC%9B%90%ED%95%9C%EB%8B%A4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>스테이블코인, 현금처럼 사용하길 원한다 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>부동산 투자자, 주택 시장에서 기회 포착 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>NWSL, 스타들로 구성된 자문위원회 발족</title>
-    <link href="/posts/nwsl-%EC%8A%A4%ED%83%80%EB%93%A4%EB%A1%9C-%EA%B5%AC%EC%84%B1%EB%90%9C-%EC%9E%90%EB%AC%B8%EC%9C%84%EC%9B%90%ED%9A%8C-%EB%B0%9C%EC%A1%B1/" rel="alternate" type="text/html" title="NWSL, 스타들로 구성된 자문위원회 발족" />
-    <published>2025-11-06T20:21:04+09:00</published>
-  
-    <updated>2025-11-06T20:21:04+09:00</updated>
-  
-    <id>/posts/nwsl-%EC%8A%A4%ED%83%80%EB%93%A4%EB%A1%9C-%EA%B5%AC%EC%84%B1%EB%90%9C-%EC%9E%90%EB%AC%B8%EC%9C%84%EC%9B%90%ED%9A%8C-%EB%B0%9C%EC%A1%B1/</id>
-    <content type="text/html" src="/posts/nwsl-%EC%8A%A4%ED%83%80%EB%93%A4%EB%A1%9C-%EA%B5%AC%EC%84%B1%EB%90%9C-%EC%9E%90%EB%AC%B8%EC%9C%84%EC%9B%90%ED%9A%8C-%EB%B0%9C%EC%A1%B1/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>NWSL, 스타들로 구성된 자문위원회 발족 · 경제 뉴스 요약</summary>
 
   </entry>
 
