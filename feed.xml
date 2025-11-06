@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-06T15:36:48+09:00</updated>
+  <updated>2025-11-06T15:57:02+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>영국은행 금리 인하, 가을 예산 앞두고 신중한 결정</title>
+    <link href="/posts/%EC%98%81%EA%B5%AD%EC%9D%80%ED%96%89-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B0%80%EC%9D%84-%EC%98%88%EC%82%B0-%EC%95%9E%EB%91%90%EA%B3%A0-%EC%8B%A0%EC%A4%91%ED%95%9C-%EA%B2%B0%EC%A0%95/" rel="alternate" type="text/html" title="영국은행 금리 인하, 가을 예산 앞두고 신중한 결정" />
+    <published>2025-11-06T15:56:21+09:00</published>
+  
+    <updated>2025-11-06T15:56:21+09:00</updated>
+  
+    <id>/posts/%EC%98%81%EA%B5%AD%EC%9D%80%ED%96%89-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B0%80%EC%9D%84-%EC%98%88%EC%82%B0-%EC%95%9E%EB%91%90%EA%B3%A0-%EC%8B%A0%EC%A4%91%ED%95%9C-%EA%B2%B0%EC%A0%95/</id>
+    <content type="text/html" src="/posts/%EC%98%81%EA%B5%AD%EC%9D%80%ED%96%89-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B0%80%EC%9D%84-%EC%98%88%EC%82%B0-%EC%95%9E%EB%91%90%EA%B3%A0-%EC%8B%A0%EC%A4%91%ED%95%9C-%EA%B2%B0%EC%A0%95/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>영국은행 금리 인하, 가을 예산 앞두고 신중한 결정 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>뉴욕, 스타우드 캐피탈의 스턴리히트가 경고한 어려움 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>소매업체, 관세로 가격 인상 중 - 아마존 선두</title>
-    <link href="/posts/%EC%86%8C%EB%A7%A4%EC%97%85%EC%B2%B4-%EA%B4%80%EC%84%B8%EB%A1%9C-%EA%B0%80%EA%B2%A9-%EC%9D%B8%EC%83%81-%EC%A4%91-%EC%95%84%EB%A7%88%EC%A1%B4-%EC%84%A0%EB%91%90/" rel="alternate" type="text/html" title="소매업체, 관세로 가격 인상 중 - 아마존 선두" />
-    <published>2025-11-06T13:58:06+09:00</published>
-  
-    <updated>2025-11-06T13:58:06+09:00</updated>
-  
-    <id>/posts/%EC%86%8C%EB%A7%A4%EC%97%85%EC%B2%B4-%EA%B4%80%EC%84%B8%EB%A1%9C-%EA%B0%80%EA%B2%A9-%EC%9D%B8%EC%83%81-%EC%A4%91-%EC%95%84%EB%A7%88%EC%A1%B4-%EC%84%A0%EB%91%90/</id>
-    <content type="text/html" src="/posts/%EC%86%8C%EB%A7%A4%EC%97%85%EC%B2%B4-%EA%B4%80%EC%84%B8%EB%A1%9C-%EA%B0%80%EA%B2%A9-%EC%9D%B8%EC%83%81-%EC%A4%91-%EC%95%84%EB%A7%88%EC%A1%B4-%EC%84%A0%EB%91%90/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>소매업체, 관세로 가격 인상 중 - 아마존 선두 · 경제 뉴스 요약</summary>
 
   </entry>
 
