@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T16:24:06+09:00</updated>
+  <updated>2025-11-07T16:37:31+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Omada Health, 비만 치료제 처방 시작</title>
+    <link href="/posts/omada-health-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%B2%98%EB%B0%A9-%EC%8B%9C%EC%9E%91/" rel="alternate" type="text/html" title="Omada Health, 비만 치료제 처방 시작" />
+    <published>2025-11-07T16:36:57+09:00</published>
+  
+    <updated>2025-11-07T16:36:57+09:00</updated>
+  
+    <id>/posts/omada-health-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%B2%98%EB%B0%A9-%EC%8B%9C%EC%9E%91/</id>
+    <content type="text/html" src="/posts/omada-health-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%B2%98%EB%B0%A9-%EC%8B%9C%EC%9E%91/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Omada Health, 비만 치료제 처방 시작 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>AI 성장에 필요한 혁신적 자유 시장 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>금과 백금의 비율, 주식 투자자에게 경고</title>
-    <link href="/posts/%EA%B8%88%EA%B3%BC-%EB%B0%B1%EA%B8%88%EC%9D%98-%EB%B9%84%EC%9C%A8-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0/" rel="alternate" type="text/html" title="금과 백금의 비율, 주식 투자자에게 경고" />
-    <published>2025-11-07T14:50:07+09:00</published>
-  
-    <updated>2025-11-07T14:50:07+09:00</updated>
-  
-    <id>/posts/%EA%B8%88%EA%B3%BC-%EB%B0%B1%EA%B8%88%EC%9D%98-%EB%B9%84%EC%9C%A8-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0/</id>
-    <content type="text/html" src="/posts/%EA%B8%88%EA%B3%BC-%EB%B0%B1%EA%B8%88%EC%9D%98-%EB%B9%84%EC%9C%A8-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>금과 백금의 비율, 주식 투자자에게 경고 · 경제 뉴스 요약</summary>
 
   </entry>
 
