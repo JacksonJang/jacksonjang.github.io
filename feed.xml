@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T17:53:20+09:00</updated>
+  <updated>2025-11-07T18:12:06+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>맥도날드, 소비자 지출 변화에 대응하는 가치 강조</title>
+    <link href="/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C-%EC%86%8C%EB%B9%84%EC%9E%90-%EC%A7%80%EC%B6%9C-%EB%B3%80%ED%99%94%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-%EA%B0%80%EC%B9%98-%EA%B0%95%EC%A1%B0/" rel="alternate" type="text/html" title="맥도날드, 소비자 지출 변화에 대응하는 가치 강조" />
+    <published>2025-11-07T18:11:14+09:00</published>
+  
+    <updated>2025-11-07T18:11:14+09:00</updated>
+  
+    <id>/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C-%EC%86%8C%EB%B9%84%EC%9E%90-%EC%A7%80%EC%B6%9C-%EB%B3%80%ED%99%94%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-%EA%B0%80%EC%B9%98-%EA%B0%95%EC%A1%B0/</id>
+    <content type="text/html" src="/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C-%EC%86%8C%EB%B9%84%EC%9E%90-%EC%A7%80%EC%B6%9C-%EB%B3%80%ED%99%94%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-%EA%B0%80%EC%B9%98-%EA%B0%95%EC%A1%B0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>맥도날드, 소비자 지출 변화에 대응하는 가치 강조 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>포드, 전기 F-150 라이트닝 생산 중단 검토 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Omada Health, 비만 치료제 처방 시작</title>
-    <link href="/posts/omada-health-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%B2%98%EB%B0%A9-%EC%8B%9C%EC%9E%91/" rel="alternate" type="text/html" title="Omada Health, 비만 치료제 처방 시작" />
-    <published>2025-11-07T16:36:57+09:00</published>
-  
-    <updated>2025-11-07T16:36:57+09:00</updated>
-  
-    <id>/posts/omada-health-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%B2%98%EB%B0%A9-%EC%8B%9C%EC%9E%91/</id>
-    <content type="text/html" src="/posts/omada-health-%EB%B9%84%EB%A7%8C-%EC%B9%98%EB%A3%8C%EC%A0%9C-%EC%B2%98%EB%B0%A9-%EC%8B%9C%EC%9E%91/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Omada Health, 비만 치료제 처방 시작 · 경제 뉴스 요약</summary>
 
   </entry>
 
