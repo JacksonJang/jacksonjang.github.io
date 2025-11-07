@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T19:58:22+09:00</updated>
+  <updated>2025-11-07T20:21:02+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Texas Roadhouse, 높은 소고기 가격에 직면</title>
+    <link href="/posts/texas-roadhouse-%EB%86%92%EC%9D%80-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9%EC%97%90-%EC%A7%81%EB%A9%B4/" rel="alternate" type="text/html" title="Texas Roadhouse, 높은 소고기 가격에 직면" />
+    <published>2025-11-07T20:20:17+09:00</published>
+  
+    <updated>2025-11-07T20:20:17+09:00</updated>
+  
+    <id>/posts/texas-roadhouse-%EB%86%92%EC%9D%80-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9%EC%97%90-%EC%A7%81%EB%A9%B4/</id>
+    <content type="text/html" src="/posts/texas-roadhouse-%EB%86%92%EC%9D%80-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9%EC%97%90-%EC%A7%81%EB%A9%B4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Texas Roadhouse, 높은 소고기 가격에 직면 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>트럼프와 제약사 협상, 비만약 가격은? · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>애플의 AI 로드맵과 코스트코의 긍정적 판매 실적</title>
-    <link href="/posts/%EC%95%A0%ED%94%8C%EC%9D%98-ai-%EB%A1%9C%EB%93%9C%EB%A7%B5%EA%B3%BC-%EC%BD%94%EC%8A%A4%ED%8A%B8%EC%BD%94%EC%9D%98-%EA%B8%8D%EC%A0%95%EC%A0%81-%ED%8C%90%EB%A7%A4-%EC%8B%A4%EC%A0%81/" rel="alternate" type="text/html" title="애플의 AI 로드맵과 코스트코의 긍정적 판매 실적" />
-    <published>2025-11-07T18:45:21+09:00</published>
-  
-    <updated>2025-11-07T18:45:21+09:00</updated>
-  
-    <id>/posts/%EC%95%A0%ED%94%8C%EC%9D%98-ai-%EB%A1%9C%EB%93%9C%EB%A7%B5%EA%B3%BC-%EC%BD%94%EC%8A%A4%ED%8A%B8%EC%BD%94%EC%9D%98-%EA%B8%8D%EC%A0%95%EC%A0%81-%ED%8C%90%EB%A7%A4-%EC%8B%A4%EC%A0%81/</id>
-    <content type="text/html" src="/posts/%EC%95%A0%ED%94%8C%EC%9D%98-ai-%EB%A1%9C%EB%93%9C%EB%A7%B5%EA%B3%BC-%EC%BD%94%EC%8A%A4%ED%8A%B8%EC%BD%94%EC%9D%98-%EA%B8%8D%EC%A0%95%EC%A0%81-%ED%8C%90%EB%A7%A4-%EC%8B%A4%EC%A0%81/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>애플의 AI 로드맵과 코스트코의 긍정적 판매 실적 · 경제 뉴스 요약</summary>
 
   </entry>
 
