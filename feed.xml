@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T18:46:00+09:00</updated>
+  <updated>2025-11-07T18:58:46+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>트럼프와 제약사 협상, 비만약 가격은?</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EC%A0%9C%EC%95%BD%EC%82%AC-%ED%98%91%EC%83%81-%EB%B9%84%EB%A7%8C%EC%95%BD-%EA%B0%80%EA%B2%A9%EC%9D%80/" rel="alternate" type="text/html" title="트럼프와 제약사 협상, 비만약 가격은?" />
+    <published>2025-11-07T18:58:07+09:00</published>
+  
+    <updated>2025-11-07T18:58:07+09:00</updated>
+  
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EC%A0%9C%EC%95%BD%EC%82%AC-%ED%98%91%EC%83%81-%EB%B9%84%EB%A7%8C%EC%95%BD-%EA%B0%80%EA%B2%A9%EC%9D%80/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EC%A0%9C%EC%95%BD%EC%82%AC-%ED%98%91%EC%83%81-%EB%B9%84%EB%A7%8C%EC%95%BD-%EA%B0%80%EA%B2%A9%EC%9D%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>트럼프와 제약사 협상, 비만약 가격은? · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>콴타스, 시드니-뉴욕 비행기 첫 이미지 공개 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Duolingo 주가 25% 급락, 사용자 성장에 집중</title>
-    <link href="/posts/duolingo-%EC%A3%BC%EA%B0%80-25-%EA%B8%89%EB%9D%BD-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%84%B1%EC%9E%A5%EC%97%90-%EC%A7%91%EC%A4%91/" rel="alternate" type="text/html" title="Duolingo 주가 25% 급락, 사용자 성장에 집중" />
-    <published>2025-11-07T17:32:15+09:00</published>
-  
-    <updated>2025-11-07T17:32:15+09:00</updated>
-  
-    <id>/posts/duolingo-%EC%A3%BC%EA%B0%80-25-%EA%B8%89%EB%9D%BD-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%84%B1%EC%9E%A5%EC%97%90-%EC%A7%91%EC%A4%91/</id>
-    <content type="text/html" src="/posts/duolingo-%EC%A3%BC%EA%B0%80-25-%EA%B8%89%EB%9D%BD-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%84%B1%EC%9E%A5%EC%97%90-%EC%A7%91%EC%A4%91/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Duolingo 주가 25% 급락, 사용자 성장에 집중 · 경제 뉴스 요약</summary>
 
   </entry>
 
