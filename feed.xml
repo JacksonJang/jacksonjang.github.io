@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T11:24:20+09:00</updated>
+  <updated>2025-11-07T12:33:02+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>중국, 2024년 3월 이후 첫 수출 감소</title>
+    <link href="/posts/%EC%A4%91%EA%B5%AD-2024%EB%85%84-3%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B2%AB-%EC%88%98%EC%B6%9C-%EA%B0%90%EC%86%8C/" rel="alternate" type="text/html" title="중국, 2024년 3월 이후 첫 수출 감소" />
+    <published>2025-11-07T12:32:24+09:00</published>
+  
+    <updated>2025-11-07T12:32:24+09:00</updated>
+  
+    <id>/posts/%EC%A4%91%EA%B5%AD-2024%EB%85%84-3%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B2%AB-%EC%88%98%EC%B6%9C-%EA%B0%90%EC%86%8C/</id>
+    <content type="text/html" src="/posts/%EC%A4%91%EA%B5%AD-2024%EB%85%84-3%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B2%AB-%EC%88%98%EC%B6%9C-%EA%B0%90%EC%86%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>중국, 2024년 3월 이후 첫 수출 감소 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>대형 기술주가 S&amp;amp;P 500 하락 이끌어 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>AI로 인한 일자리 파괴에 대한 논란</title>
-    <link href="/posts/ai%EB%A1%9C-%EC%9D%B8%ED%95%9C-%EC%9D%BC%EC%9E%90%EB%A6%AC-%ED%8C%8C%EA%B4%B4%EC%97%90-%EB%8C%80%ED%95%9C-%EB%85%BC%EB%9E%80/" rel="alternate" type="text/html" title="AI로 인한 일자리 파괴에 대한 논란" />
-    <published>2025-11-07T08:33:04+09:00</published>
-  
-    <updated>2025-11-07T08:33:04+09:00</updated>
-  
-    <id>/posts/ai%EB%A1%9C-%EC%9D%B8%ED%95%9C-%EC%9D%BC%EC%9E%90%EB%A6%AC-%ED%8C%8C%EA%B4%B4%EC%97%90-%EB%8C%80%ED%95%9C-%EB%85%BC%EB%9E%80/</id>
-    <content type="text/html" src="/posts/ai%EB%A1%9C-%EC%9D%B8%ED%95%9C-%EC%9D%BC%EC%9E%90%EB%A6%AC-%ED%8C%8C%EA%B4%B4%EC%97%90-%EB%8C%80%ED%95%9C-%EB%85%BC%EB%9E%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>AI로 인한 일자리 파괴에 대한 논란 · 경제 뉴스 요약</summary>
 
   </entry>
 
