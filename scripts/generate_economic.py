@@ -100,6 +100,22 @@ class NewsItem:
 def ensure_dir(p: Path) -> None:
     p.mkdir(parents=True, exist_ok=True)
 
+
+def ensure_unique_path(base_path: Path) -> Path:
+    """Return a unique path by appending a numeric suffix if needed."""
+
+    if not base_path.exists():
+        return base_path
+
+    stem = base_path.stem
+    suffix = base_path.suffix
+    counter = 2
+    while True:
+        candidate = base_path.with_name(f"{stem}-{counter}{suffix}")
+        if not candidate.exists():
+            return candidate
+        counter += 1
+
 def now_kst() -> datetime:
     try:
         return datetime.now(ZoneInfo(TIMEZONE))
@@ -145,10 +161,17 @@ def save_used_links(links: List[str]) -> None:
     USED_LINKS_FILE.write_text(json.dumps(links, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def pick_not_used(candidate_items: List[NewsItem], used_links: List[str]) -> Optional[NewsItem]:
+def pick_not_used(
+    candidate_items: List[NewsItem],
+    used_links: List[str],
+    extra_excluded: Optional[Set[str]] = None,
+) -> Optional[NewsItem]:
     candidate_items = sorted(candidate_items, key=lambda x: x.published or now_kst(), reverse=True)
+    blocked: Set[str] = set(link for link in used_links if link)
+    if extra_excluded:
+        blocked.update(extra_excluded)
     for item in candidate_items:
-        if item.link and item.link not in used_links:
+        if item.link and item.link not in blocked:
             return item
     return None
 
@@ -579,78 +602,97 @@ def main():
         return score
 
     ranked = sorted(all_items, key=score_item, reverse=True)[:40]
-    picked = pick_not_used(ranked, used_links)
-    if not picked:
-        print("[generate_post] 유사도 회피 실패 → OpenAI 호출 없이 종료")
-        return
 
-    print(f"[generate_post] Picked: {picked.source}: {picked.title}")
+    desired_posts = max(1, int(os.getenv("POST_COUNT", "5")))
+    session_excluded: Set[str] = set()
+    created_posts = 0
 
-    today = now_kst()
-    today_str = today.strftime("%Y-%m-%d (%Z)")
+    summaries: List[Dict[str, Any]] = []
 
-    # === 단 한 번의 OpenAI 호출 ===
-    article_context = fetch_article_content(picked.link)
-    ai_data = ai_generate_all(picked, today_str, article_context=article_context)
-    if not ai_data:
-        return  # 실패 시 조용히 종료(원하면 규칙기반 fallback로 바꿀 수 있음)
+    while created_posts < desired_posts:
+        picked = pick_not_used(ranked, used_links, session_excluded)
+        if not picked:
+            if created_posts == 0:
+                print("[generate_post] 유사도 회피 실패 → OpenAI 호출 없이 종료")
+            else:
+                print("[generate_post] 추가로 선택할 RSS 항목이 없습니다.")
+            break
 
-    seo_title = ai_data.get("title") or picked.title
-    body = ai_data.get("body_md") or ""
-    terms = ai_data.get("terms") or []
-    related = ai_data.get("related") or []
+        session_excluded.add(picked.link)
+        print(f"[generate_post] Picked ({created_posts + 1}/{desired_posts}): {picked.source}: {picked.title}")
 
-    # 날짜 교정
-    body = normalize_dates_in_body(body, picked, today)
+        today = now_kst()
+        today_str = today.strftime("%Y-%m-%d (%Z)")
 
-    # 관련 종목 섹션 (OpenAI 제안 기반; 없으면 기본값)
-    body += "\n" + related_md_from_ai(related)
+        # === 단 한 번의 OpenAI 호출 ===
+        article_context = fetch_article_content(picked.link)
+        ai_data = ai_generate_all(picked, today_str, article_context=article_context)
+        if not ai_data:
+            print("[generate_post] OpenAI 응답 실패로 해당 게시글 생성을 건너뜁니다.")
+            continue
 
-    # 내부링크(옵션)
-    body += build_internal_links()
+        seo_title = ai_data.get("title") or picked.title
+        body = ai_data.get("body_md") or ""
+        terms = ai_data.get("terms") or []
+        related = ai_data.get("related") or []
 
-    # 파일명/슬러그
-    slug = to_slug(seo_title)
-    filename = POSTS_DIR / f"{today.strftime('%Y-%m-%d')}-{slug}{OUTPUT_EXT}"
+        # 날짜 교정
+        body = normalize_dates_in_body(body, picked, today)
 
-    # 프론트매터
-    category = "Economy"
-    tags = ["경제", "시장", "투자", "뉴스요약", "Finance"]
-    post_assets_dir = f"/assets/posts/{today.strftime('%Y-%m-%d')}-{slug}"
-    canonical_url = picked.link
+        # 관련 종목 섹션 (OpenAI 제안 기반; 없으면 기본값)
+        body += "\n" + related_md_from_ai(related)
 
-    fm = to_markdown_frontmatter(
-        title=seo_title,
-        date_kst= today,
-        category= category,
-        tags= tags,
-        post_assets_dir= post_assets_dir,
-        canonical_url= canonical_url,
-        source_title= picked.title,
-        source_link= picked.link,
-    )
+        # 내부링크(옵션)
+        body += build_internal_links()
 
-    # 파일 기록
-    write_post_file(filename, fm, body)
+        # 파일명/슬러그
+        slug = to_slug(seo_title)
+        base_filename = POSTS_DIR / f"{today.strftime('%Y-%m-%d')}-{slug}{OUTPUT_EXT}"
+        filename = ensure_unique_path(base_filename)
 
-    # 사용한 RSS 링크 기록 (중복 방지)
-    if picked.link:
-        used_links.append(picked.link)
-        save_used_links(used_links)
+        # 프론트매터
+        category = "Economy"
+        tags = ["경제", "시장", "투자", "뉴스요약", "Finance"]
+        assets_stem = filename.stem
+        post_assets_dir = f"/assets/posts/{assets_stem}"
+        canonical_url = picked.link
 
-    # 로그 출력
-    print(json.dumps({
-        "file": str(filename),
-        "title": seo_title,
-        "category": category,
-        "tags": tags,
-        "source": picked.source,
-        "news_title": picked.title,
-        "news_link": picked.link,
-        "terms": terms,
-        "related": related,
-        "article_context_excerpt": article_context[:300] + ("…" if article_context and len(article_context) > 300 else ""),
-    }, ensure_ascii=False, indent=2))
+        fm = to_markdown_frontmatter(
+            title=seo_title,
+            date_kst=today,
+            category=category,
+            tags=tags,
+            post_assets_dir=post_assets_dir,
+            canonical_url=canonical_url,
+            source_title=picked.title,
+            source_link=picked.link,
+        )
+
+        # 파일 기록
+        write_post_file(filename, fm, body)
+
+        # 사용한 RSS 링크 기록 (중복 방지)
+        if picked.link:
+            used_links.append(picked.link)
+            save_used_links(used_links)
+
+        summaries.append({
+            "file": str(filename),
+            "title": seo_title,
+            "category": category,
+            "tags": tags,
+            "source": picked.source,
+            "news_title": picked.title,
+            "news_link": picked.link,
+            "terms": terms,
+            "related": related,
+            "article_context_excerpt": article_context[:300] + ("…" if article_context and len(article_context) > 300 else ""),
+        })
+
+        created_posts += 1
+
+    if summaries:
+        print(json.dumps(summaries, ensure_ascii=False, indent=2))
 
 if __name__ == "__main__":
     try:
