@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T14:41:08+09:00</updated>
+  <updated>2025-11-07T14:50:43+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>금과 백금의 비율, 주식 투자자에게 경고</title>
+    <link href="/posts/%EA%B8%88%EA%B3%BC-%EB%B0%B1%EA%B8%88%EC%9D%98-%EB%B9%84%EC%9C%A8-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0/" rel="alternate" type="text/html" title="금과 백금의 비율, 주식 투자자에게 경고" />
+    <published>2025-11-07T14:50:07+09:00</published>
+  
+    <updated>2025-11-07T14:50:07+09:00</updated>
+  
+    <id>/posts/%EA%B8%88%EA%B3%BC-%EB%B0%B1%EA%B8%88%EC%9D%98-%EB%B9%84%EC%9C%A8-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0/</id>
+    <content type="text/html" src="/posts/%EA%B8%88%EA%B3%BC-%EB%B0%B1%EA%B8%88%EC%9D%98-%EB%B9%84%EC%9C%A8-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>금과 백금의 비율, 주식 투자자에게 경고 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>아시아 태평양 시장, AI 주식 하락에 따라 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>테슬라, AI 및 로봇을 위한 반도체 공장 필요</title>
-    <link href="/posts/%ED%85%8C%EC%8A%AC%EB%9D%BC-ai-%EB%B0%8F-%EB%A1%9C%EB%B4%87%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%B0%98%EB%8F%84%EC%B2%B4-%EA%B3%B5%EC%9E%A5-%ED%95%84%EC%9A%94/" rel="alternate" type="text/html" title="테슬라, AI 및 로봇을 위한 반도체 공장 필요" />
-    <published>2025-11-07T13:27:32+09:00</published>
-  
-    <updated>2025-11-07T13:27:32+09:00</updated>
-  
-    <id>/posts/%ED%85%8C%EC%8A%AC%EB%9D%BC-ai-%EB%B0%8F-%EB%A1%9C%EB%B4%87%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%B0%98%EB%8F%84%EC%B2%B4-%EA%B3%B5%EC%9E%A5-%ED%95%84%EC%9A%94/</id>
-    <content type="text/html" src="/posts/%ED%85%8C%EC%8A%AC%EB%9D%BC-ai-%EB%B0%8F-%EB%A1%9C%EB%B4%87%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%B0%98%EB%8F%84%EC%B2%B4-%EA%B3%B5%EC%9E%A5-%ED%95%84%EC%9A%94/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>테슬라, AI 및 로봇을 위한 반도체 공장 필요 · 경제 뉴스 요약</summary>
 
   </entry>
 
