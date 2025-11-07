@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T19:27:15+09:00</updated>
+  <updated>2025-11-07T19:46:22+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>83세의 월 소득 $3,800, 콜롬비아로 가야 할까?</title>
+    <link href="/posts/83%EC%84%B8%EC%9D%98-%EC%9B%94-%EC%86%8C%EB%93%9D-3800-%EC%BD%9C%EB%A1%AC%EB%B9%84%EC%95%84%EB%A1%9C-%EA%B0%80%EC%95%BC-%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="83세의 월 소득 $3,800, 콜롬비아로 가야 할까?" />
+    <published>2025-11-07T19:45:38+09:00</published>
+  
+    <updated>2025-11-07T19:45:38+09:00</updated>
+  
+    <id>/posts/83%EC%84%B8%EC%9D%98-%EC%9B%94-%EC%86%8C%EB%93%9D-3800-%EC%BD%9C%EB%A1%AC%EB%B9%84%EC%95%84%EB%A1%9C-%EA%B0%80%EC%95%BC-%ED%95%A0%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/83%EC%84%B8%EC%9D%98-%EC%9B%94-%EC%86%8C%EB%93%9D-3800-%EC%BD%9C%EB%A1%AC%EB%B9%84%EC%95%84%EB%A1%9C-%EA%B0%80%EC%95%BC-%ED%95%A0%EA%B9%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>83세의 월 소득 $3,800, 콜롬비아로 가야 할까? · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>OpenAI, 올해 200억 달러 매출 예상 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>맥도날드, 소비자 지출 변화에 대응하는 가치 강조</title>
-    <link href="/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C-%EC%86%8C%EB%B9%84%EC%9E%90-%EC%A7%80%EC%B6%9C-%EB%B3%80%ED%99%94%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-%EA%B0%80%EC%B9%98-%EA%B0%95%EC%A1%B0/" rel="alternate" type="text/html" title="맥도날드, 소비자 지출 변화에 대응하는 가치 강조" />
-    <published>2025-11-07T18:11:14+09:00</published>
-  
-    <updated>2025-11-07T18:11:14+09:00</updated>
-  
-    <id>/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C-%EC%86%8C%EB%B9%84%EC%9E%90-%EC%A7%80%EC%B6%9C-%EB%B3%80%ED%99%94%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-%EA%B0%80%EC%B9%98-%EA%B0%95%EC%A1%B0/</id>
-    <content type="text/html" src="/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C-%EC%86%8C%EB%B9%84%EC%9E%90-%EC%A7%80%EC%B6%9C-%EB%B3%80%ED%99%94%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-%EA%B0%80%EC%B9%98-%EA%B0%95%EC%A1%B0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>맥도날드, 소비자 지출 변화에 대응하는 가치 강조 · 경제 뉴스 요약</summary>
 
   </entry>
 
