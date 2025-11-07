@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T22:35:36+09:00</updated>
+  <updated>2025-11-07T22:50:51+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>등록된 지수 연계 연금, 손실 제한의 새로운 대안</title>
+    <link href="/posts/%EB%93%B1%EB%A1%9D%EB%90%9C-%EC%A7%80%EC%88%98-%EC%97%B0%EA%B3%84-%EC%97%B0%EA%B8%88-%EC%86%90%EC%8B%A4-%EC%A0%9C%ED%95%9C%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%8C%80%EC%95%88/" rel="alternate" type="text/html" title="등록된 지수 연계 연금, 손실 제한의 새로운 대안" />
+    <published>2025-11-07T22:50:05+09:00</published>
+  
+    <updated>2025-11-07T22:50:05+09:00</updated>
+  
+    <id>/posts/%EB%93%B1%EB%A1%9D%EB%90%9C-%EC%A7%80%EC%88%98-%EC%97%B0%EA%B3%84-%EC%97%B0%EA%B8%88-%EC%86%90%EC%8B%A4-%EC%A0%9C%ED%95%9C%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%8C%80%EC%95%88/</id>
+    <content type="text/html" src="/posts/%EB%93%B1%EB%A1%9D%EB%90%9C-%EC%A7%80%EC%88%98-%EC%97%B0%EA%B3%84-%EC%97%B0%EA%B8%88-%EC%86%90%EC%8B%A4-%EC%A0%9C%ED%95%9C%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%8C%80%EC%95%88/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>등록된 지수 연계 연금, 손실 제한의 새로운 대안 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>빅테크 주식의 향후 방향, 비트코인 주목 필요 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>핀테크 유니콘, AI 에이전트로 CRE 대출 처리</title>
-    <link href="/posts/%ED%95%80%ED%85%8C%ED%81%AC-%EC%9C%A0%EB%8B%88%EC%BD%98-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%A1%9C-cre-%EB%8C%80%EC%B6%9C-%EC%B2%98%EB%A6%AC/" rel="alternate" type="text/html" title="핀테크 유니콘, AI 에이전트로 CRE 대출 처리" />
-    <published>2025-11-07T20:42:59+09:00</published>
-  
-    <updated>2025-11-07T20:42:59+09:00</updated>
-  
-    <id>/posts/%ED%95%80%ED%85%8C%ED%81%AC-%EC%9C%A0%EB%8B%88%EC%BD%98-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%A1%9C-cre-%EB%8C%80%EC%B6%9C-%EC%B2%98%EB%A6%AC/</id>
-    <content type="text/html" src="/posts/%ED%95%80%ED%85%8C%ED%81%AC-%EC%9C%A0%EB%8B%88%EC%BD%98-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%A1%9C-cre-%EB%8C%80%EC%B6%9C-%EC%B2%98%EB%A6%AC/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>핀테크 유니콘, AI 에이전트로 CRE 대출 처리 · 경제 뉴스 요약</summary>
 
   </entry>
 
