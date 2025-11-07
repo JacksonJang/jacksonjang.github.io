@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T14:59:39+09:00</updated>
+  <updated>2025-11-07T15:36:52+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>미국, 중국에 대한 중요한 레버리지 상실</title>
+    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%A4%91%EA%B5%AD%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A4%91%EC%9A%94%ED%95%9C-%EB%A0%88%EB%B2%84%EB%A6%AC%EC%A7%80-%EC%83%81%EC%8B%A4/" rel="alternate" type="text/html" title="미국, 중국에 대한 중요한 레버리지 상실" />
+    <published>2025-11-07T15:36:18+09:00</published>
+  
+    <updated>2025-11-07T15:36:18+09:00</updated>
+  
+    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%A4%91%EA%B5%AD%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A4%91%EC%9A%94%ED%95%9C-%EB%A0%88%EB%B2%84%EB%A6%AC%EC%A7%80-%EC%83%81%EC%8B%A4/</id>
+    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%A4%91%EA%B5%AD%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A4%91%EC%9A%94%ED%95%9C-%EB%A0%88%EB%B2%84%EB%A6%AC%EC%A7%80-%EC%83%81%EC%8B%A4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>미국, 중국에 대한 중요한 레버리지 상실 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>DBS CEO, 투자자에게 변동성 경고 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>에어비앤비, 매출 기대치 초과로 주가 상승</title>
-    <link href="/posts/%EC%97%90%EC%96%B4%EB%B9%84%EC%95%A4%EB%B9%84-%EB%A7%A4%EC%B6%9C-%EA%B8%B0%EB%8C%80%EC%B9%98-%EC%B4%88%EA%B3%BC%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="에어비앤비, 매출 기대치 초과로 주가 상승" />
-    <published>2025-11-07T13:57:22+09:00</published>
-  
-    <updated>2025-11-07T13:57:22+09:00</updated>
-  
-    <id>/posts/%EC%97%90%EC%96%B4%EB%B9%84%EC%95%A4%EB%B9%84-%EB%A7%A4%EC%B6%9C-%EA%B8%B0%EB%8C%80%EC%B9%98-%EC%B4%88%EA%B3%BC%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9/</id>
-    <content type="text/html" src="/posts/%EC%97%90%EC%96%B4%EB%B9%84%EC%95%A4%EB%B9%84-%EB%A7%A4%EC%B6%9C-%EA%B8%B0%EB%8C%80%EC%B9%98-%EC%B4%88%EA%B3%BC%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>에어비앤비, 매출 기대치 초과로 주가 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
