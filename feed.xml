@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T14:50:43+09:00</updated>
+  <updated>2025-11-07T14:59:39+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AI 성장에 필요한 혁신적 자유 시장</title>
+    <link href="/posts/ai-%EC%84%B1%EC%9E%A5%EC%97%90-%ED%95%84%EC%9A%94%ED%95%9C-%ED%98%81%EC%8B%A0%EC%A0%81-%EC%9E%90%EC%9C%A0-%EC%8B%9C%EC%9E%A5/" rel="alternate" type="text/html" title="AI 성장에 필요한 혁신적 자유 시장" />
+    <published>2025-11-07T14:58:52+09:00</published>
+  
+    <updated>2025-11-07T14:58:52+09:00</updated>
+  
+    <id>/posts/ai-%EC%84%B1%EC%9E%A5%EC%97%90-%ED%95%84%EC%9A%94%ED%95%9C-%ED%98%81%EC%8B%A0%EC%A0%81-%EC%9E%90%EC%9C%A0-%EC%8B%9C%EC%9E%A5/</id>
+    <content type="text/html" src="/posts/ai-%EC%84%B1%EC%9E%A5%EC%97%90-%ED%95%84%EC%9A%94%ED%95%9C-%ED%98%81%EC%8B%A0%EC%A0%81-%EC%9E%90%EC%9C%A0-%EC%8B%9C%EC%9E%A5/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>AI 성장에 필요한 혁신적 자유 시장 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>에어비앤비, 매출 기대치 초과로 주가 상승 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>아시아 태평양 시장, AI 주식 하락에 따라 하락</title>
-    <link href="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-ai-%EC%A3%BC%EC%8B%9D-%ED%95%98%EB%9D%BD%EC%97%90-%EB%94%B0%EB%9D%BC-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="아시아 태평양 시장, AI 주식 하락에 따라 하락" />
-    <published>2025-11-07T13:44:59+09:00</published>
-  
-    <updated>2025-11-07T13:44:59+09:00</updated>
-  
-    <id>/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-ai-%EC%A3%BC%EC%8B%9D-%ED%95%98%EB%9D%BD%EC%97%90-%EB%94%B0%EB%9D%BC-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-ai-%EC%A3%BC%EC%8B%9D-%ED%95%98%EB%9D%BD%EC%97%90-%EB%94%B0%EB%9D%BC-%ED%95%98%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>아시아 태평양 시장, AI 주식 하락에 따라 하락 · 경제 뉴스 요약</summary>
 
   </entry>
 
