@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T22:02:18+09:00</updated>
+  <updated>2025-11-07T22:35:36+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>트럼프 정부 예산 삭감, 사이버 공격 위험 증가</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%A0%95%EB%B6%80-%EC%98%88%EC%82%B0-%EC%82%AD%EA%B0%90-%EC%82%AC%EC%9D%B4%EB%B2%84-%EA%B3%B5%EA%B2%A9-%EC%9C%84%ED%97%98-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="트럼프 정부 예산 삭감, 사이버 공격 위험 증가" />
+    <published>2025-11-07T22:34:52+09:00</published>
+  
+    <updated>2025-11-07T22:34:52+09:00</updated>
+  
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%A0%95%EB%B6%80-%EC%98%88%EC%82%B0-%EC%82%AD%EA%B0%90-%EC%82%AC%EC%9D%B4%EB%B2%84-%EA%B3%B5%EA%B2%A9-%EC%9C%84%ED%97%98-%EC%A6%9D%EA%B0%80/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%A0%95%EB%B6%80-%EC%98%88%EC%82%B0-%EC%82%AD%EA%B0%90-%EC%82%AC%EC%9D%B4%EB%B2%84-%EA%B3%B5%EA%B2%A9-%EC%9C%84%ED%97%98-%EC%A6%9D%EA%B0%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>트럼프 정부 예산 삭감, 사이버 공격 위험 증가 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>핀테크 유니콘, AI 에이전트로 CRE 대출 처리 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>DraftKings CEO, 예측 시장의 영향 분석</title>
-    <link href="/posts/draftkings-ceo-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%98%81%ED%96%A5-%EB%B6%84%EC%84%9D/" rel="alternate" type="text/html" title="DraftKings CEO, 예측 시장의 영향 분석" />
-    <published>2025-11-07T20:31:50+09:00</published>
-  
-    <updated>2025-11-07T20:31:50+09:00</updated>
-  
-    <id>/posts/draftkings-ceo-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%98%81%ED%96%A5-%EB%B6%84%EC%84%9D/</id>
-    <content type="text/html" src="/posts/draftkings-ceo-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%98%81%ED%96%A5-%EB%B6%84%EC%84%9D/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>DraftKings CEO, 예측 시장의 영향 분석 · 경제 뉴스 요약</summary>
 
   </entry>
 
