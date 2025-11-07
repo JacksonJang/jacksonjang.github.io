@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T15:36:52+09:00</updated>
+  <updated>2025-11-07T15:56:11+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>트럼프, 체중 감량 약품 가격 협상 발표</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%B2%B4%EC%A4%91-%EA%B0%90%EB%9F%89-%EC%95%BD%ED%92%88-%EA%B0%80%EA%B2%A9-%ED%98%91%EC%83%81-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="트럼프, 체중 감량 약품 가격 협상 발표" />
+    <published>2025-11-07T15:55:31+09:00</published>
+  
+    <updated>2025-11-07T15:55:31+09:00</updated>
+  
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%B2%B4%EC%A4%91-%EA%B0%90%EB%9F%89-%EC%95%BD%ED%92%88-%EA%B0%80%EA%B2%A9-%ED%98%91%EC%83%81-%EB%B0%9C%ED%91%9C/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%B2%B4%EC%A4%91-%EA%B0%90%EB%9F%89-%EC%95%BD%ED%92%88-%EA%B0%80%EA%B2%A9-%ED%98%91%EC%83%81-%EB%B0%9C%ED%91%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>트럼프, 체중 감량 약품 가격 협상 발표 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>호주 주식, S&amp;amp;P/ASX 200 0.66% 하락 마감 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>DBS CEO, 투자자에게 변동성 경고</title>
-    <link href="/posts/dbs-ceo-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EB%B3%80%EB%8F%99%EC%84%B1-%EA%B2%BD%EA%B3%A0/" rel="alternate" type="text/html" title="DBS CEO, 투자자에게 변동성 경고" />
-    <published>2025-11-07T14:23:33+09:00</published>
-  
-    <updated>2025-11-07T14:23:33+09:00</updated>
-  
-    <id>/posts/dbs-ceo-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EB%B3%80%EB%8F%99%EC%84%B1-%EA%B2%BD%EA%B3%A0/</id>
-    <content type="text/html" src="/posts/dbs-ceo-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EB%B3%80%EB%8F%99%EC%84%B1-%EA%B2%BD%EA%B3%A0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>DBS CEO, 투자자에게 변동성 경고 · 경제 뉴스 요약</summary>
 
   </entry>
 
