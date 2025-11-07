@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T15:56:11+09:00</updated>
+  <updated>2025-11-07T16:24:06+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>중국의 AI 경쟁력: 화웨이 칩과 저렴한 에너지</title>
+    <link href="/posts/%EC%A4%91%EA%B5%AD%EC%9D%98-ai-%EA%B2%BD%EC%9F%81%EB%A0%A5-%ED%99%94%EC%9B%A8%EC%9D%B4-%EC%B9%A9%EA%B3%BC-%EC%A0%80%EB%A0%B4%ED%95%9C-%EC%97%90%EB%84%88%EC%A7%80/" rel="alternate" type="text/html" title="중국의 AI 경쟁력: 화웨이 칩과 저렴한 에너지" />
+    <published>2025-11-07T16:23:31+09:00</published>
+  
+    <updated>2025-11-07T16:23:31+09:00</updated>
+  
+    <id>/posts/%EC%A4%91%EA%B5%AD%EC%9D%98-ai-%EA%B2%BD%EC%9F%81%EB%A0%A5-%ED%99%94%EC%9B%A8%EC%9D%B4-%EC%B9%A9%EA%B3%BC-%EC%A0%80%EB%A0%B4%ED%95%9C-%EC%97%90%EB%84%88%EC%A7%80/</id>
+    <content type="text/html" src="/posts/%EC%A4%91%EA%B5%AD%EC%9D%98-ai-%EA%B2%BD%EC%9F%81%EB%A0%A5-%ED%99%94%EC%9B%A8%EC%9D%B4-%EC%B9%A9%EA%B3%BC-%EC%A0%80%EB%A0%B4%ED%95%9C-%EC%97%90%EB%84%88%EC%A7%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>중국의 AI 경쟁력: 화웨이 칩과 저렴한 에너지 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>금과 백금의 비율, 주식 투자자에게 경고 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>호주 주식, S&amp;P/ASX 200 0.66% 하락 마감</title>
-    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-066-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="호주 주식, S&amp;amp;P/ASX 200 0.66% 하락 마감" />
-    <published>2025-11-07T14:40:33+09:00</published>
-  
-    <updated>2025-11-07T14:40:33+09:00</updated>
-  
-    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-066-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/</id>
-    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-066-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>호주 주식, S&amp;amp;P/ASX 200 0.66% 하락 마감 · 경제 뉴스 요약</summary>
 
   </entry>
 
