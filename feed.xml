@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T16:37:31+09:00</updated>
+  <updated>2025-11-07T16:48:52+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>포드, 전기 F-150 라이트닝 생산 중단 검토</title>
+    <link href="/posts/%ED%8F%AC%EB%93%9C-%EC%A0%84%EA%B8%B0-f-150-%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%8B%9D-%EC%83%9D%EC%82%B0-%EC%A4%91%EB%8B%A8-%EA%B2%80%ED%86%A0/" rel="alternate" type="text/html" title="포드, 전기 F-150 라이트닝 생산 중단 검토" />
+    <published>2025-11-07T16:48:07+09:00</published>
+  
+    <updated>2025-11-07T16:48:07+09:00</updated>
+  
+    <id>/posts/%ED%8F%AC%EB%93%9C-%EC%A0%84%EA%B8%B0-f-150-%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%8B%9D-%EC%83%9D%EC%82%B0-%EC%A4%91%EB%8B%A8-%EA%B2%80%ED%86%A0/</id>
+    <content type="text/html" src="/posts/%ED%8F%AC%EB%93%9C-%EC%A0%84%EA%B8%B0-f-150-%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%8B%9D-%EC%83%9D%EC%82%B0-%EC%A4%91%EB%8B%A8-%EA%B2%80%ED%86%A0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>포드, 전기 F-150 라이트닝 생산 중단 검토 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>미국, 중국에 대한 중요한 레버리지 상실 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>AI 성장에 필요한 혁신적 자유 시장</title>
-    <link href="/posts/ai-%EC%84%B1%EC%9E%A5%EC%97%90-%ED%95%84%EC%9A%94%ED%95%9C-%ED%98%81%EC%8B%A0%EC%A0%81-%EC%9E%90%EC%9C%A0-%EC%8B%9C%EC%9E%A5/" rel="alternate" type="text/html" title="AI 성장에 필요한 혁신적 자유 시장" />
-    <published>2025-11-07T14:58:52+09:00</published>
-  
-    <updated>2025-11-07T14:58:52+09:00</updated>
-  
-    <id>/posts/ai-%EC%84%B1%EC%9E%A5%EC%97%90-%ED%95%84%EC%9A%94%ED%95%9C-%ED%98%81%EC%8B%A0%EC%A0%81-%EC%9E%90%EC%9C%A0-%EC%8B%9C%EC%9E%A5/</id>
-    <content type="text/html" src="/posts/ai-%EC%84%B1%EC%9E%A5%EC%97%90-%ED%95%84%EC%9A%94%ED%95%9C-%ED%98%81%EC%8B%A0%EC%A0%81-%EC%9E%90%EC%9C%A0-%EC%8B%9C%EC%9E%A5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>AI 성장에 필요한 혁신적 자유 시장 · 경제 뉴스 요약</summary>
 
   </entry>
 
