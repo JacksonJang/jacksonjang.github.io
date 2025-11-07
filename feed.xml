@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T21:17:56+09:00</updated>
+  <updated>2025-11-07T22:02:18+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>학생 대출 면제 통지 발송 — 차후 조치 안내</title>
+    <link href="/posts/%ED%95%99%EC%83%9D-%EB%8C%80%EC%B6%9C-%EB%A9%B4%EC%A0%9C-%ED%86%B5%EC%A7%80-%EB%B0%9C%EC%86%A1-%EC%B0%A8%ED%9B%84-%EC%A1%B0%EC%B9%98-%EC%95%88%EB%82%B4/" rel="alternate" type="text/html" title="학생 대출 면제 통지 발송 — 차후 조치 안내" />
+    <published>2025-11-07T22:01:38+09:00</published>
+  
+    <updated>2025-11-07T22:01:38+09:00</updated>
+  
+    <id>/posts/%ED%95%99%EC%83%9D-%EB%8C%80%EC%B6%9C-%EB%A9%B4%EC%A0%9C-%ED%86%B5%EC%A7%80-%EB%B0%9C%EC%86%A1-%EC%B0%A8%ED%9B%84-%EC%A1%B0%EC%B9%98-%EC%95%88%EB%82%B4/</id>
+    <content type="text/html" src="/posts/%ED%95%99%EC%83%9D-%EB%8C%80%EC%B6%9C-%EB%A9%B4%EC%A0%9C-%ED%86%B5%EC%A7%80-%EB%B0%9C%EC%86%A1-%EC%B0%A8%ED%9B%84-%EC%A1%B0%EC%B9%98-%EC%95%88%EB%82%B4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>학생 대출 면제 통지 발송 — 차후 조치 안내 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>DraftKings CEO, 예측 시장의 영향 분석 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Texas Roadhouse, 높은 소고기 가격에 직면</title>
-    <link href="/posts/texas-roadhouse-%EB%86%92%EC%9D%80-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9%EC%97%90-%EC%A7%81%EB%A9%B4/" rel="alternate" type="text/html" title="Texas Roadhouse, 높은 소고기 가격에 직면" />
-    <published>2025-11-07T20:20:17+09:00</published>
-  
-    <updated>2025-11-07T20:20:17+09:00</updated>
-  
-    <id>/posts/texas-roadhouse-%EB%86%92%EC%9D%80-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9%EC%97%90-%EC%A7%81%EB%A9%B4/</id>
-    <content type="text/html" src="/posts/texas-roadhouse-%EB%86%92%EC%9D%80-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9%EC%97%90-%EC%A7%81%EB%A9%B4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Texas Roadhouse, 높은 소고기 가격에 직면 · 경제 뉴스 요약</summary>
 
   </entry>
 
