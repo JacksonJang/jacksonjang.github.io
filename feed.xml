@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T20:32:31+09:00</updated>
+  <updated>2025-11-07T20:43:51+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>핀테크 유니콘, AI 에이전트로 CRE 대출 처리</title>
+    <link href="/posts/%ED%95%80%ED%85%8C%ED%81%AC-%EC%9C%A0%EB%8B%88%EC%BD%98-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%A1%9C-cre-%EB%8C%80%EC%B6%9C-%EC%B2%98%EB%A6%AC/" rel="alternate" type="text/html" title="핀테크 유니콘, AI 에이전트로 CRE 대출 처리" />
+    <published>2025-11-07T20:42:59+09:00</published>
+  
+    <updated>2025-11-07T20:42:59+09:00</updated>
+  
+    <id>/posts/%ED%95%80%ED%85%8C%ED%81%AC-%EC%9C%A0%EB%8B%88%EC%BD%98-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%A1%9C-cre-%EB%8C%80%EC%B6%9C-%EC%B2%98%EB%A6%AC/</id>
+    <content type="text/html" src="/posts/%ED%95%80%ED%85%8C%ED%81%AC-%EC%9C%A0%EB%8B%88%EC%BD%98-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%A1%9C-cre-%EB%8C%80%EC%B6%9C-%EC%B2%98%EB%A6%AC/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>핀테크 유니콘, AI 에이전트로 CRE 대출 처리 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>83세의 월 소득 $3,800, 콜롬비아로 가야 할까? · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>실업수당 청구 데이터, 예상보다 나쁘지 않아</title>
-    <link href="/posts/%EC%8B%A4%EC%97%85%EC%88%98%EB%8B%B9-%EC%B2%AD%EA%B5%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-%EB%82%98%EC%81%98%EC%A7%80-%EC%95%8A%EC%95%84/" rel="alternate" type="text/html" title="실업수당 청구 데이터, 예상보다 나쁘지 않아" />
-    <published>2025-11-07T19:26:34+09:00</published>
-  
-    <updated>2025-11-07T19:26:34+09:00</updated>
-  
-    <id>/posts/%EC%8B%A4%EC%97%85%EC%88%98%EB%8B%B9-%EC%B2%AD%EA%B5%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-%EB%82%98%EC%81%98%EC%A7%80-%EC%95%8A%EC%95%84/</id>
-    <content type="text/html" src="/posts/%EC%8B%A4%EC%97%85%EC%88%98%EB%8B%B9-%EC%B2%AD%EA%B5%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-%EB%82%98%EC%81%98%EC%A7%80-%EC%95%8A%EC%95%84/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>실업수당 청구 데이터, 예상보다 나쁘지 않아 · 경제 뉴스 요약</summary>
 
   </entry>
 
