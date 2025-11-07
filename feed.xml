@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T20:43:51+09:00</updated>
+  <updated>2025-11-07T20:52:57+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>빅테크 주식의 향후 방향, 비트코인 주목 필요</title>
+    <link href="/posts/%EB%B9%85%ED%85%8C%ED%81%AC-%EC%A3%BC%EC%8B%9D%EC%9D%98-%ED%96%A5%ED%9B%84-%EB%B0%A9%ED%96%A5-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%A3%BC%EB%AA%A9-%ED%95%84%EC%9A%94/" rel="alternate" type="text/html" title="빅테크 주식의 향후 방향, 비트코인 주목 필요" />
+    <published>2025-11-07T20:52:19+09:00</published>
+  
+    <updated>2025-11-07T20:52:19+09:00</updated>
+  
+    <id>/posts/%EB%B9%85%ED%85%8C%ED%81%AC-%EC%A3%BC%EC%8B%9D%EC%9D%98-%ED%96%A5%ED%9B%84-%EB%B0%A9%ED%96%A5-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%A3%BC%EB%AA%A9-%ED%95%84%EC%9A%94/</id>
+    <content type="text/html" src="/posts/%EB%B9%85%ED%85%8C%ED%81%AC-%EC%A3%BC%EC%8B%9D%EC%9D%98-%ED%96%A5%ED%9B%84-%EB%B0%A9%ED%96%A5-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%A3%BC%EB%AA%A9-%ED%95%84%EC%9A%94/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>빅테크 주식의 향후 방향, 비트코인 주목 필요 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>아시아 라이프스타일 호텔 붐, 독특한 경험 선호 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>83세의 월 소득 $3,800, 콜롬비아로 가야 할까?</title>
-    <link href="/posts/83%EC%84%B8%EC%9D%98-%EC%9B%94-%EC%86%8C%EB%93%9D-3800-%EC%BD%9C%EB%A1%AC%EB%B9%84%EC%95%84%EB%A1%9C-%EA%B0%80%EC%95%BC-%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="83세의 월 소득 $3,800, 콜롬비아로 가야 할까?" />
-    <published>2025-11-07T19:45:38+09:00</published>
-  
-    <updated>2025-11-07T19:45:38+09:00</updated>
-  
-    <id>/posts/83%EC%84%B8%EC%9D%98-%EC%9B%94-%EC%86%8C%EB%93%9D-3800-%EC%BD%9C%EB%A1%AC%EB%B9%84%EC%95%84%EB%A1%9C-%EA%B0%80%EC%95%BC-%ED%95%A0%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/83%EC%84%B8%EC%9D%98-%EC%9B%94-%EC%86%8C%EB%93%9D-3800-%EC%BD%9C%EB%A1%AC%EB%B9%84%EC%95%84%EB%A1%9C-%EA%B0%80%EC%95%BC-%ED%95%A0%EA%B9%8C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>83세의 월 소득 $3,800, 콜롬비아로 가야 할까? · 경제 뉴스 요약</summary>
 
   </entry>
 
