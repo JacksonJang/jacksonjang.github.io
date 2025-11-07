@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T18:12:06+09:00</updated>
+  <updated>2025-11-07T18:32:47+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>OpenAI, 올해 200억 달러 매출 예상</title>
+    <link href="/posts/openai-%EC%98%AC%ED%95%B4-200%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%A7%A4%EC%B6%9C-%EC%98%88%EC%83%81/" rel="alternate" type="text/html" title="OpenAI, 올해 200억 달러 매출 예상" />
+    <published>2025-11-07T18:32:11+09:00</published>
+  
+    <updated>2025-11-07T18:32:11+09:00</updated>
+  
+    <id>/posts/openai-%EC%98%AC%ED%95%B4-200%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%A7%A4%EC%B6%9C-%EC%98%88%EC%83%81/</id>
+    <content type="text/html" src="/posts/openai-%EC%98%AC%ED%95%B4-200%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%A7%A4%EC%B6%9C-%EC%98%88%EC%83%81/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>OpenAI, 올해 200억 달러 매출 예상 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Doordash, 주가 17% 급락: 지출 우려 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>포드, 전기 F-150 라이트닝 생산 중단 검토</title>
-    <link href="/posts/%ED%8F%AC%EB%93%9C-%EC%A0%84%EA%B8%B0-f-150-%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%8B%9D-%EC%83%9D%EC%82%B0-%EC%A4%91%EB%8B%A8-%EA%B2%80%ED%86%A0/" rel="alternate" type="text/html" title="포드, 전기 F-150 라이트닝 생산 중단 검토" />
-    <published>2025-11-07T16:48:07+09:00</published>
-  
-    <updated>2025-11-07T16:48:07+09:00</updated>
-  
-    <id>/posts/%ED%8F%AC%EB%93%9C-%EC%A0%84%EA%B8%B0-f-150-%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%8B%9D-%EC%83%9D%EC%82%B0-%EC%A4%91%EB%8B%A8-%EA%B2%80%ED%86%A0/</id>
-    <content type="text/html" src="/posts/%ED%8F%AC%EB%93%9C-%EC%A0%84%EA%B8%B0-f-150-%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%8B%9D-%EC%83%9D%EC%82%B0-%EC%A4%91%EB%8B%A8-%EA%B2%80%ED%86%A0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>포드, 전기 F-150 라이트닝 생산 중단 검토 · 경제 뉴스 요약</summary>
 
   </entry>
 
