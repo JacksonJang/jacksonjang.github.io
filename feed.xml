@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-08T05:17:33+09:00</updated>
+  <updated>2025-11-08T06:13:25+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>JPMorgan, AI 데이터 센터 주식 추천</title>
-    <link href="/posts/jpmorgan-ai-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%EC%A3%BC%EC%8B%9D-%EC%B6%94%EC%B2%9C/" rel="alternate" type="text/html" title="JPMorgan, AI 데이터 센터 주식 추천" />
-    <published>2025-11-08T05:17:04+09:00</published>
+    <title>트럼프 CFPB, 의료 부채 포함 금지 법안 겨냥</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-cfpb-%EC%9D%98%EB%A3%8C-%EB%B6%80%EC%B1%84-%ED%8F%AC%ED%95%A8-%EA%B8%88%EC%A7%80-%EB%B2%95%EC%95%88-%EA%B2%A8%EB%83%A5/" rel="alternate" type="text/html" title="트럼프 CFPB, 의료 부채 포함 금지 법안 겨냥" />
+    <published>2025-11-08T06:12:43+09:00</published>
   
-    <updated>2025-11-08T05:17:04+09:00</updated>
+    <updated>2025-11-08T06:12:43+09:00</updated>
   
-    <id>/posts/jpmorgan-ai-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%EC%A3%BC%EC%8B%9D-%EC%B6%94%EC%B2%9C/</id>
-    <content type="text/html" src="/posts/jpmorgan-ai-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%EC%A3%BC%EC%8B%9D-%EC%B6%94%EC%B2%9C/" />
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-cfpb-%EC%9D%98%EB%A3%8C-%EB%B6%80%EC%B1%84-%ED%8F%AC%ED%95%A8-%EA%B8%88%EC%A7%80-%EB%B2%95%EC%95%88-%EA%B2%A8%EB%83%A5/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-cfpb-%EC%9D%98%EB%A3%8C-%EB%B6%80%EC%B1%84-%ED%8F%AC%ED%95%A8-%EA%B8%88%EC%A7%80-%EB%B2%95%EC%95%88-%EA%B2%A8%EB%83%A5/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>JPMorgan, AI 데이터 센터 주식 추천 · 경제 뉴스 요약</summary>
+  <summary>트럼프 CFPB, 의료 부채 포함 금지 법안 겨냥 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>Beazer Homes USA, S&amp;P에서 'B' 등급으로 하향 조정</title>
-    <link href="/posts/beazer-homes-usa-sp%EC%97%90%EC%84%9C-b-%EB%93%B1%EA%B8%89%EC%9C%BC%EB%A1%9C-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="Beazer Homes USA, S&amp;amp;P에서 &amp;apos;B&amp;apos; 등급으로 하향 조정" />
-    <published>2025-11-08T05:16:49+09:00</published>
+    <title>트럼프와 제약사 협상, 비만약 접근성 확대</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EC%A0%9C%EC%95%BD%EC%82%AC-%ED%98%91%EC%83%81-%EB%B9%84%EB%A7%8C%EC%95%BD-%EC%A0%91%EA%B7%BC%EC%84%B1-%ED%99%95%EB%8C%80/" rel="alternate" type="text/html" title="트럼프와 제약사 협상, 비만약 접근성 확대" />
+    <published>2025-11-08T06:12:29+09:00</published>
   
-    <updated>2025-11-08T05:16:49+09:00</updated>
+    <updated>2025-11-08T06:12:29+09:00</updated>
   
-    <id>/posts/beazer-homes-usa-sp%EC%97%90%EC%84%9C-b-%EB%93%B1%EA%B8%89%EC%9C%BC%EB%A1%9C-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/</id>
-    <content type="text/html" src="/posts/beazer-homes-usa-sp%EC%97%90%EC%84%9C-b-%EB%93%B1%EA%B8%89%EC%9C%BC%EB%A1%9C-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" />
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EC%A0%9C%EC%95%BD%EC%82%AC-%ED%98%91%EC%83%81-%EB%B9%84%EB%A7%8C%EC%95%BD-%EC%A0%91%EA%B7%BC%EC%84%B1-%ED%99%95%EB%8C%80/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EC%A0%9C%EC%95%BD%EC%82%AC-%ED%98%91%EC%83%81-%EB%B9%84%EB%A7%8C%EC%95%BD-%EC%A0%91%EA%B7%BC%EC%84%B1-%ED%99%95%EB%8C%80/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>Beazer Homes USA, S&amp;amp;P에서 &amp;#39;B&amp;#39; 등급으로 하향 조정 · 경제 뉴스 요약</summary>
+  <summary>트럼프와 제약사 협상, 비만약 접근성 확대 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>CenterPoint Energy 전망, S&amp;P에 의해 안정적으로 조정</title>
-    <link href="/posts/centerpoint-energy-%EC%A0%84%EB%A7%9D-sp%EC%97%90-%EC%9D%98%ED%95%B4-%EC%95%88%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="CenterPoint Energy 전망, S&amp;amp;P에 의해 안정적으로 조정" />
-    <published>2025-11-08T05:16:35+09:00</published>
+    <title>캐나다 주식, S&amp;P/TSX 종합지수 0.12% 하락</title>
+    <link href="/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A2%85%ED%95%A9%EC%A7%80%EC%88%98-012-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="캐나다 주식, S&amp;amp;P/TSX 종합지수 0.12% 하락" />
+    <published>2025-11-08T06:12:18+09:00</published>
   
-    <updated>2025-11-08T05:16:35+09:00</updated>
+    <updated>2025-11-08T06:12:18+09:00</updated>
   
-    <id>/posts/centerpoint-energy-%EC%A0%84%EB%A7%9D-sp%EC%97%90-%EC%9D%98%ED%95%B4-%EC%95%88%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%A1%B0%EC%A0%95/</id>
-    <content type="text/html" src="/posts/centerpoint-energy-%EC%A0%84%EB%A7%9D-sp%EC%97%90-%EC%9D%98%ED%95%B4-%EC%95%88%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%A1%B0%EC%A0%95/" />
+    <id>/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A2%85%ED%95%A9%EC%A7%80%EC%88%98-012-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A2%85%ED%95%A9%EC%A7%80%EC%88%98-012-%ED%95%98%EB%9D%BD/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>CenterPoint Energy 전망, S&amp;amp;P에 의해 안정적으로 조정 · 경제 뉴스 요약</summary>
+  <summary>캐나다 주식, S&amp;amp;P/TSX 종합지수 0.12% 하락 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>ACCO Brands, S&amp;P의 부정적 전망 수정</title>
-    <link href="/posts/acco-brands-sp%EC%9D%98-%EB%B6%80%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D-%EC%88%98%EC%A0%95/" rel="alternate" type="text/html" title="ACCO Brands, S&amp;amp;P의 부정적 전망 수정" />
-    <published>2025-11-08T05:16:23+09:00</published>
+    <title>연준, 스테이블코인 급증으로 금리 인하 가능성 언급</title>
+    <link href="/posts/%EC%97%B0%EC%A4%80-%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8-%EA%B8%89%EC%A6%9D%EC%9C%BC%EB%A1%9C-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%96%B8%EA%B8%89/" rel="alternate" type="text/html" title="연준, 스테이블코인 급증으로 금리 인하 가능성 언급" />
+    <published>2025-11-08T06:12:04+09:00</published>
   
-    <updated>2025-11-08T05:16:23+09:00</updated>
+    <updated>2025-11-08T06:12:04+09:00</updated>
   
-    <id>/posts/acco-brands-sp%EC%9D%98-%EB%B6%80%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D-%EC%88%98%EC%A0%95/</id>
-    <content type="text/html" src="/posts/acco-brands-sp%EC%9D%98-%EB%B6%80%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D-%EC%88%98%EC%A0%95/" />
+    <id>/posts/%EC%97%B0%EC%A4%80-%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8-%EA%B8%89%EC%A6%9D%EC%9C%BC%EB%A1%9C-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%96%B8%EA%B8%89/</id>
+    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80-%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8-%EA%B8%89%EC%A6%9D%EC%9C%BC%EB%A1%9C-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%96%B8%EA%B8%89/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>ACCO Brands, S&amp;amp;P의 부정적 전망 수정 · 경제 뉴스 요약</summary>
+  <summary>연준, 스테이블코인 급증으로 금리 인하 가능성 언급 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>미국 정부 셧다운, ACA 세금 크레딧 연장 제안</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-aca-%EC%84%B8%EA%B8%88-%ED%81%AC%EB%A0%88%EB%94%A7-%EC%97%B0%EC%9E%A5-%EC%A0%9C%EC%95%88/" rel="alternate" type="text/html" title="미국 정부 셧다운, ACA 세금 크레딧 연장 제안" />
-    <published>2025-11-08T05:16:09+09:00</published>
+    <title>Qnity: AI 칩 붐을 타고 가는 주식</title>
+    <link href="/posts/qnity-ai-%EC%B9%A9-%EB%B6%90%EC%9D%84-%ED%83%80%EA%B3%A0-%EA%B0%80%EB%8A%94-%EC%A3%BC%EC%8B%9D/" rel="alternate" type="text/html" title="Qnity: AI 칩 붐을 타고 가는 주식" />
+    <published>2025-11-08T06:11:50+09:00</published>
   
-    <updated>2025-11-08T05:16:09+09:00</updated>
+    <updated>2025-11-08T06:11:50+09:00</updated>
   
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-aca-%EC%84%B8%EA%B8%88-%ED%81%AC%EB%A0%88%EB%94%A7-%EC%97%B0%EC%9E%A5-%EC%A0%9C%EC%95%88/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-aca-%EC%84%B8%EA%B8%88-%ED%81%AC%EB%A0%88%EB%94%A7-%EC%97%B0%EC%9E%A5-%EC%A0%9C%EC%95%88/" />
+    <id>/posts/qnity-ai-%EC%B9%A9-%EB%B6%90%EC%9D%84-%ED%83%80%EA%B3%A0-%EA%B0%80%EB%8A%94-%EC%A3%BC%EC%8B%9D/</id>
+    <content type="text/html" src="/posts/qnity-ai-%EC%B9%A9-%EB%B6%90%EC%9D%84-%ED%83%80%EA%B3%A0-%EA%B0%80%EB%8A%94-%EC%A3%BC%EC%8B%9D/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>미국 정부 셧다운, ACA 세금 크레딧 연장 제안 · 경제 뉴스 요약</summary>
+  <summary>Qnity: AI 칩 붐을 타고 가는 주식 · 경제 뉴스 요약</summary>
 
   </entry>
 
