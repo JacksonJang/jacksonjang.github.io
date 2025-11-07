@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T20:21:02+09:00</updated>
+  <updated>2025-11-07T20:32:31+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>DraftKings CEO, 예측 시장의 영향 분석</title>
+    <link href="/posts/draftkings-ceo-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%98%81%ED%96%A5-%EB%B6%84%EC%84%9D/" rel="alternate" type="text/html" title="DraftKings CEO, 예측 시장의 영향 분석" />
+    <published>2025-11-07T20:31:50+09:00</published>
+  
+    <updated>2025-11-07T20:31:50+09:00</updated>
+  
+    <id>/posts/draftkings-ceo-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%98%81%ED%96%A5-%EB%B6%84%EC%84%9D/</id>
+    <content type="text/html" src="/posts/draftkings-ceo-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%98%81%ED%96%A5-%EB%B6%84%EC%84%9D/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>DraftKings CEO, 예측 시장의 영향 분석 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>실업수당 청구 데이터, 예상보다 나쁘지 않아 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>트럼프와 제약사 협상, 비만약 가격은?</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EC%A0%9C%EC%95%BD%EC%82%AC-%ED%98%91%EC%83%81-%EB%B9%84%EB%A7%8C%EC%95%BD-%EA%B0%80%EA%B2%A9%EC%9D%80/" rel="alternate" type="text/html" title="트럼프와 제약사 협상, 비만약 가격은?" />
-    <published>2025-11-07T18:58:07+09:00</published>
-  
-    <updated>2025-11-07T18:58:07+09:00</updated>
-  
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EC%A0%9C%EC%95%BD%EC%82%AC-%ED%98%91%EC%83%81-%EB%B9%84%EB%A7%8C%EC%95%BD-%EA%B0%80%EA%B2%A9%EC%9D%80/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EC%A0%9C%EC%95%BD%EC%82%AC-%ED%98%91%EC%83%81-%EB%B9%84%EB%A7%8C%EC%95%BD-%EA%B0%80%EA%B2%A9%EC%9D%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>트럼프와 제약사 협상, 비만약 가격은? · 경제 뉴스 요약</summary>
 
   </entry>
 
