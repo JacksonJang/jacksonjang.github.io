@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T19:46:22+09:00</updated>
+  <updated>2025-11-07T19:58:22+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>아시아 라이프스타일 호텔 붐, 독특한 경험 선호</title>
+    <link href="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%8A%A4%ED%83%80%EC%9D%BC-%ED%98%B8%ED%85%94-%EB%B6%90-%EB%8F%85%ED%8A%B9%ED%95%9C-%EA%B2%BD%ED%97%98-%EC%84%A0%ED%98%B8/" rel="alternate" type="text/html" title="아시아 라이프스타일 호텔 붐, 독특한 경험 선호" />
+    <published>2025-11-07T19:57:39+09:00</published>
+  
+    <updated>2025-11-07T19:57:39+09:00</updated>
+  
+    <id>/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%8A%A4%ED%83%80%EC%9D%BC-%ED%98%B8%ED%85%94-%EB%B6%90-%EB%8F%85%ED%8A%B9%ED%95%9C-%EA%B2%BD%ED%97%98-%EC%84%A0%ED%98%B8/</id>
+    <content type="text/html" src="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%8A%A4%ED%83%80%EC%9D%BC-%ED%98%B8%ED%85%94-%EB%B6%90-%EB%8F%85%ED%8A%B9%ED%95%9C-%EA%B2%BD%ED%97%98-%EC%84%A0%ED%98%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>아시아 라이프스타일 호텔 붐, 독특한 경험 선호 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>애플의 AI 로드맵과 코스트코의 긍정적 판매 실적 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>OpenAI, 올해 200억 달러 매출 예상</title>
-    <link href="/posts/openai-%EC%98%AC%ED%95%B4-200%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%A7%A4%EC%B6%9C-%EC%98%88%EC%83%81/" rel="alternate" type="text/html" title="OpenAI, 올해 200억 달러 매출 예상" />
-    <published>2025-11-07T18:32:11+09:00</published>
-  
-    <updated>2025-11-07T18:32:11+09:00</updated>
-  
-    <id>/posts/openai-%EC%98%AC%ED%95%B4-200%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%A7%A4%EC%B6%9C-%EC%98%88%EC%83%81/</id>
-    <content type="text/html" src="/posts/openai-%EC%98%AC%ED%95%B4-200%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%A7%A4%EC%B6%9C-%EC%98%88%EC%83%81/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>OpenAI, 올해 200억 달러 매출 예상 · 경제 뉴스 요약</summary>
 
   </entry>
 
