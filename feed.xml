@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-07T13:28:07+09:00</updated>
+  <updated>2025-11-07T13:45:32+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>아시아 태평양 시장, AI 주식 하락에 따라 하락</title>
+    <link href="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-ai-%EC%A3%BC%EC%8B%9D-%ED%95%98%EB%9D%BD%EC%97%90-%EB%94%B0%EB%9D%BC-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="아시아 태평양 시장, AI 주식 하락에 따라 하락" />
+    <published>2025-11-07T13:44:59+09:00</published>
+  
+    <updated>2025-11-07T13:44:59+09:00</updated>
+  
+    <id>/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-ai-%EC%A3%BC%EC%8B%9D-%ED%95%98%EB%9D%BD%EC%97%90-%EB%94%B0%EB%9D%BC-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-ai-%EC%A3%BC%EC%8B%9D-%ED%95%98%EB%9D%BD%EC%97%90-%EB%94%B0%EB%9D%BC-%ED%95%98%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>아시아 태평양 시장, AI 주식 하락에 따라 하락 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>인도의 백오피스, 글로벌 리더십 허브로 진화 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>소프트뱅크 주가 8% 하락, AI 관련 주식 압박</title>
-    <link href="/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC-%EC%A3%BC%EA%B0%80-8-%ED%95%98%EB%9D%BD-ai-%EA%B4%80%EB%A0%A8-%EC%A3%BC%EC%8B%9D-%EC%95%95%EB%B0%95/" rel="alternate" type="text/html" title="소프트뱅크 주가 8% 하락, AI 관련 주식 압박" />
-    <published>2025-11-07T09:51:51+09:00</published>
-  
-    <updated>2025-11-07T09:51:51+09:00</updated>
-  
-    <id>/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC-%EC%A3%BC%EA%B0%80-8-%ED%95%98%EB%9D%BD-ai-%EA%B4%80%EB%A0%A8-%EC%A3%BC%EC%8B%9D-%EC%95%95%EB%B0%95/</id>
-    <content type="text/html" src="/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC-%EC%A3%BC%EA%B0%80-8-%ED%95%98%EB%9D%BD-ai-%EA%B4%80%EB%A0%A8-%EC%A3%BC%EC%8B%9D-%EC%95%95%EB%B0%95/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>소프트뱅크 주가 8% 하락, AI 관련 주식 압박 · 경제 뉴스 요약</summary>
 
   </entry>
 
