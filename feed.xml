@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-08T19:15:11+09:00</updated>
+  <updated>2025-11-08T20:12:41+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,78 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>연준 윌리엄스: 유동성 필요로 잔고 확대 필요할 듯</title>
+    <link href="/posts/%EC%97%B0%EC%A4%80-%EC%9C%8C%EB%A6%AC%EC%97%84%EC%8A%A4-%EC%9C%A0%EB%8F%99%EC%84%B1-%ED%95%84%EC%9A%94%EB%A1%9C-%EC%9E%94%EA%B3%A0-%ED%99%95%EB%8C%80-%ED%95%84%EC%9A%94%ED%95%A0-%EB%93%AF/" rel="alternate" type="text/html" title="연준 윌리엄스: 유동성 필요로 잔고 확대 필요할 듯" />
+    <published>2025-11-08T20:12:06+09:00</published>
+  
+    <updated>2025-11-08T20:12:06+09:00</updated>
+  
+    <id>/posts/%EC%97%B0%EC%A4%80-%EC%9C%8C%EB%A6%AC%EC%97%84%EC%8A%A4-%EC%9C%A0%EB%8F%99%EC%84%B1-%ED%95%84%EC%9A%94%EB%A1%9C-%EC%9E%94%EA%B3%A0-%ED%99%95%EB%8C%80-%ED%95%84%EC%9A%94%ED%95%A0-%EB%93%AF/</id>
+    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80-%EC%9C%8C%EB%A6%AC%EC%97%84%EC%8A%A4-%EC%9C%A0%EB%8F%99%EC%84%B1-%ED%95%84%EC%9A%94%EB%A1%9C-%EC%9E%94%EA%B3%A0-%ED%99%95%EB%8C%80-%ED%95%84%EC%9A%94%ED%95%A0-%EB%93%AF/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>연준 윌리엄스: 유동성 필요로 잔고 확대 필요할 듯 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>연준 윌리엄스, 자산 매입 재개 예상</title>
+    <link href="/posts/%EC%97%B0%EC%A4%80-%EC%9C%8C%EB%A6%AC%EC%97%84%EC%8A%A4-%EC%9E%90%EC%82%B0-%EB%A7%A4%EC%9E%85-%EC%9E%AC%EA%B0%9C-%EC%98%88%EC%83%81/" rel="alternate" type="text/html" title="연준 윌리엄스, 자산 매입 재개 예상" />
+    <published>2025-11-08T20:11:53+09:00</published>
+  
+    <updated>2025-11-08T20:11:53+09:00</updated>
+  
+    <id>/posts/%EC%97%B0%EC%A4%80-%EC%9C%8C%EB%A6%AC%EC%97%84%EC%8A%A4-%EC%9E%90%EC%82%B0-%EB%A7%A4%EC%9E%85-%EC%9E%AC%EA%B0%9C-%EC%98%88%EC%83%81/</id>
+    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80-%EC%9C%8C%EB%A6%AC%EC%97%84%EC%8A%A4-%EC%9E%90%EC%82%B0-%EB%A7%A4%EC%9E%85-%EC%9E%AC%EA%B0%9C-%EC%98%88%EC%83%81/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>연준 윌리엄스, 자산 매입 재개 예상 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>S&amp;P 500에서 가장 인기 있는 3개 주식 분석</title>
+    <link href="/posts/sp-500%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EC%9D%B8%EA%B8%B0-%EC%9E%88%EB%8A%94-3%EA%B0%9C-%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D/" rel="alternate" type="text/html" title="S&amp;amp;P 500에서 가장 인기 있는 3개 주식 분석" />
+    <published>2025-11-08T20:11:40+09:00</published>
+  
+    <updated>2025-11-08T20:11:40+09:00</updated>
+  
+    <id>/posts/sp-500%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EC%9D%B8%EA%B8%B0-%EC%9E%88%EB%8A%94-3%EA%B0%9C-%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D/</id>
+    <content type="text/html" src="/posts/sp-500%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EC%9D%B8%EA%B8%B0-%EC%9E%88%EB%8A%94-3%EA%B0%9C-%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>S&amp;amp;P 500에서 가장 인기 있는 3개 주식 분석 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,78 +135,6 @@
   
 
   <summary>UPS, FedEx MD-11 항공기 운항 중단 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>금값 소폭 변화, 연준 금리 전망 주목</title>
-    <link href="/posts/%EA%B8%88%EA%B0%92-%EC%86%8C%ED%8F%AD-%EB%B3%80%ED%99%94-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%A0%84%EB%A7%9D-%EC%A3%BC%EB%AA%A9/" rel="alternate" type="text/html" title="금값 소폭 변화, 연준 금리 전망 주목" />
-    <published>2025-11-08T13:17:47+09:00</published>
-  
-    <updated>2025-11-08T13:17:47+09:00</updated>
-  
-    <id>/posts/%EA%B8%88%EA%B0%92-%EC%86%8C%ED%8F%AD-%EB%B3%80%ED%99%94-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%A0%84%EB%A7%9D-%EC%A3%BC%EB%AA%A9/</id>
-    <content type="text/html" src="/posts/%EA%B8%88%EA%B0%92-%EC%86%8C%ED%8F%AD-%EB%B3%80%ED%99%94-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%A0%84%EB%A7%9D-%EC%A3%BC%EB%AA%A9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>금값 소폭 변화, 연준 금리 전망 주목 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>S&amp;P 500 오늘의 주식 변동: DoorDash 하락, Datadog 상승</title>
-    <link href="/posts/sp-500-%EC%98%A4%EB%8A%98%EC%9D%98-%EC%A3%BC%EC%8B%9D-%EB%B3%80%EB%8F%99-doordash-%ED%95%98%EB%9D%BD-datadog-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="S&amp;amp;P 500 오늘의 주식 변동: DoorDash 하락, Datadog 상승" />
-    <published>2025-11-08T12:34:25+09:00</published>
-  
-    <updated>2025-11-08T12:34:25+09:00</updated>
-  
-    <id>/posts/sp-500-%EC%98%A4%EB%8A%98%EC%9D%98-%EC%A3%BC%EC%8B%9D-%EB%B3%80%EB%8F%99-doordash-%ED%95%98%EB%9D%BD-datadog-%EC%83%81%EC%8A%B9/</id>
-    <content type="text/html" src="/posts/sp-500-%EC%98%A4%EB%8A%98%EC%9D%98-%EC%A3%BC%EC%8B%9D-%EB%B3%80%EB%8F%99-doordash-%ED%95%98%EB%9D%BD-datadog-%EC%83%81%EC%8A%B9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>S&amp;amp;P 500 오늘의 주식 변동: DoorDash 하락, Datadog 상승 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Fed의 햄맥, 인플레이션 완화를 위한 금리 인상 불필요</title>
-    <link href="/posts/fed%EC%9D%98-%ED%96%84%EB%A7%A5-%EC%9D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98-%EC%99%84%ED%99%94%EB%A5%BC-%EC%9C%84%ED%95%9C-%EA%B8%88%EB%A6%AC-%EC%9D%B8%EC%83%81-%EB%B6%88%ED%95%84%EC%9A%94/" rel="alternate" type="text/html" title="Fed의 햄맥, 인플레이션 완화를 위한 금리 인상 불필요" />
-    <published>2025-11-08T12:34:12+09:00</published>
-  
-    <updated>2025-11-08T12:34:12+09:00</updated>
-  
-    <id>/posts/fed%EC%9D%98-%ED%96%84%EB%A7%A5-%EC%9D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98-%EC%99%84%ED%99%94%EB%A5%BC-%EC%9C%84%ED%95%9C-%EA%B8%88%EB%A6%AC-%EC%9D%B8%EC%83%81-%EB%B6%88%ED%95%84%EC%9A%94/</id>
-    <content type="text/html" src="/posts/fed%EC%9D%98-%ED%96%84%EB%A7%A5-%EC%9D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98-%EC%99%84%ED%99%94%EB%A5%BC-%EC%9C%84%ED%95%9C-%EA%B8%88%EB%A6%AC-%EC%9D%B8%EC%83%81-%EB%B6%88%ED%95%84%EC%9A%94/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Fed의 햄맥, 인플레이션 완화를 위한 금리 인상 불필요 · 경제 뉴스 요약</summary>
 
   </entry>
 
