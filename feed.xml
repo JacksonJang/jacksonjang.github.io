@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-09T14:15:32+09:00</updated>
+  <updated>2025-11-09T15:21:57+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>연준, 헤지펀드 차입 경고: 금융 시스템 취약성</title>
+    <link href="/posts/%EC%97%B0%EC%A4%80-%ED%97%A4%EC%A7%80%ED%8E%80%EB%93%9C-%EC%B0%A8%EC%9E%85-%EA%B2%BD%EA%B3%A0-%EA%B8%88%EC%9C%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%B7%A8%EC%95%BD%EC%84%B1/" rel="alternate" type="text/html" title="연준, 헤지펀드 차입 경고: 금융 시스템 취약성" />
+    <published>2025-11-09T15:21:22+09:00</published>
+  
+    <updated>2025-11-09T15:21:22+09:00</updated>
+  
+    <id>/posts/%EC%97%B0%EC%A4%80-%ED%97%A4%EC%A7%80%ED%8E%80%EB%93%9C-%EC%B0%A8%EC%9E%85-%EA%B2%BD%EA%B3%A0-%EA%B8%88%EC%9C%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%B7%A8%EC%95%BD%EC%84%B1/</id>
+    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80-%ED%97%A4%EC%A7%80%ED%8E%80%EB%93%9C-%EC%B0%A8%EC%9E%85-%EA%B2%BD%EA%B3%A0-%EA%B8%88%EC%9C%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%B7%A8%EC%95%BD%EC%84%B1/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>연준, 헤지펀드 차입 경고: 금융 시스템 취약성 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>정책 불확실성과 지정학적 리스크, 연준 조사 결과 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>제이미 다이먼, 직장에서 문자 메시지를 읽지 않는 이유</title>
-    <link href="/posts/%EC%A0%9C%EC%9D%B4%EB%AF%B8-%EB%8B%A4%EC%9D%B4%EB%A8%BC-%EC%A7%81%EC%9E%A5%EC%97%90%EC%84%9C-%EB%AC%B8%EC%9E%90-%EB%A9%94%EC%8B%9C%EC%A7%80%EB%A5%BC-%EC%9D%BD%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9D%B4%EC%9C%A0/" rel="alternate" type="text/html" title="제이미 다이먼, 직장에서 문자 메시지를 읽지 않는 이유" />
-    <published>2025-11-09T13:18:33+09:00</published>
-  
-    <updated>2025-11-09T13:18:33+09:00</updated>
-  
-    <id>/posts/%EC%A0%9C%EC%9D%B4%EB%AF%B8-%EB%8B%A4%EC%9D%B4%EB%A8%BC-%EC%A7%81%EC%9E%A5%EC%97%90%EC%84%9C-%EB%AC%B8%EC%9E%90-%EB%A9%94%EC%8B%9C%EC%A7%80%EB%A5%BC-%EC%9D%BD%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9D%B4%EC%9C%A0/</id>
-    <content type="text/html" src="/posts/%EC%A0%9C%EC%9D%B4%EB%AF%B8-%EB%8B%A4%EC%9D%B4%EB%A8%BC-%EC%A7%81%EC%9E%A5%EC%97%90%EC%84%9C-%EB%AC%B8%EC%9E%90-%EB%A9%94%EC%8B%9C%EC%A7%80%EB%A5%BC-%EC%9D%BD%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9D%B4%EC%9C%A0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>제이미 다이먼, 직장에서 문자 메시지를 읽지 않는 이유 · 경제 뉴스 요약</summary>
 
   </entry>
 
