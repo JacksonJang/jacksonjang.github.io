@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-09T21:28:22+09:00</updated>
+  <updated>2025-11-09T22:21:53+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,78 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>S&amp;P 500 역사적 고점에서 대안 투자 방법</title>
+    <link href="/posts/sp-500-%EC%97%AD%EC%82%AC%EC%A0%81-%EA%B3%A0%EC%A0%90%EC%97%90%EC%84%9C-%EB%8C%80%EC%95%88-%ED%88%AC%EC%9E%90-%EB%B0%A9%EB%B2%95/" rel="alternate" type="text/html" title="S&amp;amp;P 500 역사적 고점에서 대안 투자 방법" />
+    <published>2025-11-09T22:21:17+09:00</published>
+  
+    <updated>2025-11-09T22:21:17+09:00</updated>
+  
+    <id>/posts/sp-500-%EC%97%AD%EC%82%AC%EC%A0%81-%EA%B3%A0%EC%A0%90%EC%97%90%EC%84%9C-%EB%8C%80%EC%95%88-%ED%88%AC%EC%9E%90-%EB%B0%A9%EB%B2%95/</id>
+    <content type="text/html" src="/posts/sp-500-%EC%97%AD%EC%82%AC%EC%A0%81-%EA%B3%A0%EC%A0%90%EC%97%90%EC%84%9C-%EB%8C%80%EC%95%88-%ED%88%AC%EC%9E%90-%EB%B0%A9%EB%B2%95/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>S&amp;amp;P 500 역사적 고점에서 대안 투자 방법 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>월가 애널리스트가 추천하는 3대 기술주</title>
+    <link href="/posts/%EC%9B%94%EA%B0%80-%EC%95%A0%EB%84%90%EB%A6%AC%EC%8A%A4%ED%8A%B8%EA%B0%80-%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94-3%EB%8C%80-%EA%B8%B0%EC%88%A0%EC%A3%BC/" rel="alternate" type="text/html" title="월가 애널리스트가 추천하는 3대 기술주" />
+    <published>2025-11-09T22:21:06+09:00</published>
+  
+    <updated>2025-11-09T22:21:06+09:00</updated>
+  
+    <id>/posts/%EC%9B%94%EA%B0%80-%EC%95%A0%EB%84%90%EB%A6%AC%EC%8A%A4%ED%8A%B8%EA%B0%80-%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94-3%EB%8C%80-%EA%B8%B0%EC%88%A0%EC%A3%BC/</id>
+    <content type="text/html" src="/posts/%EC%9B%94%EA%B0%80-%EC%95%A0%EB%84%90%EB%A6%AC%EC%8A%A4%ED%8A%B8%EA%B0%80-%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94-3%EB%8C%80-%EA%B8%B0%EC%88%A0%EC%A3%BC/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>월가 애널리스트가 추천하는 3대 기술주 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>IRA에서 가장 큰 실수는 무엇인가?</title>
+    <link href="/posts/ira%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%ED%81%B0-%EC%8B%A4%EC%88%98%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/" rel="alternate" type="text/html" title="IRA에서 가장 큰 실수는 무엇인가?" />
+    <published>2025-11-09T22:20:52+09:00</published>
+  
+    <updated>2025-11-09T22:20:52+09:00</updated>
+  
+    <id>/posts/ira%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%ED%81%B0-%EC%8B%A4%EC%88%98%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/</id>
+    <content type="text/html" src="/posts/ira%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%ED%81%B0-%EC%8B%A4%EC%88%98%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>IRA에서 가장 큰 실수는 무엇인가? · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,78 +135,6 @@
   
 
   <summary>Evercore ISI, S&amp;amp;P Global 목표가 629달러로 상향 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>트럼프, 소고기 가격 조사 요청</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9-%EC%A1%B0%EC%82%AC-%EC%9A%94%EC%B2%AD/" rel="alternate" type="text/html" title="트럼프, 소고기 가격 조사 요청" />
-    <published>2025-11-09T17:17:57+09:00</published>
-  
-    <updated>2025-11-09T17:17:57+09:00</updated>
-  
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9-%EC%A1%B0%EC%82%AC-%EC%9A%94%EC%B2%AD/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9-%EC%A1%B0%EC%82%AC-%EC%9A%94%EC%B2%AD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>트럼프, 소고기 가격 조사 요청 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 항공 교통 감소로 1,400편 이상 결항</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%ED%95%AD%EA%B3%B5-%EA%B5%90%ED%86%B5-%EA%B0%90%EC%86%8C%EB%A1%9C-1400%ED%8E%B8-%EC%9D%B4%EC%83%81-%EA%B2%B0%ED%95%AD/" rel="alternate" type="text/html" title="미국 항공 교통 감소로 1,400편 이상 결항" />
-    <published>2025-11-09T17:17:41+09:00</published>
-  
-    <updated>2025-11-09T17:17:41+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%ED%95%AD%EA%B3%B5-%EA%B5%90%ED%86%B5-%EA%B0%90%EC%86%8C%EB%A1%9C-1400%ED%8E%B8-%EC%9D%B4%EC%83%81-%EA%B2%B0%ED%95%AD/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%ED%95%AD%EA%B3%B5-%EA%B5%90%ED%86%B5-%EA%B0%90%EC%86%8C%EB%A1%9C-1400%ED%8E%B8-%EC%9D%B4%EC%83%81-%EA%B2%B0%ED%95%AD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 항공 교통 감소로 1,400편 이상 결항 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>S&amp;P 500, 중요한 기준선 유지: 역사적 분석</title>
-    <link href="/posts/sp-500-%EC%A4%91%EC%9A%94%ED%95%9C-%EA%B8%B0%EC%A4%80%EC%84%A0-%EC%9C%A0%EC%A7%80-%EC%97%AD%EC%82%AC%EC%A0%81-%EB%B6%84%EC%84%9D/" rel="alternate" type="text/html" title="S&amp;amp;P 500, 중요한 기준선 유지: 역사적 분석" />
-    <published>2025-11-09T16:14:25+09:00</published>
-  
-    <updated>2025-11-09T16:14:25+09:00</updated>
-  
-    <id>/posts/sp-500-%EC%A4%91%EC%9A%94%ED%95%9C-%EA%B8%B0%EC%A4%80%EC%84%A0-%EC%9C%A0%EC%A7%80-%EC%97%AD%EC%82%AC%EC%A0%81-%EB%B6%84%EC%84%9D/</id>
-    <content type="text/html" src="/posts/sp-500-%EC%A4%91%EC%9A%94%ED%95%9C-%EA%B8%B0%EC%A4%80%EC%84%A0-%EC%9C%A0%EC%A7%80-%EC%97%AD%EC%82%AC%EC%A0%81-%EB%B6%84%EC%84%9D/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>S&amp;amp;P 500, 중요한 기준선 유지: 역사적 분석 · 경제 뉴스 요약</summary>
 
   </entry>
 
