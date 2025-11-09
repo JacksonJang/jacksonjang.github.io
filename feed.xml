@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-10T05:16:36+09:00</updated>
+  <updated>2025-11-10T06:13:25+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>CPI와 기술적 지지선, 이번 주 주목할 점</title>
+    <link href="/posts/cpi%EC%99%80-%EA%B8%B0%EC%88%A0%EC%A0%81-%EC%A7%80%EC%A7%80%EC%84%A0-%EC%9D%B4%EB%B2%88-%EC%A3%BC-%EC%A3%BC%EB%AA%A9%ED%95%A0-%EC%A0%90/" rel="alternate" type="text/html" title="CPI와 기술적 지지선, 이번 주 주목할 점" />
+    <published>2025-11-10T06:12:48+09:00</published>
+  
+    <updated>2025-11-10T06:12:48+09:00</updated>
+  
+    <id>/posts/cpi%EC%99%80-%EA%B8%B0%EC%88%A0%EC%A0%81-%EC%A7%80%EC%A7%80%EC%84%A0-%EC%9D%B4%EB%B2%88-%EC%A3%BC-%EC%A3%BC%EB%AA%A9%ED%95%A0-%EC%A0%90/</id>
+    <content type="text/html" src="/posts/cpi%EC%99%80-%EA%B8%B0%EC%88%A0%EC%A0%81-%EC%A7%80%EC%A7%80%EC%84%A0-%EC%9D%B4%EB%B2%88-%EC%A3%BC-%EC%A3%BC%EB%AA%A9%ED%95%A0-%EC%A0%90/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>CPI와 기술적 지지선, 이번 주 주목할 점 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>주식 시장에서 주목해야 할 3가지 이슈 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>비즈니스 여행자, 항공편 축소에 대처하는 방법</title>
-    <link href="/posts/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%97%AC%ED%96%89%EC%9E%90-%ED%95%AD%EA%B3%B5%ED%8E%B8-%EC%B6%95%EC%86%8C%EC%97%90-%EB%8C%80%EC%B2%98%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/" rel="alternate" type="text/html" title="비즈니스 여행자, 항공편 축소에 대처하는 방법" />
-    <published>2025-11-10T03:20:02+09:00</published>
-  
-    <updated>2025-11-10T03:20:02+09:00</updated>
-  
-    <id>/posts/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%97%AC%ED%96%89%EC%9E%90-%ED%95%AD%EA%B3%B5%ED%8E%B8-%EC%B6%95%EC%86%8C%EC%97%90-%EB%8C%80%EC%B2%98%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/</id>
-    <content type="text/html" src="/posts/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%97%AC%ED%96%89%EC%9E%90-%ED%95%AD%EA%B3%B5%ED%8E%B8-%EC%B6%95%EC%86%8C%EC%97%90-%EB%8C%80%EC%B2%98%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>비즈니스 여행자, 항공편 축소에 대처하는 방법 · 경제 뉴스 요약</summary>
 
   </entry>
 
