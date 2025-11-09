@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-10T01:17:23+09:00</updated>
+  <updated>2025-11-10T02:13:41+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,78 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>401(k) 대출, 신용카드 부채 해결책일까?</title>
+    <link href="/posts/401k-%EB%8C%80%EC%B6%9C-%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EB%B6%80%EC%B1%84-%ED%95%B4%EA%B2%B0%EC%B1%85%EC%9D%BC%EA%B9%8C/" rel="alternate" type="text/html" title="401(k) 대출, 신용카드 부채 해결책일까?" />
+    <published>2025-11-10T02:13:07+09:00</published>
+  
+    <updated>2025-11-10T02:13:07+09:00</updated>
+  
+    <id>/posts/401k-%EB%8C%80%EC%B6%9C-%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EB%B6%80%EC%B1%84-%ED%95%B4%EA%B2%B0%EC%B1%85%EC%9D%BC%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/401k-%EB%8C%80%EC%B6%9C-%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EB%B6%80%EC%B1%84-%ED%95%B4%EA%B2%B0%EC%B1%85%EC%9D%BC%EA%B9%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>401(k) 대출, 신용카드 부채 해결책일까? · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>주식 시장의 상승세, 이제는 힘든 싸움</title>
+    <link href="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%9D%B4%EC%A0%9C%EB%8A%94-%ED%9E%98%EB%93%A0-%EC%8B%B8%EC%9B%80/" rel="alternate" type="text/html" title="주식 시장의 상승세, 이제는 힘든 싸움" />
+    <published>2025-11-10T02:12:53+09:00</published>
+  
+    <updated>2025-11-10T02:12:53+09:00</updated>
+  
+    <id>/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%9D%B4%EC%A0%9C%EB%8A%94-%ED%9E%98%EB%93%A0-%EC%8B%B8%EC%9B%80/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%9D%B4%EC%A0%9C%EB%8A%94-%ED%9E%98%EB%93%A0-%EC%8B%B8%EC%9B%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>주식 시장의 상승세, 이제는 힘든 싸움 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>CoreWeave 실적: 주목해야 할 5가지 핵심 사항</title>
+    <link href="/posts/coreweave-%EC%8B%A4%EC%A0%81-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-5%EA%B0%80%EC%A7%80-%ED%95%B5%EC%8B%AC-%EC%82%AC%ED%95%AD/" rel="alternate" type="text/html" title="CoreWeave 실적: 주목해야 할 5가지 핵심 사항" />
+    <published>2025-11-10T02:12:41+09:00</published>
+  
+    <updated>2025-11-10T02:12:41+09:00</updated>
+  
+    <id>/posts/coreweave-%EC%8B%A4%EC%A0%81-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-5%EA%B0%80%EC%A7%80-%ED%95%B5%EC%8B%AC-%EC%82%AC%ED%95%AD/</id>
+    <content type="text/html" src="/posts/coreweave-%EC%8B%A4%EC%A0%81-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-5%EA%B0%80%EC%A7%80-%ED%95%B5%EC%8B%AC-%EC%82%AC%ED%95%AD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>CoreWeave 실적: 주목해야 할 5가지 핵심 사항 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,78 +135,6 @@
   
 
   <summary>성공적인 아이로 키우기 위한 질문 7가지 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 정부 셧다운, 기업 전망에 미치는 영향</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EA%B8%B0%EC%97%85-%EC%A0%84%EB%A7%9D%EC%97%90-%EB%AF%B8%EC%B9%98%EB%8A%94-%EC%98%81%ED%96%A5/" rel="alternate" type="text/html" title="미국 정부 셧다운, 기업 전망에 미치는 영향" />
-    <published>2025-11-10T00:13:45+09:00</published>
-  
-    <updated>2025-11-10T00:13:45+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EA%B8%B0%EC%97%85-%EC%A0%84%EB%A7%9D%EC%97%90-%EB%AF%B8%EC%B9%98%EB%8A%94-%EC%98%81%ED%96%A5/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EA%B8%B0%EC%97%85-%EC%A0%84%EB%A7%9D%EC%97%90-%EB%AF%B8%EC%B9%98%EB%8A%94-%EC%98%81%ED%96%A5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 정부 셧다운, 기업 전망에 미치는 영향 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>트럼프, 연방 자금 건강 보험사로부터 전환 제안</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%97%B0%EB%B0%A9-%EC%9E%90%EA%B8%88-%EA%B1%B4%EA%B0%95-%EB%B3%B4%ED%97%98%EC%82%AC%EB%A1%9C%EB%B6%80%ED%84%B0-%EC%A0%84%ED%99%98-%EC%A0%9C%EC%95%88/" rel="alternate" type="text/html" title="트럼프, 연방 자금 건강 보험사로부터 전환 제안" />
-    <published>2025-11-09T23:12:42+09:00</published>
-  
-    <updated>2025-11-09T23:12:42+09:00</updated>
-  
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%97%B0%EB%B0%A9-%EC%9E%90%EA%B8%88-%EA%B1%B4%EA%B0%95-%EB%B3%B4%ED%97%98%EC%82%AC%EB%A1%9C%EB%B6%80%ED%84%B0-%EC%A0%84%ED%99%98-%EC%A0%9C%EC%95%88/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%97%B0%EB%B0%A9-%EC%9E%90%EA%B8%88-%EA%B1%B4%EA%B0%95-%EB%B3%B4%ED%97%98%EC%82%AC%EB%A1%9C%EB%B6%80%ED%84%B0-%EC%A0%84%ED%99%98-%EC%A0%9C%EC%95%88/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>트럼프, 연방 자금 건강 보험사로부터 전환 제안 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국의 원자력 발전 붐과 방사성 폐기물 문제</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD%EC%9D%98-%EC%9B%90%EC%9E%90%EB%A0%A5-%EB%B0%9C%EC%A0%84-%EB%B6%90%EA%B3%BC-%EB%B0%A9%EC%82%AC%EC%84%B1-%ED%8F%90%EA%B8%B0%EB%AC%BC-%EB%AC%B8%EC%A0%9C/" rel="alternate" type="text/html" title="미국의 원자력 발전 붐과 방사성 폐기물 문제" />
-    <published>2025-11-09T23:12:30+09:00</published>
-  
-    <updated>2025-11-09T23:12:30+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD%EC%9D%98-%EC%9B%90%EC%9E%90%EB%A0%A5-%EB%B0%9C%EC%A0%84-%EB%B6%90%EA%B3%BC-%EB%B0%A9%EC%82%AC%EC%84%B1-%ED%8F%90%EA%B8%B0%EB%AC%BC-%EB%AC%B8%EC%A0%9C/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD%EC%9D%98-%EC%9B%90%EC%9E%90%EB%A0%A5-%EB%B0%9C%EC%A0%84-%EB%B6%90%EA%B3%BC-%EB%B0%A9%EC%82%AC%EC%84%B1-%ED%8F%90%EA%B8%B0%EB%AC%BC-%EB%AC%B8%EC%A0%9C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국의 원자력 발전 붐과 방사성 폐기물 문제 · 경제 뉴스 요약</summary>
 
   </entry>
 
