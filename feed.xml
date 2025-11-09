@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-09T17:18:36+09:00</updated>
+  <updated>2025-11-09T18:14:59+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Evercore ISI, S&amp;P Global 목표가 629달러로 상향</title>
+    <link href="/posts/evercore-isi-sp-global-%EB%AA%A9%ED%91%9C%EA%B0%80-629%EB%8B%AC%EB%9F%AC%EB%A1%9C-%EC%83%81%ED%96%A5/" rel="alternate" type="text/html" title="Evercore ISI, S&amp;amp;P Global 목표가 629달러로 상향" />
+    <published>2025-11-09T18:14:11+09:00</published>
+  
+    <updated>2025-11-09T18:14:11+09:00</updated>
+  
+    <id>/posts/evercore-isi-sp-global-%EB%AA%A9%ED%91%9C%EA%B0%80-629%EB%8B%AC%EB%9F%AC%EB%A1%9C-%EC%83%81%ED%96%A5/</id>
+    <content type="text/html" src="/posts/evercore-isi-sp-global-%EB%AA%A9%ED%91%9C%EA%B0%80-629%EB%8B%AC%EB%9F%AC%EB%A1%9C-%EC%83%81%ED%96%A5/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Evercore ISI, S&amp;amp;P Global 목표가 629달러로 상향 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>연준, 헤지펀드 차입 경고: 금융 시스템 취약성 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>S&amp;P 500: Take-Two 주가는 하락, Expedia는 상승</title>
-    <link href="/posts/sp-500-take-two-%EC%A3%BC%EA%B0%80%EB%8A%94-%ED%95%98%EB%9D%BD-expedia%EB%8A%94-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="S&amp;amp;P 500: Take-Two 주가는 하락, Expedia는 상승" />
-    <published>2025-11-09T14:14:49+09:00</published>
-  
-    <updated>2025-11-09T14:14:49+09:00</updated>
-  
-    <id>/posts/sp-500-take-two-%EC%A3%BC%EA%B0%80%EB%8A%94-%ED%95%98%EB%9D%BD-expedia%EB%8A%94-%EC%83%81%EC%8A%B9/</id>
-    <content type="text/html" src="/posts/sp-500-take-two-%EC%A3%BC%EA%B0%80%EB%8A%94-%ED%95%98%EB%9D%BD-expedia%EB%8A%94-%EC%83%81%EC%8A%B9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>S&amp;amp;P 500: Take-Two 주가는 하락, Expedia는 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
