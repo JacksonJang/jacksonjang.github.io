@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-10T02:13:41+09:00</updated>
+  <updated>2025-11-10T03:21:52+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>401(k) 대출, 신용카드 부채 해결책일까?</title>
-    <link href="/posts/401k-%EB%8C%80%EC%B6%9C-%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EB%B6%80%EC%B1%84-%ED%95%B4%EA%B2%B0%EC%B1%85%EC%9D%BC%EA%B9%8C/" rel="alternate" type="text/html" title="401(k) 대출, 신용카드 부채 해결책일까?" />
-    <published>2025-11-10T02:13:07+09:00</published>
+    <title>자기 편지 쓰기, 행복 증진의 비결</title>
+    <link href="/posts/%EC%9E%90%EA%B8%B0-%ED%8E%B8%EC%A7%80-%EC%93%B0%EA%B8%B0-%ED%96%89%EB%B3%B5-%EC%A6%9D%EC%A7%84%EC%9D%98-%EB%B9%84%EA%B2%B0/" rel="alternate" type="text/html" title="자기 편지 쓰기, 행복 증진의 비결" />
+    <published>2025-11-10T03:21:04+09:00</published>
   
-    <updated>2025-11-10T02:13:07+09:00</updated>
+    <updated>2025-11-10T03:21:04+09:00</updated>
   
-    <id>/posts/401k-%EB%8C%80%EC%B6%9C-%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EB%B6%80%EC%B1%84-%ED%95%B4%EA%B2%B0%EC%B1%85%EC%9D%BC%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/401k-%EB%8C%80%EC%B6%9C-%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EB%B6%80%EC%B1%84-%ED%95%B4%EA%B2%B0%EC%B1%85%EC%9D%BC%EA%B9%8C/" />
+    <id>/posts/%EC%9E%90%EA%B8%B0-%ED%8E%B8%EC%A7%80-%EC%93%B0%EA%B8%B0-%ED%96%89%EB%B3%B5-%EC%A6%9D%EC%A7%84%EC%9D%98-%EB%B9%84%EA%B2%B0/</id>
+    <content type="text/html" src="/posts/%EC%9E%90%EA%B8%B0-%ED%8E%B8%EC%A7%80-%EC%93%B0%EA%B8%B0-%ED%96%89%EB%B3%B5-%EC%A6%9D%EC%A7%84%EC%9D%98-%EB%B9%84%EA%B2%B0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>401(k) 대출, 신용카드 부채 해결책일까? · 경제 뉴스 요약</summary>
+  <summary>자기 편지 쓰기, 행복 증진의 비결 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>주식 시장의 상승세, 이제는 힘든 싸움</title>
-    <link href="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%9D%B4%EC%A0%9C%EB%8A%94-%ED%9E%98%EB%93%A0-%EC%8B%B8%EC%9B%80/" rel="alternate" type="text/html" title="주식 시장의 상승세, 이제는 힘든 싸움" />
-    <published>2025-11-10T02:12:53+09:00</published>
+    <title>면접관이 놓치는 최고의 후보자 찾기</title>
+    <link href="/posts/%EB%A9%B4%EC%A0%91%EA%B4%80%EC%9D%B4-%EB%86%93%EC%B9%98%EB%8A%94-%EC%B5%9C%EA%B3%A0%EC%9D%98-%ED%9B%84%EB%B3%B4%EC%9E%90-%EC%B0%BE%EA%B8%B0/" rel="alternate" type="text/html" title="면접관이 놓치는 최고의 후보자 찾기" />
+    <published>2025-11-10T03:20:38+09:00</published>
   
-    <updated>2025-11-10T02:12:53+09:00</updated>
+    <updated>2025-11-10T03:20:38+09:00</updated>
   
-    <id>/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%9D%B4%EC%A0%9C%EB%8A%94-%ED%9E%98%EB%93%A0-%EC%8B%B8%EC%9B%80/</id>
-    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%9D%B4%EC%A0%9C%EB%8A%94-%ED%9E%98%EB%93%A0-%EC%8B%B8%EC%9B%80/" />
+    <id>/posts/%EB%A9%B4%EC%A0%91%EA%B4%80%EC%9D%B4-%EB%86%93%EC%B9%98%EB%8A%94-%EC%B5%9C%EA%B3%A0%EC%9D%98-%ED%9B%84%EB%B3%B4%EC%9E%90-%EC%B0%BE%EA%B8%B0/</id>
+    <content type="text/html" src="/posts/%EB%A9%B4%EC%A0%91%EA%B4%80%EC%9D%B4-%EB%86%93%EC%B9%98%EB%8A%94-%EC%B5%9C%EA%B3%A0%EC%9D%98-%ED%9B%84%EB%B3%B4%EC%9E%90-%EC%B0%BE%EA%B8%B0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>주식 시장의 상승세, 이제는 힘든 싸움 · 경제 뉴스 요약</summary>
+  <summary>면접관이 놓치는 최고의 후보자 찾기 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>CoreWeave 실적: 주목해야 할 5가지 핵심 사항</title>
-    <link href="/posts/coreweave-%EC%8B%A4%EC%A0%81-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-5%EA%B0%80%EC%A7%80-%ED%95%B5%EC%8B%AC-%EC%82%AC%ED%95%AD/" rel="alternate" type="text/html" title="CoreWeave 실적: 주목해야 할 5가지 핵심 사항" />
-    <published>2025-11-10T02:12:41+09:00</published>
+    <title>주식 시장에서 주목해야 할 3가지 이슈</title>
+    <link href="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-3%EA%B0%80%EC%A7%80-%EC%9D%B4%EC%8A%88/" rel="alternate" type="text/html" title="주식 시장에서 주목해야 할 3가지 이슈" />
+    <published>2025-11-10T03:20:16+09:00</published>
   
-    <updated>2025-11-10T02:12:41+09:00</updated>
+    <updated>2025-11-10T03:20:16+09:00</updated>
   
-    <id>/posts/coreweave-%EC%8B%A4%EC%A0%81-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-5%EA%B0%80%EC%A7%80-%ED%95%B5%EC%8B%AC-%EC%82%AC%ED%95%AD/</id>
-    <content type="text/html" src="/posts/coreweave-%EC%8B%A4%EC%A0%81-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-5%EA%B0%80%EC%A7%80-%ED%95%B5%EC%8B%AC-%EC%82%AC%ED%95%AD/" />
+    <id>/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-3%EA%B0%80%EC%A7%80-%EC%9D%B4%EC%8A%88/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-3%EA%B0%80%EC%A7%80-%EC%9D%B4%EC%8A%88/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>CoreWeave 실적: 주목해야 할 5가지 핵심 사항 · 경제 뉴스 요약</summary>
+  <summary>주식 시장에서 주목해야 할 3가지 이슈 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>Auli'i Cravalho, 경력 전환의 중요성 강조</title>
-    <link href="/posts/aulii-cravalho-%EA%B2%BD%EB%A0%A5-%EC%A0%84%ED%99%98%EC%9D%98-%EC%A4%91%EC%9A%94%EC%84%B1-%EA%B0%95%EC%A1%B0/" rel="alternate" type="text/html" title="Auli&amp;apos;i Cravalho, 경력 전환의 중요성 강조" />
-    <published>2025-11-10T00:14:09+09:00</published>
+    <title>비즈니스 여행자, 항공편 축소에 대처하는 방법</title>
+    <link href="/posts/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%97%AC%ED%96%89%EC%9E%90-%ED%95%AD%EA%B3%B5%ED%8E%B8-%EC%B6%95%EC%86%8C%EC%97%90-%EB%8C%80%EC%B2%98%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/" rel="alternate" type="text/html" title="비즈니스 여행자, 항공편 축소에 대처하는 방법" />
+    <published>2025-11-10T03:20:02+09:00</published>
   
-    <updated>2025-11-10T00:14:09+09:00</updated>
+    <updated>2025-11-10T03:20:02+09:00</updated>
   
-    <id>/posts/aulii-cravalho-%EA%B2%BD%EB%A0%A5-%EC%A0%84%ED%99%98%EC%9D%98-%EC%A4%91%EC%9A%94%EC%84%B1-%EA%B0%95%EC%A1%B0/</id>
-    <content type="text/html" src="/posts/aulii-cravalho-%EA%B2%BD%EB%A0%A5-%EC%A0%84%ED%99%98%EC%9D%98-%EC%A4%91%EC%9A%94%EC%84%B1-%EA%B0%95%EC%A1%B0/" />
+    <id>/posts/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%97%AC%ED%96%89%EC%9E%90-%ED%95%AD%EA%B3%B5%ED%8E%B8-%EC%B6%95%EC%86%8C%EC%97%90-%EB%8C%80%EC%B2%98%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/</id>
+    <content type="text/html" src="/posts/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%97%AC%ED%96%89%EC%9E%90-%ED%95%AD%EA%B3%B5%ED%8E%B8-%EC%B6%95%EC%86%8C%EC%97%90-%EB%8C%80%EC%B2%98%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>Auli&amp;#39;i Cravalho, 경력 전환의 중요성 강조 · 경제 뉴스 요약</summary>
+  <summary>비즈니스 여행자, 항공편 축소에 대처하는 방법 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>성공적인 아이로 키우기 위한 질문 7가지</title>
-    <link href="/posts/%EC%84%B1%EA%B3%B5%EC%A0%81%EC%9D%B8-%EC%95%84%EC%9D%B4%EB%A1%9C-%ED%82%A4%EC%9A%B0%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%A7%88%EB%AC%B8-7%EA%B0%80%EC%A7%80/" rel="alternate" type="text/html" title="성공적인 아이로 키우기 위한 질문 7가지" />
-    <published>2025-11-10T00:13:57+09:00</published>
+    <title>트럼프 행정부, SNAP 혜택 지급 중단 요구</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%96%89%EC%A0%95%EB%B6%80-snap-%ED%98%9C%ED%83%9D-%EC%A7%80%EA%B8%89-%EC%A4%91%EB%8B%A8-%EC%9A%94%EA%B5%AC/" rel="alternate" type="text/html" title="트럼프 행정부, SNAP 혜택 지급 중단 요구" />
+    <published>2025-11-10T03:19:42+09:00</published>
   
-    <updated>2025-11-10T00:13:57+09:00</updated>
+    <updated>2025-11-10T03:19:42+09:00</updated>
   
-    <id>/posts/%EC%84%B1%EA%B3%B5%EC%A0%81%EC%9D%B8-%EC%95%84%EC%9D%B4%EB%A1%9C-%ED%82%A4%EC%9A%B0%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%A7%88%EB%AC%B8-7%EA%B0%80%EC%A7%80/</id>
-    <content type="text/html" src="/posts/%EC%84%B1%EA%B3%B5%EC%A0%81%EC%9D%B8-%EC%95%84%EC%9D%B4%EB%A1%9C-%ED%82%A4%EC%9A%B0%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%A7%88%EB%AC%B8-7%EA%B0%80%EC%A7%80/" />
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%96%89%EC%A0%95%EB%B6%80-snap-%ED%98%9C%ED%83%9D-%EC%A7%80%EA%B8%89-%EC%A4%91%EB%8B%A8-%EC%9A%94%EA%B5%AC/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%96%89%EC%A0%95%EB%B6%80-snap-%ED%98%9C%ED%83%9D-%EC%A7%80%EA%B8%89-%EC%A4%91%EB%8B%A8-%EC%9A%94%EA%B5%AC/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>성공적인 아이로 키우기 위한 질문 7가지 · 경제 뉴스 요약</summary>
+  <summary>트럼프 행정부, SNAP 혜택 지급 중단 요구 · 경제 뉴스 요약</summary>
 
   </entry>
 
