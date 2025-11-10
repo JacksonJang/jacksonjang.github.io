@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-10T17:23:21+09:00</updated>
+  <updated>2025-11-10T18:20:25+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Lenskart, 변동성 큰 데뷔 후 주가 하락</title>
+    <link href="/posts/lenskart-%EB%B3%80%EB%8F%99%EC%84%B1-%ED%81%B0-%EB%8D%B0%EB%B7%94-%ED%9B%84-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="Lenskart, 변동성 큰 데뷔 후 주가 하락" />
+    <published>2025-11-10T18:19:43+09:00</published>
+  
+    <updated>2025-11-10T18:19:43+09:00</updated>
+  
+    <id>/posts/lenskart-%EB%B3%80%EB%8F%99%EC%84%B1-%ED%81%B0-%EB%8D%B0%EB%B7%94-%ED%9B%84-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/lenskart-%EB%B3%80%EB%8F%99%EC%84%B1-%ED%81%B0-%EB%8D%B0%EB%B7%94-%ED%9B%84-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Lenskart, 변동성 큰 데뷔 후 주가 하락 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>중국, 미국에 대한 광물 수출 제한 완화 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Nexperia 모회사 주가 6% 상승, 중국과 네덜란드 관계 개선</title>
-    <link href="/posts/nexperia-%EB%AA%A8%ED%9A%8C%EC%82%AC-%EC%A3%BC%EA%B0%80-6-%EC%83%81%EC%8A%B9-%EC%A4%91%EA%B5%AD%EA%B3%BC-%EB%84%A4%EB%8D%9C%EB%9E%80%EB%93%9C-%EA%B4%80%EA%B3%84-%EA%B0%9C%EC%84%A0/" rel="alternate" type="text/html" title="Nexperia 모회사 주가 6% 상승, 중국과 네덜란드 관계 개선" />
-    <published>2025-11-10T12:16:24+09:00</published>
-  
-    <updated>2025-11-10T12:16:24+09:00</updated>
-  
-    <id>/posts/nexperia-%EB%AA%A8%ED%9A%8C%EC%82%AC-%EC%A3%BC%EA%B0%80-6-%EC%83%81%EC%8A%B9-%EC%A4%91%EA%B5%AD%EA%B3%BC-%EB%84%A4%EB%8D%9C%EB%9E%80%EB%93%9C-%EA%B4%80%EA%B3%84-%EA%B0%9C%EC%84%A0/</id>
-    <content type="text/html" src="/posts/nexperia-%EB%AA%A8%ED%9A%8C%EC%82%AC-%EC%A3%BC%EA%B0%80-6-%EC%83%81%EC%8A%B9-%EC%A4%91%EA%B5%AD%EA%B3%BC-%EB%84%A4%EB%8D%9C%EB%9E%80%EB%93%9C-%EA%B4%80%EA%B3%84-%EA%B0%9C%EC%84%A0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Nexperia 모회사 주가 6% 상승, 중국과 네덜란드 관계 개선 · 경제 뉴스 요약</summary>
 
   </entry>
 
