@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-11T01:22:55+09:00</updated>
+  <updated>2025-11-11T02:16:24+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>Nvidia 주가 하락, AI 버블 우려와 분석</title>
-    <link href="/posts/nvidia-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-ai-%EB%B2%84%EB%B8%94-%EC%9A%B0%EB%A0%A4%EC%99%80-%EB%B6%84%EC%84%9D/" rel="alternate" type="text/html" title="Nvidia 주가 하락, AI 버블 우려와 분석" />
-    <published>2025-11-11T01:22:00+09:00</published>
+    <title>정부 셧다운: 하원, 상원 합의안 투표 예정</title>
+    <link href="/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%ED%95%98%EC%9B%90-%EC%83%81%EC%9B%90-%ED%95%A9%EC%9D%98%EC%95%88-%ED%88%AC%ED%91%9C-%EC%98%88%EC%A0%95/" rel="alternate" type="text/html" title="정부 셧다운: 하원, 상원 합의안 투표 예정" />
+    <published>2025-11-11T02:15:41+09:00</published>
   
-    <updated>2025-11-11T01:22:00+09:00</updated>
+    <updated>2025-11-11T02:15:41+09:00</updated>
   
-    <id>/posts/nvidia-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-ai-%EB%B2%84%EB%B8%94-%EC%9A%B0%EB%A0%A4%EC%99%80-%EB%B6%84%EC%84%9D/</id>
-    <content type="text/html" src="/posts/nvidia-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-ai-%EB%B2%84%EB%B8%94-%EC%9A%B0%EB%A0%A4%EC%99%80-%EB%B6%84%EC%84%9D/" />
+    <id>/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%ED%95%98%EC%9B%90-%EC%83%81%EC%9B%90-%ED%95%A9%EC%9D%98%EC%95%88-%ED%88%AC%ED%91%9C-%EC%98%88%EC%A0%95/</id>
+    <content type="text/html" src="/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%ED%95%98%EC%9B%90-%EC%83%81%EC%9B%90-%ED%95%A9%EC%9D%98%EC%95%88-%ED%88%AC%ED%91%9C-%EC%98%88%EC%A0%95/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>Nvidia 주가 하락, AI 버블 우려와 분석 · 경제 뉴스 요약</summary>
+  <summary>정부 셧다운: 하원, 상원 합의안 투표 예정 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>고전차 판매, 사기 가능성 주의 필요</title>
-    <link href="/posts/%EA%B3%A0%EC%A0%84%EC%B0%A8-%ED%8C%90%EB%A7%A4-%EC%82%AC%EA%B8%B0-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A3%BC%EC%9D%98-%ED%95%84%EC%9A%94/" rel="alternate" type="text/html" title="고전차 판매, 사기 가능성 주의 필요" />
-    <published>2025-11-11T01:21:44+09:00</published>
+    <title>3년 만에 대형 기술주 매수 결정</title>
+    <link href="/posts/3%EB%85%84-%EB%A7%8C%EC%97%90-%EB%8C%80%ED%98%95-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EB%A7%A4%EC%88%98-%EA%B2%B0%EC%A0%95/" rel="alternate" type="text/html" title="3년 만에 대형 기술주 매수 결정" />
+    <published>2025-11-11T02:15:28+09:00</published>
   
-    <updated>2025-11-11T01:21:44+09:00</updated>
+    <updated>2025-11-11T02:15:28+09:00</updated>
   
-    <id>/posts/%EA%B3%A0%EC%A0%84%EC%B0%A8-%ED%8C%90%EB%A7%A4-%EC%82%AC%EA%B8%B0-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A3%BC%EC%9D%98-%ED%95%84%EC%9A%94/</id>
-    <content type="text/html" src="/posts/%EA%B3%A0%EC%A0%84%EC%B0%A8-%ED%8C%90%EB%A7%A4-%EC%82%AC%EA%B8%B0-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A3%BC%EC%9D%98-%ED%95%84%EC%9A%94/" />
+    <id>/posts/3%EB%85%84-%EB%A7%8C%EC%97%90-%EB%8C%80%ED%98%95-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EB%A7%A4%EC%88%98-%EA%B2%B0%EC%A0%95/</id>
+    <content type="text/html" src="/posts/3%EB%85%84-%EB%A7%8C%EC%97%90-%EB%8C%80%ED%98%95-%EA%B8%B0%EC%88%A0%EC%A3%BC-%EB%A7%A4%EC%88%98-%EA%B2%B0%EC%A0%95/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>고전차 판매, 사기 가능성 주의 필요 · 경제 뉴스 요약</summary>
+  <summary>3년 만에 대형 기술주 매수 결정 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>연준의 무살렘, 노동시장 냉각 경고 및 금리 신중 촉구</title>
-    <link href="/posts/%EC%97%B0%EC%A4%80%EC%9D%98-%EB%AC%B4%EC%82%B4%EB%A0%98-%EB%85%B8%EB%8F%99%EC%8B%9C%EC%9E%A5-%EB%83%89%EA%B0%81-%EA%B2%BD%EA%B3%A0-%EB%B0%8F-%EA%B8%88%EB%A6%AC-%EC%8B%A0%EC%A4%91-%EC%B4%89%EA%B5%AC/" rel="alternate" type="text/html" title="연준의 무살렘, 노동시장 냉각 경고 및 금리 신중 촉구" />
-    <published>2025-11-11T01:21:24+09:00</published>
+    <title>재향군인절에 주식시장과 은행 운영 현황</title>
+    <link href="/posts/%EC%9E%AC%ED%96%A5%EA%B5%B0%EC%9D%B8%EC%A0%88%EC%97%90-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5%EA%B3%BC-%EC%9D%80%ED%96%89-%EC%9A%B4%EC%98%81-%ED%98%84%ED%99%A9/" rel="alternate" type="text/html" title="재향군인절에 주식시장과 은행 운영 현황" />
+    <published>2025-11-11T02:15:12+09:00</published>
   
-    <updated>2025-11-11T01:21:24+09:00</updated>
+    <updated>2025-11-11T02:15:12+09:00</updated>
   
-    <id>/posts/%EC%97%B0%EC%A4%80%EC%9D%98-%EB%AC%B4%EC%82%B4%EB%A0%98-%EB%85%B8%EB%8F%99%EC%8B%9C%EC%9E%A5-%EB%83%89%EA%B0%81-%EA%B2%BD%EA%B3%A0-%EB%B0%8F-%EA%B8%88%EB%A6%AC-%EC%8B%A0%EC%A4%91-%EC%B4%89%EA%B5%AC/</id>
-    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80%EC%9D%98-%EB%AC%B4%EC%82%B4%EB%A0%98-%EB%85%B8%EB%8F%99%EC%8B%9C%EC%9E%A5-%EB%83%89%EA%B0%81-%EA%B2%BD%EA%B3%A0-%EB%B0%8F-%EA%B8%88%EB%A6%AC-%EC%8B%A0%EC%A4%91-%EC%B4%89%EA%B5%AC/" />
+    <id>/posts/%EC%9E%AC%ED%96%A5%EA%B5%B0%EC%9D%B8%EC%A0%88%EC%97%90-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5%EA%B3%BC-%EC%9D%80%ED%96%89-%EC%9A%B4%EC%98%81-%ED%98%84%ED%99%A9/</id>
+    <content type="text/html" src="/posts/%EC%9E%AC%ED%96%A5%EA%B5%B0%EC%9D%B8%EC%A0%88%EC%97%90-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5%EA%B3%BC-%EC%9D%80%ED%96%89-%EC%9A%B4%EC%98%81-%ED%98%84%ED%99%A9/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>연준의 무살렘, 노동시장 냉각 경고 및 금리 신중 촉구 · 경제 뉴스 요약</summary>
+  <summary>재향군인절에 주식시장과 은행 운영 현황 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>트럼프 행정부, 암호화폐 담보 대출 허용 추진</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%96%89%EC%A0%95%EB%B6%80-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EB%8B%B4%EB%B3%B4-%EB%8C%80%EC%B6%9C-%ED%97%88%EC%9A%A9-%EC%B6%94%EC%A7%84/" rel="alternate" type="text/html" title="트럼프 행정부, 암호화폐 담보 대출 허용 추진" />
-    <published>2025-11-11T01:21:01+09:00</published>
+    <title>기아, 차세대 텔루라이드 SUV 공개</title>
+    <link href="/posts/%EA%B8%B0%EC%95%84-%EC%B0%A8%EC%84%B8%EB%8C%80-%ED%85%94%EB%A3%A8%EB%9D%BC%EC%9D%B4%EB%93%9C-suv-%EA%B3%B5%EA%B0%9C/" rel="alternate" type="text/html" title="기아, 차세대 텔루라이드 SUV 공개" />
+    <published>2025-11-11T02:14:59+09:00</published>
   
-    <updated>2025-11-11T01:21:01+09:00</updated>
+    <updated>2025-11-11T02:14:59+09:00</updated>
   
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%96%89%EC%A0%95%EB%B6%80-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EB%8B%B4%EB%B3%B4-%EB%8C%80%EC%B6%9C-%ED%97%88%EC%9A%A9-%EC%B6%94%EC%A7%84/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%96%89%EC%A0%95%EB%B6%80-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EB%8B%B4%EB%B3%B4-%EB%8C%80%EC%B6%9C-%ED%97%88%EC%9A%A9-%EC%B6%94%EC%A7%84/" />
+    <id>/posts/%EA%B8%B0%EC%95%84-%EC%B0%A8%EC%84%B8%EB%8C%80-%ED%85%94%EB%A3%A8%EB%9D%BC%EC%9D%B4%EB%93%9C-suv-%EA%B3%B5%EA%B0%9C/</id>
+    <content type="text/html" src="/posts/%EA%B8%B0%EC%95%84-%EC%B0%A8%EC%84%B8%EB%8C%80-%ED%85%94%EB%A3%A8%EB%9D%BC%EC%9D%B4%EB%93%9C-suv-%EA%B3%B5%EA%B0%9C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>트럼프 행정부, 암호화폐 담보 대출 허용 추진 · 경제 뉴스 요약</summary>
+  <summary>기아, 차세대 텔루라이드 SUV 공개 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>UBS, S&amp;P 500 2026년 7,500 도달 전망</title>
-    <link href="/posts/ubs-sp-500-2026%EB%85%84-7500-%EB%8F%84%EB%8B%AC-%EC%A0%84%EB%A7%9D/" rel="alternate" type="text/html" title="UBS, S&amp;amp;P 500 2026년 7,500 도달 전망" />
-    <published>2025-11-11T01:20:44+09:00</published>
+    <title>월스트리트 최대 낙관론자가 전하는 투자 통찰</title>
+    <link href="/posts/%EC%9B%94%EC%8A%A4%ED%8A%B8%EB%A6%AC%ED%8A%B8-%EC%B5%9C%EB%8C%80-%EB%82%99%EA%B4%80%EB%A1%A0%EC%9E%90%EA%B0%80-%EC%A0%84%ED%95%98%EB%8A%94-%ED%88%AC%EC%9E%90-%ED%86%B5%EC%B0%B0/" rel="alternate" type="text/html" title="월스트리트 최대 낙관론자가 전하는 투자 통찰" />
+    <published>2025-11-11T02:14:46+09:00</published>
   
-    <updated>2025-11-11T01:20:44+09:00</updated>
+    <updated>2025-11-11T02:14:46+09:00</updated>
   
-    <id>/posts/ubs-sp-500-2026%EB%85%84-7500-%EB%8F%84%EB%8B%AC-%EC%A0%84%EB%A7%9D/</id>
-    <content type="text/html" src="/posts/ubs-sp-500-2026%EB%85%84-7500-%EB%8F%84%EB%8B%AC-%EC%A0%84%EB%A7%9D/" />
+    <id>/posts/%EC%9B%94%EC%8A%A4%ED%8A%B8%EB%A6%AC%ED%8A%B8-%EC%B5%9C%EB%8C%80-%EB%82%99%EA%B4%80%EB%A1%A0%EC%9E%90%EA%B0%80-%EC%A0%84%ED%95%98%EB%8A%94-%ED%88%AC%EC%9E%90-%ED%86%B5%EC%B0%B0/</id>
+    <content type="text/html" src="/posts/%EC%9B%94%EC%8A%A4%ED%8A%B8%EB%A6%AC%ED%8A%B8-%EC%B5%9C%EB%8C%80-%EB%82%99%EA%B4%80%EB%A1%A0%EC%9E%90%EA%B0%80-%EC%A0%84%ED%95%98%EB%8A%94-%ED%88%AC%EC%9E%90-%ED%86%B5%EC%B0%B0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>UBS, S&amp;amp;P 500 2026년 7,500 도달 전망 · 경제 뉴스 요약</summary>
+  <summary>월스트리트 최대 낙관론자가 전하는 투자 통찰 · 경제 뉴스 요약</summary>
 
   </entry>
 
