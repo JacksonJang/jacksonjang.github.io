@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-10T14:17:43+09:00</updated>
+  <updated>2025-11-10T15:26:59+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>COP30 브라질에서 시작, 트럼프의 그림자</title>
+    <link href="/posts/cop30-%EB%B8%8C%EB%9D%BC%EC%A7%88%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EA%B7%B8%EB%A6%BC%EC%9E%90/" rel="alternate" type="text/html" title="COP30 브라질에서 시작, 트럼프의 그림자" />
+    <published>2025-11-10T15:26:16+09:00</published>
+  
+    <updated>2025-11-10T15:26:16+09:00</updated>
+  
+    <id>/posts/cop30-%EB%B8%8C%EB%9D%BC%EC%A7%88%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EA%B7%B8%EB%A6%BC%EC%9E%90/</id>
+    <content type="text/html" src="/posts/cop30-%EB%B8%8C%EB%9D%BC%EC%A7%88%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EA%B7%B8%EB%A6%BC%EC%9E%90/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>COP30 브라질에서 시작, 트럼프의 그림자 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>미국 정부 셧다운 종료를 위한 예산안 통과 예상 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 주식 선물, 정부 셧다운 종료 기대감에 상승</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%8B%9D-%EC%84%A0%EB%AC%BC-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="미국 주식 선물, 정부 셧다운 종료 기대감에 상승" />
-    <published>2025-11-10T10:14:43+09:00</published>
-  
-    <updated>2025-11-10T10:14:43+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%8B%9D-%EC%84%A0%EB%AC%BC-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%8B%9D-%EC%84%A0%EB%AC%BC-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 주식 선물, 정부 셧다운 종료 기대감에 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
