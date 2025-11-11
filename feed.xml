@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-12T07:16:53+09:00</updated>
+  <updated>2025-11-12T08:15:27+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,78 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>TSMC 주가 상승, AI 거래 여전히 활발</title>
+    <link href="/posts/tsmc-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9-ai-%EA%B1%B0%EB%9E%98-%EC%97%AC%EC%A0%84%ED%9E%88-%ED%99%9C%EB%B0%9C/" rel="alternate" type="text/html" title="TSMC 주가 상승, AI 거래 여전히 활발" />
+    <published>2025-11-12T08:14:55+09:00</published>
+  
+    <updated>2025-11-12T08:14:55+09:00</updated>
+  
+    <id>/posts/tsmc-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9-ai-%EA%B1%B0%EB%9E%98-%EC%97%AC%EC%A0%84%ED%9E%88-%ED%99%9C%EB%B0%9C/</id>
+    <content type="text/html" src="/posts/tsmc-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9-ai-%EA%B1%B0%EB%9E%98-%EC%97%AC%EC%A0%84%ED%9E%88-%ED%99%9C%EB%B0%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>TSMC 주가 상승, AI 거래 여전히 활발 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>정부 셧다운, 고용 및 인플레이션 데이터 지연</title>
+    <link href="/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EA%B3%A0%EC%9A%A9-%EB%B0%8F-%EC%9D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A7%80%EC%97%B0/" rel="alternate" type="text/html" title="정부 셧다운, 고용 및 인플레이션 데이터 지연" />
+    <published>2025-11-12T08:14:45+09:00</published>
+  
+    <updated>2025-11-12T08:14:45+09:00</updated>
+  
+    <id>/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EA%B3%A0%EC%9A%A9-%EB%B0%8F-%EC%9D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A7%80%EC%97%B0/</id>
+    <content type="text/html" src="/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EA%B3%A0%EC%9A%A9-%EB%B0%8F-%EC%9D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A7%80%EC%97%B0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>정부 셧다운, 고용 및 인플레이션 데이터 지연 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>타겟의 가격 인하, 단순한 세일이 아니다</title>
+    <link href="/posts/%ED%83%80%EA%B2%9F%EC%9D%98-%EA%B0%80%EA%B2%A9-%EC%9D%B8%ED%95%98-%EB%8B%A8%EC%88%9C%ED%95%9C-%EC%84%B8%EC%9D%BC%EC%9D%B4-%EC%95%84%EB%8B%88%EB%8B%A4/" rel="alternate" type="text/html" title="타겟의 가격 인하, 단순한 세일이 아니다" />
+    <published>2025-11-12T08:14:29+09:00</published>
+  
+    <updated>2025-11-12T08:14:29+09:00</updated>
+  
+    <id>/posts/%ED%83%80%EA%B2%9F%EC%9D%98-%EA%B0%80%EA%B2%A9-%EC%9D%B8%ED%95%98-%EB%8B%A8%EC%88%9C%ED%95%9C-%EC%84%B8%EC%9D%BC%EC%9D%B4-%EC%95%84%EB%8B%88%EB%8B%A4/</id>
+    <content type="text/html" src="/posts/%ED%83%80%EA%B2%9F%EC%9D%98-%EA%B0%80%EA%B2%A9-%EC%9D%B8%ED%95%98-%EB%8B%A8%EC%88%9C%ED%95%9C-%EC%84%B8%EC%9D%BC%EC%9D%B4-%EC%95%84%EB%8B%88%EB%8B%A4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>타겟의 가격 인하, 단순한 세일이 아니다 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,78 +135,6 @@
   
 
   <summary>다우지수, 새로운 기록 경신과 투자자 변화 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>멕시코 주식, S&amp;P/BMV IPC 1.99% 상승 마감</title>
-    <link href="/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-spbmv-ipc-199-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="멕시코 주식, S&amp;amp;P/BMV IPC 1.99% 상승 마감" />
-    <published>2025-11-12T07:15:45+09:00</published>
-  
-    <updated>2025-11-12T07:15:45+09:00</updated>
-  
-    <id>/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-spbmv-ipc-199-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/</id>
-    <content type="text/html" src="/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-spbmv-ipc-199-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>멕시코 주식, S&amp;amp;P/BMV IPC 1.99% 상승 마감 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>트럼프, 동맹과 지지자들 사면 추진</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EB%8F%99%EB%A7%B9%EA%B3%BC-%EC%A7%80%EC%A7%80%EC%9E%90%EB%93%A4-%EC%82%AC%EB%A9%B4-%EC%B6%94%EC%A7%84/" rel="alternate" type="text/html" title="트럼프, 동맹과 지지자들 사면 추진" />
-    <published>2025-11-12T07:15:29+09:00</published>
-  
-    <updated>2025-11-12T07:15:29+09:00</updated>
-  
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EB%8F%99%EB%A7%B9%EA%B3%BC-%EC%A7%80%EC%A7%80%EC%9E%90%EB%93%A4-%EC%82%AC%EB%A9%B4-%EC%B6%94%EC%A7%84/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EB%8F%99%EB%A7%B9%EA%B3%BC-%EC%A7%80%EC%A7%80%EC%9E%90%EB%93%A4-%EC%82%AC%EB%A9%B4-%EC%B6%94%EC%A7%84/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>트럼프, 동맹과 지지자들 사면 추진 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>트럼프, 2000달러 관세 환급 체크 제안</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-2000%EB%8B%AC%EB%9F%AC-%EA%B4%80%EC%84%B8-%ED%99%98%EA%B8%89-%EC%B2%B4%ED%81%AC-%EC%A0%9C%EC%95%88/" rel="alternate" type="text/html" title="트럼프, 2000달러 관세 환급 체크 제안" />
-    <published>2025-11-12T06:15:41+09:00</published>
-  
-    <updated>2025-11-12T06:15:41+09:00</updated>
-  
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-2000%EB%8B%AC%EB%9F%AC-%EA%B4%80%EC%84%B8-%ED%99%98%EA%B8%89-%EC%B2%B4%ED%81%AC-%EC%A0%9C%EC%95%88/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-2000%EB%8B%AC%EB%9F%AC-%EA%B4%80%EC%84%B8-%ED%99%98%EA%B8%89-%EC%B2%B4%ED%81%AC-%EC%A0%9C%EC%95%88/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>트럼프, 2000달러 관세 환급 체크 제안 · 경제 뉴스 요약</summary>
 
   </entry>
 
