@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-11T14:16:58+09:00</updated>
+  <updated>2025-11-11T15:25:27+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>호주 주식, S&amp;P/ASX 200 0.19% 하락 마감</title>
+    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-019-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="호주 주식, S&amp;amp;P/ASX 200 0.19% 하락 마감" />
+    <published>2025-11-11T15:24:55+09:00</published>
+  
+    <updated>2025-11-11T15:24:55+09:00</updated>
+  
+    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-019-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/</id>
+    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-019-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>호주 주식, S&amp;amp;P/ASX 200 0.19% 하락 마감 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>유럽 주식, 미국 정부 셧다운 종료 기대 상승</title>
+    <link href="/posts/%EC%9C%A0%EB%9F%BD-%EC%A3%BC%EC%8B%9D-%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EA%B8%B0%EB%8C%80-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="유럽 주식, 미국 정부 셧다운 종료 기대 상승" />
+    <published>2025-11-11T15:24:49+09:00</published>
+  
+    <updated>2025-11-11T15:24:49+09:00</updated>
+  
+    <id>/posts/%EC%9C%A0%EB%9F%BD-%EC%A3%BC%EC%8B%9D-%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EA%B8%B0%EB%8C%80-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%EC%9C%A0%EB%9F%BD-%EC%A3%BC%EC%8B%9D-%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EA%B8%B0%EB%8C%80-%EC%83%81%EC%8A%B9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>유럽 주식, 미국 정부 셧다운 종료 기대 상승 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>버거킹 중국 진출 가속화 위한 합작 투자 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>디즈니의 새로운 크루즈선, Destiny 출항 준비</title>
-    <link href="/posts/%EB%94%94%EC%A6%88%EB%8B%88%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%ED%81%AC%EB%A3%A8%EC%A6%88%EC%84%A0-destiny-%EC%B6%9C%ED%95%AD-%EC%A4%80%EB%B9%84/" rel="alternate" type="text/html" title="디즈니의 새로운 크루즈선, Destiny 출항 준비" />
-    <published>2025-11-11T12:11:24+09:00</published>
-  
-    <updated>2025-11-11T12:11:24+09:00</updated>
-  
-    <id>/posts/%EB%94%94%EC%A6%88%EB%8B%88%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%ED%81%AC%EB%A3%A8%EC%A6%88%EC%84%A0-destiny-%EC%B6%9C%ED%95%AD-%EC%A4%80%EB%B9%84/</id>
-    <content type="text/html" src="/posts/%EB%94%94%EC%A6%88%EB%8B%88%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%ED%81%AC%EB%A3%A8%EC%A6%88%EC%84%A0-destiny-%EC%B6%9C%ED%95%AD-%EC%A4%80%EB%B9%84/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>디즈니의 새로운 크루즈선, Destiny 출항 준비 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>정부 셧다운 종료 임박, 하원 투표가 남아있다</title>
-    <link href="/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EC%9E%84%EB%B0%95-%ED%95%98%EC%9B%90-%ED%88%AC%ED%91%9C%EA%B0%80-%EB%82%A8%EC%95%84%EC%9E%88%EB%8B%A4/" rel="alternate" type="text/html" title="정부 셧다운 종료 임박, 하원 투표가 남아있다" />
-    <published>2025-11-11T12:11:10+09:00</published>
-  
-    <updated>2025-11-11T12:11:10+09:00</updated>
-  
-    <id>/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EC%9E%84%EB%B0%95-%ED%95%98%EC%9B%90-%ED%88%AC%ED%91%9C%EA%B0%80-%EB%82%A8%EC%95%84%EC%9E%88%EB%8B%A4/</id>
-    <content type="text/html" src="/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EC%9E%84%EB%B0%95-%ED%95%98%EC%9B%90-%ED%88%AC%ED%91%9C%EA%B0%80-%EB%82%A8%EC%95%84%EC%9E%88%EB%8B%A4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>정부 셧다운 종료 임박, 하원 투표가 남아있다 · 경제 뉴스 요약</summary>
 
   </entry>
 
