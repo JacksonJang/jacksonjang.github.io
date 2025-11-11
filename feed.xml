@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-12T05:18:47+09:00</updated>
+  <updated>2025-11-12T06:16:21+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>AMD, AI 수요로 연간 35% 매출 성장 전망</title>
-    <link href="/posts/amd-ai-%EC%88%98%EC%9A%94%EB%A1%9C-%EC%97%B0%EA%B0%84-35-%EB%A7%A4%EC%B6%9C-%EC%84%B1%EC%9E%A5-%EC%A0%84%EB%A7%9D/" rel="alternate" type="text/html" title="AMD, AI 수요로 연간 35% 매출 성장 전망" />
-    <published>2025-11-12T05:18:12+09:00</published>
+    <title>트럼프, 2000달러 관세 환급 체크 제안</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-2000%EB%8B%AC%EB%9F%AC-%EA%B4%80%EC%84%B8-%ED%99%98%EA%B8%89-%EC%B2%B4%ED%81%AC-%EC%A0%9C%EC%95%88/" rel="alternate" type="text/html" title="트럼프, 2000달러 관세 환급 체크 제안" />
+    <published>2025-11-12T06:15:41+09:00</published>
   
-    <updated>2025-11-12T05:18:12+09:00</updated>
+    <updated>2025-11-12T06:15:41+09:00</updated>
   
-    <id>/posts/amd-ai-%EC%88%98%EC%9A%94%EB%A1%9C-%EC%97%B0%EA%B0%84-35-%EB%A7%A4%EC%B6%9C-%EC%84%B1%EC%9E%A5-%EC%A0%84%EB%A7%9D/</id>
-    <content type="text/html" src="/posts/amd-ai-%EC%88%98%EC%9A%94%EB%A1%9C-%EC%97%B0%EA%B0%84-35-%EB%A7%A4%EC%B6%9C-%EC%84%B1%EC%9E%A5-%EC%A0%84%EB%A7%9D/" />
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-2000%EB%8B%AC%EB%9F%AC-%EA%B4%80%EC%84%B8-%ED%99%98%EA%B8%89-%EC%B2%B4%ED%81%AC-%EC%A0%9C%EC%95%88/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-2000%EB%8B%AC%EB%9F%AC-%EA%B4%80%EC%84%B8-%ED%99%98%EA%B8%89-%EC%B2%B4%ED%81%AC-%EC%A0%9C%EC%95%88/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>AMD, AI 수요로 연간 35% 매출 성장 전망 · 경제 뉴스 요약</summary>
+  <summary>트럼프, 2000달러 관세 환급 체크 제안 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>형이 부모님의 1000만 달러 유산을 관리하고 있습니다</title>
-    <link href="/posts/%ED%98%95%EC%9D%B4-%EB%B6%80%EB%AA%A8%EB%8B%98%EC%9D%98-1000%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EC%9C%A0%EC%82%B0%EC%9D%84-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B3%A0-%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4/" rel="alternate" type="text/html" title="형이 부모님의 1000만 달러 유산을 관리하고 있습니다" />
-    <published>2025-11-12T05:17:59+09:00</published>
+    <title>AI 시대, 마크 큐반의 취업 조언</title>
+    <link href="/posts/ai-%EC%8B%9C%EB%8C%80-%EB%A7%88%ED%81%AC-%ED%81%90%EB%B0%98%EC%9D%98-%EC%B7%A8%EC%97%85-%EC%A1%B0%EC%96%B8/" rel="alternate" type="text/html" title="AI 시대, 마크 큐반의 취업 조언" />
+    <published>2025-11-12T06:15:27+09:00</published>
   
-    <updated>2025-11-12T05:17:59+09:00</updated>
+    <updated>2025-11-12T06:15:27+09:00</updated>
   
-    <id>/posts/%ED%98%95%EC%9D%B4-%EB%B6%80%EB%AA%A8%EB%8B%98%EC%9D%98-1000%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EC%9C%A0%EC%82%B0%EC%9D%84-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B3%A0-%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4/</id>
-    <content type="text/html" src="/posts/%ED%98%95%EC%9D%B4-%EB%B6%80%EB%AA%A8%EB%8B%98%EC%9D%98-1000%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EC%9C%A0%EC%82%B0%EC%9D%84-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B3%A0-%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4/" />
+    <id>/posts/ai-%EC%8B%9C%EB%8C%80-%EB%A7%88%ED%81%AC-%ED%81%90%EB%B0%98%EC%9D%98-%EC%B7%A8%EC%97%85-%EC%A1%B0%EC%96%B8/</id>
+    <content type="text/html" src="/posts/ai-%EC%8B%9C%EB%8C%80-%EB%A7%88%ED%81%AC-%ED%81%90%EB%B0%98%EC%9D%98-%EC%B7%A8%EC%97%85-%EC%A1%B0%EC%96%B8/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>형이 부모님의 1000만 달러 유산을 관리하고 있습니다 · 경제 뉴스 요약</summary>
+  <summary>AI 시대, 마크 큐반의 취업 조언 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>골드만삭스, M&amp;A 거래에서 최대 수수료 확보</title>
-    <link href="/posts/%EA%B3%A8%EB%93%9C%EB%A7%8C%EC%82%AD%EC%8A%A4-ma-%EA%B1%B0%EB%9E%98%EC%97%90%EC%84%9C-%EC%B5%9C%EB%8C%80-%EC%88%98%EC%88%98%EB%A3%8C-%ED%99%95%EB%B3%B4/" rel="alternate" type="text/html" title="골드만삭스, M&amp;amp;A 거래에서 최대 수수료 확보" />
-    <published>2025-11-12T05:17:45+09:00</published>
+    <title>엘리 릴리, 약가 인하로 주가 사상 최고치 근접</title>
+    <link href="/posts/%EC%97%98%EB%A6%AC-%EB%A6%B4%EB%A6%AC-%EC%95%BD%EA%B0%80-%EC%9D%B8%ED%95%98%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EC%82%AC%EC%83%81-%EC%B5%9C%EA%B3%A0%EC%B9%98-%EA%B7%BC%EC%A0%91/" rel="alternate" type="text/html" title="엘리 릴리, 약가 인하로 주가 사상 최고치 근접" />
+    <published>2025-11-12T06:15:12+09:00</published>
   
-    <updated>2025-11-12T05:17:45+09:00</updated>
+    <updated>2025-11-12T06:15:12+09:00</updated>
   
-    <id>/posts/%EA%B3%A8%EB%93%9C%EB%A7%8C%EC%82%AD%EC%8A%A4-ma-%EA%B1%B0%EB%9E%98%EC%97%90%EC%84%9C-%EC%B5%9C%EB%8C%80-%EC%88%98%EC%88%98%EB%A3%8C-%ED%99%95%EB%B3%B4/</id>
-    <content type="text/html" src="/posts/%EA%B3%A8%EB%93%9C%EB%A7%8C%EC%82%AD%EC%8A%A4-ma-%EA%B1%B0%EB%9E%98%EC%97%90%EC%84%9C-%EC%B5%9C%EB%8C%80-%EC%88%98%EC%88%98%EB%A3%8C-%ED%99%95%EB%B3%B4/" />
+    <id>/posts/%EC%97%98%EB%A6%AC-%EB%A6%B4%EB%A6%AC-%EC%95%BD%EA%B0%80-%EC%9D%B8%ED%95%98%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EC%82%AC%EC%83%81-%EC%B5%9C%EA%B3%A0%EC%B9%98-%EA%B7%BC%EC%A0%91/</id>
+    <content type="text/html" src="/posts/%EC%97%98%EB%A6%AC-%EB%A6%B4%EB%A6%AC-%EC%95%BD%EA%B0%80-%EC%9D%B8%ED%95%98%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EC%82%AC%EC%83%81-%EC%B5%9C%EA%B3%A0%EC%B9%98-%EA%B7%BC%EC%A0%91/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>골드만삭스, M&amp;amp;A 거래에서 최대 수수료 확보 · 경제 뉴스 요약</summary>
+  <summary>엘리 릴리, 약가 인하로 주가 사상 최고치 근접 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>미국의 돌봄 비용이 꿈을 앗아간다</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD%EC%9D%98-%EB%8F%8C%EB%B4%84-%EB%B9%84%EC%9A%A9%EC%9D%B4-%EA%BF%88%EC%9D%84-%EC%95%97%EC%95%84%EA%B0%84%EB%8B%A4/" rel="alternate" type="text/html" title="미국의 돌봄 비용이 꿈을 앗아간다" />
-    <published>2025-11-12T05:17:31+09:00</published>
+    <title>부부 공동 계좌, 필요할까?</title>
+    <link href="/posts/%EB%B6%80%EB%B6%80-%EA%B3%B5%EB%8F%99-%EA%B3%84%EC%A2%8C-%ED%95%84%EC%9A%94%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="부부 공동 계좌, 필요할까?" />
+    <published>2025-11-12T06:14:54+09:00</published>
   
-    <updated>2025-11-12T05:17:31+09:00</updated>
+    <updated>2025-11-12T06:14:54+09:00</updated>
   
-    <id>/posts/%EB%AF%B8%EA%B5%AD%EC%9D%98-%EB%8F%8C%EB%B4%84-%EB%B9%84%EC%9A%A9%EC%9D%B4-%EA%BF%88%EC%9D%84-%EC%95%97%EC%95%84%EA%B0%84%EB%8B%A4/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD%EC%9D%98-%EB%8F%8C%EB%B4%84-%EB%B9%84%EC%9A%A9%EC%9D%B4-%EA%BF%88%EC%9D%84-%EC%95%97%EC%95%84%EA%B0%84%EB%8B%A4/" />
+    <id>/posts/%EB%B6%80%EB%B6%80-%EA%B3%B5%EB%8F%99-%EA%B3%84%EC%A2%8C-%ED%95%84%EC%9A%94%ED%95%A0%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/%EB%B6%80%EB%B6%80-%EA%B3%B5%EB%8F%99-%EA%B3%84%EC%A2%8C-%ED%95%84%EC%9A%94%ED%95%A0%EA%B9%8C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>미국의 돌봄 비용이 꿈을 앗아간다 · 경제 뉴스 요약</summary>
+  <summary>부부 공동 계좌, 필요할까? · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>RMD 인출 시점, 언제가 적절할까?</title>
-    <link href="/posts/rmd-%EC%9D%B8%EC%B6%9C-%EC%8B%9C%EC%A0%90-%EC%96%B8%EC%A0%9C%EA%B0%80-%EC%A0%81%EC%A0%88%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="RMD 인출 시점, 언제가 적절할까?" />
-    <published>2025-11-12T05:17:18+09:00</published>
+    <title>맥도날드와 타이슨, SNAP 지연 우려 커져</title>
+    <link href="/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%EC%99%80-%ED%83%80%EC%9D%B4%EC%8A%A8-snap-%EC%A7%80%EC%97%B0-%EC%9A%B0%EB%A0%A4-%EC%BB%A4%EC%A0%B8/" rel="alternate" type="text/html" title="맥도날드와 타이슨, SNAP 지연 우려 커져" />
+    <published>2025-11-12T06:14:40+09:00</published>
   
-    <updated>2025-11-12T05:17:18+09:00</updated>
+    <updated>2025-11-12T06:14:40+09:00</updated>
   
-    <id>/posts/rmd-%EC%9D%B8%EC%B6%9C-%EC%8B%9C%EC%A0%90-%EC%96%B8%EC%A0%9C%EA%B0%80-%EC%A0%81%EC%A0%88%ED%95%A0%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/rmd-%EC%9D%B8%EC%B6%9C-%EC%8B%9C%EC%A0%90-%EC%96%B8%EC%A0%9C%EA%B0%80-%EC%A0%81%EC%A0%88%ED%95%A0%EA%B9%8C/" />
+    <id>/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%EC%99%80-%ED%83%80%EC%9D%B4%EC%8A%A8-snap-%EC%A7%80%EC%97%B0-%EC%9A%B0%EB%A0%A4-%EC%BB%A4%EC%A0%B8/</id>
+    <content type="text/html" src="/posts/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%EC%99%80-%ED%83%80%EC%9D%B4%EC%8A%A8-snap-%EC%A7%80%EC%97%B0-%EC%9A%B0%EB%A0%A4-%EC%BB%A4%EC%A0%B8/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>RMD 인출 시점, 언제가 적절할까? · 경제 뉴스 요약</summary>
+  <summary>맥도날드와 타이슨, SNAP 지연 우려 커져 · 경제 뉴스 요약</summary>
 
   </entry>
 
