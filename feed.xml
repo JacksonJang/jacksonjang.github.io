@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-11T17:22:20+09:00</updated>
+  <updated>2025-11-11T18:18:38+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>주식 시장: 다우, S&amp;P 500, 나스닥 주춤</title>
+    <link href="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%EC%A3%BC%EC%B6%A4/" rel="alternate" type="text/html" title="주식 시장: 다우, S&amp;amp;P 500, 나스닥 주춤" />
+    <published>2025-11-11T18:18:01+09:00</published>
+  
+    <updated>2025-11-11T18:18:01+09:00</updated>
+  
+    <id>/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%EC%A3%BC%EC%B6%A4/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%EC%A3%BC%EC%B6%A4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>주식 시장: 다우, S&amp;amp;P 500, 나스닥 주춤 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Sonder, 파산 계획 발표; 호텔 투숙객 퇴실 지시</title>
+    <link href="/posts/sonder-%ED%8C%8C%EC%82%B0-%EA%B3%84%ED%9A%8D-%EB%B0%9C%ED%91%9C-%ED%98%B8%ED%85%94-%ED%88%AC%EC%88%99%EA%B0%9D-%ED%87%B4%EC%8B%A4-%EC%A7%80%EC%8B%9C/" rel="alternate" type="text/html" title="Sonder, 파산 계획 발표; 호텔 투숙객 퇴실 지시" />
+    <published>2025-11-11T18:17:52+09:00</published>
+  
+    <updated>2025-11-11T18:17:52+09:00</updated>
+  
+    <id>/posts/sonder-%ED%8C%8C%EC%82%B0-%EA%B3%84%ED%9A%8D-%EB%B0%9C%ED%91%9C-%ED%98%B8%ED%85%94-%ED%88%AC%EC%88%99%EA%B0%9D-%ED%87%B4%EC%8B%A4-%EC%A7%80%EC%8B%9C/</id>
+    <content type="text/html" src="/posts/sonder-%ED%8C%8C%EC%82%B0-%EA%B3%84%ED%9A%8D-%EB%B0%9C%ED%91%9C-%ED%98%B8%ED%85%94-%ED%88%AC%EC%88%99%EA%B0%9D-%ED%87%B4%EC%8B%A4-%EC%A7%80%EC%8B%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Sonder, 파산 계획 발표; 호텔 투숙객 퇴실 지시 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>미국과 스위스, 39% 관세 인하 협상 중 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>소프트뱅크, AI 열풍 속 비전펀드 190억 달러 증가</title>
-    <link href="/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC-ai-%EC%97%B4%ED%92%8D-%EC%86%8D-%EB%B9%84%EC%A0%84%ED%8E%80%EB%93%9C-190%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="소프트뱅크, AI 열풍 속 비전펀드 190억 달러 증가" />
-    <published>2025-11-11T16:16:05+09:00</published>
-  
-    <updated>2025-11-11T16:16:05+09:00</updated>
-  
-    <id>/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC-ai-%EC%97%B4%ED%92%8D-%EC%86%8D-%EB%B9%84%EC%A0%84%ED%8E%80%EB%93%9C-190%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%A6%9D%EA%B0%80/</id>
-    <content type="text/html" src="/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC-ai-%EC%97%B4%ED%92%8D-%EC%86%8D-%EB%B9%84%EC%A0%84%ED%8E%80%EB%93%9C-190%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%A6%9D%EA%B0%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>소프트뱅크, AI 열풍 속 비전펀드 190억 달러 증가 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>호주 주식, S&amp;P/ASX 200 0.19% 하락 마감</title>
-    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-019-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="호주 주식, S&amp;amp;P/ASX 200 0.19% 하락 마감" />
-    <published>2025-11-11T15:24:55+09:00</published>
-  
-    <updated>2025-11-11T15:24:55+09:00</updated>
-  
-    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-019-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/</id>
-    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-019-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>호주 주식, S&amp;amp;P/ASX 200 0.19% 하락 마감 · 경제 뉴스 요약</summary>
 
   </entry>
 
