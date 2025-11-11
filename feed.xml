@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-11T15:25:27+09:00</updated>
+  <updated>2025-11-11T16:16:44+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>소프트뱅크, AI 열풍 속 비전펀드 190억 달러 증가</title>
+    <link href="/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC-ai-%EC%97%B4%ED%92%8D-%EC%86%8D-%EB%B9%84%EC%A0%84%ED%8E%80%EB%93%9C-190%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="소프트뱅크, AI 열풍 속 비전펀드 190억 달러 증가" />
+    <published>2025-11-11T16:16:05+09:00</published>
+  
+    <updated>2025-11-11T16:16:05+09:00</updated>
+  
+    <id>/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC-ai-%EC%97%B4%ED%92%8D-%EC%86%8D-%EB%B9%84%EC%A0%84%ED%8E%80%EB%93%9C-190%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%A6%9D%EA%B0%80/</id>
+    <content type="text/html" src="/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC-ai-%EC%97%B4%ED%92%8D-%EC%86%8D-%EB%B9%84%EC%A0%84%ED%8E%80%EB%93%9C-190%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%A6%9D%EA%B0%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>소프트뱅크, AI 열풍 속 비전펀드 190억 달러 증가 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>소니, 음악 및 이미지 부문 호조로 이익 전망 상향 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>버거킹 중국 진출 가속화 위한 합작 투자</title>
-    <link href="/posts/%EB%B2%84%EA%B1%B0%ED%82%B9-%EC%A4%91%EA%B5%AD-%EC%A7%84%EC%B6%9C-%EA%B0%80%EC%86%8D%ED%99%94-%EC%9C%84%ED%95%9C-%ED%95%A9%EC%9E%91-%ED%88%AC%EC%9E%90/" rel="alternate" type="text/html" title="버거킹 중국 진출 가속화 위한 합작 투자" />
-    <published>2025-11-11T12:11:39+09:00</published>
-  
-    <updated>2025-11-11T12:11:39+09:00</updated>
-  
-    <id>/posts/%EB%B2%84%EA%B1%B0%ED%82%B9-%EC%A4%91%EA%B5%AD-%EC%A7%84%EC%B6%9C-%EA%B0%80%EC%86%8D%ED%99%94-%EC%9C%84%ED%95%9C-%ED%95%A9%EC%9E%91-%ED%88%AC%EC%9E%90/</id>
-    <content type="text/html" src="/posts/%EB%B2%84%EA%B1%B0%ED%82%B9-%EC%A4%91%EA%B5%AD-%EC%A7%84%EC%B6%9C-%EA%B0%80%EC%86%8D%ED%99%94-%EC%9C%84%ED%95%9C-%ED%95%A9%EC%9E%91-%ED%88%AC%EC%9E%90/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>버거킹 중국 진출 가속화 위한 합작 투자 · 경제 뉴스 요약</summary>
 
   </entry>
 
