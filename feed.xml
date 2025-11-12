@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-13T06:16:59+09:00</updated>
+  <updated>2025-11-13T07:17:24+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>Howard Marks, 신용 시장의 부주의 경고</title>
-    <link href="/posts/howard-marks-%EC%8B%A0%EC%9A%A9-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EB%B6%80%EC%A3%BC%EC%9D%98-%EA%B2%BD%EA%B3%A0/" rel="alternate" type="text/html" title="Howard Marks, 신용 시장의 부주의 경고" />
-    <published>2025-11-13T06:16:17+09:00</published>
+    <title>캐나다 주식, S&amp;P/TSX 지수 1.38% 상승</title>
+    <link href="/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A7%80%EC%88%98-138-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="캐나다 주식, S&amp;amp;P/TSX 지수 1.38% 상승" />
+    <published>2025-11-13T07:16:39+09:00</published>
   
-    <updated>2025-11-13T06:16:17+09:00</updated>
+    <updated>2025-11-13T07:16:39+09:00</updated>
   
-    <id>/posts/howard-marks-%EC%8B%A0%EC%9A%A9-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EB%B6%80%EC%A3%BC%EC%9D%98-%EA%B2%BD%EA%B3%A0/</id>
-    <content type="text/html" src="/posts/howard-marks-%EC%8B%A0%EC%9A%A9-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EB%B6%80%EC%A3%BC%EC%9D%98-%EA%B2%BD%EA%B3%A0/" />
+    <id>/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A7%80%EC%88%98-138-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A7%80%EC%88%98-138-%EC%83%81%EC%8A%B9/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>Howard Marks, 신용 시장의 부주의 경고 · 경제 뉴스 요약</summary>
+  <summary>캐나다 주식, S&amp;amp;P/TSX 지수 1.38% 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>사망한 남편의 아들이 IRA 수혜자로 지정된 경우</title>
-    <link href="/posts/%EC%82%AC%EB%A7%9D%ED%95%9C-%EB%82%A8%ED%8E%B8%EC%9D%98-%EC%95%84%EB%93%A4%EC%9D%B4-ira-%EC%88%98%ED%98%9C%EC%9E%90%EB%A1%9C-%EC%A7%80%EC%A0%95%EB%90%9C-%EA%B2%BD%EC%9A%B0/" rel="alternate" type="text/html" title="사망한 남편의 아들이 IRA 수혜자로 지정된 경우" />
-    <published>2025-11-13T06:16:02+09:00</published>
+    <title>멕시코 주식, 거래 마감 시 하락; S&amp;P/BMV IPC 1.71% 하락</title>
+    <link href="/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C-%ED%95%98%EB%9D%BD-spbmv-ipc-171-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="멕시코 주식, 거래 마감 시 하락; S&amp;amp;P/BMV IPC 1.71% 하락" />
+    <published>2025-11-13T07:16:24+09:00</published>
   
-    <updated>2025-11-13T06:16:02+09:00</updated>
+    <updated>2025-11-13T07:16:24+09:00</updated>
   
-    <id>/posts/%EC%82%AC%EB%A7%9D%ED%95%9C-%EB%82%A8%ED%8E%B8%EC%9D%98-%EC%95%84%EB%93%A4%EC%9D%B4-ira-%EC%88%98%ED%98%9C%EC%9E%90%EB%A1%9C-%EC%A7%80%EC%A0%95%EB%90%9C-%EA%B2%BD%EC%9A%B0/</id>
-    <content type="text/html" src="/posts/%EC%82%AC%EB%A7%9D%ED%95%9C-%EB%82%A8%ED%8E%B8%EC%9D%98-%EC%95%84%EB%93%A4%EC%9D%B4-ira-%EC%88%98%ED%98%9C%EC%9E%90%EB%A1%9C-%EC%A7%80%EC%A0%95%EB%90%9C-%EA%B2%BD%EC%9A%B0/" />
+    <id>/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C-%ED%95%98%EB%9D%BD-spbmv-ipc-171-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C-%ED%95%98%EB%9D%BD-spbmv-ipc-171-%ED%95%98%EB%9D%BD/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>사망한 남편의 아들이 IRA 수혜자로 지정된 경우 · 경제 뉴스 요약</summary>
+  <summary>멕시코 주식, 거래 마감 시 하락; S&amp;amp;P/BMV IPC 1.71% 하락 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>WNBA, 새로운 리더십 필요성 제기</title>
-    <link href="/posts/wnba-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%A6%AC%EB%8D%94%EC%8B%AD-%ED%95%84%EC%9A%94%EC%84%B1-%EC%A0%9C%EA%B8%B0/" rel="alternate" type="text/html" title="WNBA, 새로운 리더십 필요성 제기" />
-    <published>2025-11-13T06:15:47+09:00</published>
+    <title>메디케어 원격의료 서비스 연장 소식</title>
+    <link href="/posts/%EB%A9%94%EB%94%94%EC%BC%80%EC%96%B4-%EC%9B%90%EA%B2%A9%EC%9D%98%EB%A3%8C-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%97%B0%EC%9E%A5-%EC%86%8C%EC%8B%9D/" rel="alternate" type="text/html" title="메디케어 원격의료 서비스 연장 소식" />
+    <published>2025-11-13T07:16:08+09:00</published>
   
-    <updated>2025-11-13T06:15:47+09:00</updated>
+    <updated>2025-11-13T07:16:08+09:00</updated>
   
-    <id>/posts/wnba-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%A6%AC%EB%8D%94%EC%8B%AD-%ED%95%84%EC%9A%94%EC%84%B1-%EC%A0%9C%EA%B8%B0/</id>
-    <content type="text/html" src="/posts/wnba-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%A6%AC%EB%8D%94%EC%8B%AD-%ED%95%84%EC%9A%94%EC%84%B1-%EC%A0%9C%EA%B8%B0/" />
+    <id>/posts/%EB%A9%94%EB%94%94%EC%BC%80%EC%96%B4-%EC%9B%90%EA%B2%A9%EC%9D%98%EB%A3%8C-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%97%B0%EC%9E%A5-%EC%86%8C%EC%8B%9D/</id>
+    <content type="text/html" src="/posts/%EB%A9%94%EB%94%94%EC%BC%80%EC%96%B4-%EC%9B%90%EA%B2%A9%EC%9D%98%EB%A3%8C-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%97%B0%EC%9E%A5-%EC%86%8C%EC%8B%9D/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>WNBA, 새로운 리더십 필요성 제기 · 경제 뉴스 요약</summary>
+  <summary>메디케어 원격의료 서비스 연장 소식 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>Skims, 50억 달러 가치로 자금 조달 완료</title>
-    <link href="/posts/skims-50%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B0%80%EC%B9%98%EB%A1%9C-%EC%9E%90%EA%B8%88-%EC%A1%B0%EB%8B%AC-%EC%99%84%EB%A3%8C/" rel="alternate" type="text/html" title="Skims, 50억 달러 가치로 자금 조달 완료" />
-    <published>2025-11-13T06:15:31+09:00</published>
+    <title>시스코, AI 네트워킹 수요로 주가 상승</title>
+    <link href="/posts/%EC%8B%9C%EC%8A%A4%EC%BD%94-ai-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9-%EC%88%98%EC%9A%94%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="시스코, AI 네트워킹 수요로 주가 상승" />
+    <published>2025-11-13T07:15:56+09:00</published>
   
-    <updated>2025-11-13T06:15:31+09:00</updated>
+    <updated>2025-11-13T07:15:56+09:00</updated>
   
-    <id>/posts/skims-50%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B0%80%EC%B9%98%EB%A1%9C-%EC%9E%90%EA%B8%88-%EC%A1%B0%EB%8B%AC-%EC%99%84%EB%A3%8C/</id>
-    <content type="text/html" src="/posts/skims-50%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B0%80%EC%B9%98%EB%A1%9C-%EC%9E%90%EA%B8%88-%EC%A1%B0%EB%8B%AC-%EC%99%84%EB%A3%8C/" />
+    <id>/posts/%EC%8B%9C%EC%8A%A4%EC%BD%94-ai-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9-%EC%88%98%EC%9A%94%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%EC%8B%9C%EC%8A%A4%EC%BD%94-ai-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9-%EC%88%98%EC%9A%94%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>Skims, 50억 달러 가치로 자금 조달 완료 · 경제 뉴스 요약</summary>
+  <summary>시스코, AI 네트워킹 수요로 주가 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>보스턴 연준 총재, 금리 동결 지지</title>
-    <link href="/posts/%EB%B3%B4%EC%8A%A4%ED%84%B4-%EC%97%B0%EC%A4%80-%EC%B4%9D%EC%9E%AC-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EC%A7%80%EC%A7%80/" rel="alternate" type="text/html" title="보스턴 연준 총재, 금리 동결 지지" />
-    <published>2025-11-13T06:15:15+09:00</published>
+    <title>제프리 엡스타인 문서 공개 투표 강제 청원</title>
+    <link href="/posts/%EC%A0%9C%ED%94%84%EB%A6%AC-%EC%97%A1%EC%8A%A4%ED%83%80%EC%9D%B8-%EB%AC%B8%EC%84%9C-%EA%B3%B5%EA%B0%9C-%ED%88%AC%ED%91%9C-%EA%B0%95%EC%A0%9C-%EC%B2%AD%EC%9B%90/" rel="alternate" type="text/html" title="제프리 엡스타인 문서 공개 투표 강제 청원" />
+    <published>2025-11-13T07:15:40+09:00</published>
   
-    <updated>2025-11-13T06:15:15+09:00</updated>
+    <updated>2025-11-13T07:15:40+09:00</updated>
   
-    <id>/posts/%EB%B3%B4%EC%8A%A4%ED%84%B4-%EC%97%B0%EC%A4%80-%EC%B4%9D%EC%9E%AC-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EC%A7%80%EC%A7%80/</id>
-    <content type="text/html" src="/posts/%EB%B3%B4%EC%8A%A4%ED%84%B4-%EC%97%B0%EC%A4%80-%EC%B4%9D%EC%9E%AC-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EC%A7%80%EC%A7%80/" />
+    <id>/posts/%EC%A0%9C%ED%94%84%EB%A6%AC-%EC%97%A1%EC%8A%A4%ED%83%80%EC%9D%B8-%EB%AC%B8%EC%84%9C-%EA%B3%B5%EA%B0%9C-%ED%88%AC%ED%91%9C-%EA%B0%95%EC%A0%9C-%EC%B2%AD%EC%9B%90/</id>
+    <content type="text/html" src="/posts/%EC%A0%9C%ED%94%84%EB%A6%AC-%EC%97%A1%EC%8A%A4%ED%83%80%EC%9D%B8-%EB%AC%B8%EC%84%9C-%EA%B3%B5%EA%B0%9C-%ED%88%AC%ED%91%9C-%EA%B0%95%EC%A0%9C-%EC%B2%AD%EC%9B%90/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>보스턴 연준 총재, 금리 동결 지지 · 경제 뉴스 요약</summary>
+  <summary>제프리 엡스타인 문서 공개 투표 강제 청원 · 경제 뉴스 요약</summary>
 
   </entry>
 
