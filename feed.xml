@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-12T20:15:34+09:00</updated>
+  <updated>2025-11-12T21:34:39+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>주식 시장: 다우, S&amp;P 500, 나스닥 선물 상승</title>
-    <link href="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%EC%84%A0%EB%AC%BC-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="주식 시장: 다우, S&amp;amp;P 500, 나스닥 선물 상승" />
-    <published>2025-11-12T20:14:56+09:00</published>
+    <title>주택 구매자 모기지 수요, 9월 이후 최고치 기록</title>
+    <link href="/posts/%EC%A3%BC%ED%83%9D-%EA%B5%AC%EB%A7%A4%EC%9E%90-%EB%AA%A8%EA%B8%B0%EC%A7%80-%EC%88%98%EC%9A%94-9%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B5%9C%EA%B3%A0%EC%B9%98-%EA%B8%B0%EB%A1%9D/" rel="alternate" type="text/html" title="주택 구매자 모기지 수요, 9월 이후 최고치 기록" />
+    <published>2025-11-12T21:33:54+09:00</published>
   
-    <updated>2025-11-12T20:14:56+09:00</updated>
+    <updated>2025-11-12T21:33:54+09:00</updated>
   
-    <id>/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%EC%84%A0%EB%AC%BC-%EC%83%81%EC%8A%B9/</id>
-    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%EC%84%A0%EB%AC%BC-%EC%83%81%EC%8A%B9/" />
+    <id>/posts/%EC%A3%BC%ED%83%9D-%EA%B5%AC%EB%A7%A4%EC%9E%90-%EB%AA%A8%EA%B8%B0%EC%A7%80-%EC%88%98%EC%9A%94-9%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B5%9C%EA%B3%A0%EC%B9%98-%EA%B8%B0%EB%A1%9D/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%ED%83%9D-%EA%B5%AC%EB%A7%A4%EC%9E%90-%EB%AA%A8%EA%B8%B0%EC%A7%80-%EC%88%98%EC%9A%94-9%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B5%9C%EA%B3%A0%EC%B9%98-%EA%B8%B0%EB%A1%9D/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>주식 시장: 다우, S&amp;amp;P 500, 나스닥 선물 상승 · 경제 뉴스 요약</summary>
+  <summary>주택 구매자 모기지 수요, 9월 이후 최고치 기록 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>부유한 투자자, 암호화폐 보유 확대 계획</title>
-    <link href="/posts/%EB%B6%80%EC%9C%A0%ED%95%9C-%ED%88%AC%EC%9E%90%EC%9E%90-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EB%B3%B4%EC%9C%A0-%ED%99%95%EB%8C%80-%EA%B3%84%ED%9A%8D/" rel="alternate" type="text/html" title="부유한 투자자, 암호화폐 보유 확대 계획" />
-    <published>2025-11-12T20:14:44+09:00</published>
+    <title>자율주행 전기 트럭 회사 Einride, SPAC 상장</title>
+    <link href="/posts/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89-%EC%A0%84%EA%B8%B0-%ED%8A%B8%EB%9F%AD-%ED%9A%8C%EC%82%AC-einride-spac-%EC%83%81%EC%9E%A5/" rel="alternate" type="text/html" title="자율주행 전기 트럭 회사 Einride, SPAC 상장" />
+    <published>2025-11-12T21:33:38+09:00</published>
   
-    <updated>2025-11-12T20:14:44+09:00</updated>
+    <updated>2025-11-12T21:33:38+09:00</updated>
   
-    <id>/posts/%EB%B6%80%EC%9C%A0%ED%95%9C-%ED%88%AC%EC%9E%90%EC%9E%90-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EB%B3%B4%EC%9C%A0-%ED%99%95%EB%8C%80-%EA%B3%84%ED%9A%8D/</id>
-    <content type="text/html" src="/posts/%EB%B6%80%EC%9C%A0%ED%95%9C-%ED%88%AC%EC%9E%90%EC%9E%90-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EB%B3%B4%EC%9C%A0-%ED%99%95%EB%8C%80-%EA%B3%84%ED%9A%8D/" />
+    <id>/posts/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89-%EC%A0%84%EA%B8%B0-%ED%8A%B8%EB%9F%AD-%ED%9A%8C%EC%82%AC-einride-spac-%EC%83%81%EC%9E%A5/</id>
+    <content type="text/html" src="/posts/%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89-%EC%A0%84%EA%B8%B0-%ED%8A%B8%EB%9F%AD-%ED%9A%8C%EC%82%AC-einride-spac-%EC%83%81%EC%9E%A5/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>부유한 투자자, 암호화폐 보유 확대 계획 · 경제 뉴스 요약</summary>
+  <summary>자율주행 전기 트럭 회사 Einride, SPAC 상장 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>IBM, 양자 컴퓨팅의 새로운 이정표 발표</title>
-    <link href="/posts/ibm-%EC%96%91%EC%9E%90-%EC%BB%B4%ED%93%A8%ED%8C%85%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%B4%EC%A0%95%ED%91%9C-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="IBM, 양자 컴퓨팅의 새로운 이정표 발표" />
-    <published>2025-11-12T20:14:34+09:00</published>
+    <title>AI 주식 붐, 소득 격차 확대 우려</title>
+    <link href="/posts/ai-%EC%A3%BC%EC%8B%9D-%EB%B6%90-%EC%86%8C%EB%93%9D-%EA%B2%A9%EC%B0%A8-%ED%99%95%EB%8C%80-%EC%9A%B0%EB%A0%A4/" rel="alternate" type="text/html" title="AI 주식 붐, 소득 격차 확대 우려" />
+    <published>2025-11-12T21:33:23+09:00</published>
   
-    <updated>2025-11-12T20:14:34+09:00</updated>
+    <updated>2025-11-12T21:33:23+09:00</updated>
   
-    <id>/posts/ibm-%EC%96%91%EC%9E%90-%EC%BB%B4%ED%93%A8%ED%8C%85%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%B4%EC%A0%95%ED%91%9C-%EB%B0%9C%ED%91%9C/</id>
-    <content type="text/html" src="/posts/ibm-%EC%96%91%EC%9E%90-%EC%BB%B4%ED%93%A8%ED%8C%85%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%B4%EC%A0%95%ED%91%9C-%EB%B0%9C%ED%91%9C/" />
+    <id>/posts/ai-%EC%A3%BC%EC%8B%9D-%EB%B6%90-%EC%86%8C%EB%93%9D-%EA%B2%A9%EC%B0%A8-%ED%99%95%EB%8C%80-%EC%9A%B0%EB%A0%A4/</id>
+    <content type="text/html" src="/posts/ai-%EC%A3%BC%EC%8B%9D-%EB%B6%90-%EC%86%8C%EB%93%9D-%EA%B2%A9%EC%B0%A8-%ED%99%95%EB%8C%80-%EC%9A%B0%EB%A0%A4/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>IBM, 양자 컴퓨팅의 새로운 이정표 발표 · 경제 뉴스 요약</summary>
+  <summary>AI 주식 붐, 소득 격차 확대 우려 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>IEA, 2050년까지 석유 수요 증가 전망</title>
-    <link href="/posts/iea-2050%EB%85%84%EA%B9%8C%EC%A7%80-%EC%84%9D%EC%9C%A0-%EC%88%98%EC%9A%94-%EC%A6%9D%EA%B0%80-%EC%A0%84%EB%A7%9D/" rel="alternate" type="text/html" title="IEA, 2050년까지 석유 수요 증가 전망" />
-    <published>2025-11-12T20:14:21+09:00</published>
+    <title>은행들이 경제에 긍정 신호를 보냈지만</title>
+    <link href="/posts/%EC%9D%80%ED%96%89%EB%93%A4%EC%9D%B4-%EA%B2%BD%EC%A0%9C%EC%97%90-%EA%B8%8D%EC%A0%95-%EC%8B%A0%ED%98%B8%EB%A5%BC-%EB%B3%B4%EB%83%88%EC%A7%80%EB%A7%8C/" rel="alternate" type="text/html" title="은행들이 경제에 긍정 신호를 보냈지만" />
+    <published>2025-11-12T21:33:09+09:00</published>
   
-    <updated>2025-11-12T20:14:21+09:00</updated>
+    <updated>2025-11-12T21:33:09+09:00</updated>
   
-    <id>/posts/iea-2050%EB%85%84%EA%B9%8C%EC%A7%80-%EC%84%9D%EC%9C%A0-%EC%88%98%EC%9A%94-%EC%A6%9D%EA%B0%80-%EC%A0%84%EB%A7%9D/</id>
-    <content type="text/html" src="/posts/iea-2050%EB%85%84%EA%B9%8C%EC%A7%80-%EC%84%9D%EC%9C%A0-%EC%88%98%EC%9A%94-%EC%A6%9D%EA%B0%80-%EC%A0%84%EB%A7%9D/" />
+    <id>/posts/%EC%9D%80%ED%96%89%EB%93%A4%EC%9D%B4-%EA%B2%BD%EC%A0%9C%EC%97%90-%EA%B8%8D%EC%A0%95-%EC%8B%A0%ED%98%B8%EB%A5%BC-%EB%B3%B4%EB%83%88%EC%A7%80%EB%A7%8C/</id>
+    <content type="text/html" src="/posts/%EC%9D%80%ED%96%89%EB%93%A4%EC%9D%B4-%EA%B2%BD%EC%A0%9C%EC%97%90-%EA%B8%8D%EC%A0%95-%EC%8B%A0%ED%98%B8%EB%A5%BC-%EB%B3%B4%EB%83%88%EC%A7%80%EB%A7%8C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>IEA, 2050년까지 석유 수요 증가 전망 · 경제 뉴스 요약</summary>
+  <summary>은행들이 경제에 긍정 신호를 보냈지만 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>인도 10월 인플레이션, 예상보다 더 낮아져</title>
-    <link href="/posts/%EC%9D%B8%EB%8F%84-10%EC%9B%94-%EC%9D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-%EB%8D%94-%EB%82%AE%EC%95%84%EC%A0%B8/" rel="alternate" type="text/html" title="인도 10월 인플레이션, 예상보다 더 낮아져" />
-    <published>2025-11-12T20:14:09+09:00</published>
+    <title>Citi, 주식시장 성과 집중에도 상승 예측</title>
+    <link href="/posts/citi-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EC%84%B1%EA%B3%BC-%EC%A7%91%EC%A4%91%EC%97%90%EB%8F%84-%EC%83%81%EC%8A%B9-%EC%98%88%EC%B8%A1/" rel="alternate" type="text/html" title="Citi, 주식시장 성과 집중에도 상승 예측" />
+    <published>2025-11-12T21:32:52+09:00</published>
   
-    <updated>2025-11-12T20:14:09+09:00</updated>
+    <updated>2025-11-12T21:32:52+09:00</updated>
   
-    <id>/posts/%EC%9D%B8%EB%8F%84-10%EC%9B%94-%EC%9D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-%EB%8D%94-%EB%82%AE%EC%95%84%EC%A0%B8/</id>
-    <content type="text/html" src="/posts/%EC%9D%B8%EB%8F%84-10%EC%9B%94-%EC%9D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-%EB%8D%94-%EB%82%AE%EC%95%84%EC%A0%B8/" />
+    <id>/posts/citi-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EC%84%B1%EA%B3%BC-%EC%A7%91%EC%A4%91%EC%97%90%EB%8F%84-%EC%83%81%EC%8A%B9-%EC%98%88%EC%B8%A1/</id>
+    <content type="text/html" src="/posts/citi-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EC%84%B1%EA%B3%BC-%EC%A7%91%EC%A4%91%EC%97%90%EB%8F%84-%EC%83%81%EC%8A%B9-%EC%98%88%EC%B8%A1/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>인도 10월 인플레이션, 예상보다 더 낮아져 · 경제 뉴스 요약</summary>
+  <summary>Citi, 주식시장 성과 집중에도 상승 예측 · 경제 뉴스 요약</summary>
 
   </entry>
 
