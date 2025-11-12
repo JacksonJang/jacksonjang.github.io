@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-13T05:20:06+09:00</updated>
+  <updated>2025-11-13T06:16:59+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>2026년 직장 환경 변화: 해고와 임금 인상</title>
-    <link href="/posts/2026%EB%85%84-%EC%A7%81%EC%9E%A5-%ED%99%98%EA%B2%BD-%EB%B3%80%ED%99%94-%ED%95%B4%EA%B3%A0%EC%99%80-%EC%9E%84%EA%B8%88-%EC%9D%B8%EC%83%81/" rel="alternate" type="text/html" title="2026년 직장 환경 변화: 해고와 임금 인상" />
-    <published>2025-11-13T05:19:25+09:00</published>
+    <title>Howard Marks, 신용 시장의 부주의 경고</title>
+    <link href="/posts/howard-marks-%EC%8B%A0%EC%9A%A9-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EB%B6%80%EC%A3%BC%EC%9D%98-%EA%B2%BD%EA%B3%A0/" rel="alternate" type="text/html" title="Howard Marks, 신용 시장의 부주의 경고" />
+    <published>2025-11-13T06:16:17+09:00</published>
   
-    <updated>2025-11-13T05:19:25+09:00</updated>
+    <updated>2025-11-13T06:16:17+09:00</updated>
   
-    <id>/posts/2026%EB%85%84-%EC%A7%81%EC%9E%A5-%ED%99%98%EA%B2%BD-%EB%B3%80%ED%99%94-%ED%95%B4%EA%B3%A0%EC%99%80-%EC%9E%84%EA%B8%88-%EC%9D%B8%EC%83%81/</id>
-    <content type="text/html" src="/posts/2026%EB%85%84-%EC%A7%81%EC%9E%A5-%ED%99%98%EA%B2%BD-%EB%B3%80%ED%99%94-%ED%95%B4%EA%B3%A0%EC%99%80-%EC%9E%84%EA%B8%88-%EC%9D%B8%EC%83%81/" />
+    <id>/posts/howard-marks-%EC%8B%A0%EC%9A%A9-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EB%B6%80%EC%A3%BC%EC%9D%98-%EA%B2%BD%EA%B3%A0/</id>
+    <content type="text/html" src="/posts/howard-marks-%EC%8B%A0%EC%9A%A9-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EB%B6%80%EC%A3%BC%EC%9D%98-%EA%B2%BD%EA%B3%A0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>2026년 직장 환경 변화: 해고와 임금 인상 · 경제 뉴스 요약</summary>
+  <summary>Howard Marks, 신용 시장의 부주의 경고 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>대법원, 트럼프의 연준 이사 해임 시도 심리 예정</title>
-    <link href="/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EC%97%B0%EC%A4%80-%EC%9D%B4%EC%82%AC-%ED%95%B4%EC%9E%84-%EC%8B%9C%EB%8F%84-%EC%8B%AC%EB%A6%AC-%EC%98%88%EC%A0%95/" rel="alternate" type="text/html" title="대법원, 트럼프의 연준 이사 해임 시도 심리 예정" />
-    <published>2025-11-13T05:19:05+09:00</published>
+    <title>사망한 남편의 아들이 IRA 수혜자로 지정된 경우</title>
+    <link href="/posts/%EC%82%AC%EB%A7%9D%ED%95%9C-%EB%82%A8%ED%8E%B8%EC%9D%98-%EC%95%84%EB%93%A4%EC%9D%B4-ira-%EC%88%98%ED%98%9C%EC%9E%90%EB%A1%9C-%EC%A7%80%EC%A0%95%EB%90%9C-%EA%B2%BD%EC%9A%B0/" rel="alternate" type="text/html" title="사망한 남편의 아들이 IRA 수혜자로 지정된 경우" />
+    <published>2025-11-13T06:16:02+09:00</published>
   
-    <updated>2025-11-13T05:19:05+09:00</updated>
+    <updated>2025-11-13T06:16:02+09:00</updated>
   
-    <id>/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EC%97%B0%EC%A4%80-%EC%9D%B4%EC%82%AC-%ED%95%B4%EC%9E%84-%EC%8B%9C%EB%8F%84-%EC%8B%AC%EB%A6%AC-%EC%98%88%EC%A0%95/</id>
-    <content type="text/html" src="/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EC%97%B0%EC%A4%80-%EC%9D%B4%EC%82%AC-%ED%95%B4%EC%9E%84-%EC%8B%9C%EB%8F%84-%EC%8B%AC%EB%A6%AC-%EC%98%88%EC%A0%95/" />
+    <id>/posts/%EC%82%AC%EB%A7%9D%ED%95%9C-%EB%82%A8%ED%8E%B8%EC%9D%98-%EC%95%84%EB%93%A4%EC%9D%B4-ira-%EC%88%98%ED%98%9C%EC%9E%90%EB%A1%9C-%EC%A7%80%EC%A0%95%EB%90%9C-%EA%B2%BD%EC%9A%B0/</id>
+    <content type="text/html" src="/posts/%EC%82%AC%EB%A7%9D%ED%95%9C-%EB%82%A8%ED%8E%B8%EC%9D%98-%EC%95%84%EB%93%A4%EC%9D%B4-ira-%EC%88%98%ED%98%9C%EC%9E%90%EB%A1%9C-%EC%A7%80%EC%A0%95%EB%90%9C-%EA%B2%BD%EC%9A%B0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>대법원, 트럼프의 연준 이사 해임 시도 심리 예정 · 경제 뉴스 요약</summary>
+  <summary>사망한 남편의 아들이 IRA 수혜자로 지정된 경우 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>S&amp;P 500, 정부 재개 앞두고 투자자 회전</title>
-    <link href="/posts/sp-500-%EC%A0%95%EB%B6%80-%EC%9E%AC%EA%B0%9C-%EC%95%9E%EB%91%90%EA%B3%A0-%ED%88%AC%EC%9E%90%EC%9E%90-%ED%9A%8C%EC%A0%84/" rel="alternate" type="text/html" title="S&amp;amp;P 500, 정부 재개 앞두고 투자자 회전" />
-    <published>2025-11-13T05:18:49+09:00</published>
+    <title>WNBA, 새로운 리더십 필요성 제기</title>
+    <link href="/posts/wnba-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%A6%AC%EB%8D%94%EC%8B%AD-%ED%95%84%EC%9A%94%EC%84%B1-%EC%A0%9C%EA%B8%B0/" rel="alternate" type="text/html" title="WNBA, 새로운 리더십 필요성 제기" />
+    <published>2025-11-13T06:15:47+09:00</published>
   
-    <updated>2025-11-13T05:18:49+09:00</updated>
+    <updated>2025-11-13T06:15:47+09:00</updated>
   
-    <id>/posts/sp-500-%EC%A0%95%EB%B6%80-%EC%9E%AC%EA%B0%9C-%EC%95%9E%EB%91%90%EA%B3%A0-%ED%88%AC%EC%9E%90%EC%9E%90-%ED%9A%8C%EC%A0%84/</id>
-    <content type="text/html" src="/posts/sp-500-%EC%A0%95%EB%B6%80-%EC%9E%AC%EA%B0%9C-%EC%95%9E%EB%91%90%EA%B3%A0-%ED%88%AC%EC%9E%90%EC%9E%90-%ED%9A%8C%EC%A0%84/" />
+    <id>/posts/wnba-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%A6%AC%EB%8D%94%EC%8B%AD-%ED%95%84%EC%9A%94%EC%84%B1-%EC%A0%9C%EA%B8%B0/</id>
+    <content type="text/html" src="/posts/wnba-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%A6%AC%EB%8D%94%EC%8B%AD-%ED%95%84%EC%9A%94%EC%84%B1-%EC%A0%9C%EA%B8%B0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>S&amp;amp;P 500, 정부 재개 앞두고 투자자 회전 · 경제 뉴스 요약</summary>
+  <summary>WNBA, 새로운 리더십 필요성 제기 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>델타 CEO, 항공사 정치적 도구로 언급</title>
-    <link href="/posts/%EB%8D%B8%ED%83%80-ceo-%ED%95%AD%EA%B3%B5%EC%82%AC-%EC%A0%95%EC%B9%98%EC%A0%81-%EB%8F%84%EA%B5%AC%EB%A1%9C-%EC%96%B8%EA%B8%89/" rel="alternate" type="text/html" title="델타 CEO, 항공사 정치적 도구로 언급" />
-    <published>2025-11-13T05:18:28+09:00</published>
+    <title>Skims, 50억 달러 가치로 자금 조달 완료</title>
+    <link href="/posts/skims-50%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B0%80%EC%B9%98%EB%A1%9C-%EC%9E%90%EA%B8%88-%EC%A1%B0%EB%8B%AC-%EC%99%84%EB%A3%8C/" rel="alternate" type="text/html" title="Skims, 50억 달러 가치로 자금 조달 완료" />
+    <published>2025-11-13T06:15:31+09:00</published>
   
-    <updated>2025-11-13T05:18:28+09:00</updated>
+    <updated>2025-11-13T06:15:31+09:00</updated>
   
-    <id>/posts/%EB%8D%B8%ED%83%80-ceo-%ED%95%AD%EA%B3%B5%EC%82%AC-%EC%A0%95%EC%B9%98%EC%A0%81-%EB%8F%84%EA%B5%AC%EB%A1%9C-%EC%96%B8%EA%B8%89/</id>
-    <content type="text/html" src="/posts/%EB%8D%B8%ED%83%80-ceo-%ED%95%AD%EA%B3%B5%EC%82%AC-%EC%A0%95%EC%B9%98%EC%A0%81-%EB%8F%84%EA%B5%AC%EB%A1%9C-%EC%96%B8%EA%B8%89/" />
+    <id>/posts/skims-50%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B0%80%EC%B9%98%EB%A1%9C-%EC%9E%90%EA%B8%88-%EC%A1%B0%EB%8B%AC-%EC%99%84%EB%A3%8C/</id>
+    <content type="text/html" src="/posts/skims-50%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B0%80%EC%B9%98%EB%A1%9C-%EC%9E%90%EA%B8%88-%EC%A1%B0%EB%8B%AC-%EC%99%84%EB%A3%8C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>델타 CEO, 항공사 정치적 도구로 언급 · 경제 뉴스 요약</summary>
+  <summary>Skims, 50억 달러 가치로 자금 조달 완료 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>앤트로픽의 500억 달러 AI 투자, 3개 주식에 미치는 영향</title>
-    <link href="/posts/%EC%95%A4%ED%8A%B8%EB%A1%9C%ED%94%BD%EC%9D%98-500%EC%96%B5-%EB%8B%AC%EB%9F%AC-ai-%ED%88%AC%EC%9E%90-3%EA%B0%9C-%EC%A3%BC%EC%8B%9D%EC%97%90-%EB%AF%B8%EC%B9%98%EB%8A%94-%EC%98%81%ED%96%A5/" rel="alternate" type="text/html" title="앤트로픽의 500억 달러 AI 투자, 3개 주식에 미치는 영향" />
-    <published>2025-11-13T05:18:08+09:00</published>
+    <title>보스턴 연준 총재, 금리 동결 지지</title>
+    <link href="/posts/%EB%B3%B4%EC%8A%A4%ED%84%B4-%EC%97%B0%EC%A4%80-%EC%B4%9D%EC%9E%AC-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EC%A7%80%EC%A7%80/" rel="alternate" type="text/html" title="보스턴 연준 총재, 금리 동결 지지" />
+    <published>2025-11-13T06:15:15+09:00</published>
   
-    <updated>2025-11-13T05:18:08+09:00</updated>
+    <updated>2025-11-13T06:15:15+09:00</updated>
   
-    <id>/posts/%EC%95%A4%ED%8A%B8%EB%A1%9C%ED%94%BD%EC%9D%98-500%EC%96%B5-%EB%8B%AC%EB%9F%AC-ai-%ED%88%AC%EC%9E%90-3%EA%B0%9C-%EC%A3%BC%EC%8B%9D%EC%97%90-%EB%AF%B8%EC%B9%98%EB%8A%94-%EC%98%81%ED%96%A5/</id>
-    <content type="text/html" src="/posts/%EC%95%A4%ED%8A%B8%EB%A1%9C%ED%94%BD%EC%9D%98-500%EC%96%B5-%EB%8B%AC%EB%9F%AC-ai-%ED%88%AC%EC%9E%90-3%EA%B0%9C-%EC%A3%BC%EC%8B%9D%EC%97%90-%EB%AF%B8%EC%B9%98%EB%8A%94-%EC%98%81%ED%96%A5/" />
+    <id>/posts/%EB%B3%B4%EC%8A%A4%ED%84%B4-%EC%97%B0%EC%A4%80-%EC%B4%9D%EC%9E%AC-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EC%A7%80%EC%A7%80/</id>
+    <content type="text/html" src="/posts/%EB%B3%B4%EC%8A%A4%ED%84%B4-%EC%97%B0%EC%A4%80-%EC%B4%9D%EC%9E%AC-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EC%A7%80%EC%A7%80/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>앤트로픽의 500억 달러 AI 투자, 3개 주식에 미치는 영향 · 경제 뉴스 요약</summary>
+  <summary>보스턴 연준 총재, 금리 동결 지지 · 경제 뉴스 요약</summary>
 
   </entry>
 
