@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-14T04:14:44+09:00</updated>
+  <updated>2025-11-14T05:20:33+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>S&amp;P 500 하락, 금리 인하 가능성 감소</title>
-    <link href="/posts/sp-500-%ED%95%98%EB%9D%BD-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B0%80%EB%8A%A5%EC%84%B1-%EA%B0%90%EC%86%8C/" rel="alternate" type="text/html" title="S&amp;amp;P 500 하락, 금리 인하 가능성 감소" />
-    <published>2025-11-14T04:14:06+09:00</published>
+    <title>테슬라, Powerwall 2 배터리 10,500대 리콜</title>
+    <link href="/posts/%ED%85%8C%EC%8A%AC%EB%9D%BC-powerwall-2-%EB%B0%B0%ED%84%B0%EB%A6%AC-10500%EB%8C%80-%EB%A6%AC%EC%BD%9C/" rel="alternate" type="text/html" title="테슬라, Powerwall 2 배터리 10,500대 리콜" />
+    <published>2025-11-14T05:19:56+09:00</published>
   
-    <updated>2025-11-14T04:14:06+09:00</updated>
+    <updated>2025-11-14T05:19:56+09:00</updated>
   
-    <id>/posts/sp-500-%ED%95%98%EB%9D%BD-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B0%80%EB%8A%A5%EC%84%B1-%EA%B0%90%EC%86%8C/</id>
-    <content type="text/html" src="/posts/sp-500-%ED%95%98%EB%9D%BD-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B0%80%EB%8A%A5%EC%84%B1-%EA%B0%90%EC%86%8C/" />
+    <id>/posts/%ED%85%8C%EC%8A%AC%EB%9D%BC-powerwall-2-%EB%B0%B0%ED%84%B0%EB%A6%AC-10500%EB%8C%80-%EB%A6%AC%EC%BD%9C/</id>
+    <content type="text/html" src="/posts/%ED%85%8C%EC%8A%AC%EB%9D%BC-powerwall-2-%EB%B0%B0%ED%84%B0%EB%A6%AC-10500%EB%8C%80-%EB%A6%AC%EC%BD%9C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>S&amp;amp;P 500 하락, 금리 인하 가능성 감소 · 경제 뉴스 요약</summary>
+  <summary>테슬라, Powerwall 2 배터리 10,500대 리콜 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>연방 직원 급여 지급 일정 안내</title>
-    <link href="/posts/%EC%97%B0%EB%B0%A9-%EC%A7%81%EC%9B%90-%EA%B8%89%EC%97%AC-%EC%A7%80%EA%B8%89-%EC%9D%BC%EC%A0%95-%EC%95%88%EB%82%B4/" rel="alternate" type="text/html" title="연방 직원 급여 지급 일정 안내" />
-    <published>2025-11-14T04:13:53+09:00</published>
+    <title>옵션 트레이더들이 말하는 12월 10일의 중요성</title>
+    <link href="/posts/%EC%98%B5%EC%85%98-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8D%94%EB%93%A4%EC%9D%B4-%EB%A7%90%ED%95%98%EB%8A%94-12%EC%9B%94-10%EC%9D%BC%EC%9D%98-%EC%A4%91%EC%9A%94%EC%84%B1/" rel="alternate" type="text/html" title="옵션 트레이더들이 말하는 12월 10일의 중요성" />
+    <published>2025-11-14T05:19:40+09:00</published>
   
-    <updated>2025-11-14T04:13:53+09:00</updated>
+    <updated>2025-11-14T05:19:40+09:00</updated>
   
-    <id>/posts/%EC%97%B0%EB%B0%A9-%EC%A7%81%EC%9B%90-%EA%B8%89%EC%97%AC-%EC%A7%80%EA%B8%89-%EC%9D%BC%EC%A0%95-%EC%95%88%EB%82%B4/</id>
-    <content type="text/html" src="/posts/%EC%97%B0%EB%B0%A9-%EC%A7%81%EC%9B%90-%EA%B8%89%EC%97%AC-%EC%A7%80%EA%B8%89-%EC%9D%BC%EC%A0%95-%EC%95%88%EB%82%B4/" />
+    <id>/posts/%EC%98%B5%EC%85%98-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8D%94%EB%93%A4%EC%9D%B4-%EB%A7%90%ED%95%98%EB%8A%94-12%EC%9B%94-10%EC%9D%BC%EC%9D%98-%EC%A4%91%EC%9A%94%EC%84%B1/</id>
+    <content type="text/html" src="/posts/%EC%98%B5%EC%85%98-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8D%94%EB%93%A4%EC%9D%B4-%EB%A7%90%ED%95%98%EB%8A%94-12%EC%9B%94-10%EC%9D%BC%EC%9D%98-%EC%A4%91%EC%9A%94%EC%84%B1/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>연방 직원 급여 지급 일정 안내 · 경제 뉴스 요약</summary>
+  <summary>옵션 트레이더들이 말하는 12월 10일의 중요성 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>미국에서 가장 긴 파업, 끝날까?</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EA%B8%B4-%ED%8C%8C%EC%97%85-%EB%81%9D%EB%82%A0%EA%B9%8C/" rel="alternate" type="text/html" title="미국에서 가장 긴 파업, 끝날까?" />
-    <published>2025-11-14T04:13:40+09:00</published>
+    <title>UPS 전망, S&amp;P에 의해 부정적으로 수정됨</title>
+    <link href="/posts/ups-%EC%A0%84%EB%A7%9D-sp%EC%97%90-%EC%9D%98%ED%95%B4-%EB%B6%80%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%88%98%EC%A0%95%EB%90%A8/" rel="alternate" type="text/html" title="UPS 전망, S&amp;amp;P에 의해 부정적으로 수정됨" />
+    <published>2025-11-14T05:19:26+09:00</published>
   
-    <updated>2025-11-14T04:13:40+09:00</updated>
+    <updated>2025-11-14T05:19:26+09:00</updated>
   
-    <id>/posts/%EB%AF%B8%EA%B5%AD%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EA%B8%B4-%ED%8C%8C%EC%97%85-%EB%81%9D%EB%82%A0%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EA%B8%B4-%ED%8C%8C%EC%97%85-%EB%81%9D%EB%82%A0%EA%B9%8C/" />
+    <id>/posts/ups-%EC%A0%84%EB%A7%9D-sp%EC%97%90-%EC%9D%98%ED%95%B4-%EB%B6%80%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%88%98%EC%A0%95%EB%90%A8/</id>
+    <content type="text/html" src="/posts/ups-%EC%A0%84%EB%A7%9D-sp%EC%97%90-%EC%9D%98%ED%95%B4-%EB%B6%80%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%88%98%EC%A0%95%EB%90%A8/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>미국에서 가장 긴 파업, 끝날까? · 경제 뉴스 요약</summary>
+  <summary>UPS 전망, S&amp;amp;P에 의해 부정적으로 수정됨 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>28세 투자자의 암호화폐 투자 경험</title>
-    <link href="/posts/28%EC%84%B8-%ED%88%AC%EC%9E%90%EC%9E%90%EC%9D%98-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%ED%88%AC%EC%9E%90-%EA%B2%BD%ED%97%98/" rel="alternate" type="text/html" title="28세 투자자의 암호화폐 투자 경험" />
-    <published>2025-11-14T04:13:21+09:00</published>
+    <title>MEG 에너지, Cenovus 인수 후 S&amp;P에서 'BBB'로 업그레이드</title>
+    <link href="/posts/meg-%EC%97%90%EB%84%88%EC%A7%80-cenovus-%EC%9D%B8%EC%88%98-%ED%9B%84-sp%EC%97%90%EC%84%9C-bbb%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/" rel="alternate" type="text/html" title="MEG 에너지, Cenovus 인수 후 S&amp;amp;P에서 &amp;apos;BBB&amp;apos;로 업그레이드" />
+    <published>2025-11-14T05:19:10+09:00</published>
   
-    <updated>2025-11-14T04:13:21+09:00</updated>
+    <updated>2025-11-14T05:19:10+09:00</updated>
   
-    <id>/posts/28%EC%84%B8-%ED%88%AC%EC%9E%90%EC%9E%90%EC%9D%98-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%ED%88%AC%EC%9E%90-%EA%B2%BD%ED%97%98/</id>
-    <content type="text/html" src="/posts/28%EC%84%B8-%ED%88%AC%EC%9E%90%EC%9E%90%EC%9D%98-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%ED%88%AC%EC%9E%90-%EA%B2%BD%ED%97%98/" />
+    <id>/posts/meg-%EC%97%90%EB%84%88%EC%A7%80-cenovus-%EC%9D%B8%EC%88%98-%ED%9B%84-sp%EC%97%90%EC%84%9C-bbb%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</id>
+    <content type="text/html" src="/posts/meg-%EC%97%90%EB%84%88%EC%A7%80-cenovus-%EC%9D%B8%EC%88%98-%ED%9B%84-sp%EC%97%90%EC%84%9C-bbb%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>28세 투자자의 암호화폐 투자 경험 · 경제 뉴스 요약</summary>
+  <summary>MEG 에너지, Cenovus 인수 후 S&amp;amp;P에서 &amp;#39;BBB&amp;#39;로 업그레이드 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>미국 정부 셧다운 종료, 연방 직원 급여 지급</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EC%97%B0%EB%B0%A9-%EC%A7%81%EC%9B%90-%EA%B8%89%EC%97%AC-%EC%A7%80%EA%B8%89/" rel="alternate" type="text/html" title="미국 정부 셧다운 종료, 연방 직원 급여 지급" />
-    <published>2025-11-14T04:13:10+09:00</published>
+    <title>Wabash National, S&amp;P에서 B 등급으로 하향 조정</title>
+    <link href="/posts/wabash-national-sp%EC%97%90%EC%84%9C-b-%EB%93%B1%EA%B8%89%EC%9C%BC%EB%A1%9C-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="Wabash National, S&amp;amp;P에서 B 등급으로 하향 조정" />
+    <published>2025-11-14T05:18:52+09:00</published>
   
-    <updated>2025-11-14T04:13:10+09:00</updated>
+    <updated>2025-11-14T05:18:52+09:00</updated>
   
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EC%97%B0%EB%B0%A9-%EC%A7%81%EC%9B%90-%EA%B8%89%EC%97%AC-%EC%A7%80%EA%B8%89/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EC%97%B0%EB%B0%A9-%EC%A7%81%EC%9B%90-%EA%B8%89%EC%97%AC-%EC%A7%80%EA%B8%89/" />
+    <id>/posts/wabash-national-sp%EC%97%90%EC%84%9C-b-%EB%93%B1%EA%B8%89%EC%9C%BC%EB%A1%9C-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/</id>
+    <content type="text/html" src="/posts/wabash-national-sp%EC%97%90%EC%84%9C-b-%EB%93%B1%EA%B8%89%EC%9C%BC%EB%A1%9C-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>미국 정부 셧다운 종료, 연방 직원 급여 지급 · 경제 뉴스 요약</summary>
+  <summary>Wabash National, S&amp;amp;P에서 B 등급으로 하향 조정 · 경제 뉴스 요약</summary>
 
   </entry>
 
