@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-13T14:17:00+09:00</updated>
+  <updated>2025-11-13T15:25:02+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>호주 주식, 거래 마감 시 하락; S&amp;P/ASX 200 0.52% 하락</title>
+    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C-%ED%95%98%EB%9D%BD-spasx-200-052-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="호주 주식, 거래 마감 시 하락; S&amp;amp;P/ASX 200 0.52% 하락" />
+    <published>2025-11-13T15:24:29+09:00</published>
+  
+    <updated>2025-11-13T15:24:29+09:00</updated>
+  
+    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C-%ED%95%98%EB%9D%BD-spasx-200-052-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C-%ED%95%98%EB%9D%BD-spasx-200-052-%ED%95%98%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>호주 주식, 거래 마감 시 하락; S&amp;amp;P/ASX 200 0.52% 하락 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>시스코 시스템즈, AI 성장에 힘입어 목표가 상향 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>정부 셧다운 종료, 주식 시장 반응은?</title>
-    <link href="/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%B0%98%EC%9D%91%EC%9D%80/" rel="alternate" type="text/html" title="정부 셧다운 종료, 주식 시장 반응은?" />
-    <published>2025-11-13T12:12:27+09:00</published>
-  
-    <updated>2025-11-13T12:12:27+09:00</updated>
-  
-    <id>/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%B0%98%EC%9D%91%EC%9D%80/</id>
-    <content type="text/html" src="/posts/%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A2%85%EB%A3%8C-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%B0%98%EC%9D%91%EC%9D%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>정부 셧다운 종료, 주식 시장 반응은? · 경제 뉴스 요약</summary>
 
   </entry>
 
