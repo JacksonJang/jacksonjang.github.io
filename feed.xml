@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-13T21:35:10+09:00</updated>
+  <updated>2025-11-13T22:32:38+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>미국 정부 셧다운 여파, 증시 전망 불투명</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%97%AC%ED%8C%8C-%EC%A6%9D%EC%8B%9C-%EC%A0%84%EB%A7%9D-%EB%B6%88%ED%88%AC%EB%AA%85/" rel="alternate" type="text/html" title="미국 정부 셧다운 여파, 증시 전망 불투명" />
-    <published>2025-11-13T21:34:30+09:00</published>
+    <title>UFC, Polymarket와 예측 시장 통합 계약 체결</title>
+    <link href="/posts/ufc-polymarket%EC%99%80-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%9E%A5-%ED%86%B5%ED%95%A9-%EA%B3%84%EC%95%BD-%EC%B2%B4%EA%B2%B0/" rel="alternate" type="text/html" title="UFC, Polymarket와 예측 시장 통합 계약 체결" />
+    <published>2025-11-13T22:31:57+09:00</published>
   
-    <updated>2025-11-13T21:34:30+09:00</updated>
+    <updated>2025-11-13T22:31:57+09:00</updated>
   
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%97%AC%ED%8C%8C-%EC%A6%9D%EC%8B%9C-%EC%A0%84%EB%A7%9D-%EB%B6%88%ED%88%AC%EB%AA%85/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%97%AC%ED%8C%8C-%EC%A6%9D%EC%8B%9C-%EC%A0%84%EB%A7%9D-%EB%B6%88%ED%88%AC%EB%AA%85/" />
+    <id>/posts/ufc-polymarket%EC%99%80-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%9E%A5-%ED%86%B5%ED%95%A9-%EA%B3%84%EC%95%BD-%EC%B2%B4%EA%B2%B0/</id>
+    <content type="text/html" src="/posts/ufc-polymarket%EC%99%80-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%9E%A5-%ED%86%B5%ED%95%A9-%EA%B3%84%EC%95%BD-%EC%B2%B4%EA%B2%B0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>미국 정부 셧다운 여파, 증시 전망 불투명 · 경제 뉴스 요약</summary>
+  <summary>UFC, Polymarket와 예측 시장 통합 계약 체결 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>연준 금리 인하, 이제는 동전 던지기</title>
-    <link href="/posts/%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%9D%B4%EC%A0%9C%EB%8A%94-%EB%8F%99%EC%A0%84-%EB%8D%98%EC%A7%80%EA%B8%B0/" rel="alternate" type="text/html" title="연준 금리 인하, 이제는 동전 던지기" />
-    <published>2025-11-13T21:34:13+09:00</published>
+    <title>정점 석유, 수요 증가 전망의 의미는?</title>
+    <link href="/posts/%EC%A0%95%EC%A0%90-%EC%84%9D%EC%9C%A0-%EC%88%98%EC%9A%94-%EC%A6%9D%EA%B0%80-%EC%A0%84%EB%A7%9D%EC%9D%98-%EC%9D%98%EB%AF%B8%EB%8A%94/" rel="alternate" type="text/html" title="정점 석유, 수요 증가 전망의 의미는?" />
+    <published>2025-11-13T22:31:38+09:00</published>
   
-    <updated>2025-11-13T21:34:13+09:00</updated>
+    <updated>2025-11-13T22:31:38+09:00</updated>
   
-    <id>/posts/%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%9D%B4%EC%A0%9C%EB%8A%94-%EB%8F%99%EC%A0%84-%EB%8D%98%EC%A7%80%EA%B8%B0/</id>
-    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%9D%B4%EC%A0%9C%EB%8A%94-%EB%8F%99%EC%A0%84-%EB%8D%98%EC%A7%80%EA%B8%B0/" />
+    <id>/posts/%EC%A0%95%EC%A0%90-%EC%84%9D%EC%9C%A0-%EC%88%98%EC%9A%94-%EC%A6%9D%EA%B0%80-%EC%A0%84%EB%A7%9D%EC%9D%98-%EC%9D%98%EB%AF%B8%EB%8A%94/</id>
+    <content type="text/html" src="/posts/%EC%A0%95%EC%A0%90-%EC%84%9D%EC%9C%A0-%EC%88%98%EC%9A%94-%EC%A6%9D%EA%B0%80-%EC%A0%84%EB%A7%9D%EC%9D%98-%EC%9D%98%EB%AF%B8%EB%8A%94/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>연준 금리 인하, 이제는 동전 던지기 · 경제 뉴스 요약</summary>
+  <summary>정점 석유, 수요 증가 전망의 의미는? · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>주식시장 랠리에 위협이 될 경제 리스크</title>
-    <link href="/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EB%9E%A0%EB%A6%AC%EC%97%90-%EC%9C%84%ED%98%91%EC%9D%B4-%EB%90%A0-%EA%B2%BD%EC%A0%9C-%EB%A6%AC%EC%8A%A4%ED%81%AC/" rel="alternate" type="text/html" title="주식시장 랠리에 위협이 될 경제 리스크" />
-    <published>2025-11-13T21:33:58+09:00</published>
+    <title>디즈니, 혼조세 속 스트리밍 부문 호조</title>
+    <link href="/posts/%EB%94%94%EC%A6%88%EB%8B%88-%ED%98%BC%EC%A1%B0%EC%84%B8-%EC%86%8D-%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D-%EB%B6%80%EB%AC%B8-%ED%98%B8%EC%A1%B0/" rel="alternate" type="text/html" title="디즈니, 혼조세 속 스트리밍 부문 호조" />
+    <published>2025-11-13T22:31:24+09:00</published>
   
-    <updated>2025-11-13T21:33:58+09:00</updated>
+    <updated>2025-11-13T22:31:24+09:00</updated>
   
-    <id>/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EB%9E%A0%EB%A6%AC%EC%97%90-%EC%9C%84%ED%98%91%EC%9D%B4-%EB%90%A0-%EA%B2%BD%EC%A0%9C-%EB%A6%AC%EC%8A%A4%ED%81%AC/</id>
-    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EB%9E%A0%EB%A6%AC%EC%97%90-%EC%9C%84%ED%98%91%EC%9D%B4-%EB%90%A0-%EA%B2%BD%EC%A0%9C-%EB%A6%AC%EC%8A%A4%ED%81%AC/" />
+    <id>/posts/%EB%94%94%EC%A6%88%EB%8B%88-%ED%98%BC%EC%A1%B0%EC%84%B8-%EC%86%8D-%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D-%EB%B6%80%EB%AC%B8-%ED%98%B8%EC%A1%B0/</id>
+    <content type="text/html" src="/posts/%EB%94%94%EC%A6%88%EB%8B%88-%ED%98%BC%EC%A1%B0%EC%84%B8-%EC%86%8D-%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D-%EB%B6%80%EB%AC%B8-%ED%98%B8%EC%A1%B0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>주식시장 랠리에 위협이 될 경제 리스크 · 경제 뉴스 요약</summary>
+  <summary>디즈니, 혼조세 속 스트리밍 부문 호조 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>스코틀랜드, 투자 친화적 '킬트' 채권 출시</title>
-    <link href="/posts/%EC%8A%A4%EC%BD%94%ED%8B%80%EB%9E%9C%EB%93%9C-%ED%88%AC%EC%9E%90-%EC%B9%9C%ED%99%94%EC%A0%81-%ED%82%AC%ED%8A%B8-%EC%B1%84%EA%B6%8C-%EC%B6%9C%EC%8B%9C/" rel="alternate" type="text/html" title="스코틀랜드, 투자 친화적 &amp;apos;킬트&amp;apos; 채권 출시" />
-    <published>2025-11-13T21:33:45+09:00</published>
+    <title>JD.com, 저조한 실적에도 주가 상승</title>
+    <link href="/posts/jdcom-%EC%A0%80%EC%A1%B0%ED%95%9C-%EC%8B%A4%EC%A0%81%EC%97%90%EB%8F%84-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="JD.com, 저조한 실적에도 주가 상승" />
+    <published>2025-11-13T22:31:10+09:00</published>
   
-    <updated>2025-11-13T21:33:45+09:00</updated>
+    <updated>2025-11-13T22:31:10+09:00</updated>
   
-    <id>/posts/%EC%8A%A4%EC%BD%94%ED%8B%80%EB%9E%9C%EB%93%9C-%ED%88%AC%EC%9E%90-%EC%B9%9C%ED%99%94%EC%A0%81-%ED%82%AC%ED%8A%B8-%EC%B1%84%EA%B6%8C-%EC%B6%9C%EC%8B%9C/</id>
-    <content type="text/html" src="/posts/%EC%8A%A4%EC%BD%94%ED%8B%80%EB%9E%9C%EB%93%9C-%ED%88%AC%EC%9E%90-%EC%B9%9C%ED%99%94%EC%A0%81-%ED%82%AC%ED%8A%B8-%EC%B1%84%EA%B6%8C-%EC%B6%9C%EC%8B%9C/" />
+    <id>/posts/jdcom-%EC%A0%80%EC%A1%B0%ED%95%9C-%EC%8B%A4%EC%A0%81%EC%97%90%EB%8F%84-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/jdcom-%EC%A0%80%EC%A1%B0%ED%95%9C-%EC%8B%A4%EC%A0%81%EC%97%90%EB%8F%84-%EC%A3%BC%EA%B0%80-%EC%83%81%EC%8A%B9/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>스코틀랜드, 투자 친화적 &amp;#39;킬트&amp;#39; 채권 출시 · 경제 뉴스 요약</summary>
+  <summary>JD.com, 저조한 실적에도 주가 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>비자와 마스터카드 합의가 보상 카드에 미치는 영향</title>
-    <link href="/posts/%EB%B9%84%EC%9E%90%EC%99%80-%EB%A7%88%EC%8A%A4%ED%84%B0%EC%B9%B4%EB%93%9C-%ED%95%A9%EC%9D%98%EA%B0%80-%EB%B3%B4%EC%83%81-%EC%B9%B4%EB%93%9C%EC%97%90-%EB%AF%B8%EC%B9%98%EB%8A%94-%EC%98%81%ED%96%A5/" rel="alternate" type="text/html" title="비자와 마스터카드 합의가 보상 카드에 미치는 영향" />
-    <published>2025-11-13T21:33:29+09:00</published>
+    <title>S&amp;P Global, 30억 달러 자사주 매입 발표</title>
+    <link href="/posts/sp-global-30%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%9E%90%EC%82%AC%EC%A3%BC-%EB%A7%A4%EC%9E%85-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="S&amp;amp;P Global, 30억 달러 자사주 매입 발표" />
+    <published>2025-11-13T22:30:49+09:00</published>
   
-    <updated>2025-11-13T21:33:29+09:00</updated>
+    <updated>2025-11-13T22:30:49+09:00</updated>
   
-    <id>/posts/%EB%B9%84%EC%9E%90%EC%99%80-%EB%A7%88%EC%8A%A4%ED%84%B0%EC%B9%B4%EB%93%9C-%ED%95%A9%EC%9D%98%EA%B0%80-%EB%B3%B4%EC%83%81-%EC%B9%B4%EB%93%9C%EC%97%90-%EB%AF%B8%EC%B9%98%EB%8A%94-%EC%98%81%ED%96%A5/</id>
-    <content type="text/html" src="/posts/%EB%B9%84%EC%9E%90%EC%99%80-%EB%A7%88%EC%8A%A4%ED%84%B0%EC%B9%B4%EB%93%9C-%ED%95%A9%EC%9D%98%EA%B0%80-%EB%B3%B4%EC%83%81-%EC%B9%B4%EB%93%9C%EC%97%90-%EB%AF%B8%EC%B9%98%EB%8A%94-%EC%98%81%ED%96%A5/" />
+    <id>/posts/sp-global-30%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%9E%90%EC%82%AC%EC%A3%BC-%EB%A7%A4%EC%9E%85-%EB%B0%9C%ED%91%9C/</id>
+    <content type="text/html" src="/posts/sp-global-30%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%9E%90%EC%82%AC%EC%A3%BC-%EB%A7%A4%EC%9E%85-%EB%B0%9C%ED%91%9C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>비자와 마스터카드 합의가 보상 카드에 미치는 영향 · 경제 뉴스 요약</summary>
+  <summary>S&amp;amp;P Global, 30억 달러 자사주 매입 발표 · 경제 뉴스 요약</summary>
 
   </entry>
 
