@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-14T16:16:53+09:00</updated>
+  <updated>2025-11-14T17:21:58+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>NY Fed, 유동성 문제 해결을 위한 Repo 활용 권장</title>
+    <link href="/posts/ny-fed-%EC%9C%A0%EB%8F%99%EC%84%B1-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0%EC%9D%84-%EC%9C%84%ED%95%9C-repo-%ED%99%9C%EC%9A%A9-%EA%B6%8C%EC%9E%A5/" rel="alternate" type="text/html" title="NY Fed, 유동성 문제 해결을 위한 Repo 활용 권장" />
+    <published>2025-11-14T17:21:21+09:00</published>
+  
+    <updated>2025-11-14T17:21:21+09:00</updated>
+  
+    <id>/posts/ny-fed-%EC%9C%A0%EB%8F%99%EC%84%B1-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0%EC%9D%84-%EC%9C%84%ED%95%9C-repo-%ED%99%9C%EC%9A%A9-%EA%B6%8C%EC%9E%A5/</id>
+    <content type="text/html" src="/posts/ny-fed-%EC%9C%A0%EB%8F%99%EC%84%B1-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0%EC%9D%84-%EC%9C%84%ED%95%9C-repo-%ED%99%9C%EC%9A%A9-%EA%B6%8C%EC%9E%A5/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>NY Fed, 유동성 문제 해결을 위한 Repo 활용 권장 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>다우지수, 또 다른 기록 경신 예고 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>AI 기업들, 버블 우려 표명</title>
-    <link href="/posts/ai-%EA%B8%B0%EC%97%85%EB%93%A4-%EB%B2%84%EB%B8%94-%EC%9A%B0%EB%A0%A4-%ED%91%9C%EB%AA%85/" rel="alternate" type="text/html" title="AI 기업들, 버블 우려 표명" />
-    <published>2025-11-14T15:24:25+09:00</published>
-  
-    <updated>2025-11-14T15:24:25+09:00</updated>
-  
-    <id>/posts/ai-%EA%B8%B0%EC%97%85%EB%93%A4-%EB%B2%84%EB%B8%94-%EC%9A%B0%EB%A0%A4-%ED%91%9C%EB%AA%85/</id>
-    <content type="text/html" src="/posts/ai-%EA%B8%B0%EC%97%85%EB%93%A4-%EB%B2%84%EB%B8%94-%EC%9A%B0%EB%A0%A4-%ED%91%9C%EB%AA%85/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>AI 기업들, 버블 우려 표명 · 경제 뉴스 요약</summary>
 
   </entry>
 
