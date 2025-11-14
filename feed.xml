@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-14T15:25:14+09:00</updated>
+  <updated>2025-11-14T16:16:53+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,78 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>애틀랜타 연방준비은행 보스틱 총재 은퇴</title>
+    <link href="/posts/%EC%95%A0%ED%8B%80%EB%9E%9C%ED%83%80-%EC%97%B0%EB%B0%A9%EC%A4%80%EB%B9%84%EC%9D%80%ED%96%89-%EB%B3%B4%EC%8A%A4%ED%8B%B1-%EC%B4%9D%EC%9E%AC-%EC%9D%80%ED%87%B4/" rel="alternate" type="text/html" title="애틀랜타 연방준비은행 보스틱 총재 은퇴" />
+    <published>2025-11-14T16:16:21+09:00</published>
+  
+    <updated>2025-11-14T16:16:21+09:00</updated>
+  
+    <id>/posts/%EC%95%A0%ED%8B%80%EB%9E%9C%ED%83%80-%EC%97%B0%EB%B0%A9%EC%A4%80%EB%B9%84%EC%9D%80%ED%96%89-%EB%B3%B4%EC%8A%A4%ED%8B%B1-%EC%B4%9D%EC%9E%AC-%EC%9D%80%ED%87%B4/</id>
+    <content type="text/html" src="/posts/%EC%95%A0%ED%8B%80%EB%9E%9C%ED%83%80-%EC%97%B0%EB%B0%A9%EC%A4%80%EB%B9%84%EC%9D%80%ED%96%89-%EB%B3%B4%EC%8A%A4%ED%8B%B1-%EC%B4%9D%EC%9E%AC-%EC%9D%80%ED%87%B4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>애틀랜타 연방준비은행 보스틱 총재 은퇴 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>호주 주식, S&amp;P/ASX 200 1.36% 하락 마감</title>
+    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-136-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="호주 주식, S&amp;amp;P/ASX 200 1.36% 하락 마감" />
+    <published>2025-11-14T16:16:08+09:00</published>
+  
+    <updated>2025-11-14T16:16:08+09:00</updated>
+  
+    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-136-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/</id>
+    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-136-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>호주 주식, S&amp;amp;P/ASX 200 1.36% 하락 마감 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>트럼프, BBC에 10억 달러 소송 위협</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-bbc%EC%97%90-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%86%8C%EC%86%A1-%EC%9C%84%ED%98%91/" rel="alternate" type="text/html" title="트럼프, BBC에 10억 달러 소송 위협" />
+    <published>2025-11-14T16:15:46+09:00</published>
+  
+    <updated>2025-11-14T16:15:46+09:00</updated>
+  
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-bbc%EC%97%90-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%86%8C%EC%86%A1-%EC%9C%84%ED%98%91/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-bbc%EC%97%90-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%86%8C%EC%86%A1-%EC%9C%84%ED%98%91/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>트럼프, BBC에 10억 달러 소송 위협 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,78 +135,6 @@
   
 
   <summary>AI 기업들, 버블 우려 표명 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>12월에 연준 금리 인하할까? 트레이더의 생각</title>
-    <link href="/posts/12%EC%9B%94%EC%97%90-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%ED%95%A0%EA%B9%8C-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8D%94%EC%9D%98-%EC%83%9D%EA%B0%81/" rel="alternate" type="text/html" title="12월에 연준 금리 인하할까? 트레이더의 생각" />
-    <published>2025-11-14T14:16:10+09:00</published>
-  
-    <updated>2025-11-14T14:16:10+09:00</updated>
-  
-    <id>/posts/12%EC%9B%94%EC%97%90-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%ED%95%A0%EA%B9%8C-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8D%94%EC%9D%98-%EC%83%9D%EA%B0%81/</id>
-    <content type="text/html" src="/posts/12%EC%9B%94%EC%97%90-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%ED%95%A0%EA%B9%8C-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8D%94%EC%9D%98-%EC%83%9D%EA%B0%81/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>12월에 연준 금리 인하할까? 트레이더의 생각 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>의회 대마초 규제, 280억 달러 산업 위협</title>
-    <link href="/posts/%EC%9D%98%ED%9A%8C-%EB%8C%80%EB%A7%88%EC%B4%88-%EA%B7%9C%EC%A0%9C-280%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%82%B0%EC%97%85-%EC%9C%84%ED%98%91/" rel="alternate" type="text/html" title="의회 대마초 규제, 280억 달러 산업 위협" />
-    <published>2025-11-14T13:20:58+09:00</published>
-  
-    <updated>2025-11-14T13:20:58+09:00</updated>
-  
-    <id>/posts/%EC%9D%98%ED%9A%8C-%EB%8C%80%EB%A7%88%EC%B4%88-%EA%B7%9C%EC%A0%9C-280%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%82%B0%EC%97%85-%EC%9C%84%ED%98%91/</id>
-    <content type="text/html" src="/posts/%EC%9D%98%ED%9A%8C-%EB%8C%80%EB%A7%88%EC%B4%88-%EA%B7%9C%EC%A0%9C-280%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%82%B0%EC%97%85-%EC%9C%84%ED%98%91/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>의회 대마초 규제, 280억 달러 산업 위협 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>애플, '미니 앱' 수수료 절반으로 인하</title>
-    <link href="/posts/%EC%95%A0%ED%94%8C-%EB%AF%B8%EB%8B%88-%EC%95%B1-%EC%88%98%EC%88%98%EB%A3%8C-%EC%A0%88%EB%B0%98%EC%9C%BC%EB%A1%9C-%EC%9D%B8%ED%95%98/" rel="alternate" type="text/html" title="애플, &amp;apos;미니 앱&amp;apos; 수수료 절반으로 인하" />
-    <published>2025-11-14T13:20:39+09:00</published>
-  
-    <updated>2025-11-14T13:20:39+09:00</updated>
-  
-    <id>/posts/%EC%95%A0%ED%94%8C-%EB%AF%B8%EB%8B%88-%EC%95%B1-%EC%88%98%EC%88%98%EB%A3%8C-%EC%A0%88%EB%B0%98%EC%9C%BC%EB%A1%9C-%EC%9D%B8%ED%95%98/</id>
-    <content type="text/html" src="/posts/%EC%95%A0%ED%94%8C-%EB%AF%B8%EB%8B%88-%EC%95%B1-%EC%88%98%EC%88%98%EB%A3%8C-%EC%A0%88%EB%B0%98%EC%9C%BC%EB%A1%9C-%EC%9D%B8%ED%95%98/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>애플, &amp;#39;미니 앱&amp;#39; 수수료 절반으로 인하 · 경제 뉴스 요약</summary>
 
   </entry>
 
