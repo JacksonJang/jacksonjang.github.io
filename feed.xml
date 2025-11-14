@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-14T13:21:41+09:00</updated>
+  <updated>2025-11-14T14:16:51+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>12월에 연준 금리 인하할까? 트레이더의 생각</title>
+    <link href="/posts/12%EC%9B%94%EC%97%90-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%ED%95%A0%EA%B9%8C-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8D%94%EC%9D%98-%EC%83%9D%EA%B0%81/" rel="alternate" type="text/html" title="12월에 연준 금리 인하할까? 트레이더의 생각" />
+    <published>2025-11-14T14:16:10+09:00</published>
+  
+    <updated>2025-11-14T14:16:10+09:00</updated>
+  
+    <id>/posts/12%EC%9B%94%EC%97%90-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%ED%95%A0%EA%B9%8C-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8D%94%EC%9D%98-%EC%83%9D%EA%B0%81/</id>
+    <content type="text/html" src="/posts/12%EC%9B%94%EC%97%90-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%ED%95%A0%EA%B9%8C-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8D%94%EC%9D%98-%EC%83%9D%EA%B0%81/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>12월에 연준 금리 인하할까? 트레이더의 생각 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>동남아 최대 은행 CEO, AI 도입 성과 강조 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>리비안 CEO, 46억 달러 보상 패키지 전망</title>
-    <link href="/posts/%EB%A6%AC%EB%B9%84%EC%95%88-ceo-46%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%B3%B4%EC%83%81-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%A0%84%EB%A7%9D/" rel="alternate" type="text/html" title="리비안 CEO, 46억 달러 보상 패키지 전망" />
-    <published>2025-11-14T12:11:22+09:00</published>
-  
-    <updated>2025-11-14T12:11:22+09:00</updated>
-  
-    <id>/posts/%EB%A6%AC%EB%B9%84%EC%95%88-ceo-46%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%B3%B4%EC%83%81-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%A0%84%EB%A7%9D/</id>
-    <content type="text/html" src="/posts/%EB%A6%AC%EB%B9%84%EC%95%88-ceo-46%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%B3%B4%EC%83%81-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%A0%84%EB%A7%9D/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>리비안 CEO, 46억 달러 보상 패키지 전망 · 경제 뉴스 요약</summary>
 
   </entry>
 
