@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-15T05:20:03+09:00</updated>
+  <updated>2025-11-15T06:16:22+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>S&amp;P, Martin Midstream Partners 전망을 부정적으로 조정</title>
-    <link href="/posts/sp-martin-midstream-partners-%EC%A0%84%EB%A7%9D%EC%9D%84-%EB%B6%80%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="S&amp;amp;P, Martin Midstream Partners 전망을 부정적으로 조정" />
-    <published>2025-11-15T05:19:25+09:00</published>
+    <title>스타벅스 내부자 매수와 시장 반등 분석</title>
+    <link href="/posts/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EB%82%B4%EB%B6%80%EC%9E%90-%EB%A7%A4%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EB%B0%98%EB%93%B1-%EB%B6%84%EC%84%9D/" rel="alternate" type="text/html" title="스타벅스 내부자 매수와 시장 반등 분석" />
+    <published>2025-11-15T06:15:47+09:00</published>
   
-    <updated>2025-11-15T05:19:25+09:00</updated>
+    <updated>2025-11-15T06:15:47+09:00</updated>
   
-    <id>/posts/sp-martin-midstream-partners-%EC%A0%84%EB%A7%9D%EC%9D%84-%EB%B6%80%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%A1%B0%EC%A0%95/</id>
-    <content type="text/html" src="/posts/sp-martin-midstream-partners-%EC%A0%84%EB%A7%9D%EC%9D%84-%EB%B6%80%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%A1%B0%EC%A0%95/" />
+    <id>/posts/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EB%82%B4%EB%B6%80%EC%9E%90-%EB%A7%A4%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EB%B0%98%EB%93%B1-%EB%B6%84%EC%84%9D/</id>
+    <content type="text/html" src="/posts/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EB%82%B4%EB%B6%80%EC%9E%90-%EB%A7%A4%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EB%B0%98%EB%93%B1-%EB%B6%84%EC%84%9D/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>S&amp;amp;P, Martin Midstream Partners 전망을 부정적으로 조정 · 경제 뉴스 요약</summary>
+  <summary>스타벅스 내부자 매수와 시장 반등 분석 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>전국 전기요금 상승, 데이터 센터와의 관계</title>
-    <link href="/posts/%EC%A0%84%EA%B5%AD-%EC%A0%84%EA%B8%B0%EC%9A%94%EA%B8%88-%EC%83%81%EC%8A%B9-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0%EC%99%80%EC%9D%98-%EA%B4%80%EA%B3%84/" rel="alternate" type="text/html" title="전국 전기요금 상승, 데이터 센터와의 관계" />
-    <published>2025-11-15T05:19:09+09:00</published>
+    <title>Walmart CEO 재임 기간 주가 312% 상승</title>
+    <link href="/posts/walmart-ceo-%EC%9E%AC%EC%9E%84-%EA%B8%B0%EA%B0%84-%EC%A3%BC%EA%B0%80-312-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="Walmart CEO 재임 기간 주가 312% 상승" />
+    <published>2025-11-15T06:15:33+09:00</published>
   
-    <updated>2025-11-15T05:19:09+09:00</updated>
+    <updated>2025-11-15T06:15:33+09:00</updated>
   
-    <id>/posts/%EC%A0%84%EA%B5%AD-%EC%A0%84%EA%B8%B0%EC%9A%94%EA%B8%88-%EC%83%81%EC%8A%B9-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0%EC%99%80%EC%9D%98-%EA%B4%80%EA%B3%84/</id>
-    <content type="text/html" src="/posts/%EC%A0%84%EA%B5%AD-%EC%A0%84%EA%B8%B0%EC%9A%94%EA%B8%88-%EC%83%81%EC%8A%B9-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0%EC%99%80%EC%9D%98-%EA%B4%80%EA%B3%84/" />
+    <id>/posts/walmart-ceo-%EC%9E%AC%EC%9E%84-%EA%B8%B0%EA%B0%84-%EC%A3%BC%EA%B0%80-312-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/walmart-ceo-%EC%9E%AC%EC%9E%84-%EA%B8%B0%EA%B0%84-%EC%A3%BC%EA%B0%80-312-%EC%83%81%EC%8A%B9/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>전국 전기요금 상승, 데이터 센터와의 관계 · 경제 뉴스 요약</summary>
+  <summary>Walmart CEO 재임 기간 주가 312% 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>Neogen Corp. 신용등급 B+로 하향 조정</title>
-    <link href="/posts/neogen-corp-%EC%8B%A0%EC%9A%A9%EB%93%B1%EA%B8%89-b%EB%A1%9C-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="Neogen Corp. 신용등급 B+로 하향 조정" />
-    <published>2025-11-15T05:18:53+09:00</published>
+    <title>영국 농구 연맹, 재정 위기로 청산 절차 돌입</title>
+    <link href="/posts/%EC%98%81%EA%B5%AD-%EB%86%8D%EA%B5%AC-%EC%97%B0%EB%A7%B9-%EC%9E%AC%EC%A0%95-%EC%9C%84%EA%B8%B0%EB%A1%9C-%EC%B2%AD%EC%82%B0-%EC%A0%88%EC%B0%A8-%EB%8F%8C%EC%9E%85/" rel="alternate" type="text/html" title="영국 농구 연맹, 재정 위기로 청산 절차 돌입" />
+    <published>2025-11-15T06:15:17+09:00</published>
   
-    <updated>2025-11-15T05:18:53+09:00</updated>
+    <updated>2025-11-15T06:15:17+09:00</updated>
   
-    <id>/posts/neogen-corp-%EC%8B%A0%EC%9A%A9%EB%93%B1%EA%B8%89-b%EB%A1%9C-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/</id>
-    <content type="text/html" src="/posts/neogen-corp-%EC%8B%A0%EC%9A%A9%EB%93%B1%EA%B8%89-b%EB%A1%9C-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" />
+    <id>/posts/%EC%98%81%EA%B5%AD-%EB%86%8D%EA%B5%AC-%EC%97%B0%EB%A7%B9-%EC%9E%AC%EC%A0%95-%EC%9C%84%EA%B8%B0%EB%A1%9C-%EC%B2%AD%EC%82%B0-%EC%A0%88%EC%B0%A8-%EB%8F%8C%EC%9E%85/</id>
+    <content type="text/html" src="/posts/%EC%98%81%EA%B5%AD-%EB%86%8D%EA%B5%AC-%EC%97%B0%EB%A7%B9-%EC%9E%AC%EC%A0%95-%EC%9C%84%EA%B8%B0%EB%A1%9C-%EC%B2%AD%EC%82%B0-%EC%A0%88%EC%B0%A8-%EB%8F%8C%EC%9E%85/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>Neogen Corp. 신용등급 B+로 하향 조정 · 경제 뉴스 요약</summary>
+  <summary>영국 농구 연맹, 재정 위기로 청산 절차 돌입 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>S&amp;P, Olin Corp 전망을 부정적으로 조정</title>
-    <link href="/posts/sp-olin-corp-%EC%A0%84%EB%A7%9D%EC%9D%84-%EB%B6%80%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="S&amp;amp;P, Olin Corp 전망을 부정적으로 조정" />
-    <published>2025-11-15T05:18:39+09:00</published>
+    <title>우주 비행사 아내의 은행 계좌 접근 허위 진술 사건</title>
+    <link href="/posts/%EC%9A%B0%EC%A3%BC-%EB%B9%84%ED%96%89%EC%82%AC-%EC%95%84%EB%82%B4%EC%9D%98-%EC%9D%80%ED%96%89-%EA%B3%84%EC%A2%8C-%EC%A0%91%EA%B7%BC-%ED%97%88%EC%9C%84-%EC%A7%84%EC%88%A0-%EC%82%AC%EA%B1%B4/" rel="alternate" type="text/html" title="우주 비행사 아내의 은행 계좌 접근 허위 진술 사건" />
+    <published>2025-11-15T06:15:03+09:00</published>
   
-    <updated>2025-11-15T05:18:39+09:00</updated>
+    <updated>2025-11-15T06:15:03+09:00</updated>
   
-    <id>/posts/sp-olin-corp-%EC%A0%84%EB%A7%9D%EC%9D%84-%EB%B6%80%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%A1%B0%EC%A0%95/</id>
-    <content type="text/html" src="/posts/sp-olin-corp-%EC%A0%84%EB%A7%9D%EC%9D%84-%EB%B6%80%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%A1%B0%EC%A0%95/" />
+    <id>/posts/%EC%9A%B0%EC%A3%BC-%EB%B9%84%ED%96%89%EC%82%AC-%EC%95%84%EB%82%B4%EC%9D%98-%EC%9D%80%ED%96%89-%EA%B3%84%EC%A2%8C-%EC%A0%91%EA%B7%BC-%ED%97%88%EC%9C%84-%EC%A7%84%EC%88%A0-%EC%82%AC%EA%B1%B4/</id>
+    <content type="text/html" src="/posts/%EC%9A%B0%EC%A3%BC-%EB%B9%84%ED%96%89%EC%82%AC-%EC%95%84%EB%82%B4%EC%9D%98-%EC%9D%80%ED%96%89-%EA%B3%84%EC%A2%8C-%EC%A0%91%EA%B7%BC-%ED%97%88%EC%9C%84-%EC%A7%84%EC%88%A0-%EC%82%AC%EA%B1%B4/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>S&amp;amp;P, Olin Corp 전망을 부정적으로 조정 · 경제 뉴스 요약</summary>
+  <summary>우주 비행사 아내의 은행 계좌 접근 허위 진술 사건 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>AI, 내년 89% 일자리 영향 미칠 것</title>
-    <link href="/posts/ai-%EB%82%B4%EB%85%84-89-%EC%9D%BC%EC%9E%90%EB%A6%AC-%EC%98%81%ED%96%A5-%EB%AF%B8%EC%B9%A0-%EA%B2%83/" rel="alternate" type="text/html" title="AI, 내년 89% 일자리 영향 미칠 것" />
-    <published>2025-11-15T05:18:24+09:00</published>
+    <title>버크셔 해서웨이, 알파벳 신규 투자 공개</title>
+    <link href="/posts/%EB%B2%84%ED%81%AC%EC%85%94-%ED%95%B4%EC%84%9C%EC%9B%A8%EC%9D%B4-%EC%95%8C%ED%8C%8C%EB%B2%B3-%EC%8B%A0%EA%B7%9C-%ED%88%AC%EC%9E%90-%EA%B3%B5%EA%B0%9C/" rel="alternate" type="text/html" title="버크셔 해서웨이, 알파벳 신규 투자 공개" />
+    <published>2025-11-15T06:14:52+09:00</published>
   
-    <updated>2025-11-15T05:18:24+09:00</updated>
+    <updated>2025-11-15T06:14:52+09:00</updated>
   
-    <id>/posts/ai-%EB%82%B4%EB%85%84-89-%EC%9D%BC%EC%9E%90%EB%A6%AC-%EC%98%81%ED%96%A5-%EB%AF%B8%EC%B9%A0-%EA%B2%83/</id>
-    <content type="text/html" src="/posts/ai-%EB%82%B4%EB%85%84-89-%EC%9D%BC%EC%9E%90%EB%A6%AC-%EC%98%81%ED%96%A5-%EB%AF%B8%EC%B9%A0-%EA%B2%83/" />
+    <id>/posts/%EB%B2%84%ED%81%AC%EC%85%94-%ED%95%B4%EC%84%9C%EC%9B%A8%EC%9D%B4-%EC%95%8C%ED%8C%8C%EB%B2%B3-%EC%8B%A0%EA%B7%9C-%ED%88%AC%EC%9E%90-%EA%B3%B5%EA%B0%9C/</id>
+    <content type="text/html" src="/posts/%EB%B2%84%ED%81%AC%EC%85%94-%ED%95%B4%EC%84%9C%EC%9B%A8%EC%9D%B4-%EC%95%8C%ED%8C%8C%EB%B2%B3-%EC%8B%A0%EA%B7%9C-%ED%88%AC%EC%9E%90-%EA%B3%B5%EA%B0%9C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>AI, 내년 89% 일자리 영향 미칠 것 · 경제 뉴스 요약</summary>
+  <summary>버크셔 해서웨이, 알파벳 신규 투자 공개 · 경제 뉴스 요약</summary>
 
   </entry>
 
