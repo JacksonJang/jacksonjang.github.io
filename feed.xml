@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-14T14:16:51+09:00</updated>
+  <updated>2025-11-14T15:25:14+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>다우지수, 또 다른 기록 경신 예고</title>
+    <link href="/posts/%EB%8B%A4%EC%9A%B0%EC%A7%80%EC%88%98-%EB%98%90-%EB%8B%A4%EB%A5%B8-%EA%B8%B0%EB%A1%9D-%EA%B2%BD%EC%8B%A0-%EC%98%88%EA%B3%A0/" rel="alternate" type="text/html" title="다우지수, 또 다른 기록 경신 예고" />
+    <published>2025-11-14T15:24:38+09:00</published>
+  
+    <updated>2025-11-14T15:24:38+09:00</updated>
+  
+    <id>/posts/%EB%8B%A4%EC%9A%B0%EC%A7%80%EC%88%98-%EB%98%90-%EB%8B%A4%EB%A5%B8-%EA%B8%B0%EB%A1%9D-%EA%B2%BD%EC%8B%A0-%EC%98%88%EA%B3%A0/</id>
+    <content type="text/html" src="/posts/%EB%8B%A4%EC%9A%B0%EC%A7%80%EC%88%98-%EB%98%90-%EB%8B%A4%EB%A5%B8-%EA%B8%B0%EB%A1%9D-%EA%B2%BD%EC%8B%A0-%EC%98%88%EA%B3%A0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>다우지수, 또 다른 기록 경신 예고 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>AI 기업들, 버블 우려 표명</title>
+    <link href="/posts/ai-%EA%B8%B0%EC%97%85%EB%93%A4-%EB%B2%84%EB%B8%94-%EC%9A%B0%EB%A0%A4-%ED%91%9C%EB%AA%85/" rel="alternate" type="text/html" title="AI 기업들, 버블 우려 표명" />
+    <published>2025-11-14T15:24:25+09:00</published>
+  
+    <updated>2025-11-14T15:24:25+09:00</updated>
+  
+    <id>/posts/ai-%EA%B8%B0%EC%97%85%EB%93%A4-%EB%B2%84%EB%B8%94-%EC%9A%B0%EB%A0%A4-%ED%91%9C%EB%AA%85/</id>
+    <content type="text/html" src="/posts/ai-%EA%B8%B0%EC%97%85%EB%93%A4-%EB%B2%84%EB%B8%94-%EC%9A%B0%EB%A0%A4-%ED%91%9C%EB%AA%85/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>AI 기업들, 버블 우려 표명 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>애플, &amp;#39;미니 앱&amp;#39; 수수료 절반으로 인하 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>오라클, 부채 우려로 월가의 신뢰 하락</title>
-    <link href="/posts/%EC%98%A4%EB%9D%BC%ED%81%B4-%EB%B6%80%EC%B1%84-%EC%9A%B0%EB%A0%A4%EB%A1%9C-%EC%9B%94%EA%B0%80%EC%9D%98-%EC%8B%A0%EB%A2%B0-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="오라클, 부채 우려로 월가의 신뢰 하락" />
-    <published>2025-11-14T13:20:20+09:00</published>
-  
-    <updated>2025-11-14T13:20:20+09:00</updated>
-  
-    <id>/posts/%EC%98%A4%EB%9D%BC%ED%81%B4-%EB%B6%80%EC%B1%84-%EC%9A%B0%EB%A0%A4%EB%A1%9C-%EC%9B%94%EA%B0%80%EC%9D%98-%EC%8B%A0%EB%A2%B0-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/%EC%98%A4%EB%9D%BC%ED%81%B4-%EB%B6%80%EC%B1%84-%EC%9A%B0%EB%A0%A4%EB%A1%9C-%EC%9B%94%EA%B0%80%EC%9D%98-%EC%8B%A0%EB%A2%B0-%ED%95%98%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>오라클, 부채 우려로 월가의 신뢰 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>동남아 최대 은행 CEO, AI 도입 성과 강조</title>
-    <link href="/posts/%EB%8F%99%EB%82%A8%EC%95%84-%EC%B5%9C%EB%8C%80-%EC%9D%80%ED%96%89-ceo-ai-%EB%8F%84%EC%9E%85-%EC%84%B1%EA%B3%BC-%EA%B0%95%EC%A1%B0/" rel="alternate" type="text/html" title="동남아 최대 은행 CEO, AI 도입 성과 강조" />
-    <published>2025-11-14T13:20:04+09:00</published>
-  
-    <updated>2025-11-14T13:20:04+09:00</updated>
-  
-    <id>/posts/%EB%8F%99%EB%82%A8%EC%95%84-%EC%B5%9C%EB%8C%80-%EC%9D%80%ED%96%89-ceo-ai-%EB%8F%84%EC%9E%85-%EC%84%B1%EA%B3%BC-%EA%B0%95%EC%A1%B0/</id>
-    <content type="text/html" src="/posts/%EB%8F%99%EB%82%A8%EC%95%84-%EC%B5%9C%EB%8C%80-%EC%9D%80%ED%96%89-ceo-ai-%EB%8F%84%EC%9E%85-%EC%84%B1%EA%B3%BC-%EA%B0%95%EC%A1%B0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>동남아 최대 은행 CEO, AI 도입 성과 강조 · 경제 뉴스 요약</summary>
 
   </entry>
 
