@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-14T08:16:43+09:00</updated>
+  <updated>2025-11-14T10:14:12+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>다우지수, 기록적 종가 후 큰 하락</title>
-    <link href="/posts/%EB%8B%A4%EC%9A%B0%EC%A7%80%EC%88%98-%EA%B8%B0%EB%A1%9D%EC%A0%81-%EC%A2%85%EA%B0%80-%ED%9B%84-%ED%81%B0-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="다우지수, 기록적 종가 후 큰 하락" />
-    <published>2025-11-14T08:16:08+09:00</published>
+    <title>골드만삭스, 변호사 캐시 루믈러 지지</title>
+    <link href="/posts/%EA%B3%A8%EB%93%9C%EB%A7%8C%EC%82%AD%EC%8A%A4-%EB%B3%80%ED%98%B8%EC%82%AC-%EC%BA%90%EC%8B%9C-%EB%A3%A8%EB%AF%88%EB%9F%AC-%EC%A7%80%EC%A7%80/" rel="alternate" type="text/html" title="골드만삭스, 변호사 캐시 루믈러 지지" />
+    <published>2025-11-14T10:13:33+09:00</published>
   
-    <updated>2025-11-14T08:16:08+09:00</updated>
+    <updated>2025-11-14T10:13:33+09:00</updated>
   
-    <id>/posts/%EB%8B%A4%EC%9A%B0%EC%A7%80%EC%88%98-%EA%B8%B0%EB%A1%9D%EC%A0%81-%EC%A2%85%EA%B0%80-%ED%9B%84-%ED%81%B0-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/%EB%8B%A4%EC%9A%B0%EC%A7%80%EC%88%98-%EA%B8%B0%EB%A1%9D%EC%A0%81-%EC%A2%85%EA%B0%80-%ED%9B%84-%ED%81%B0-%ED%95%98%EB%9D%BD/" />
+    <id>/posts/%EA%B3%A8%EB%93%9C%EB%A7%8C%EC%82%AD%EC%8A%A4-%EB%B3%80%ED%98%B8%EC%82%AC-%EC%BA%90%EC%8B%9C-%EB%A3%A8%EB%AF%88%EB%9F%AC-%EC%A7%80%EC%A7%80/</id>
+    <content type="text/html" src="/posts/%EA%B3%A8%EB%93%9C%EB%A7%8C%EC%82%AD%EC%8A%A4-%EB%B3%80%ED%98%B8%EC%82%AC-%EC%BA%90%EC%8B%9C-%EB%A3%A8%EB%AF%88%EB%9F%AC-%EC%A7%80%EC%A7%80/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>다우지수, 기록적 종가 후 큰 하락 · 경제 뉴스 요약</summary>
+  <summary>골드만삭스, 변호사 캐시 루믈러 지지 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>10,000달러 지출, 투자금 인출할까?</title>
-    <link href="/posts/10000%EB%8B%AC%EB%9F%AC-%EC%A7%80%EC%B6%9C-%ED%88%AC%EC%9E%90%EA%B8%88-%EC%9D%B8%EC%B6%9C%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="10,000달러 지출, 투자금 인출할까?" />
-    <published>2025-11-14T08:15:53+09:00</published>
+    <title>언더아머, 스테판 커리와 결별 발표</title>
+    <link href="/posts/%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EC%8A%A4%ED%85%8C%ED%8C%90-%EC%BB%A4%EB%A6%AC%EC%99%80-%EA%B2%B0%EB%B3%84-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="언더아머, 스테판 커리와 결별 발표" />
+    <published>2025-11-14T10:13:19+09:00</published>
   
-    <updated>2025-11-14T08:15:53+09:00</updated>
+    <updated>2025-11-14T10:13:19+09:00</updated>
   
-    <id>/posts/10000%EB%8B%AC%EB%9F%AC-%EC%A7%80%EC%B6%9C-%ED%88%AC%EC%9E%90%EA%B8%88-%EC%9D%B8%EC%B6%9C%ED%95%A0%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/10000%EB%8B%AC%EB%9F%AC-%EC%A7%80%EC%B6%9C-%ED%88%AC%EC%9E%90%EA%B8%88-%EC%9D%B8%EC%B6%9C%ED%95%A0%EA%B9%8C/" />
+    <id>/posts/%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EC%8A%A4%ED%85%8C%ED%8C%90-%EC%BB%A4%EB%A6%AC%EC%99%80-%EA%B2%B0%EB%B3%84-%EB%B0%9C%ED%91%9C/</id>
+    <content type="text/html" src="/posts/%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EC%8A%A4%ED%85%8C%ED%8C%90-%EC%BB%A4%EB%A6%AC%EC%99%80-%EA%B2%B0%EB%B3%84-%EB%B0%9C%ED%91%9C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>10,000달러 지출, 투자금 인출할까? · 경제 뉴스 요약</summary>
+  <summary>언더아머, 스테판 커리와 결별 발표 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>IPO 시장, 복구 불가능하다는 Philippe Laffont</title>
-    <link href="/posts/ipo-%EC%8B%9C%EC%9E%A5-%EB%B3%B5%EA%B5%AC-%EB%B6%88%EA%B0%80%EB%8A%A5%ED%95%98%EB%8B%A4%EB%8A%94-philippe-laffont/" rel="alternate" type="text/html" title="IPO 시장, 복구 불가능하다는 Philippe Laffont" />
-    <published>2025-11-14T08:15:42+09:00</published>
+    <title>2026년 401(k) 한도, 내년 최대 저축액은?</title>
+    <link href="/posts/2026%EB%85%84-401k-%ED%95%9C%EB%8F%84-%EB%82%B4%EB%85%84-%EC%B5%9C%EB%8C%80-%EC%A0%80%EC%B6%95%EC%95%A1%EC%9D%80/" rel="alternate" type="text/html" title="2026년 401(k) 한도, 내년 최대 저축액은?" />
+    <published>2025-11-14T10:13:04+09:00</published>
   
-    <updated>2025-11-14T08:15:42+09:00</updated>
+    <updated>2025-11-14T10:13:04+09:00</updated>
   
-    <id>/posts/ipo-%EC%8B%9C%EC%9E%A5-%EB%B3%B5%EA%B5%AC-%EB%B6%88%EA%B0%80%EB%8A%A5%ED%95%98%EB%8B%A4%EB%8A%94-philippe-laffont/</id>
-    <content type="text/html" src="/posts/ipo-%EC%8B%9C%EC%9E%A5-%EB%B3%B5%EA%B5%AC-%EB%B6%88%EA%B0%80%EB%8A%A5%ED%95%98%EB%8B%A4%EB%8A%94-philippe-laffont/" />
+    <id>/posts/2026%EB%85%84-401k-%ED%95%9C%EB%8F%84-%EB%82%B4%EB%85%84-%EC%B5%9C%EB%8C%80-%EC%A0%80%EC%B6%95%EC%95%A1%EC%9D%80/</id>
+    <content type="text/html" src="/posts/2026%EB%85%84-401k-%ED%95%9C%EB%8F%84-%EB%82%B4%EB%85%84-%EC%B5%9C%EB%8C%80-%EC%A0%80%EC%B6%95%EC%95%A1%EC%9D%80/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>IPO 시장, 복구 불가능하다는 Philippe Laffont · 경제 뉴스 요약</summary>
+  <summary>2026년 401(k) 한도, 내년 최대 저축액은? · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>언더아머, 스테픈 커리와 결별</title>
-    <link href="/posts/%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EC%8A%A4%ED%85%8C%ED%94%88-%EC%BB%A4%EB%A6%AC%EC%99%80-%EA%B2%B0%EB%B3%84/" rel="alternate" type="text/html" title="언더아머, 스테픈 커리와 결별" />
-    <published>2025-11-14T08:15:29+09:00</published>
+    <title>소프트뱅크 주가 8% 급락, 3일 연속 하락세</title>
+    <link href="/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC-%EC%A3%BC%EA%B0%80-8-%EA%B8%89%EB%9D%BD-3%EC%9D%BC-%EC%97%B0%EC%86%8D-%ED%95%98%EB%9D%BD%EC%84%B8/" rel="alternate" type="text/html" title="소프트뱅크 주가 8% 급락, 3일 연속 하락세" />
+    <published>2025-11-14T10:12:46+09:00</published>
   
-    <updated>2025-11-14T08:15:29+09:00</updated>
+    <updated>2025-11-14T10:12:46+09:00</updated>
   
-    <id>/posts/%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EC%8A%A4%ED%85%8C%ED%94%88-%EC%BB%A4%EB%A6%AC%EC%99%80-%EA%B2%B0%EB%B3%84/</id>
-    <content type="text/html" src="/posts/%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EC%8A%A4%ED%85%8C%ED%94%88-%EC%BB%A4%EB%A6%AC%EC%99%80-%EA%B2%B0%EB%B3%84/" />
+    <id>/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC-%EC%A3%BC%EA%B0%80-8-%EA%B8%89%EB%9D%BD-3%EC%9D%BC-%EC%97%B0%EC%86%8D-%ED%95%98%EB%9D%BD%EC%84%B8/</id>
+    <content type="text/html" src="/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC-%EC%A3%BC%EA%B0%80-8-%EA%B8%89%EB%9D%BD-3%EC%9D%BC-%EC%97%B0%EC%86%8D-%ED%95%98%EB%9D%BD%EC%84%B8/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>언더아머, 스테픈 커리와 결별 · 경제 뉴스 요약</summary>
+  <summary>소프트뱅크 주가 8% 급락, 3일 연속 하락세 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>MLS, 2026년부터 Apple TV에서 스트리밍</title>
-    <link href="/posts/mls-2026%EB%85%84%EB%B6%80%ED%84%B0-apple-tv%EC%97%90%EC%84%9C-%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D/" rel="alternate" type="text/html" title="MLS, 2026년부터 Apple TV에서 스트리밍" />
-    <published>2025-11-14T08:15:19+09:00</published>
+    <title>트럼프 관세가 미국 소고기 가격 상승에 기여</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EA%B4%80%EC%84%B8%EA%B0%80-%EB%AF%B8%EA%B5%AD-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9-%EC%83%81%EC%8A%B9%EC%97%90-%EA%B8%B0%EC%97%AC/" rel="alternate" type="text/html" title="트럼프 관세가 미국 소고기 가격 상승에 기여" />
+    <published>2025-11-14T10:12:27+09:00</published>
   
-    <updated>2025-11-14T08:15:19+09:00</updated>
+    <updated>2025-11-14T10:12:27+09:00</updated>
   
-    <id>/posts/mls-2026%EB%85%84%EB%B6%80%ED%84%B0-apple-tv%EC%97%90%EC%84%9C-%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D/</id>
-    <content type="text/html" src="/posts/mls-2026%EB%85%84%EB%B6%80%ED%84%B0-apple-tv%EC%97%90%EC%84%9C-%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D/" />
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EA%B4%80%EC%84%B8%EA%B0%80-%EB%AF%B8%EA%B5%AD-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9-%EC%83%81%EC%8A%B9%EC%97%90-%EA%B8%B0%EC%97%AC/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EA%B4%80%EC%84%B8%EA%B0%80-%EB%AF%B8%EA%B5%AD-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9-%EC%83%81%EC%8A%B9%EC%97%90-%EA%B8%B0%EC%97%AC/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>MLS, 2026년부터 Apple TV에서 스트리밍 · 경제 뉴스 요약</summary>
+  <summary>트럼프 관세가 미국 소고기 가격 상승에 기여 · 경제 뉴스 요약</summary>
 
   </entry>
 
