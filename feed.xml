@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-16T03:21:10+09:00</updated>
+  <updated>2025-11-16T04:11:57+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>12월 금리 인하 신호, 연준 고위 관계자 발언</title>
+    <link href="/posts/12%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%8B%A0%ED%98%B8-%EC%97%B0%EC%A4%80-%EA%B3%A0%EC%9C%84-%EA%B4%80%EA%B3%84%EC%9E%90-%EB%B0%9C%EC%96%B8/" rel="alternate" type="text/html" title="12월 금리 인하 신호, 연준 고위 관계자 발언" />
+    <published>2025-11-16T04:11:16+09:00</published>
+  
+    <updated>2025-11-16T04:11:16+09:00</updated>
+  
+    <id>/posts/12%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%8B%A0%ED%98%B8-%EC%97%B0%EC%A4%80-%EA%B3%A0%EC%9C%84-%EA%B4%80%EA%B3%84%EC%9E%90-%EB%B0%9C%EC%96%B8/</id>
+    <content type="text/html" src="/posts/12%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%8B%A0%ED%98%B8-%EC%97%B0%EC%A4%80-%EA%B3%A0%EC%9C%84-%EA%B4%80%EA%B3%84%EC%9E%90-%EB%B0%9C%EC%96%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>12월 금리 인하 신호, 연준 고위 관계자 발언 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>AI와 전기차가 주목받는 인프라 주식 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>401(k) 대출, 신용카드 부채 해결책인가?</title>
-    <link href="/posts/401k-%EB%8C%80%EC%B6%9C-%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EB%B6%80%EC%B1%84-%ED%95%B4%EA%B2%B0%EC%B1%85%EC%9D%B8%EA%B0%80/" rel="alternate" type="text/html" title="401(k) 대출, 신용카드 부채 해결책인가?" />
-    <published>2025-11-16T02:12:56+09:00</published>
-  
-    <updated>2025-11-16T02:12:56+09:00</updated>
-  
-    <id>/posts/401k-%EB%8C%80%EC%B6%9C-%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EB%B6%80%EC%B1%84-%ED%95%B4%EA%B2%B0%EC%B1%85%EC%9D%B8%EA%B0%80/</id>
-    <content type="text/html" src="/posts/401k-%EB%8C%80%EC%B6%9C-%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EB%B6%80%EC%B1%84-%ED%95%B4%EA%B2%B0%EC%B1%85%EC%9D%B8%EA%B0%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>401(k) 대출, 신용카드 부채 해결책인가? · 경제 뉴스 요약</summary>
 
   </entry>
 
