@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-15T20:12:34+09:00</updated>
+  <updated>2025-11-15T21:29:36+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>주식 시장의 강력한 회전, 충격 요소는?</title>
+    <link href="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EA%B0%95%EB%A0%A5%ED%95%9C-%ED%9A%8C%EC%A0%84-%EC%B6%A9%EA%B2%A9-%EC%9A%94%EC%86%8C%EB%8A%94/" rel="alternate" type="text/html" title="주식 시장의 강력한 회전, 충격 요소는?" />
+    <published>2025-11-15T21:29:00+09:00</published>
+  
+    <updated>2025-11-15T21:29:00+09:00</updated>
+  
+    <id>/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EA%B0%95%EB%A0%A5%ED%95%9C-%ED%9A%8C%EC%A0%84-%EC%B6%A9%EA%B2%A9-%EC%9A%94%EC%86%8C%EB%8A%94/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EA%B0%95%EB%A0%A5%ED%95%9C-%ED%9A%8C%EC%A0%84-%EC%B6%A9%EA%B2%A9-%EC%9A%94%EC%86%8C%EB%8A%94/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>주식 시장의 강력한 회전, 충격 요소는? · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Berkshire Hathaway의 새로운 기술 투자</title>
+    <link href="/posts/berkshire-hathaway%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B8%B0%EC%88%A0-%ED%88%AC%EC%9E%90/" rel="alternate" type="text/html" title="Berkshire Hathaway의 새로운 기술 투자" />
+    <published>2025-11-15T21:28:48+09:00</published>
+  
+    <updated>2025-11-15T21:28:48+09:00</updated>
+  
+    <id>/posts/berkshire-hathaway%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B8%B0%EC%88%A0-%ED%88%AC%EC%9E%90/</id>
+    <content type="text/html" src="/posts/berkshire-hathaway%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B8%B0%EC%88%A0-%ED%88%AC%EC%9E%90/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Berkshire Hathaway의 새로운 기술 투자 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>11세에 가족의 생계부양자가 된 그녀의 이야기 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>대법원 판결 앞둔 시장, 백악관-연준 갈등 주목</title>
-    <link href="/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8C%90%EA%B2%B0-%EC%95%9E%EB%91%94-%EC%8B%9C%EC%9E%A5-%EB%B0%B1%EC%95%85%EA%B4%80-%EC%97%B0%EC%A4%80-%EA%B0%88%EB%93%B1-%EC%A3%BC%EB%AA%A9/" rel="alternate" type="text/html" title="대법원 판결 앞둔 시장, 백악관-연준 갈등 주목" />
-    <published>2025-11-15T15:22:00+09:00</published>
-  
-    <updated>2025-11-15T15:22:00+09:00</updated>
-  
-    <id>/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8C%90%EA%B2%B0-%EC%95%9E%EB%91%94-%EC%8B%9C%EC%9E%A5-%EB%B0%B1%EC%95%85%EA%B4%80-%EC%97%B0%EC%A4%80-%EA%B0%88%EB%93%B1-%EC%A3%BC%EB%AA%A9/</id>
-    <content type="text/html" src="/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8C%90%EA%B2%B0-%EC%95%9E%EB%91%94-%EC%8B%9C%EC%9E%A5-%EB%B0%B1%EC%95%85%EA%B4%80-%EC%97%B0%EC%A4%80-%EA%B0%88%EB%93%B1-%EC%A3%BC%EB%AA%A9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>대법원 판결 앞둔 시장, 백악관-연준 갈등 주목 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>연준의 기대가 사라지며 주식 하락</title>
-    <link href="/posts/%EC%97%B0%EC%A4%80%EC%9D%98-%EA%B8%B0%EB%8C%80%EA%B0%80-%EC%82%AC%EB%9D%BC%EC%A7%80%EB%A9%B0-%EC%A3%BC%EC%8B%9D-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="연준의 기대가 사라지며 주식 하락" />
-    <published>2025-11-15T14:15:32+09:00</published>
-  
-    <updated>2025-11-15T14:15:32+09:00</updated>
-  
-    <id>/posts/%EC%97%B0%EC%A4%80%EC%9D%98-%EA%B8%B0%EB%8C%80%EA%B0%80-%EC%82%AC%EB%9D%BC%EC%A7%80%EB%A9%B0-%EC%A3%BC%EC%8B%9D-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80%EC%9D%98-%EA%B8%B0%EB%8C%80%EA%B0%80-%EC%82%AC%EB%9D%BC%EC%A7%80%EB%A9%B0-%EC%A3%BC%EC%8B%9D-%ED%95%98%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>연준의 기대가 사라지며 주식 하락 · 경제 뉴스 요약</summary>
 
   </entry>
 
