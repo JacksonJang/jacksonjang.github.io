@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-16T00:16:13+09:00</updated>
+  <updated>2025-11-16T01:17:55+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>전 연준 총재 쿠글러, 윤리 조사 후 사임</title>
+    <link href="/posts/%EC%A0%84-%EC%97%B0%EC%A4%80-%EC%B4%9D%EC%9E%AC-%EC%BF%A0%EA%B8%80%EB%9F%AC-%EC%9C%A4%EB%A6%AC-%EC%A1%B0%EC%82%AC-%ED%9B%84-%EC%82%AC%EC%9E%84/" rel="alternate" type="text/html" title="전 연준 총재 쿠글러, 윤리 조사 후 사임" />
+    <published>2025-11-16T01:17:17+09:00</published>
+  
+    <updated>2025-11-16T01:17:17+09:00</updated>
+  
+    <id>/posts/%EC%A0%84-%EC%97%B0%EC%A4%80-%EC%B4%9D%EC%9E%AC-%EC%BF%A0%EA%B8%80%EB%9F%AC-%EC%9C%A4%EB%A6%AC-%EC%A1%B0%EC%82%AC-%ED%9B%84-%EC%82%AC%EC%9E%84/</id>
+    <content type="text/html" src="/posts/%EC%A0%84-%EC%97%B0%EC%A4%80-%EC%B4%9D%EC%9E%AC-%EC%BF%A0%EA%B8%80%EB%9F%AC-%EC%9C%A4%EB%A6%AC-%EC%A1%B0%EC%82%AC-%ED%9B%84-%EC%82%AC%EC%9E%84/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>전 연준 총재 쿠글러, 윤리 조사 후 사임 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>생애 주기별 생명보험 해지 시점 고려하기</title>
+    <link href="/posts/%EC%83%9D%EC%95%A0-%EC%A3%BC%EA%B8%B0%EB%B3%84-%EC%83%9D%EB%AA%85%EB%B3%B4%ED%97%98-%ED%95%B4%EC%A7%80-%EC%8B%9C%EC%A0%90-%EA%B3%A0%EB%A0%A4%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="생애 주기별 생명보험 해지 시점 고려하기" />
+    <published>2025-11-16T01:17:03+09:00</published>
+  
+    <updated>2025-11-16T01:17:03+09:00</updated>
+  
+    <id>/posts/%EC%83%9D%EC%95%A0-%EC%A3%BC%EA%B8%B0%EB%B3%84-%EC%83%9D%EB%AA%85%EB%B3%B4%ED%97%98-%ED%95%B4%EC%A7%80-%EC%8B%9C%EC%A0%90-%EA%B3%A0%EB%A0%A4%ED%95%98%EA%B8%B0/</id>
+    <content type="text/html" src="/posts/%EC%83%9D%EC%95%A0-%EC%A3%BC%EA%B8%B0%EB%B3%84-%EC%83%9D%EB%AA%85%EB%B3%B4%ED%97%98-%ED%95%B4%EC%A7%80-%EC%8B%9C%EC%A0%90-%EA%B3%A0%EB%A0%A4%ED%95%98%EA%B8%B0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>생애 주기별 생명보험 해지 시점 고려하기 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>아이비리그 심리학자가 말하는 좋은 부모의 습관 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>사회보장 연금 청구 관련 질문</title>
-    <link href="/posts/%EC%82%AC%ED%9A%8C%EB%B3%B4%EC%9E%A5-%EC%97%B0%EA%B8%88-%EC%B2%AD%EA%B5%AC-%EA%B4%80%EB%A0%A8-%EC%A7%88%EB%AC%B8/" rel="alternate" type="text/html" title="사회보장 연금 청구 관련 질문" />
-    <published>2025-11-16T00:14:47+09:00</published>
-  
-    <updated>2025-11-16T00:14:47+09:00</updated>
-  
-    <id>/posts/%EC%82%AC%ED%9A%8C%EB%B3%B4%EC%9E%A5-%EC%97%B0%EA%B8%88-%EC%B2%AD%EA%B5%AC-%EA%B4%80%EB%A0%A8-%EC%A7%88%EB%AC%B8/</id>
-    <content type="text/html" src="/posts/%EC%82%AC%ED%9A%8C%EB%B3%B4%EC%9E%A5-%EC%97%B0%EA%B8%88-%EC%B2%AD%EA%B5%AC-%EA%B4%80%EB%A0%A8-%EC%A7%88%EB%AC%B8/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>사회보장 연금 청구 관련 질문 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>투자 계좌 세 가지로 현금 손실 방지하기</title>
-    <link href="/posts/%ED%88%AC%EC%9E%90-%EA%B3%84%EC%A2%8C-%EC%84%B8-%EA%B0%80%EC%A7%80%EB%A1%9C-%ED%98%84%EA%B8%88-%EC%86%90%EC%8B%A4-%EB%B0%A9%EC%A7%80%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="투자 계좌 세 가지로 현금 손실 방지하기" />
-    <published>2025-11-16T00:14:24+09:00</published>
-  
-    <updated>2025-11-16T00:14:24+09:00</updated>
-  
-    <id>/posts/%ED%88%AC%EC%9E%90-%EA%B3%84%EC%A2%8C-%EC%84%B8-%EA%B0%80%EC%A7%80%EB%A1%9C-%ED%98%84%EA%B8%88-%EC%86%90%EC%8B%A4-%EB%B0%A9%EC%A7%80%ED%95%98%EA%B8%B0/</id>
-    <content type="text/html" src="/posts/%ED%88%AC%EC%9E%90-%EA%B3%84%EC%A2%8C-%EC%84%B8-%EA%B0%80%EC%A7%80%EB%A1%9C-%ED%98%84%EA%B8%88-%EC%86%90%EC%8B%A4-%EB%B0%A9%EC%A7%80%ED%95%98%EA%B8%B0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>투자 계좌 세 가지로 현금 손실 방지하기 · 경제 뉴스 요약</summary>
 
   </entry>
 
