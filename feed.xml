@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-15T19:15:47+09:00</updated>
+  <updated>2025-11-15T20:12:34+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>미국 선물 및 글로벌 시장 하락, 금리 인하 기대 무산</title>
+    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%84%A0%EB%AC%BC-%EB%B0%8F-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%8B%9C%EC%9E%A5-%ED%95%98%EB%9D%BD-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80-%EB%AC%B4%EC%82%B0/" rel="alternate" type="text/html" title="미국 선물 및 글로벌 시장 하락, 금리 인하 기대 무산" />
+    <published>2025-11-15T20:12:02+09:00</published>
+  
+    <updated>2025-11-15T20:12:02+09:00</updated>
+  
+    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%84%A0%EB%AC%BC-%EB%B0%8F-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%8B%9C%EC%9E%A5-%ED%95%98%EB%9D%BD-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80-%EB%AC%B4%EC%82%B0/</id>
+    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%84%A0%EB%AC%BC-%EB%B0%8F-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%8B%9C%EC%9E%A5-%ED%95%98%EB%9D%BD-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80-%EB%AC%B4%EC%82%B0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>미국 선물 및 글로벌 시장 하락, 금리 인하 기대 무산 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>연준의 기대가 사라지며 주식 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>12월 금리 인하에 대한 Fed의 의구심 증가</title>
-    <link href="/posts/12%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-fed%EC%9D%98-%EC%9D%98%EA%B5%AC%EC%8B%AC-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="12월 금리 인하에 대한 Fed의 의구심 증가" />
-    <published>2025-11-15T13:18:20+09:00</published>
-  
-    <updated>2025-11-15T13:18:20+09:00</updated>
-  
-    <id>/posts/12%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-fed%EC%9D%98-%EC%9D%98%EA%B5%AC%EC%8B%AC-%EC%A6%9D%EA%B0%80/</id>
-    <content type="text/html" src="/posts/12%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-fed%EC%9D%98-%EC%9D%98%EA%B5%AC%EC%8B%AC-%EC%A6%9D%EA%B0%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>12월 금리 인하에 대한 Fed의 의구심 증가 · 경제 뉴스 요약</summary>
 
   </entry>
 
