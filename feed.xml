@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-15T14:16:04+09:00</updated>
+  <updated>2025-11-15T15:22:38+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>대법원 판결 앞둔 시장, 백악관-연준 갈등 주목</title>
+    <link href="/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8C%90%EA%B2%B0-%EC%95%9E%EB%91%94-%EC%8B%9C%EC%9E%A5-%EB%B0%B1%EC%95%85%EA%B4%80-%EC%97%B0%EC%A4%80-%EA%B0%88%EB%93%B1-%EC%A3%BC%EB%AA%A9/" rel="alternate" type="text/html" title="대법원 판결 앞둔 시장, 백악관-연준 갈등 주목" />
+    <published>2025-11-15T15:22:00+09:00</published>
+  
+    <updated>2025-11-15T15:22:00+09:00</updated>
+  
+    <id>/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8C%90%EA%B2%B0-%EC%95%9E%EB%91%94-%EC%8B%9C%EC%9E%A5-%EB%B0%B1%EC%95%85%EA%B4%80-%EC%97%B0%EC%A4%80-%EA%B0%88%EB%93%B1-%EC%A3%BC%EB%AA%A9/</id>
+    <content type="text/html" src="/posts/%EB%8C%80%EB%B2%95%EC%9B%90-%ED%8C%90%EA%B2%B0-%EC%95%9E%EB%91%94-%EC%8B%9C%EC%9E%A5-%EB%B0%B1%EC%95%85%EA%B4%80-%EC%97%B0%EC%A4%80-%EA%B0%88%EB%93%B1-%EC%A3%BC%EB%AA%A9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>대법원 판결 앞둔 시장, 백악관-연준 갈등 주목 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>연준 금리 인하 가능성 축소로 주식 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Guggenheim CIO: Fed, 12월과 2026년에 금리 인하 전망</title>
-    <link href="/posts/guggenheim-cio-fed-12%EC%9B%94%EA%B3%BC-2026%EB%85%84%EC%97%90-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%A0%84%EB%A7%9D/" rel="alternate" type="text/html" title="Guggenheim CIO: Fed, 12월과 2026년에 금리 인하 전망" />
-    <published>2025-11-15T12:42:42+09:00</published>
-  
-    <updated>2025-11-15T12:42:42+09:00</updated>
-  
-    <id>/posts/guggenheim-cio-fed-12%EC%9B%94%EA%B3%BC-2026%EB%85%84%EC%97%90-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%A0%84%EB%A7%9D/</id>
-    <content type="text/html" src="/posts/guggenheim-cio-fed-12%EC%9B%94%EA%B3%BC-2026%EB%85%84%EC%97%90-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%A0%84%EB%A7%9D/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Guggenheim CIO: Fed, 12월과 2026년에 금리 인하 전망 · 경제 뉴스 요약</summary>
 
   </entry>
 
