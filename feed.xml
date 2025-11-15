@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-15T12:43:50+09:00</updated>
+  <updated>2025-11-15T13:18:58+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>12월 금리 인하에 대한 Fed의 의구심 증가</title>
+    <link href="/posts/12%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-fed%EC%9D%98-%EC%9D%98%EA%B5%AC%EC%8B%AC-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="12월 금리 인하에 대한 Fed의 의구심 증가" />
+    <published>2025-11-15T13:18:20+09:00</published>
+  
+    <updated>2025-11-15T13:18:20+09:00</updated>
+  
+    <id>/posts/12%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-fed%EC%9D%98-%EC%9D%98%EA%B5%AC%EC%8B%AC-%EC%A6%9D%EA%B0%80/</id>
+    <content type="text/html" src="/posts/12%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-fed%EC%9D%98-%EC%9D%98%EA%B5%AC%EC%8B%AC-%EC%A6%9D%EA%B0%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>12월 금리 인하에 대한 Fed의 의구심 증가 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>다우지수 800포인트 하락, 투자자 금리 인하 기대 줄여 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>구글과 디즈니, ESPN과 ABC를 유튜브TV에 복원</title>
-    <link href="/posts/%EA%B5%AC%EA%B8%80%EA%B3%BC-%EB%94%94%EC%A6%88%EB%8B%88-espn%EA%B3%BC-abc%EB%A5%BC-%EC%9C%A0%ED%8A%9C%EB%B8%8Ctv%EC%97%90-%EB%B3%B5%EC%9B%90/" rel="alternate" type="text/html" title="구글과 디즈니, ESPN과 ABC를 유튜브TV에 복원" />
-    <published>2025-11-15T10:10:25+09:00</published>
-  
-    <updated>2025-11-15T10:10:25+09:00</updated>
-  
-    <id>/posts/%EA%B5%AC%EA%B8%80%EA%B3%BC-%EB%94%94%EC%A6%88%EB%8B%88-espn%EA%B3%BC-abc%EB%A5%BC-%EC%9C%A0%ED%8A%9C%EB%B8%8Ctv%EC%97%90-%EB%B3%B5%EC%9B%90/</id>
-    <content type="text/html" src="/posts/%EA%B5%AC%EA%B8%80%EA%B3%BC-%EB%94%94%EC%A6%88%EB%8B%88-espn%EA%B3%BC-abc%EB%A5%BC-%EC%9C%A0%ED%8A%9C%EB%B8%8Ctv%EC%97%90-%EB%B3%B5%EC%9B%90/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>구글과 디즈니, ESPN과 ABC를 유튜브TV에 복원 · 경제 뉴스 요약</summary>
 
   </entry>
 
