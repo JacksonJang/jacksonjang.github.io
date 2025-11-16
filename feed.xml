@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-16T21:29:00+09:00</updated>
+  <updated>2025-11-16T22:22:32+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>500달러로 사기 좋은 S&amp;P 500 ETF</title>
+    <link href="/posts/500%EB%8B%AC%EB%9F%AC%EB%A1%9C-%EC%82%AC%EA%B8%B0-%EC%A2%8B%EC%9D%80-sp-500-etf/" rel="alternate" type="text/html" title="500달러로 사기 좋은 S&amp;amp;P 500 ETF" />
+    <published>2025-11-16T22:21:40+09:00</published>
+  
+    <updated>2025-11-16T22:21:40+09:00</updated>
+  
+    <id>/posts/500%EB%8B%AC%EB%9F%AC%EB%A1%9C-%EC%82%AC%EA%B8%B0-%EC%A2%8B%EC%9D%80-sp-500-etf/</id>
+    <content type="text/html" src="/posts/500%EB%8B%AC%EB%9F%AC%EB%A1%9C-%EC%82%AC%EA%B8%B0-%EC%A2%8B%EC%9D%80-sp-500-etf/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>500달러로 사기 좋은 S&amp;amp;P 500 ETF · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>연말 의료비 절감 전략과 보험 비용 상승</title>
+    <link href="/posts/%EC%97%B0%EB%A7%90-%EC%9D%98%EB%A3%8C%EB%B9%84-%EC%A0%88%EA%B0%90-%EC%A0%84%EB%9E%B5%EA%B3%BC-%EB%B3%B4%ED%97%98-%EB%B9%84%EC%9A%A9-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="연말 의료비 절감 전략과 보험 비용 상승" />
+    <published>2025-11-16T22:21:29+09:00</published>
+  
+    <updated>2025-11-16T22:21:29+09:00</updated>
+  
+    <id>/posts/%EC%97%B0%EB%A7%90-%EC%9D%98%EB%A3%8C%EB%B9%84-%EC%A0%88%EA%B0%90-%EC%A0%84%EB%9E%B5%EA%B3%BC-%EB%B3%B4%ED%97%98-%EB%B9%84%EC%9A%A9-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%EC%97%B0%EB%A7%90-%EC%9D%98%EB%A3%8C%EB%B9%84-%EC%A0%88%EA%B0%90-%EC%A0%84%EB%9E%B5%EA%B3%BC-%EB%B3%B4%ED%97%98-%EB%B9%84%EC%9A%A9-%EC%83%81%EC%8A%B9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>연말 의료비 절감 전략과 보험 비용 상승 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>S&amp;amp;P 500, 닷컴 버블 이전과 유사한 신호 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>뉴욕 연준, 주요 대출 시설 논의 위해 은행과 회의</title>
-    <link href="/posts/%EB%89%B4%EC%9A%95-%EC%97%B0%EC%A4%80-%EC%A3%BC%EC%9A%94-%EB%8C%80%EC%B6%9C-%EC%8B%9C%EC%84%A4-%EB%85%BC%EC%9D%98-%EC%9C%84%ED%95%B4-%EC%9D%80%ED%96%89%EA%B3%BC-%ED%9A%8C%EC%9D%98/" rel="alternate" type="text/html" title="뉴욕 연준, 주요 대출 시설 논의 위해 은행과 회의" />
-    <published>2025-11-16T16:15:00+09:00</published>
-  
-    <updated>2025-11-16T16:15:00+09:00</updated>
-  
-    <id>/posts/%EB%89%B4%EC%9A%95-%EC%97%B0%EC%A4%80-%EC%A3%BC%EC%9A%94-%EB%8C%80%EC%B6%9C-%EC%8B%9C%EC%84%A4-%EB%85%BC%EC%9D%98-%EC%9C%84%ED%95%B4-%EC%9D%80%ED%96%89%EA%B3%BC-%ED%9A%8C%EC%9D%98/</id>
-    <content type="text/html" src="/posts/%EB%89%B4%EC%9A%95-%EC%97%B0%EC%A4%80-%EC%A3%BC%EC%9A%94-%EB%8C%80%EC%B6%9C-%EC%8B%9C%EC%84%A4-%EB%85%BC%EC%9D%98-%EC%9C%84%ED%95%B4-%EC%9D%80%ED%96%89%EA%B3%BC-%ED%9A%8C%EC%9D%98/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>뉴욕 연준, 주요 대출 시설 논의 위해 은행과 회의 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>중국 소비자 돌아오나? 럭셔리 시장의 회복</title>
-    <link href="/posts/%EC%A4%91%EA%B5%AD-%EC%86%8C%EB%B9%84%EC%9E%90-%EB%8F%8C%EC%95%84%EC%98%A4%EB%82%98-%EB%9F%AD%EC%85%94%EB%A6%AC-%EC%8B%9C%EC%9E%A5%EC%9D%98-%ED%9A%8C%EB%B3%B5/" rel="alternate" type="text/html" title="중국 소비자 돌아오나? 럭셔리 시장의 회복" />
-    <published>2025-11-16T16:14:49+09:00</published>
-  
-    <updated>2025-11-16T16:14:49+09:00</updated>
-  
-    <id>/posts/%EC%A4%91%EA%B5%AD-%EC%86%8C%EB%B9%84%EC%9E%90-%EB%8F%8C%EC%95%84%EC%98%A4%EB%82%98-%EB%9F%AD%EC%85%94%EB%A6%AC-%EC%8B%9C%EC%9E%A5%EC%9D%98-%ED%9A%8C%EB%B3%B5/</id>
-    <content type="text/html" src="/posts/%EC%A4%91%EA%B5%AD-%EC%86%8C%EB%B9%84%EC%9E%90-%EB%8F%8C%EC%95%84%EC%98%A4%EB%82%98-%EB%9F%AD%EC%85%94%EB%A6%AC-%EC%8B%9C%EC%9E%A5%EC%9D%98-%ED%9A%8C%EB%B3%B5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>중국 소비자 돌아오나? 럭셔리 시장의 회복 · 경제 뉴스 요약</summary>
 
   </entry>
 
