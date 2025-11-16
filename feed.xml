@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-16T10:17:28+09:00</updated>
+  <updated>2025-11-16T12:16:13+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>금값 급등과 하락, 안정세로 돌아서다</title>
+    <link href="/posts/%EA%B8%88%EA%B0%92-%EA%B8%89%EB%93%B1%EA%B3%BC-%ED%95%98%EB%9D%BD-%EC%95%88%EC%A0%95%EC%84%B8%EB%A1%9C-%EB%8F%8C%EC%95%84%EC%84%9C%EB%8B%A4/" rel="alternate" type="text/html" title="금값 급등과 하락, 안정세로 돌아서다" />
+    <published>2025-11-16T12:15:38+09:00</published>
+  
+    <updated>2025-11-16T12:15:38+09:00</updated>
+  
+    <id>/posts/%EA%B8%88%EA%B0%92-%EA%B8%89%EB%93%B1%EA%B3%BC-%ED%95%98%EB%9D%BD-%EC%95%88%EC%A0%95%EC%84%B8%EB%A1%9C-%EB%8F%8C%EC%95%84%EC%84%9C%EB%8B%A4/</id>
+    <content type="text/html" src="/posts/%EA%B8%88%EA%B0%92-%EA%B8%89%EB%93%B1%EA%B3%BC-%ED%95%98%EB%9D%BD-%EC%95%88%EC%A0%95%EC%84%B8%EB%A1%9C-%EB%8F%8C%EC%95%84%EC%84%9C%EB%8B%A4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>금값 급등과 하락, 안정세로 돌아서다 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>달러 강세와 금값 하락, 금리 인하 기대감 감소</title>
+    <link href="/posts/%EB%8B%AC%EB%9F%AC-%EA%B0%95%EC%84%B8%EC%99%80-%EA%B8%88%EA%B0%92-%ED%95%98%EB%9D%BD-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90-%EA%B0%90%EC%86%8C/" rel="alternate" type="text/html" title="달러 강세와 금값 하락, 금리 인하 기대감 감소" />
+    <published>2025-11-16T12:15:27+09:00</published>
+  
+    <updated>2025-11-16T12:15:27+09:00</updated>
+  
+    <id>/posts/%EB%8B%AC%EB%9F%AC-%EA%B0%95%EC%84%B8%EC%99%80-%EA%B8%88%EA%B0%92-%ED%95%98%EB%9D%BD-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90-%EA%B0%90%EC%86%8C/</id>
+    <content type="text/html" src="/posts/%EB%8B%AC%EB%9F%AC-%EA%B0%95%EC%84%B8%EC%99%80-%EA%B8%88%EA%B0%92-%ED%95%98%EB%9D%BD-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90-%EA%B0%90%EC%86%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>달러 강세와 금값 하락, 금리 인하 기대감 감소 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>50대 이혼 후 재혼, 재정적 관점에서의 고려사항 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>고전차 판매, 사기 가능성 점검하기</title>
-    <link href="/posts/%EA%B3%A0%EC%A0%84%EC%B0%A8-%ED%8C%90%EB%A7%A4-%EC%82%AC%EA%B8%B0-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A0%90%EA%B2%80%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="고전차 판매, 사기 가능성 점검하기" />
-    <published>2025-11-16T06:13:27+09:00</published>
-  
-    <updated>2025-11-16T06:13:27+09:00</updated>
-  
-    <id>/posts/%EA%B3%A0%EC%A0%84%EC%B0%A8-%ED%8C%90%EB%A7%A4-%EC%82%AC%EA%B8%B0-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A0%90%EA%B2%80%ED%95%98%EA%B8%B0/</id>
-    <content type="text/html" src="/posts/%EA%B3%A0%EC%A0%84%EC%B0%A8-%ED%8C%90%EB%A7%A4-%EC%82%AC%EA%B8%B0-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A0%90%EA%B2%80%ED%95%98%EA%B8%B0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>고전차 판매, 사기 가능성 점검하기 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>MSFT와 NKE의 매수 레벨 분석</title>
-    <link href="/posts/msft%EC%99%80-nke%EC%9D%98-%EB%A7%A4%EC%88%98-%EB%A0%88%EB%B2%A8-%EB%B6%84%EC%84%9D/" rel="alternate" type="text/html" title="MSFT와 NKE의 매수 레벨 분석" />
-    <published>2025-11-16T06:13:13+09:00</published>
-  
-    <updated>2025-11-16T06:13:13+09:00</updated>
-  
-    <id>/posts/msft%EC%99%80-nke%EC%9D%98-%EB%A7%A4%EC%88%98-%EB%A0%88%EB%B2%A8-%EB%B6%84%EC%84%9D/</id>
-    <content type="text/html" src="/posts/msft%EC%99%80-nke%EC%9D%98-%EB%A7%A4%EC%88%98-%EB%A0%88%EB%B2%A8-%EB%B6%84%EC%84%9D/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>MSFT와 NKE의 매수 레벨 분석 · 경제 뉴스 요약</summary>
 
   </entry>
 
