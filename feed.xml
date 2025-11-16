@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-16T12:16:13+09:00</updated>
+  <updated>2025-11-16T13:23:00+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>금값 하락, 연준 금리 인하 기대감 약화</title>
+    <link href="/posts/%EA%B8%88%EA%B0%92-%ED%95%98%EB%9D%BD-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90-%EC%95%BD%ED%99%94/" rel="alternate" type="text/html" title="금값 하락, 연준 금리 인하 기대감 약화" />
+    <published>2025-11-16T13:22:14+09:00</published>
+  
+    <updated>2025-11-16T13:22:14+09:00</updated>
+  
+    <id>/posts/%EA%B8%88%EA%B0%92-%ED%95%98%EB%9D%BD-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90-%EC%95%BD%ED%99%94/</id>
+    <content type="text/html" src="/posts/%EA%B8%88%EA%B0%92-%ED%95%98%EB%9D%BD-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90-%EC%95%BD%ED%99%94/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>금값 하락, 연준 금리 인하 기대감 약화 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>전 연준 관계자, 불법 주식 거래로 윤리 조사 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>50대 이혼 후 재혼, 재정적 관점에서의 고려사항</title>
-    <link href="/posts/50%EB%8C%80-%EC%9D%B4%ED%98%BC-%ED%9B%84-%EC%9E%AC%ED%98%BC-%EC%9E%AC%EC%A0%95%EC%A0%81-%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%EC%9D%98-%EA%B3%A0%EB%A0%A4%EC%82%AC%ED%95%AD/" rel="alternate" type="text/html" title="50대 이혼 후 재혼, 재정적 관점에서의 고려사항" />
-    <published>2025-11-16T07:12:20+09:00</published>
-  
-    <updated>2025-11-16T07:12:20+09:00</updated>
-  
-    <id>/posts/50%EB%8C%80-%EC%9D%B4%ED%98%BC-%ED%9B%84-%EC%9E%AC%ED%98%BC-%EC%9E%AC%EC%A0%95%EC%A0%81-%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%EC%9D%98-%EA%B3%A0%EB%A0%A4%EC%82%AC%ED%95%AD/</id>
-    <content type="text/html" src="/posts/50%EB%8C%80-%EC%9D%B4%ED%98%BC-%ED%9B%84-%EC%9E%AC%ED%98%BC-%EC%9E%AC%EC%A0%95%EC%A0%81-%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%EC%9D%98-%EA%B3%A0%EB%A0%A4%EC%82%AC%ED%95%AD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>50대 이혼 후 재혼, 재정적 관점에서의 고려사항 · 경제 뉴스 요약</summary>
 
   </entry>
 
