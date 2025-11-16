@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-16T15:22:53+09:00</updated>
+  <updated>2025-11-16T16:15:33+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,78 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>뉴욕 연준, 주요 대출 시설 논의 위해 은행과 회의</title>
+    <link href="/posts/%EB%89%B4%EC%9A%95-%EC%97%B0%EC%A4%80-%EC%A3%BC%EC%9A%94-%EB%8C%80%EC%B6%9C-%EC%8B%9C%EC%84%A4-%EB%85%BC%EC%9D%98-%EC%9C%84%ED%95%B4-%EC%9D%80%ED%96%89%EA%B3%BC-%ED%9A%8C%EC%9D%98/" rel="alternate" type="text/html" title="뉴욕 연준, 주요 대출 시설 논의 위해 은행과 회의" />
+    <published>2025-11-16T16:15:00+09:00</published>
+  
+    <updated>2025-11-16T16:15:00+09:00</updated>
+  
+    <id>/posts/%EB%89%B4%EC%9A%95-%EC%97%B0%EC%A4%80-%EC%A3%BC%EC%9A%94-%EB%8C%80%EC%B6%9C-%EC%8B%9C%EC%84%A4-%EB%85%BC%EC%9D%98-%EC%9C%84%ED%95%B4-%EC%9D%80%ED%96%89%EA%B3%BC-%ED%9A%8C%EC%9D%98/</id>
+    <content type="text/html" src="/posts/%EB%89%B4%EC%9A%95-%EC%97%B0%EC%A4%80-%EC%A3%BC%EC%9A%94-%EB%8C%80%EC%B6%9C-%EC%8B%9C%EC%84%A4-%EB%85%BC%EC%9D%98-%EC%9C%84%ED%95%B4-%EC%9D%80%ED%96%89%EA%B3%BC-%ED%9A%8C%EC%9D%98/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>뉴욕 연준, 주요 대출 시설 논의 위해 은행과 회의 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>중국 소비자 돌아오나? 럭셔리 시장의 회복</title>
+    <link href="/posts/%EC%A4%91%EA%B5%AD-%EC%86%8C%EB%B9%84%EC%9E%90-%EB%8F%8C%EC%95%84%EC%98%A4%EB%82%98-%EB%9F%AD%EC%85%94%EB%A6%AC-%EC%8B%9C%EC%9E%A5%EC%9D%98-%ED%9A%8C%EB%B3%B5/" rel="alternate" type="text/html" title="중국 소비자 돌아오나? 럭셔리 시장의 회복" />
+    <published>2025-11-16T16:14:49+09:00</published>
+  
+    <updated>2025-11-16T16:14:49+09:00</updated>
+  
+    <id>/posts/%EC%A4%91%EA%B5%AD-%EC%86%8C%EB%B9%84%EC%9E%90-%EB%8F%8C%EC%95%84%EC%98%A4%EB%82%98-%EB%9F%AD%EC%85%94%EB%A6%AC-%EC%8B%9C%EC%9E%A5%EC%9D%98-%ED%9A%8C%EB%B3%B5/</id>
+    <content type="text/html" src="/posts/%EC%A4%91%EA%B5%AD-%EC%86%8C%EB%B9%84%EC%9E%90-%EB%8F%8C%EC%95%84%EC%98%A4%EB%82%98-%EB%9F%AD%EC%85%94%EB%A6%AC-%EC%8B%9C%EC%9E%A5%EC%9D%98-%ED%9A%8C%EB%B3%B5/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>중국 소비자 돌아오나? 럭셔리 시장의 회복 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>AI로 주니어 직원을 대체하면 인재 위기 초래</title>
+    <link href="/posts/ai%EB%A1%9C-%EC%A3%BC%EB%8B%88%EC%96%B4-%EC%A7%81%EC%9B%90%EC%9D%84-%EB%8C%80%EC%B2%B4%ED%95%98%EB%A9%B4-%EC%9D%B8%EC%9E%AC-%EC%9C%84%EA%B8%B0-%EC%B4%88%EB%9E%98/" rel="alternate" type="text/html" title="AI로 주니어 직원을 대체하면 인재 위기 초래" />
+    <published>2025-11-16T16:14:38+09:00</published>
+  
+    <updated>2025-11-16T16:14:38+09:00</updated>
+  
+    <id>/posts/ai%EB%A1%9C-%EC%A3%BC%EB%8B%88%EC%96%B4-%EC%A7%81%EC%9B%90%EC%9D%84-%EB%8C%80%EC%B2%B4%ED%95%98%EB%A9%B4-%EC%9D%B8%EC%9E%AC-%EC%9C%84%EA%B8%B0-%EC%B4%88%EB%9E%98/</id>
+    <content type="text/html" src="/posts/ai%EB%A1%9C-%EC%A3%BC%EB%8B%88%EC%96%B4-%EC%A7%81%EC%9B%90%EC%9D%84-%EB%8C%80%EC%B2%B4%ED%95%98%EB%A9%B4-%EC%9D%B8%EC%9E%AC-%EC%9C%84%EA%B8%B0-%EC%B4%88%EB%9E%98/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>AI로 주니어 직원을 대체하면 인재 위기 초래 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,78 +135,6 @@
   
 
   <summary>S&amp;amp;P 500: DoorDash 파트너십으로 상승, Bristol-Myers 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>주식시장 혼조세, 연준 발언으로 금리 동결 전망</title>
-    <link href="/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8-%EC%97%B0%EC%A4%80-%EB%B0%9C%EC%96%B8%EC%9C%BC%EB%A1%9C-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EC%A0%84%EB%A7%9D/" rel="alternate" type="text/html" title="주식시장 혼조세, 연준 발언으로 금리 동결 전망" />
-    <published>2025-11-16T14:15:32+09:00</published>
-  
-    <updated>2025-11-16T14:15:32+09:00</updated>
-  
-    <id>/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8-%EC%97%B0%EC%A4%80-%EB%B0%9C%EC%96%B8%EC%9C%BC%EB%A1%9C-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EC%A0%84%EB%A7%9D/</id>
-    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%ED%98%BC%EC%A1%B0%EC%84%B8-%EC%97%B0%EC%A4%80-%EB%B0%9C%EC%96%B8%EC%9C%BC%EB%A1%9C-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EC%A0%84%EB%A7%9D/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>주식시장 혼조세, 연준 발언으로 금리 동결 전망 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>금값 하락, 연준 금리 인하 기대감 약화</title>
-    <link href="/posts/%EA%B8%88%EA%B0%92-%ED%95%98%EB%9D%BD-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90-%EC%95%BD%ED%99%94/" rel="alternate" type="text/html" title="금값 하락, 연준 금리 인하 기대감 약화" />
-    <published>2025-11-16T13:22:14+09:00</published>
-  
-    <updated>2025-11-16T13:22:14+09:00</updated>
-  
-    <id>/posts/%EA%B8%88%EA%B0%92-%ED%95%98%EB%9D%BD-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90-%EC%95%BD%ED%99%94/</id>
-    <content type="text/html" src="/posts/%EA%B8%88%EA%B0%92-%ED%95%98%EB%9D%BD-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90-%EC%95%BD%ED%99%94/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>금값 하락, 연준 금리 인하 기대감 약화 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>금값 급등과 하락, 안정세로 돌아서다</title>
-    <link href="/posts/%EA%B8%88%EA%B0%92-%EA%B8%89%EB%93%B1%EA%B3%BC-%ED%95%98%EB%9D%BD-%EC%95%88%EC%A0%95%EC%84%B8%EB%A1%9C-%EB%8F%8C%EC%95%84%EC%84%9C%EB%8B%A4/" rel="alternate" type="text/html" title="금값 급등과 하락, 안정세로 돌아서다" />
-    <published>2025-11-16T12:15:38+09:00</published>
-  
-    <updated>2025-11-16T12:15:38+09:00</updated>
-  
-    <id>/posts/%EA%B8%88%EA%B0%92-%EA%B8%89%EB%93%B1%EA%B3%BC-%ED%95%98%EB%9D%BD-%EC%95%88%EC%A0%95%EC%84%B8%EB%A1%9C-%EB%8F%8C%EC%95%84%EC%84%9C%EB%8B%A4/</id>
-    <content type="text/html" src="/posts/%EA%B8%88%EA%B0%92-%EA%B8%89%EB%93%B1%EA%B3%BC-%ED%95%98%EB%9D%BD-%EC%95%88%EC%A0%95%EC%84%B8%EB%A1%9C-%EB%8F%8C%EC%95%84%EC%84%9C%EB%8B%A4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>금값 급등과 하락, 안정세로 돌아서다 · 경제 뉴스 요약</summary>
 
   </entry>
 
