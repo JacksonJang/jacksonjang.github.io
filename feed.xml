@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-16T20:12:32+09:00</updated>
+  <updated>2025-11-16T21:29:00+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>포드의 새로운 본사: 디자인과 혁신의 중심</title>
+    <link href="/posts/%ED%8F%AC%EB%93%9C%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%B3%B8%EC%82%AC-%EB%94%94%EC%9E%90%EC%9D%B8%EA%B3%BC-%ED%98%81%EC%8B%A0%EC%9D%98-%EC%A4%91%EC%8B%AC/" rel="alternate" type="text/html" title="포드의 새로운 본사: 디자인과 혁신의 중심" />
+    <published>2025-11-16T21:28:26+09:00</published>
+  
+    <updated>2025-11-16T21:28:26+09:00</updated>
+  
+    <id>/posts/%ED%8F%AC%EB%93%9C%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%B3%B8%EC%82%AC-%EB%94%94%EC%9E%90%EC%9D%B8%EA%B3%BC-%ED%98%81%EC%8B%A0%EC%9D%98-%EC%A4%91%EC%8B%AC/</id>
+    <content type="text/html" src="/posts/%ED%8F%AC%EB%93%9C%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%B3%B8%EC%82%AC-%EB%94%94%EC%9E%90%EC%9D%B8%EA%B3%BC-%ED%98%81%EC%8B%A0%EC%9D%98-%EC%A4%91%EC%8B%AC/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>포드의 새로운 본사: 디자인과 혁신의 중심 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>월가 애널리스트들이 추천하는 3개 배당주</title>
+    <link href="/posts/%EC%9B%94%EA%B0%80-%EC%95%A0%EB%84%90%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%93%A4%EC%9D%B4-%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94-3%EA%B0%9C-%EB%B0%B0%EB%8B%B9%EC%A3%BC/" rel="alternate" type="text/html" title="월가 애널리스트들이 추천하는 3개 배당주" />
+    <published>2025-11-16T21:28:12+09:00</published>
+  
+    <updated>2025-11-16T21:28:12+09:00</updated>
+  
+    <id>/posts/%EC%9B%94%EA%B0%80-%EC%95%A0%EB%84%90%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%93%A4%EC%9D%B4-%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94-3%EA%B0%9C-%EB%B0%B0%EB%8B%B9%EC%A3%BC/</id>
+    <content type="text/html" src="/posts/%EC%9B%94%EA%B0%80-%EC%95%A0%EB%84%90%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%93%A4%EC%9D%B4-%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94-3%EA%B0%9C-%EB%B0%B0%EB%8B%B9%EC%A3%BC/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>월가 애널리스트들이 추천하는 3개 배당주 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>중국 소비자 돌아오나? 럭셔리 시장의 회복 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>AI로 주니어 직원을 대체하면 인재 위기 초래</title>
-    <link href="/posts/ai%EB%A1%9C-%EC%A3%BC%EB%8B%88%EC%96%B4-%EC%A7%81%EC%9B%90%EC%9D%84-%EB%8C%80%EC%B2%B4%ED%95%98%EB%A9%B4-%EC%9D%B8%EC%9E%AC-%EC%9C%84%EA%B8%B0-%EC%B4%88%EB%9E%98/" rel="alternate" type="text/html" title="AI로 주니어 직원을 대체하면 인재 위기 초래" />
-    <published>2025-11-16T16:14:38+09:00</published>
-  
-    <updated>2025-11-16T16:14:38+09:00</updated>
-  
-    <id>/posts/ai%EB%A1%9C-%EC%A3%BC%EB%8B%88%EC%96%B4-%EC%A7%81%EC%9B%90%EC%9D%84-%EB%8C%80%EC%B2%B4%ED%95%98%EB%A9%B4-%EC%9D%B8%EC%9E%AC-%EC%9C%84%EA%B8%B0-%EC%B4%88%EB%9E%98/</id>
-    <content type="text/html" src="/posts/ai%EB%A1%9C-%EC%A3%BC%EB%8B%88%EC%96%B4-%EC%A7%81%EC%9B%90%EC%9D%84-%EB%8C%80%EC%B2%B4%ED%95%98%EB%A9%B4-%EC%9D%B8%EC%9E%AC-%EC%9C%84%EA%B8%B0-%EC%B4%88%EB%9E%98/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>AI로 주니어 직원을 대체하면 인재 위기 초래 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>주식 시장: 다우, S&amp;P 500, 나스닥 혼조 마감</title>
-    <link href="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%ED%98%BC%EC%A1%B0-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="주식 시장: 다우, S&amp;amp;P 500, 나스닥 혼조 마감" />
-    <published>2025-11-16T14:15:53+09:00</published>
-  
-    <updated>2025-11-16T14:15:53+09:00</updated>
-  
-    <id>/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%ED%98%BC%EC%A1%B0-%EB%A7%88%EA%B0%90/</id>
-    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%ED%98%BC%EC%A1%B0-%EB%A7%88%EA%B0%90/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>주식 시장: 다우, S&amp;amp;P 500, 나스닥 혼조 마감 · 경제 뉴스 요약</summary>
 
   </entry>
 
