@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-16T18:15:48+09:00</updated>
+  <updated>2025-11-16T19:16:39+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>S&amp;P 500, 닷컴 버블 이전과 유사한 신호</title>
+    <link href="/posts/sp-500-%EB%8B%B7%EC%BB%B4-%EB%B2%84%EB%B8%94-%EC%9D%B4%EC%A0%84%EA%B3%BC-%EC%9C%A0%EC%82%AC%ED%95%9C-%EC%8B%A0%ED%98%B8/" rel="alternate" type="text/html" title="S&amp;amp;P 500, 닷컴 버블 이전과 유사한 신호" />
+    <published>2025-11-16T19:16:04+09:00</published>
+  
+    <updated>2025-11-16T19:16:04+09:00</updated>
+  
+    <id>/posts/sp-500-%EB%8B%B7%EC%BB%B4-%EB%B2%84%EB%B8%94-%EC%9D%B4%EC%A0%84%EA%B3%BC-%EC%9C%A0%EC%82%AC%ED%95%9C-%EC%8B%A0%ED%98%B8/</id>
+    <content type="text/html" src="/posts/sp-500-%EB%8B%B7%EC%BB%B4-%EB%B2%84%EB%B8%94-%EC%9D%B4%EC%A0%84%EA%B3%BC-%EC%9C%A0%EC%82%AC%ED%95%9C-%EC%8B%A0%ED%98%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>S&amp;amp;P 500, 닷컴 버블 이전과 유사한 신호 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>주식 시장: 다우, S&amp;amp;P 500, 나스닥 혼조 마감 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>S&amp;P 500: DoorDash 파트너십으로 상승, Bristol-Myers 하락</title>
-    <link href="/posts/sp-500-doordash-%ED%8C%8C%ED%8A%B8%EB%84%88%EC%8B%AD%EC%9C%BC%EB%A1%9C-%EC%83%81%EC%8A%B9-bristol-myers-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="S&amp;amp;P 500: DoorDash 파트너십으로 상승, Bristol-Myers 하락" />
-    <published>2025-11-16T14:15:42+09:00</published>
-  
-    <updated>2025-11-16T14:15:42+09:00</updated>
-  
-    <id>/posts/sp-500-doordash-%ED%8C%8C%ED%8A%B8%EB%84%88%EC%8B%AD%EC%9C%BC%EB%A1%9C-%EC%83%81%EC%8A%B9-bristol-myers-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/sp-500-doordash-%ED%8C%8C%ED%8A%B8%EB%84%88%EC%8B%AD%EC%9C%BC%EB%A1%9C-%EC%83%81%EC%8A%B9-bristol-myers-%ED%95%98%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>S&amp;amp;P 500: DoorDash 파트너십으로 상승, Bristol-Myers 하락 · 경제 뉴스 요약</summary>
 
   </entry>
 
