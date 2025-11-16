@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-17T07:15:21+09:00</updated>
+  <updated>2025-11-17T08:15:09+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>마법 같은 투자 연도의 끝과 안전한 주식</title>
+    <link href="/posts/%EB%A7%88%EB%B2%95-%EA%B0%99%EC%9D%80-%ED%88%AC%EC%9E%90-%EC%97%B0%EB%8F%84%EC%9D%98-%EB%81%9D%EA%B3%BC-%EC%95%88%EC%A0%84%ED%95%9C-%EC%A3%BC%EC%8B%9D/" rel="alternate" type="text/html" title="마법 같은 투자 연도의 끝과 안전한 주식" />
+    <published>2025-11-17T08:14:34+09:00</published>
+  
+    <updated>2025-11-17T08:14:34+09:00</updated>
+  
+    <id>/posts/%EB%A7%88%EB%B2%95-%EA%B0%99%EC%9D%80-%ED%88%AC%EC%9E%90-%EC%97%B0%EB%8F%84%EC%9D%98-%EB%81%9D%EA%B3%BC-%EC%95%88%EC%A0%84%ED%95%9C-%EC%A3%BC%EC%8B%9D/</id>
+    <content type="text/html" src="/posts/%EB%A7%88%EB%B2%95-%EA%B0%99%EC%9D%80-%ED%88%AC%EC%9E%90-%EC%97%B0%EB%8F%84%EC%9D%98-%EB%81%9D%EA%B3%BC-%EC%95%88%EC%A0%84%ED%95%9C-%EC%A3%BC%EC%8B%9D/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>마법 같은 투자 연도의 끝과 안전한 주식 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>워렌 버핏의 신입 투자자를 위한 조언 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Chevron과 Exxon, 유가 하락에도 생산 확대 계획</title>
-    <link href="/posts/chevron%EA%B3%BC-exxon-%EC%9C%A0%EA%B0%80-%ED%95%98%EB%9D%BD%EC%97%90%EB%8F%84-%EC%83%9D%EC%82%B0-%ED%99%95%EB%8C%80-%EA%B3%84%ED%9A%8D/" rel="alternate" type="text/html" title="Chevron과 Exxon, 유가 하락에도 생산 확대 계획" />
-    <published>2025-11-17T05:16:50+09:00</published>
-  
-    <updated>2025-11-17T05:16:50+09:00</updated>
-  
-    <id>/posts/chevron%EA%B3%BC-exxon-%EC%9C%A0%EA%B0%80-%ED%95%98%EB%9D%BD%EC%97%90%EB%8F%84-%EC%83%9D%EC%82%B0-%ED%99%95%EB%8C%80-%EA%B3%84%ED%9A%8D/</id>
-    <content type="text/html" src="/posts/chevron%EA%B3%BC-exxon-%EC%9C%A0%EA%B0%80-%ED%95%98%EB%9D%BD%EC%97%90%EB%8F%84-%EC%83%9D%EC%82%B0-%ED%99%95%EB%8C%80-%EA%B3%84%ED%9A%8D/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Chevron과 Exxon, 유가 하락에도 생산 확대 계획 · 경제 뉴스 요약</summary>
 
   </entry>
 
