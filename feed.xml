@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-17T02:14:11+09:00</updated>
+  <updated>2025-11-17T03:21:14+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>이번 주 주목할 경제 이슈 및 주식</title>
+    <link href="/posts/%EC%9D%B4%EB%B2%88-%EC%A3%BC-%EC%A3%BC%EB%AA%A9%ED%95%A0-%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%8A%88-%EB%B0%8F-%EC%A3%BC%EC%8B%9D/" rel="alternate" type="text/html" title="이번 주 주목할 경제 이슈 및 주식" />
+    <published>2025-11-17T03:20:37+09:00</published>
+  
+    <updated>2025-11-17T03:20:37+09:00</updated>
+  
+    <id>/posts/%EC%9D%B4%EB%B2%88-%EC%A3%BC-%EC%A3%BC%EB%AA%A9%ED%95%A0-%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%8A%88-%EB%B0%8F-%EC%A3%BC%EC%8B%9D/</id>
+    <content type="text/html" src="/posts/%EC%9D%B4%EB%B2%88-%EC%A3%BC-%EC%A3%BC%EB%AA%A9%ED%95%A0-%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%8A%88-%EB%B0%8F-%EC%A3%BC%EC%8B%9D/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>이번 주 주목할 경제 이슈 및 주식 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>파리 힐튼, 인재 채용 시 가장 중요하게 여기는 것 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2026년 Medicare Part B 보험료 10% 인상</title>
-    <link href="/posts/2026%EB%85%84-medicare-part-b-%EB%B3%B4%ED%97%98%EB%A3%8C-10-%EC%9D%B8%EC%83%81/" rel="alternate" type="text/html" title="2026년 Medicare Part B 보험료 10% 인상" />
-    <published>2025-11-17T01:17:33+09:00</published>
-  
-    <updated>2025-11-17T01:17:33+09:00</updated>
-  
-    <id>/posts/2026%EB%85%84-medicare-part-b-%EB%B3%B4%ED%97%98%EB%A3%8C-10-%EC%9D%B8%EC%83%81/</id>
-    <content type="text/html" src="/posts/2026%EB%85%84-medicare-part-b-%EB%B3%B4%ED%97%98%EB%A3%8C-10-%EC%9D%B8%EC%83%81/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>2026년 Medicare Part B 보험료 10% 인상 · 경제 뉴스 요약</summary>
 
   </entry>
 
