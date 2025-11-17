@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-17T16:17:10+09:00</updated>
+  <updated>2025-11-17T17:24:21+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>영국 재무장관, 예산 조정의 딜레마에 직면</title>
+    <link href="/posts/%EC%98%81%EA%B5%AD-%EC%9E%AC%EB%AC%B4%EC%9E%A5%EA%B4%80-%EC%98%88%EC%82%B0-%EC%A1%B0%EC%A0%95%EC%9D%98-%EB%94%9C%EB%A0%88%EB%A7%88%EC%97%90-%EC%A7%81%EB%A9%B4/" rel="alternate" type="text/html" title="영국 재무장관, 예산 조정의 딜레마에 직면" />
+    <published>2025-11-17T17:23:44+09:00</published>
+  
+    <updated>2025-11-17T17:23:44+09:00</updated>
+  
+    <id>/posts/%EC%98%81%EA%B5%AD-%EC%9E%AC%EB%AC%B4%EC%9E%A5%EA%B4%80-%EC%98%88%EC%82%B0-%EC%A1%B0%EC%A0%95%EC%9D%98-%EB%94%9C%EB%A0%88%EB%A7%88%EC%97%90-%EC%A7%81%EB%A9%B4/</id>
+    <content type="text/html" src="/posts/%EC%98%81%EA%B5%AD-%EC%9E%AC%EB%AC%B4%EC%9E%A5%EA%B4%80-%EC%98%88%EC%82%B0-%EC%A1%B0%EC%A0%95%EC%9D%98-%EB%94%9C%EB%A0%88%EB%A7%88%EC%97%90-%EC%A7%81%EB%A9%B4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>영국 재무장관, 예산 조정의 딜레마에 직면 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>아시아 증시, 일본 GDP 부진과 엔비디아 경고로 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>일본, 중국에 고위 특사 파견 예정</title>
-    <link href="/posts/%EC%9D%BC%EB%B3%B8-%EC%A4%91%EA%B5%AD%EC%97%90-%EA%B3%A0%EC%9C%84-%ED%8A%B9%EC%82%AC-%ED%8C%8C%EA%B2%AC-%EC%98%88%EC%A0%95/" rel="alternate" type="text/html" title="일본, 중국에 고위 특사 파견 예정" />
-    <published>2025-11-17T12:13:40+09:00</published>
-  
-    <updated>2025-11-17T12:13:40+09:00</updated>
-  
-    <id>/posts/%EC%9D%BC%EB%B3%B8-%EC%A4%91%EA%B5%AD%EC%97%90-%EA%B3%A0%EC%9C%84-%ED%8A%B9%EC%82%AC-%ED%8C%8C%EA%B2%AC-%EC%98%88%EC%A0%95/</id>
-    <content type="text/html" src="/posts/%EC%9D%BC%EB%B3%B8-%EC%A4%91%EA%B5%AD%EC%97%90-%EA%B3%A0%EC%9C%84-%ED%8A%B9%EC%82%AC-%ED%8C%8C%EA%B2%AC-%EC%98%88%EC%A0%95/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>일본, 중국에 고위 특사 파견 예정 · 경제 뉴스 요약</summary>
 
   </entry>
 
