@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-17T19:20:50+09:00</updated>
+  <updated>2025-11-17T20:16:56+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>금값 하락, 12월 연준 금리 인하 재고</title>
-    <link href="/posts/%EA%B8%88%EA%B0%92-%ED%95%98%EB%9D%BD-12%EC%9B%94-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%9E%AC%EA%B3%A0/" rel="alternate" type="text/html" title="금값 하락, 12월 연준 금리 인하 재고" />
-    <published>2025-11-17T19:20:09+09:00</published>
+    <title>부모의 유산과 교회: 가족의 갈등</title>
+    <link href="/posts/%EB%B6%80%EB%AA%A8%EC%9D%98-%EC%9C%A0%EC%82%B0%EA%B3%BC-%EA%B5%90%ED%9A%8C-%EA%B0%80%EC%A1%B1%EC%9D%98-%EA%B0%88%EB%93%B1/" rel="alternate" type="text/html" title="부모의 유산과 교회: 가족의 갈등" />
+    <published>2025-11-17T20:16:19+09:00</published>
   
-    <updated>2025-11-17T19:20:09+09:00</updated>
+    <updated>2025-11-17T20:16:19+09:00</updated>
   
-    <id>/posts/%EA%B8%88%EA%B0%92-%ED%95%98%EB%9D%BD-12%EC%9B%94-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%9E%AC%EA%B3%A0/</id>
-    <content type="text/html" src="/posts/%EA%B8%88%EA%B0%92-%ED%95%98%EB%9D%BD-12%EC%9B%94-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%9E%AC%EA%B3%A0/" />
+    <id>/posts/%EB%B6%80%EB%AA%A8%EC%9D%98-%EC%9C%A0%EC%82%B0%EA%B3%BC-%EA%B5%90%ED%9A%8C-%EA%B0%80%EC%A1%B1%EC%9D%98-%EA%B0%88%EB%93%B1/</id>
+    <content type="text/html" src="/posts/%EB%B6%80%EB%AA%A8%EC%9D%98-%EC%9C%A0%EC%82%B0%EA%B3%BC-%EA%B5%90%ED%9A%8C-%EA%B0%80%EC%A1%B1%EC%9D%98-%EA%B0%88%EB%93%B1/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>금값 하락, 12월 연준 금리 인하 재고 · 경제 뉴스 요약</summary>
+  <summary>부모의 유산과 교회: 가족의 갈등 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>ECB, 유로존 금융 안정성 위협 여전히 높아</title>
-    <link href="/posts/ecb-%EC%9C%A0%EB%A1%9C%EC%A1%B4-%EA%B8%88%EC%9C%B5-%EC%95%88%EC%A0%95%EC%84%B1-%EC%9C%84%ED%98%91-%EC%97%AC%EC%A0%84%ED%9E%88-%EB%86%92%EC%95%84/" rel="alternate" type="text/html" title="ECB, 유로존 금융 안정성 위협 여전히 높아" />
-    <published>2025-11-17T19:19:50+09:00</published>
+    <title>HELOC 금리, 2025년 11월 17일: 연준 지연 시 하락 가능성 낮아</title>
+    <link href="/posts/heloc-%EA%B8%88%EB%A6%AC-2025%EB%85%84-11%EC%9B%94-17%EC%9D%BC-%EC%97%B0%EC%A4%80-%EC%A7%80%EC%97%B0-%EC%8B%9C-%ED%95%98%EB%9D%BD-%EA%B0%80%EB%8A%A5%EC%84%B1-%EB%82%AE%EC%95%84/" rel="alternate" type="text/html" title="HELOC 금리, 2025년 11월 17일: 연준 지연 시 하락 가능성 낮아" />
+    <published>2025-11-17T20:15:59+09:00</published>
   
-    <updated>2025-11-17T19:19:50+09:00</updated>
+    <updated>2025-11-17T20:15:59+09:00</updated>
   
-    <id>/posts/ecb-%EC%9C%A0%EB%A1%9C%EC%A1%B4-%EA%B8%88%EC%9C%B5-%EC%95%88%EC%A0%95%EC%84%B1-%EC%9C%84%ED%98%91-%EC%97%AC%EC%A0%84%ED%9E%88-%EB%86%92%EC%95%84/</id>
-    <content type="text/html" src="/posts/ecb-%EC%9C%A0%EB%A1%9C%EC%A1%B4-%EA%B8%88%EC%9C%B5-%EC%95%88%EC%A0%95%EC%84%B1-%EC%9C%84%ED%98%91-%EC%97%AC%EC%A0%84%ED%9E%88-%EB%86%92%EC%95%84/" />
+    <id>/posts/heloc-%EA%B8%88%EB%A6%AC-2025%EB%85%84-11%EC%9B%94-17%EC%9D%BC-%EC%97%B0%EC%A4%80-%EC%A7%80%EC%97%B0-%EC%8B%9C-%ED%95%98%EB%9D%BD-%EA%B0%80%EB%8A%A5%EC%84%B1-%EB%82%AE%EC%95%84/</id>
+    <content type="text/html" src="/posts/heloc-%EA%B8%88%EB%A6%AC-2025%EB%85%84-11%EC%9B%94-17%EC%9D%BC-%EC%97%B0%EC%A4%80-%EC%A7%80%EC%97%B0-%EC%8B%9C-%ED%95%98%EB%9D%BD-%EA%B0%80%EB%8A%A5%EC%84%B1-%EB%82%AE%EC%95%84/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>ECB, 유로존 금융 안정성 위협 여전히 높아 · 경제 뉴스 요약</summary>
+  <summary>HELOC 금리, 2025년 11월 17일: 연준 지연 시 하락 가능성 낮아 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>소프트뱅크와 피터 틸, 엔비디아 지분 매각</title>
-    <link href="/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC%EC%99%80-%ED%94%BC%ED%84%B0-%ED%8B%B8-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%EC%A7%80%EB%B6%84-%EB%A7%A4%EA%B0%81/" rel="alternate" type="text/html" title="소프트뱅크와 피터 틸, 엔비디아 지분 매각" />
-    <published>2025-11-17T19:19:32+09:00</published>
+    <title>401(k) 투자 신뢰 문제, Madoff 스캔들 기억</title>
+    <link href="/posts/401k-%ED%88%AC%EC%9E%90-%EC%8B%A0%EB%A2%B0-%EB%AC%B8%EC%A0%9C-madoff-%EC%8A%A4%EC%BA%94%EB%93%A4-%EA%B8%B0%EC%96%B5/" rel="alternate" type="text/html" title="401(k) 투자 신뢰 문제, Madoff 스캔들 기억" />
+    <published>2025-11-17T20:15:39+09:00</published>
   
-    <updated>2025-11-17T19:19:32+09:00</updated>
+    <updated>2025-11-17T20:15:39+09:00</updated>
   
-    <id>/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC%EC%99%80-%ED%94%BC%ED%84%B0-%ED%8B%B8-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%EC%A7%80%EB%B6%84-%EB%A7%A4%EA%B0%81/</id>
-    <content type="text/html" src="/posts/%EC%86%8C%ED%94%84%ED%8A%B8%EB%B1%85%ED%81%AC%EC%99%80-%ED%94%BC%ED%84%B0-%ED%8B%B8-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%EC%A7%80%EB%B6%84-%EB%A7%A4%EA%B0%81/" />
+    <id>/posts/401k-%ED%88%AC%EC%9E%90-%EC%8B%A0%EB%A2%B0-%EB%AC%B8%EC%A0%9C-madoff-%EC%8A%A4%EC%BA%94%EB%93%A4-%EA%B8%B0%EC%96%B5/</id>
+    <content type="text/html" src="/posts/401k-%ED%88%AC%EC%9E%90-%EC%8B%A0%EB%A2%B0-%EB%AC%B8%EC%A0%9C-madoff-%EC%8A%A4%EC%BA%94%EB%93%A4-%EA%B8%B0%EC%96%B5/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>소프트뱅크와 피터 틸, 엔비디아 지분 매각 · 경제 뉴스 요약</summary>
+  <summary>401(k) 투자 신뢰 문제, Madoff 스캔들 기억 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>다우, 나스닥, S&amp;P 500 주간 전망: 엔비디아 실적 주목</title>
-    <link href="/posts/%EB%8B%A4%EC%9A%B0-%EB%82%98%EC%8A%A4%EB%8B%A5-sp-500-%EC%A3%BC%EA%B0%84-%EC%A0%84%EB%A7%9D-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%EC%8B%A4%EC%A0%81-%EC%A3%BC%EB%AA%A9/" rel="alternate" type="text/html" title="다우, 나스닥, S&amp;amp;P 500 주간 전망: 엔비디아 실적 주목" />
-    <published>2025-11-17T19:19:15+09:00</published>
+    <title>AI가 메모리 칩 부족을 초래할 수 있다</title>
+    <link href="/posts/ai%EA%B0%80-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%B9%A9-%EB%B6%80%EC%A1%B1%EC%9D%84-%EC%B4%88%EB%9E%98%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8B%A4/" rel="alternate" type="text/html" title="AI가 메모리 칩 부족을 초래할 수 있다" />
+    <published>2025-11-17T20:15:21+09:00</published>
   
-    <updated>2025-11-17T19:19:15+09:00</updated>
+    <updated>2025-11-17T20:15:21+09:00</updated>
   
-    <id>/posts/%EB%8B%A4%EC%9A%B0-%EB%82%98%EC%8A%A4%EB%8B%A5-sp-500-%EC%A3%BC%EA%B0%84-%EC%A0%84%EB%A7%9D-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%EC%8B%A4%EC%A0%81-%EC%A3%BC%EB%AA%A9/</id>
-    <content type="text/html" src="/posts/%EB%8B%A4%EC%9A%B0-%EB%82%98%EC%8A%A4%EB%8B%A5-sp-500-%EC%A3%BC%EA%B0%84-%EC%A0%84%EB%A7%9D-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%EC%8B%A4%EC%A0%81-%EC%A3%BC%EB%AA%A9/" />
+    <id>/posts/ai%EA%B0%80-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%B9%A9-%EB%B6%80%EC%A1%B1%EC%9D%84-%EC%B4%88%EB%9E%98%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8B%A4/</id>
+    <content type="text/html" src="/posts/ai%EA%B0%80-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%B9%A9-%EB%B6%80%EC%A1%B1%EC%9D%84-%EC%B4%88%EB%9E%98%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8B%A4/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>다우, 나스닥, S&amp;amp;P 500 주간 전망: 엔비디아 실적 주목 · 경제 뉴스 요약</summary>
+  <summary>AI가 메모리 칩 부족을 초래할 수 있다 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>쿠글러의 주식 거래, 연준 규칙 위반</title>
-    <link href="/posts/%EC%BF%A0%EA%B8%80%EB%9F%AC%EC%9D%98-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EC%97%B0%EC%A4%80-%EA%B7%9C%EC%B9%99-%EC%9C%84%EB%B0%98/" rel="alternate" type="text/html" title="쿠글러의 주식 거래, 연준 규칙 위반" />
-    <published>2025-11-17T19:19:01+09:00</published>
+    <title>스위스, 미국과의 무역 협정 논란</title>
+    <link href="/posts/%EC%8A%A4%EC%9C%84%EC%8A%A4-%EB%AF%B8%EA%B5%AD%EA%B3%BC%EC%9D%98-%EB%AC%B4%EC%97%AD-%ED%98%91%EC%A0%95-%EB%85%BC%EB%9E%80/" rel="alternate" type="text/html" title="스위스, 미국과의 무역 협정 논란" />
+    <published>2025-11-17T20:15:06+09:00</published>
   
-    <updated>2025-11-17T19:19:01+09:00</updated>
+    <updated>2025-11-17T20:15:06+09:00</updated>
   
-    <id>/posts/%EC%BF%A0%EA%B8%80%EB%9F%AC%EC%9D%98-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EC%97%B0%EC%A4%80-%EA%B7%9C%EC%B9%99-%EC%9C%84%EB%B0%98/</id>
-    <content type="text/html" src="/posts/%EC%BF%A0%EA%B8%80%EB%9F%AC%EC%9D%98-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EC%97%B0%EC%A4%80-%EA%B7%9C%EC%B9%99-%EC%9C%84%EB%B0%98/" />
+    <id>/posts/%EC%8A%A4%EC%9C%84%EC%8A%A4-%EB%AF%B8%EA%B5%AD%EA%B3%BC%EC%9D%98-%EB%AC%B4%EC%97%AD-%ED%98%91%EC%A0%95-%EB%85%BC%EB%9E%80/</id>
+    <content type="text/html" src="/posts/%EC%8A%A4%EC%9C%84%EC%8A%A4-%EB%AF%B8%EA%B5%AD%EA%B3%BC%EC%9D%98-%EB%AC%B4%EC%97%AD-%ED%98%91%EC%A0%95-%EB%85%BC%EB%9E%80/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>쿠글러의 주식 거래, 연준 규칙 위반 · 경제 뉴스 요약</summary>
+  <summary>스위스, 미국과의 무역 협정 논란 · 경제 뉴스 요약</summary>
 
   </entry>
 
