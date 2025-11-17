@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-18T02:21:45+09:00</updated>
+  <updated>2025-11-18T03:25:10+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>FedEx CEO, Fred Smith의 목표 달성</title>
-    <link href="/posts/fedex-ceo-fred-smith%EC%9D%98-%EB%AA%A9%ED%91%9C-%EB%8B%AC%EC%84%B1/" rel="alternate" type="text/html" title="FedEx CEO, Fred Smith의 목표 달성" />
-    <published>2025-11-18T02:21:02+09:00</published>
+    <title>2025년 하락한 주식, 최대 57% 반등 가능성</title>
+    <link href="/posts/2025%EB%85%84-%ED%95%98%EB%9D%BD%ED%95%9C-%EC%A3%BC%EC%8B%9D-%EC%B5%9C%EB%8C%80-57-%EB%B0%98%EB%93%B1-%EA%B0%80%EB%8A%A5%EC%84%B1/" rel="alternate" type="text/html" title="2025년 하락한 주식, 최대 57% 반등 가능성" />
+    <published>2025-11-18T03:24:31+09:00</published>
   
-    <updated>2025-11-18T02:21:02+09:00</updated>
+    <updated>2025-11-18T03:24:31+09:00</updated>
   
-    <id>/posts/fedex-ceo-fred-smith%EC%9D%98-%EB%AA%A9%ED%91%9C-%EB%8B%AC%EC%84%B1/</id>
-    <content type="text/html" src="/posts/fedex-ceo-fred-smith%EC%9D%98-%EB%AA%A9%ED%91%9C-%EB%8B%AC%EC%84%B1/" />
+    <id>/posts/2025%EB%85%84-%ED%95%98%EB%9D%BD%ED%95%9C-%EC%A3%BC%EC%8B%9D-%EC%B5%9C%EB%8C%80-57-%EB%B0%98%EB%93%B1-%EA%B0%80%EB%8A%A5%EC%84%B1/</id>
+    <content type="text/html" src="/posts/2025%EB%85%84-%ED%95%98%EB%9D%BD%ED%95%9C-%EC%A3%BC%EC%8B%9D-%EC%B5%9C%EB%8C%80-57-%EB%B0%98%EB%93%B1-%EA%B0%80%EB%8A%A5%EC%84%B1/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>FedEx CEO, Fred Smith의 목표 달성 · 경제 뉴스 요약</summary>
+  <summary>2025년 하락한 주식, 최대 57% 반등 가능성 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>JOET ETF의 정량적 접근법과 투자 전략</title>
-    <link href="/posts/joet-etf%EC%9D%98-%EC%A0%95%EB%9F%89%EC%A0%81-%EC%A0%91%EA%B7%BC%EB%B2%95%EA%B3%BC-%ED%88%AC%EC%9E%90-%EC%A0%84%EB%9E%B5/" rel="alternate" type="text/html" title="JOET ETF의 정량적 접근법과 투자 전략" />
-    <published>2025-11-18T02:20:42+09:00</published>
+    <title>재정적 웰빙을 위한 필수 현금 규모</title>
+    <link href="/posts/%EC%9E%AC%EC%A0%95%EC%A0%81-%EC%9B%B0%EB%B9%99%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%95%84%EC%88%98-%ED%98%84%EA%B8%88-%EA%B7%9C%EB%AA%A8/" rel="alternate" type="text/html" title="재정적 웰빙을 위한 필수 현금 규모" />
+    <published>2025-11-18T03:24:12+09:00</published>
   
-    <updated>2025-11-18T02:20:42+09:00</updated>
+    <updated>2025-11-18T03:24:12+09:00</updated>
   
-    <id>/posts/joet-etf%EC%9D%98-%EC%A0%95%EB%9F%89%EC%A0%81-%EC%A0%91%EA%B7%BC%EB%B2%95%EA%B3%BC-%ED%88%AC%EC%9E%90-%EC%A0%84%EB%9E%B5/</id>
-    <content type="text/html" src="/posts/joet-etf%EC%9D%98-%EC%A0%95%EB%9F%89%EC%A0%81-%EC%A0%91%EA%B7%BC%EB%B2%95%EA%B3%BC-%ED%88%AC%EC%9E%90-%EC%A0%84%EB%9E%B5/" />
+    <id>/posts/%EC%9E%AC%EC%A0%95%EC%A0%81-%EC%9B%B0%EB%B9%99%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%95%84%EC%88%98-%ED%98%84%EA%B8%88-%EA%B7%9C%EB%AA%A8/</id>
+    <content type="text/html" src="/posts/%EC%9E%AC%EC%A0%95%EC%A0%81-%EC%9B%B0%EB%B9%99%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%95%84%EC%88%98-%ED%98%84%EA%B8%88-%EA%B7%9C%EB%AA%A8/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>JOET ETF의 정량적 접근법과 투자 전략 · 경제 뉴스 요약</summary>
+  <summary>재정적 웰빙을 위한 필수 현금 규모 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>Nvidia, 분기 최대 실적 발표 앞두고 투자자 안심시킬까</title>
-    <link href="/posts/nvidia-%EB%B6%84%EA%B8%B0-%EC%B5%9C%EB%8C%80-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%95%9E%EB%91%90%EA%B3%A0-%ED%88%AC%EC%9E%90%EC%9E%90-%EC%95%88%EC%8B%AC%EC%8B%9C%ED%82%AC%EA%B9%8C/" rel="alternate" type="text/html" title="Nvidia, 분기 최대 실적 발표 앞두고 투자자 안심시킬까" />
-    <published>2025-11-18T02:20:21+09:00</published>
+    <title>비트코인, IPO 순간을 맞이하다</title>
+    <link href="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-ipo-%EC%88%9C%EA%B0%84%EC%9D%84-%EB%A7%9E%EC%9D%B4%ED%95%98%EB%8B%A4/" rel="alternate" type="text/html" title="비트코인, IPO 순간을 맞이하다" />
+    <published>2025-11-18T03:23:53+09:00</published>
   
-    <updated>2025-11-18T02:20:21+09:00</updated>
+    <updated>2025-11-18T03:23:53+09:00</updated>
   
-    <id>/posts/nvidia-%EB%B6%84%EA%B8%B0-%EC%B5%9C%EB%8C%80-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%95%9E%EB%91%90%EA%B3%A0-%ED%88%AC%EC%9E%90%EC%9E%90-%EC%95%88%EC%8B%AC%EC%8B%9C%ED%82%AC%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/nvidia-%EB%B6%84%EA%B8%B0-%EC%B5%9C%EB%8C%80-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%95%9E%EB%91%90%EA%B3%A0-%ED%88%AC%EC%9E%90%EC%9E%90-%EC%95%88%EC%8B%AC%EC%8B%9C%ED%82%AC%EA%B9%8C/" />
+    <id>/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-ipo-%EC%88%9C%EA%B0%84%EC%9D%84-%EB%A7%9E%EC%9D%B4%ED%95%98%EB%8B%A4/</id>
+    <content type="text/html" src="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-ipo-%EC%88%9C%EA%B0%84%EC%9D%84-%EB%A7%9E%EC%9D%B4%ED%95%98%EB%8B%A4/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>Nvidia, 분기 최대 실적 발표 앞두고 투자자 안심시킬까 · 경제 뉴스 요약</summary>
+  <summary>비트코인, IPO 순간을 맞이하다 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>코미 기소 무효화 가능성, DOJ 자료 공개 명령</title>
-    <link href="/posts/%EC%BD%94%EB%AF%B8-%EA%B8%B0%EC%86%8C-%EB%AC%B4%ED%9A%A8%ED%99%94-%EA%B0%80%EB%8A%A5%EC%84%B1-doj-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C-%EB%AA%85%EB%A0%B9/" rel="alternate" type="text/html" title="코미 기소 무효화 가능성, DOJ 자료 공개 명령" />
-    <published>2025-11-18T02:19:57+09:00</published>
+    <title>S&amp;P 500, Nvidia 실적 발표 앞두고 방향성 고심</title>
+    <link href="/posts/sp-500-nvidia-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%95%9E%EB%91%90%EA%B3%A0-%EB%B0%A9%ED%96%A5%EC%84%B1-%EA%B3%A0%EC%8B%AC/" rel="alternate" type="text/html" title="S&amp;amp;P 500, Nvidia 실적 발표 앞두고 방향성 고심" />
+    <published>2025-11-18T03:23:34+09:00</published>
   
-    <updated>2025-11-18T02:19:57+09:00</updated>
+    <updated>2025-11-18T03:23:34+09:00</updated>
   
-    <id>/posts/%EC%BD%94%EB%AF%B8-%EA%B8%B0%EC%86%8C-%EB%AC%B4%ED%9A%A8%ED%99%94-%EA%B0%80%EB%8A%A5%EC%84%B1-doj-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C-%EB%AA%85%EB%A0%B9/</id>
-    <content type="text/html" src="/posts/%EC%BD%94%EB%AF%B8-%EA%B8%B0%EC%86%8C-%EB%AC%B4%ED%9A%A8%ED%99%94-%EA%B0%80%EB%8A%A5%EC%84%B1-doj-%EC%9E%90%EB%A3%8C-%EA%B3%B5%EA%B0%9C-%EB%AA%85%EB%A0%B9/" />
+    <id>/posts/sp-500-nvidia-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%95%9E%EB%91%90%EA%B3%A0-%EB%B0%A9%ED%96%A5%EC%84%B1-%EA%B3%A0%EC%8B%AC/</id>
+    <content type="text/html" src="/posts/sp-500-nvidia-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EC%95%9E%EB%91%90%EA%B3%A0-%EB%B0%A9%ED%96%A5%EC%84%B1-%EA%B3%A0%EC%8B%AC/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>코미 기소 무효화 가능성, DOJ 자료 공개 명령 · 경제 뉴스 요약</summary>
+  <summary>S&amp;amp;P 500, Nvidia 실적 발표 앞두고 방향성 고심 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>남편의 재정 문제, 어떻게 해결할까?</title>
-    <link href="/posts/%EB%82%A8%ED%8E%B8%EC%9D%98-%EC%9E%AC%EC%A0%95-%EB%AC%B8%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="남편의 재정 문제, 어떻게 해결할까?" />
-    <published>2025-11-18T02:19:40+09:00</published>
+    <title>투자자가 알아야 할 사이버 보안 용어 10가지</title>
+    <link href="/posts/%ED%88%AC%EC%9E%90%EC%9E%90%EA%B0%80-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%82%AC%EC%9D%B4%EB%B2%84-%EB%B3%B4%EC%95%88-%EC%9A%A9%EC%96%B4-10%EA%B0%80%EC%A7%80/" rel="alternate" type="text/html" title="투자자가 알아야 할 사이버 보안 용어 10가지" />
+    <published>2025-11-18T03:23:11+09:00</published>
   
-    <updated>2025-11-18T02:19:40+09:00</updated>
+    <updated>2025-11-18T03:23:11+09:00</updated>
   
-    <id>/posts/%EB%82%A8%ED%8E%B8%EC%9D%98-%EC%9E%AC%EC%A0%95-%EB%AC%B8%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%A0%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/%EB%82%A8%ED%8E%B8%EC%9D%98-%EC%9E%AC%EC%A0%95-%EB%AC%B8%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%A0%EA%B9%8C/" />
+    <id>/posts/%ED%88%AC%EC%9E%90%EC%9E%90%EA%B0%80-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%82%AC%EC%9D%B4%EB%B2%84-%EB%B3%B4%EC%95%88-%EC%9A%A9%EC%96%B4-10%EA%B0%80%EC%A7%80/</id>
+    <content type="text/html" src="/posts/%ED%88%AC%EC%9E%90%EC%9E%90%EA%B0%80-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%82%AC%EC%9D%B4%EB%B2%84-%EB%B3%B4%EC%95%88-%EC%9A%A9%EC%96%B4-10%EA%B0%80%EC%A7%80/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>남편의 재정 문제, 어떻게 해결할까? · 경제 뉴스 요약</summary>
+  <summary>투자자가 알아야 할 사이버 보안 용어 10가지 · 경제 뉴스 요약</summary>
 
   </entry>
 
