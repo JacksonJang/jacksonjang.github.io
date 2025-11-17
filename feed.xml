@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-17T17:24:21+09:00</updated>
+  <updated>2025-11-17T18:22:21+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>영국 재무장관, 예산 조정의 딜레마에 직면</title>
-    <link href="/posts/%EC%98%81%EA%B5%AD-%EC%9E%AC%EB%AC%B4%EC%9E%A5%EA%B4%80-%EC%98%88%EC%82%B0-%EC%A1%B0%EC%A0%95%EC%9D%98-%EB%94%9C%EB%A0%88%EB%A7%88%EC%97%90-%EC%A7%81%EB%A9%B4/" rel="alternate" type="text/html" title="영국 재무장관, 예산 조정의 딜레마에 직면" />
-    <published>2025-11-17T17:23:44+09:00</published>
+    <title>주식 시장: 다우, S&amp;P 500, 나스닥 선물 상승</title>
+    <link href="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%EC%84%A0%EB%AC%BC-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="주식 시장: 다우, S&amp;amp;P 500, 나스닥 선물 상승" />
+    <published>2025-11-17T18:21:45+09:00</published>
   
-    <updated>2025-11-17T17:23:44+09:00</updated>
+    <updated>2025-11-17T18:21:45+09:00</updated>
   
-    <id>/posts/%EC%98%81%EA%B5%AD-%EC%9E%AC%EB%AC%B4%EC%9E%A5%EA%B4%80-%EC%98%88%EC%82%B0-%EC%A1%B0%EC%A0%95%EC%9D%98-%EB%94%9C%EB%A0%88%EB%A7%88%EC%97%90-%EC%A7%81%EB%A9%B4/</id>
-    <content type="text/html" src="/posts/%EC%98%81%EA%B5%AD-%EC%9E%AC%EB%AC%B4%EC%9E%A5%EA%B4%80-%EC%98%88%EC%82%B0-%EC%A1%B0%EC%A0%95%EC%9D%98-%EB%94%9C%EB%A0%88%EB%A7%88%EC%97%90-%EC%A7%81%EB%A9%B4/" />
+    <id>/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%EC%84%A0%EB%AC%BC-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%EC%84%A0%EB%AC%BC-%EC%83%81%EC%8A%B9/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>영국 재무장관, 예산 조정의 딜레마에 직면 · 경제 뉴스 요약</summary>
+  <summary>주식 시장: 다우, S&amp;amp;P 500, 나스닥 선물 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>유럽 시장, 새로운 거래 주를 우울하게 시작</title>
-    <link href="/posts/%EC%9C%A0%EB%9F%BD-%EC%8B%9C%EC%9E%A5-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B1%B0%EB%9E%98-%EC%A3%BC%EB%A5%BC-%EC%9A%B0%EC%9A%B8%ED%95%98%EA%B2%8C-%EC%8B%9C%EC%9E%91/" rel="alternate" type="text/html" title="유럽 시장, 새로운 거래 주를 우울하게 시작" />
-    <published>2025-11-17T16:16:37+09:00</published>
+    <title>FedEx 주식: 애널리스트 추정 및 평가</title>
+    <link href="/posts/fedex-%EC%A3%BC%EC%8B%9D-%EC%95%A0%EB%84%90%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%B6%94%EC%A0%95-%EB%B0%8F-%ED%8F%89%EA%B0%80/" rel="alternate" type="text/html" title="FedEx 주식: 애널리스트 추정 및 평가" />
+    <published>2025-11-17T18:21:35+09:00</published>
   
-    <updated>2025-11-17T16:16:37+09:00</updated>
+    <updated>2025-11-17T18:21:35+09:00</updated>
   
-    <id>/posts/%EC%9C%A0%EB%9F%BD-%EC%8B%9C%EC%9E%A5-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B1%B0%EB%9E%98-%EC%A3%BC%EB%A5%BC-%EC%9A%B0%EC%9A%B8%ED%95%98%EA%B2%8C-%EC%8B%9C%EC%9E%91/</id>
-    <content type="text/html" src="/posts/%EC%9C%A0%EB%9F%BD-%EC%8B%9C%EC%9E%A5-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B1%B0%EB%9E%98-%EC%A3%BC%EB%A5%BC-%EC%9A%B0%EC%9A%B8%ED%95%98%EA%B2%8C-%EC%8B%9C%EC%9E%91/" />
+    <id>/posts/fedex-%EC%A3%BC%EC%8B%9D-%EC%95%A0%EB%84%90%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%B6%94%EC%A0%95-%EB%B0%8F-%ED%8F%89%EA%B0%80/</id>
+    <content type="text/html" src="/posts/fedex-%EC%A3%BC%EC%8B%9D-%EC%95%A0%EB%84%90%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%B6%94%EC%A0%95-%EB%B0%8F-%ED%8F%89%EA%B0%80/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>유럽 시장, 새로운 거래 주를 우울하게 시작 · 경제 뉴스 요약</summary>
+  <summary>FedEx 주식: 애널리스트 추정 및 평가 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>호주 주식, S&amp;P/ASX 200 0.02% 상승 마감</title>
-    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-002-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="호주 주식, S&amp;amp;P/ASX 200 0.02% 상승 마감" />
-    <published>2025-11-17T15:25:27+09:00</published>
+    <title>미국 국채 수익률 하락, 데이터 발표 대기 중</title>
+    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EA%B5%AD%EC%B1%84-%EC%88%98%EC%9D%B5%EB%A5%A0-%ED%95%98%EB%9D%BD-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B0%9C%ED%91%9C-%EB%8C%80%EA%B8%B0-%EC%A4%91/" rel="alternate" type="text/html" title="미국 국채 수익률 하락, 데이터 발표 대기 중" />
+    <published>2025-11-17T18:21:23+09:00</published>
   
-    <updated>2025-11-17T15:25:27+09:00</updated>
+    <updated>2025-11-17T18:21:23+09:00</updated>
   
-    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-002-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/</id>
-    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-002-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" />
+    <id>/posts/%EB%AF%B8%EA%B5%AD-%EA%B5%AD%EC%B1%84-%EC%88%98%EC%9D%B5%EB%A5%A0-%ED%95%98%EB%9D%BD-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B0%9C%ED%91%9C-%EB%8C%80%EA%B8%B0-%EC%A4%91/</id>
+    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EA%B5%AD%EC%B1%84-%EC%88%98%EC%9D%B5%EB%A5%A0-%ED%95%98%EB%9D%BD-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B0%9C%ED%91%9C-%EB%8C%80%EA%B8%B0-%EC%A4%91/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>호주 주식, S&amp;amp;P/ASX 200 0.02% 상승 마감 · 경제 뉴스 요약</summary>
+  <summary>미국 국채 수익률 하락, 데이터 발표 대기 중 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>트럼프, 에프스타인 기록 공개 지지 촉구</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%97%90%ED%94%84%EC%8A%A4%ED%83%80%EC%9D%B8-%EA%B8%B0%EB%A1%9D-%EA%B3%B5%EA%B0%9C-%EC%A7%80%EC%A7%80-%EC%B4%89%EA%B5%AC/" rel="alternate" type="text/html" title="트럼프, 에프스타인 기록 공개 지지 촉구" />
-    <published>2025-11-17T14:17:24+09:00</published>
+    <title>ECB, 3000억 달러 스테이블코인 시장 경고</title>
+    <link href="/posts/ecb-3000%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8-%EC%8B%9C%EC%9E%A5-%EA%B2%BD%EA%B3%A0/" rel="alternate" type="text/html" title="ECB, 3000억 달러 스테이블코인 시장 경고" />
+    <published>2025-11-17T18:21:11+09:00</published>
   
-    <updated>2025-11-17T14:17:24+09:00</updated>
+    <updated>2025-11-17T18:21:11+09:00</updated>
   
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%97%90%ED%94%84%EC%8A%A4%ED%83%80%EC%9D%B8-%EA%B8%B0%EB%A1%9D-%EA%B3%B5%EA%B0%9C-%EC%A7%80%EC%A7%80-%EC%B4%89%EA%B5%AC/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%97%90%ED%94%84%EC%8A%A4%ED%83%80%EC%9D%B8-%EA%B8%B0%EB%A1%9D-%EA%B3%B5%EA%B0%9C-%EC%A7%80%EC%A7%80-%EC%B4%89%EA%B5%AC/" />
+    <id>/posts/ecb-3000%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8-%EC%8B%9C%EC%9E%A5-%EA%B2%BD%EA%B3%A0/</id>
+    <content type="text/html" src="/posts/ecb-3000%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8-%EC%8B%9C%EC%9E%A5-%EA%B2%BD%EA%B3%A0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>트럼프, 에프스타인 기록 공개 지지 촉구 · 경제 뉴스 요약</summary>
+  <summary>ECB, 3000억 달러 스테이블코인 시장 경고 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>아시아 증시, 일본 GDP 부진과 엔비디아 경고로 하락</title>
-    <link href="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EC%A6%9D%EC%8B%9C-%EC%9D%BC%EB%B3%B8-gdp-%EB%B6%80%EC%A7%84%EA%B3%BC-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%EA%B2%BD%EA%B3%A0%EB%A1%9C-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="아시아 증시, 일본 GDP 부진과 엔비디아 경고로 하락" />
-    <published>2025-11-17T12:13:58+09:00</published>
+    <title>M. Stanley, S&amp;P 500 목표 상향 및 소형주 업그레이드</title>
+    <link href="/posts/m-stanley-sp-500-%EB%AA%A9%ED%91%9C-%EC%83%81%ED%96%A5-%EB%B0%8F-%EC%86%8C%ED%98%95%EC%A3%BC-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/" rel="alternate" type="text/html" title="M. Stanley, S&amp;amp;P 500 목표 상향 및 소형주 업그레이드" />
+    <published>2025-11-17T18:20:56+09:00</published>
   
-    <updated>2025-11-17T12:13:58+09:00</updated>
+    <updated>2025-11-17T18:20:56+09:00</updated>
   
-    <id>/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EC%A6%9D%EC%8B%9C-%EC%9D%BC%EB%B3%B8-gdp-%EB%B6%80%EC%A7%84%EA%B3%BC-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%EA%B2%BD%EA%B3%A0%EB%A1%9C-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%EC%A6%9D%EC%8B%9C-%EC%9D%BC%EB%B3%B8-gdp-%EB%B6%80%EC%A7%84%EA%B3%BC-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%EA%B2%BD%EA%B3%A0%EB%A1%9C-%ED%95%98%EB%9D%BD/" />
+    <id>/posts/m-stanley-sp-500-%EB%AA%A9%ED%91%9C-%EC%83%81%ED%96%A5-%EB%B0%8F-%EC%86%8C%ED%98%95%EC%A3%BC-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</id>
+    <content type="text/html" src="/posts/m-stanley-sp-500-%EB%AA%A9%ED%91%9C-%EC%83%81%ED%96%A5-%EB%B0%8F-%EC%86%8C%ED%98%95%EC%A3%BC-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>아시아 증시, 일본 GDP 부진과 엔비디아 경고로 하락 · 경제 뉴스 요약</summary>
+  <summary>M. Stanley, S&amp;amp;P 500 목표 상향 및 소형주 업그레이드 · 경제 뉴스 요약</summary>
 
   </entry>
 
