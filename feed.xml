@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-17T14:18:53+09:00</updated>
+  <updated>2025-11-17T15:26:05+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>호주 주식, S&amp;P/ASX 200 0.02% 상승 마감</title>
+    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-002-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="호주 주식, S&amp;amp;P/ASX 200 0.02% 상승 마감" />
+    <published>2025-11-17T15:25:27+09:00</published>
+  
+    <updated>2025-11-17T15:25:27+09:00</updated>
+  
+    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-002-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/</id>
+    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-002-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>호주 주식, S&amp;amp;P/ASX 200 0.02% 상승 마감 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>알리바바, 중국 군사 지원 의혹: 백악관 메모 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>아시아 태평양 시장, 일본 GDP 데이터에 혼조세</title>
-    <link href="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EC%9D%BC%EB%B3%B8-gdp-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%97%90-%ED%98%BC%EC%A1%B0%EC%84%B8/" rel="alternate" type="text/html" title="아시아 태평양 시장, 일본 GDP 데이터에 혼조세" />
-    <published>2025-11-17T10:13:43+09:00</published>
-  
-    <updated>2025-11-17T10:13:43+09:00</updated>
-  
-    <id>/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EC%9D%BC%EB%B3%B8-gdp-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%97%90-%ED%98%BC%EC%A1%B0%EC%84%B8/</id>
-    <content type="text/html" src="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EC%9D%BC%EB%B3%B8-gdp-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%97%90-%ED%98%BC%EC%A1%B0%EC%84%B8/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>아시아 태평양 시장, 일본 GDP 데이터에 혼조세 · 경제 뉴스 요약</summary>
 
   </entry>
 
