@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-18T20:16:30+09:00</updated>
+  <updated>2025-11-18T21:34:57+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>유럽 주식, 연준 금리 인하 우려로 하락</title>
-    <link href="/posts/%EC%9C%A0%EB%9F%BD-%EC%A3%BC%EC%8B%9D-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%9A%B0%EB%A0%A4%EB%A1%9C-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="유럽 주식, 연준 금리 인하 우려로 하락" />
-    <published>2025-11-18T20:15:48+09:00</published>
+    <title>반도체 주식: TSMC와 ASML 비교</title>
+    <link href="/posts/%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-tsmc%EC%99%80-asml-%EB%B9%84%EA%B5%90/" rel="alternate" type="text/html" title="반도체 주식: TSMC와 ASML 비교" />
+    <published>2025-11-18T21:34:13+09:00</published>
   
-    <updated>2025-11-18T20:15:48+09:00</updated>
+    <updated>2025-11-18T21:34:13+09:00</updated>
   
-    <id>/posts/%EC%9C%A0%EB%9F%BD-%EC%A3%BC%EC%8B%9D-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%9A%B0%EB%A0%A4%EB%A1%9C-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/%EC%9C%A0%EB%9F%BD-%EC%A3%BC%EC%8B%9D-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%9A%B0%EB%A0%A4%EB%A1%9C-%ED%95%98%EB%9D%BD/" />
+    <id>/posts/%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-tsmc%EC%99%80-asml-%EB%B9%84%EA%B5%90/</id>
+    <content type="text/html" src="/posts/%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-tsmc%EC%99%80-asml-%EB%B9%84%EA%B5%90/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>유럽 주식, 연준 금리 인하 우려로 하락 · 경제 뉴스 요약</summary>
+  <summary>반도체 주식: TSMC와 ASML 비교 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>유산 관리와 예술품 처분 문제</title>
-    <link href="/posts/%EC%9C%A0%EC%82%B0-%EA%B4%80%EB%A6%AC%EC%99%80-%EC%98%88%EC%88%A0%ED%92%88-%EC%B2%98%EB%B6%84-%EB%AC%B8%EC%A0%9C/" rel="alternate" type="text/html" title="유산 관리와 예술품 처분 문제" />
-    <published>2025-11-18T20:15:31+09:00</published>
+    <title>상원, 트럼프 암호화폐 사업 조사 요청</title>
+    <link href="/posts/%EC%83%81%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EC%82%AC%EC%97%85-%EC%A1%B0%EC%82%AC-%EC%9A%94%EC%B2%AD/" rel="alternate" type="text/html" title="상원, 트럼프 암호화폐 사업 조사 요청" />
+    <published>2025-11-18T21:33:59+09:00</published>
   
-    <updated>2025-11-18T20:15:31+09:00</updated>
+    <updated>2025-11-18T21:33:59+09:00</updated>
   
-    <id>/posts/%EC%9C%A0%EC%82%B0-%EA%B4%80%EB%A6%AC%EC%99%80-%EC%98%88%EC%88%A0%ED%92%88-%EC%B2%98%EB%B6%84-%EB%AC%B8%EC%A0%9C/</id>
-    <content type="text/html" src="/posts/%EC%9C%A0%EC%82%B0-%EA%B4%80%EB%A6%AC%EC%99%80-%EC%98%88%EC%88%A0%ED%92%88-%EC%B2%98%EB%B6%84-%EB%AC%B8%EC%A0%9C/" />
+    <id>/posts/%EC%83%81%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EC%82%AC%EC%97%85-%EC%A1%B0%EC%82%AC-%EC%9A%94%EC%B2%AD/</id>
+    <content type="text/html" src="/posts/%EC%83%81%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EC%82%AC%EC%97%85-%EC%A1%B0%EC%82%AC-%EC%9A%94%EC%B2%AD/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>유산 관리와 예술품 처분 문제 · 경제 뉴스 요약</summary>
+  <summary>상원, 트럼프 암호화폐 사업 조사 요청 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>헤지펀드, 주식 시장 버블 경고</title>
-    <link href="/posts/%ED%97%A4%EC%A7%80%ED%8E%80%EB%93%9C-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%B2%84%EB%B8%94-%EA%B2%BD%EA%B3%A0/" rel="alternate" type="text/html" title="헤지펀드, 주식 시장 버블 경고" />
-    <published>2025-11-18T20:15:15+09:00</published>
+    <title>라인메탈, 2030년까지 매출 5배 증가 전망</title>
+    <link href="/posts/%EB%9D%BC%EC%9D%B8%EB%A9%94%ED%83%88-2030%EB%85%84%EA%B9%8C%EC%A7%80-%EB%A7%A4%EC%B6%9C-5%EB%B0%B0-%EC%A6%9D%EA%B0%80-%EC%A0%84%EB%A7%9D/" rel="alternate" type="text/html" title="라인메탈, 2030년까지 매출 5배 증가 전망" />
+    <published>2025-11-18T21:33:40+09:00</published>
   
-    <updated>2025-11-18T20:15:15+09:00</updated>
+    <updated>2025-11-18T21:33:40+09:00</updated>
   
-    <id>/posts/%ED%97%A4%EC%A7%80%ED%8E%80%EB%93%9C-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%B2%84%EB%B8%94-%EA%B2%BD%EA%B3%A0/</id>
-    <content type="text/html" src="/posts/%ED%97%A4%EC%A7%80%ED%8E%80%EB%93%9C-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%EB%B2%84%EB%B8%94-%EA%B2%BD%EA%B3%A0/" />
+    <id>/posts/%EB%9D%BC%EC%9D%B8%EB%A9%94%ED%83%88-2030%EB%85%84%EA%B9%8C%EC%A7%80-%EB%A7%A4%EC%B6%9C-5%EB%B0%B0-%EC%A6%9D%EA%B0%80-%EC%A0%84%EB%A7%9D/</id>
+    <content type="text/html" src="/posts/%EB%9D%BC%EC%9D%B8%EB%A9%94%ED%83%88-2030%EB%85%84%EA%B9%8C%EC%A7%80-%EB%A7%A4%EC%B6%9C-5%EB%B0%B0-%EC%A6%9D%EA%B0%80-%EC%A0%84%EB%A7%9D/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>헤지펀드, 주식 시장 버블 경고 · 경제 뉴스 요약</summary>
+  <summary>라인메탈, 2030년까지 매출 5배 증가 전망 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>홈디포, 주택 개선 수요 감소로 실적 전망 하향</title>
-    <link href="/posts/%ED%99%88%EB%94%94%ED%8F%AC-%EC%A3%BC%ED%83%9D-%EA%B0%9C%EC%84%A0-%EC%88%98%EC%9A%94-%EA%B0%90%EC%86%8C%EB%A1%9C-%EC%8B%A4%EC%A0%81-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5/" rel="alternate" type="text/html" title="홈디포, 주택 개선 수요 감소로 실적 전망 하향" />
-    <published>2025-11-18T20:15:02+09:00</published>
+    <title>펀드 매니저들은 낙관적, BofA는 경고</title>
+    <link href="/posts/%ED%8E%80%EB%93%9C-%EB%A7%A4%EB%8B%88%EC%A0%80%EB%93%A4%EC%9D%80-%EB%82%99%EA%B4%80%EC%A0%81-bofa%EB%8A%94-%EA%B2%BD%EA%B3%A0/" rel="alternate" type="text/html" title="펀드 매니저들은 낙관적, BofA는 경고" />
+    <published>2025-11-18T21:33:20+09:00</published>
   
-    <updated>2025-11-18T20:15:02+09:00</updated>
+    <updated>2025-11-18T21:33:20+09:00</updated>
   
-    <id>/posts/%ED%99%88%EB%94%94%ED%8F%AC-%EC%A3%BC%ED%83%9D-%EA%B0%9C%EC%84%A0-%EC%88%98%EC%9A%94-%EA%B0%90%EC%86%8C%EB%A1%9C-%EC%8B%A4%EC%A0%81-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5/</id>
-    <content type="text/html" src="/posts/%ED%99%88%EB%94%94%ED%8F%AC-%EC%A3%BC%ED%83%9D-%EA%B0%9C%EC%84%A0-%EC%88%98%EC%9A%94-%EA%B0%90%EC%86%8C%EB%A1%9C-%EC%8B%A4%EC%A0%81-%EC%A0%84%EB%A7%9D-%ED%95%98%ED%96%A5/" />
+    <id>/posts/%ED%8E%80%EB%93%9C-%EB%A7%A4%EB%8B%88%EC%A0%80%EB%93%A4%EC%9D%80-%EB%82%99%EA%B4%80%EC%A0%81-bofa%EB%8A%94-%EA%B2%BD%EA%B3%A0/</id>
+    <content type="text/html" src="/posts/%ED%8E%80%EB%93%9C-%EB%A7%A4%EB%8B%88%EC%A0%80%EB%93%A4%EC%9D%80-%EB%82%99%EA%B4%80%EC%A0%81-bofa%EB%8A%94-%EA%B2%BD%EA%B3%A0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>홈디포, 주택 개선 수요 감소로 실적 전망 하향 · 경제 뉴스 요약</summary>
+  <summary>펀드 매니저들은 낙관적, BofA는 경고 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>비트코인 하락, 주식시장에 경계감 확산</title>
-    <link href="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%95%98%EB%9D%BD-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5%EC%97%90-%EA%B2%BD%EA%B3%84%EA%B0%90-%ED%99%95%EC%82%B0/" rel="alternate" type="text/html" title="비트코인 하락, 주식시장에 경계감 확산" />
-    <published>2025-11-18T19:19:56+09:00</published>
+    <title>아마존, AI 관련 채무 발행 증가에 동참</title>
+    <link href="/posts/%EC%95%84%EB%A7%88%EC%A1%B4-ai-%EA%B4%80%EB%A0%A8-%EC%B1%84%EB%AC%B4-%EB%B0%9C%ED%96%89-%EC%A6%9D%EA%B0%80%EC%97%90-%EB%8F%99%EC%B0%B8/" rel="alternate" type="text/html" title="아마존, AI 관련 채무 발행 증가에 동참" />
+    <published>2025-11-18T21:33:07+09:00</published>
   
-    <updated>2025-11-18T19:19:56+09:00</updated>
+    <updated>2025-11-18T21:33:07+09:00</updated>
   
-    <id>/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%95%98%EB%9D%BD-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5%EC%97%90-%EA%B2%BD%EA%B3%84%EA%B0%90-%ED%99%95%EC%82%B0/</id>
-    <content type="text/html" src="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%95%98%EB%9D%BD-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5%EC%97%90-%EA%B2%BD%EA%B3%84%EA%B0%90-%ED%99%95%EC%82%B0/" />
+    <id>/posts/%EC%95%84%EB%A7%88%EC%A1%B4-ai-%EA%B4%80%EB%A0%A8-%EC%B1%84%EB%AC%B4-%EB%B0%9C%ED%96%89-%EC%A6%9D%EA%B0%80%EC%97%90-%EB%8F%99%EC%B0%B8/</id>
+    <content type="text/html" src="/posts/%EC%95%84%EB%A7%88%EC%A1%B4-ai-%EA%B4%80%EB%A0%A8-%EC%B1%84%EB%AC%B4-%EB%B0%9C%ED%96%89-%EC%A6%9D%EA%B0%80%EC%97%90-%EB%8F%99%EC%B0%B8/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>비트코인 하락, 주식시장에 경계감 확산 · 경제 뉴스 요약</summary>
+  <summary>아마존, AI 관련 채무 발행 증가에 동참 · 경제 뉴스 요약</summary>
 
   </entry>
 
