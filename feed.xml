@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-18T18:19:49+09:00</updated>
+  <updated>2025-11-18T19:20:36+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>비트코인 하락, 주식시장에 경계감 확산</title>
+    <link href="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%95%98%EB%9D%BD-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5%EC%97%90-%EA%B2%BD%EA%B3%84%EA%B0%90-%ED%99%95%EC%82%B0/" rel="alternate" type="text/html" title="비트코인 하락, 주식시장에 경계감 확산" />
+    <published>2025-11-18T19:19:56+09:00</published>
+  
+    <updated>2025-11-18T19:19:56+09:00</updated>
+  
+    <id>/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%95%98%EB%9D%BD-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5%EC%97%90-%EA%B2%BD%EA%B3%84%EA%B0%90-%ED%99%95%EC%82%B0/</id>
+    <content type="text/html" src="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%95%98%EB%9D%BD-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5%EC%97%90-%EA%B2%BD%EA%B3%84%EA%B0%90-%ED%99%95%EC%82%B0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>비트코인 하락, 주식시장에 경계감 확산 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>S&amp;P 500, 139일 만에 50일 평균 아래로 하락</title>
+    <link href="/posts/sp-500-139%EC%9D%BC-%EB%A7%8C%EC%97%90-50%EC%9D%BC-%ED%8F%89%EA%B7%A0-%EC%95%84%EB%9E%98%EB%A1%9C-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="S&amp;amp;P 500, 139일 만에 50일 평균 아래로 하락" />
+    <published>2025-11-18T19:19:38+09:00</published>
+  
+    <updated>2025-11-18T19:19:38+09:00</updated>
+  
+    <id>/posts/sp-500-139%EC%9D%BC-%EB%A7%8C%EC%97%90-50%EC%9D%BC-%ED%8F%89%EA%B7%A0-%EC%95%84%EB%9E%98%EB%A1%9C-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/sp-500-139%EC%9D%BC-%EB%A7%8C%EC%97%90-50%EC%9D%BC-%ED%8F%89%EA%B7%A0-%EC%95%84%EB%9E%98%EB%A1%9C-%ED%95%98%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>S&amp;amp;P 500, 139일 만에 50일 평균 아래로 하락 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>사우디 왕세자, 카쇼기 사건 이후 첫 미국 방문 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>호주 주식 시장, S&amp;P/ASX 200 1.94% 하락</title>
-    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-spasx-200-194-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="호주 주식 시장, S&amp;amp;P/ASX 200 1.94% 하락" />
-    <published>2025-11-18T15:24:34+09:00</published>
-  
-    <updated>2025-11-18T15:24:34+09:00</updated>
-  
-    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-spasx-200-194-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-spasx-200-194-%ED%95%98%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>호주 주식 시장, S&amp;amp;P/ASX 200 1.94% 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>유럽 시장, AI 우려로 하락 예상</title>
-    <link href="/posts/%EC%9C%A0%EB%9F%BD-%EC%8B%9C%EC%9E%A5-ai-%EC%9A%B0%EB%A0%A4%EB%A1%9C-%ED%95%98%EB%9D%BD-%EC%98%88%EC%83%81/" rel="alternate" type="text/html" title="유럽 시장, AI 우려로 하락 예상" />
-    <published>2025-11-18T15:24:19+09:00</published>
-  
-    <updated>2025-11-18T15:24:19+09:00</updated>
-  
-    <id>/posts/%EC%9C%A0%EB%9F%BD-%EC%8B%9C%EC%9E%A5-ai-%EC%9A%B0%EB%A0%A4%EB%A1%9C-%ED%95%98%EB%9D%BD-%EC%98%88%EC%83%81/</id>
-    <content type="text/html" src="/posts/%EC%9C%A0%EB%9F%BD-%EC%8B%9C%EC%9E%A5-ai-%EC%9A%B0%EB%A0%A4%EB%A1%9C-%ED%95%98%EB%9D%BD-%EC%98%88%EC%83%81/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>유럽 시장, AI 우려로 하락 예상 · 경제 뉴스 요약</summary>
 
   </entry>
 
