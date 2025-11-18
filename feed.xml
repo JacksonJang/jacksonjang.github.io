@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-18T21:34:57+09:00</updated>
+  <updated>2025-11-18T22:31:29+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>반도체 주식: TSMC와 ASML 비교</title>
-    <link href="/posts/%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-tsmc%EC%99%80-asml-%EB%B9%84%EA%B5%90/" rel="alternate" type="text/html" title="반도체 주식: TSMC와 ASML 비교" />
-    <published>2025-11-18T21:34:13+09:00</published>
+    <title>OpenAI, 실패해도 큰 영향 없을 것</title>
+    <link href="/posts/openai-%EC%8B%A4%ED%8C%A8%ED%95%B4%EB%8F%84-%ED%81%B0-%EC%98%81%ED%96%A5-%EC%97%86%EC%9D%84-%EA%B2%83/" rel="alternate" type="text/html" title="OpenAI, 실패해도 큰 영향 없을 것" />
+    <published>2025-11-18T22:30:55+09:00</published>
   
-    <updated>2025-11-18T21:34:13+09:00</updated>
+    <updated>2025-11-18T22:30:55+09:00</updated>
   
-    <id>/posts/%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-tsmc%EC%99%80-asml-%EB%B9%84%EA%B5%90/</id>
-    <content type="text/html" src="/posts/%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-tsmc%EC%99%80-asml-%EB%B9%84%EA%B5%90/" />
+    <id>/posts/openai-%EC%8B%A4%ED%8C%A8%ED%95%B4%EB%8F%84-%ED%81%B0-%EC%98%81%ED%96%A5-%EC%97%86%EC%9D%84-%EA%B2%83/</id>
+    <content type="text/html" src="/posts/openai-%EC%8B%A4%ED%8C%A8%ED%95%B4%EB%8F%84-%ED%81%B0-%EC%98%81%ED%96%A5-%EC%97%86%EC%9D%84-%EA%B2%83/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>반도체 주식: TSMC와 ASML 비교 · 경제 뉴스 요약</summary>
+  <summary>OpenAI, 실패해도 큰 영향 없을 것 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>상원, 트럼프 암호화폐 사업 조사 요청</title>
-    <link href="/posts/%EC%83%81%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EC%82%AC%EC%97%85-%EC%A1%B0%EC%82%AC-%EC%9A%94%EC%B2%AD/" rel="alternate" type="text/html" title="상원, 트럼프 암호화폐 사업 조사 요청" />
-    <published>2025-11-18T21:33:59+09:00</published>
+    <title>토요타, 미국 공장에 9억1200만 달러 투자</title>
+    <link href="/posts/%ED%86%A0%EC%9A%94%ED%83%80-%EB%AF%B8%EA%B5%AD-%EA%B3%B5%EC%9E%A5%EC%97%90-9%EC%96%B51200%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%ED%88%AC%EC%9E%90/" rel="alternate" type="text/html" title="토요타, 미국 공장에 9억1200만 달러 투자" />
+    <published>2025-11-18T22:30:41+09:00</published>
   
-    <updated>2025-11-18T21:33:59+09:00</updated>
+    <updated>2025-11-18T22:30:41+09:00</updated>
   
-    <id>/posts/%EC%83%81%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EC%82%AC%EC%97%85-%EC%A1%B0%EC%82%AC-%EC%9A%94%EC%B2%AD/</id>
-    <content type="text/html" src="/posts/%EC%83%81%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EC%82%AC%EC%97%85-%EC%A1%B0%EC%82%AC-%EC%9A%94%EC%B2%AD/" />
+    <id>/posts/%ED%86%A0%EC%9A%94%ED%83%80-%EB%AF%B8%EA%B5%AD-%EA%B3%B5%EC%9E%A5%EC%97%90-9%EC%96%B51200%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%ED%88%AC%EC%9E%90/</id>
+    <content type="text/html" src="/posts/%ED%86%A0%EC%9A%94%ED%83%80-%EB%AF%B8%EA%B5%AD-%EA%B3%B5%EC%9E%A5%EC%97%90-9%EC%96%B51200%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%ED%88%AC%EC%9E%90/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>상원, 트럼프 암호화폐 사업 조사 요청 · 경제 뉴스 요약</summary>
+  <summary>토요타, 미국 공장에 9억1200만 달러 투자 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>라인메탈, 2030년까지 매출 5배 증가 전망</title>
-    <link href="/posts/%EB%9D%BC%EC%9D%B8%EB%A9%94%ED%83%88-2030%EB%85%84%EA%B9%8C%EC%A7%80-%EB%A7%A4%EC%B6%9C-5%EB%B0%B0-%EC%A6%9D%EA%B0%80-%EC%A0%84%EB%A7%9D/" rel="alternate" type="text/html" title="라인메탈, 2030년까지 매출 5배 증가 전망" />
-    <published>2025-11-18T21:33:40+09:00</published>
+    <title>클라우드플레어, 인터넷 장애의 원인?</title>
+    <link href="/posts/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%ED%94%8C%EB%A0%88%EC%96%B4-%EC%9D%B8%ED%84%B0%EB%84%B7-%EC%9E%A5%EC%95%A0%EC%9D%98-%EC%9B%90%EC%9D%B8/" rel="alternate" type="text/html" title="클라우드플레어, 인터넷 장애의 원인?" />
+    <published>2025-11-18T22:30:29+09:00</published>
   
-    <updated>2025-11-18T21:33:40+09:00</updated>
+    <updated>2025-11-18T22:30:29+09:00</updated>
   
-    <id>/posts/%EB%9D%BC%EC%9D%B8%EB%A9%94%ED%83%88-2030%EB%85%84%EA%B9%8C%EC%A7%80-%EB%A7%A4%EC%B6%9C-5%EB%B0%B0-%EC%A6%9D%EA%B0%80-%EC%A0%84%EB%A7%9D/</id>
-    <content type="text/html" src="/posts/%EB%9D%BC%EC%9D%B8%EB%A9%94%ED%83%88-2030%EB%85%84%EA%B9%8C%EC%A7%80-%EB%A7%A4%EC%B6%9C-5%EB%B0%B0-%EC%A6%9D%EA%B0%80-%EC%A0%84%EB%A7%9D/" />
+    <id>/posts/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%ED%94%8C%EB%A0%88%EC%96%B4-%EC%9D%B8%ED%84%B0%EB%84%B7-%EC%9E%A5%EC%95%A0%EC%9D%98-%EC%9B%90%EC%9D%B8/</id>
+    <content type="text/html" src="/posts/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%ED%94%8C%EB%A0%88%EC%96%B4-%EC%9D%B8%ED%84%B0%EB%84%B7-%EC%9E%A5%EC%95%A0%EC%9D%98-%EC%9B%90%EC%9D%B8/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>라인메탈, 2030년까지 매출 5배 증가 전망 · 경제 뉴스 요약</summary>
+  <summary>클라우드플레어, 인터넷 장애의 원인? · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>펀드 매니저들은 낙관적, BofA는 경고</title>
-    <link href="/posts/%ED%8E%80%EB%93%9C-%EB%A7%A4%EB%8B%88%EC%A0%80%EB%93%A4%EC%9D%80-%EB%82%99%EA%B4%80%EC%A0%81-bofa%EB%8A%94-%EA%B2%BD%EA%B3%A0/" rel="alternate" type="text/html" title="펀드 매니저들은 낙관적, BofA는 경고" />
-    <published>2025-11-18T21:33:20+09:00</published>
+    <title>Intuit, OpenAI에 연간 1억 달러 이상 지급</title>
+    <link href="/posts/intuit-openai%EC%97%90-%EC%97%B0%EA%B0%84-1%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%9D%B4%EC%83%81-%EC%A7%80%EA%B8%89/" rel="alternate" type="text/html" title="Intuit, OpenAI에 연간 1억 달러 이상 지급" />
+    <published>2025-11-18T22:30:09+09:00</published>
   
-    <updated>2025-11-18T21:33:20+09:00</updated>
+    <updated>2025-11-18T22:30:09+09:00</updated>
   
-    <id>/posts/%ED%8E%80%EB%93%9C-%EB%A7%A4%EB%8B%88%EC%A0%80%EB%93%A4%EC%9D%80-%EB%82%99%EA%B4%80%EC%A0%81-bofa%EB%8A%94-%EA%B2%BD%EA%B3%A0/</id>
-    <content type="text/html" src="/posts/%ED%8E%80%EB%93%9C-%EB%A7%A4%EB%8B%88%EC%A0%80%EB%93%A4%EC%9D%80-%EB%82%99%EA%B4%80%EC%A0%81-bofa%EB%8A%94-%EA%B2%BD%EA%B3%A0/" />
+    <id>/posts/intuit-openai%EC%97%90-%EC%97%B0%EA%B0%84-1%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%9D%B4%EC%83%81-%EC%A7%80%EA%B8%89/</id>
+    <content type="text/html" src="/posts/intuit-openai%EC%97%90-%EC%97%B0%EA%B0%84-1%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%9D%B4%EC%83%81-%EC%A7%80%EA%B8%89/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>펀드 매니저들은 낙관적, BofA는 경고 · 경제 뉴스 요약</summary>
+  <summary>Intuit, OpenAI에 연간 1억 달러 이상 지급 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>아마존, AI 관련 채무 발행 증가에 동참</title>
-    <link href="/posts/%EC%95%84%EB%A7%88%EC%A1%B4-ai-%EA%B4%80%EB%A0%A8-%EC%B1%84%EB%AC%B4-%EB%B0%9C%ED%96%89-%EC%A6%9D%EA%B0%80%EC%97%90-%EB%8F%99%EC%B0%B8/" rel="alternate" type="text/html" title="아마존, AI 관련 채무 발행 증가에 동참" />
-    <published>2025-11-18T21:33:07+09:00</published>
+    <title>FanDuel과 DraftKings, AGA 탈퇴</title>
+    <link href="/posts/fanduel%EA%B3%BC-draftkings-aga-%ED%83%88%ED%87%B4/" rel="alternate" type="text/html" title="FanDuel과 DraftKings, AGA 탈퇴" />
+    <published>2025-11-18T22:29:57+09:00</published>
   
-    <updated>2025-11-18T21:33:07+09:00</updated>
+    <updated>2025-11-18T22:29:57+09:00</updated>
   
-    <id>/posts/%EC%95%84%EB%A7%88%EC%A1%B4-ai-%EA%B4%80%EB%A0%A8-%EC%B1%84%EB%AC%B4-%EB%B0%9C%ED%96%89-%EC%A6%9D%EA%B0%80%EC%97%90-%EB%8F%99%EC%B0%B8/</id>
-    <content type="text/html" src="/posts/%EC%95%84%EB%A7%88%EC%A1%B4-ai-%EA%B4%80%EB%A0%A8-%EC%B1%84%EB%AC%B4-%EB%B0%9C%ED%96%89-%EC%A6%9D%EA%B0%80%EC%97%90-%EB%8F%99%EC%B0%B8/" />
+    <id>/posts/fanduel%EA%B3%BC-draftkings-aga-%ED%83%88%ED%87%B4/</id>
+    <content type="text/html" src="/posts/fanduel%EA%B3%BC-draftkings-aga-%ED%83%88%ED%87%B4/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>아마존, AI 관련 채무 발행 증가에 동참 · 경제 뉴스 요약</summary>
+  <summary>FanDuel과 DraftKings, AGA 탈퇴 · 경제 뉴스 요약</summary>
 
   </entry>
 
