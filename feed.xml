@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-18T15:25:14+09:00</updated>
+  <updated>2025-11-18T16:17:13+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>사우디 왕세자, 카쇼기 사건 이후 첫 미국 방문</title>
+    <link href="/posts/%EC%82%AC%EC%9A%B0%EB%94%94-%EC%99%95%EC%84%B8%EC%9E%90-%EC%B9%B4%EC%87%BC%EA%B8%B0-%EC%82%AC%EA%B1%B4-%EC%9D%B4%ED%9B%84-%EC%B2%AB-%EB%AF%B8%EA%B5%AD-%EB%B0%A9%EB%AC%B8/" rel="alternate" type="text/html" title="사우디 왕세자, 카쇼기 사건 이후 첫 미국 방문" />
+    <published>2025-11-18T16:16:40+09:00</published>
+  
+    <updated>2025-11-18T16:16:40+09:00</updated>
+  
+    <id>/posts/%EC%82%AC%EC%9A%B0%EB%94%94-%EC%99%95%EC%84%B8%EC%9E%90-%EC%B9%B4%EC%87%BC%EA%B8%B0-%EC%82%AC%EA%B1%B4-%EC%9D%B4%ED%9B%84-%EC%B2%AB-%EB%AF%B8%EA%B5%AD-%EB%B0%A9%EB%AC%B8/</id>
+    <content type="text/html" src="/posts/%EC%82%AC%EC%9A%B0%EB%94%94-%EC%99%95%EC%84%B8%EC%9E%90-%EC%B9%B4%EC%87%BC%EA%B8%B0-%EC%82%AC%EA%B1%B4-%EC%9D%B4%ED%9B%84-%EC%B2%AB-%EB%AF%B8%EA%B5%AD-%EB%B0%A9%EB%AC%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>사우디 왕세자, 카쇼기 사건 이후 첫 미국 방문 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Larry Summers, Epstein 이메일 논란 속 공적 활동 중단 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>아시아 태평양 시장, 기술주 하락에 따른 하락세</title>
-    <link href="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EA%B8%B0%EC%88%A0%EC%A3%BC-%ED%95%98%EB%9D%BD%EC%97%90-%EB%94%B0%EB%A5%B8-%ED%95%98%EB%9D%BD%EC%84%B8/" rel="alternate" type="text/html" title="아시아 태평양 시장, 기술주 하락에 따른 하락세" />
-    <published>2025-11-18T12:10:16+09:00</published>
-  
-    <updated>2025-11-18T12:10:16+09:00</updated>
-  
-    <id>/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EA%B8%B0%EC%88%A0%EC%A3%BC-%ED%95%98%EB%9D%BD%EC%97%90-%EB%94%B0%EB%A5%B8-%ED%95%98%EB%9D%BD%EC%84%B8/</id>
-    <content type="text/html" src="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EA%B8%B0%EC%88%A0%EC%A3%BC-%ED%95%98%EB%9D%BD%EC%97%90-%EB%94%B0%EB%A5%B8-%ED%95%98%EB%9D%BD%EC%84%B8/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>아시아 태평양 시장, 기술주 하락에 따른 하락세 · 경제 뉴스 요약</summary>
 
   </entry>
 
