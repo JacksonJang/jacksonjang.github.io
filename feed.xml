@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-19T14:17:51+09:00</updated>
+  <updated>2025-11-19T15:25:18+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>호주 주식, S&amp;P/ASX 200 0.25% 하락 마감</title>
+    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-025-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="호주 주식, S&amp;amp;P/ASX 200 0.25% 하락 마감" />
+    <published>2025-11-19T15:24:34+09:00</published>
+  
+    <updated>2025-11-19T15:24:34+09:00</updated>
+  
+    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-025-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/</id>
+    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-025-%ED%95%98%EB%9D%BD-%EB%A7%88%EA%B0%90/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>호주 주식, S&amp;amp;P/ASX 200 0.25% 하락 마감 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>유럽, 희토류 자원 보유하지만 중국 의존도 높아</title>
+    <link href="/posts/%EC%9C%A0%EB%9F%BD-%ED%9D%AC%ED%86%A0%EB%A5%98-%EC%9E%90%EC%9B%90-%EB%B3%B4%EC%9C%A0%ED%95%98%EC%A7%80%EB%A7%8C-%EC%A4%91%EA%B5%AD-%EC%9D%98%EC%A1%B4%EB%8F%84-%EB%86%92%EC%95%84/" rel="alternate" type="text/html" title="유럽, 희토류 자원 보유하지만 중국 의존도 높아" />
+    <published>2025-11-19T15:24:15+09:00</published>
+  
+    <updated>2025-11-19T15:24:15+09:00</updated>
+  
+    <id>/posts/%EC%9C%A0%EB%9F%BD-%ED%9D%AC%ED%86%A0%EB%A5%98-%EC%9E%90%EC%9B%90-%EB%B3%B4%EC%9C%A0%ED%95%98%EC%A7%80%EB%A7%8C-%EC%A4%91%EA%B5%AD-%EC%9D%98%EC%A1%B4%EB%8F%84-%EB%86%92%EC%95%84/</id>
+    <content type="text/html" src="/posts/%EC%9C%A0%EB%9F%BD-%ED%9D%AC%ED%86%A0%EB%A5%98-%EC%9E%90%EC%9B%90-%EB%B3%B4%EC%9C%A0%ED%95%98%EC%A7%80%EB%A7%8C-%EC%A4%91%EA%B5%AD-%EC%9D%98%EC%A1%B4%EB%8F%84-%EB%86%92%EC%95%84/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>유럽, 희토류 자원 보유하지만 중국 의존도 높아 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>Zoox, 샌프란시스코에서 로봇 택시 서비스 시작 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>ACA 보조금 절벽, '유령세'와 그 회피 방법</title>
-    <link href="/posts/aca-%EB%B3%B4%EC%A1%B0%EA%B8%88-%EC%A0%88%EB%B2%BD-%EC%9C%A0%EB%A0%B9%EC%84%B8%EC%99%80-%EA%B7%B8-%ED%9A%8C%ED%94%BC-%EB%B0%A9%EB%B2%95/" rel="alternate" type="text/html" title="ACA 보조금 절벽, &amp;apos;유령세&amp;apos;와 그 회피 방법" />
-    <published>2025-11-19T12:10:09+09:00</published>
-  
-    <updated>2025-11-19T12:10:09+09:00</updated>
-  
-    <id>/posts/aca-%EB%B3%B4%EC%A1%B0%EA%B8%88-%EC%A0%88%EB%B2%BD-%EC%9C%A0%EB%A0%B9%EC%84%B8%EC%99%80-%EA%B7%B8-%ED%9A%8C%ED%94%BC-%EB%B0%A9%EB%B2%95/</id>
-    <content type="text/html" src="/posts/aca-%EB%B3%B4%EC%A1%B0%EA%B8%88-%EC%A0%88%EB%B2%BD-%EC%9C%A0%EB%A0%B9%EC%84%B8%EC%99%80-%EA%B7%B8-%ED%9A%8C%ED%94%BC-%EB%B0%A9%EB%B2%95/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>ACA 보조금 절벽, &amp;#39;유령세&amp;#39;와 그 회피 방법 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>마이크로소프트, AI 에이전트 관리 도구 공개</title>
-    <link href="/posts/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EA%B4%80%EB%A6%AC-%EB%8F%84%EA%B5%AC-%EA%B3%B5%EA%B0%9C/" rel="alternate" type="text/html" title="마이크로소프트, AI 에이전트 관리 도구 공개" />
-    <published>2025-11-19T12:09:55+09:00</published>
-  
-    <updated>2025-11-19T12:09:55+09:00</updated>
-  
-    <id>/posts/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EA%B4%80%EB%A6%AC-%EB%8F%84%EA%B5%AC-%EA%B3%B5%EA%B0%9C/</id>
-    <content type="text/html" src="/posts/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EA%B4%80%EB%A6%AC-%EB%8F%84%EA%B5%AC-%EA%B3%B5%EA%B0%9C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>마이크로소프트, AI 에이전트 관리 도구 공개 · 경제 뉴스 요약</summary>
 
   </entry>
 
