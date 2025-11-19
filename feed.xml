@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-19T08:16:45+09:00</updated>
+  <updated>2025-11-19T10:13:29+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>S&amp;P Global Inc 분석 보고서</title>
-    <link href="/posts/sp-global-inc-%EB%B6%84%EC%84%9D-%EB%B3%B4%EA%B3%A0%EC%84%9C/" rel="alternate" type="text/html" title="S&amp;amp;P Global Inc 분석 보고서" />
-    <published>2025-11-19T08:16:08+09:00</published>
+    <title>100세 시대, 당신의 재정은 준비됐나요?</title>
+    <link href="/posts/100%EC%84%B8-%EC%8B%9C%EB%8C%80-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EC%9E%AC%EC%A0%95%EC%9D%80-%EC%A4%80%EB%B9%84%EB%90%90%EB%82%98%EC%9A%94/" rel="alternate" type="text/html" title="100세 시대, 당신의 재정은 준비됐나요?" />
+    <published>2025-11-19T10:12:55+09:00</published>
   
-    <updated>2025-11-19T08:16:08+09:00</updated>
+    <updated>2025-11-19T10:12:55+09:00</updated>
   
-    <id>/posts/sp-global-inc-%EB%B6%84%EC%84%9D-%EB%B3%B4%EA%B3%A0%EC%84%9C/</id>
-    <content type="text/html" src="/posts/sp-global-inc-%EB%B6%84%EC%84%9D-%EB%B3%B4%EA%B3%A0%EC%84%9C/" />
+    <id>/posts/100%EC%84%B8-%EC%8B%9C%EB%8C%80-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EC%9E%AC%EC%A0%95%EC%9D%80-%EC%A4%80%EB%B9%84%EB%90%90%EB%82%98%EC%9A%94/</id>
+    <content type="text/html" src="/posts/100%EC%84%B8-%EC%8B%9C%EB%8C%80-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EC%9E%AC%EC%A0%95%EC%9D%80-%EC%A4%80%EB%B9%84%EB%90%90%EB%82%98%EC%9A%94/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>S&amp;amp;P Global Inc 분석 보고서 · 경제 뉴스 요약</summary>
+  <summary>100세 시대, 당신의 재정은 준비됐나요? · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>전기차 속도 우위가 판매를 이끌지 못하는 이유</title>
-    <link href="/posts/%EC%A0%84%EA%B8%B0%EC%B0%A8-%EC%86%8D%EB%8F%84-%EC%9A%B0%EC%9C%84%EA%B0%80-%ED%8C%90%EB%A7%A4%EB%A5%BC-%EC%9D%B4%EB%81%8C%EC%A7%80-%EB%AA%BB%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/" rel="alternate" type="text/html" title="전기차 속도 우위가 판매를 이끌지 못하는 이유" />
-    <published>2025-11-19T08:15:51+09:00</published>
+    <title>AI 주식 거래가 식어가는 이유</title>
+    <link href="/posts/ai-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98%EA%B0%80-%EC%8B%9D%EC%96%B4%EA%B0%80%EB%8A%94-%EC%9D%B4%EC%9C%A0/" rel="alternate" type="text/html" title="AI 주식 거래가 식어가는 이유" />
+    <published>2025-11-19T10:12:45+09:00</published>
   
-    <updated>2025-11-19T08:15:51+09:00</updated>
+    <updated>2025-11-19T10:12:45+09:00</updated>
   
-    <id>/posts/%EC%A0%84%EA%B8%B0%EC%B0%A8-%EC%86%8D%EB%8F%84-%EC%9A%B0%EC%9C%84%EA%B0%80-%ED%8C%90%EB%A7%A4%EB%A5%BC-%EC%9D%B4%EB%81%8C%EC%A7%80-%EB%AA%BB%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</id>
-    <content type="text/html" src="/posts/%EC%A0%84%EA%B8%B0%EC%B0%A8-%EC%86%8D%EB%8F%84-%EC%9A%B0%EC%9C%84%EA%B0%80-%ED%8C%90%EB%A7%A4%EB%A5%BC-%EC%9D%B4%EB%81%8C%EC%A7%80-%EB%AA%BB%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/" />
+    <id>/posts/ai-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98%EA%B0%80-%EC%8B%9D%EC%96%B4%EA%B0%80%EB%8A%94-%EC%9D%B4%EC%9C%A0/</id>
+    <content type="text/html" src="/posts/ai-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98%EA%B0%80-%EC%8B%9D%EC%96%B4%EA%B0%80%EB%8A%94-%EC%9D%B4%EC%9C%A0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>전기차 속도 우위가 판매를 이끌지 못하는 이유 · 경제 뉴스 요약</summary>
+  <summary>AI 주식 거래가 식어가는 이유 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>트럼프 행정부, 3마일 섬 원자력 재가동 지원</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%96%89%EC%A0%95%EB%B6%80-3%EB%A7%88%EC%9D%BC-%EC%84%AC-%EC%9B%90%EC%9E%90%EB%A0%A5-%EC%9E%AC%EA%B0%80%EB%8F%99-%EC%A7%80%EC%9B%90/" rel="alternate" type="text/html" title="트럼프 행정부, 3마일 섬 원자력 재가동 지원" />
-    <published>2025-11-19T08:15:37+09:00</published>
+    <title>비트코인 ETF, 암호화폐 하락장 속 기록적인 자금 유출</title>
+    <link href="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-etf-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%ED%95%98%EB%9D%BD%EC%9E%A5-%EC%86%8D-%EA%B8%B0%EB%A1%9D%EC%A0%81%EC%9D%B8-%EC%9E%90%EA%B8%88-%EC%9C%A0%EC%B6%9C/" rel="alternate" type="text/html" title="비트코인 ETF, 암호화폐 하락장 속 기록적인 자금 유출" />
+    <published>2025-11-19T10:12:31+09:00</published>
   
-    <updated>2025-11-19T08:15:37+09:00</updated>
+    <updated>2025-11-19T10:12:31+09:00</updated>
   
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%96%89%EC%A0%95%EB%B6%80-3%EB%A7%88%EC%9D%BC-%EC%84%AC-%EC%9B%90%EC%9E%90%EB%A0%A5-%EC%9E%AC%EA%B0%80%EB%8F%99-%EC%A7%80%EC%9B%90/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%96%89%EC%A0%95%EB%B6%80-3%EB%A7%88%EC%9D%BC-%EC%84%AC-%EC%9B%90%EC%9E%90%EB%A0%A5-%EC%9E%AC%EA%B0%80%EB%8F%99-%EC%A7%80%EC%9B%90/" />
+    <id>/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-etf-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%ED%95%98%EB%9D%BD%EC%9E%A5-%EC%86%8D-%EA%B8%B0%EB%A1%9D%EC%A0%81%EC%9D%B8-%EC%9E%90%EA%B8%88-%EC%9C%A0%EC%B6%9C/</id>
+    <content type="text/html" src="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-etf-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%ED%95%98%EB%9D%BD%EC%9E%A5-%EC%86%8D-%EA%B8%B0%EB%A1%9D%EC%A0%81%EC%9D%B8-%EC%9E%90%EA%B8%88-%EC%9C%A0%EC%B6%9C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>트럼프 행정부, 3마일 섬 원자력 재가동 지원 · 경제 뉴스 요약</summary>
+  <summary>비트코인 ETF, 암호화폐 하락장 속 기록적인 자금 유출 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>Nio, 2년 만에 최장 하락세 기록</title>
-    <link href="/posts/nio-2%EB%85%84-%EB%A7%8C%EC%97%90-%EC%B5%9C%EC%9E%A5-%ED%95%98%EB%9D%BD%EC%84%B8-%EA%B8%B0%EB%A1%9D/" rel="alternate" type="text/html" title="Nio, 2년 만에 최장 하락세 기록" />
-    <published>2025-11-19T08:15:21+09:00</published>
+    <title>메타, AI 수익성 향상을 위한 변화 예고</title>
+    <link href="/posts/%EB%A9%94%ED%83%80-ai-%EC%88%98%EC%9D%B5%EC%84%B1-%ED%96%A5%EC%83%81%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%B3%80%ED%99%94-%EC%98%88%EA%B3%A0/" rel="alternate" type="text/html" title="메타, AI 수익성 향상을 위한 변화 예고" />
+    <published>2025-11-19T10:12:20+09:00</published>
   
-    <updated>2025-11-19T08:15:21+09:00</updated>
+    <updated>2025-11-19T10:12:20+09:00</updated>
   
-    <id>/posts/nio-2%EB%85%84-%EB%A7%8C%EC%97%90-%EC%B5%9C%EC%9E%A5-%ED%95%98%EB%9D%BD%EC%84%B8-%EA%B8%B0%EB%A1%9D/</id>
-    <content type="text/html" src="/posts/nio-2%EB%85%84-%EB%A7%8C%EC%97%90-%EC%B5%9C%EC%9E%A5-%ED%95%98%EB%9D%BD%EC%84%B8-%EA%B8%B0%EB%A1%9D/" />
+    <id>/posts/%EB%A9%94%ED%83%80-ai-%EC%88%98%EC%9D%B5%EC%84%B1-%ED%96%A5%EC%83%81%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%B3%80%ED%99%94-%EC%98%88%EA%B3%A0/</id>
+    <content type="text/html" src="/posts/%EB%A9%94%ED%83%80-ai-%EC%88%98%EC%9D%B5%EC%84%B1-%ED%96%A5%EC%83%81%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%B3%80%ED%99%94-%EC%98%88%EA%B3%A0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>Nio, 2년 만에 최장 하락세 기록 · 경제 뉴스 요약</summary>
+  <summary>메타, AI 수익성 향상을 위한 변화 예고 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>애플 주식, 기술주 하락 속에서도 선전하는 이유</title>
-    <link href="/posts/%EC%95%A0%ED%94%8C-%EC%A3%BC%EC%8B%9D-%EA%B8%B0%EC%88%A0%EC%A3%BC-%ED%95%98%EB%9D%BD-%EC%86%8D%EC%97%90%EC%84%9C%EB%8F%84-%EC%84%A0%EC%A0%84%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/" rel="alternate" type="text/html" title="애플 주식, 기술주 하락 속에서도 선전하는 이유" />
-    <published>2025-11-19T08:15:06+09:00</published>
+    <title>아시아 태평양 시장, 기술주 하락에 따른 영향</title>
+    <link href="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EA%B8%B0%EC%88%A0%EC%A3%BC-%ED%95%98%EB%9D%BD%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%98%81%ED%96%A5/" rel="alternate" type="text/html" title="아시아 태평양 시장, 기술주 하락에 따른 영향" />
+    <published>2025-11-19T10:12:08+09:00</published>
   
-    <updated>2025-11-19T08:15:06+09:00</updated>
+    <updated>2025-11-19T10:12:08+09:00</updated>
   
-    <id>/posts/%EC%95%A0%ED%94%8C-%EC%A3%BC%EC%8B%9D-%EA%B8%B0%EC%88%A0%EC%A3%BC-%ED%95%98%EB%9D%BD-%EC%86%8D%EC%97%90%EC%84%9C%EB%8F%84-%EC%84%A0%EC%A0%84%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</id>
-    <content type="text/html" src="/posts/%EC%95%A0%ED%94%8C-%EC%A3%BC%EC%8B%9D-%EA%B8%B0%EC%88%A0%EC%A3%BC-%ED%95%98%EB%9D%BD-%EC%86%8D%EC%97%90%EC%84%9C%EB%8F%84-%EC%84%A0%EC%A0%84%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/" />
+    <id>/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EA%B8%B0%EC%88%A0%EC%A3%BC-%ED%95%98%EB%9D%BD%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%98%81%ED%96%A5/</id>
+    <content type="text/html" src="/posts/%EC%95%84%EC%8B%9C%EC%95%84-%ED%83%9C%ED%8F%89%EC%96%91-%EC%8B%9C%EC%9E%A5-%EA%B8%B0%EC%88%A0%EC%A3%BC-%ED%95%98%EB%9D%BD%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%98%81%ED%96%A5/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>애플 주식, 기술주 하락 속에서도 선전하는 이유 · 경제 뉴스 요약</summary>
+  <summary>아시아 태평양 시장, 기술주 하락에 따른 영향 · 경제 뉴스 요약</summary>
 
   </entry>
 
