@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-19T21:35:23+09:00</updated>
+  <updated>2025-11-19T22:31:20+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>FedEx Corporation의 성장 잠재력은?</title>
-    <link href="/posts/fedex-corporation%EC%9D%98-%EC%84%B1%EC%9E%A5-%EC%9E%A0%EC%9E%AC%EB%A0%A5%EC%9D%80/" rel="alternate" type="text/html" title="FedEx Corporation의 성장 잠재력은?" />
-    <published>2025-11-19T21:34:36+09:00</published>
+    <title>로빈후드 CIO의 시장 대응 전략</title>
+    <link href="/posts/%EB%A1%9C%EB%B9%88%ED%9B%84%EB%93%9C-cio%EC%9D%98-%EC%8B%9C%EC%9E%A5-%EB%8C%80%EC%9D%91-%EC%A0%84%EB%9E%B5/" rel="alternate" type="text/html" title="로빈후드 CIO의 시장 대응 전략" />
+    <published>2025-11-19T22:30:44+09:00</published>
   
-    <updated>2025-11-19T21:34:36+09:00</updated>
+    <updated>2025-11-19T22:30:44+09:00</updated>
   
-    <id>/posts/fedex-corporation%EC%9D%98-%EC%84%B1%EC%9E%A5-%EC%9E%A0%EC%9E%AC%EB%A0%A5%EC%9D%80/</id>
-    <content type="text/html" src="/posts/fedex-corporation%EC%9D%98-%EC%84%B1%EC%9E%A5-%EC%9E%A0%EC%9E%AC%EB%A0%A5%EC%9D%80/" />
+    <id>/posts/%EB%A1%9C%EB%B9%88%ED%9B%84%EB%93%9C-cio%EC%9D%98-%EC%8B%9C%EC%9E%A5-%EB%8C%80%EC%9D%91-%EC%A0%84%EB%9E%B5/</id>
+    <content type="text/html" src="/posts/%EB%A1%9C%EB%B9%88%ED%9B%84%EB%93%9C-cio%EC%9D%98-%EC%8B%9C%EC%9E%A5-%EB%8C%80%EC%9D%91-%EC%A0%84%EB%9E%B5/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>FedEx Corporation의 성장 잠재력은? · 경제 뉴스 요약</summary>
+  <summary>로빈후드 CIO의 시장 대응 전략 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>Lowe’s, 실적 호조로 Home Depot 초과</title>
-    <link href="/posts/lowes-%EC%8B%A4%EC%A0%81-%ED%98%B8%EC%A1%B0%EB%A1%9C-home-depot-%EC%B4%88%EA%B3%BC/" rel="alternate" type="text/html" title="Lowe’s, 실적 호조로 Home Depot 초과" />
-    <published>2025-11-19T21:34:22+09:00</published>
+    <title>트럼프의 10억 달러 대출, S&amp;P 500 원자력 기업에 긍정적</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%8C%80%EC%B6%9C-sp-500-%EC%9B%90%EC%9E%90%EB%A0%A5-%EA%B8%B0%EC%97%85%EC%97%90-%EA%B8%8D%EC%A0%95%EC%A0%81/" rel="alternate" type="text/html" title="트럼프의 10억 달러 대출, S&amp;amp;P 500 원자력 기업에 긍정적" />
+    <published>2025-11-19T22:30:30+09:00</published>
   
-    <updated>2025-11-19T21:34:22+09:00</updated>
+    <updated>2025-11-19T22:30:30+09:00</updated>
   
-    <id>/posts/lowes-%EC%8B%A4%EC%A0%81-%ED%98%B8%EC%A1%B0%EB%A1%9C-home-depot-%EC%B4%88%EA%B3%BC/</id>
-    <content type="text/html" src="/posts/lowes-%EC%8B%A4%EC%A0%81-%ED%98%B8%EC%A1%B0%EB%A1%9C-home-depot-%EC%B4%88%EA%B3%BC/" />
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%8C%80%EC%B6%9C-sp-500-%EC%9B%90%EC%9E%90%EB%A0%A5-%EA%B8%B0%EC%97%85%EC%97%90-%EA%B8%8D%EC%A0%95%EC%A0%81/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%8C%80%EC%B6%9C-sp-500-%EC%9B%90%EC%9E%90%EB%A0%A5-%EA%B8%B0%EC%97%85%EC%97%90-%EA%B8%8D%EC%A0%95%EC%A0%81/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>Lowe’s, 실적 호조로 Home Depot 초과 · 경제 뉴스 요약</summary>
+  <summary>트럼프의 10억 달러 대출, S&amp;amp;P 500 원자력 기업에 긍정적 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>타겟, 매출 부진으로 주가 하락</title>
-    <link href="/posts/%ED%83%80%EA%B2%9F-%EB%A7%A4%EC%B6%9C-%EB%B6%80%EC%A7%84%EC%9C%BC%EB%A1%9C-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="타겟, 매출 부진으로 주가 하락" />
-    <published>2025-11-19T21:34:04+09:00</published>
+    <title>로스 전환으로 소득 400K 증가, 어떻게 할까?</title>
+    <link href="/posts/%EB%A1%9C%EC%8A%A4-%EC%A0%84%ED%99%98%EC%9C%BC%EB%A1%9C-%EC%86%8C%EB%93%9D-400k-%EC%A6%9D%EA%B0%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="로스 전환으로 소득 400K 증가, 어떻게 할까?" />
+    <published>2025-11-19T22:30:16+09:00</published>
   
-    <updated>2025-11-19T21:34:04+09:00</updated>
+    <updated>2025-11-19T22:30:16+09:00</updated>
   
-    <id>/posts/%ED%83%80%EA%B2%9F-%EB%A7%A4%EC%B6%9C-%EB%B6%80%EC%A7%84%EC%9C%BC%EB%A1%9C-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/%ED%83%80%EA%B2%9F-%EB%A7%A4%EC%B6%9C-%EB%B6%80%EC%A7%84%EC%9C%BC%EB%A1%9C-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD/" />
+    <id>/posts/%EB%A1%9C%EC%8A%A4-%EC%A0%84%ED%99%98%EC%9C%BC%EB%A1%9C-%EC%86%8C%EB%93%9D-400k-%EC%A6%9D%EA%B0%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%A0%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/%EB%A1%9C%EC%8A%A4-%EC%A0%84%ED%99%98%EC%9C%BC%EB%A1%9C-%EC%86%8C%EB%93%9D-400k-%EC%A6%9D%EA%B0%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%A0%EA%B9%8C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>타겟, 매출 부진으로 주가 하락 · 경제 뉴스 요약</summary>
+  <summary>로스 전환으로 소득 400K 증가, 어떻게 할까? · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>27세 커플의 월세 분담 비율 고민</title>
-    <link href="/posts/27%EC%84%B8-%EC%BB%A4%ED%94%8C%EC%9D%98-%EC%9B%94%EC%84%B8-%EB%B6%84%EB%8B%B4-%EB%B9%84%EC%9C%A8-%EA%B3%A0%EB%AF%BC/" rel="alternate" type="text/html" title="27세 커플의 월세 분담 비율 고민" />
-    <published>2025-11-19T21:33:47+09:00</published>
+    <title>모기지 금리, 한 달 만에 최고치 기록</title>
+    <link href="/posts/%EB%AA%A8%EA%B8%B0%EC%A7%80-%EA%B8%88%EB%A6%AC-%ED%95%9C-%EB%8B%AC-%EB%A7%8C%EC%97%90-%EC%B5%9C%EA%B3%A0%EC%B9%98-%EA%B8%B0%EB%A1%9D/" rel="alternate" type="text/html" title="모기지 금리, 한 달 만에 최고치 기록" />
+    <published>2025-11-19T22:30:03+09:00</published>
   
-    <updated>2025-11-19T21:33:47+09:00</updated>
+    <updated>2025-11-19T22:30:03+09:00</updated>
   
-    <id>/posts/27%EC%84%B8-%EC%BB%A4%ED%94%8C%EC%9D%98-%EC%9B%94%EC%84%B8-%EB%B6%84%EB%8B%B4-%EB%B9%84%EC%9C%A8-%EA%B3%A0%EB%AF%BC/</id>
-    <content type="text/html" src="/posts/27%EC%84%B8-%EC%BB%A4%ED%94%8C%EC%9D%98-%EC%9B%94%EC%84%B8-%EB%B6%84%EB%8B%B4-%EB%B9%84%EC%9C%A8-%EA%B3%A0%EB%AF%BC/" />
+    <id>/posts/%EB%AA%A8%EA%B8%B0%EC%A7%80-%EA%B8%88%EB%A6%AC-%ED%95%9C-%EB%8B%AC-%EB%A7%8C%EC%97%90-%EC%B5%9C%EA%B3%A0%EC%B9%98-%EA%B8%B0%EB%A1%9D/</id>
+    <content type="text/html" src="/posts/%EB%AA%A8%EA%B8%B0%EC%A7%80-%EA%B8%88%EB%A6%AC-%ED%95%9C-%EB%8B%AC-%EB%A7%8C%EC%97%90-%EC%B5%9C%EA%B3%A0%EC%B9%98-%EA%B8%B0%EB%A1%9D/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>27세 커플의 월세 분담 비율 고민 · 경제 뉴스 요약</summary>
+  <summary>모기지 금리, 한 달 만에 최고치 기록 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>Larry Summers, OpenAI 이사회 사임</title>
-    <link href="/posts/larry-summers-openai-%EC%9D%B4%EC%82%AC%ED%9A%8C-%EC%82%AC%EC%9E%84/" rel="alternate" type="text/html" title="Larry Summers, OpenAI 이사회 사임" />
-    <published>2025-11-19T21:33:32+09:00</published>
+    <title>TJ Maxx 모회사, 매출 급증으로 주가 사상 최고</title>
+    <link href="/posts/tj-maxx-%EB%AA%A8%ED%9A%8C%EC%82%AC-%EB%A7%A4%EC%B6%9C-%EA%B8%89%EC%A6%9D%EC%9C%BC%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EC%82%AC%EC%83%81-%EC%B5%9C%EA%B3%A0/" rel="alternate" type="text/html" title="TJ Maxx 모회사, 매출 급증으로 주가 사상 최고" />
+    <published>2025-11-19T22:29:48+09:00</published>
   
-    <updated>2025-11-19T21:33:32+09:00</updated>
+    <updated>2025-11-19T22:29:48+09:00</updated>
   
-    <id>/posts/larry-summers-openai-%EC%9D%B4%EC%82%AC%ED%9A%8C-%EC%82%AC%EC%9E%84/</id>
-    <content type="text/html" src="/posts/larry-summers-openai-%EC%9D%B4%EC%82%AC%ED%9A%8C-%EC%82%AC%EC%9E%84/" />
+    <id>/posts/tj-maxx-%EB%AA%A8%ED%9A%8C%EC%82%AC-%EB%A7%A4%EC%B6%9C-%EA%B8%89%EC%A6%9D%EC%9C%BC%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EC%82%AC%EC%83%81-%EC%B5%9C%EA%B3%A0/</id>
+    <content type="text/html" src="/posts/tj-maxx-%EB%AA%A8%ED%9A%8C%EC%82%AC-%EB%A7%A4%EC%B6%9C-%EA%B8%89%EC%A6%9D%EC%9C%BC%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EC%82%AC%EC%83%81-%EC%B5%9C%EA%B3%A0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>Larry Summers, OpenAI 이사회 사임 · 경제 뉴스 요약</summary>
+  <summary>TJ Maxx 모회사, 매출 급증으로 주가 사상 최고 · 경제 뉴스 요약</summary>
 
   </entry>
 
