@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-19T17:23:45+09:00</updated>
+  <updated>2025-11-19T18:20:10+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Nvidia 실적 발표 및 경제 지표 주목</title>
+    <link href="/posts/nvidia-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EB%B0%8F-%EA%B2%BD%EC%A0%9C-%EC%A7%80%ED%91%9C-%EC%A3%BC%EB%AA%A9/" rel="alternate" type="text/html" title="Nvidia 실적 발표 및 경제 지표 주목" />
+    <published>2025-11-19T18:19:29+09:00</published>
+  
+    <updated>2025-11-19T18:19:29+09:00</updated>
+  
+    <id>/posts/nvidia-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EB%B0%8F-%EA%B2%BD%EC%A0%9C-%EC%A7%80%ED%91%9C-%EC%A3%BC%EB%AA%A9/</id>
+    <content type="text/html" src="/posts/nvidia-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%EB%B0%8F-%EA%B2%BD%EC%A0%9C-%EC%A7%80%ED%91%9C-%EC%A3%BC%EB%AA%A9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Nvidia 실적 발표 및 경제 지표 주목 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>네덜란드, 중국 Nexperia에 대한 개입 중단</title>
+    <link href="/posts/%EB%84%A4%EB%8D%9C%EB%9E%80%EB%93%9C-%EC%A4%91%EA%B5%AD-nexperia%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B0%9C%EC%9E%85-%EC%A4%91%EB%8B%A8/" rel="alternate" type="text/html" title="네덜란드, 중국 Nexperia에 대한 개입 중단" />
+    <published>2025-11-19T18:19:14+09:00</published>
+  
+    <updated>2025-11-19T18:19:14+09:00</updated>
+  
+    <id>/posts/%EB%84%A4%EB%8D%9C%EB%9E%80%EB%93%9C-%EC%A4%91%EA%B5%AD-nexperia%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B0%9C%EC%9E%85-%EC%A4%91%EB%8B%A8/</id>
+    <content type="text/html" src="/posts/%EB%84%A4%EB%8D%9C%EB%9E%80%EB%93%9C-%EC%A4%91%EA%B5%AD-nexperia%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B0%9C%EC%9E%85-%EC%A4%91%EB%8B%A8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>네덜란드, 중국 Nexperia에 대한 개입 중단 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>달러, 긍정적인 엠파이어 리포트로 지지받아 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>홍콩 IPO 붐, 중국 투자 사모펀드에 기회 제공</title>
-    <link href="/posts/%ED%99%8D%EC%BD%A9-ipo-%EB%B6%90-%EC%A4%91%EA%B5%AD-%ED%88%AC%EC%9E%90-%EC%82%AC%EB%AA%A8%ED%8E%80%EB%93%9C%EC%97%90-%EA%B8%B0%ED%9A%8C-%EC%A0%9C%EA%B3%B5/" rel="alternate" type="text/html" title="홍콩 IPO 붐, 중국 투자 사모펀드에 기회 제공" />
-    <published>2025-11-19T17:22:20+09:00</published>
-  
-    <updated>2025-11-19T17:22:20+09:00</updated>
-  
-    <id>/posts/%ED%99%8D%EC%BD%A9-ipo-%EB%B6%90-%EC%A4%91%EA%B5%AD-%ED%88%AC%EC%9E%90-%EC%82%AC%EB%AA%A8%ED%8E%80%EB%93%9C%EC%97%90-%EA%B8%B0%ED%9A%8C-%EC%A0%9C%EA%B3%B5/</id>
-    <content type="text/html" src="/posts/%ED%99%8D%EC%BD%A9-ipo-%EB%B6%90-%EC%A4%91%EA%B5%AD-%ED%88%AC%EC%9E%90-%EC%82%AC%EB%AA%A8%ED%8E%80%EB%93%9C%EC%97%90-%EA%B8%B0%ED%9A%8C-%EC%A0%9C%EA%B3%B5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>홍콩 IPO 붐, 중국 투자 사모펀드에 기회 제공 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>VOOG vs. MGK: S&amp;P 500 투자 전략 비교</title>
-    <link href="/posts/voog-vs-mgk-sp-500-%ED%88%AC%EC%9E%90-%EC%A0%84%EB%9E%B5-%EB%B9%84%EA%B5%90/" rel="alternate" type="text/html" title="VOOG vs. MGK: S&amp;amp;P 500 투자 전략 비교" />
-    <published>2025-11-19T16:17:00+09:00</published>
-  
-    <updated>2025-11-19T16:17:00+09:00</updated>
-  
-    <id>/posts/voog-vs-mgk-sp-500-%ED%88%AC%EC%9E%90-%EC%A0%84%EB%9E%B5-%EB%B9%84%EA%B5%90/</id>
-    <content type="text/html" src="/posts/voog-vs-mgk-sp-500-%ED%88%AC%EC%9E%90-%EC%A0%84%EB%9E%B5-%EB%B9%84%EA%B5%90/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>VOOG vs. MGK: S&amp;amp;P 500 투자 전략 비교 · 경제 뉴스 요약</summary>
 
   </entry>
 
