@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-20T04:15:31+09:00</updated>
+  <updated>2025-11-20T05:18:08+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>소형주가 대형주를 따라잡기 힘든 이유</title>
-    <link href="/posts/%EC%86%8C%ED%98%95%EC%A3%BC%EA%B0%80-%EB%8C%80%ED%98%95%EC%A3%BC%EB%A5%BC-%EB%94%B0%EB%9D%BC%EC%9E%A1%EA%B8%B0-%ED%9E%98%EB%93%A0-%EC%9D%B4%EC%9C%A0/" rel="alternate" type="text/html" title="소형주가 대형주를 따라잡기 힘든 이유" />
-    <published>2025-11-20T04:14:48+09:00</published>
+    <title>TJX, 3분기 실적 호조로 목표 주가 상향</title>
+    <link href="/posts/tjx-3%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%ED%98%B8%EC%A1%B0%EB%A1%9C-%EB%AA%A9%ED%91%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%ED%96%A5/" rel="alternate" type="text/html" title="TJX, 3분기 실적 호조로 목표 주가 상향" />
+    <published>2025-11-20T05:17:24+09:00</published>
   
-    <updated>2025-11-20T04:14:48+09:00</updated>
+    <updated>2025-11-20T05:17:24+09:00</updated>
   
-    <id>/posts/%EC%86%8C%ED%98%95%EC%A3%BC%EA%B0%80-%EB%8C%80%ED%98%95%EC%A3%BC%EB%A5%BC-%EB%94%B0%EB%9D%BC%EC%9E%A1%EA%B8%B0-%ED%9E%98%EB%93%A0-%EC%9D%B4%EC%9C%A0/</id>
-    <content type="text/html" src="/posts/%EC%86%8C%ED%98%95%EC%A3%BC%EA%B0%80-%EB%8C%80%ED%98%95%EC%A3%BC%EB%A5%BC-%EB%94%B0%EB%9D%BC%EC%9E%A1%EA%B8%B0-%ED%9E%98%EB%93%A0-%EC%9D%B4%EC%9C%A0/" />
+    <id>/posts/tjx-3%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%ED%98%B8%EC%A1%B0%EB%A1%9C-%EB%AA%A9%ED%91%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%ED%96%A5/</id>
+    <content type="text/html" src="/posts/tjx-3%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%ED%98%B8%EC%A1%B0%EB%A1%9C-%EB%AA%A9%ED%91%9C-%EC%A3%BC%EA%B0%80-%EC%83%81%ED%96%A5/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>소형주가 대형주를 따라잡기 힘든 이유 · 경제 뉴스 요약</summary>
+  <summary>TJX, 3분기 실적 호조로 목표 주가 상향 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>크라켄, 800억 달러 유치 후 IPO 신청</title>
-    <link href="/posts/%ED%81%AC%EB%9D%BC%EC%BC%84-800%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%9C%A0%EC%B9%98-%ED%9B%84-ipo-%EC%8B%A0%EC%B2%AD/" rel="alternate" type="text/html" title="크라켄, 800억 달러 유치 후 IPO 신청" />
-    <published>2025-11-20T04:14:36+09:00</published>
+    <title>Cineplex, S&amp;P의 부정적 전망 조정</title>
+    <link href="/posts/cineplex-sp%EC%9D%98-%EB%B6%80%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="Cineplex, S&amp;amp;P의 부정적 전망 조정" />
+    <published>2025-11-20T05:17:10+09:00</published>
   
-    <updated>2025-11-20T04:14:36+09:00</updated>
+    <updated>2025-11-20T05:17:10+09:00</updated>
   
-    <id>/posts/%ED%81%AC%EB%9D%BC%EC%BC%84-800%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%9C%A0%EC%B9%98-%ED%9B%84-ipo-%EC%8B%A0%EC%B2%AD/</id>
-    <content type="text/html" src="/posts/%ED%81%AC%EB%9D%BC%EC%BC%84-800%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%9C%A0%EC%B9%98-%ED%9B%84-ipo-%EC%8B%A0%EC%B2%AD/" />
+    <id>/posts/cineplex-sp%EC%9D%98-%EB%B6%80%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D-%EC%A1%B0%EC%A0%95/</id>
+    <content type="text/html" src="/posts/cineplex-sp%EC%9D%98-%EB%B6%80%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D-%EC%A1%B0%EC%A0%95/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>크라켄, 800억 달러 유치 후 IPO 신청 · 경제 뉴스 요약</summary>
+  <summary>Cineplex, S&amp;amp;P의 부정적 전망 조정 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>연준, 금리 인하에 대한 상반된 의견 표명</title>
-    <link href="/posts/%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-%EC%83%81%EB%B0%98%EB%90%9C-%EC%9D%98%EA%B2%AC-%ED%91%9C%EB%AA%85/" rel="alternate" type="text/html" title="연준, 금리 인하에 대한 상반된 의견 표명" />
-    <published>2025-11-20T04:14:22+09:00</published>
+    <title>Axalta Coating, S&amp;P에서 'BB+'로 업그레이드</title>
+    <link href="/posts/axalta-coating-sp%EC%97%90%EC%84%9C-bb%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/" rel="alternate" type="text/html" title="Axalta Coating, S&amp;amp;P에서 &amp;apos;BB+&amp;apos;로 업그레이드" />
+    <published>2025-11-20T05:16:56+09:00</published>
   
-    <updated>2025-11-20T04:14:22+09:00</updated>
+    <updated>2025-11-20T05:16:56+09:00</updated>
   
-    <id>/posts/%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-%EC%83%81%EB%B0%98%EB%90%9C-%EC%9D%98%EA%B2%AC-%ED%91%9C%EB%AA%85/</id>
-    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-%EC%83%81%EB%B0%98%EB%90%9C-%EC%9D%98%EA%B2%AC-%ED%91%9C%EB%AA%85/" />
+    <id>/posts/axalta-coating-sp%EC%97%90%EC%84%9C-bb%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</id>
+    <content type="text/html" src="/posts/axalta-coating-sp%EC%97%90%EC%84%9C-bb%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>연준, 금리 인하에 대한 상반된 의견 표명 · 경제 뉴스 요약</summary>
+  <summary>Axalta Coating, S&amp;amp;P에서 &amp;#39;BB+&amp;#39;로 업그레이드 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>연준 회의록, 10월 금리 인하에 대한 갈등 드러나</title>
-    <link href="/posts/%EC%97%B0%EC%A4%80-%ED%9A%8C%EC%9D%98%EB%A1%9D-10%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B0%88%EB%93%B1-%EB%93%9C%EB%9F%AC%EB%82%98/" rel="alternate" type="text/html" title="연준 회의록, 10월 금리 인하에 대한 갈등 드러나" />
-    <published>2025-11-20T04:14:09+09:00</published>
+    <title>Block, 2028년 총 이익 160억 달러 예상</title>
+    <link href="/posts/block-2028%EB%85%84-%EC%B4%9D-%EC%9D%B4%EC%9D%B5-160%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%98%88%EC%83%81/" rel="alternate" type="text/html" title="Block, 2028년 총 이익 160억 달러 예상" />
+    <published>2025-11-20T05:16:41+09:00</published>
   
-    <updated>2025-11-20T04:14:09+09:00</updated>
+    <updated>2025-11-20T05:16:41+09:00</updated>
   
-    <id>/posts/%EC%97%B0%EC%A4%80-%ED%9A%8C%EC%9D%98%EB%A1%9D-10%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B0%88%EB%93%B1-%EB%93%9C%EB%9F%AC%EB%82%98/</id>
-    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80-%ED%9A%8C%EC%9D%98%EB%A1%9D-10%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B0%88%EB%93%B1-%EB%93%9C%EB%9F%AC%EB%82%98/" />
+    <id>/posts/block-2028%EB%85%84-%EC%B4%9D-%EC%9D%B4%EC%9D%B5-160%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%98%88%EC%83%81/</id>
+    <content type="text/html" src="/posts/block-2028%EB%85%84-%EC%B4%9D-%EC%9D%B4%EC%9D%B5-160%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%98%88%EC%83%81/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>연준 회의록, 10월 금리 인하에 대한 갈등 드러나 · 경제 뉴스 요약</summary>
+  <summary>Block, 2028년 총 이익 160억 달러 예상 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>TJX, 홀리데이 시즌 전망 상향 조정</title>
-    <link href="/posts/tjx-%ED%99%80%EB%A6%AC%EB%8D%B0%EC%9D%B4-%EC%8B%9C%EC%A6%8C-%EC%A0%84%EB%A7%9D-%EC%83%81%ED%96%A5-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="TJX, 홀리데이 시즌 전망 상향 조정" />
-    <published>2025-11-20T04:13:54+09:00</published>
+    <title>Luma AI, 9억 달러 투자 유치</title>
+    <link href="/posts/luma-ai-9%EC%96%B5-%EB%8B%AC%EB%9F%AC-%ED%88%AC%EC%9E%90-%EC%9C%A0%EC%B9%98/" rel="alternate" type="text/html" title="Luma AI, 9억 달러 투자 유치" />
+    <published>2025-11-20T05:16:27+09:00</published>
   
-    <updated>2025-11-20T04:13:54+09:00</updated>
+    <updated>2025-11-20T05:16:27+09:00</updated>
   
-    <id>/posts/tjx-%ED%99%80%EB%A6%AC%EB%8D%B0%EC%9D%B4-%EC%8B%9C%EC%A6%8C-%EC%A0%84%EB%A7%9D-%EC%83%81%ED%96%A5-%EC%A1%B0%EC%A0%95/</id>
-    <content type="text/html" src="/posts/tjx-%ED%99%80%EB%A6%AC%EB%8D%B0%EC%9D%B4-%EC%8B%9C%EC%A6%8C-%EC%A0%84%EB%A7%9D-%EC%83%81%ED%96%A5-%EC%A1%B0%EC%A0%95/" />
+    <id>/posts/luma-ai-9%EC%96%B5-%EB%8B%AC%EB%9F%AC-%ED%88%AC%EC%9E%90-%EC%9C%A0%EC%B9%98/</id>
+    <content type="text/html" src="/posts/luma-ai-9%EC%96%B5-%EB%8B%AC%EB%9F%AC-%ED%88%AC%EC%9E%90-%EC%9C%A0%EC%B9%98/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>TJX, 홀리데이 시즌 전망 상향 조정 · 경제 뉴스 요약</summary>
+  <summary>Luma AI, 9억 달러 투자 유치 · 경제 뉴스 요약</summary>
 
   </entry>
 
