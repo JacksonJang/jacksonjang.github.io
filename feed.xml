@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-20T17:23:50+09:00</updated>
+  <updated>2025-11-20T18:19:08+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>S&amp;P 500 오늘의 변동: 홈디포 실적 부진</title>
+    <link href="/posts/sp-500-%EC%98%A4%EB%8A%98%EC%9D%98-%EB%B3%80%EB%8F%99-%ED%99%88%EB%94%94%ED%8F%AC-%EC%8B%A4%EC%A0%81-%EB%B6%80%EC%A7%84/" rel="alternate" type="text/html" title="S&amp;amp;P 500 오늘의 변동: 홈디포 실적 부진" />
+    <published>2025-11-20T18:18:26+09:00</published>
+  
+    <updated>2025-11-20T18:18:26+09:00</updated>
+  
+    <id>/posts/sp-500-%EC%98%A4%EB%8A%98%EC%9D%98-%EB%B3%80%EB%8F%99-%ED%99%88%EB%94%94%ED%8F%AC-%EC%8B%A4%EC%A0%81-%EB%B6%80%EC%A7%84/</id>
+    <content type="text/html" src="/posts/sp-500-%EC%98%A4%EB%8A%98%EC%9D%98-%EB%B3%80%EB%8F%99-%ED%99%88%EB%94%94%ED%8F%AC-%EC%8B%A4%EC%A0%81-%EB%B6%80%EC%A7%84/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>S&amp;amp;P 500 오늘의 변동: 홈디포 실적 부진 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>다우와 S&amp;P 500, 4일 연속 하락세</title>
+    <link href="/posts/%EB%8B%A4%EC%9A%B0%EC%99%80-sp-500-4%EC%9D%BC-%EC%97%B0%EC%86%8D-%ED%95%98%EB%9D%BD%EC%84%B8/" rel="alternate" type="text/html" title="다우와 S&amp;amp;P 500, 4일 연속 하락세" />
+    <published>2025-11-20T18:18:11+09:00</published>
+  
+    <updated>2025-11-20T18:18:11+09:00</updated>
+  
+    <id>/posts/%EB%8B%A4%EC%9A%B0%EC%99%80-sp-500-4%EC%9D%BC-%EC%97%B0%EC%86%8D-%ED%95%98%EB%9D%BD%EC%84%B8/</id>
+    <content type="text/html" src="/posts/%EB%8B%A4%EC%9A%B0%EC%99%80-sp-500-4%EC%9D%BC-%EC%97%B0%EC%86%8D-%ED%95%98%EB%9D%BD%EC%84%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>다우와 S&amp;amp;P 500, 4일 연속 하락세 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>로봇택시 산업, 전환점에 도달하다 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>금과 은, 연준 전망에 따라 하락</title>
-    <link href="/posts/%EA%B8%88%EA%B3%BC-%EC%9D%80-%EC%97%B0%EC%A4%80-%EC%A0%84%EB%A7%9D%EC%97%90-%EB%94%B0%EB%9D%BC-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="금과 은, 연준 전망에 따라 하락" />
-    <published>2025-11-20T16:16:27+09:00</published>
-  
-    <updated>2025-11-20T16:16:27+09:00</updated>
-  
-    <id>/posts/%EA%B8%88%EA%B3%BC-%EC%9D%80-%EC%97%B0%EC%A4%80-%EC%A0%84%EB%A7%9D%EC%97%90-%EB%94%B0%EB%9D%BC-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/%EA%B8%88%EA%B3%BC-%EC%9D%80-%EC%97%B0%EC%A4%80-%EC%A0%84%EB%A7%9D%EC%97%90-%EB%94%B0%EB%9D%BC-%ED%95%98%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>금과 은, 연준 전망에 따라 하락 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>S&amp;P 500, 하락세 종료 가능성 높아져</title>
-    <link href="/posts/sp-500-%ED%95%98%EB%9D%BD%EC%84%B8-%EC%A2%85%EB%A3%8C-%EA%B0%80%EB%8A%A5%EC%84%B1-%EB%86%92%EC%95%84%EC%A0%B8/" rel="alternate" type="text/html" title="S&amp;amp;P 500, 하락세 종료 가능성 높아져" />
-    <published>2025-11-20T15:24:22+09:00</published>
-  
-    <updated>2025-11-20T15:24:22+09:00</updated>
-  
-    <id>/posts/sp-500-%ED%95%98%EB%9D%BD%EC%84%B8-%EC%A2%85%EB%A3%8C-%EA%B0%80%EB%8A%A5%EC%84%B1-%EB%86%92%EC%95%84%EC%A0%B8/</id>
-    <content type="text/html" src="/posts/sp-500-%ED%95%98%EB%9D%BD%EC%84%B8-%EC%A2%85%EB%A3%8C-%EA%B0%80%EB%8A%A5%EC%84%B1-%EB%86%92%EC%95%84%EC%A0%B8/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>S&amp;amp;P 500, 하락세 종료 가능성 높아져 · 경제 뉴스 요약</summary>
 
   </entry>
 
