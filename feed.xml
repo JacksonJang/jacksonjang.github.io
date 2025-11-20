@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-21T07:17:25+09:00</updated>
+  <updated>2025-11-21T08:16:47+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>구글, 나노 바나나 업그레이드로 승승장구</title>
-    <link href="/posts/%EA%B5%AC%EA%B8%80-%EB%82%98%EB%85%B8-%EB%B0%94%EB%82%98%EB%82%98-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C%EB%A1%9C-%EC%8A%B9%EC%8A%B9%EC%9E%A5%EA%B5%AC/" rel="alternate" type="text/html" title="구글, 나노 바나나 업그레이드로 승승장구" />
-    <published>2025-11-21T07:16:52+09:00</published>
+    <title>CEO가 10억 달러 기업을 만든 비결</title>
+    <link href="/posts/ceo%EA%B0%80-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B8%B0%EC%97%85%EC%9D%84-%EB%A7%8C%EB%93%A0-%EB%B9%84%EA%B2%B0/" rel="alternate" type="text/html" title="CEO가 10억 달러 기업을 만든 비결" />
+    <published>2025-11-21T08:16:12+09:00</published>
   
-    <updated>2025-11-21T07:16:52+09:00</updated>
+    <updated>2025-11-21T08:16:12+09:00</updated>
   
-    <id>/posts/%EA%B5%AC%EA%B8%80-%EB%82%98%EB%85%B8-%EB%B0%94%EB%82%98%EB%82%98-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C%EB%A1%9C-%EC%8A%B9%EC%8A%B9%EC%9E%A5%EA%B5%AC/</id>
-    <content type="text/html" src="/posts/%EA%B5%AC%EA%B8%80-%EB%82%98%EB%85%B8-%EB%B0%94%EB%82%98%EB%82%98-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C%EB%A1%9C-%EC%8A%B9%EC%8A%B9%EC%9E%A5%EA%B5%AC/" />
+    <id>/posts/ceo%EA%B0%80-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B8%B0%EC%97%85%EC%9D%84-%EB%A7%8C%EB%93%A0-%EB%B9%84%EA%B2%B0/</id>
+    <content type="text/html" src="/posts/ceo%EA%B0%80-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B8%B0%EC%97%85%EC%9D%84-%EB%A7%8C%EB%93%A0-%EB%B9%84%EA%B2%B0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>구글, 나노 바나나 업그레이드로 승승장구 · 경제 뉴스 요약</summary>
+  <summary>CEO가 10억 달러 기업을 만든 비결 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>트럼프, 캘리포니아와 알래스카 해상 석유 개발 계획</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%BA%98%EB%A6%AC%ED%8F%AC%EB%8B%88%EC%95%84%EC%99%80-%EC%95%8C%EB%9E%98%EC%8A%A4%EC%B9%B4-%ED%95%B4%EC%83%81-%EC%84%9D%EC%9C%A0-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D/" rel="alternate" type="text/html" title="트럼프, 캘리포니아와 알래스카 해상 석유 개발 계획" />
-    <published>2025-11-21T07:16:41+09:00</published>
+    <title>Gap, 3분기 동기 대비 매출 5% 증가</title>
+    <link href="/posts/gap-3%EB%B6%84%EA%B8%B0-%EB%8F%99%EA%B8%B0-%EB%8C%80%EB%B9%84-%EB%A7%A4%EC%B6%9C-5-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="Gap, 3분기 동기 대비 매출 5% 증가" />
+    <published>2025-11-21T08:16:01+09:00</published>
   
-    <updated>2025-11-21T07:16:41+09:00</updated>
+    <updated>2025-11-21T08:16:01+09:00</updated>
   
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%BA%98%EB%A6%AC%ED%8F%AC%EB%8B%88%EC%95%84%EC%99%80-%EC%95%8C%EB%9E%98%EC%8A%A4%EC%B9%B4-%ED%95%B4%EC%83%81-%EC%84%9D%EC%9C%A0-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%BA%98%EB%A6%AC%ED%8F%AC%EB%8B%88%EC%95%84%EC%99%80-%EC%95%8C%EB%9E%98%EC%8A%A4%EC%B9%B4-%ED%95%B4%EC%83%81-%EC%84%9D%EC%9C%A0-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D/" />
+    <id>/posts/gap-3%EB%B6%84%EA%B8%B0-%EB%8F%99%EA%B8%B0-%EB%8C%80%EB%B9%84-%EB%A7%A4%EC%B6%9C-5-%EC%A6%9D%EA%B0%80/</id>
+    <content type="text/html" src="/posts/gap-3%EB%B6%84%EA%B8%B0-%EB%8F%99%EA%B8%B0-%EB%8C%80%EB%B9%84-%EB%A7%A4%EC%B6%9C-5-%EC%A6%9D%EA%B0%80/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>트럼프, 캘리포니아와 알래스카 해상 석유 개발 계획 · 경제 뉴스 요약</summary>
+  <summary>Gap, 3분기 동기 대비 매출 5% 증가 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>Gap, 연말 의류 수요 전망 긍정적</title>
-    <link href="/posts/gap-%EC%97%B0%EB%A7%90-%EC%9D%98%EB%A5%98-%EC%88%98%EC%9A%94-%EC%A0%84%EB%A7%9D-%EA%B8%8D%EC%A0%95%EC%A0%81/" rel="alternate" type="text/html" title="Gap, 연말 의류 수요 전망 긍정적" />
-    <published>2025-11-21T07:16:29+09:00</published>
+    <title>오프프라이스 소매업체, 미래에 대한 낙관적 전망</title>
+    <link href="/posts/%EC%98%A4%ED%94%84%ED%94%84%EB%9D%BC%EC%9D%B4%EC%8A%A4-%EC%86%8C%EB%A7%A4%EC%97%85%EC%B2%B4-%EB%AF%B8%EB%9E%98%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%99%EA%B4%80%EC%A0%81-%EC%A0%84%EB%A7%9D/" rel="alternate" type="text/html" title="오프프라이스 소매업체, 미래에 대한 낙관적 전망" />
+    <published>2025-11-21T08:15:48+09:00</published>
   
-    <updated>2025-11-21T07:16:29+09:00</updated>
+    <updated>2025-11-21T08:15:48+09:00</updated>
   
-    <id>/posts/gap-%EC%97%B0%EB%A7%90-%EC%9D%98%EB%A5%98-%EC%88%98%EC%9A%94-%EC%A0%84%EB%A7%9D-%EA%B8%8D%EC%A0%95%EC%A0%81/</id>
-    <content type="text/html" src="/posts/gap-%EC%97%B0%EB%A7%90-%EC%9D%98%EB%A5%98-%EC%88%98%EC%9A%94-%EC%A0%84%EB%A7%9D-%EA%B8%8D%EC%A0%95%EC%A0%81/" />
+    <id>/posts/%EC%98%A4%ED%94%84%ED%94%84%EB%9D%BC%EC%9D%B4%EC%8A%A4-%EC%86%8C%EB%A7%A4%EC%97%85%EC%B2%B4-%EB%AF%B8%EB%9E%98%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%99%EA%B4%80%EC%A0%81-%EC%A0%84%EB%A7%9D/</id>
+    <content type="text/html" src="/posts/%EC%98%A4%ED%94%84%ED%94%84%EB%9D%BC%EC%9D%B4%EC%8A%A4-%EC%86%8C%EB%A7%A4%EC%97%85%EC%B2%B4-%EB%AF%B8%EB%9E%98%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%99%EA%B4%80%EC%A0%81-%EC%A0%84%EB%A7%9D/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>Gap, 연말 의류 수요 전망 긍정적 · 경제 뉴스 요약</summary>
+  <summary>오프프라이스 소매업체, 미래에 대한 낙관적 전망 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>Nvidia 칩 수출 음모로 4명 기소</title>
-    <link href="/posts/nvidia-%EC%B9%A9-%EC%88%98%EC%B6%9C-%EC%9D%8C%EB%AA%A8%EB%A1%9C-4%EB%AA%85-%EA%B8%B0%EC%86%8C/" rel="alternate" type="text/html" title="Nvidia 칩 수출 음모로 4명 기소" />
-    <published>2025-11-21T07:16:15+09:00</published>
+    <title>모멘텀을 보이는 15개 주식</title>
+    <link href="/posts/%EB%AA%A8%EB%A9%98%ED%85%80%EC%9D%84-%EB%B3%B4%EC%9D%B4%EB%8A%94-15%EA%B0%9C-%EC%A3%BC%EC%8B%9D/" rel="alternate" type="text/html" title="모멘텀을 보이는 15개 주식" />
+    <published>2025-11-21T08:15:37+09:00</published>
   
-    <updated>2025-11-21T07:16:15+09:00</updated>
+    <updated>2025-11-21T08:15:37+09:00</updated>
   
-    <id>/posts/nvidia-%EC%B9%A9-%EC%88%98%EC%B6%9C-%EC%9D%8C%EB%AA%A8%EB%A1%9C-4%EB%AA%85-%EA%B8%B0%EC%86%8C/</id>
-    <content type="text/html" src="/posts/nvidia-%EC%B9%A9-%EC%88%98%EC%B6%9C-%EC%9D%8C%EB%AA%A8%EB%A1%9C-4%EB%AA%85-%EA%B8%B0%EC%86%8C/" />
+    <id>/posts/%EB%AA%A8%EB%A9%98%ED%85%80%EC%9D%84-%EB%B3%B4%EC%9D%B4%EB%8A%94-15%EA%B0%9C-%EC%A3%BC%EC%8B%9D/</id>
+    <content type="text/html" src="/posts/%EB%AA%A8%EB%A9%98%ED%85%80%EC%9D%84-%EB%B3%B4%EC%9D%B4%EB%8A%94-15%EA%B0%9C-%EC%A3%BC%EC%8B%9D/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>Nvidia 칩 수출 음모로 4명 기소 · 경제 뉴스 요약</summary>
+  <summary>모멘텀을 보이는 15개 주식 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>Nvidia도 도와주지 못하는 주식 시장의 위기</title>
-    <link href="/posts/nvidia%EB%8F%84-%EB%8F%84%EC%99%80%EC%A3%BC%EC%A7%80-%EB%AA%BB%ED%95%98%EB%8A%94-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%9C%84%EA%B8%B0/" rel="alternate" type="text/html" title="Nvidia도 도와주지 못하는 주식 시장의 위기" />
-    <published>2025-11-21T07:16:01+09:00</published>
+    <title>클리블랜드 연준, 금리 유지 지지</title>
+    <link href="/posts/%ED%81%B4%EB%A6%AC%EB%B8%94%EB%9E%9C%EB%93%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9C%A0%EC%A7%80-%EC%A7%80%EC%A7%80/" rel="alternate" type="text/html" title="클리블랜드 연준, 금리 유지 지지" />
+    <published>2025-11-21T08:15:24+09:00</published>
   
-    <updated>2025-11-21T07:16:01+09:00</updated>
+    <updated>2025-11-21T08:15:24+09:00</updated>
   
-    <id>/posts/nvidia%EB%8F%84-%EB%8F%84%EC%99%80%EC%A3%BC%EC%A7%80-%EB%AA%BB%ED%95%98%EB%8A%94-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%9C%84%EA%B8%B0/</id>
-    <content type="text/html" src="/posts/nvidia%EB%8F%84-%EB%8F%84%EC%99%80%EC%A3%BC%EC%A7%80-%EB%AA%BB%ED%95%98%EB%8A%94-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EC%9C%84%EA%B8%B0/" />
+    <id>/posts/%ED%81%B4%EB%A6%AC%EB%B8%94%EB%9E%9C%EB%93%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9C%A0%EC%A7%80-%EC%A7%80%EC%A7%80/</id>
+    <content type="text/html" src="/posts/%ED%81%B4%EB%A6%AC%EB%B8%94%EB%9E%9C%EB%93%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9C%A0%EC%A7%80-%EC%A7%80%EC%A7%80/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>Nvidia도 도와주지 못하는 주식 시장의 위기 · 경제 뉴스 요약</summary>
+  <summary>클리블랜드 연준, 금리 유지 지지 · 경제 뉴스 요약</summary>
 
   </entry>
 
