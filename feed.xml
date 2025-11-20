@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-21T04:15:19+09:00</updated>
+  <updated>2025-11-21T05:24:34+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>우주 데이터 센터, 현실이 될 수 있을까?</title>
-    <link href="/posts/%EC%9A%B0%EC%A3%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%ED%98%84%EC%8B%A4%EC%9D%B4-%EB%90%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/" rel="alternate" type="text/html" title="우주 데이터 센터, 현실이 될 수 있을까?" />
-    <published>2025-11-21T04:14:44+09:00</published>
+    <title>65세에 HSA를 가진 은퇴자 알아야 할 점</title>
+    <link href="/posts/65%EC%84%B8%EC%97%90-hsa%EB%A5%BC-%EA%B0%80%EC%A7%84-%EC%9D%80%ED%87%B4%EC%9E%90-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%A0%90/" rel="alternate" type="text/html" title="65세에 HSA를 가진 은퇴자 알아야 할 점" />
+    <published>2025-11-21T05:23:57+09:00</published>
   
-    <updated>2025-11-21T04:14:44+09:00</updated>
+    <updated>2025-11-21T05:23:57+09:00</updated>
   
-    <id>/posts/%EC%9A%B0%EC%A3%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%ED%98%84%EC%8B%A4%EC%9D%B4-%EB%90%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/%EC%9A%B0%EC%A3%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%ED%98%84%EC%8B%A4%EC%9D%B4-%EB%90%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/" />
+    <id>/posts/65%EC%84%B8%EC%97%90-hsa%EB%A5%BC-%EA%B0%80%EC%A7%84-%EC%9D%80%ED%87%B4%EC%9E%90-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%A0%90/</id>
+    <content type="text/html" src="/posts/65%EC%84%B8%EC%97%90-hsa%EB%A5%BC-%EA%B0%80%EC%A7%84-%EC%9D%80%ED%87%B4%EC%9E%90-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%A0%90/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>우주 데이터 센터, 현실이 될 수 있을까? · 경제 뉴스 요약</summary>
+  <summary>65세에 HSA를 가진 은퇴자 알아야 할 점 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>AI 주식 상승세 주춤, Nvidia 영향 감소</title>
-    <link href="/posts/ai-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%A3%BC%EC%B6%A4-nvidia-%EC%98%81%ED%96%A5-%EA%B0%90%EC%86%8C/" rel="alternate" type="text/html" title="AI 주식 상승세 주춤, Nvidia 영향 감소" />
-    <published>2025-11-21T04:14:30+09:00</published>
+    <title>AI가 젊은 근로자의 경력 발전을 위협하는 이유</title>
+    <link href="/posts/ai%EA%B0%80-%EC%A0%8A%EC%9D%80-%EA%B7%BC%EB%A1%9C%EC%9E%90%EC%9D%98-%EA%B2%BD%EB%A0%A5-%EB%B0%9C%EC%A0%84%EC%9D%84-%EC%9C%84%ED%98%91%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/" rel="alternate" type="text/html" title="AI가 젊은 근로자의 경력 발전을 위협하는 이유" />
+    <published>2025-11-21T05:23:37+09:00</published>
   
-    <updated>2025-11-21T04:14:30+09:00</updated>
+    <updated>2025-11-21T05:23:37+09:00</updated>
   
-    <id>/posts/ai-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%A3%BC%EC%B6%A4-nvidia-%EC%98%81%ED%96%A5-%EA%B0%90%EC%86%8C/</id>
-    <content type="text/html" src="/posts/ai-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%A3%BC%EC%B6%A4-nvidia-%EC%98%81%ED%96%A5-%EA%B0%90%EC%86%8C/" />
+    <id>/posts/ai%EA%B0%80-%EC%A0%8A%EC%9D%80-%EA%B7%BC%EB%A1%9C%EC%9E%90%EC%9D%98-%EA%B2%BD%EB%A0%A5-%EB%B0%9C%EC%A0%84%EC%9D%84-%EC%9C%84%ED%98%91%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</id>
+    <content type="text/html" src="/posts/ai%EA%B0%80-%EC%A0%8A%EC%9D%80-%EA%B7%BC%EB%A1%9C%EC%9E%90%EC%9D%98-%EA%B2%BD%EB%A0%A5-%EB%B0%9C%EC%A0%84%EC%9D%84-%EC%9C%84%ED%98%91%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>AI 주식 상승세 주춤, Nvidia 영향 감소 · 경제 뉴스 요약</summary>
+  <summary>AI가 젊은 근로자의 경력 발전을 위협하는 이유 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>백악관, 주 정부 AI 법률 저지 행정명령 초안 작성</title>
-    <link href="/posts/%EB%B0%B1%EC%95%85%EA%B4%80-%EC%A3%BC-%EC%A0%95%EB%B6%80-ai-%EB%B2%95%EB%A5%A0-%EC%A0%80%EC%A7%80-%ED%96%89%EC%A0%95%EB%AA%85%EB%A0%B9-%EC%B4%88%EC%95%88-%EC%9E%91%EC%84%B1/" rel="alternate" type="text/html" title="백악관, 주 정부 AI 법률 저지 행정명령 초안 작성" />
-    <published>2025-11-21T04:14:14+09:00</published>
+    <title>고품질 주식 추가 매수, 시장 하락 속 긍정적 신호</title>
+    <link href="/posts/%EA%B3%A0%ED%92%88%EC%A7%88-%EC%A3%BC%EC%8B%9D-%EC%B6%94%EA%B0%80-%EB%A7%A4%EC%88%98-%EC%8B%9C%EC%9E%A5-%ED%95%98%EB%9D%BD-%EC%86%8D-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%8B%A0%ED%98%B8/" rel="alternate" type="text/html" title="고품질 주식 추가 매수, 시장 하락 속 긍정적 신호" />
+    <published>2025-11-21T05:23:25+09:00</published>
   
-    <updated>2025-11-21T04:14:14+09:00</updated>
+    <updated>2025-11-21T05:23:25+09:00</updated>
   
-    <id>/posts/%EB%B0%B1%EC%95%85%EA%B4%80-%EC%A3%BC-%EC%A0%95%EB%B6%80-ai-%EB%B2%95%EB%A5%A0-%EC%A0%80%EC%A7%80-%ED%96%89%EC%A0%95%EB%AA%85%EB%A0%B9-%EC%B4%88%EC%95%88-%EC%9E%91%EC%84%B1/</id>
-    <content type="text/html" src="/posts/%EB%B0%B1%EC%95%85%EA%B4%80-%EC%A3%BC-%EC%A0%95%EB%B6%80-ai-%EB%B2%95%EB%A5%A0-%EC%A0%80%EC%A7%80-%ED%96%89%EC%A0%95%EB%AA%85%EB%A0%B9-%EC%B4%88%EC%95%88-%EC%9E%91%EC%84%B1/" />
+    <id>/posts/%EA%B3%A0%ED%92%88%EC%A7%88-%EC%A3%BC%EC%8B%9D-%EC%B6%94%EA%B0%80-%EB%A7%A4%EC%88%98-%EC%8B%9C%EC%9E%A5-%ED%95%98%EB%9D%BD-%EC%86%8D-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%8B%A0%ED%98%B8/</id>
+    <content type="text/html" src="/posts/%EA%B3%A0%ED%92%88%EC%A7%88-%EC%A3%BC%EC%8B%9D-%EC%B6%94%EA%B0%80-%EB%A7%A4%EC%88%98-%EC%8B%9C%EC%9E%A5-%ED%95%98%EB%9D%BD-%EC%86%8D-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%8B%A0%ED%98%B8/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>백악관, 주 정부 AI 법률 저지 행정명령 초안 작성 · 경제 뉴스 요약</summary>
+  <summary>고품질 주식 추가 매수, 시장 하락 속 긍정적 신호 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>UPS 화물기 추락 사건, 초기 보고서 공개</title>
-    <link href="/posts/ups-%ED%99%94%EB%AC%BC%EA%B8%B0-%EC%B6%94%EB%9D%BD-%EC%82%AC%EA%B1%B4-%EC%B4%88%EA%B8%B0-%EB%B3%B4%EA%B3%A0%EC%84%9C-%EA%B3%B5%EA%B0%9C/" rel="alternate" type="text/html" title="UPS 화물기 추락 사건, 초기 보고서 공개" />
-    <published>2025-11-21T04:13:59+09:00</published>
+    <title>소비자들, 월마트와 TJX에서 쇼핑 중</title>
+    <link href="/posts/%EC%86%8C%EB%B9%84%EC%9E%90%EB%93%A4-%EC%9B%94%EB%A7%88%ED%8A%B8%EC%99%80-tjx%EC%97%90%EC%84%9C-%EC%87%BC%ED%95%91-%EC%A4%91/" rel="alternate" type="text/html" title="소비자들, 월마트와 TJX에서 쇼핑 중" />
+    <published>2025-11-21T05:23:12+09:00</published>
   
-    <updated>2025-11-21T04:13:59+09:00</updated>
+    <updated>2025-11-21T05:23:12+09:00</updated>
   
-    <id>/posts/ups-%ED%99%94%EB%AC%BC%EA%B8%B0-%EC%B6%94%EB%9D%BD-%EC%82%AC%EA%B1%B4-%EC%B4%88%EA%B8%B0-%EB%B3%B4%EA%B3%A0%EC%84%9C-%EA%B3%B5%EA%B0%9C/</id>
-    <content type="text/html" src="/posts/ups-%ED%99%94%EB%AC%BC%EA%B8%B0-%EC%B6%94%EB%9D%BD-%EC%82%AC%EA%B1%B4-%EC%B4%88%EA%B8%B0-%EB%B3%B4%EA%B3%A0%EC%84%9C-%EA%B3%B5%EA%B0%9C/" />
+    <id>/posts/%EC%86%8C%EB%B9%84%EC%9E%90%EB%93%A4-%EC%9B%94%EB%A7%88%ED%8A%B8%EC%99%80-tjx%EC%97%90%EC%84%9C-%EC%87%BC%ED%95%91-%EC%A4%91/</id>
+    <content type="text/html" src="/posts/%EC%86%8C%EB%B9%84%EC%9E%90%EB%93%A4-%EC%9B%94%EB%A7%88%ED%8A%B8%EC%99%80-tjx%EC%97%90%EC%84%9C-%EC%87%BC%ED%95%91-%EC%A4%91/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>UPS 화물기 추락 사건, 초기 보고서 공개 · 경제 뉴스 요약</summary>
+  <summary>소비자들, 월마트와 TJX에서 쇼핑 중 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>소형주, 대형주를 이길 수 있을까?</title>
-    <link href="/posts/%EC%86%8C%ED%98%95%EC%A3%BC-%EB%8C%80%ED%98%95%EC%A3%BC%EB%A5%BC-%EC%9D%B4%EA%B8%B8-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/" rel="alternate" type="text/html" title="소형주, 대형주를 이길 수 있을까?" />
-    <published>2025-11-21T04:13:44+09:00</published>
+    <title>Nvidia 실적 발표 후 주식시장 하락세</title>
+    <link href="/posts/nvidia-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%ED%9B%84-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%ED%95%98%EB%9D%BD%EC%84%B8/" rel="alternate" type="text/html" title="Nvidia 실적 발표 후 주식시장 하락세" />
+    <published>2025-11-21T05:22:58+09:00</published>
   
-    <updated>2025-11-21T04:13:44+09:00</updated>
+    <updated>2025-11-21T05:22:58+09:00</updated>
   
-    <id>/posts/%EC%86%8C%ED%98%95%EC%A3%BC-%EB%8C%80%ED%98%95%EC%A3%BC%EB%A5%BC-%EC%9D%B4%EA%B8%B8-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/%EC%86%8C%ED%98%95%EC%A3%BC-%EB%8C%80%ED%98%95%EC%A3%BC%EB%A5%BC-%EC%9D%B4%EA%B8%B8-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/" />
+    <id>/posts/nvidia-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%ED%9B%84-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%ED%95%98%EB%9D%BD%EC%84%B8/</id>
+    <content type="text/html" src="/posts/nvidia-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%ED%9B%84-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%ED%95%98%EB%9D%BD%EC%84%B8/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>소형주, 대형주를 이길 수 있을까? · 경제 뉴스 요약</summary>
+  <summary>Nvidia 실적 발표 후 주식시장 하락세 · 경제 뉴스 요약</summary>
 
   </entry>
 
