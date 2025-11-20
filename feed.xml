@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-20T16:17:02+09:00</updated>
+  <updated>2025-11-20T17:23:50+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,78 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>연준, 은행 유동성 지원 시도하지만 은행은 조용히</title>
+    <link href="/posts/%EC%97%B0%EC%A4%80-%EC%9D%80%ED%96%89-%EC%9C%A0%EB%8F%99%EC%84%B1-%EC%A7%80%EC%9B%90-%EC%8B%9C%EB%8F%84%ED%95%98%EC%A7%80%EB%A7%8C-%EC%9D%80%ED%96%89%EC%9D%80-%EC%A1%B0%EC%9A%A9%ED%9E%88/" rel="alternate" type="text/html" title="연준, 은행 유동성 지원 시도하지만 은행은 조용히" />
+    <published>2025-11-20T17:23:11+09:00</published>
+  
+    <updated>2025-11-20T17:23:11+09:00</updated>
+  
+    <id>/posts/%EC%97%B0%EC%A4%80-%EC%9D%80%ED%96%89-%EC%9C%A0%EB%8F%99%EC%84%B1-%EC%A7%80%EC%9B%90-%EC%8B%9C%EB%8F%84%ED%95%98%EC%A7%80%EB%A7%8C-%EC%9D%80%ED%96%89%EC%9D%80-%EC%A1%B0%EC%9A%A9%ED%9E%88/</id>
+    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80-%EC%9D%80%ED%96%89-%EC%9C%A0%EB%8F%99%EC%84%B1-%EC%A7%80%EC%9B%90-%EC%8B%9C%EB%8F%84%ED%95%98%EC%A7%80%EB%A7%8C-%EC%9D%80%ED%96%89%EC%9D%80-%EC%A1%B0%EC%9A%A9%ED%9E%88/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>연준, 은행 유동성 지원 시도하지만 은행은 조용히 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>다우지수 500포인트 하락, S&amp;P 500 4일 연속 하락</title>
+    <link href="/posts/%EB%8B%A4%EC%9A%B0%EC%A7%80%EC%88%98-500%ED%8F%AC%EC%9D%B8%ED%8A%B8-%ED%95%98%EB%9D%BD-sp-500-4%EC%9D%BC-%EC%97%B0%EC%86%8D-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="다우지수 500포인트 하락, S&amp;amp;P 500 4일 연속 하락" />
+    <published>2025-11-20T17:22:53+09:00</published>
+  
+    <updated>2025-11-20T17:22:53+09:00</updated>
+  
+    <id>/posts/%EB%8B%A4%EC%9A%B0%EC%A7%80%EC%88%98-500%ED%8F%AC%EC%9D%B8%ED%8A%B8-%ED%95%98%EB%9D%BD-sp-500-4%EC%9D%BC-%EC%97%B0%EC%86%8D-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/%EB%8B%A4%EC%9A%B0%EC%A7%80%EC%88%98-500%ED%8F%AC%EC%9D%B8%ED%8A%B8-%ED%95%98%EB%9D%BD-sp-500-4%EC%9D%BC-%EC%97%B0%EC%86%8D-%ED%95%98%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>다우지수 500포인트 하락, S&amp;amp;P 500 4일 연속 하락 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>로봇택시 산업, 전환점에 도달하다</title>
+    <link href="/posts/%EB%A1%9C%EB%B4%87%ED%83%9D%EC%8B%9C-%EC%82%B0%EC%97%85-%EC%A0%84%ED%99%98%EC%A0%90%EC%97%90-%EB%8F%84%EB%8B%AC%ED%95%98%EB%8B%A4/" rel="alternate" type="text/html" title="로봇택시 산업, 전환점에 도달하다" />
+    <published>2025-11-20T17:22:39+09:00</published>
+  
+    <updated>2025-11-20T17:22:39+09:00</updated>
+  
+    <id>/posts/%EB%A1%9C%EB%B4%87%ED%83%9D%EC%8B%9C-%EC%82%B0%EC%97%85-%EC%A0%84%ED%99%98%EC%A0%90%EC%97%90-%EB%8F%84%EB%8B%AC%ED%95%98%EB%8B%A4/</id>
+    <content type="text/html" src="/posts/%EB%A1%9C%EB%B4%87%ED%83%9D%EC%8B%9C-%EC%82%B0%EC%97%85-%EC%A0%84%ED%99%98%EC%A0%90%EC%97%90-%EB%8F%84%EB%8B%AC%ED%95%98%EB%8B%A4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>로봇택시 산업, 전환점에 도달하다 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,78 +135,6 @@
   
 
   <summary>S&amp;amp;P 500, 하락세 종료 가능성 높아져 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>호주 주식, S&amp;P/ASX 200 1.24% 상승</title>
-    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-124-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="호주 주식, S&amp;amp;P/ASX 200 1.24% 상승" />
-    <published>2025-11-20T15:24:10+09:00</published>
-  
-    <updated>2025-11-20T15:24:10+09:00</updated>
-  
-    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-124-%EC%83%81%EC%8A%B9/</id>
-    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-124-%EC%83%81%EC%8A%B9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>호주 주식, S&amp;amp;P/ASX 200 1.24% 상승 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>싱가포르 SGX, 나스닥과의 파트너십 체결</title>
-    <link href="/posts/%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4-sgx-%EB%82%98%EC%8A%A4%EB%8B%A5%EA%B3%BC%EC%9D%98-%ED%8C%8C%ED%8A%B8%EB%84%88%EC%8B%AD-%EC%B2%B4%EA%B2%B0/" rel="alternate" type="text/html" title="싱가포르 SGX, 나스닥과의 파트너십 체결" />
-    <published>2025-11-20T15:23:57+09:00</published>
-  
-    <updated>2025-11-20T15:23:57+09:00</updated>
-  
-    <id>/posts/%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4-sgx-%EB%82%98%EC%8A%A4%EB%8B%A5%EA%B3%BC%EC%9D%98-%ED%8C%8C%ED%8A%B8%EB%84%88%EC%8B%AD-%EC%B2%B4%EA%B2%B0/</id>
-    <content type="text/html" src="/posts/%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4-sgx-%EB%82%98%EC%8A%A4%EB%8B%A5%EA%B3%BC%EC%9D%98-%ED%8C%8C%ED%8A%B8%EB%84%88%EC%8B%AD-%EC%B2%B4%EA%B2%B0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>싱가포르 SGX, 나스닥과의 파트너십 체결 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>북극 자원 경쟁: 차이나 독점 깨기</title>
-    <link href="/posts/%EB%B6%81%EA%B7%B9-%EC%9E%90%EC%9B%90-%EA%B2%BD%EC%9F%81-%EC%B0%A8%EC%9D%B4%EB%82%98-%EB%8F%85%EC%A0%90-%EA%B9%A8%EA%B8%B0/" rel="alternate" type="text/html" title="북극 자원 경쟁: 차이나 독점 깨기" />
-    <published>2025-11-20T15:23:47+09:00</published>
-  
-    <updated>2025-11-20T15:23:47+09:00</updated>
-  
-    <id>/posts/%EB%B6%81%EA%B7%B9-%EC%9E%90%EC%9B%90-%EA%B2%BD%EC%9F%81-%EC%B0%A8%EC%9D%B4%EB%82%98-%EB%8F%85%EC%A0%90-%EA%B9%A8%EA%B8%B0/</id>
-    <content type="text/html" src="/posts/%EB%B6%81%EA%B7%B9-%EC%9E%90%EC%9B%90-%EA%B2%BD%EC%9F%81-%EC%B0%A8%EC%9D%B4%EB%82%98-%EB%8F%85%EC%A0%90-%EA%B9%A8%EA%B8%B0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>북극 자원 경쟁: 차이나 독점 깨기 · 경제 뉴스 요약</summary>
 
   </entry>
 
