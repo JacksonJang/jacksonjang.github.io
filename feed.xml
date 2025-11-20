@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-21T03:30:35+09:00</updated>
+  <updated>2025-11-21T04:15:19+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>주택 건설업체, 가격 대폭 인하에도 구매자 반응 없음</title>
-    <link href="/posts/%EC%A3%BC%ED%83%9D-%EA%B1%B4%EC%84%A4%EC%97%85%EC%B2%B4-%EA%B0%80%EA%B2%A9-%EB%8C%80%ED%8F%AD-%EC%9D%B8%ED%95%98%EC%97%90%EB%8F%84-%EA%B5%AC%EB%A7%A4%EC%9E%90-%EB%B0%98%EC%9D%91-%EC%97%86%EC%9D%8C/" rel="alternate" type="text/html" title="주택 건설업체, 가격 대폭 인하에도 구매자 반응 없음" />
-    <published>2025-11-21T03:29:49+09:00</published>
+    <title>우주 데이터 센터, 현실이 될 수 있을까?</title>
+    <link href="/posts/%EC%9A%B0%EC%A3%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%ED%98%84%EC%8B%A4%EC%9D%B4-%EB%90%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/" rel="alternate" type="text/html" title="우주 데이터 센터, 현실이 될 수 있을까?" />
+    <published>2025-11-21T04:14:44+09:00</published>
   
-    <updated>2025-11-21T03:29:49+09:00</updated>
+    <updated>2025-11-21T04:14:44+09:00</updated>
   
-    <id>/posts/%EC%A3%BC%ED%83%9D-%EA%B1%B4%EC%84%A4%EC%97%85%EC%B2%B4-%EA%B0%80%EA%B2%A9-%EB%8C%80%ED%8F%AD-%EC%9D%B8%ED%95%98%EC%97%90%EB%8F%84-%EA%B5%AC%EB%A7%A4%EC%9E%90-%EB%B0%98%EC%9D%91-%EC%97%86%EC%9D%8C/</id>
-    <content type="text/html" src="/posts/%EC%A3%BC%ED%83%9D-%EA%B1%B4%EC%84%A4%EC%97%85%EC%B2%B4-%EA%B0%80%EA%B2%A9-%EB%8C%80%ED%8F%AD-%EC%9D%B8%ED%95%98%EC%97%90%EB%8F%84-%EA%B5%AC%EB%A7%A4%EC%9E%90-%EB%B0%98%EC%9D%91-%EC%97%86%EC%9D%8C/" />
+    <id>/posts/%EC%9A%B0%EC%A3%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%ED%98%84%EC%8B%A4%EC%9D%B4-%EB%90%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/%EC%9A%B0%EC%A3%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%ED%98%84%EC%8B%A4%EC%9D%B4-%EB%90%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>주택 건설업체, 가격 대폭 인하에도 구매자 반응 없음 · 경제 뉴스 요약</summary>
+  <summary>우주 데이터 센터, 현실이 될 수 있을까? · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>Jameis Winston, 친구와 가족에 400,000달러 지출 후회</title>
-    <link href="/posts/jameis-winston-%EC%B9%9C%EA%B5%AC%EC%99%80-%EA%B0%80%EC%A1%B1%EC%97%90-400000%EB%8B%AC%EB%9F%AC-%EC%A7%80%EC%B6%9C-%ED%9B%84%ED%9A%8C/" rel="alternate" type="text/html" title="Jameis Winston, 친구와 가족에 400,000달러 지출 후회" />
-    <published>2025-11-21T03:29:35+09:00</published>
+    <title>AI 주식 상승세 주춤, Nvidia 영향 감소</title>
+    <link href="/posts/ai-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%A3%BC%EC%B6%A4-nvidia-%EC%98%81%ED%96%A5-%EA%B0%90%EC%86%8C/" rel="alternate" type="text/html" title="AI 주식 상승세 주춤, Nvidia 영향 감소" />
+    <published>2025-11-21T04:14:30+09:00</published>
   
-    <updated>2025-11-21T03:29:35+09:00</updated>
+    <updated>2025-11-21T04:14:30+09:00</updated>
   
-    <id>/posts/jameis-winston-%EC%B9%9C%EA%B5%AC%EC%99%80-%EA%B0%80%EC%A1%B1%EC%97%90-400000%EB%8B%AC%EB%9F%AC-%EC%A7%80%EC%B6%9C-%ED%9B%84%ED%9A%8C/</id>
-    <content type="text/html" src="/posts/jameis-winston-%EC%B9%9C%EA%B5%AC%EC%99%80-%EA%B0%80%EC%A1%B1%EC%97%90-400000%EB%8B%AC%EB%9F%AC-%EC%A7%80%EC%B6%9C-%ED%9B%84%ED%9A%8C/" />
+    <id>/posts/ai-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%A3%BC%EC%B6%A4-nvidia-%EC%98%81%ED%96%A5-%EA%B0%90%EC%86%8C/</id>
+    <content type="text/html" src="/posts/ai-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9%EC%84%B8-%EC%A3%BC%EC%B6%A4-nvidia-%EC%98%81%ED%96%A5-%EA%B0%90%EC%86%8C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>Jameis Winston, 친구와 가족에 400,000달러 지출 후회 · 경제 뉴스 요약</summary>
+  <summary>AI 주식 상승세 주춤, Nvidia 영향 감소 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>저물가가 미국인에게 도움이 되지 않는 이유</title>
-    <link href="/posts/%EC%A0%80%EB%AC%BC%EA%B0%80%EA%B0%80-%EB%AF%B8%EA%B5%AD%EC%9D%B8%EC%97%90%EA%B2%8C-%EB%8F%84%EC%9B%80%EC%9D%B4-%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9D%B4%EC%9C%A0/" rel="alternate" type="text/html" title="저물가가 미국인에게 도움이 되지 않는 이유" />
-    <published>2025-11-21T03:29:22+09:00</published>
+    <title>백악관, 주 정부 AI 법률 저지 행정명령 초안 작성</title>
+    <link href="/posts/%EB%B0%B1%EC%95%85%EA%B4%80-%EC%A3%BC-%EC%A0%95%EB%B6%80-ai-%EB%B2%95%EB%A5%A0-%EC%A0%80%EC%A7%80-%ED%96%89%EC%A0%95%EB%AA%85%EB%A0%B9-%EC%B4%88%EC%95%88-%EC%9E%91%EC%84%B1/" rel="alternate" type="text/html" title="백악관, 주 정부 AI 법률 저지 행정명령 초안 작성" />
+    <published>2025-11-21T04:14:14+09:00</published>
   
-    <updated>2025-11-21T03:29:22+09:00</updated>
+    <updated>2025-11-21T04:14:14+09:00</updated>
   
-    <id>/posts/%EC%A0%80%EB%AC%BC%EA%B0%80%EA%B0%80-%EB%AF%B8%EA%B5%AD%EC%9D%B8%EC%97%90%EA%B2%8C-%EB%8F%84%EC%9B%80%EC%9D%B4-%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9D%B4%EC%9C%A0/</id>
-    <content type="text/html" src="/posts/%EC%A0%80%EB%AC%BC%EA%B0%80%EA%B0%80-%EB%AF%B8%EA%B5%AD%EC%9D%B8%EC%97%90%EA%B2%8C-%EB%8F%84%EC%9B%80%EC%9D%B4-%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9D%B4%EC%9C%A0/" />
+    <id>/posts/%EB%B0%B1%EC%95%85%EA%B4%80-%EC%A3%BC-%EC%A0%95%EB%B6%80-ai-%EB%B2%95%EB%A5%A0-%EC%A0%80%EC%A7%80-%ED%96%89%EC%A0%95%EB%AA%85%EB%A0%B9-%EC%B4%88%EC%95%88-%EC%9E%91%EC%84%B1/</id>
+    <content type="text/html" src="/posts/%EB%B0%B1%EC%95%85%EA%B4%80-%EC%A3%BC-%EC%A0%95%EB%B6%80-ai-%EB%B2%95%EB%A5%A0-%EC%A0%80%EC%A7%80-%ED%96%89%EC%A0%95%EB%AA%85%EB%A0%B9-%EC%B4%88%EC%95%88-%EC%9E%91%EC%84%B1/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>저물가가 미국인에게 도움이 되지 않는 이유 · 경제 뉴스 요약</summary>
+  <summary>백악관, 주 정부 AI 법률 저지 행정명령 초안 작성 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>비트코인, 6개월 만에 최저치 기록</title>
-    <link href="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-6%EA%B0%9C%EC%9B%94-%EB%A7%8C%EC%97%90-%EC%B5%9C%EC%A0%80%EC%B9%98-%EA%B8%B0%EB%A1%9D/" rel="alternate" type="text/html" title="비트코인, 6개월 만에 최저치 기록" />
-    <published>2025-11-21T03:29:10+09:00</published>
+    <title>UPS 화물기 추락 사건, 초기 보고서 공개</title>
+    <link href="/posts/ups-%ED%99%94%EB%AC%BC%EA%B8%B0-%EC%B6%94%EB%9D%BD-%EC%82%AC%EA%B1%B4-%EC%B4%88%EA%B8%B0-%EB%B3%B4%EA%B3%A0%EC%84%9C-%EA%B3%B5%EA%B0%9C/" rel="alternate" type="text/html" title="UPS 화물기 추락 사건, 초기 보고서 공개" />
+    <published>2025-11-21T04:13:59+09:00</published>
   
-    <updated>2025-11-21T03:29:10+09:00</updated>
+    <updated>2025-11-21T04:13:59+09:00</updated>
   
-    <id>/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-6%EA%B0%9C%EC%9B%94-%EB%A7%8C%EC%97%90-%EC%B5%9C%EC%A0%80%EC%B9%98-%EA%B8%B0%EB%A1%9D/</id>
-    <content type="text/html" src="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-6%EA%B0%9C%EC%9B%94-%EB%A7%8C%EC%97%90-%EC%B5%9C%EC%A0%80%EC%B9%98-%EA%B8%B0%EB%A1%9D/" />
+    <id>/posts/ups-%ED%99%94%EB%AC%BC%EA%B8%B0-%EC%B6%94%EB%9D%BD-%EC%82%AC%EA%B1%B4-%EC%B4%88%EA%B8%B0-%EB%B3%B4%EA%B3%A0%EC%84%9C-%EA%B3%B5%EA%B0%9C/</id>
+    <content type="text/html" src="/posts/ups-%ED%99%94%EB%AC%BC%EA%B8%B0-%EC%B6%94%EB%9D%BD-%EC%82%AC%EA%B1%B4-%EC%B4%88%EA%B8%B0-%EB%B3%B4%EA%B3%A0%EC%84%9C-%EA%B3%B5%EA%B0%9C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>비트코인, 6개월 만에 최저치 기록 · 경제 뉴스 요약</summary>
+  <summary>UPS 화물기 추락 사건, 초기 보고서 공개 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>S&amp;P 500, Nvidia 상승세 꺾이며 하락 전환</title>
-    <link href="/posts/sp-500-nvidia-%EC%83%81%EC%8A%B9%EC%84%B8-%EA%BA%BE%EC%9D%B4%EB%A9%B0-%ED%95%98%EB%9D%BD-%EC%A0%84%ED%99%98/" rel="alternate" type="text/html" title="S&amp;amp;P 500, Nvidia 상승세 꺾이며 하락 전환" />
-    <published>2025-11-21T03:28:58+09:00</published>
+    <title>소형주, 대형주를 이길 수 있을까?</title>
+    <link href="/posts/%EC%86%8C%ED%98%95%EC%A3%BC-%EB%8C%80%ED%98%95%EC%A3%BC%EB%A5%BC-%EC%9D%B4%EA%B8%B8-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/" rel="alternate" type="text/html" title="소형주, 대형주를 이길 수 있을까?" />
+    <published>2025-11-21T04:13:44+09:00</published>
   
-    <updated>2025-11-21T03:28:58+09:00</updated>
+    <updated>2025-11-21T04:13:44+09:00</updated>
   
-    <id>/posts/sp-500-nvidia-%EC%83%81%EC%8A%B9%EC%84%B8-%EA%BA%BE%EC%9D%B4%EB%A9%B0-%ED%95%98%EB%9D%BD-%EC%A0%84%ED%99%98/</id>
-    <content type="text/html" src="/posts/sp-500-nvidia-%EC%83%81%EC%8A%B9%EC%84%B8-%EA%BA%BE%EC%9D%B4%EB%A9%B0-%ED%95%98%EB%9D%BD-%EC%A0%84%ED%99%98/" />
+    <id>/posts/%EC%86%8C%ED%98%95%EC%A3%BC-%EB%8C%80%ED%98%95%EC%A3%BC%EB%A5%BC-%EC%9D%B4%EA%B8%B8-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/%EC%86%8C%ED%98%95%EC%A3%BC-%EB%8C%80%ED%98%95%EC%A3%BC%EB%A5%BC-%EC%9D%B4%EA%B8%B8-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>S&amp;amp;P 500, Nvidia 상승세 꺾이며 하락 전환 · 경제 뉴스 요약</summary>
+  <summary>소형주, 대형주를 이길 수 있을까? · 경제 뉴스 요약</summary>
 
   </entry>
 
