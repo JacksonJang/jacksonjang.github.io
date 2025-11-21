@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-22T06:16:08+09:00</updated>
+  <updated>2025-11-22T07:17:39+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,78 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>캐나다 주식, S&amp;P/TSX 종합지수 0.85% 상승</title>
+    <link href="/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A2%85%ED%95%A9%EC%A7%80%EC%88%98-085-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="캐나다 주식, S&amp;amp;P/TSX 종합지수 0.85% 상승" />
+    <published>2025-11-22T07:16:54+09:00</published>
+  
+    <updated>2025-11-22T07:16:54+09:00</updated>
+  
+    <id>/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A2%85%ED%95%A9%EC%A7%80%EC%88%98-085-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A2%85%ED%95%A9%EC%A7%80%EC%88%98-085-%EC%83%81%EC%8A%B9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>캐나다 주식, S&amp;amp;P/TSX 종합지수 0.85% 상승 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>멕시코 주식, 거래 마감 시 0.38% 상승</title>
+    <link href="/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C-038-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="멕시코 주식, 거래 마감 시 0.38% 상승" />
+    <published>2025-11-22T07:16:36+09:00</published>
+  
+    <updated>2025-11-22T07:16:36+09:00</updated>
+  
+    <id>/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C-038-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C-038-%EC%83%81%EC%8A%B9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>멕시코 주식, 거래 마감 시 0.38% 상승 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>S&amp;P, News Corp. 전망 긍정적으로 수정</title>
+    <link href="/posts/sp-news-corp-%EC%A0%84%EB%A7%9D-%EA%B8%8D%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%88%98%EC%A0%95/" rel="alternate" type="text/html" title="S&amp;amp;P, News Corp. 전망 긍정적으로 수정" />
+    <published>2025-11-22T07:16:21+09:00</published>
+  
+    <updated>2025-11-22T07:16:21+09:00</updated>
+  
+    <id>/posts/sp-news-corp-%EC%A0%84%EB%A7%9D-%EA%B8%8D%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%88%98%EC%A0%95/</id>
+    <content type="text/html" src="/posts/sp-news-corp-%EC%A0%84%EB%A7%9D-%EA%B8%8D%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%88%98%EC%A0%95/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>S&amp;amp;P, News Corp. 전망 긍정적으로 수정 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,78 +135,6 @@
   
 
   <summary>유럽에서 첫 3배 레버리지 비트코인 펀드 출시 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>트럼프와 뉴욕 시장 당선자 만남</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EB%89%B4%EC%9A%95-%EC%8B%9C%EC%9E%A5-%EB%8B%B9%EC%84%A0%EC%9E%90-%EB%A7%8C%EB%82%A8/" rel="alternate" type="text/html" title="트럼프와 뉴욕 시장 당선자 만남" />
-    <published>2025-11-22T06:15:13+09:00</published>
-  
-    <updated>2025-11-22T06:15:13+09:00</updated>
-  
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EB%89%B4%EC%9A%95-%EC%8B%9C%EC%9E%A5-%EB%8B%B9%EC%84%A0%EC%9E%90-%EB%A7%8C%EB%82%A8/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80-%EB%89%B4%EC%9A%95-%EC%8B%9C%EC%9E%A5-%EB%8B%B9%EC%84%A0%EC%9E%90-%EB%A7%8C%EB%82%A8/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>트럼프와 뉴욕 시장 당선자 만남 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>일본의 채무자 문제, 미국 채권 시장에 영향</title>
-    <link href="/posts/%EC%9D%BC%EB%B3%B8%EC%9D%98-%EC%B1%84%EB%AC%B4%EC%9E%90-%EB%AC%B8%EC%A0%9C-%EB%AF%B8%EA%B5%AD-%EC%B1%84%EA%B6%8C-%EC%8B%9C%EC%9E%A5%EC%97%90-%EC%98%81%ED%96%A5/" rel="alternate" type="text/html" title="일본의 채무자 문제, 미국 채권 시장에 영향" />
-    <published>2025-11-22T06:15:03+09:00</published>
-  
-    <updated>2025-11-22T06:15:03+09:00</updated>
-  
-    <id>/posts/%EC%9D%BC%EB%B3%B8%EC%9D%98-%EC%B1%84%EB%AC%B4%EC%9E%90-%EB%AC%B8%EC%A0%9C-%EB%AF%B8%EA%B5%AD-%EC%B1%84%EA%B6%8C-%EC%8B%9C%EC%9E%A5%EC%97%90-%EC%98%81%ED%96%A5/</id>
-    <content type="text/html" src="/posts/%EC%9D%BC%EB%B3%B8%EC%9D%98-%EC%B1%84%EB%AC%B4%EC%9E%90-%EB%AC%B8%EC%A0%9C-%EB%AF%B8%EA%B5%AD-%EC%B1%84%EA%B6%8C-%EC%8B%9C%EC%9E%A5%EC%97%90-%EC%98%81%ED%96%A5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>일본의 채무자 문제, 미국 채권 시장에 영향 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>AI 주식 투자: 안전한 선택과 피해야 할 종목</title>
-    <link href="/posts/ai-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90-%EC%95%88%EC%A0%84%ED%95%9C-%EC%84%A0%ED%83%9D%EA%B3%BC-%ED%94%BC%ED%95%B4%EC%95%BC-%ED%95%A0-%EC%A2%85%EB%AA%A9/" rel="alternate" type="text/html" title="AI 주식 투자: 안전한 선택과 피해야 할 종목" />
-    <published>2025-11-22T06:14:53+09:00</published>
-  
-    <updated>2025-11-22T06:14:53+09:00</updated>
-  
-    <id>/posts/ai-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90-%EC%95%88%EC%A0%84%ED%95%9C-%EC%84%A0%ED%83%9D%EA%B3%BC-%ED%94%BC%ED%95%B4%EC%95%BC-%ED%95%A0-%EC%A2%85%EB%AA%A9/</id>
-    <content type="text/html" src="/posts/ai-%EC%A3%BC%EC%8B%9D-%ED%88%AC%EC%9E%90-%EC%95%88%EC%A0%84%ED%95%9C-%EC%84%A0%ED%83%9D%EA%B3%BC-%ED%94%BC%ED%95%B4%EC%95%BC-%ED%95%A0-%EC%A2%85%EB%AA%A9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>AI 주식 투자: 안전한 선택과 피해야 할 종목 · 경제 뉴스 요약</summary>
 
   </entry>
 
