@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-22T07:17:39+09:00</updated>
+  <updated>2025-11-22T08:16:19+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>연준, 12월 금리 인하 없을 듯. 선물 거래 주목</title>
+    <link href="/posts/%EC%97%B0%EC%A4%80-12%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%97%86%EC%9D%84-%EB%93%AF-%EC%84%A0%EB%AC%BC-%EA%B1%B0%EB%9E%98-%EC%A3%BC%EB%AA%A9/" rel="alternate" type="text/html" title="연준, 12월 금리 인하 없을 듯. 선물 거래 주목" />
+    <published>2025-11-22T08:15:40+09:00</published>
+  
+    <updated>2025-11-22T08:15:40+09:00</updated>
+  
+    <id>/posts/%EC%97%B0%EC%A4%80-12%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%97%86%EC%9D%84-%EB%93%AF-%EC%84%A0%EB%AC%BC-%EA%B1%B0%EB%9E%98-%EC%A3%BC%EB%AA%A9/</id>
+    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80-12%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%97%86%EC%9D%84-%EB%93%AF-%EC%84%A0%EB%AC%BC-%EA%B1%B0%EB%9E%98-%EC%A3%BC%EB%AA%A9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>연준, 12월 금리 인하 없을 듯. 선물 거래 주목 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>엘리 릴리, 1조 달러 시가총액 달성</title>
+    <link href="/posts/%EC%97%98%EB%A6%AC-%EB%A6%B4%EB%A6%AC-1%EC%A1%B0-%EB%8B%AC%EB%9F%AC-%EC%8B%9C%EA%B0%80%EC%B4%9D%EC%95%A1-%EB%8B%AC%EC%84%B1-2/" rel="alternate" type="text/html" title="엘리 릴리, 1조 달러 시가총액 달성" />
+    <published>2025-11-22T08:15:19+09:00</published>
+  
+    <updated>2025-11-22T08:15:19+09:00</updated>
+  
+    <id>/posts/%EC%97%98%EB%A6%AC-%EB%A6%B4%EB%A6%AC-1%EC%A1%B0-%EB%8B%AC%EB%9F%AC-%EC%8B%9C%EA%B0%80%EC%B4%9D%EC%95%A1-%EB%8B%AC%EC%84%B1-2/</id>
+    <content type="text/html" src="/posts/%EC%97%98%EB%A6%AC-%EB%A6%B4%EB%A6%AC-1%EC%A1%B0-%EB%8B%AC%EB%9F%AC-%EC%8B%9C%EA%B0%80%EC%B4%9D%EC%95%A1-%EB%8B%AC%EC%84%B1-2/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>엘리 릴리, 1조 달러 시가총액 달성 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>S&amp;amp;P, News Corp. 전망 긍정적으로 수정 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>연준, 스트레스 테스트 변경 의견 제출 기한 연장</title>
-    <link href="/posts/%EC%97%B0%EC%A4%80-%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%8A%A4-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%B3%80%EA%B2%BD-%EC%9D%98%EA%B2%AC-%EC%A0%9C%EC%B6%9C-%EA%B8%B0%ED%95%9C-%EC%97%B0%EC%9E%A5/" rel="alternate" type="text/html" title="연준, 스트레스 테스트 변경 의견 제출 기한 연장" />
-    <published>2025-11-22T06:15:35+09:00</published>
-  
-    <updated>2025-11-22T06:15:35+09:00</updated>
-  
-    <id>/posts/%EC%97%B0%EC%A4%80-%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%8A%A4-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%B3%80%EA%B2%BD-%EC%9D%98%EA%B2%AC-%EC%A0%9C%EC%B6%9C-%EA%B8%B0%ED%95%9C-%EC%97%B0%EC%9E%A5/</id>
-    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80-%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%8A%A4-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%B3%80%EA%B2%BD-%EC%9D%98%EA%B2%AC-%EC%A0%9C%EC%B6%9C-%EA%B8%B0%ED%95%9C-%EC%97%B0%EC%9E%A5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>연준, 스트레스 테스트 변경 의견 제출 기한 연장 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>유럽에서 첫 3배 레버리지 비트코인 펀드 출시</title>
-    <link href="/posts/%EC%9C%A0%EB%9F%BD%EC%97%90%EC%84%9C-%EC%B2%AB-3%EB%B0%B0-%EB%A0%88%EB%B2%84%EB%A6%AC%EC%A7%80-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%8E%80%EB%93%9C-%EC%B6%9C%EC%8B%9C/" rel="alternate" type="text/html" title="유럽에서 첫 3배 레버리지 비트코인 펀드 출시" />
-    <published>2025-11-22T06:15:24+09:00</published>
-  
-    <updated>2025-11-22T06:15:24+09:00</updated>
-  
-    <id>/posts/%EC%9C%A0%EB%9F%BD%EC%97%90%EC%84%9C-%EC%B2%AB-3%EB%B0%B0-%EB%A0%88%EB%B2%84%EB%A6%AC%EC%A7%80-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%8E%80%EB%93%9C-%EC%B6%9C%EC%8B%9C/</id>
-    <content type="text/html" src="/posts/%EC%9C%A0%EB%9F%BD%EC%97%90%EC%84%9C-%EC%B2%AB-3%EB%B0%B0-%EB%A0%88%EB%B2%84%EB%A6%AC%EC%A7%80-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%8E%80%EB%93%9C-%EC%B6%9C%EC%8B%9C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>유럽에서 첫 3배 레버리지 비트코인 펀드 출시 · 경제 뉴스 요약</summary>
 
   </entry>
 
