@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-22T03:24:19+09:00</updated>
+  <updated>2025-11-22T04:15:41+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>항공 교통 관제사, 기술자 800명에 보너스 지급</title>
-    <link href="/posts/%ED%95%AD%EA%B3%B5-%EA%B5%90%ED%86%B5-%EA%B4%80%EC%A0%9C%EC%82%AC-%EA%B8%B0%EC%88%A0%EC%9E%90-800%EB%AA%85%EC%97%90-%EB%B3%B4%EB%84%88%EC%8A%A4-%EC%A7%80%EA%B8%89/" rel="alternate" type="text/html" title="항공 교통 관제사, 기술자 800명에 보너스 지급" />
-    <published>2025-11-22T03:23:42+09:00</published>
+    <title>UPS와 FedEx 항공 화물 영향은 '최소'할 것</title>
+    <link href="/posts/ups%EC%99%80-fedex-%ED%95%AD%EA%B3%B5-%ED%99%94%EB%AC%BC-%EC%98%81%ED%96%A5%EC%9D%80-%EC%B5%9C%EC%86%8C%ED%95%A0-%EA%B2%83/" rel="alternate" type="text/html" title="UPS와 FedEx 항공 화물 영향은 &amp;apos;최소&amp;apos;할 것" />
+    <published>2025-11-22T04:15:04+09:00</published>
   
-    <updated>2025-11-22T03:23:42+09:00</updated>
+    <updated>2025-11-22T04:15:04+09:00</updated>
   
-    <id>/posts/%ED%95%AD%EA%B3%B5-%EA%B5%90%ED%86%B5-%EA%B4%80%EC%A0%9C%EC%82%AC-%EA%B8%B0%EC%88%A0%EC%9E%90-800%EB%AA%85%EC%97%90-%EB%B3%B4%EB%84%88%EC%8A%A4-%EC%A7%80%EA%B8%89/</id>
-    <content type="text/html" src="/posts/%ED%95%AD%EA%B3%B5-%EA%B5%90%ED%86%B5-%EA%B4%80%EC%A0%9C%EC%82%AC-%EA%B8%B0%EC%88%A0%EC%9E%90-800%EB%AA%85%EC%97%90-%EB%B3%B4%EB%84%88%EC%8A%A4-%EC%A7%80%EA%B8%89/" />
+    <id>/posts/ups%EC%99%80-fedex-%ED%95%AD%EA%B3%B5-%ED%99%94%EB%AC%BC-%EC%98%81%ED%96%A5%EC%9D%80-%EC%B5%9C%EC%86%8C%ED%95%A0-%EA%B2%83/</id>
+    <content type="text/html" src="/posts/ups%EC%99%80-fedex-%ED%95%AD%EA%B3%B5-%ED%99%94%EB%AC%BC-%EC%98%81%ED%96%A5%EC%9D%80-%EC%B5%9C%EC%86%8C%ED%95%A0-%EA%B2%83/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>항공 교통 관제사, 기술자 800명에 보너스 지급 · 경제 뉴스 요약</summary>
+  <summary>UPS와 FedEx 항공 화물 영향은 &amp;#39;최소&amp;#39;할 것 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>비트코인 급락과 약세 주식시장 관계</title>
-    <link href="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EA%B8%89%EB%9D%BD%EA%B3%BC-%EC%95%BD%EC%84%B8-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EA%B4%80%EA%B3%84/" rel="alternate" type="text/html" title="비트코인 급락과 약세 주식시장 관계" />
-    <published>2025-11-22T03:23:28+09:00</published>
+    <title>AI 주식, 엔비디아 실적 발표 후 큰 하락세</title>
+    <link href="/posts/ai-%EC%A3%BC%EC%8B%9D-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%ED%9B%84-%ED%81%B0-%ED%95%98%EB%9D%BD%EC%84%B8/" rel="alternate" type="text/html" title="AI 주식, 엔비디아 실적 발표 후 큰 하락세" />
+    <published>2025-11-22T04:14:52+09:00</published>
   
-    <updated>2025-11-22T03:23:28+09:00</updated>
+    <updated>2025-11-22T04:14:52+09:00</updated>
   
-    <id>/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EA%B8%89%EB%9D%BD%EA%B3%BC-%EC%95%BD%EC%84%B8-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EA%B4%80%EA%B3%84/</id>
-    <content type="text/html" src="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EA%B8%89%EB%9D%BD%EA%B3%BC-%EC%95%BD%EC%84%B8-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EA%B4%80%EA%B3%84/" />
+    <id>/posts/ai-%EC%A3%BC%EC%8B%9D-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%ED%9B%84-%ED%81%B0-%ED%95%98%EB%9D%BD%EC%84%B8/</id>
+    <content type="text/html" src="/posts/ai-%EC%A3%BC%EC%8B%9D-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C-%ED%9B%84-%ED%81%B0-%ED%95%98%EB%9D%BD%EC%84%B8/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>비트코인 급락과 약세 주식시장 관계 · 경제 뉴스 요약</summary>
+  <summary>AI 주식, 엔비디아 실적 발표 후 큰 하락세 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>구글, AI 처리 용량 6개월마다 두 배로 늘려야</title>
-    <link href="/posts/%EA%B5%AC%EA%B8%80-ai-%EC%B2%98%EB%A6%AC-%EC%9A%A9%EB%9F%89-6%EA%B0%9C%EC%9B%94%EB%A7%88%EB%8B%A4-%EB%91%90-%EB%B0%B0%EB%A1%9C-%EB%8A%98%EB%A0%A4%EC%95%BC/" rel="alternate" type="text/html" title="구글, AI 처리 용량 6개월마다 두 배로 늘려야" />
-    <published>2025-11-22T03:23:17+09:00</published>
+    <title>트럼프의 소고기 가격 인하 아이디어, 효과 있을까?</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9-%EC%9D%B8%ED%95%98-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4-%ED%9A%A8%EA%B3%BC-%EC%9E%88%EC%9D%84%EA%B9%8C/" rel="alternate" type="text/html" title="트럼프의 소고기 가격 인하 아이디어, 효과 있을까?" />
+    <published>2025-11-22T04:14:39+09:00</published>
   
-    <updated>2025-11-22T03:23:17+09:00</updated>
+    <updated>2025-11-22T04:14:39+09:00</updated>
   
-    <id>/posts/%EA%B5%AC%EA%B8%80-ai-%EC%B2%98%EB%A6%AC-%EC%9A%A9%EB%9F%89-6%EA%B0%9C%EC%9B%94%EB%A7%88%EB%8B%A4-%EB%91%90-%EB%B0%B0%EB%A1%9C-%EB%8A%98%EB%A0%A4%EC%95%BC/</id>
-    <content type="text/html" src="/posts/%EA%B5%AC%EA%B8%80-ai-%EC%B2%98%EB%A6%AC-%EC%9A%A9%EB%9F%89-6%EA%B0%9C%EC%9B%94%EB%A7%88%EB%8B%A4-%EB%91%90-%EB%B0%B0%EB%A1%9C-%EB%8A%98%EB%A0%A4%EC%95%BC/" />
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9-%EC%9D%B8%ED%95%98-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4-%ED%9A%A8%EA%B3%BC-%EC%9E%88%EC%9D%84%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EA%B0%80%EA%B2%A9-%EC%9D%B8%ED%95%98-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4-%ED%9A%A8%EA%B3%BC-%EC%9E%88%EC%9D%84%EA%B9%8C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>구글, AI 처리 용량 6개월마다 두 배로 늘려야 · 경제 뉴스 요약</summary>
+  <summary>트럼프의 소고기 가격 인하 아이디어, 효과 있을까? · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>미국인 행복도 사상 최저, 돈 사용 방식 문제?</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD%EC%9D%B8-%ED%96%89%EB%B3%B5%EB%8F%84-%EC%82%AC%EC%83%81-%EC%B5%9C%EC%A0%80-%EB%8F%88-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EC%8B%9D-%EB%AC%B8%EC%A0%9C/" rel="alternate" type="text/html" title="미국인 행복도 사상 최저, 돈 사용 방식 문제?" />
-    <published>2025-11-22T03:23:03+09:00</published>
+    <title>2026년 사회보장 수혜자 혜택 변동 사항</title>
+    <link href="/posts/2026%EB%85%84-%EC%82%AC%ED%9A%8C%EB%B3%B4%EC%9E%A5-%EC%88%98%ED%98%9C%EC%9E%90-%ED%98%9C%ED%83%9D-%EB%B3%80%EB%8F%99-%EC%82%AC%ED%95%AD/" rel="alternate" type="text/html" title="2026년 사회보장 수혜자 혜택 변동 사항" />
+    <published>2025-11-22T04:14:25+09:00</published>
   
-    <updated>2025-11-22T03:23:03+09:00</updated>
+    <updated>2025-11-22T04:14:25+09:00</updated>
   
-    <id>/posts/%EB%AF%B8%EA%B5%AD%EC%9D%B8-%ED%96%89%EB%B3%B5%EB%8F%84-%EC%82%AC%EC%83%81-%EC%B5%9C%EC%A0%80-%EB%8F%88-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EC%8B%9D-%EB%AC%B8%EC%A0%9C/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD%EC%9D%B8-%ED%96%89%EB%B3%B5%EB%8F%84-%EC%82%AC%EC%83%81-%EC%B5%9C%EC%A0%80-%EB%8F%88-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EC%8B%9D-%EB%AC%B8%EC%A0%9C/" />
+    <id>/posts/2026%EB%85%84-%EC%82%AC%ED%9A%8C%EB%B3%B4%EC%9E%A5-%EC%88%98%ED%98%9C%EC%9E%90-%ED%98%9C%ED%83%9D-%EB%B3%80%EB%8F%99-%EC%82%AC%ED%95%AD/</id>
+    <content type="text/html" src="/posts/2026%EB%85%84-%EC%82%AC%ED%9A%8C%EB%B3%B4%EC%9E%A5-%EC%88%98%ED%98%9C%EC%9E%90-%ED%98%9C%ED%83%9D-%EB%B3%80%EB%8F%99-%EC%82%AC%ED%95%AD/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>미국인 행복도 사상 최저, 돈 사용 방식 문제? · 경제 뉴스 요약</summary>
+  <summary>2026년 사회보장 수혜자 혜택 변동 사항 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>상속 분쟁: 64세의 재정적 고충</title>
-    <link href="/posts/%EC%83%81%EC%86%8D-%EB%B6%84%EC%9F%81-64%EC%84%B8%EC%9D%98-%EC%9E%AC%EC%A0%95%EC%A0%81-%EA%B3%A0%EC%B6%A9/" rel="alternate" type="text/html" title="상속 분쟁: 64세의 재정적 고충" />
-    <published>2025-11-22T03:22:50+09:00</published>
+    <title>비트코인, 당신이 생각하는 것과 다르다</title>
+    <link href="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%8B%B9%EC%8B%A0%EC%9D%B4-%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%EA%B2%83%EA%B3%BC-%EB%8B%A4%EB%A5%B4%EB%8B%A4/" rel="alternate" type="text/html" title="비트코인, 당신이 생각하는 것과 다르다" />
+    <published>2025-11-22T04:14:15+09:00</published>
   
-    <updated>2025-11-22T03:22:50+09:00</updated>
+    <updated>2025-11-22T04:14:15+09:00</updated>
   
-    <id>/posts/%EC%83%81%EC%86%8D-%EB%B6%84%EC%9F%81-64%EC%84%B8%EC%9D%98-%EC%9E%AC%EC%A0%95%EC%A0%81-%EA%B3%A0%EC%B6%A9/</id>
-    <content type="text/html" src="/posts/%EC%83%81%EC%86%8D-%EB%B6%84%EC%9F%81-64%EC%84%B8%EC%9D%98-%EC%9E%AC%EC%A0%95%EC%A0%81-%EA%B3%A0%EC%B6%A9/" />
+    <id>/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%8B%B9%EC%8B%A0%EC%9D%B4-%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%EA%B2%83%EA%B3%BC-%EB%8B%A4%EB%A5%B4%EB%8B%A4/</id>
+    <content type="text/html" src="/posts/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%8B%B9%EC%8B%A0%EC%9D%B4-%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%EA%B2%83%EA%B3%BC-%EB%8B%A4%EB%A5%B4%EB%8B%A4/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>상속 분쟁: 64세의 재정적 고충 · 경제 뉴스 요약</summary>
+  <summary>비트코인, 당신이 생각하는 것과 다르다 · 경제 뉴스 요약</summary>
 
   </entry>
 
