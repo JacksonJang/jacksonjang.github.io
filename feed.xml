@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-22T20:13:02+09:00</updated>
+  <updated>2025-11-22T21:29:23+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>연준, 다음 달 금리 인하 가능성 증가</title>
+    <link href="/posts/%EC%97%B0%EC%A4%80-%EB%8B%A4%EC%9D%8C-%EB%8B%AC-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="연준, 다음 달 금리 인하 가능성 증가" />
+    <published>2025-11-22T21:28:45+09:00</published>
+  
+    <updated>2025-11-22T21:28:45+09:00</updated>
+  
+    <id>/posts/%EC%97%B0%EC%A4%80-%EB%8B%A4%EC%9D%8C-%EB%8B%AC-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A6%9D%EA%B0%80/</id>
+    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80-%EB%8B%A4%EC%9D%8C-%EB%8B%AC-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B0%80%EB%8A%A5%EC%84%B1-%EC%A6%9D%EA%B0%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>연준, 다음 달 금리 인하 가능성 증가 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>AI 크리스마스: 최신 스마트 기기들</title>
+    <link href="/posts/ai-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4-%EC%B5%9C%EC%8B%A0-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B8%B0%EA%B8%B0%EB%93%A4/" rel="alternate" type="text/html" title="AI 크리스마스: 최신 스마트 기기들" />
+    <published>2025-11-22T21:28:30+09:00</published>
+  
+    <updated>2025-11-22T21:28:30+09:00</updated>
+  
+    <id>/posts/ai-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4-%EC%B5%9C%EC%8B%A0-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B8%B0%EA%B8%B0%EB%93%A4/</id>
+    <content type="text/html" src="/posts/ai-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4-%EC%B5%9C%EC%8B%A0-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B8%B0%EA%B8%B0%EB%93%A4/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>AI 크리스마스: 최신 스마트 기기들 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>미국, 항공기 내 소란 사건 급증 대응 나서 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>2025년의 단어, AI 챗봇과의 관계</title>
-    <link href="/posts/2025%EB%85%84%EC%9D%98-%EB%8B%A8%EC%96%B4-ai-%EC%B1%97%EB%B4%87%EA%B3%BC%EC%9D%98-%EA%B4%80%EA%B3%84/" rel="alternate" type="text/html" title="2025년의 단어, AI 챗봇과의 관계" />
-    <published>2025-11-22T17:20:13+09:00</published>
-  
-    <updated>2025-11-22T17:20:13+09:00</updated>
-  
-    <id>/posts/2025%EB%85%84%EC%9D%98-%EB%8B%A8%EC%96%B4-ai-%EC%B1%97%EB%B4%87%EA%B3%BC%EC%9D%98-%EA%B4%80%EA%B3%84/</id>
-    <content type="text/html" src="/posts/2025%EB%85%84%EC%9D%98-%EB%8B%A8%EC%96%B4-ai-%EC%B1%97%EB%B4%87%EA%B3%BC%EC%9D%98-%EA%B4%80%EA%B3%84/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>2025년의 단어, AI 챗봇과의 관계 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>주식시장: 다우, S&amp;P 500, 나스닥 하락</title>
-    <link href="/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="주식시장: 다우, S&amp;amp;P 500, 나스닥 하락" />
-    <published>2025-11-22T16:14:58+09:00</published>
-  
-    <updated>2025-11-22T16:14:58+09:00</updated>
-  
-    <id>/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%ED%95%98%EB%9D%BD/</id>
-    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EB%8B%A4%EC%9A%B0-sp-500-%EB%82%98%EC%8A%A4%EB%8B%A5-%ED%95%98%EB%9D%BD/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>주식시장: 다우, S&amp;amp;P 500, 나스닥 하락 · 경제 뉴스 요약</summary>
 
   </entry>
 
