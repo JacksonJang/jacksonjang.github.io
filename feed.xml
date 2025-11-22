@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-22T16:15:43+09:00</updated>
+  <updated>2025-11-22T17:20:53+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>미국, 항공기 내 소란 사건 급증 대응 나서</title>
+    <link href="/posts/%EB%AF%B8%EA%B5%AD-%ED%95%AD%EA%B3%B5%EA%B8%B0-%EB%82%B4-%EC%86%8C%EB%9E%80-%EC%82%AC%EA%B1%B4-%EA%B8%89%EC%A6%9D-%EB%8C%80%EC%9D%91-%EB%82%98%EC%84%9C/" rel="alternate" type="text/html" title="미국, 항공기 내 소란 사건 급증 대응 나서" />
+    <published>2025-11-22T17:20:21+09:00</published>
+  
+    <updated>2025-11-22T17:20:21+09:00</updated>
+  
+    <id>/posts/%EB%AF%B8%EA%B5%AD-%ED%95%AD%EA%B3%B5%EA%B8%B0-%EB%82%B4-%EC%86%8C%EB%9E%80-%EC%82%AC%EA%B1%B4-%EA%B8%89%EC%A6%9D-%EB%8C%80%EC%9D%91-%EB%82%98%EC%84%9C/</id>
+    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%ED%95%AD%EA%B3%B5%EA%B8%B0-%EB%82%B4-%EC%86%8C%EB%9E%80-%EC%82%AC%EA%B1%B4-%EA%B8%89%EC%A6%9D-%EB%8C%80%EC%9D%91-%EB%82%98%EC%84%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>미국, 항공기 내 소란 사건 급증 대응 나서 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>2025년의 단어, AI 챗봇과의 관계</title>
+    <link href="/posts/2025%EB%85%84%EC%9D%98-%EB%8B%A8%EC%96%B4-ai-%EC%B1%97%EB%B4%87%EA%B3%BC%EC%9D%98-%EA%B4%80%EA%B3%84/" rel="alternate" type="text/html" title="2025년의 단어, AI 챗봇과의 관계" />
+    <published>2025-11-22T17:20:13+09:00</published>
+  
+    <updated>2025-11-22T17:20:13+09:00</updated>
+  
+    <id>/posts/2025%EB%85%84%EC%9D%98-%EB%8B%A8%EC%96%B4-ai-%EC%B1%97%EB%B4%87%EA%B3%BC%EC%9D%98-%EA%B4%80%EA%B3%84/</id>
+    <content type="text/html" src="/posts/2025%EB%85%84%EC%9D%98-%EB%8B%A8%EC%96%B4-ai-%EC%B1%97%EB%B4%87%EA%B3%BC%EC%9D%98-%EA%B4%80%EA%B3%84/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>2025년의 단어, AI 챗봇과의 관계 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>상속 문제: 아버지가 교회에 재산을 남기려 한다 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>그린 의원, 트럼프와의 갈등 후 사퇴 발표</title>
-    <link href="/posts/%EA%B7%B8%EB%A6%B0-%EC%9D%98%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80%EC%9D%98-%EA%B0%88%EB%93%B1-%ED%9B%84-%EC%82%AC%ED%87%B4-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="그린 의원, 트럼프와의 갈등 후 사퇴 발표" />
-    <published>2025-11-22T12:02:00+09:00</published>
-  
-    <updated>2025-11-22T12:02:00+09:00</updated>
-  
-    <id>/posts/%EA%B7%B8%EB%A6%B0-%EC%9D%98%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80%EC%9D%98-%EA%B0%88%EB%93%B1-%ED%9B%84-%EC%82%AC%ED%87%B4-%EB%B0%9C%ED%91%9C/</id>
-    <content type="text/html" src="/posts/%EA%B7%B8%EB%A6%B0-%EC%9D%98%EC%9B%90-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%99%80%EC%9D%98-%EA%B0%88%EB%93%B1-%ED%9B%84-%EC%82%AC%ED%87%B4-%EB%B0%9C%ED%91%9C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>그린 의원, 트럼프와의 갈등 후 사퇴 발표 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>파월 의장 덕분에 다행이다</title>
-    <link href="/posts/%ED%8C%8C%EC%9B%94-%EC%9D%98%EC%9E%A5-%EB%8D%95%EB%B6%84%EC%97%90-%EB%8B%A4%ED%96%89%EC%9D%B4%EB%8B%A4/" rel="alternate" type="text/html" title="파월 의장 덕분에 다행이다" />
-    <published>2025-11-22T10:10:02+09:00</published>
-  
-    <updated>2025-11-22T10:10:02+09:00</updated>
-  
-    <id>/posts/%ED%8C%8C%EC%9B%94-%EC%9D%98%EC%9E%A5-%EB%8D%95%EB%B6%84%EC%97%90-%EB%8B%A4%ED%96%89%EC%9D%B4%EB%8B%A4/</id>
-    <content type="text/html" src="/posts/%ED%8C%8C%EC%9B%94-%EC%9D%98%EC%9E%A5-%EB%8D%95%EB%B6%84%EC%97%90-%EB%8B%A4%ED%96%89%EC%9D%B4%EB%8B%A4/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>파월 의장 덕분에 다행이다 · 경제 뉴스 요약</summary>
 
   </entry>
 
