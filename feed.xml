@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-24T01:19:18+09:00</updated>
+  <updated>2025-11-24T02:14:56+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,78 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>이번 주 주식 시장에서 주목할 두 가지</title>
+    <link href="/posts/%EC%9D%B4%EB%B2%88-%EC%A3%BC-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%A3%BC%EB%AA%A9%ED%95%A0-%EB%91%90-%EA%B0%80%EC%A7%80/" rel="alternate" type="text/html" title="이번 주 주식 시장에서 주목할 두 가지" />
+    <published>2025-11-24T02:14:19+09:00</published>
+  
+    <updated>2025-11-24T02:14:19+09:00</updated>
+  
+    <id>/posts/%EC%9D%B4%EB%B2%88-%EC%A3%BC-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%A3%BC%EB%AA%A9%ED%95%A0-%EB%91%90-%EA%B0%80%EC%A7%80/</id>
+    <content type="text/html" src="/posts/%EC%9D%B4%EB%B2%88-%EC%A3%BC-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%A3%BC%EB%AA%A9%ED%95%A0-%EB%91%90-%EA%B0%80%EC%A7%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>이번 주 주식 시장에서 주목할 두 가지 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>단축된 추수감사절 주간, 주식 시장의 긴장감</title>
+    <link href="/posts/%EB%8B%A8%EC%B6%95%EB%90%9C-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%A3%BC%EA%B0%84-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EA%B8%B4%EC%9E%A5%EA%B0%90/" rel="alternate" type="text/html" title="단축된 추수감사절 주간, 주식 시장의 긴장감" />
+    <published>2025-11-24T02:14:05+09:00</published>
+  
+    <updated>2025-11-24T02:14:05+09:00</updated>
+  
+    <id>/posts/%EB%8B%A8%EC%B6%95%EB%90%9C-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%A3%BC%EA%B0%84-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EA%B8%B4%EC%9E%A5%EA%B0%90/</id>
+    <content type="text/html" src="/posts/%EB%8B%A8%EC%B6%95%EB%90%9C-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%A3%BC%EA%B0%84-%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EA%B8%B4%EC%9E%A5%EA%B0%90/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>단축된 추수감사절 주간, 주식 시장의 긴장감 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Nvidia, AI 거래를 구할 수 없는 이유</title>
+    <link href="/posts/nvidia-ai-%EA%B1%B0%EB%9E%98%EB%A5%BC-%EA%B5%AC%ED%95%A0-%EC%88%98-%EC%97%86%EB%8A%94-%EC%9D%B4%EC%9C%A0/" rel="alternate" type="text/html" title="Nvidia, AI 거래를 구할 수 없는 이유" />
+    <published>2025-11-24T02:13:51+09:00</published>
+  
+    <updated>2025-11-24T02:13:51+09:00</updated>
+  
+    <id>/posts/nvidia-ai-%EA%B1%B0%EB%9E%98%EB%A5%BC-%EA%B5%AC%ED%95%A0-%EC%88%98-%EC%97%86%EB%8A%94-%EC%9D%B4%EC%9C%A0/</id>
+    <content type="text/html" src="/posts/nvidia-ai-%EA%B1%B0%EB%9E%98%EB%A5%BC-%EA%B5%AC%ED%95%A0-%EC%88%98-%EC%97%86%EB%8A%94-%EC%9D%B4%EC%9C%A0/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Nvidia, AI 거래를 구할 수 없는 이유 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,78 +135,6 @@
   
 
   <summary>야망이 경력을 망칠 수 있다: 건강한 성공 추구법 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>아이의 감정 지능을 높이는 5가지 표현</title>
-    <link href="/posts/%EC%95%84%EC%9D%B4%EC%9D%98-%EA%B0%90%EC%A0%95-%EC%A7%80%EB%8A%A5%EC%9D%84-%EB%86%92%EC%9D%B4%EB%8A%94-5%EA%B0%80%EC%A7%80-%ED%91%9C%ED%98%84/" rel="alternate" type="text/html" title="아이의 감정 지능을 높이는 5가지 표현" />
-    <published>2025-11-24T00:15:36+09:00</published>
-  
-    <updated>2025-11-24T00:15:36+09:00</updated>
-  
-    <id>/posts/%EC%95%84%EC%9D%B4%EC%9D%98-%EA%B0%90%EC%A0%95-%EC%A7%80%EB%8A%A5%EC%9D%84-%EB%86%92%EC%9D%B4%EB%8A%94-5%EA%B0%80%EC%A7%80-%ED%91%9C%ED%98%84/</id>
-    <content type="text/html" src="/posts/%EC%95%84%EC%9D%B4%EC%9D%98-%EA%B0%90%EC%A0%95-%EC%A7%80%EB%8A%A5%EC%9D%84-%EB%86%92%EC%9D%B4%EB%8A%94-5%EA%B0%80%EC%A7%80-%ED%91%9C%ED%98%84/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>아이의 감정 지능을 높이는 5가지 표현 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>소매업체, 저소득 소비자 우려 완화 시도</title>
-    <link href="/posts/%EC%86%8C%EB%A7%A4%EC%97%85%EC%B2%B4-%EC%A0%80%EC%86%8C%EB%93%9D-%EC%86%8C%EB%B9%84%EC%9E%90-%EC%9A%B0%EB%A0%A4-%EC%99%84%ED%99%94-%EC%8B%9C%EB%8F%84/" rel="alternate" type="text/html" title="소매업체, 저소득 소비자 우려 완화 시도" />
-    <published>2025-11-24T00:15:18+09:00</published>
-  
-    <updated>2025-11-24T00:15:18+09:00</updated>
-  
-    <id>/posts/%EC%86%8C%EB%A7%A4%EC%97%85%EC%B2%B4-%EC%A0%80%EC%86%8C%EB%93%9D-%EC%86%8C%EB%B9%84%EC%9E%90-%EC%9A%B0%EB%A0%A4-%EC%99%84%ED%99%94-%EC%8B%9C%EB%8F%84/</id>
-    <content type="text/html" src="/posts/%EC%86%8C%EB%A7%A4%EC%97%85%EC%B2%B4-%EC%A0%80%EC%86%8C%EB%93%9D-%EC%86%8C%EB%B9%84%EC%9E%90-%EC%9A%B0%EB%A0%A4-%EC%99%84%ED%99%94-%EC%8B%9C%EB%8F%84/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>소매업체, 저소득 소비자 우려 완화 시도 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>기업들이 비밀번호 없는 인증으로 전환 중</title>
-    <link href="/posts/%EA%B8%B0%EC%97%85%EB%93%A4%EC%9D%B4-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%EC%97%86%EB%8A%94-%EC%9D%B8%EC%A6%9D%EC%9C%BC%EB%A1%9C-%EC%A0%84%ED%99%98-%EC%A4%91/" rel="alternate" type="text/html" title="기업들이 비밀번호 없는 인증으로 전환 중" />
-    <published>2025-11-24T00:15:02+09:00</published>
-  
-    <updated>2025-11-24T00:15:02+09:00</updated>
-  
-    <id>/posts/%EA%B8%B0%EC%97%85%EB%93%A4%EC%9D%B4-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%EC%97%86%EB%8A%94-%EC%9D%B8%EC%A6%9D%EC%9C%BC%EB%A1%9C-%EC%A0%84%ED%99%98-%EC%A4%91/</id>
-    <content type="text/html" src="/posts/%EA%B8%B0%EC%97%85%EB%93%A4%EC%9D%B4-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%EC%97%86%EB%8A%94-%EC%9D%B8%EC%A6%9D%EC%9C%BC%EB%A1%9C-%EC%A0%84%ED%99%98-%EC%A4%91/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>기업들이 비밀번호 없는 인증으로 전환 중 · 경제 뉴스 요약</summary>
 
   </entry>
 
