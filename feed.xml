@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-23T22:23:19+09:00</updated>
+  <updated>2025-11-23T23:15:20+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>추수감사절, 가족과 함께할까 호텔에 갈까?</title>
+    <link href="/posts/%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EA%B0%80%EC%A1%B1%EA%B3%BC-%ED%95%A8%EA%BB%98%ED%95%A0%EA%B9%8C-%ED%98%B8%ED%85%94%EC%97%90-%EA%B0%88%EA%B9%8C/" rel="alternate" type="text/html" title="추수감사절, 가족과 함께할까 호텔에 갈까?" />
+    <published>2025-11-23T23:14:39+09:00</published>
+  
+    <updated>2025-11-23T23:14:39+09:00</updated>
+  
+    <id>/posts/%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EA%B0%80%EC%A1%B1%EA%B3%BC-%ED%95%A8%EA%BB%98%ED%95%A0%EA%B9%8C-%ED%98%B8%ED%85%94%EC%97%90-%EA%B0%88%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EA%B0%80%EC%A1%B1%EA%B3%BC-%ED%95%A8%EA%BB%98%ED%95%A0%EA%B9%8C-%ED%98%B8%ED%85%94%EC%97%90-%EA%B0%88%EA%B9%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>추수감사절, 가족과 함께할까 호텔에 갈까? · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>Microsoft, AI 챗봇 도입에 어려움 겪다 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>월가 애널리스트가 추천하는 3개 주식</title>
-    <link href="/posts/%EC%9B%94%EA%B0%80-%EC%95%A0%EB%84%90%EB%A6%AC%EC%8A%A4%ED%8A%B8%EA%B0%80-%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94-3%EA%B0%9C-%EC%A3%BC%EC%8B%9D/" rel="alternate" type="text/html" title="월가 애널리스트가 추천하는 3개 주식" />
-    <published>2025-11-23T21:28:14+09:00</published>
-  
-    <updated>2025-11-23T21:28:14+09:00</updated>
-  
-    <id>/posts/%EC%9B%94%EA%B0%80-%EC%95%A0%EB%84%90%EB%A6%AC%EC%8A%A4%ED%8A%B8%EA%B0%80-%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94-3%EA%B0%9C-%EC%A3%BC%EC%8B%9D/</id>
-    <content type="text/html" src="/posts/%EC%9B%94%EA%B0%80-%EC%95%A0%EB%84%90%EB%A6%AC%EC%8A%A4%ED%8A%B8%EA%B0%80-%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94-3%EA%B0%9C-%EC%A3%BC%EC%8B%9D/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>월가 애널리스트가 추천하는 3개 주식 · 경제 뉴스 요약</summary>
 
   </entry>
 
