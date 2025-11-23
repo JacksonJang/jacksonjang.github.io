@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-23T13:31:28+09:00</updated>
+  <updated>2025-11-23T14:16:41+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>S&amp;P 500: Ross Stores 상승, Nvidia 등 하락</title>
+    <link href="/posts/sp-500-ross-stores-%EC%83%81%EC%8A%B9-nvidia-%EB%93%B1-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="S&amp;amp;P 500: Ross Stores 상승, Nvidia 등 하락" />
+    <published>2025-11-23T14:15:54+09:00</published>
+  
+    <updated>2025-11-23T14:15:54+09:00</updated>
+  
+    <id>/posts/sp-500-ross-stores-%EC%83%81%EC%8A%B9-nvidia-%EB%93%B1-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/sp-500-ross-stores-%EC%83%81%EC%8A%B9-nvidia-%EB%93%B1-%ED%95%98%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>S&amp;amp;P 500: Ross Stores 상승, Nvidia 등 하락 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>주택 건설업체, 연준 금리 인하 기대감에 상승 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 국채 수익률 하락, 연준 전망 불확실성 증가</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EA%B5%AD%EC%B1%84-%EC%88%98%EC%9D%B5%EB%A5%A0-%ED%95%98%EB%9D%BD-%EC%97%B0%EC%A4%80-%EC%A0%84%EB%A7%9D-%EB%B6%88%ED%99%95%EC%8B%A4%EC%84%B1-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="미국 국채 수익률 하락, 연준 전망 불확실성 증가" />
-    <published>2025-11-23T12:24:59+09:00</published>
-  
-    <updated>2025-11-23T12:24:59+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EA%B5%AD%EC%B1%84-%EC%88%98%EC%9D%B5%EB%A5%A0-%ED%95%98%EB%9D%BD-%EC%97%B0%EC%A4%80-%EC%A0%84%EB%A7%9D-%EB%B6%88%ED%99%95%EC%8B%A4%EC%84%B1-%EC%A6%9D%EA%B0%80/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EA%B5%AD%EC%B1%84-%EC%88%98%EC%9D%B5%EB%A5%A0-%ED%95%98%EB%9D%BD-%EC%97%B0%EC%A4%80-%EC%A0%84%EB%A7%9D-%EB%B6%88%ED%99%95%EC%8B%A4%EC%84%B1-%EC%A6%9D%EA%B0%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 국채 수익률 하락, 연준 전망 불확실성 증가 · 경제 뉴스 요약</summary>
 
   </entry>
 
