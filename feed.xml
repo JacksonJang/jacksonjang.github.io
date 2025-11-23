@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-24T04:13:39+09:00</updated>
+  <updated>2025-11-24T05:20:11+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>구글의 새로운 AI 모델, OpenAI에 도전장</title>
+    <link href="/posts/%EA%B5%AC%EA%B8%80%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-ai-%EB%AA%A8%EB%8D%B8-openai%EC%97%90-%EB%8F%84%EC%A0%84%EC%9E%A5/" rel="alternate" type="text/html" title="구글의 새로운 AI 모델, OpenAI에 도전장" />
+    <published>2025-11-24T05:19:33+09:00</published>
+  
+    <updated>2025-11-24T05:19:33+09:00</updated>
+  
+    <id>/posts/%EA%B5%AC%EA%B8%80%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-ai-%EB%AA%A8%EB%8D%B8-openai%EC%97%90-%EB%8F%84%EC%A0%84%EC%9E%A5/</id>
+    <content type="text/html" src="/posts/%EA%B5%AC%EA%B8%80%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-ai-%EB%AA%A8%EB%8D%B8-openai%EC%97%90-%EB%8F%84%EC%A0%84%EC%9E%A5/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>구글의 새로운 AI 모델, OpenAI에 도전장 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>홈디포 주가, 금리 인하 없으면 어려움 예상</title>
+    <link href="/posts/%ED%99%88%EB%94%94%ED%8F%AC-%EC%A3%BC%EA%B0%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%97%86%EC%9C%BC%EB%A9%B4-%EC%96%B4%EB%A0%A4%EC%9B%80-%EC%98%88%EC%83%81/" rel="alternate" type="text/html" title="홈디포 주가, 금리 인하 없으면 어려움 예상" />
+    <published>2025-11-24T05:19:15+09:00</published>
+  
+    <updated>2025-11-24T05:19:15+09:00</updated>
+  
+    <id>/posts/%ED%99%88%EB%94%94%ED%8F%AC-%EC%A3%BC%EA%B0%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%97%86%EC%9C%BC%EB%A9%B4-%EC%96%B4%EB%A0%A4%EC%9B%80-%EC%98%88%EC%83%81/</id>
+    <content type="text/html" src="/posts/%ED%99%88%EB%94%94%ED%8F%AC-%EC%A3%BC%EA%B0%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EC%97%86%EC%9C%BC%EB%A9%B4-%EC%96%B4%EB%A0%A4%EC%9B%80-%EC%98%88%EC%83%81/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>홈디포 주가, 금리 인하 없으면 어려움 예상 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>단축된 추수감사절 주간, 주식 시장의 긴장감 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Nvidia, AI 거래를 구할 수 없는 이유</title>
-    <link href="/posts/nvidia-ai-%EA%B1%B0%EB%9E%98%EB%A5%BC-%EA%B5%AC%ED%95%A0-%EC%88%98-%EC%97%86%EB%8A%94-%EC%9D%B4%EC%9C%A0/" rel="alternate" type="text/html" title="Nvidia, AI 거래를 구할 수 없는 이유" />
-    <published>2025-11-24T02:13:51+09:00</published>
-  
-    <updated>2025-11-24T02:13:51+09:00</updated>
-  
-    <id>/posts/nvidia-ai-%EA%B1%B0%EB%9E%98%EB%A5%BC-%EA%B5%AC%ED%95%A0-%EC%88%98-%EC%97%86%EB%8A%94-%EC%9D%B4%EC%9C%A0/</id>
-    <content type="text/html" src="/posts/nvidia-ai-%EA%B1%B0%EB%9E%98%EB%A5%BC-%EA%B5%AC%ED%95%A0-%EC%88%98-%EC%97%86%EB%8A%94-%EC%9D%B4%EC%9C%A0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Nvidia, AI 거래를 구할 수 없는 이유 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Wicked: For Good' 1억 5천만 달러 개봉</title>
-    <link href="/posts/wicked-for-good-1%EC%96%B5-5%EC%B2%9C%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EA%B0%9C%EB%B4%89/" rel="alternate" type="text/html" title="Wicked: For Good&amp;apos; 1억 5천만 달러 개봉" />
-    <published>2025-11-24T01:18:39+09:00</published>
-  
-    <updated>2025-11-24T01:18:39+09:00</updated>
-  
-    <id>/posts/wicked-for-good-1%EC%96%B5-5%EC%B2%9C%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EA%B0%9C%EB%B4%89/</id>
-    <content type="text/html" src="/posts/wicked-for-good-1%EC%96%B5-5%EC%B2%9C%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EA%B0%9C%EB%B4%89/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Wicked: For Good&amp;#39; 1억 5천만 달러 개봉 · 경제 뉴스 요약</summary>
 
   </entry>
 
