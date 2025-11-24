@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-24T16:18:23+09:00</updated>
+  <updated>2025-11-24T17:24:46+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>유럽 주식, 연준 금리 인하 기대감에 상승</title>
+    <link href="/posts/%EC%9C%A0%EB%9F%BD-%EC%A3%BC%EC%8B%9D-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="유럽 주식, 연준 금리 인하 기대감에 상승" />
+    <published>2025-11-24T17:24:04+09:00</published>
+  
+    <updated>2025-11-24T17:24:04+09:00</updated>
+  
+    <id>/posts/%EC%9C%A0%EB%9F%BD-%EC%A3%BC%EC%8B%9D-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%EC%9C%A0%EB%9F%BD-%EC%A3%BC%EC%8B%9D-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>유럽 주식, 연준 금리 인하 기대감에 상승 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>호주 주식, S&amp;amp;P/ASX 200 1.29% 상승 마감 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>유럽 증시, 글로벌 긍정 여파로 상승 예상</title>
-    <link href="/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EA%B8%8D%EC%A0%95-%EC%97%AC%ED%8C%8C%EB%A1%9C-%EC%83%81%EC%8A%B9-%EC%98%88%EC%83%81/" rel="alternate" type="text/html" title="유럽 증시, 글로벌 긍정 여파로 상승 예상" />
-    <published>2025-11-24T15:26:18+09:00</published>
-  
-    <updated>2025-11-24T15:26:18+09:00</updated>
-  
-    <id>/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EA%B8%8D%EC%A0%95-%EC%97%AC%ED%8C%8C%EB%A1%9C-%EC%83%81%EC%8A%B9-%EC%98%88%EC%83%81/</id>
-    <content type="text/html" src="/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EA%B8%8D%EC%A0%95-%EC%97%AC%ED%8C%8C%EB%A1%9C-%EC%83%81%EC%8A%B9-%EC%98%88%EC%83%81/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>유럽 증시, 글로벌 긍정 여파로 상승 예상 · 경제 뉴스 요약</summary>
 
   </entry>
 
