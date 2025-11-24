@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-24T14:18:49+09:00</updated>
+  <updated>2025-11-24T15:27:29+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,78 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>중국 소비재 브랜드, 아프리카로 진출 확대</title>
+    <link href="/posts/%EC%A4%91%EA%B5%AD-%EC%86%8C%EB%B9%84%EC%9E%AC-%EB%B8%8C%EB%9E%9C%EB%93%9C-%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4%EB%A1%9C-%EC%A7%84%EC%B6%9C-%ED%99%95%EB%8C%80/" rel="alternate" type="text/html" title="중국 소비재 브랜드, 아프리카로 진출 확대" />
+    <published>2025-11-24T15:26:53+09:00</published>
+  
+    <updated>2025-11-24T15:26:53+09:00</updated>
+  
+    <id>/posts/%EC%A4%91%EA%B5%AD-%EC%86%8C%EB%B9%84%EC%9E%AC-%EB%B8%8C%EB%9E%9C%EB%93%9C-%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4%EB%A1%9C-%EC%A7%84%EC%B6%9C-%ED%99%95%EB%8C%80/</id>
+    <content type="text/html" src="/posts/%EC%A4%91%EA%B5%AD-%EC%86%8C%EB%B9%84%EC%9E%AC-%EB%B8%8C%EB%9E%9C%EB%93%9C-%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4%EB%A1%9C-%EC%A7%84%EC%B6%9C-%ED%99%95%EB%8C%80/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>중국 소비재 브랜드, 아프리카로 진출 확대 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>호주 주식, S&amp;P/ASX 200 1.29% 상승 마감</title>
+    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-129-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="호주 주식, S&amp;amp;P/ASX 200 1.29% 상승 마감" />
+    <published>2025-11-24T15:26:38+09:00</published>
+  
+    <updated>2025-11-24T15:26:38+09:00</updated>
+  
+    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-129-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/</id>
+    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-129-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>호주 주식, S&amp;amp;P/ASX 200 1.29% 상승 마감 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>유럽 증시, 글로벌 긍정 여파로 상승 예상</title>
+    <link href="/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EA%B8%8D%EC%A0%95-%EC%97%AC%ED%8C%8C%EB%A1%9C-%EC%83%81%EC%8A%B9-%EC%98%88%EC%83%81/" rel="alternate" type="text/html" title="유럽 증시, 글로벌 긍정 여파로 상승 예상" />
+    <published>2025-11-24T15:26:18+09:00</published>
+  
+    <updated>2025-11-24T15:26:18+09:00</updated>
+  
+    <id>/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EA%B8%8D%EC%A0%95-%EC%97%AC%ED%8C%8C%EB%A1%9C-%EC%83%81%EC%8A%B9-%EC%98%88%EC%83%81/</id>
+    <content type="text/html" src="/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EA%B8%8D%EC%A0%95-%EC%97%AC%ED%8C%8C%EB%A1%9C-%EC%83%81%EC%8A%B9-%EC%98%88%EC%83%81/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>유럽 증시, 글로벌 긍정 여파로 상승 예상 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,78 +135,6 @@
   
 
   <summary>아시아 태평양 시장, Fed 금리 인하 기대감에 반등 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 주식 선물, 추수감사절 주간 상승세</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%8B%9D-%EC%84%A0%EB%AC%BC-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%A3%BC%EA%B0%84-%EC%83%81%EC%8A%B9%EC%84%B8/" rel="alternate" type="text/html" title="미국 주식 선물, 추수감사절 주간 상승세" />
-    <published>2025-11-24T10:17:57+09:00</published>
-  
-    <updated>2025-11-24T10:17:57+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%8B%9D-%EC%84%A0%EB%AC%BC-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%A3%BC%EA%B0%84-%EC%83%81%EC%8A%B9%EC%84%B8/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%8B%9D-%EC%84%A0%EB%AC%BC-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%A3%BC%EA%B0%84-%EC%83%81%EC%8A%B9%EC%84%B8/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 주식 선물, 추수감사절 주간 상승세 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Qube Holdings, Macquarie의 인수 제안으로 20% 급등</title>
-    <link href="/posts/qube-holdings-macquarie%EC%9D%98-%EC%9D%B8%EC%88%98-%EC%A0%9C%EC%95%88%EC%9C%BC%EB%A1%9C-20-%EA%B8%89%EB%93%B1/" rel="alternate" type="text/html" title="Qube Holdings, Macquarie의 인수 제안으로 20% 급등" />
-    <published>2025-11-24T10:17:43+09:00</published>
-  
-    <updated>2025-11-24T10:17:43+09:00</updated>
-  
-    <id>/posts/qube-holdings-macquarie%EC%9D%98-%EC%9D%B8%EC%88%98-%EC%A0%9C%EC%95%88%EC%9C%BC%EB%A1%9C-20-%EA%B8%89%EB%93%B1/</id>
-    <content type="text/html" src="/posts/qube-holdings-macquarie%EC%9D%98-%EC%9D%B8%EC%88%98-%EC%A0%9C%EC%95%88%EC%9C%BC%EB%A1%9C-20-%EA%B8%89%EB%93%B1/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>Qube Holdings, Macquarie의 인수 제안으로 20% 급등 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>메타, 소셜 미디어 해악 연구 중단 주장</title>
-    <link href="/posts/%EB%A9%94%ED%83%80-%EC%86%8C%EC%85%9C-%EB%AF%B8%EB%94%94%EC%96%B4-%ED%95%B4%EC%95%85-%EC%97%B0%EA%B5%AC-%EC%A4%91%EB%8B%A8-%EC%A3%BC%EC%9E%A5/" rel="alternate" type="text/html" title="메타, 소셜 미디어 해악 연구 중단 주장" />
-    <published>2025-11-24T10:17:28+09:00</published>
-  
-    <updated>2025-11-24T10:17:28+09:00</updated>
-  
-    <id>/posts/%EB%A9%94%ED%83%80-%EC%86%8C%EC%85%9C-%EB%AF%B8%EB%94%94%EC%96%B4-%ED%95%B4%EC%95%85-%EC%97%B0%EA%B5%AC-%EC%A4%91%EB%8B%A8-%EC%A3%BC%EC%9E%A5/</id>
-    <content type="text/html" src="/posts/%EB%A9%94%ED%83%80-%EC%86%8C%EC%85%9C-%EB%AF%B8%EB%94%94%EC%96%B4-%ED%95%B4%EC%95%85-%EC%97%B0%EA%B5%AC-%EC%A4%91%EB%8B%A8-%EC%A3%BC%EC%9E%A5/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>메타, 소셜 미디어 해악 연구 중단 주장 · 경제 뉴스 요약</summary>
 
   </entry>
 
