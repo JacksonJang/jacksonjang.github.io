@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-24T22:33:06+09:00</updated>
+  <updated>2025-11-24T23:19:13+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>BHP, 앵글로 아메리칸 인수 포기</title>
-    <link href="/posts/bhp-%EC%95%B5%EA%B8%80%EB%A1%9C-%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B8-%EC%9D%B8%EC%88%98-%ED%8F%AC%EA%B8%B0/" rel="alternate" type="text/html" title="BHP, 앵글로 아메리칸 인수 포기" />
-    <published>2025-11-24T22:32:31+09:00</published>
+    <title>2백만 달러로 조기 은퇴 가능할까?</title>
+    <link href="/posts/2%EB%B0%B1%EB%A7%8C-%EB%8B%AC%EB%9F%AC%EB%A1%9C-%EC%A1%B0%EA%B8%B0-%EC%9D%80%ED%87%B4-%EA%B0%80%EB%8A%A5%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="2백만 달러로 조기 은퇴 가능할까?" />
+    <published>2025-11-24T23:18:37+09:00</published>
   
-    <updated>2025-11-24T22:32:31+09:00</updated>
+    <updated>2025-11-24T23:18:37+09:00</updated>
   
-    <id>/posts/bhp-%EC%95%B5%EA%B8%80%EB%A1%9C-%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B8-%EC%9D%B8%EC%88%98-%ED%8F%AC%EA%B8%B0/</id>
-    <content type="text/html" src="/posts/bhp-%EC%95%B5%EA%B8%80%EB%A1%9C-%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B8-%EC%9D%B8%EC%88%98-%ED%8F%AC%EA%B8%B0/" />
+    <id>/posts/2%EB%B0%B1%EB%A7%8C-%EB%8B%AC%EB%9F%AC%EB%A1%9C-%EC%A1%B0%EA%B8%B0-%EC%9D%80%ED%87%B4-%EA%B0%80%EB%8A%A5%ED%95%A0%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/2%EB%B0%B1%EB%A7%8C-%EB%8B%AC%EB%9F%AC%EB%A1%9C-%EC%A1%B0%EA%B8%B0-%EC%9D%80%ED%87%B4-%EA%B0%80%EB%8A%A5%ED%95%A0%EA%B9%8C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>BHP, 앵글로 아메리칸 인수 포기 · 경제 뉴스 요약</summary>
+  <summary>2백만 달러로 조기 은퇴 가능할까? · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>현금은 안전하지만 부를 늘리지 못한다</title>
-    <link href="/posts/%ED%98%84%EA%B8%88%EC%9D%80-%EC%95%88%EC%A0%84%ED%95%98%EC%A7%80%EB%A7%8C-%EB%B6%80%EB%A5%BC-%EB%8A%98%EB%A6%AC%EC%A7%80-%EB%AA%BB%ED%95%9C%EB%8B%A4/" rel="alternate" type="text/html" title="현금은 안전하지만 부를 늘리지 못한다" />
-    <published>2025-11-24T22:32:19+09:00</published>
+    <title>‘매그니피센트 세븐’의 끝? 주목할 3개 주식</title>
+    <link href="/posts/%EB%A7%A4%EA%B7%B8%EB%8B%88%ED%94%BC%EC%84%BC%ED%8A%B8-%EC%84%B8%EB%B8%90%EC%9D%98-%EB%81%9D-%EC%A3%BC%EB%AA%A9%ED%95%A0-3%EA%B0%9C-%EC%A3%BC%EC%8B%9D/" rel="alternate" type="text/html" title="‘매그니피센트 세븐’의 끝? 주목할 3개 주식" />
+    <published>2025-11-24T23:18:23+09:00</published>
   
-    <updated>2025-11-24T22:32:19+09:00</updated>
+    <updated>2025-11-24T23:18:23+09:00</updated>
   
-    <id>/posts/%ED%98%84%EA%B8%88%EC%9D%80-%EC%95%88%EC%A0%84%ED%95%98%EC%A7%80%EB%A7%8C-%EB%B6%80%EB%A5%BC-%EB%8A%98%EB%A6%AC%EC%A7%80-%EB%AA%BB%ED%95%9C%EB%8B%A4/</id>
-    <content type="text/html" src="/posts/%ED%98%84%EA%B8%88%EC%9D%80-%EC%95%88%EC%A0%84%ED%95%98%EC%A7%80%EB%A7%8C-%EB%B6%80%EB%A5%BC-%EB%8A%98%EB%A6%AC%EC%A7%80-%EB%AA%BB%ED%95%9C%EB%8B%A4/" />
+    <id>/posts/%EB%A7%A4%EA%B7%B8%EB%8B%88%ED%94%BC%EC%84%BC%ED%8A%B8-%EC%84%B8%EB%B8%90%EC%9D%98-%EB%81%9D-%EC%A3%BC%EB%AA%A9%ED%95%A0-3%EA%B0%9C-%EC%A3%BC%EC%8B%9D/</id>
+    <content type="text/html" src="/posts/%EB%A7%A4%EA%B7%B8%EB%8B%88%ED%94%BC%EC%84%BC%ED%8A%B8-%EC%84%B8%EB%B8%90%EC%9D%98-%EB%81%9D-%EC%A3%BC%EB%AA%A9%ED%95%A0-3%EA%B0%9C-%EC%A3%BC%EC%8B%9D/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>현금은 안전하지만 부를 늘리지 못한다 · 경제 뉴스 요약</summary>
+  <summary>‘매그니피센트 세븐’의 끝? 주목할 3개 주식 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>S&amp;P 500, 3년 만에 최고 매출 성장 전망</title>
-    <link href="/posts/sp-500-3%EB%85%84-%EB%A7%8C%EC%97%90-%EC%B5%9C%EA%B3%A0-%EB%A7%A4%EC%B6%9C-%EC%84%B1%EC%9E%A5-%EC%A0%84%EB%A7%9D/" rel="alternate" type="text/html" title="S&amp;amp;P 500, 3년 만에 최고 매출 성장 전망" />
-    <published>2025-11-24T22:32:05+09:00</published>
+    <title>주식 시장에서 주목해야 할 10가지 사항</title>
+    <link href="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-10%EA%B0%80%EC%A7%80-%EC%82%AC%ED%95%AD/" rel="alternate" type="text/html" title="주식 시장에서 주목해야 할 10가지 사항" />
+    <published>2025-11-24T23:18:07+09:00</published>
   
-    <updated>2025-11-24T22:32:05+09:00</updated>
+    <updated>2025-11-24T23:18:07+09:00</updated>
   
-    <id>/posts/sp-500-3%EB%85%84-%EB%A7%8C%EC%97%90-%EC%B5%9C%EA%B3%A0-%EB%A7%A4%EC%B6%9C-%EC%84%B1%EC%9E%A5-%EC%A0%84%EB%A7%9D/</id>
-    <content type="text/html" src="/posts/sp-500-3%EB%85%84-%EB%A7%8C%EC%97%90-%EC%B5%9C%EA%B3%A0-%EB%A7%A4%EC%B6%9C-%EC%84%B1%EC%9E%A5-%EC%A0%84%EB%A7%9D/" />
+    <id>/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-10%EA%B0%80%EC%A7%80-%EC%82%AC%ED%95%AD/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-10%EA%B0%80%EC%A7%80-%EC%82%AC%ED%95%AD/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>S&amp;amp;P 500, 3년 만에 최고 매출 성장 전망 · 경제 뉴스 요약</summary>
+  <summary>주식 시장에서 주목해야 할 10가지 사항 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>실질적인 빈곤선은 14만 달러라는 주장</title>
-    <link href="/posts/%EC%8B%A4%EC%A7%88%EC%A0%81%EC%9D%B8-%EB%B9%88%EA%B3%A4%EC%84%A0%EC%9D%80-14%EB%A7%8C-%EB%8B%AC%EB%9F%AC%EB%9D%BC%EB%8A%94-%EC%A3%BC%EC%9E%A5/" rel="alternate" type="text/html" title="실질적인 빈곤선은 14만 달러라는 주장" />
-    <published>2025-11-24T22:31:52+09:00</published>
+    <title>Deutsche Bank, S&amp;P 500 목표 8,000 설정</title>
+    <link href="/posts/deutsche-bank-sp-500-%EB%AA%A9%ED%91%9C-8000-%EC%84%A4%EC%A0%95/" rel="alternate" type="text/html" title="Deutsche Bank, S&amp;amp;P 500 목표 8,000 설정" />
+    <published>2025-11-24T23:17:52+09:00</published>
   
-    <updated>2025-11-24T22:31:52+09:00</updated>
+    <updated>2025-11-24T23:17:52+09:00</updated>
   
-    <id>/posts/%EC%8B%A4%EC%A7%88%EC%A0%81%EC%9D%B8-%EB%B9%88%EA%B3%A4%EC%84%A0%EC%9D%80-14%EB%A7%8C-%EB%8B%AC%EB%9F%AC%EB%9D%BC%EB%8A%94-%EC%A3%BC%EC%9E%A5/</id>
-    <content type="text/html" src="/posts/%EC%8B%A4%EC%A7%88%EC%A0%81%EC%9D%B8-%EB%B9%88%EA%B3%A4%EC%84%A0%EC%9D%80-14%EB%A7%8C-%EB%8B%AC%EB%9F%AC%EB%9D%BC%EB%8A%94-%EC%A3%BC%EC%9E%A5/" />
+    <id>/posts/deutsche-bank-sp-500-%EB%AA%A9%ED%91%9C-8000-%EC%84%A4%EC%A0%95/</id>
+    <content type="text/html" src="/posts/deutsche-bank-sp-500-%EB%AA%A9%ED%91%9C-8000-%EC%84%A4%EC%A0%95/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>실질적인 빈곤선은 14만 달러라는 주장 · 경제 뉴스 요약</summary>
+  <summary>Deutsche Bank, S&amp;amp;P 500 목표 8,000 설정 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>알리바바, 베이징 단속 극복하고 AI 강자로 부상</title>
-    <link href="/posts/%EC%95%8C%EB%A6%AC%EB%B0%94%EB%B0%94-%EB%B2%A0%EC%9D%B4%EC%A7%95-%EB%8B%A8%EC%86%8D-%EA%B7%B9%EB%B3%B5%ED%95%98%EA%B3%A0-ai-%EA%B0%95%EC%9E%90%EB%A1%9C-%EB%B6%80%EC%83%81/" rel="alternate" type="text/html" title="알리바바, 베이징 단속 극복하고 AI 강자로 부상" />
-    <published>2025-11-24T22:31:40+09:00</published>
+    <title>Kohl's, 마이클 벤더를 CEO로 임명</title>
+    <link href="/posts/kohls-%EB%A7%88%EC%9D%B4%ED%81%B4-%EB%B2%A4%EB%8D%94%EB%A5%BC-ceo%EB%A1%9C-%EC%9E%84%EB%AA%85/" rel="alternate" type="text/html" title="Kohl&amp;apos;s, 마이클 벤더를 CEO로 임명" />
+    <published>2025-11-24T23:17:38+09:00</published>
   
-    <updated>2025-11-24T22:31:40+09:00</updated>
+    <updated>2025-11-24T23:17:38+09:00</updated>
   
-    <id>/posts/%EC%95%8C%EB%A6%AC%EB%B0%94%EB%B0%94-%EB%B2%A0%EC%9D%B4%EC%A7%95-%EB%8B%A8%EC%86%8D-%EA%B7%B9%EB%B3%B5%ED%95%98%EA%B3%A0-ai-%EA%B0%95%EC%9E%90%EB%A1%9C-%EB%B6%80%EC%83%81/</id>
-    <content type="text/html" src="/posts/%EC%95%8C%EB%A6%AC%EB%B0%94%EB%B0%94-%EB%B2%A0%EC%9D%B4%EC%A7%95-%EB%8B%A8%EC%86%8D-%EA%B7%B9%EB%B3%B5%ED%95%98%EA%B3%A0-ai-%EA%B0%95%EC%9E%90%EB%A1%9C-%EB%B6%80%EC%83%81/" />
+    <id>/posts/kohls-%EB%A7%88%EC%9D%B4%ED%81%B4-%EB%B2%A4%EB%8D%94%EB%A5%BC-ceo%EB%A1%9C-%EC%9E%84%EB%AA%85/</id>
+    <content type="text/html" src="/posts/kohls-%EB%A7%88%EC%9D%B4%ED%81%B4-%EB%B2%A4%EB%8D%94%EB%A5%BC-ceo%EB%A1%9C-%EC%9E%84%EB%AA%85/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>알리바바, 베이징 단속 극복하고 AI 강자로 부상 · 경제 뉴스 요약</summary>
+  <summary>Kohl&amp;#39;s, 마이클 벤더를 CEO로 임명 · 경제 뉴스 요약</summary>
 
   </entry>
 
