@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-25T06:17:59+09:00</updated>
+  <updated>2025-11-25T07:16:59+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>테슬라, 구식 경쟁자들 제치고 앞서 나갈 수 있을까?</title>
-    <link href="/posts/%ED%85%8C%EC%8A%AC%EB%9D%BC-%EA%B5%AC%EC%8B%9D-%EA%B2%BD%EC%9F%81%EC%9E%90%EB%93%A4-%EC%A0%9C%EC%B9%98%EA%B3%A0-%EC%95%9E%EC%84%9C-%EB%82%98%EA%B0%88-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/" rel="alternate" type="text/html" title="테슬라, 구식 경쟁자들 제치고 앞서 나갈 수 있을까?" />
-    <published>2025-11-25T06:17:18+09:00</published>
+    <title>AI 슈퍼 PAC, 1천만 달러 캠페인 시작</title>
+    <link href="/posts/ai-%EC%8A%88%ED%8D%BC-pac-1%EC%B2%9C%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EC%BA%A0%ED%8E%98%EC%9D%B8-%EC%8B%9C%EC%9E%91/" rel="alternate" type="text/html" title="AI 슈퍼 PAC, 1천만 달러 캠페인 시작" />
+    <published>2025-11-25T07:16:33+09:00</published>
   
-    <updated>2025-11-25T06:17:18+09:00</updated>
+    <updated>2025-11-25T07:16:33+09:00</updated>
   
-    <id>/posts/%ED%85%8C%EC%8A%AC%EB%9D%BC-%EA%B5%AC%EC%8B%9D-%EA%B2%BD%EC%9F%81%EC%9E%90%EB%93%A4-%EC%A0%9C%EC%B9%98%EA%B3%A0-%EC%95%9E%EC%84%9C-%EB%82%98%EA%B0%88-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</id>
-    <content type="text/html" src="/posts/%ED%85%8C%EC%8A%AC%EB%9D%BC-%EA%B5%AC%EC%8B%9D-%EA%B2%BD%EC%9F%81%EC%9E%90%EB%93%A4-%EC%A0%9C%EC%B9%98%EA%B3%A0-%EC%95%9E%EC%84%9C-%EB%82%98%EA%B0%88-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/" />
+    <id>/posts/ai-%EC%8A%88%ED%8D%BC-pac-1%EC%B2%9C%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EC%BA%A0%ED%8E%98%EC%9D%B8-%EC%8B%9C%EC%9E%91/</id>
+    <content type="text/html" src="/posts/ai-%EC%8A%88%ED%8D%BC-pac-1%EC%B2%9C%EB%A7%8C-%EB%8B%AC%EB%9F%AC-%EC%BA%A0%ED%8E%98%EC%9D%B8-%EC%8B%9C%EC%9E%91/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>테슬라, 구식 경쟁자들 제치고 앞서 나갈 수 있을까? · 경제 뉴스 요약</summary>
+  <summary>AI 슈퍼 PAC, 1천만 달러 캠페인 시작 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>브로드컴, 알파벳과 함께 AI 열풍에 동참</title>
-    <link href="/posts/%EB%B8%8C%EB%A1%9C%EB%93%9C%EC%BB%B4-%EC%95%8C%ED%8C%8C%EB%B2%B3%EA%B3%BC-%ED%95%A8%EA%BB%98-ai-%EC%97%B4%ED%92%8D%EC%97%90-%EB%8F%99%EC%B0%B8/" rel="alternate" type="text/html" title="브로드컴, 알파벳과 함께 AI 열풍에 동참" />
-    <published>2025-11-25T06:17:04+09:00</published>
+    <title>캐나다 주식, S&amp;P/TSX 컴포지트 1.47% 상승</title>
+    <link href="/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%BB%B4%ED%8F%AC%EC%A7%80%ED%8A%B8-147-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="캐나다 주식, S&amp;amp;P/TSX 컴포지트 1.47% 상승" />
+    <published>2025-11-25T07:16:28+09:00</published>
   
-    <updated>2025-11-25T06:17:04+09:00</updated>
+    <updated>2025-11-25T07:16:28+09:00</updated>
   
-    <id>/posts/%EB%B8%8C%EB%A1%9C%EB%93%9C%EC%BB%B4-%EC%95%8C%ED%8C%8C%EB%B2%B3%EA%B3%BC-%ED%95%A8%EA%BB%98-ai-%EC%97%B4%ED%92%8D%EC%97%90-%EB%8F%99%EC%B0%B8/</id>
-    <content type="text/html" src="/posts/%EB%B8%8C%EB%A1%9C%EB%93%9C%EC%BB%B4-%EC%95%8C%ED%8C%8C%EB%B2%B3%EA%B3%BC-%ED%95%A8%EA%BB%98-ai-%EC%97%B4%ED%92%8D%EC%97%90-%EB%8F%99%EC%B0%B8/" />
+    <id>/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%BB%B4%ED%8F%AC%EC%A7%80%ED%8A%B8-147-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%BB%B4%ED%8F%AC%EC%A7%80%ED%8A%B8-147-%EC%83%81%EC%8A%B9/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>브로드컴, 알파벳과 함께 AI 열풍에 동참 · 경제 뉴스 요약</summary>
+  <summary>캐나다 주식, S&amp;amp;P/TSX 컴포지트 1.47% 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>2026년 401(k)로 72,000달러 넣는 스마트 전략</title>
-    <link href="/posts/2026%EB%85%84-401k%EB%A1%9C-72000%EB%8B%AC%EB%9F%AC-%EB%84%A3%EB%8A%94-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%A0%84%EB%9E%B5/" rel="alternate" type="text/html" title="2026년 401(k)로 72,000달러 넣는 스마트 전략" />
-    <published>2025-11-25T06:16:49+09:00</published>
+    <title>멕시코 주식, S&amp;P/BMV IPC 1.00% 상승 마감</title>
+    <link href="/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-spbmv-ipc-100-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="멕시코 주식, S&amp;amp;P/BMV IPC 1.00% 상승 마감" />
+    <published>2025-11-25T07:16:23+09:00</published>
   
-    <updated>2025-11-25T06:16:49+09:00</updated>
+    <updated>2025-11-25T07:16:23+09:00</updated>
   
-    <id>/posts/2026%EB%85%84-401k%EB%A1%9C-72000%EB%8B%AC%EB%9F%AC-%EB%84%A3%EB%8A%94-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%A0%84%EB%9E%B5/</id>
-    <content type="text/html" src="/posts/2026%EB%85%84-401k%EB%A1%9C-72000%EB%8B%AC%EB%9F%AC-%EB%84%A3%EB%8A%94-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%A0%84%EB%9E%B5/" />
+    <id>/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-spbmv-ipc-100-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/</id>
+    <content type="text/html" src="/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-spbmv-ipc-100-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>2026년 401(k)로 72,000달러 넣는 스마트 전략 · 경제 뉴스 요약</summary>
+  <summary>멕시코 주식, S&amp;amp;P/BMV IPC 1.00% 상승 마감 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>OpenAI, 상표 소송으로 'Cameo' 사용 중단</title>
-    <link href="/posts/openai-%EC%83%81%ED%91%9C-%EC%86%8C%EC%86%A1%EC%9C%BC%EB%A1%9C-cameo-%EC%82%AC%EC%9A%A9-%EC%A4%91%EB%8B%A8/" rel="alternate" type="text/html" title="OpenAI, 상표 소송으로 &amp;apos;Cameo&amp;apos; 사용 중단" />
-    <published>2025-11-25T06:16:36+09:00</published>
+    <title>Allbirds, H&amp;M, Zara, 재활용 원사 사용</title>
+    <link href="/posts/allbirds-hm-zara-%EC%9E%AC%ED%99%9C%EC%9A%A9-%EC%9B%90%EC%82%AC-%EC%82%AC%EC%9A%A9/" rel="alternate" type="text/html" title="Allbirds, H&amp;amp;M, Zara, 재활용 원사 사용" />
+    <published>2025-11-25T07:16:18+09:00</published>
   
-    <updated>2025-11-25T06:16:36+09:00</updated>
+    <updated>2025-11-25T07:16:18+09:00</updated>
   
-    <id>/posts/openai-%EC%83%81%ED%91%9C-%EC%86%8C%EC%86%A1%EC%9C%BC%EB%A1%9C-cameo-%EC%82%AC%EC%9A%A9-%EC%A4%91%EB%8B%A8/</id>
-    <content type="text/html" src="/posts/openai-%EC%83%81%ED%91%9C-%EC%86%8C%EC%86%A1%EC%9C%BC%EB%A1%9C-cameo-%EC%82%AC%EC%9A%A9-%EC%A4%91%EB%8B%A8/" />
+    <id>/posts/allbirds-hm-zara-%EC%9E%AC%ED%99%9C%EC%9A%A9-%EC%9B%90%EC%82%AC-%EC%82%AC%EC%9A%A9/</id>
+    <content type="text/html" src="/posts/allbirds-hm-zara-%EC%9E%AC%ED%99%9C%EC%9A%A9-%EC%9B%90%EC%82%AC-%EC%82%AC%EC%9A%A9/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>OpenAI, 상표 소송으로 &amp;#39;Cameo&amp;#39; 사용 중단 · 경제 뉴스 요약</summary>
+  <summary>Allbirds, H&amp;amp;M, Zara, 재활용 원사 사용 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>OpenAI, 2년 내 하드웨어 프로토타입 공개 예정</title>
-    <link href="/posts/openai-2%EB%85%84-%EB%82%B4-%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%EA%B3%B5%EA%B0%9C-%EC%98%88%EC%A0%95/" rel="alternate" type="text/html" title="OpenAI, 2년 내 하드웨어 프로토타입 공개 예정" />
-    <published>2025-11-25T06:16:22+09:00</published>
+    <title>GLP-1 약물이 혈관성 치매 치료에 희망을 주다</title>
+    <link href="/posts/glp-1-%EC%95%BD%EB%AC%BC%EC%9D%B4-%ED%98%88%EA%B4%80%EC%84%B1-%EC%B9%98%EB%A7%A4-%EC%B9%98%EB%A3%8C%EC%97%90-%ED%9D%AC%EB%A7%9D%EC%9D%84-%EC%A3%BC%EB%8B%A4/" rel="alternate" type="text/html" title="GLP-1 약물이 혈관성 치매 치료에 희망을 주다" />
+    <published>2025-11-25T07:16:02+09:00</published>
   
-    <updated>2025-11-25T06:16:22+09:00</updated>
+    <updated>2025-11-25T07:16:02+09:00</updated>
   
-    <id>/posts/openai-2%EB%85%84-%EB%82%B4-%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%EA%B3%B5%EA%B0%9C-%EC%98%88%EC%A0%95/</id>
-    <content type="text/html" src="/posts/openai-2%EB%85%84-%EB%82%B4-%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%EA%B3%B5%EA%B0%9C-%EC%98%88%EC%A0%95/" />
+    <id>/posts/glp-1-%EC%95%BD%EB%AC%BC%EC%9D%B4-%ED%98%88%EA%B4%80%EC%84%B1-%EC%B9%98%EB%A7%A4-%EC%B9%98%EB%A3%8C%EC%97%90-%ED%9D%AC%EB%A7%9D%EC%9D%84-%EC%A3%BC%EB%8B%A4/</id>
+    <content type="text/html" src="/posts/glp-1-%EC%95%BD%EB%AC%BC%EC%9D%B4-%ED%98%88%EA%B4%80%EC%84%B1-%EC%B9%98%EB%A7%A4-%EC%B9%98%EB%A3%8C%EC%97%90-%ED%9D%AC%EB%A7%9D%EC%9D%84-%EC%A3%BC%EB%8B%A4/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>OpenAI, 2년 내 하드웨어 프로토타입 공개 예정 · 경제 뉴스 요약</summary>
+  <summary>GLP-1 약물이 혈관성 치매 치료에 희망을 주다 · 경제 뉴스 요약</summary>
 
   </entry>
 
