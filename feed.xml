@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-25T22:34:41+09:00</updated>
+  <updated>2025-11-25T23:19:51+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>젊은 투자자들이 불러온 약세장</title>
-    <link href="/posts/%EC%A0%8A%EC%9D%80-%ED%88%AC%EC%9E%90%EC%9E%90%EB%93%A4%EC%9D%B4-%EB%B6%88%EB%9F%AC%EC%98%A8-%EC%95%BD%EC%84%B8%EC%9E%A5/" rel="alternate" type="text/html" title="젊은 투자자들이 불러온 약세장" />
-    <published>2025-11-25T22:33:49+09:00</published>
+    <title>주식 시장에서 주목해야 할 10가지 사항</title>
+    <link href="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-10%EA%B0%80%EC%A7%80-%EC%82%AC%ED%95%AD/" rel="alternate" type="text/html" title="주식 시장에서 주목해야 할 10가지 사항" />
+    <published>2025-11-25T23:19:06+09:00</published>
   
-    <updated>2025-11-25T22:33:49+09:00</updated>
+    <updated>2025-11-25T23:19:06+09:00</updated>
   
-    <id>/posts/%EC%A0%8A%EC%9D%80-%ED%88%AC%EC%9E%90%EC%9E%90%EB%93%A4%EC%9D%B4-%EB%B6%88%EB%9F%AC%EC%98%A8-%EC%95%BD%EC%84%B8%EC%9E%A5/</id>
-    <content type="text/html" src="/posts/%EC%A0%8A%EC%9D%80-%ED%88%AC%EC%9E%90%EC%9E%90%EB%93%A4%EC%9D%B4-%EB%B6%88%EB%9F%AC%EC%98%A8-%EC%95%BD%EC%84%B8%EC%9E%A5/" />
+    <id>/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-10%EA%B0%80%EC%A7%80-%EC%82%AC%ED%95%AD/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-10%EA%B0%80%EC%A7%80-%EC%82%AC%ED%95%AD/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>젊은 투자자들이 불러온 약세장 · 경제 뉴스 요약</summary>
+  <summary>주식 시장에서 주목해야 할 10가지 사항 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>ADP, 최근 4주간 민간 고용 감소 가속화</title>
-    <link href="/posts/adp-%EC%B5%9C%EA%B7%BC-4%EC%A3%BC%EA%B0%84-%EB%AF%BC%EA%B0%84-%EA%B3%A0%EC%9A%A9-%EA%B0%90%EC%86%8C-%EA%B0%80%EC%86%8D%ED%99%94/" rel="alternate" type="text/html" title="ADP, 최근 4주간 민간 고용 감소 가속화" />
-    <published>2025-11-25T22:33:33+09:00</published>
+    <title>소매 판매 감소, 연휴 시즌에 회복할까?</title>
+    <link href="/posts/%EC%86%8C%EB%A7%A4-%ED%8C%90%EB%A7%A4-%EA%B0%90%EC%86%8C-%EC%97%B0%ED%9C%B4-%EC%8B%9C%EC%A6%8C%EC%97%90-%ED%9A%8C%EB%B3%B5%ED%95%A0%EA%B9%8C/" rel="alternate" type="text/html" title="소매 판매 감소, 연휴 시즌에 회복할까?" />
+    <published>2025-11-25T23:18:47+09:00</published>
   
-    <updated>2025-11-25T22:33:33+09:00</updated>
+    <updated>2025-11-25T23:18:47+09:00</updated>
   
-    <id>/posts/adp-%EC%B5%9C%EA%B7%BC-4%EC%A3%BC%EA%B0%84-%EB%AF%BC%EA%B0%84-%EA%B3%A0%EC%9A%A9-%EA%B0%90%EC%86%8C-%EA%B0%80%EC%86%8D%ED%99%94/</id>
-    <content type="text/html" src="/posts/adp-%EC%B5%9C%EA%B7%BC-4%EC%A3%BC%EA%B0%84-%EB%AF%BC%EA%B0%84-%EA%B3%A0%EC%9A%A9-%EA%B0%90%EC%86%8C-%EA%B0%80%EC%86%8D%ED%99%94/" />
+    <id>/posts/%EC%86%8C%EB%A7%A4-%ED%8C%90%EB%A7%A4-%EA%B0%90%EC%86%8C-%EC%97%B0%ED%9C%B4-%EC%8B%9C%EC%A6%8C%EC%97%90-%ED%9A%8C%EB%B3%B5%ED%95%A0%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/%EC%86%8C%EB%A7%A4-%ED%8C%90%EB%A7%A4-%EA%B0%90%EC%86%8C-%EC%97%B0%ED%9C%B4-%EC%8B%9C%EC%A6%8C%EC%97%90-%ED%9A%8C%EB%B3%B5%ED%95%A0%EA%B9%8C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>ADP, 최근 4주간 민간 고용 감소 가속화 · 경제 뉴스 요약</summary>
+  <summary>소매 판매 감소, 연휴 시즌에 회복할까? · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>소매 판매, PPI, ADP 고용 데이터가 연준 전망에 영향</title>
-    <link href="/posts/%EC%86%8C%EB%A7%A4-%ED%8C%90%EB%A7%A4-ppi-adp-%EA%B3%A0%EC%9A%A9-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EC%97%B0%EC%A4%80-%EC%A0%84%EB%A7%9D%EC%97%90-%EC%98%81%ED%96%A5/" rel="alternate" type="text/html" title="소매 판매, PPI, ADP 고용 데이터가 연준 전망에 영향" />
-    <published>2025-11-25T22:33:14+09:00</published>
+    <title>AI 버블에 대한 마이클 버리의 분석</title>
+    <link href="/posts/ai-%EB%B2%84%EB%B8%94%EC%97%90-%EB%8C%80%ED%95%9C-%EB%A7%88%EC%9D%B4%ED%81%B4-%EB%B2%84%EB%A6%AC%EC%9D%98-%EB%B6%84%EC%84%9D/" rel="alternate" type="text/html" title="AI 버블에 대한 마이클 버리의 분석" />
+    <published>2025-11-25T23:18:26+09:00</published>
   
-    <updated>2025-11-25T22:33:14+09:00</updated>
+    <updated>2025-11-25T23:18:26+09:00</updated>
   
-    <id>/posts/%EC%86%8C%EB%A7%A4-%ED%8C%90%EB%A7%A4-ppi-adp-%EA%B3%A0%EC%9A%A9-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EC%97%B0%EC%A4%80-%EC%A0%84%EB%A7%9D%EC%97%90-%EC%98%81%ED%96%A5/</id>
-    <content type="text/html" src="/posts/%EC%86%8C%EB%A7%A4-%ED%8C%90%EB%A7%A4-ppi-adp-%EA%B3%A0%EC%9A%A9-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EC%97%B0%EC%A4%80-%EC%A0%84%EB%A7%9D%EC%97%90-%EC%98%81%ED%96%A5/" />
+    <id>/posts/ai-%EB%B2%84%EB%B8%94%EC%97%90-%EB%8C%80%ED%95%9C-%EB%A7%88%EC%9D%B4%ED%81%B4-%EB%B2%84%EB%A6%AC%EC%9D%98-%EB%B6%84%EC%84%9D/</id>
+    <content type="text/html" src="/posts/ai-%EB%B2%84%EB%B8%94%EC%97%90-%EB%8C%80%ED%95%9C-%EB%A7%88%EC%9D%B4%ED%81%B4-%EB%B2%84%EB%A6%AC%EC%9D%98-%EB%B6%84%EC%84%9D/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>소매 판매, PPI, ADP 고용 데이터가 연준 전망에 영향 · 경제 뉴스 요약</summary>
+  <summary>AI 버블에 대한 마이클 버리의 분석 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>퇴직 성공을 위한 두 가지 재정 결정</title>
-    <link href="/posts/%ED%87%B4%EC%A7%81-%EC%84%B1%EA%B3%B5%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%91%90-%EA%B0%80%EC%A7%80-%EC%9E%AC%EC%A0%95-%EA%B2%B0%EC%A0%95/" rel="alternate" type="text/html" title="퇴직 성공을 위한 두 가지 재정 결정" />
-    <published>2025-11-25T22:32:51+09:00</published>
+    <title>Abercrombie 주가 18% 상승, Hollister 성장</title>
+    <link href="/posts/abercrombie-%EC%A3%BC%EA%B0%80-18-%EC%83%81%EC%8A%B9-hollister-%EC%84%B1%EC%9E%A5/" rel="alternate" type="text/html" title="Abercrombie 주가 18% 상승, Hollister 성장" />
+    <published>2025-11-25T23:18:02+09:00</published>
   
-    <updated>2025-11-25T22:32:51+09:00</updated>
+    <updated>2025-11-25T23:18:02+09:00</updated>
   
-    <id>/posts/%ED%87%B4%EC%A7%81-%EC%84%B1%EA%B3%B5%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%91%90-%EA%B0%80%EC%A7%80-%EC%9E%AC%EC%A0%95-%EA%B2%B0%EC%A0%95/</id>
-    <content type="text/html" src="/posts/%ED%87%B4%EC%A7%81-%EC%84%B1%EA%B3%B5%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%91%90-%EA%B0%80%EC%A7%80-%EC%9E%AC%EC%A0%95-%EA%B2%B0%EC%A0%95/" />
+    <id>/posts/abercrombie-%EC%A3%BC%EA%B0%80-18-%EC%83%81%EC%8A%B9-hollister-%EC%84%B1%EC%9E%A5/</id>
+    <content type="text/html" src="/posts/abercrombie-%EC%A3%BC%EA%B0%80-18-%EC%83%81%EC%8A%B9-hollister-%EC%84%B1%EC%9E%A5/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>퇴직 성공을 위한 두 가지 재정 결정 · 경제 뉴스 요약</summary>
+  <summary>Abercrombie 주가 18% 상승, Hollister 성장 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>트럼프, 크리스마스 전에 새 연준 의장 지명 가능성</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4-%EC%A0%84%EC%97%90-%EC%83%88-%EC%97%B0%EC%A4%80-%EC%9D%98%EC%9E%A5-%EC%A7%80%EB%AA%85-%EA%B0%80%EB%8A%A5%EC%84%B1/" rel="alternate" type="text/html" title="트럼프, 크리스마스 전에 새 연준 의장 지명 가능성" />
-    <published>2025-11-25T22:32:34+09:00</published>
+    <title>도매 물가 상승률, 예상보다 낮은 9월 수치</title>
+    <link href="/posts/%EB%8F%84%EB%A7%A4-%EB%AC%BC%EA%B0%80-%EC%83%81%EC%8A%B9%EB%A5%A0-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-%EB%82%AE%EC%9D%80-9%EC%9B%94-%EC%88%98%EC%B9%98/" rel="alternate" type="text/html" title="도매 물가 상승률, 예상보다 낮은 9월 수치" />
+    <published>2025-11-25T23:17:43+09:00</published>
   
-    <updated>2025-11-25T22:32:34+09:00</updated>
+    <updated>2025-11-25T23:17:43+09:00</updated>
   
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4-%EC%A0%84%EC%97%90-%EC%83%88-%EC%97%B0%EC%A4%80-%EC%9D%98%EC%9E%A5-%EC%A7%80%EB%AA%85-%EA%B0%80%EB%8A%A5%EC%84%B1/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4-%EC%A0%84%EC%97%90-%EC%83%88-%EC%97%B0%EC%A4%80-%EC%9D%98%EC%9E%A5-%EC%A7%80%EB%AA%85-%EA%B0%80%EB%8A%A5%EC%84%B1/" />
+    <id>/posts/%EB%8F%84%EB%A7%A4-%EB%AC%BC%EA%B0%80-%EC%83%81%EC%8A%B9%EB%A5%A0-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-%EB%82%AE%EC%9D%80-9%EC%9B%94-%EC%88%98%EC%B9%98/</id>
+    <content type="text/html" src="/posts/%EB%8F%84%EB%A7%A4-%EB%AC%BC%EA%B0%80-%EC%83%81%EC%8A%B9%EB%A5%A0-%EC%98%88%EC%83%81%EB%B3%B4%EB%8B%A4-%EB%82%AE%EC%9D%80-9%EC%9B%94-%EC%88%98%EC%B9%98/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>트럼프, 크리스마스 전에 새 연준 의장 지명 가능성 · 경제 뉴스 요약</summary>
+  <summary>도매 물가 상승률, 예상보다 낮은 9월 수치 · 경제 뉴스 요약</summary>
 
   </entry>
 
