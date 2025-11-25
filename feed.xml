@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-26T00:20:25+09:00</updated>
+  <updated>2025-11-26T01:24:39+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>우크라이나, 미국 중재 평화 제안 수용 보도</title>
-    <link href="/posts/%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98-%EB%AF%B8%EA%B5%AD-%EC%A4%91%EC%9E%AC-%ED%8F%89%ED%99%94-%EC%A0%9C%EC%95%88-%EC%88%98%EC%9A%A9-%EB%B3%B4%EB%8F%84/" rel="alternate" type="text/html" title="우크라이나, 미국 중재 평화 제안 수용 보도" />
-    <published>2025-11-26T00:19:52+09:00</published>
+    <title>주식 시장 평가 모델, 불리한 신호</title>
+    <link href="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%ED%8F%89%EA%B0%80-%EB%AA%A8%EB%8D%B8-%EB%B6%88%EB%A6%AC%ED%95%9C-%EC%8B%A0%ED%98%B8/" rel="alternate" type="text/html" title="주식 시장 평가 모델, 불리한 신호" />
+    <published>2025-11-26T01:23:57+09:00</published>
   
-    <updated>2025-11-26T00:19:52+09:00</updated>
+    <updated>2025-11-26T01:23:57+09:00</updated>
   
-    <id>/posts/%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98-%EB%AF%B8%EA%B5%AD-%EC%A4%91%EC%9E%AC-%ED%8F%89%ED%99%94-%EC%A0%9C%EC%95%88-%EC%88%98%EC%9A%A9-%EB%B3%B4%EB%8F%84/</id>
-    <content type="text/html" src="/posts/%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98-%EB%AF%B8%EA%B5%AD-%EC%A4%91%EC%9E%AC-%ED%8F%89%ED%99%94-%EC%A0%9C%EC%95%88-%EC%88%98%EC%9A%A9-%EB%B3%B4%EB%8F%84/" />
+    <id>/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%ED%8F%89%EA%B0%80-%EB%AA%A8%EB%8D%B8-%EB%B6%88%EB%A6%AC%ED%95%9C-%EC%8B%A0%ED%98%B8/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%EC%8B%9D-%EC%8B%9C%EC%9E%A5-%ED%8F%89%EA%B0%80-%EB%AA%A8%EB%8D%B8-%EB%B6%88%EB%A6%AC%ED%95%9C-%EC%8B%A0%ED%98%B8/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>우크라이나, 미국 중재 평화 제안 수용 보도 · 경제 뉴스 요약</summary>
+  <summary>주식 시장 평가 모델, 불리한 신호 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>도매 물가 상승률, 정부 셧다운 전 안정적</title>
-    <link href="/posts/%EB%8F%84%EB%A7%A4-%EB%AC%BC%EA%B0%80-%EC%83%81%EC%8A%B9%EB%A5%A0-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A0%84-%EC%95%88%EC%A0%95%EC%A0%81/" rel="alternate" type="text/html" title="도매 물가 상승률, 정부 셧다운 전 안정적" />
-    <published>2025-11-26T00:19:44+09:00</published>
+    <title>Nvidia, AI 버블 주장에 반박하는 비공식 메모 배포</title>
+    <link href="/posts/nvidia-ai-%EB%B2%84%EB%B8%94-%EC%A3%BC%EC%9E%A5%EC%97%90-%EB%B0%98%EB%B0%95%ED%95%98%EB%8A%94-%EB%B9%84%EA%B3%B5%EC%8B%9D-%EB%A9%94%EB%AA%A8-%EB%B0%B0%ED%8F%AC/" rel="alternate" type="text/html" title="Nvidia, AI 버블 주장에 반박하는 비공식 메모 배포" />
+    <published>2025-11-26T01:23:39+09:00</published>
   
-    <updated>2025-11-26T00:19:44+09:00</updated>
+    <updated>2025-11-26T01:23:39+09:00</updated>
   
-    <id>/posts/%EB%8F%84%EB%A7%A4-%EB%AC%BC%EA%B0%80-%EC%83%81%EC%8A%B9%EB%A5%A0-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A0%84-%EC%95%88%EC%A0%95%EC%A0%81/</id>
-    <content type="text/html" src="/posts/%EB%8F%84%EB%A7%A4-%EB%AC%BC%EA%B0%80-%EC%83%81%EC%8A%B9%EB%A5%A0-%EC%A0%95%EB%B6%80-%EC%85%A7%EB%8B%A4%EC%9A%B4-%EC%A0%84-%EC%95%88%EC%A0%95%EC%A0%81/" />
+    <id>/posts/nvidia-ai-%EB%B2%84%EB%B8%94-%EC%A3%BC%EC%9E%A5%EC%97%90-%EB%B0%98%EB%B0%95%ED%95%98%EB%8A%94-%EB%B9%84%EA%B3%B5%EC%8B%9D-%EB%A9%94%EB%AA%A8-%EB%B0%B0%ED%8F%AC/</id>
+    <content type="text/html" src="/posts/nvidia-ai-%EB%B2%84%EB%B8%94-%EC%A3%BC%EC%9E%A5%EC%97%90-%EB%B0%98%EB%B0%95%ED%95%98%EB%8A%94-%EB%B9%84%EA%B3%B5%EC%8B%9D-%EB%A9%94%EB%AA%A8-%EB%B0%B0%ED%8F%AC/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>도매 물가 상승률, 정부 셧다운 전 안정적 · 경제 뉴스 요약</summary>
+  <summary>Nvidia, AI 버블 주장에 반박하는 비공식 메모 배포 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>블랙 프라이데이 주식시장 개장 여부</title>
-    <link href="/posts/%EB%B8%94%EB%9E%99-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%8D%B0%EC%9D%B4-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EA%B0%9C%EC%9E%A5-%EC%97%AC%EB%B6%80/" rel="alternate" type="text/html" title="블랙 프라이데이 주식시장 개장 여부" />
-    <published>2025-11-26T00:19:36+09:00</published>
+    <title>주택 판매자, 시장에서 빠르게 물러나고 있다</title>
+    <link href="/posts/%EC%A3%BC%ED%83%9D-%ED%8C%90%EB%A7%A4%EC%9E%90-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EB%AC%BC%EB%9F%AC%EB%82%98%EA%B3%A0-%EC%9E%88%EB%8B%A4/" rel="alternate" type="text/html" title="주택 판매자, 시장에서 빠르게 물러나고 있다" />
+    <published>2025-11-26T01:23:22+09:00</published>
   
-    <updated>2025-11-26T00:19:36+09:00</updated>
+    <updated>2025-11-26T01:23:22+09:00</updated>
   
-    <id>/posts/%EB%B8%94%EB%9E%99-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%8D%B0%EC%9D%B4-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EA%B0%9C%EC%9E%A5-%EC%97%AC%EB%B6%80/</id>
-    <content type="text/html" src="/posts/%EB%B8%94%EB%9E%99-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%8D%B0%EC%9D%B4-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5-%EA%B0%9C%EC%9E%A5-%EC%97%AC%EB%B6%80/" />
+    <id>/posts/%EC%A3%BC%ED%83%9D-%ED%8C%90%EB%A7%A4%EC%9E%90-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EB%AC%BC%EB%9F%AC%EB%82%98%EA%B3%A0-%EC%9E%88%EB%8B%A4/</id>
+    <content type="text/html" src="/posts/%EC%A3%BC%ED%83%9D-%ED%8C%90%EB%A7%A4%EC%9E%90-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EB%AC%BC%EB%9F%AC%EB%82%98%EA%B3%A0-%EC%9E%88%EB%8B%A4/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>블랙 프라이데이 주식시장 개장 여부 · 경제 뉴스 요약</summary>
+  <summary>주택 판매자, 시장에서 빠르게 물러나고 있다 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>소비자 신뢰도, 4월 이후 최저치 기록</title>
-    <link href="/posts/%EC%86%8C%EB%B9%84%EC%9E%90-%EC%8B%A0%EB%A2%B0%EB%8F%84-4%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B5%9C%EC%A0%80%EC%B9%98-%EA%B8%B0%EB%A1%9D/" rel="alternate" type="text/html" title="소비자 신뢰도, 4월 이후 최저치 기록" />
-    <published>2025-11-26T00:19:26+09:00</published>
+    <title>어려운 경제 속 성장 가능한 기업 주식 매수</title>
+    <link href="/posts/%EC%96%B4%EB%A0%A4%EC%9A%B4-%EA%B2%BD%EC%A0%9C-%EC%86%8D-%EC%84%B1%EC%9E%A5-%EA%B0%80%EB%8A%A5%ED%95%9C-%EA%B8%B0%EC%97%85-%EC%A3%BC%EC%8B%9D-%EB%A7%A4%EC%88%98/" rel="alternate" type="text/html" title="어려운 경제 속 성장 가능한 기업 주식 매수" />
+    <published>2025-11-26T01:23:04+09:00</published>
   
-    <updated>2025-11-26T00:19:26+09:00</updated>
+    <updated>2025-11-26T01:23:04+09:00</updated>
   
-    <id>/posts/%EC%86%8C%EB%B9%84%EC%9E%90-%EC%8B%A0%EB%A2%B0%EB%8F%84-4%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B5%9C%EC%A0%80%EC%B9%98-%EA%B8%B0%EB%A1%9D/</id>
-    <content type="text/html" src="/posts/%EC%86%8C%EB%B9%84%EC%9E%90-%EC%8B%A0%EB%A2%B0%EB%8F%84-4%EC%9B%94-%EC%9D%B4%ED%9B%84-%EC%B5%9C%EC%A0%80%EC%B9%98-%EA%B8%B0%EB%A1%9D/" />
+    <id>/posts/%EC%96%B4%EB%A0%A4%EC%9A%B4-%EA%B2%BD%EC%A0%9C-%EC%86%8D-%EC%84%B1%EC%9E%A5-%EA%B0%80%EB%8A%A5%ED%95%9C-%EA%B8%B0%EC%97%85-%EC%A3%BC%EC%8B%9D-%EB%A7%A4%EC%88%98/</id>
+    <content type="text/html" src="/posts/%EC%96%B4%EB%A0%A4%EC%9A%B4-%EA%B2%BD%EC%A0%9C-%EC%86%8D-%EC%84%B1%EC%9E%A5-%EA%B0%80%EB%8A%A5%ED%95%9C-%EA%B8%B0%EC%97%85-%EC%A3%BC%EC%8B%9D-%EB%A7%A4%EC%88%98/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>소비자 신뢰도, 4월 이후 최저치 기록 · 경제 뉴스 요약</summary>
+  <summary>어려운 경제 속 성장 가능한 기업 주식 매수 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>알파벳 주식, 애플을 위협할 큰 이정표에 근접</title>
-    <link href="/posts/%EC%95%8C%ED%8C%8C%EB%B2%B3-%EC%A3%BC%EC%8B%9D-%EC%95%A0%ED%94%8C%EC%9D%84-%EC%9C%84%ED%98%91%ED%95%A0-%ED%81%B0-%EC%9D%B4%EC%A0%95%ED%91%9C%EC%97%90-%EA%B7%BC%EC%A0%91/" rel="alternate" type="text/html" title="알파벳 주식, 애플을 위협할 큰 이정표에 근접" />
-    <published>2025-11-26T00:19:15+09:00</published>
+    <title>Kohl’s 주식, 좋은 소식으로 급등</title>
+    <link href="/posts/kohls-%EC%A3%BC%EC%8B%9D-%EC%A2%8B%EC%9D%80-%EC%86%8C%EC%8B%9D%EC%9C%BC%EB%A1%9C-%EA%B8%89%EB%93%B1/" rel="alternate" type="text/html" title="Kohl’s 주식, 좋은 소식으로 급등" />
+    <published>2025-11-26T01:22:45+09:00</published>
   
-    <updated>2025-11-26T00:19:15+09:00</updated>
+    <updated>2025-11-26T01:22:45+09:00</updated>
   
-    <id>/posts/%EC%95%8C%ED%8C%8C%EB%B2%B3-%EC%A3%BC%EC%8B%9D-%EC%95%A0%ED%94%8C%EC%9D%84-%EC%9C%84%ED%98%91%ED%95%A0-%ED%81%B0-%EC%9D%B4%EC%A0%95%ED%91%9C%EC%97%90-%EA%B7%BC%EC%A0%91/</id>
-    <content type="text/html" src="/posts/%EC%95%8C%ED%8C%8C%EB%B2%B3-%EC%A3%BC%EC%8B%9D-%EC%95%A0%ED%94%8C%EC%9D%84-%EC%9C%84%ED%98%91%ED%95%A0-%ED%81%B0-%EC%9D%B4%EC%A0%95%ED%91%9C%EC%97%90-%EA%B7%BC%EC%A0%91/" />
+    <id>/posts/kohls-%EC%A3%BC%EC%8B%9D-%EC%A2%8B%EC%9D%80-%EC%86%8C%EC%8B%9D%EC%9C%BC%EB%A1%9C-%EA%B8%89%EB%93%B1/</id>
+    <content type="text/html" src="/posts/kohls-%EC%A3%BC%EC%8B%9D-%EC%A2%8B%EC%9D%80-%EC%86%8C%EC%8B%9D%EC%9C%BC%EB%A1%9C-%EA%B8%89%EB%93%B1/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>알파벳 주식, 애플을 위협할 큰 이정표에 근접 · 경제 뉴스 요약</summary>
+  <summary>Kohl’s 주식, 좋은 소식으로 급등 · 경제 뉴스 요약</summary>
 
   </entry>
 
