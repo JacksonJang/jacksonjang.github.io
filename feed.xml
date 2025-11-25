@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-26T04:16:23+09:00</updated>
+  <updated>2025-11-26T05:20:33+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>Nvidia, 구글 AI 칩보다 한 세대 앞서</title>
-    <link href="/posts/nvidia-%EA%B5%AC%EA%B8%80-ai-%EC%B9%A9%EB%B3%B4%EB%8B%A4-%ED%95%9C-%EC%84%B8%EB%8C%80-%EC%95%9E%EC%84%9C/" rel="alternate" type="text/html" title="Nvidia, 구글 AI 칩보다 한 세대 앞서" />
-    <published>2025-11-26T04:15:47+09:00</published>
+    <title>빌 게이츠가 추천하는 5권의 책</title>
+    <link href="/posts/%EB%B9%8C-%EA%B2%8C%EC%9D%B4%EC%B8%A0%EA%B0%80-%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94-5%EA%B6%8C%EC%9D%98-%EC%B1%85/" rel="alternate" type="text/html" title="빌 게이츠가 추천하는 5권의 책" />
+    <published>2025-11-26T05:20:00+09:00</published>
   
-    <updated>2025-11-26T04:15:47+09:00</updated>
+    <updated>2025-11-26T05:20:00+09:00</updated>
   
-    <id>/posts/nvidia-%EA%B5%AC%EA%B8%80-ai-%EC%B9%A9%EB%B3%B4%EB%8B%A4-%ED%95%9C-%EC%84%B8%EB%8C%80-%EC%95%9E%EC%84%9C/</id>
-    <content type="text/html" src="/posts/nvidia-%EA%B5%AC%EA%B8%80-ai-%EC%B9%A9%EB%B3%B4%EB%8B%A4-%ED%95%9C-%EC%84%B8%EB%8C%80-%EC%95%9E%EC%84%9C/" />
+    <id>/posts/%EB%B9%8C-%EA%B2%8C%EC%9D%B4%EC%B8%A0%EA%B0%80-%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94-5%EA%B6%8C%EC%9D%98-%EC%B1%85/</id>
+    <content type="text/html" src="/posts/%EB%B9%8C-%EA%B2%8C%EC%9D%B4%EC%B8%A0%EA%B0%80-%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94-5%EA%B6%8C%EC%9D%98-%EC%B1%85/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>Nvidia, 구글 AI 칩보다 한 세대 앞서 · 경제 뉴스 요약</summary>
+  <summary>빌 게이츠가 추천하는 5권의 책 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>트럼프, 추수감사절 칠면조 사면 및 우크라이나 언급</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%B9%A0%EB%A9%B4%EC%A1%B0-%EC%82%AC%EB%A9%B4-%EB%B0%8F-%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98-%EC%96%B8%EA%B8%89/" rel="alternate" type="text/html" title="트럼프, 추수감사절 칠면조 사면 및 우크라이나 언급" />
-    <published>2025-11-26T04:15:35+09:00</published>
+    <title>IRS, 트럼프의 팁 및 초과 근무 공제 가이드 발표</title>
+    <link href="/posts/irs-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%ED%8C%81-%EB%B0%8F-%EC%B4%88%EA%B3%BC-%EA%B7%BC%EB%AC%B4-%EA%B3%B5%EC%A0%9C-%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="IRS, 트럼프의 팁 및 초과 근무 공제 가이드 발표" />
+    <published>2025-11-26T05:19:47+09:00</published>
   
-    <updated>2025-11-26T04:15:35+09:00</updated>
+    <updated>2025-11-26T05:19:47+09:00</updated>
   
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%B9%A0%EB%A9%B4%EC%A1%B0-%EC%82%AC%EB%A9%B4-%EB%B0%8F-%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98-%EC%96%B8%EA%B8%89/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%B9%A0%EB%A9%B4%EC%A1%B0-%EC%82%AC%EB%A9%B4-%EB%B0%8F-%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98-%EC%96%B8%EA%B8%89/" />
+    <id>/posts/irs-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%ED%8C%81-%EB%B0%8F-%EC%B4%88%EA%B3%BC-%EA%B7%BC%EB%AC%B4-%EA%B3%B5%EC%A0%9C-%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%B0%9C%ED%91%9C/</id>
+    <content type="text/html" src="/posts/irs-%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%ED%8C%81-%EB%B0%8F-%EC%B4%88%EA%B3%BC-%EA%B7%BC%EB%AC%B4-%EA%B3%B5%EC%A0%9C-%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%B0%9C%ED%91%9C/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>트럼프, 추수감사절 칠면조 사면 및 우크라이나 언급 · 경제 뉴스 요약</summary>
+  <summary>IRS, 트럼프의 팁 및 초과 근무 공제 가이드 발표 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>S&amp;P, 언더아머 신용등급 하향 검토 발표</title>
-    <link href="/posts/sp-%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EC%8B%A0%EC%9A%A9%EB%93%B1%EA%B8%89-%ED%95%98%ED%96%A5-%EA%B2%80%ED%86%A0-%EB%B0%9C%ED%91%9C-2/" rel="alternate" type="text/html" title="S&amp;amp;P, 언더아머 신용등급 하향 검토 발표" />
-    <published>2025-11-26T04:15:21+09:00</published>
+    <title>Edgewell Personal Care, S&amp;P에서 BB-로 강등</title>
+    <link href="/posts/edgewell-personal-care-sp%EC%97%90%EC%84%9C-bb-%EB%A1%9C-%EA%B0%95%EB%93%B1/" rel="alternate" type="text/html" title="Edgewell Personal Care, S&amp;amp;P에서 BB-로 강등" />
+    <published>2025-11-26T05:19:35+09:00</published>
   
-    <updated>2025-11-26T04:15:21+09:00</updated>
+    <updated>2025-11-26T05:19:35+09:00</updated>
   
-    <id>/posts/sp-%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EC%8B%A0%EC%9A%A9%EB%93%B1%EA%B8%89-%ED%95%98%ED%96%A5-%EA%B2%80%ED%86%A0-%EB%B0%9C%ED%91%9C-2/</id>
-    <content type="text/html" src="/posts/sp-%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EC%8B%A0%EC%9A%A9%EB%93%B1%EA%B8%89-%ED%95%98%ED%96%A5-%EA%B2%80%ED%86%A0-%EB%B0%9C%ED%91%9C-2/" />
+    <id>/posts/edgewell-personal-care-sp%EC%97%90%EC%84%9C-bb-%EB%A1%9C-%EA%B0%95%EB%93%B1/</id>
+    <content type="text/html" src="/posts/edgewell-personal-care-sp%EC%97%90%EC%84%9C-bb-%EB%A1%9C-%EA%B0%95%EB%93%B1/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>S&amp;amp;P, 언더아머 신용등급 하향 검토 발표 · 경제 뉴스 요약</summary>
+  <summary>Edgewell Personal Care, S&amp;amp;P에서 BB-로 강등 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>S&amp;P, 언더아머 신용등급 하향 검토 발표</title>
-    <link href="/posts/sp-%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EC%8B%A0%EC%9A%A9%EB%93%B1%EA%B8%89-%ED%95%98%ED%96%A5-%EA%B2%80%ED%86%A0-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="S&amp;amp;P, 언더아머 신용등급 하향 검토 발표" />
-    <published>2025-11-26T04:15:06+09:00</published>
+    <title>S&amp;P, Teads Holding 신용등급 B-로 하향 조정</title>
+    <link href="/posts/sp-teads-holding-%EC%8B%A0%EC%9A%A9%EB%93%B1%EA%B8%89-b-%EB%A1%9C-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" rel="alternate" type="text/html" title="S&amp;amp;P, Teads Holding 신용등급 B-로 하향 조정" />
+    <published>2025-11-26T05:19:25+09:00</published>
   
-    <updated>2025-11-26T04:15:06+09:00</updated>
+    <updated>2025-11-26T05:19:25+09:00</updated>
   
-    <id>/posts/sp-%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EC%8B%A0%EC%9A%A9%EB%93%B1%EA%B8%89-%ED%95%98%ED%96%A5-%EA%B2%80%ED%86%A0-%EB%B0%9C%ED%91%9C/</id>
-    <content type="text/html" src="/posts/sp-%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EC%8B%A0%EC%9A%A9%EB%93%B1%EA%B8%89-%ED%95%98%ED%96%A5-%EA%B2%80%ED%86%A0-%EB%B0%9C%ED%91%9C/" />
+    <id>/posts/sp-teads-holding-%EC%8B%A0%EC%9A%A9%EB%93%B1%EA%B8%89-b-%EB%A1%9C-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/</id>
+    <content type="text/html" src="/posts/sp-teads-holding-%EC%8B%A0%EC%9A%A9%EB%93%B1%EA%B8%89-b-%EB%A1%9C-%ED%95%98%ED%96%A5-%EC%A1%B0%EC%A0%95/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>S&amp;amp;P, 언더아머 신용등급 하향 검토 발표 · 경제 뉴스 요약</summary>
+  <summary>S&amp;amp;P, Teads Holding 신용등급 B-로 하향 조정 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>구글의 Gemini 3, AI 투자자에게 경고 신호</title>
-    <link href="/posts/%EA%B5%AC%EA%B8%80%EC%9D%98-gemini-3-ai-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0-%EC%8B%A0%ED%98%B8/" rel="alternate" type="text/html" title="구글의 Gemini 3, AI 투자자에게 경고 신호" />
-    <published>2025-11-26T04:14:55+09:00</published>
+    <title>빅테크 주가 하락, 소매주 상승의 시장 동향</title>
+    <link href="/posts/%EB%B9%85%ED%85%8C%ED%81%AC-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-%EC%86%8C%EB%A7%A4%EC%A3%BC-%EC%83%81%EC%8A%B9%EC%9D%98-%EC%8B%9C%EC%9E%A5-%EB%8F%99%ED%96%A5/" rel="alternate" type="text/html" title="빅테크 주가 하락, 소매주 상승의 시장 동향" />
+    <published>2025-11-26T05:19:14+09:00</published>
   
-    <updated>2025-11-26T04:14:55+09:00</updated>
+    <updated>2025-11-26T05:19:14+09:00</updated>
   
-    <id>/posts/%EA%B5%AC%EA%B8%80%EC%9D%98-gemini-3-ai-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0-%EC%8B%A0%ED%98%B8/</id>
-    <content type="text/html" src="/posts/%EA%B5%AC%EA%B8%80%EC%9D%98-gemini-3-ai-%ED%88%AC%EC%9E%90%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B2%BD%EA%B3%A0-%EC%8B%A0%ED%98%B8/" />
+    <id>/posts/%EB%B9%85%ED%85%8C%ED%81%AC-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-%EC%86%8C%EB%A7%A4%EC%A3%BC-%EC%83%81%EC%8A%B9%EC%9D%98-%EC%8B%9C%EC%9E%A5-%EB%8F%99%ED%96%A5/</id>
+    <content type="text/html" src="/posts/%EB%B9%85%ED%85%8C%ED%81%AC-%EC%A3%BC%EA%B0%80-%ED%95%98%EB%9D%BD-%EC%86%8C%EB%A7%A4%EC%A3%BC-%EC%83%81%EC%8A%B9%EC%9D%98-%EC%8B%9C%EC%9E%A5-%EB%8F%99%ED%96%A5/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>구글의 Gemini 3, AI 투자자에게 경고 신호 · 경제 뉴스 요약</summary>
+  <summary>빅테크 주가 하락, 소매주 상승의 시장 동향 · 경제 뉴스 요약</summary>
 
   </entry>
 
