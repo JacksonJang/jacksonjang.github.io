@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-26T16:18:15+09:00</updated>
+  <updated>2025-11-26T17:24:14+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,78 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>시장, Fed 금리 인하에 대한 불확실성 지속</title>
+    <link href="/posts/%EC%8B%9C%EC%9E%A5-fed-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-%EB%B6%88%ED%99%95%EC%8B%A4%EC%84%B1-%EC%A7%80%EC%86%8D/" rel="alternate" type="text/html" title="시장, Fed 금리 인하에 대한 불확실성 지속" />
+    <published>2025-11-26T17:23:36+09:00</published>
+  
+    <updated>2025-11-26T17:23:36+09:00</updated>
+  
+    <id>/posts/%EC%8B%9C%EC%9E%A5-fed-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-%EB%B6%88%ED%99%95%EC%8B%A4%EC%84%B1-%EC%A7%80%EC%86%8D/</id>
+    <content type="text/html" src="/posts/%EC%8B%9C%EC%9E%A5-fed-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EC%97%90-%EB%8C%80%ED%95%9C-%EB%B6%88%ED%99%95%EC%8B%A4%EC%84%B1-%EC%A7%80%EC%86%8D/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>시장, Fed 금리 인하에 대한 불확실성 지속 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>달러, 연준 금리 인하 기대감에 소폭 하락</title>
+    <link href="/posts/%EB%8B%AC%EB%9F%AC-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%86%8C%ED%8F%AD-%ED%95%98%EB%9D%BD/" rel="alternate" type="text/html" title="달러, 연준 금리 인하 기대감에 소폭 하락" />
+    <published>2025-11-26T17:23:26+09:00</published>
+  
+    <updated>2025-11-26T17:23:26+09:00</updated>
+  
+    <id>/posts/%EB%8B%AC%EB%9F%AC-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%86%8C%ED%8F%AD-%ED%95%98%EB%9D%BD/</id>
+    <content type="text/html" src="/posts/%EB%8B%AC%EB%9F%AC-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%86%8C%ED%8F%AD-%ED%95%98%EB%9D%BD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>달러, 연준 금리 인하 기대감에 소폭 하락 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>유럽 증시, 연준 금리 인하 기대감에 상승</title>
+    <link href="/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="유럽 증시, 연준 금리 인하 기대감에 상승" />
+    <published>2025-11-26T17:23:15+09:00</published>
+  
+    <updated>2025-11-26T17:23:15+09:00</updated>
+  
+    <id>/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>유럽 증시, 연준 금리 인하 기대감에 상승 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,78 +135,6 @@
   
 
   <summary>영국, 최저임금 인상…미국의 두 배 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>호주 주식, S&amp;P/ASX 200 0.81% 상승 마감</title>
-    <link href="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-081-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="호주 주식, S&amp;amp;P/ASX 200 0.81% 상승 마감" />
-    <published>2025-11-26T15:26:30+09:00</published>
-  
-    <updated>2025-11-26T15:26:30+09:00</updated>
-  
-    <id>/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-081-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/</id>
-    <content type="text/html" src="/posts/%ED%98%B8%EC%A3%BC-%EC%A3%BC%EC%8B%9D-spasx-200-081-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>호주 주식, S&amp;amp;P/ASX 200 0.81% 상승 마감 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>유럽 주식, Fed 금리 인하 기대감에 상승 예상</title>
-    <link href="/posts/%EC%9C%A0%EB%9F%BD-%EC%A3%BC%EC%8B%9D-fed-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9-%EC%98%88%EC%83%81/" rel="alternate" type="text/html" title="유럽 주식, Fed 금리 인하 기대감에 상승 예상" />
-    <published>2025-11-26T15:26:12+09:00</published>
-  
-    <updated>2025-11-26T15:26:12+09:00</updated>
-  
-    <id>/posts/%EC%9C%A0%EB%9F%BD-%EC%A3%BC%EC%8B%9D-fed-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9-%EC%98%88%EC%83%81/</id>
-    <content type="text/html" src="/posts/%EC%9C%A0%EB%9F%BD-%EC%A3%BC%EC%8B%9D-fed-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9-%EC%98%88%EC%83%81/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>유럽 주식, Fed 금리 인하 기대감에 상승 예상 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>대만, 중국에 강력 반발하며 400억 달러 방위 예산 증액</title>
-    <link href="/posts/%EB%8C%80%EB%A7%8C-%EC%A4%91%EA%B5%AD%EC%97%90-%EA%B0%95%EB%A0%A5-%EB%B0%98%EB%B0%9C%ED%95%98%EB%A9%B0-400%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%B0%A9%EC%9C%84-%EC%98%88%EC%82%B0-%EC%A6%9D%EC%95%A1/" rel="alternate" type="text/html" title="대만, 중국에 강력 반발하며 400억 달러 방위 예산 증액" />
-    <published>2025-11-26T15:25:55+09:00</published>
-  
-    <updated>2025-11-26T15:25:55+09:00</updated>
-  
-    <id>/posts/%EB%8C%80%EB%A7%8C-%EC%A4%91%EA%B5%AD%EC%97%90-%EA%B0%95%EB%A0%A5-%EB%B0%98%EB%B0%9C%ED%95%98%EB%A9%B0-400%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%B0%A9%EC%9C%84-%EC%98%88%EC%82%B0-%EC%A6%9D%EC%95%A1/</id>
-    <content type="text/html" src="/posts/%EB%8C%80%EB%A7%8C-%EC%A4%91%EA%B5%AD%EC%97%90-%EA%B0%95%EB%A0%A5-%EB%B0%98%EB%B0%9C%ED%95%98%EB%A9%B0-400%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%B0%A9%EC%9C%84-%EC%98%88%EC%82%B0-%EC%A6%9D%EC%95%A1/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>대만, 중국에 강력 반발하며 400억 달러 방위 예산 증액 · 경제 뉴스 요약</summary>
 
   </entry>
 
