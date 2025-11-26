@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-27T06:16:26+09:00</updated>
+  <updated>2025-11-27T07:18:35+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>S&amp;P, 우버 긍정적 전망으로 수정</title>
-    <link href="/posts/sp-%EC%9A%B0%EB%B2%84-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D%EC%9C%BC%EB%A1%9C-%EC%88%98%EC%A0%95/" rel="alternate" type="text/html" title="S&amp;amp;P, 우버 긍정적 전망으로 수정" />
-    <published>2025-11-27T06:15:52+09:00</published>
+    <title>QXO, 연준 금리 인하로 가장 큰 수혜주인가?</title>
+    <link href="/posts/qxo-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EB%A1%9C-%EA%B0%80%EC%9E%A5-%ED%81%B0-%EC%88%98%ED%98%9C%EC%A3%BC%EC%9D%B8%EA%B0%80/" rel="alternate" type="text/html" title="QXO, 연준 금리 인하로 가장 큰 수혜주인가?" />
+    <published>2025-11-27T07:17:53+09:00</published>
   
-    <updated>2025-11-27T06:15:52+09:00</updated>
+    <updated>2025-11-27T07:17:53+09:00</updated>
   
-    <id>/posts/sp-%EC%9A%B0%EB%B2%84-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D%EC%9C%BC%EB%A1%9C-%EC%88%98%EC%A0%95/</id>
-    <content type="text/html" src="/posts/sp-%EC%9A%B0%EB%B2%84-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D%EC%9C%BC%EB%A1%9C-%EC%88%98%EC%A0%95/" />
+    <id>/posts/qxo-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EB%A1%9C-%EA%B0%80%EC%9E%A5-%ED%81%B0-%EC%88%98%ED%98%9C%EC%A3%BC%EC%9D%B8%EA%B0%80/</id>
+    <content type="text/html" src="/posts/qxo-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98%EB%A1%9C-%EA%B0%80%EC%9E%A5-%ED%81%B0-%EC%88%98%ED%98%9C%EC%A3%BC%EC%9D%B8%EA%B0%80/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>S&amp;amp;P, 우버 긍정적 전망으로 수정 · 경제 뉴스 요약</summary>
+  <summary>QXO, 연준 금리 인하로 가장 큰 수혜주인가? · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>마이크론, AI 성장에 힘입어 긍정적 전망</title>
-    <link href="/posts/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%A0-ai-%EC%84%B1%EC%9E%A5%EC%97%90-%ED%9E%98%EC%9E%85%EC%96%B4-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D/" rel="alternate" type="text/html" title="마이크론, AI 성장에 힘입어 긍정적 전망" />
-    <published>2025-11-27T06:15:38+09:00</published>
+    <title>미국 주식, 추수감사절 앞두고 반등</title>
+    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%8B%9D-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%95%9E%EB%91%90%EA%B3%A0-%EB%B0%98%EB%93%B1/" rel="alternate" type="text/html" title="미국 주식, 추수감사절 앞두고 반등" />
+    <published>2025-11-27T07:17:39+09:00</published>
   
-    <updated>2025-11-27T06:15:38+09:00</updated>
+    <updated>2025-11-27T07:17:39+09:00</updated>
   
-    <id>/posts/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%A0-ai-%EC%84%B1%EC%9E%A5%EC%97%90-%ED%9E%98%EC%9E%85%EC%96%B4-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D/</id>
-    <content type="text/html" src="/posts/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%A0-ai-%EC%84%B1%EC%9E%A5%EC%97%90-%ED%9E%98%EC%9E%85%EC%96%B4-%EA%B8%8D%EC%A0%95%EC%A0%81-%EC%A0%84%EB%A7%9D/" />
+    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%8B%9D-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%95%9E%EB%91%90%EA%B3%A0-%EB%B0%98%EB%93%B1/</id>
+    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%A3%BC%EC%8B%9D-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88-%EC%95%9E%EB%91%90%EA%B3%A0-%EB%B0%98%EB%93%B1/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>마이크론, AI 성장에 힘입어 긍정적 전망 · 경제 뉴스 요약</summary>
+  <summary>미국 주식, 추수감사절 앞두고 반등 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>AI가 일자리를 위협하는 추수감사절</title>
-    <link href="/posts/ai%EA%B0%80-%EC%9D%BC%EC%9E%90%EB%A6%AC%EB%A5%BC-%EC%9C%84%ED%98%91%ED%95%98%EB%8A%94-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88/" rel="alternate" type="text/html" title="AI가 일자리를 위협하는 추수감사절" />
-    <published>2025-11-27T06:15:24+09:00</published>
+    <title>캐나다 주식, S&amp;P/TSX 종합지수 0.90% 상승</title>
+    <link href="/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A2%85%ED%95%A9%EC%A7%80%EC%88%98-090-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="캐나다 주식, S&amp;amp;P/TSX 종합지수 0.90% 상승" />
+    <published>2025-11-27T07:17:22+09:00</published>
   
-    <updated>2025-11-27T06:15:24+09:00</updated>
+    <updated>2025-11-27T07:17:22+09:00</updated>
   
-    <id>/posts/ai%EA%B0%80-%EC%9D%BC%EC%9E%90%EB%A6%AC%EB%A5%BC-%EC%9C%84%ED%98%91%ED%95%98%EB%8A%94-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88/</id>
-    <content type="text/html" src="/posts/ai%EA%B0%80-%EC%9D%BC%EC%9E%90%EB%A6%AC%EB%A5%BC-%EC%9C%84%ED%98%91%ED%95%98%EB%8A%94-%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88/" />
+    <id>/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A2%85%ED%95%A9%EC%A7%80%EC%88%98-090-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A2%85%ED%95%A9%EC%A7%80%EC%88%98-090-%EC%83%81%EC%8A%B9/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>AI가 일자리를 위협하는 추수감사절 · 경제 뉴스 요약</summary>
+  <summary>캐나다 주식, S&amp;amp;P/TSX 종합지수 0.90% 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>연준이 시장을 주도, AI는 문제로 부각</title>
-    <link href="/posts/%EC%97%B0%EC%A4%80%EC%9D%B4-%EC%8B%9C%EC%9E%A5%EC%9D%84-%EC%A3%BC%EB%8F%84-ai%EB%8A%94-%EB%AC%B8%EC%A0%9C%EB%A1%9C-%EB%B6%80%EA%B0%81/" rel="alternate" type="text/html" title="연준이 시장을 주도, AI는 문제로 부각" />
-    <published>2025-11-27T05:19:57+09:00</published>
+    <title>멕시코 주식, 거래 마감 시 상승; S&amp;P/BMV IPC 0.03% 상승</title>
+    <link href="/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C-%EC%83%81%EC%8A%B9-spbmv-ipc-003-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="멕시코 주식, 거래 마감 시 상승; S&amp;amp;P/BMV IPC 0.03% 상승" />
+    <published>2025-11-27T07:17:09+09:00</published>
   
-    <updated>2025-11-27T05:19:57+09:00</updated>
+    <updated>2025-11-27T07:17:09+09:00</updated>
   
-    <id>/posts/%EC%97%B0%EC%A4%80%EC%9D%B4-%EC%8B%9C%EC%9E%A5%EC%9D%84-%EC%A3%BC%EB%8F%84-ai%EB%8A%94-%EB%AC%B8%EC%A0%9C%EB%A1%9C-%EB%B6%80%EA%B0%81/</id>
-    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80%EC%9D%B4-%EC%8B%9C%EC%9E%A5%EC%9D%84-%EC%A3%BC%EB%8F%84-ai%EB%8A%94-%EB%AC%B8%EC%A0%9C%EB%A1%9C-%EB%B6%80%EA%B0%81/" />
+    <id>/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C-%EC%83%81%EC%8A%B9-spbmv-ipc-003-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-%EA%B1%B0%EB%9E%98-%EB%A7%88%EA%B0%90-%EC%8B%9C-%EC%83%81%EC%8A%B9-spbmv-ipc-003-%EC%83%81%EC%8A%B9/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>연준이 시장을 주도, AI는 문제로 부각 · 경제 뉴스 요약</summary>
+  <summary>멕시코 주식, 거래 마감 시 상승; S&amp;amp;P/BMV IPC 0.03% 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>Eric Swalwell, FHFA 국장 Pulte 고소</title>
-    <link href="/posts/eric-swalwell-fhfa-%EA%B5%AD%EC%9E%A5-pulte-%EA%B3%A0%EC%86%8C/" rel="alternate" type="text/html" title="Eric Swalwell, FHFA 국장 Pulte 고소" />
-    <published>2025-11-27T05:19:44+09:00</published>
+    <title>‘Stranger Things’가 넷플릭스에 10억 달러 기여</title>
+    <link href="/posts/stranger-things%EA%B0%80-%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4%EC%97%90-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B8%B0%EC%97%AC/" rel="alternate" type="text/html" title="‘Stranger Things’가 넷플릭스에 10억 달러 기여" />
+    <published>2025-11-27T07:16:55+09:00</published>
   
-    <updated>2025-11-27T05:19:44+09:00</updated>
+    <updated>2025-11-27T07:16:55+09:00</updated>
   
-    <id>/posts/eric-swalwell-fhfa-%EA%B5%AD%EC%9E%A5-pulte-%EA%B3%A0%EC%86%8C/</id>
-    <content type="text/html" src="/posts/eric-swalwell-fhfa-%EA%B5%AD%EC%9E%A5-pulte-%EA%B3%A0%EC%86%8C/" />
+    <id>/posts/stranger-things%EA%B0%80-%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4%EC%97%90-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B8%B0%EC%97%AC/</id>
+    <content type="text/html" src="/posts/stranger-things%EA%B0%80-%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4%EC%97%90-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B8%B0%EC%97%AC/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>Eric Swalwell, FHFA 국장 Pulte 고소 · 경제 뉴스 요약</summary>
+  <summary>‘Stranger Things’가 넷플릭스에 10억 달러 기여 · 경제 뉴스 요약</summary>
 
   </entry>
 
