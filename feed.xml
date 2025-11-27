@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-27T20:17:23+09:00</updated>
+  <updated>2025-11-27T21:35:40+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>트럼프의 법안, 2026년 주식시장에 영향 미칠까</title>
+    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EB%B2%95%EC%95%88-2026%EB%85%84-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5%EC%97%90-%EC%98%81%ED%96%A5-%EB%AF%B8%EC%B9%A0%EA%B9%8C/" rel="alternate" type="text/html" title="트럼프의 법안, 2026년 주식시장에 영향 미칠까" />
+    <published>2025-11-27T21:35:01+09:00</published>
+  
+    <updated>2025-11-27T21:35:01+09:00</updated>
+  
+    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EB%B2%95%EC%95%88-2026%EB%85%84-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5%EC%97%90-%EC%98%81%ED%96%A5-%EB%AF%B8%EC%B9%A0%EA%B9%8C/</id>
+    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%9D%98-%EB%B2%95%EC%95%88-2026%EB%85%84-%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5%EC%97%90-%EC%98%81%ED%96%A5-%EB%AF%B8%EC%B9%A0%EA%B9%8C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>트럼프의 법안, 2026년 주식시장에 영향 미칠까 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Saba Capital, Baillie Gifford 이사 전원 교체 요구</title>
+    <link href="/posts/saba-capital-baillie-gifford-%EC%9D%B4%EC%82%AC-%EC%A0%84%EC%9B%90-%EA%B5%90%EC%B2%B4-%EC%9A%94%EA%B5%AC/" rel="alternate" type="text/html" title="Saba Capital, Baillie Gifford 이사 전원 교체 요구" />
+    <published>2025-11-27T21:34:43+09:00</published>
+  
+    <updated>2025-11-27T21:34:43+09:00</updated>
+  
+    <id>/posts/saba-capital-baillie-gifford-%EC%9D%B4%EC%82%AC-%EC%A0%84%EC%9B%90-%EA%B5%90%EC%B2%B4-%EC%9A%94%EA%B5%AC/</id>
+    <content type="text/html" src="/posts/saba-capital-baillie-gifford-%EC%9D%B4%EC%82%AC-%EC%A0%84%EC%9B%90-%EA%B5%90%EC%B2%B4-%EC%9A%94%EA%B5%AC/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Saba Capital, Baillie Gifford 이사 전원 교체 요구 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>애플, 인도 반독점 기관에 38억 달러 벌금 도전 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>알리바바, 메타와 경쟁하는 AI 안경 출시</title>
-    <link href="/posts/%EC%95%8C%EB%A6%AC%EB%B0%94%EB%B0%94-%EB%A9%94%ED%83%80%EC%99%80-%EA%B2%BD%EC%9F%81%ED%95%98%EB%8A%94-ai-%EC%95%88%EA%B2%BD-%EC%B6%9C%EC%8B%9C/" rel="alternate" type="text/html" title="알리바바, 메타와 경쟁하는 AI 안경 출시" />
-    <published>2025-11-27T19:19:38+09:00</published>
-  
-    <updated>2025-11-27T19:19:38+09:00</updated>
-  
-    <id>/posts/%EC%95%8C%EB%A6%AC%EB%B0%94%EB%B0%94-%EB%A9%94%ED%83%80%EC%99%80-%EA%B2%BD%EC%9F%81%ED%95%98%EB%8A%94-ai-%EC%95%88%EA%B2%BD-%EC%B6%9C%EC%8B%9C/</id>
-    <content type="text/html" src="/posts/%EC%95%8C%EB%A6%AC%EB%B0%94%EB%B0%94-%EB%A9%94%ED%83%80%EC%99%80-%EA%B2%BD%EC%9F%81%ED%95%98%EB%8A%94-ai-%EC%95%88%EA%B2%BD-%EC%B6%9C%EC%8B%9C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>알리바바, 메타와 경쟁하는 AI 안경 출시 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>유럽 증시, 연준 금리 인하 기대 속 혼조세</title>
-    <link href="/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80-%EC%86%8D-%ED%98%BC%EC%A1%B0%EC%84%B8/" rel="alternate" type="text/html" title="유럽 증시, 연준 금리 인하 기대 속 혼조세" />
-    <published>2025-11-27T19:19:27+09:00</published>
-  
-    <updated>2025-11-27T19:19:27+09:00</updated>
-  
-    <id>/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80-%EC%86%8D-%ED%98%BC%EC%A1%B0%EC%84%B8/</id>
-    <content type="text/html" src="/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80-%EC%86%8D-%ED%98%BC%EC%A1%B0%EC%84%B8/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>유럽 증시, 연준 금리 인하 기대 속 혼조세 · 경제 뉴스 요약</summary>
 
   </entry>
 
