@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-27T18:20:28+09:00</updated>
+  <updated>2025-11-27T19:20:18+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,78 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>알리바바, 메타와 경쟁하는 AI 안경 출시</title>
+    <link href="/posts/%EC%95%8C%EB%A6%AC%EB%B0%94%EB%B0%94-%EB%A9%94%ED%83%80%EC%99%80-%EA%B2%BD%EC%9F%81%ED%95%98%EB%8A%94-ai-%EC%95%88%EA%B2%BD-%EC%B6%9C%EC%8B%9C/" rel="alternate" type="text/html" title="알리바바, 메타와 경쟁하는 AI 안경 출시" />
+    <published>2025-11-27T19:19:38+09:00</published>
+  
+    <updated>2025-11-27T19:19:38+09:00</updated>
+  
+    <id>/posts/%EC%95%8C%EB%A6%AC%EB%B0%94%EB%B0%94-%EB%A9%94%ED%83%80%EC%99%80-%EA%B2%BD%EC%9F%81%ED%95%98%EB%8A%94-ai-%EC%95%88%EA%B2%BD-%EC%B6%9C%EC%8B%9C/</id>
+    <content type="text/html" src="/posts/%EC%95%8C%EB%A6%AC%EB%B0%94%EB%B0%94-%EB%A9%94%ED%83%80%EC%99%80-%EA%B2%BD%EC%9F%81%ED%95%98%EB%8A%94-ai-%EC%95%88%EA%B2%BD-%EC%B6%9C%EC%8B%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>알리바바, 메타와 경쟁하는 AI 안경 출시 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>유럽 증시, 연준 금리 인하 기대 속 혼조세</title>
+    <link href="/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80-%EC%86%8D-%ED%98%BC%EC%A1%B0%EC%84%B8/" rel="alternate" type="text/html" title="유럽 증시, 연준 금리 인하 기대 속 혼조세" />
+    <published>2025-11-27T19:19:27+09:00</published>
+  
+    <updated>2025-11-27T19:19:27+09:00</updated>
+  
+    <id>/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80-%EC%86%8D-%ED%98%BC%EC%A1%B0%EC%84%B8/</id>
+    <content type="text/html" src="/posts/%EC%9C%A0%EB%9F%BD-%EC%A6%9D%EC%8B%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80-%EC%86%8D-%ED%98%BC%EC%A1%B0%EC%84%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>유럽 증시, 연준 금리 인하 기대 속 혼조세 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>케빈 스페이시, 발티모어 압류 후 호텔 생활</title>
+    <link href="/posts/%EC%BC%80%EB%B9%88-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8B%9C-%EB%B0%9C%ED%8B%B0%EB%AA%A8%EC%96%B4-%EC%95%95%EB%A5%98-%ED%9B%84-%ED%98%B8%ED%85%94-%EC%83%9D%ED%99%9C/" rel="alternate" type="text/html" title="케빈 스페이시, 발티모어 압류 후 호텔 생활" />
+    <published>2025-11-27T19:19:14+09:00</published>
+  
+    <updated>2025-11-27T19:19:14+09:00</updated>
+  
+    <id>/posts/%EC%BC%80%EB%B9%88-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8B%9C-%EB%B0%9C%ED%8B%B0%EB%AA%A8%EC%96%B4-%EC%95%95%EB%A5%98-%ED%9B%84-%ED%98%B8%ED%85%94-%EC%83%9D%ED%99%9C/</id>
+    <content type="text/html" src="/posts/%EC%BC%80%EB%B9%88-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8B%9C-%EB%B0%9C%ED%8B%B0%EB%AA%A8%EC%96%B4-%EC%95%95%EB%A5%98-%ED%9B%84-%ED%98%B8%ED%85%94-%EC%83%9D%ED%99%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>케빈 스페이시, 발티모어 압류 후 호텔 생활 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,78 +135,6 @@
   
 
   <summary>연준의 다음 조치가 채권 시장에 미치는 영향 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 경제 뉴스로 주식 상승, 금리 인하 기대감 증가</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EA%B2%BD%EC%A0%9C-%EB%89%B4%EC%8A%A4%EB%A1%9C-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90-%EC%A6%9D%EA%B0%80/" rel="alternate" type="text/html" title="미국 경제 뉴스로 주식 상승, 금리 인하 기대감 증가" />
-    <published>2025-11-27T18:19:29+09:00</published>
-  
-    <updated>2025-11-27T18:19:29+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EA%B2%BD%EC%A0%9C-%EB%89%B4%EC%8A%A4%EB%A1%9C-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90-%EC%A6%9D%EA%B0%80/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EA%B2%BD%EC%A0%9C-%EB%89%B4%EC%8A%A4%EB%A1%9C-%EC%A3%BC%EC%8B%9D-%EC%83%81%EC%8A%B9-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90-%EC%A6%9D%EA%B0%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 경제 뉴스로 주식 상승, 금리 인하 기대감 증가 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미국 증시, 연준 금리 인하 기대감에 상승</title>
-    <link href="/posts/%EB%AF%B8%EA%B5%AD-%EC%A6%9D%EC%8B%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="미국 증시, 연준 금리 인하 기대감에 상승" />
-    <published>2025-11-27T17:25:24+09:00</published>
-  
-    <updated>2025-11-27T17:25:24+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8%EA%B5%AD-%EC%A6%9D%EC%8B%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8%EA%B5%AD-%EC%A6%9D%EC%8B%9C-%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EA%B0%90%EC%97%90-%EC%83%81%EC%8A%B9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미국 증시, 연준 금리 인하 기대감에 상승 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>미 재무장관, 연준의 금리 통제 시스템 비판</title>
-    <link href="/posts/%EB%AF%B8-%EC%9E%AC%EB%AC%B4%EC%9E%A5%EA%B4%80-%EC%97%B0%EC%A4%80%EC%9D%98-%EA%B8%88%EB%A6%AC-%ED%86%B5%EC%A0%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%B9%84%ED%8C%90/" rel="alternate" type="text/html" title="미 재무장관, 연준의 금리 통제 시스템 비판" />
-    <published>2025-11-27T17:25:09+09:00</published>
-  
-    <updated>2025-11-27T17:25:09+09:00</updated>
-  
-    <id>/posts/%EB%AF%B8-%EC%9E%AC%EB%AC%B4%EC%9E%A5%EA%B4%80-%EC%97%B0%EC%A4%80%EC%9D%98-%EA%B8%88%EB%A6%AC-%ED%86%B5%EC%A0%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%B9%84%ED%8C%90/</id>
-    <content type="text/html" src="/posts/%EB%AF%B8-%EC%9E%AC%EB%AC%B4%EC%9E%A5%EA%B4%80-%EC%97%B0%EC%A4%80%EC%9D%98-%EA%B8%88%EB%A6%AC-%ED%86%B5%EC%A0%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%B9%84%ED%8C%90/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>미 재무장관, 연준의 금리 통제 시스템 비판 · 경제 뉴스 요약</summary>
 
   </entry>
 
