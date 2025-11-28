@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-28T17:27:46+09:00</updated>
+  <updated>2025-11-28T18:19:34+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>S&amp;P 500 오늘의 상승과 하락: 로빈후드 급등</title>
+    <link href="/posts/sp-500-%EC%98%A4%EB%8A%98%EC%9D%98-%EC%83%81%EC%8A%B9%EA%B3%BC-%ED%95%98%EB%9D%BD-%EB%A1%9C%EB%B9%88%ED%9B%84%EB%93%9C-%EA%B8%89%EB%93%B1/" rel="alternate" type="text/html" title="S&amp;amp;P 500 오늘의 상승과 하락: 로빈후드 급등" />
+    <published>2025-11-28T18:19:00+09:00</published>
+  
+    <updated>2025-11-28T18:19:00+09:00</updated>
+  
+    <id>/posts/sp-500-%EC%98%A4%EB%8A%98%EC%9D%98-%EC%83%81%EC%8A%B9%EA%B3%BC-%ED%95%98%EB%9D%BD-%EB%A1%9C%EB%B9%88%ED%9B%84%EB%93%9C-%EA%B8%89%EB%93%B1/</id>
+    <content type="text/html" src="/posts/sp-500-%EC%98%A4%EB%8A%98%EC%9D%98-%EC%83%81%EC%8A%B9%EA%B3%BC-%ED%95%98%EB%9D%BD-%EB%A1%9C%EB%B9%88%ED%9B%84%EB%93%9C-%EA%B8%89%EB%93%B1/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>S&amp;amp;P 500 오늘의 상승과 하락: 로빈후드 급등 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Nexperia, 중국 유닛에 공급망 복구 요청</title>
+    <link href="/posts/nexperia-%EC%A4%91%EA%B5%AD-%EC%9C%A0%EB%8B%9B%EC%97%90-%EA%B3%B5%EA%B8%89%EB%A7%9D-%EB%B3%B5%EA%B5%AC-%EC%9A%94%EC%B2%AD/" rel="alternate" type="text/html" title="Nexperia, 중국 유닛에 공급망 복구 요청" />
+    <published>2025-11-28T18:18:49+09:00</published>
+  
+    <updated>2025-11-28T18:18:49+09:00</updated>
+  
+    <id>/posts/nexperia-%EC%A4%91%EA%B5%AD-%EC%9C%A0%EB%8B%9B%EC%97%90-%EA%B3%B5%EA%B8%89%EB%A7%9D-%EB%B3%B5%EA%B5%AC-%EC%9A%94%EC%B2%AD/</id>
+    <content type="text/html" src="/posts/nexperia-%EC%A4%91%EA%B5%AD-%EC%9C%A0%EB%8B%9B%EC%97%90-%EA%B3%B5%EA%B8%89%EB%A7%9D-%EB%B3%B5%EA%B5%AC-%EC%9A%94%EC%B2%AD/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>Nexperia, 중국 유닛에 공급망 복구 요청 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>연준 경제 조사에서의 5가지 주요 포인트 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>연준 11월 베이지북 주요 내용 5가지</title>
-    <link href="/posts/%EC%97%B0%EC%A4%80-11%EC%9B%94-%EB%B2%A0%EC%9D%B4%EC%A7%80%EB%B6%81-%EC%A3%BC%EC%9A%94-%EB%82%B4%EC%9A%A9-5%EA%B0%80%EC%A7%80/" rel="alternate" type="text/html" title="연준 11월 베이지북 주요 내용 5가지" />
-    <published>2025-11-28T17:26:10+09:00</published>
-  
-    <updated>2025-11-28T17:26:10+09:00</updated>
-  
-    <id>/posts/%EC%97%B0%EC%A4%80-11%EC%9B%94-%EB%B2%A0%EC%9D%B4%EC%A7%80%EB%B6%81-%EC%A3%BC%EC%9A%94-%EB%82%B4%EC%9A%A9-5%EA%B0%80%EC%A7%80/</id>
-    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80-11%EC%9B%94-%EB%B2%A0%EC%9D%B4%EC%A7%80%EB%B6%81-%EC%A3%BC%EC%9A%94-%EB%82%B4%EC%9A%A9-5%EA%B0%80%EC%A7%80/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>연준 11월 베이지북 주요 내용 5가지 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>S&amp;P 500, 광범위한 시장 랠리 속 상승</title>
-    <link href="/posts/sp-500-%EA%B4%91%EB%B2%94%EC%9C%84%ED%95%9C-%EC%8B%9C%EC%9E%A5-%EB%9E%A0%EB%A6%AC-%EC%86%8D-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="S&amp;amp;P 500, 광범위한 시장 랠리 속 상승" />
-    <published>2025-11-28T17:25:53+09:00</published>
-  
-    <updated>2025-11-28T17:25:53+09:00</updated>
-  
-    <id>/posts/sp-500-%EA%B4%91%EB%B2%94%EC%9C%84%ED%95%9C-%EC%8B%9C%EC%9E%A5-%EB%9E%A0%EB%A6%AC-%EC%86%8D-%EC%83%81%EC%8A%B9/</id>
-    <content type="text/html" src="/posts/sp-500-%EA%B4%91%EB%B2%94%EC%9C%84%ED%95%9C-%EC%8B%9C%EC%9E%A5-%EB%9E%A0%EB%A6%AC-%EC%86%8D-%EC%83%81%EC%8A%B9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>S&amp;amp;P 500, 광범위한 시장 랠리 속 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
