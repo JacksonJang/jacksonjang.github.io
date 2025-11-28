@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-28T13:21:40+09:00</updated>
+  <updated>2025-11-28T14:19:10+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>로빈후드, 예측 시장 발표로 S&amp;P 선도</title>
+    <link href="/posts/%EB%A1%9C%EB%B9%88%ED%9B%84%EB%93%9C-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%9E%A5-%EB%B0%9C%ED%91%9C%EB%A1%9C-sp-%EC%84%A0%EB%8F%84/" rel="alternate" type="text/html" title="로빈후드, 예측 시장 발표로 S&amp;amp;P 선도" />
+    <published>2025-11-28T14:18:28+09:00</published>
+  
+    <updated>2025-11-28T14:18:28+09:00</updated>
+  
+    <id>/posts/%EB%A1%9C%EB%B9%88%ED%9B%84%EB%93%9C-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%9E%A5-%EB%B0%9C%ED%91%9C%EB%A1%9C-sp-%EC%84%A0%EB%8F%84/</id>
+    <content type="text/html" src="/posts/%EB%A1%9C%EB%B9%88%ED%9B%84%EB%93%9C-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%9E%A5-%EB%B0%9C%ED%91%9C%EB%A1%9C-sp-%EC%84%A0%EB%8F%84/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>로빈후드, 예측 시장 발표로 S&amp;amp;P 선도 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>연준 금리 인하 기대에 지지받는 주식 시장 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>펩시코 주식, S&amp;P 500 대비 저조한 성과?</title>
-    <link href="/posts/%ED%8E%A9%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-sp-500-%EB%8C%80%EB%B9%84-%EC%A0%80%EC%A1%B0%ED%95%9C-%EC%84%B1%EA%B3%BC/" rel="alternate" type="text/html" title="펩시코 주식, S&amp;amp;P 500 대비 저조한 성과?" />
-    <published>2025-11-28T08:16:53+09:00</published>
-  
-    <updated>2025-11-28T08:16:53+09:00</updated>
-  
-    <id>/posts/%ED%8E%A9%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-sp-500-%EB%8C%80%EB%B9%84-%EC%A0%80%EC%A1%B0%ED%95%9C-%EC%84%B1%EA%B3%BC/</id>
-    <content type="text/html" src="/posts/%ED%8E%A9%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-sp-500-%EB%8C%80%EB%B9%84-%EC%A0%80%EC%A1%B0%ED%95%9C-%EC%84%B1%EA%B3%BC/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>펩시코 주식, S&amp;amp;P 500 대비 저조한 성과? · 경제 뉴스 요약</summary>
 
   </entry>
 
