@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-28T15:27:56+09:00</updated>
+  <updated>2025-11-28T16:18:56+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,78 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>한국, 프린스 그룹 제재 조치 발표</title>
+    <link href="/posts/%ED%95%9C%EA%B5%AD-%ED%94%84%EB%A6%B0%EC%8A%A4-%EA%B7%B8%EB%A3%B9-%EC%A0%9C%EC%9E%AC-%EC%A1%B0%EC%B9%98-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="한국, 프린스 그룹 제재 조치 발표" />
+    <published>2025-11-28T16:18:16+09:00</published>
+  
+    <updated>2025-11-28T16:18:16+09:00</updated>
+  
+    <id>/posts/%ED%95%9C%EA%B5%AD-%ED%94%84%EB%A6%B0%EC%8A%A4-%EA%B7%B8%EB%A3%B9-%EC%A0%9C%EC%9E%AC-%EC%A1%B0%EC%B9%98-%EB%B0%9C%ED%91%9C/</id>
+    <content type="text/html" src="/posts/%ED%95%9C%EA%B5%AD-%ED%94%84%EB%A6%B0%EC%8A%A4-%EA%B7%B8%EB%A3%B9-%EC%A0%9C%EC%9E%AC-%EC%A1%B0%EC%B9%98-%EB%B0%9C%ED%91%9C/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>한국, 프린스 그룹 제재 조치 발표 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>CME, 데이터 센터 문제로 선물 거래 중단</title>
+    <link href="/posts/cme-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%EB%AC%B8%EC%A0%9C%EB%A1%9C-%EC%84%A0%EB%AC%BC-%EA%B1%B0%EB%9E%98-%EC%A4%91%EB%8B%A8-2/" rel="alternate" type="text/html" title="CME, 데이터 센터 문제로 선물 거래 중단" />
+    <published>2025-11-28T16:18:06+09:00</published>
+  
+    <updated>2025-11-28T16:18:06+09:00</updated>
+  
+    <id>/posts/cme-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%EB%AC%B8%EC%A0%9C%EB%A1%9C-%EC%84%A0%EB%AC%BC-%EA%B1%B0%EB%9E%98-%EC%A4%91%EB%8B%A8-2/</id>
+    <content type="text/html" src="/posts/cme-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%EB%AC%B8%EC%A0%9C%EB%A1%9C-%EC%84%A0%EB%AC%BC-%EA%B1%B0%EB%9E%98-%EC%A4%91%EB%8B%A8-2/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>CME, 데이터 센터 문제로 선물 거래 중단 · 경제 뉴스 요약</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>CME, 데이터 센터 문제로 선물 거래 중단</title>
+    <link href="/posts/cme-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%EB%AC%B8%EC%A0%9C%EB%A1%9C-%EC%84%A0%EB%AC%BC-%EA%B1%B0%EB%9E%98-%EC%A4%91%EB%8B%A8/" rel="alternate" type="text/html" title="CME, 데이터 센터 문제로 선물 거래 중단" />
+    <published>2025-11-28T16:17:52+09:00</published>
+  
+    <updated>2025-11-28T16:17:52+09:00</updated>
+  
+    <id>/posts/cme-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%EB%AC%B8%EC%A0%9C%EB%A1%9C-%EC%84%A0%EB%AC%BC-%EA%B1%B0%EB%9E%98-%EC%A4%91%EB%8B%A8/</id>
+    <content type="text/html" src="/posts/cme-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%84%BC%ED%84%B0-%EB%AC%B8%EC%A0%9C%EB%A1%9C-%EC%84%A0%EB%AC%BC-%EA%B1%B0%EB%9E%98-%EC%A4%91%EB%8B%A8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>CME, 데이터 센터 문제로 선물 거래 중단 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,78 +135,6 @@
   
 
   <summary>밀레니얼 세대가 이끄는 스포츠 관광 붐 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>트럼프, 제3세계 국가 이민 영구 중단 발표</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%A0%9C3%EC%84%B8%EA%B3%84-%EA%B5%AD%EA%B0%80-%EC%9D%B4%EB%AF%BC-%EC%98%81%EA%B5%AC-%EC%A4%91%EB%8B%A8-%EB%B0%9C%ED%91%9C/" rel="alternate" type="text/html" title="트럼프, 제3세계 국가 이민 영구 중단 발표" />
-    <published>2025-11-28T15:27:05+09:00</published>
-  
-    <updated>2025-11-28T15:27:05+09:00</updated>
-  
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%A0%9C3%EC%84%B8%EA%B3%84-%EA%B5%AD%EA%B0%80-%EC%9D%B4%EB%AF%BC-%EC%98%81%EA%B5%AC-%EC%A4%91%EB%8B%A8-%EB%B0%9C%ED%91%9C/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-%EC%A0%9C3%EC%84%B8%EA%B3%84-%EA%B5%AD%EA%B0%80-%EC%9D%B4%EB%AF%BC-%EC%98%81%EA%B5%AC-%EC%A4%91%EB%8B%A8-%EB%B0%9C%ED%91%9C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>트럼프, 제3세계 국가 이민 영구 중단 발표 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>유럽의 희귀 광물 개발 촉진: 지금 행동할 때</title>
-    <link href="/posts/%EC%9C%A0%EB%9F%BD%EC%9D%98-%ED%9D%AC%EA%B7%80-%EA%B4%91%EB%AC%BC-%EA%B0%9C%EB%B0%9C-%EC%B4%89%EC%A7%84-%EC%A7%80%EA%B8%88-%ED%96%89%EB%8F%99%ED%95%A0-%EB%95%8C/" rel="alternate" type="text/html" title="유럽의 희귀 광물 개발 촉진: 지금 행동할 때" />
-    <published>2025-11-28T15:26:54+09:00</published>
-  
-    <updated>2025-11-28T15:26:54+09:00</updated>
-  
-    <id>/posts/%EC%9C%A0%EB%9F%BD%EC%9D%98-%ED%9D%AC%EA%B7%80-%EA%B4%91%EB%AC%BC-%EA%B0%9C%EB%B0%9C-%EC%B4%89%EC%A7%84-%EC%A7%80%EA%B8%88-%ED%96%89%EB%8F%99%ED%95%A0-%EB%95%8C/</id>
-    <content type="text/html" src="/posts/%EC%9C%A0%EB%9F%BD%EC%9D%98-%ED%9D%AC%EA%B7%80-%EA%B4%91%EB%AC%BC-%EA%B0%9C%EB%B0%9C-%EC%B4%89%EC%A7%84-%EC%A7%80%EA%B8%88-%ED%96%89%EB%8F%99%ED%95%A0-%EB%95%8C/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>유럽의 희귀 광물 개발 촉진: 지금 행동할 때 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>바이두, AI 칩 시장에서 엔비디아의 빈자리 채우기</title>
-    <link href="/posts/%EB%B0%94%EC%9D%B4%EB%91%90-ai-%EC%B9%A9-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84%EC%9D%98-%EB%B9%88%EC%9E%90%EB%A6%AC-%EC%B1%84%EC%9A%B0%EA%B8%B0/" rel="alternate" type="text/html" title="바이두, AI 칩 시장에서 엔비디아의 빈자리 채우기" />
-    <published>2025-11-28T15:26:44+09:00</published>
-  
-    <updated>2025-11-28T15:26:44+09:00</updated>
-  
-    <id>/posts/%EB%B0%94%EC%9D%B4%EB%91%90-ai-%EC%B9%A9-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84%EC%9D%98-%EB%B9%88%EC%9E%90%EB%A6%AC-%EC%B1%84%EC%9A%B0%EA%B8%B0/</id>
-    <content type="text/html" src="/posts/%EB%B0%94%EC%9D%B4%EB%91%90-ai-%EC%B9%A9-%EC%8B%9C%EC%9E%A5%EC%97%90%EC%84%9C-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84%EC%9D%98-%EB%B9%88%EC%9E%90%EB%A6%AC-%EC%B1%84%EC%9A%B0%EA%B8%B0/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>바이두, AI 칩 시장에서 엔비디아의 빈자리 채우기 · 경제 뉴스 요약</summary>
 
   </entry>
 
