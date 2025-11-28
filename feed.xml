@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-29T03:25:17+09:00</updated>
+  <updated>2025-11-29T04:14:25+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>연준 금리 인하 기대에 글로벌 시장 상승</title>
+    <link href="/posts/%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EC%97%90-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%8B%9C%EC%9E%A5-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="연준 금리 인하 기대에 글로벌 시장 상승" />
+    <published>2025-11-29T04:13:52+09:00</published>
+  
+    <updated>2025-11-29T04:13:52+09:00</updated>
+  
+    <id>/posts/%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EC%97%90-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%8B%9C%EC%9E%A5-%EC%83%81%EC%8A%B9/</id>
+    <content type="text/html" src="/posts/%EC%97%B0%EC%A4%80-%EA%B8%88%EB%A6%AC-%EC%9D%B8%ED%95%98-%EA%B8%B0%EB%8C%80%EC%97%90-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%8B%9C%EC%9E%A5-%EC%83%81%EC%8A%B9/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>연준 금리 인하 기대에 글로벌 시장 상승 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>S&amp;amp;P 500, 인텔 덕분에 상승 마감 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>메타와 마이크로소프트, 주간 최대 상승 기록</title>
-    <link href="/posts/%EB%A9%94%ED%83%80%EC%99%80-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8-%EC%A3%BC%EA%B0%84-%EC%B5%9C%EB%8C%80-%EC%83%81%EC%8A%B9-%EA%B8%B0%EB%A1%9D/" rel="alternate" type="text/html" title="메타와 마이크로소프트, 주간 최대 상승 기록" />
-    <published>2025-11-29T03:23:42+09:00</published>
-  
-    <updated>2025-11-29T03:23:42+09:00</updated>
-  
-    <id>/posts/%EB%A9%94%ED%83%80%EC%99%80-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8-%EC%A3%BC%EA%B0%84-%EC%B5%9C%EB%8C%80-%EC%83%81%EC%8A%B9-%EA%B8%B0%EB%A1%9D/</id>
-    <content type="text/html" src="/posts/%EB%A9%94%ED%83%80%EC%99%80-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8-%EC%A3%BC%EA%B0%84-%EC%B5%9C%EB%8C%80-%EC%83%81%EC%8A%B9-%EA%B8%B0%EB%A1%9D/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>메타와 마이크로소프트, 주간 최대 상승 기록 · 경제 뉴스 요약</summary>
 
   </entry>
 
