@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-29T14:17:47+09:00</updated>
+  <updated>2025-11-29T15:24:30+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AI 시대, 졸업생을 위한 Coursera CEO의 조언</title>
+    <link href="/posts/ai-%EC%8B%9C%EB%8C%80-%EC%A1%B8%EC%97%85%EC%83%9D%EC%9D%84-%EC%9C%84%ED%95%9C-coursera-ceo%EC%9D%98-%EC%A1%B0%EC%96%B8/" rel="alternate" type="text/html" title="AI 시대, 졸업생을 위한 Coursera CEO의 조언" />
+    <published>2025-11-29T15:23:59+09:00</published>
+  
+    <updated>2025-11-29T15:23:59+09:00</updated>
+  
+    <id>/posts/ai-%EC%8B%9C%EB%8C%80-%EC%A1%B8%EC%97%85%EC%83%9D%EC%9D%84-%EC%9C%84%ED%95%9C-coursera-ceo%EC%9D%98-%EC%A1%B0%EC%96%B8/</id>
+    <content type="text/html" src="/posts/ai-%EC%8B%9C%EB%8C%80-%EC%A1%B8%EC%97%85%EC%83%9D%EC%9D%84-%EC%9C%84%ED%95%9C-coursera-ceo%EC%9D%98-%EC%A1%B0%EC%96%B8/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>AI 시대, 졸업생을 위한 Coursera CEO의 조언 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>시티그룹 주식, S&amp;amp;P 500을 초과 성과? · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>캐나다 주식, S&amp;P/TSX 종합지수 0.60% 상승</title>
-    <link href="/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A2%85%ED%95%A9%EC%A7%80%EC%88%98-060-%EC%83%81%EC%8A%B9/" rel="alternate" type="text/html" title="캐나다 주식, S&amp;amp;P/TSX 종합지수 0.60% 상승" />
-    <published>2025-11-29T08:16:40+09:00</published>
-  
-    <updated>2025-11-29T08:16:40+09:00</updated>
-  
-    <id>/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A2%85%ED%95%A9%EC%A7%80%EC%88%98-060-%EC%83%81%EC%8A%B9/</id>
-    <content type="text/html" src="/posts/%EC%BA%90%EB%82%98%EB%8B%A4-%EC%A3%BC%EC%8B%9D-sptsx-%EC%A2%85%ED%95%A9%EC%A7%80%EC%88%98-060-%EC%83%81%EC%8A%B9/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>캐나다 주식, S&amp;amp;P/TSX 종합지수 0.60% 상승 · 경제 뉴스 요약</summary>
 
   </entry>
 
