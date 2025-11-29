@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-11-29T13:21:16+09:00</updated>
+  <updated>2025-11-29T14:17:47+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>에어버스 A320 리콜로 글로벌 여행 차질</title>
+    <link href="/posts/%EC%97%90%EC%96%B4%EB%B2%84%EC%8A%A4-a320-%EB%A6%AC%EC%BD%9C%EB%A1%9C-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%97%AC%ED%96%89-%EC%B0%A8%EC%A7%88/" rel="alternate" type="text/html" title="에어버스 A320 리콜로 글로벌 여행 차질" />
+    <published>2025-11-29T14:17:04+09:00</published>
+  
+    <updated>2025-11-29T14:17:04+09:00</updated>
+  
+    <id>/posts/%EC%97%90%EC%96%B4%EB%B2%84%EC%8A%A4-a320-%EB%A6%AC%EC%BD%9C%EB%A1%9C-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%97%AC%ED%96%89-%EC%B0%A8%EC%A7%88/</id>
+    <content type="text/html" src="/posts/%EC%97%90%EC%96%B4%EB%B2%84%EC%8A%A4-a320-%EB%A6%AC%EC%BD%9C%EB%A1%9C-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%97%AC%ED%96%89-%EC%B0%A8%EC%A7%88/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Economy" />
+    
+  
+
+  <summary>에어버스 A320 리콜로 글로벌 여행 차질 · 경제 뉴스 요약</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>캐나다 주식, S&amp;amp;P/TSX 종합지수 0.60% 상승 · 경제 뉴스 요약</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>멕시코 주식, S&amp;P/BMV IPC 1.35% 상승 마감</title>
-    <link href="/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-spbmv-ipc-135-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" rel="alternate" type="text/html" title="멕시코 주식, S&amp;amp;P/BMV IPC 1.35% 상승 마감" />
-    <published>2025-11-29T08:16:28+09:00</published>
-  
-    <updated>2025-11-29T08:16:28+09:00</updated>
-  
-    <id>/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-spbmv-ipc-135-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/</id>
-    <content type="text/html" src="/posts/%EB%A9%95%EC%8B%9C%EC%BD%94-%EC%A3%BC%EC%8B%9D-spbmv-ipc-135-%EC%83%81%EC%8A%B9-%EB%A7%88%EA%B0%90/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Economy" />
-    
-  
-
-  <summary>멕시코 주식, S&amp;amp;P/BMV IPC 1.35% 상승 마감 · 경제 뉴스 요약</summary>
 
   </entry>
 
