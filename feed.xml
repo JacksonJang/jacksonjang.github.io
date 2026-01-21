@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-01-21T21:42:31+09:00</updated>
+  <updated>2026-01-21T22:45:15+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>모기지 재융자 급증, 금리는 다시 상승세</title>
-    <link href="/posts/%EB%AA%A8%EA%B8%B0%EC%A7%80-%EC%9E%AC%EC%9C%B5%EC%9E%90-%EA%B8%89%EC%A6%9D-%EA%B8%88%EB%A6%AC%EB%8A%94-%EB%8B%A4%EC%8B%9C-%EC%83%81%EC%8A%B9%EC%84%B8/" rel="alternate" type="text/html" title="모기지 재융자 급증, 금리는 다시 상승세" />
-    <published>2026-01-21T21:41:54+09:00</published>
+    <title>유나이티드 항공, 수익 증가로 주가 급등</title>
+    <link href="/posts/%EC%9C%A0%EB%82%98%EC%9D%B4%ED%8B%B0%EB%93%9C-%ED%95%AD%EA%B3%B5-%EC%88%98%EC%9D%B5-%EC%A6%9D%EA%B0%80%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EA%B8%89%EB%93%B1/" rel="alternate" type="text/html" title="유나이티드 항공, 수익 증가로 주가 급등" />
+    <published>2026-01-21T22:44:33+09:00</published>
   
-    <updated>2026-01-21T21:41:54+09:00</updated>
+    <updated>2026-01-21T22:44:33+09:00</updated>
   
-    <id>/posts/%EB%AA%A8%EA%B8%B0%EC%A7%80-%EC%9E%AC%EC%9C%B5%EC%9E%90-%EA%B8%89%EC%A6%9D-%EA%B8%88%EB%A6%AC%EB%8A%94-%EB%8B%A4%EC%8B%9C-%EC%83%81%EC%8A%B9%EC%84%B8/</id>
-    <content type="text/html" src="/posts/%EB%AA%A8%EA%B8%B0%EC%A7%80-%EC%9E%AC%EC%9C%B5%EC%9E%90-%EA%B8%89%EC%A6%9D-%EA%B8%88%EB%A6%AC%EB%8A%94-%EB%8B%A4%EC%8B%9C-%EC%83%81%EC%8A%B9%EC%84%B8/" />
+    <id>/posts/%EC%9C%A0%EB%82%98%EC%9D%B4%ED%8B%B0%EB%93%9C-%ED%95%AD%EA%B3%B5-%EC%88%98%EC%9D%B5-%EC%A6%9D%EA%B0%80%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EA%B8%89%EB%93%B1/</id>
+    <content type="text/html" src="/posts/%EC%9C%A0%EB%82%98%EC%9D%B4%ED%8B%B0%EB%93%9C-%ED%95%AD%EA%B3%B5-%EC%88%98%EC%9D%B5-%EC%A6%9D%EA%B0%80%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EA%B8%89%EB%93%B1/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -38,20 +38,20 @@
     
   
 
-  <summary>모기지 재융자 급증, 금리는 다시 상승세 · 경제 뉴스 요약</summary>
+  <summary>유나이티드 항공, 수익 증가로 주가 급등 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>SNB 의장, Fed 독립성의 중요성 강조</title>
-    <link href="/posts/snb-%EC%9D%98%EC%9E%A5-fed-%EB%8F%85%EB%A6%BD%EC%84%B1%EC%9D%98-%EC%A4%91%EC%9A%94%EC%84%B1-%EA%B0%95%EC%A1%B0/" rel="alternate" type="text/html" title="SNB 의장, Fed 독립성의 중요성 강조" />
-    <published>2026-01-21T21:41:40+09:00</published>
+    <title>소형주가 대형주를 압도한 2026년</title>
+    <link href="/posts/%EC%86%8C%ED%98%95%EC%A3%BC%EA%B0%80-%EB%8C%80%ED%98%95%EC%A3%BC%EB%A5%BC-%EC%95%95%EB%8F%84%ED%95%9C-2026%EB%85%84/" rel="alternate" type="text/html" title="소형주가 대형주를 압도한 2026년" />
+    <published>2026-01-21T22:44:14+09:00</published>
   
-    <updated>2026-01-21T21:41:40+09:00</updated>
+    <updated>2026-01-21T22:44:14+09:00</updated>
   
-    <id>/posts/snb-%EC%9D%98%EC%9E%A5-fed-%EB%8F%85%EB%A6%BD%EC%84%B1%EC%9D%98-%EC%A4%91%EC%9A%94%EC%84%B1-%EA%B0%95%EC%A1%B0/</id>
-    <content type="text/html" src="/posts/snb-%EC%9D%98%EC%9E%A5-fed-%EB%8F%85%EB%A6%BD%EC%84%B1%EC%9D%98-%EC%A4%91%EC%9A%94%EC%84%B1-%EA%B0%95%EC%A1%B0/" />
+    <id>/posts/%EC%86%8C%ED%98%95%EC%A3%BC%EA%B0%80-%EB%8C%80%ED%98%95%EC%A3%BC%EB%A5%BC-%EC%95%95%EB%8F%84%ED%95%9C-2026%EB%85%84/</id>
+    <content type="text/html" src="/posts/%EC%86%8C%ED%98%95%EC%A3%BC%EA%B0%80-%EB%8C%80%ED%98%95%EC%A3%BC%EB%A5%BC-%EC%95%95%EB%8F%84%ED%95%9C-2026%EB%85%84/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -62,20 +62,20 @@
     
   
 
-  <summary>SNB 의장, Fed 독립성의 중요성 강조 · 경제 뉴스 요약</summary>
+  <summary>소형주가 대형주를 압도한 2026년 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>Fed, 3월까지 금리 동결 전망: Reuters 설문 결과</title>
-    <link href="/posts/fed-3%EC%9B%94%EA%B9%8C%EC%A7%80-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EC%A0%84%EB%A7%9D-reuters-%EC%84%A4%EB%AC%B8-%EA%B2%B0%EA%B3%BC/" rel="alternate" type="text/html" title="Fed, 3월까지 금리 동결 전망: Reuters 설문 결과" />
-    <published>2026-01-21T21:41:25+09:00</published>
+    <title>버크셔, 크래프트 하인즈 28% 지분 매각 준비</title>
+    <link href="/posts/%EB%B2%84%ED%81%AC%EC%85%94-%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8-%ED%95%98%EC%9D%B8%EC%A6%88-28-%EC%A7%80%EB%B6%84-%EB%A7%A4%EA%B0%81-%EC%A4%80%EB%B9%84/" rel="alternate" type="text/html" title="버크셔, 크래프트 하인즈 28% 지분 매각 준비" />
+    <published>2026-01-21T22:43:56+09:00</published>
   
-    <updated>2026-01-21T21:41:25+09:00</updated>
+    <updated>2026-01-21T22:43:56+09:00</updated>
   
-    <id>/posts/fed-3%EC%9B%94%EA%B9%8C%EC%A7%80-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EC%A0%84%EB%A7%9D-reuters-%EC%84%A4%EB%AC%B8-%EA%B2%B0%EA%B3%BC/</id>
-    <content type="text/html" src="/posts/fed-3%EC%9B%94%EA%B9%8C%EC%A7%80-%EA%B8%88%EB%A6%AC-%EB%8F%99%EA%B2%B0-%EC%A0%84%EB%A7%9D-reuters-%EC%84%A4%EB%AC%B8-%EA%B2%B0%EA%B3%BC/" />
+    <id>/posts/%EB%B2%84%ED%81%AC%EC%85%94-%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8-%ED%95%98%EC%9D%B8%EC%A6%88-28-%EC%A7%80%EB%B6%84-%EB%A7%A4%EA%B0%81-%EC%A4%80%EB%B9%84/</id>
+    <content type="text/html" src="/posts/%EB%B2%84%ED%81%AC%EC%85%94-%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8-%ED%95%98%EC%9D%B8%EC%A6%88-28-%EC%A7%80%EB%B6%84-%EB%A7%A4%EA%B0%81-%EC%A4%80%EB%B9%84/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -86,20 +86,20 @@
     
   
 
-  <summary>Fed, 3월까지 금리 동결 전망: Reuters 설문 결과 · 경제 뉴스 요약</summary>
+  <summary>버크셔, 크래프트 하인즈 28% 지분 매각 준비 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>J&amp;J, 내년 1000억 달러 매출 기대</title>
-    <link href="/posts/jj-%EB%82%B4%EB%85%84-1000%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%A7%A4%EC%B6%9C-%EA%B8%B0%EB%8C%80/" rel="alternate" type="text/html" title="J&amp;amp;J, 내년 1000억 달러 매출 기대" />
-    <published>2026-01-21T21:41:12+09:00</published>
+    <title>AI가 건강 정보 제공에 나선다</title>
+    <link href="/posts/ai%EA%B0%80-%EA%B1%B4%EA%B0%95-%EC%A0%95%EB%B3%B4-%EC%A0%9C%EA%B3%B5%EC%97%90-%EB%82%98%EC%84%A0%EB%8B%A4/" rel="alternate" type="text/html" title="AI가 건강 정보 제공에 나선다" />
+    <published>2026-01-21T22:43:40+09:00</published>
   
-    <updated>2026-01-21T21:41:12+09:00</updated>
+    <updated>2026-01-21T22:43:40+09:00</updated>
   
-    <id>/posts/jj-%EB%82%B4%EB%85%84-1000%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%A7%A4%EC%B6%9C-%EA%B8%B0%EB%8C%80/</id>
-    <content type="text/html" src="/posts/jj-%EB%82%B4%EB%85%84-1000%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%A7%A4%EC%B6%9C-%EA%B8%B0%EB%8C%80/" />
+    <id>/posts/ai%EA%B0%80-%EA%B1%B4%EA%B0%95-%EC%A0%95%EB%B3%B4-%EC%A0%9C%EA%B3%B5%EC%97%90-%EB%82%98%EC%84%A0%EB%8B%A4/</id>
+    <content type="text/html" src="/posts/ai%EA%B0%80-%EA%B1%B4%EA%B0%95-%EC%A0%95%EB%B3%B4-%EC%A0%9C%EA%B3%B5%EC%97%90-%EB%82%98%EC%84%A0%EB%8B%A4/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -110,20 +110,20 @@
     
   
 
-  <summary>J&amp;amp;J, 내년 1000억 달러 매출 기대 · 경제 뉴스 요약</summary>
+  <summary>AI가 건강 정보 제공에 나선다 · 경제 뉴스 요약</summary>
 
   </entry>
 
   
   <entry>
-    <title>룰루레몬, 투명 바지 논란으로 어려움 가중</title>
-    <link href="/posts/%EB%A3%B0%EB%A3%A8%EB%A0%88%EB%AA%AC-%ED%88%AC%EB%AA%85-%EB%B0%94%EC%A7%80-%EB%85%BC%EB%9E%80%EC%9C%BC%EB%A1%9C-%EC%96%B4%EB%A0%A4%EC%9B%80-%EA%B0%80%EC%A4%91/" rel="alternate" type="text/html" title="룰루레몬, 투명 바지 논란으로 어려움 가중" />
-    <published>2026-01-21T21:40:52+09:00</published>
+    <title>OpenEvidence, 의사 위한 'ChatGPT', 가치 120억 달러</title>
+    <link href="/posts/openevidence-%EC%9D%98%EC%82%AC-%EC%9C%84%ED%95%9C-chatgpt-%EA%B0%80%EC%B9%98-120%EC%96%B5-%EB%8B%AC%EB%9F%AC/" rel="alternate" type="text/html" title="OpenEvidence, 의사 위한 &amp;apos;ChatGPT&amp;apos;, 가치 120억 달러" />
+    <published>2026-01-21T22:43:20+09:00</published>
   
-    <updated>2026-01-21T21:40:52+09:00</updated>
+    <updated>2026-01-21T22:43:20+09:00</updated>
   
-    <id>/posts/%EB%A3%B0%EB%A3%A8%EB%A0%88%EB%AA%AC-%ED%88%AC%EB%AA%85-%EB%B0%94%EC%A7%80-%EB%85%BC%EB%9E%80%EC%9C%BC%EB%A1%9C-%EC%96%B4%EB%A0%A4%EC%9B%80-%EA%B0%80%EC%A4%91/</id>
-    <content type="text/html" src="/posts/%EB%A3%B0%EB%A3%A8%EB%A0%88%EB%AA%AC-%ED%88%AC%EB%AA%85-%EB%B0%94%EC%A7%80-%EB%85%BC%EB%9E%80%EC%9C%BC%EB%A1%9C-%EC%96%B4%EB%A0%A4%EC%9B%80-%EA%B0%80%EC%A4%91/" />
+    <id>/posts/openevidence-%EC%9D%98%EC%82%AC-%EC%9C%84%ED%95%9C-chatgpt-%EA%B0%80%EC%B9%98-120%EC%96%B5-%EB%8B%AC%EB%9F%AC/</id>
+    <content type="text/html" src="/posts/openevidence-%EC%9D%98%EC%82%AC-%EC%9C%84%ED%95%9C-chatgpt-%EA%B0%80%EC%B9%98-120%EC%96%B5-%EB%8B%AC%EB%9F%AC/" />
     <author>
       <name>JacksonJang</name>
     </author>
@@ -134,7 +134,7 @@
     
   
 
-  <summary>룰루레몬, 투명 바지 논란으로 어려움 가중 · 경제 뉴스 요약</summary>
+  <summary>OpenEvidence, 의사 위한 &amp;#39;ChatGPT&amp;#39;, 가치 120억 달러 · 경제 뉴스 요약</summary>
 
   </entry>
 
