@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-01-22T07:23:12+09:00</updated>
+  <updated>2026-01-25T20:35:10+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -20,121 +20,121 @@
 
   
   <entry>
-    <title>형제가 공동 소유한 집의 가치 상승 문제</title>
-    <link href="/posts/%ED%98%95%EC%A0%9C%EA%B0%80-%EA%B3%B5%EB%8F%99-%EC%86%8C%EC%9C%A0%ED%95%9C-%EC%A7%91%EC%9D%98-%EA%B0%80%EC%B9%98-%EC%83%81%EC%8A%B9-%EB%AC%B8%EC%A0%9C/" rel="alternate" type="text/html" title="형제가 공동 소유한 집의 가치 상승 문제" />
-    <published>2026-01-22T07:22:37+09:00</published>
+    <title>Spring Boot와 함께 Database Replication 사용하기</title>
+    <link href="/posts/database-replication-with-spring-boot/" rel="alternate" type="text/html" title="Spring Boot와 함께 Database Replication 사용하기" />
+    <published>2025-08-17T22:00:00+09:00</published>
   
-    <updated>2026-01-22T07:22:37+09:00</updated>
+    <updated>2025-08-17T22:00:00+09:00</updated>
   
-    <id>/posts/%ED%98%95%EC%A0%9C%EA%B0%80-%EA%B3%B5%EB%8F%99-%EC%86%8C%EC%9C%A0%ED%95%9C-%EC%A7%91%EC%9D%98-%EA%B0%80%EC%B9%98-%EC%83%81%EC%8A%B9-%EB%AC%B8%EC%A0%9C/</id>
-    <content type="text/html" src="/posts/%ED%98%95%EC%A0%9C%EA%B0%80-%EA%B3%B5%EB%8F%99-%EC%86%8C%EC%9C%A0%ED%95%9C-%EC%A7%91%EC%9D%98-%EA%B0%80%EC%B9%98-%EC%83%81%EC%8A%B9-%EB%AC%B8%EC%A0%9C/" />
+    <id>/posts/database-replication-with-spring-boot/</id>
+    <content type="text/html" src="/posts/database-replication-with-spring-boot/" />
     <author>
       <name>JacksonJang</name>
     </author>
 
   
     
-    <category term="Economy" />
+    <category term="Spring Boot" />
     
   
 
-  <summary>형제가 공동 소유한 집의 가치 상승 문제 · 경제 뉴스 요약</summary>
+  <summary>앞서 정리한 Database Replication 사용하기(with MySQL) 글에서 살펴본 것처럼,  Spring Boot 환경에서도 동일하게 적용할 수 있습니다.  Master/Source와 Slave/Replica의 명칭 관련해서는 설명의 편의를 위해 Master와 Replica를 사용하겠습니다. (MySQL 8.0 이후로 Master/Slave -&amp;amp;gt; Source/Replica 로 변경되었습니다.)  @Transactional을 이용해서 사용하기 Spring Boot에서는 @Transactional 을 통해 Master로 보낼지, Replica로 보낼지 정할 수 있습니다.  Spring Boot에서는 기본적으로 DB(DataSource)에 연결할지 결정하는 기능은 내장되어 있지 않기 때문에...</summary>
 
   </entry>
 
   
   <entry>
-    <title>후회 없는 소비를 위한 비밀</title>
-    <link href="/posts/%ED%9B%84%ED%9A%8C-%EC%97%86%EB%8A%94-%EC%86%8C%EB%B9%84%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%B9%84%EB%B0%80/" rel="alternate" type="text/html" title="후회 없는 소비를 위한 비밀" />
-    <published>2026-01-22T07:22:22+09:00</published>
+    <title>Database Replication 사용하기(with MySQL)</title>
+    <link href="/posts/database-replication/" rel="alternate" type="text/html" title="Database Replication 사용하기(with MySQL)" />
+    <published>2025-08-09T22:00:00+09:00</published>
   
-    <updated>2026-01-22T07:22:22+09:00</updated>
+    <updated>2025-08-09T22:00:00+09:00</updated>
   
-    <id>/posts/%ED%9B%84%ED%9A%8C-%EC%97%86%EB%8A%94-%EC%86%8C%EB%B9%84%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%B9%84%EB%B0%80/</id>
-    <content type="text/html" src="/posts/%ED%9B%84%ED%9A%8C-%EC%97%86%EB%8A%94-%EC%86%8C%EB%B9%84%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%B9%84%EB%B0%80/" />
+    <id>/posts/database-replication/</id>
+    <content type="text/html" src="/posts/database-replication/" />
     <author>
       <name>JacksonJang</name>
     </author>
 
   
     
-    <category term="Economy" />
+    <category term="DevOps" />
     
   
 
-  <summary>후회 없는 소비를 위한 비밀 · 경제 뉴스 요약</summary>
+  <summary>고객사의 대규모 서비스를 도입하게 되어, 관련 내용을 정리하게 되었습니다.  Database Replication 이란? 사용자가 많은 서비스에서는 하나의 DB로 모든 요청을 처리하기 어려울 수 있습니다. 그래서 이를 해결하기 위해 고안된 기술이 Database Replication입니다.   Database를 Replication(복제)해서 DB Read/Write 역할을 나눠서 성능과 안정성을 증가시키고, 일반적으로 Source/Replica 구조를 사용하며 다음과 같은 역할을 수행합니다.     Source(혹은 Master) : Write(INSERT, UPDATE, DELETE)   Replica(혹은 Slave) : Read(SELECT)    *참고 : MySQL 8.0 이후로 Master...</summary>
 
   </entry>
 
   
   <entry>
-    <title>회계사, 비서의 연봉 차이로 급여 인상 논의</title>
-    <link href="/posts/%ED%9A%8C%EA%B3%84%EC%82%AC-%EB%B9%84%EC%84%9C%EC%9D%98-%EC%97%B0%EB%B4%89-%EC%B0%A8%EC%9D%B4%EB%A1%9C-%EA%B8%89%EC%97%AC-%EC%9D%B8%EC%83%81-%EB%85%BC%EC%9D%98/" rel="alternate" type="text/html" title="회계사, 비서의 연봉 차이로 급여 인상 논의" />
-    <published>2026-01-22T07:22:09+09:00</published>
+    <title>[Spring Boot] 에러를 효과적으로 처리하는 2가지 방법(@ExceptionHandler, @ControllerAdvice 사용)</title>
+    <link href="/posts/spring-boot-error-handler/" rel="alternate" type="text/html" title="[Spring Boot] 에러를 효과적으로 처리하는 2가지 방법(@ExceptionHandler, @ControllerAdvice 사용)" />
+    <published>2025-08-03T23:00:00+09:00</published>
   
-    <updated>2026-01-22T07:22:09+09:00</updated>
+    <updated>2025-08-03T23:00:00+09:00</updated>
   
-    <id>/posts/%ED%9A%8C%EA%B3%84%EC%82%AC-%EB%B9%84%EC%84%9C%EC%9D%98-%EC%97%B0%EB%B4%89-%EC%B0%A8%EC%9D%B4%EB%A1%9C-%EA%B8%89%EC%97%AC-%EC%9D%B8%EC%83%81-%EB%85%BC%EC%9D%98/</id>
-    <content type="text/html" src="/posts/%ED%9A%8C%EA%B3%84%EC%82%AC-%EB%B9%84%EC%84%9C%EC%9D%98-%EC%97%B0%EB%B4%89-%EC%B0%A8%EC%9D%B4%EB%A1%9C-%EA%B8%89%EC%97%AC-%EC%9D%B8%EC%83%81-%EB%85%BC%EC%9D%98/" />
+    <id>/posts/spring-boot-error-handler/</id>
+    <content type="text/html" src="/posts/spring-boot-error-handler/" />
     <author>
       <name>JacksonJang</name>
     </author>
 
   
     
-    <category term="Economy" />
+    <category term="Spring Boot" />
     
   
 
-  <summary>회계사, 비서의 연봉 차이로 급여 인상 논의 · 경제 뉴스 요약</summary>
+  <summary>왜 필요해요? 프로젝트를 진행하다 보면 에러 응답 포맷을 변경해야 하는 상황이 생길 수 있습니다. 예를 들어, 고객 요구사항 변경, 공통 응답 규격 개편, 코드 리팩터링 등..  이때 모든 컨트롤러에 동일한 보일러플레이트 코드가 존재해서 수정할 때 유지보수 비용이 커집니다.    try-catch 문 @RestController public class TryCatchController {    @GetMapping(&amp;quot;/tryCatch&amp;quot;)   public String tryCatch() {     try {       throw new IllegalArgumentException(&amp;quot;IllegalArgument 에러&amp;quot;);     } catch (Exception e) {       return &amp;quot;에러가 발...</summary>
 
   </entry>
 
   
   <entry>
-    <title>제프 베조스의 블루 오리진, 위성 인터넷 서비스 출시</title>
-    <link href="/posts/%EC%A0%9C%ED%94%84-%EB%B2%A0%EC%A1%B0%EC%8A%A4%EC%9D%98-%EB%B8%94%EB%A3%A8-%EC%98%A4%EB%A6%AC%EC%A7%84-%EC%9C%84%EC%84%B1-%EC%9D%B8%ED%84%B0%EB%84%B7-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%B6%9C%EC%8B%9C/" rel="alternate" type="text/html" title="제프 베조스의 블루 오리진, 위성 인터넷 서비스 출시" />
-    <published>2026-01-22T07:21:55+09:00</published>
+    <title>[JavaScript] null vs undefined 차이 제대로 알기</title>
+    <link href="/posts/js-null-undefined/" rel="alternate" type="text/html" title="[JavaScript] null vs undefined 차이 제대로 알기" />
+    <published>2025-07-28T03:00:00+09:00</published>
   
-    <updated>2026-01-22T07:21:55+09:00</updated>
+    <updated>2025-07-28T03:00:00+09:00</updated>
   
-    <id>/posts/%EC%A0%9C%ED%94%84-%EB%B2%A0%EC%A1%B0%EC%8A%A4%EC%9D%98-%EB%B8%94%EB%A3%A8-%EC%98%A4%EB%A6%AC%EC%A7%84-%EC%9C%84%EC%84%B1-%EC%9D%B8%ED%84%B0%EB%84%B7-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%B6%9C%EC%8B%9C/</id>
-    <content type="text/html" src="/posts/%EC%A0%9C%ED%94%84-%EB%B2%A0%EC%A1%B0%EC%8A%A4%EC%9D%98-%EB%B8%94%EB%A3%A8-%EC%98%A4%EB%A6%AC%EC%A7%84-%EC%9C%84%EC%84%B1-%EC%9D%B8%ED%84%B0%EB%84%B7-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%B6%9C%EC%8B%9C/" />
+    <id>/posts/js-null-undefined/</id>
+    <content type="text/html" src="/posts/js-null-undefined/" />
     <author>
       <name>JacksonJang</name>
     </author>
 
   
     
-    <category term="Economy" />
+    <category term="JavaScript" />
     
   
 
-  <summary>제프 베조스의 블루 오리진, 위성 인터넷 서비스 출시 · 경제 뉴스 요약</summary>
+  <summary>JavaScript 의 null, undefined 알아보기 undefined 의미 JavaScript에서 undefined는 변수를 선언하고 값을 할당하지 않은 상태를 의미합니다. let x;    null 의미 null은 변수를 선언하고 빈 값을 할당한 상태입니다. let x = null;    위 차이에 대해 구분하는 테스트하기(typeof 사용) JavaScript에서는 typeof 라는 연산자가 있습니다.  이 연산자를 이용해서 타입들에 대해 볼 수 있는데 아래와 같이 Console 창에서 바로 확인 가능합니다.    typeof null         // &amp;#39;object&amp;#39; typeof undefined    // &amp;#39;undefined&amp;#39; typeof 1            // &amp;#39;number&amp;#39; ...</summary>
 
   </entry>
 
   
   <entry>
-    <title>트럼프 CNBC 인터뷰 주요 내용 5가지</title>
-    <link href="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-cnbc-%EC%9D%B8%ED%84%B0%EB%B7%B0-%EC%A3%BC%EC%9A%94-%EB%82%B4%EC%9A%A9-5%EA%B0%80%EC%A7%80/" rel="alternate" type="text/html" title="트럼프 CNBC 인터뷰 주요 내용 5가지" />
-    <published>2026-01-22T07:21:44+09:00</published>
+    <title>[SwiftUI] @ObservedObject vs @StateObject</title>
+    <link href="/posts/ObservedObject-vs-StateObject/" rel="alternate" type="text/html" title="[SwiftUI] @ObservedObject vs @StateObject" />
+    <published>2024-08-06T04:00:00+09:00</published>
   
-    <updated>2026-01-22T07:21:44+09:00</updated>
+    <updated>2024-08-06T04:00:00+09:00</updated>
   
-    <id>/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-cnbc-%EC%9D%B8%ED%84%B0%EB%B7%B0-%EC%A3%BC%EC%9A%94-%EB%82%B4%EC%9A%A9-5%EA%B0%80%EC%A7%80/</id>
-    <content type="text/html" src="/posts/%ED%8A%B8%EB%9F%BC%ED%94%84-cnbc-%EC%9D%B8%ED%84%B0%EB%B7%B0-%EC%A3%BC%EC%9A%94-%EB%82%B4%EC%9A%A9-5%EA%B0%80%EC%A7%80/" />
+    <id>/posts/ObservedObject-vs-StateObject/</id>
+    <content type="text/html" src="/posts/ObservedObject-vs-StateObject/" />
     <author>
       <name>JacksonJang</name>
     </author>
 
   
     
-    <category term="Economy" />
+    <category term="iOS" />
     
   
 
-  <summary>트럼프 CNBC 인터뷰 주요 내용 5가지 · 경제 뉴스 요약</summary>
+  <summary>핵심 정리    공통점 : 객체의 상태 변화를 감지하고 뷰를 업데이트하는 데 사용되는 속성 래퍼입니다.   @StateObject는 부모 뷰가 직접 객체를 소유하고 관리합니다.   @ObservedObject는 부모 뷰에서 객체를 관찰하고 업데이트를 반영합니다.   ObservableObject 란? @StateObject 와 @ObservedObject에 대해 알기 전에 우선적으로 ObservableObject 라는 프로토콜에 대해 이해할 필요가 있습니다.  @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *) public protocol ObservableObject : AnyObject {      /// The type of publishe...</summary>
 
   </entry>
 
