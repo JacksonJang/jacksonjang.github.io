@@ -18,7 +18,7 @@ timezone: Asia/Seoul
 
 title: Jacksonjang Blog # the main title
 
-tagline: iOS 및 Backend 개발자 # it will display as the subtitle
+tagline: Backend Engineer # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
