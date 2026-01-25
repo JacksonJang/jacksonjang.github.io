@@ -34,24 +34,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="[iOS] SDK does not contain ‘libarclite’ at the path 에러 해결법" />
+<meta property="og:title" content="JPA N+1 문제 해결하기" />
 <meta name="author" content="JacksonJang" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="에러 코코아 팟을 이용해서 Podfile에 라이브러리를 추가하고 프로젝트를 실행 했을 때 다음과 같은 에러가 뜰 때 해결법을 공유하겠습니다!" />
-<meta property="og:description" content="에러 코코아 팟을 이용해서 Podfile에 라이브러리를 추가하고 프로젝트를 실행 했을 때 다음과 같은 에러가 뜰 때 해결법을 공유하겠습니다!" />
-<link rel="canonical" href="/posts/cocoapods-errror-libarclite/" />
-<meta property="og:url" content="/posts/cocoapods-errror-libarclite/" />
+<meta name="description" content="N+1 문제란? N+1 문제는 데이터를 1건 조회했을 때, 연관된 데이터를 가져오기 위해 N번의 쿼리가 추가로 실행되는 현상입니다." />
+<meta property="og:description" content="N+1 문제란? N+1 문제는 데이터를 1건 조회했을 때, 연관된 데이터를 가져오기 위해 N번의 쿼리가 추가로 실행되는 현상입니다." />
+<link rel="canonical" href="/posts/spring-jpa-n+1/" />
+<meta property="og:url" content="/posts/spring-jpa-n+1/" />
 <meta property="og:site_name" content="Jacksonjang Blog" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-05-02T04:00:00+09:00" />
+<meta property="article:published_time" content="2026-01-26T05:00:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="[iOS] SDK does not contain ‘libarclite’ at the path 에러 해결법" />
+<meta property="twitter:title" content="JPA N+1 문제 해결하기" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"JacksonJang","url":"https://github.com/JacksonJang/"},"dateModified":"2024-05-02T04:00:00+09:00","datePublished":"2024-05-02T04:00:00+09:00","description":"에러 코코아 팟을 이용해서 Podfile에 라이브러리를 추가하고 프로젝트를 실행 했을 때 다음과 같은 에러가 뜰 때 해결법을 공유하겠습니다!","headline":"[iOS] SDK does not contain ‘libarclite’ at the path 에러 해결법","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/cocoapods-errror-libarclite/"},"url":"/posts/cocoapods-errror-libarclite/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"JacksonJang","url":"https://github.com/JacksonJang/"},"dateModified":"2026-01-26T05:00:00+09:00","datePublished":"2026-01-26T05:00:00+09:00","description":"N+1 문제란? N+1 문제는 데이터를 1건 조회했을 때, 연관된 데이터를 가져오기 위해 N번의 쿼리가 추가로 실행되는 현상입니다.","headline":"JPA N+1 문제 해결하기","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/spring-jpa-n+1/"},"url":"/posts/spring-jpa-n+1/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>[iOS] SDK does not contain 'libarclite' at the path 에러 해결법 | Jacksonjang Blog
+  <title>JPA N+1 문제 해결하기 | Jacksonjang Blog
   </title>
 
   <!--
@@ -435,7 +435,7 @@
         
           
             
-              <span>[iOS] SDK does not contain 'libarclite' at the path 에러 해결법</span>
+              <span>JPA N+1 문제 해결하기</span>
             
 
           
@@ -568,10 +568,162 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
 
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
   
 
   
@@ -595,7 +747,7 @@
 
 <article class="px-1" data-toc="true">
   <header>
-    <h1 data-toc-skip>[iOS] SDK does not contain 'libarclite' at the path 에러 해결법</h1>
+    <h1 data-toc-skip>JPA N+1 문제 해결하기</h1>
     
 
     <div class="post-meta text-muted">
@@ -612,13 +764,13 @@
 
 <time
   
-  data-ts="1714557600"
+  data-ts="1769338800"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  May  2, 2024
+  Jan 26, 2026
 </time>
 
       </span>
@@ -670,9 +822,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="201 words"
+  title="1000 words"
 >
-  <em>1 min</em> read</span>
+  <em>5 min</em> read</span>
 
         </div>
       </div>
@@ -681,7 +833,7 @@
 
   
     <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
-      <span class="label text-truncate">[iOS] SDK does not contain 'libarclite' at the path 에러 해결법</span>
+      <span class="label text-truncate">JPA N+1 문제 해결하기</span>
       <button type="button" class="toc-trigger btn me-1">
         <i class="fa-solid fa-list-ul fa-fw"></i>
       </button>
@@ -694,7 +846,7 @@
 
     <dialog id="toc-popup" class="p-0">
       <div class="header d-flex flex-row align-items-center justify-content-between">
-        <div class="label text-truncate py-2 ms-4">[iOS] SDK does not contain 'libarclite' at the path 에러 해결법</div>
+        <div class="label text-truncate py-2 ms-4">JPA N+1 문제 해결하기</div>
         <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
           <i class="fas fa-close"></i>
         </button>
@@ -704,39 +856,19 @@
   
 
   <div class="content">
-    <h2 id="에러"><span class="me-2">에러</span><a href="#에러" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>코코아 팟을 이용해서 Podfile에 라이브러리를 추가하고 프로젝트를 실행 했을 때 다음과 같은 에러가 뜰 때 해결법을 공유하겠습니다!</p>
+    <h2 id="n1-문제란"><span class="me-2">N+1 문제란?</span><a href="#n1-문제란" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p><code class="language-plaintext highlighter-rouge">N+1 문제</code>는 데이터를 <code class="language-plaintext highlighter-rouge">1건 조회</code>했을 때, 연관된 데이터를 가져오기 위해 <code class="language-plaintext highlighter-rouge">N번의 쿼리가 추가로 실행되는 현상</code>입니다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="code-header">
-        <span data-label-text="Swift"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="nv">clang</span><span class="p">:</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">SDK</span> <span class="n">does</span> <span class="n">not</span> <span class="n">contain</span> <span class="err">'</span><span class="n">libarclite</span><span class="err">'</span> <span class="n">at</span> <span class="n">the</span> <span class="n">path</span> <span class="err">'</span><span class="sr">/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/</span><span class="n">libarclite_iphoneos</span><span class="o">.</span><span class="n">a</span><span class="err">'</span><span class="p">;</span> <span class="k">try</span> <span class="n">increasing</span> <span class="n">the</span> <span class="n">minimum</span> <span class="n">deployment</span> <span class="n">target</span>
-</pre></td></tr></tbody></table></code></div></div>
+<h2 id="n1-문제-발생-예시"><span class="me-2">N+1 문제 발생 예시</span><a href="#n1-문제-발생-예시" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p><code class="language-plaintext highlighter-rouge">팀(Team)</code>이 10개 있다고 가정하고</p>
 
-<h2 id="해결법"><span class="me-2">해결법</span><a href="#해결법" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>Podfile 최하단에 추가하고 <code class="language-plaintext highlighter-rouge">pod install</code>을 다시 하시면 됩니다.</p>
+<p><code class="language-plaintext highlighter-rouge">팀(Team) 목록을 조회</code>한 뒤, 각 팀의 <code class="language-plaintext highlighter-rouge">멤버(Member)를 조회</code>하면</p>
 
-<div class="language-swift highlighter-rouge"><div class="code-header">
-        <span data-label-text="Swift"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre><span class="n">post_install</span> <span class="k">do</span> <span class="o">|</span><span class="n">installer</span><span class="o">|</span>
-  <span class="n">installer</span><span class="o">.</span><span class="n">pods_project</span><span class="o">.</span><span class="n">targets</span><span class="o">.</span><span class="k">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">target</span><span class="o">|</span>
-    <span class="n">target</span><span class="o">.</span><span class="n">build_configurations</span><span class="o">.</span><span class="k">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">config</span><span class="o">|</span>
-      <span class="n">config</span><span class="o">.</span><span class="n">build_settings</span><span class="p">[</span><span class="err">'</span><span class="kt">IPHONEOS_DEPLOYMENT_TARGET</span><span class="err">'</span><span class="p">]</span> <span class="o">=</span> <span class="err">'</span><span class="mf">14.0</span><span class="err">'</span>
-    <span class="n">end</span>
-  <span class="n">end</span>
-<span class="n">end</span>
-</pre></td></tr></tbody></table></code></div></div>
+<p>총 <strong>11번(1+10(N))의 쿼리가 발생</strong>합니다.</p>
 
-<h2 id="예시"><span class="me-2">예시</span><a href="#예시" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<div class="language-swift highlighter-rouge"><div class="code-header">
-        <span data-label-text="Swift"><i class="fas fa-code fa-fw small"></i></span>
+<h3 id="왜-11번의-쿼리가-발생하게-되는가"><span class="me-2">왜 11번의 쿼리가 발생하게 되는가?</span><a href="#왜-11번의-쿼리가-발생하게-되는가" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -758,28 +890,291 @@
 19
 20
 21
-</pre></td><td class="rouge-code"><pre><span class="cp"># Uncomment the next line to define a global platform for your project</span>
-<span class="nv">platform</span> <span class="p">:</span><span class="n">ios</span><span class="p">,</span> <span class="err">'</span><span class="mf">14.0</span><span class="err">'</span>
+22
+23
+24
+</pre></td><td class="rouge-code"><pre><span class="nd">@Entity</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Team</span> <span class="o">{</span>
+    <span class="nd">@Id</span>
+    <span class="nd">@GeneratedValue</span><span class="o">(</span><span class="n">strategy</span> <span class="o">=</span> <span class="nc">GenerationType</span><span class="o">.</span><span class="na">IDENTITY</span><span class="o">)</span>
+    <span class="kd">private</span> <span class="nc">Long</span> <span class="n">id</span><span class="o">;</span>
 
-<span class="n">target</span> <span class="err">'</span><span class="kt">TestProject</span><span class="err">'</span> <span class="k">do</span>
-  <span class="cp"># Comment the next line if you don't want to use dynamic frameworks</span>
-  <span class="n">use_frameworks</span><span class="o">!</span>
+    <span class="kd">private</span> <span class="nc">String</span> <span class="n">name</span><span class="o">;</span>
 
-  <span class="cp"># Pods for TestProject</span>
-  <span class="n">pod</span> <span class="err">'</span><span class="kt">RxSwift</span><span class="err">'</span>
-  <span class="n">pod</span> <span class="err">'</span><span class="kt">SnapKit</span><span class="err">'</span>
-  <span class="n">pod</span> <span class="err">'</span><span class="kt">FSCalendar</span><span class="err">'</span>
+    <span class="nd">@OneToMany</span><span class="o">(</span><span class="n">mappedBy</span> <span class="o">=</span> <span class="s">"team"</span><span class="o">,</span> <span class="n">fetch</span> <span class="o">=</span> <span class="nc">FetchType</span><span class="o">.</span><span class="na">LAZY</span><span class="o">)</span>
+    <span class="kd">private</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Member</span><span class="o">&gt;</span> <span class="n">members</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
+<span class="o">}</span>
 
-<span class="n">end</span>
+<span class="nd">@Entity</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Member</span> <span class="o">{</span>
+    <span class="nd">@Id</span>
+    <span class="nd">@GeneratedValue</span><span class="o">(</span><span class="n">strategy</span> <span class="o">=</span> <span class="nc">GenerationType</span><span class="o">.</span><span class="na">IDENTITY</span><span class="o">)</span>
+    <span class="kd">private</span> <span class="nc">Long</span> <span class="n">id</span><span class="o">;</span>
 
-<span class="n">post_install</span> <span class="k">do</span> <span class="o">|</span><span class="n">installer</span><span class="o">|</span>
-  <span class="n">installer</span><span class="o">.</span><span class="n">pods_project</span><span class="o">.</span><span class="n">targets</span><span class="o">.</span><span class="k">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">target</span><span class="o">|</span>
-    <span class="n">target</span><span class="o">.</span><span class="n">build_configurations</span><span class="o">.</span><span class="k">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">config</span><span class="o">|</span>
-      <span class="n">config</span><span class="o">.</span><span class="n">build_settings</span><span class="p">[</span><span class="err">'</span><span class="kt">IPHONEOS_DEPLOYMENT_TARGET</span><span class="err">'</span><span class="p">]</span> <span class="o">=</span> <span class="err">'</span><span class="mf">14.0</span><span class="err">'</span>
-    <span class="n">end</span>
-  <span class="n">end</span>
-<span class="n">end</span>
+    <span class="kd">private</span> <span class="nc">String</span> <span class="n">name</span><span class="o">;</span>
+
+    <span class="nd">@ManyToOne</span><span class="o">(</span><span class="n">fetch</span> <span class="o">=</span> <span class="nc">FetchType</span><span class="o">.</span><span class="na">LAZY</span><span class="o">)</span>
+    <span class="nd">@JoinColumn</span><span class="o">(</span><span class="n">name</span> <span class="o">=</span> <span class="s">"team_id"</span><span class="o">)</span>
+    <span class="kd">private</span> <span class="nc">Team</span> <span class="n">team</span><span class="o">;</span>
+<span class="o">}</span>
 </pre></td></tr></tbody></table></code></div></div>
+<p>이렇게 <code class="language-plaintext highlighter-rouge">팀(Team)</code> 과 <code class="language-plaintext highlighter-rouge">멤버(Member)</code>가 연관 관계를 가지고 있다고 하겠습니다.</p>
+
+<h3 id="n1-발생-코드"><span class="me-2">N+1 발생 코드</span><a href="#n1-발생-코드" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="rouge-code"><pre><span class="kd">public</span> <span class="kt">void</span> <span class="nf">findAllTeamsWithNPlusOneProblem</span><span class="o">()</span> <span class="o">{</span>
+    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"N+1 시작"</span><span class="o">);</span>
+    <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Team</span><span class="o">&gt;</span> <span class="n">teams</span> <span class="o">=</span> <span class="n">teamRepository</span><span class="o">.</span><span class="na">findAll</span><span class="o">();</span>
+    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"팀 조회 끝"</span><span class="o">);</span>
+
+    <span class="k">for</span> <span class="o">(</span><span class="nc">Team</span> <span class="n">team</span> <span class="o">:</span> <span class="n">teams</span><span class="o">)</span> <span class="o">{</span>
+        <span class="c1">// 각 팀의 멤버 조회 쿼리 발생 (N번)</span>
+        <span class="n">team</span><span class="o">.</span><span class="na">getMembers</span><span class="o">().</span><span class="na">size</span><span class="o">();</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h4 id="로그-확인"><span class="me-2">로그 확인</span><a href="#로그-확인" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<div class="language-sql highlighter-rouge"><div class="code-header">
+        <span data-label-text="Sql"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre><span class="c1">-- 팀 전체 조회 (1번)</span>
+<span class="k">select</span> <span class="n">t1_0</span><span class="p">.</span><span class="n">id</span><span class="p">,</span> <span class="n">t1_0</span><span class="p">.</span><span class="n">name</span> <span class="k">from</span> <span class="n">team</span> <span class="n">t1_0</span><span class="p">;</span>
+
+<span class="c1">-- 각 팀의 멤버 조회 (N번)</span>
+<span class="k">select</span> <span class="n">m1_0</span><span class="p">.</span><span class="n">team_id</span><span class="p">,</span><span class="n">m1_0</span><span class="p">.</span><span class="n">id</span><span class="p">,</span><span class="n">m1_0</span><span class="p">.</span><span class="n">name</span> <span class="k">from</span> <span class="n">member</span> <span class="n">m1_0</span> <span class="k">where</span> <span class="n">m1_0</span><span class="p">.</span><span class="n">team_id</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+<span class="p">...</span>
+<span class="k">select</span> <span class="n">m1_0</span><span class="p">.</span><span class="n">team_id</span><span class="p">,</span><span class="n">m1_0</span><span class="p">.</span><span class="n">id</span><span class="p">,</span><span class="n">m1_0</span><span class="p">.</span><span class="n">name</span> <span class="k">from</span> <span class="n">member</span> <span class="n">m1_0</span> <span class="k">where</span> <span class="n">m1_0</span><span class="p">.</span><span class="n">team_id</span><span class="o">=</span><span class="mi">10</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></div></div>
+<p>지금처럼 <code class="language-plaintext highlighter-rouge">LAZY</code> 로딩이라도 <code class="language-plaintext highlighter-rouge">연관 데이터에 접근하는 순간</code> 쿼리가 발생합니다.</p>
+
+<h2 id="해결-방법"><span class="me-2">해결 방법</span><a href="#해결-방법" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<h3 id="fetch-join"><span class="me-2">Fetch Join</span><a href="#fetch-join" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>JPQL에서 <code class="language-plaintext highlighter-rouge">JOIN FETCH</code>를 사용하여 연관된 엔티티를 한 번에 조회합니다.</p>
+
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">TeamRepository</span> <span class="kd">extends</span> <span class="nc">JpaRepository</span><span class="o">&lt;</span><span class="nc">Team</span><span class="o">,</span> <span class="nc">Long</span><span class="o">&gt;</span> <span class="o">{</span>
+
+    <span class="nd">@Query</span><span class="o">(</span><span class="s">"SELECT t FROM Team t JOIN FETCH t.members"</span><span class="o">)</span>
+    <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Team</span><span class="o">&gt;</span> <span class="nf">findAllWithMembers</span><span class="o">();</span>
+<span class="o">}</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h4 id="로그-확인-1"><span class="me-2">로그 확인</span><a href="#로그-확인-1" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<div class="language-sql highlighter-rouge"><div class="code-header">
+        <span data-label-text="Sql"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre><span class="k">select</span>
+        <span class="n">t1_0</span><span class="p">.</span><span class="n">id</span><span class="p">,</span>
+        <span class="n">m1_0</span><span class="p">.</span><span class="n">team_id</span><span class="p">,</span>
+        <span class="n">m1_0</span><span class="p">.</span><span class="n">id</span><span class="p">,</span>
+        <span class="n">m1_0</span><span class="p">.</span><span class="n">name</span><span class="p">,</span>
+        <span class="n">t1_0</span><span class="p">.</span><span class="n">name</span> 
+    <span class="k">from</span>
+        <span class="n">team</span> <span class="n">t1_0</span> 
+    <span class="k">join</span>
+        <span class="n">member</span> <span class="n">m1_0</span> 
+            <span class="k">on</span> <span class="n">t1_0</span><span class="p">.</span><span class="n">id</span><span class="o">=</span><span class="n">m1_0</span><span class="p">.</span><span class="n">team_id</span>
+</pre></td></tr></tbody></table></code></div></div>
+<p>한 번에 조회하지만, 페이징이랑 같이쓰면 상당히 위험합니다.</p>
+
+<h3 id="fetch-join을-페이징하면-왜-위험한가"><span class="me-2">Fetch Join을 페이징하면 왜 위험한가?</span><a href="#fetch-join을-페이징하면-왜-위험한가" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="c1">// Fetch Join + 페이징</span>
+<span class="nd">@Query</span><span class="o">(</span><span class="s">"SELECT t FROM Team t JOIN FETCH t.members"</span><span class="o">)</span>
+<span class="nc">Page</span><span class="o">&lt;</span><span class="nc">Team</span><span class="o">&gt;</span> <span class="nf">findAllWithMembersByFetchJoinAndPaging</span><span class="o">(</span><span class="nc">Pageable</span> <span class="n">pageable</span><span class="o">);</span>
+</pre></td></tr></tbody></table></code></div></div>
+<p><strong>실제 데이터</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Team</code> 1,000개</li>
+  <li>각 <code class="language-plaintext highlighter-rouge">Team</code>당 <code class="language-plaintext highlighter-rouge">Member</code> 50명</li>
+</ul>
+
+<p><strong>원하는 결과</strong>
+<code class="language-plaintext highlighter-rouge">Team</code> 10개 조회 (<code class="language-plaintext highlighter-rouge">Member</code> 포함해서 약 500 rows)</p>
+
+<h4 id="테스트-시작"><span class="me-2">테스트 시작!</span><a href="#테스트-시작" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre><span class="c1">// 1개 요청</span>
+<span class="nc">PageRequest</span> <span class="n">pageRequest</span> <span class="o">=</span> <span class="nc">PageRequest</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="mi">1</span><span class="o">);</span>
+
+<span class="nc">Page</span><span class="o">&lt;</span><span class="nc">Team</span><span class="o">&gt;</span> <span class="n">teams</span> <span class="o">=</span> <span class="n">teamRepository</span><span class="o">.</span><span class="na">findAllWithMembersByFetchJoinAndPaging</span><span class="o">(</span><span class="n">pageRequest</span><span class="o">);</span>
+
+<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"&gt;&gt;&gt; 조회된 팀 수: "</span> <span class="o">+</span> <span class="n">teams</span><span class="o">.</span><span class="na">getContent</span><span class="o">().</span><span class="na">size</span><span class="o">());</span>
+<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"&gt;&gt;&gt; 전체 팀 수: "</span> <span class="o">+</span> <span class="n">teams</span><span class="o">.</span><span class="na">getTotalElements</span><span class="o">());</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>HHH90003004: firstResult/maxResults specified with 
+collection fetch; applying in memory
+</pre></td></tr></tbody></table></code></div></div>
+<p>테스트를 실행하게 되면 이런 메시지를 얻을 수 있습니다.
+<br />
+위 뜻을 해석하면, 페이징(LIMIT/OFFSET)을 요청했지만</p>
+<ul>
+  <li>LIMIT : setFirstResult()</li>
+  <li>OFFSET : setMaxResults()</li>
+</ul>
+
+<p>Collection 에 fetch join을 같이 썼으니 <code class="language-plaintext highlighter-rouge">DB에서 페이징 못하고 메모리에서 처리</code>한다.
+<br />
+즉, 메모리에서 처리한다는 건 일단 <code class="language-plaintext highlighter-rouge">전부 다 조회한다</code>는 뜻입니다.</p>
+
+<h4 id="로그-확인-2"><span class="me-2">로그 확인</span><a href="#로그-확인-2" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<div class="language-sql highlighter-rouge"><div class="code-header">
+        <span data-label-text="Sql"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre><span class="k">select</span>
+        <span class="k">count</span><span class="p">(</span><span class="n">t1_0</span><span class="p">.</span><span class="n">id</span><span class="p">)</span> 
+    <span class="k">from</span>
+        <span class="n">team</span> <span class="n">t1_0</span> 
+    <span class="k">join</span>
+        <span class="n">member</span> <span class="n">m1_0</span> 
+            <span class="k">on</span> <span class="n">t1_0</span><span class="p">.</span><span class="n">id</span><span class="o">=</span><span class="n">m1_0</span><span class="p">.</span><span class="n">team_id</span>
+</pre></td></tr></tbody></table></code></div></div>
+<p>여기서 <strong>반드시 기억할 것</strong>은 <code class="language-plaintext highlighter-rouge">Fetch Join + 페이징</code> 사용 금지</p>
+
+<h3 id="entitygraph"><span class="me-2">@EntityGraph</span><a href="#entitygraph" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>어노테이션 기반으로 Fetch Join과 동일한 작업이 가능합니다.</p>
+
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">TeamRepository</span> <span class="kd">extends</span> <span class="nc">JpaRepository</span><span class="o">&lt;</span><span class="nc">Team</span><span class="o">,</span> <span class="nc">Long</span><span class="o">&gt;</span> <span class="o">{</span>
+
+    <span class="nd">@EntityGraph</span><span class="o">(</span><span class="n">attributePaths</span> <span class="o">=</span> <span class="o">{</span><span class="s">"members"</span><span class="o">})</span>
+    <span class="nd">@Query</span><span class="o">(</span><span class="s">"SELECT t FROM Team t"</span><span class="o">)</span>
+    <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Team</span><span class="o">&gt;</span> <span class="nf">findAllWithMembersByEntityGraph</span><span class="o">();</span>
+<span class="o">}</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h3 id="batchsize"><span class="me-2">@BatchSize</span><a href="#batchsize" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p><code class="language-plaintext highlighter-rouge">@BatchSize</code>를 사용하면 N번의 쿼리를 IN 쿼리로 묶어서 실행합니다.</p>
+
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td><td class="rouge-code"><pre><span class="nd">@Entity</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Team</span> <span class="o">{</span>
+    <span class="nd">@Id</span>
+    <span class="nd">@GeneratedValue</span><span class="o">(</span><span class="n">strategy</span> <span class="o">=</span> <span class="nc">GenerationType</span><span class="o">.</span><span class="na">IDENTITY</span><span class="o">)</span>
+    <span class="kd">private</span> <span class="nc">Long</span> <span class="n">id</span><span class="o">;</span>
+
+    <span class="kd">private</span> <span class="nc">String</span> <span class="n">name</span><span class="o">;</span>
+
+    <span class="nd">@BatchSize</span><span class="o">(</span><span class="n">size</span> <span class="o">=</span> <span class="mi">100</span><span class="o">)</span>
+    <span class="nd">@OneToMany</span><span class="o">(</span><span class="n">mappedBy</span> <span class="o">=</span> <span class="s">"team"</span><span class="o">,</span> <span class="n">fetch</span> <span class="o">=</span> <span class="nc">FetchType</span><span class="o">.</span><span class="na">LAZY</span><span class="o">)</span>
+    <span class="kd">private</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Member</span><span class="o">&gt;</span> <span class="n">members</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
+<span class="o">}</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>또는 <code class="language-plaintext highlighter-rouge">application.properties</code>에서 전역 설정:</p>
+<div class="language-properties highlighter-rouge"><div class="code-header">
+        <span data-label-text="Properties"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="py">spring.jpa.properties.hibernate.default_batch_fetch_size</span><span class="p">=</span><span class="s">100</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>단, <code class="language-plaintext highlighter-rouge">@BatchSize</code>의 <code class="language-plaintext highlighter-rouge">size</code>는 너무 크면 IN 절이 길어져서 DB 성능에 영향을 줄 수 있습니다.</p>
+
+<h4 id="로그-확인-3"><span class="me-2">로그 확인</span><a href="#로그-확인-3" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<div class="language-sql highlighter-rouge"><div class="code-header">
+        <span data-label-text="Sql"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre><span class="k">select</span>
+        <span class="n">m1_0</span><span class="p">.</span><span class="n">team_id</span><span class="p">,</span>
+        <span class="n">m1_0</span><span class="p">.</span><span class="n">id</span><span class="p">,</span>
+        <span class="n">m1_0</span><span class="p">.</span><span class="n">name</span> 
+    <span class="k">from</span>
+        <span class="n">member_batch</span> <span class="n">m1_0</span> 
+    <span class="k">where</span>
+        <span class="n">m1_0</span><span class="p">.</span><span class="n">team_id</span> <span class="k">in</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="p">...);</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h3 id="n--1-해결-방법-요약"><span class="me-2">N + 1 해결 방법 요약</span><a href="#n--1-해결-방법-요약" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<ul>
+  <li><strong>단건 조회 + 연관 데이터 필요:</strong> Fetch Join 또는 @EntityGraph</li>
+  <li><strong>목록 조회 + 페이징 필요:</strong> @BatchSize (전역 설정 추천)</li>
+  <li><strong>대량 데이터 조회:</strong> @BatchSize + 적절한 size 조정</li>
+</ul>
 
   </div>
 
@@ -789,7 +1184,7 @@
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
         
-          <a href="/categories/ios/">iOS</a>
+          <a href="/categories/spring-boot/">Spring Boot</a>
       </div>
     
 
@@ -799,19 +1194,14 @@
         <i class="fa fa-tags fa-fw me-1"></i>
         
           <a
-            href="/tags/xcode/"
+            href="/tags/spring-boot/"
             class="post-tag no-text-decoration"
-          >Xcode</a>
+          >Spring Boot</a>
         
           <a
-            href="/tags/ios/"
+            href="/tags/jpa/"
             class="post-tag no-text-decoration"
-          >iOS</a>
-        
-          <a
-            href="/tags/cocoapods/"
-            class="post-tag no-text-decoration"
-          >Cocoapods</a>
+          >JPA</a>
         
       </div>
     
@@ -847,21 +1237,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=[iOS]%20SDK%20does%20not%20contain%20'libarclite'%20at%20the%20path%20%EC%97%90%EB%9F%AC%20%ED%95%B4%EA%B2%B0%EB%B2%95%20-%20Jacksonjang%20Blog&url=%2Fposts%2Fcocoapods-errror-libarclite%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=JPA%20N+1%20%EB%AC%B8%EC%A0%9C%20%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0%20-%20Jacksonjang%20Blog&url=%2Fposts%2Fspring-jpa-n%2B1%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=[iOS]%20SDK%20does%20not%20contain%20'libarclite'%20at%20the%20path%20%EC%97%90%EB%9F%AC%20%ED%95%B4%EA%B2%B0%EB%B2%95%20-%20Jacksonjang%20Blog&u=%2Fposts%2Fcocoapods-errror-libarclite%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=JPA%20N+1%20%EB%AC%B8%EC%A0%9C%20%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0%20-%20Jacksonjang%20Blog&u=%2Fposts%2Fspring-jpa-n%2B1%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=%2Fposts%2Fcocoapods-errror-libarclite%2F&text=[iOS]%20SDK%20does%20not%20contain%20'libarclite'%20at%20the%20path%20%EC%97%90%EB%9F%AC%20%ED%95%B4%EA%B2%B0%EB%B2%95%20-%20Jacksonjang%20Blog" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=%2Fposts%2Fspring-jpa-n%2B1%2F&text=JPA%20N+1%20%EB%AC%B8%EC%A0%9C%20%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0%20-%20Jacksonjang%20Blog" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -2809,367 +3199,7 @@
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 
 
@@ -3185,7 +3215,7 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/xcode-console-not-showing/" class="post-preview card h-100">
+          <a href="/posts/database-replication-with-spring-boot/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -3197,23 +3227,23 @@
 
 <time
   
-  data-ts="1714384800"
+  data-ts="1755403200"
   data-df="ll"
   
 >
-  Apr 30, 2024
+  Aug 17, 2025
 </time>
 
-              <h4 class="pt-0 my-2">[Xcode] Console 로그를 볼 수 없을 때</h4>
+              <h4 class="pt-0 my-2">Spring Boot와 함께 Database Replication 사용하기</h4>
               <div class="text-muted">
-                <p>에러 갑자기 Xcode를 키고나서 콘솔 창이 안보여서 “Show the debug area”의 버튼을 눌러서 보여지게 할려고 했는데, 그마저도 Xcode 버그 때문에 보여지지 않아서 방법을 찾아봤습니다.  해결법 Command + Shift + Y 를 눌러서 보여주게 합니다!  관련링크 Can’t see console log</p>
+                <p>앞서 정리한 Database Replication 사용하기(with MySQL) 글에서 살펴본 것처럼,  Spring Boot 환경에서도 동일하게 적용할 수 있습니다.  Master/Source와 Slave/Replica의 명칭 관련해서는 설명의 편의를 위해 Master와 Replica를 사용하겠습니다. (MySQL 8.0 이후로 Master/Slav...</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/posts/native-hybrid-web-app/" class="post-preview card h-100">
+          <a href="/posts/spring-boot-error-handler/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -3225,23 +3255,23 @@
 
 <time
   
-  data-ts="1713607200"
+  data-ts="1754197200"
   data-df="ll"
   
 >
-  Apr 21, 2024
+  Aug  3, 2025
 </time>
 
-              <h4 class="pt-0 my-2">[CS] 네이티브앱 vs 하이브리드앱 vs 웹앱</h4>
+              <h4 class="pt-0 my-2">[Spring Boot] 에러를 효과적으로 처리하는 2가지 방법(@ExceptionHandler, @ControllerAdvice 사용)</h4>
               <div class="text-muted">
-                <p>네이티브앱, 하이브리드앱, 웹앱에 대한 개념을 구체적으로 설명하기 위해 포스팅 했습니다.  네이티브앱(Native App) Android는 주로 Java와 Kotlin 언어로 개발되며, iOS는 Objective-C와 Swift를 사용하여 개발된 특정 플랫폼용 운영체제입니다.  다른 방식(하이브리드, 웹)에 비해 성능이 뛰어난 편이며 UI 만드는 것에...</p>
+                <p>왜 필요해요? 프로젝트를 진행하다 보면 에러 응답 포맷을 변경해야 하는 상황이 생길 수 있습니다. 예를 들어, 고객 요구사항 변경, 공통 응답 규격 개편, 코드 리팩터링 등..  이때 모든 컨트롤러에 동일한 보일러플레이트 코드가 존재해서 수정할 때 유지보수 비용이 커집니다.    try-catch 문 @RestController public class...</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/posts/ios-mvc-mvvm/" class="post-preview card h-100">
+          <a href="/posts/start-spring-boot/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -3253,16 +3283,16 @@
 
 <time
   
-  data-ts="1712466000"
+  data-ts="1712656800"
   data-df="ll"
   
 >
-  Apr  7, 2024
+  Apr 10, 2024
 </time>
 
-              <h4 class="pt-0 my-2">[CS] MVC vs MVVM 패턴</h4>
+              <h4 class="pt-0 my-2">[Spring Boot] 스프링부트 프로젝트 생성 </h4>
               <div class="text-muted">
-                <p>iOS 기준으로 Swift 언어를 사용해서 간단히 설명하겠습니다.   개요 제가 개발을 시작했었을 때, 처음 배웠던 아키텍처 패턴으로 MVC를 배웠었습니다.  아키텍처 패턴 중에서 제일 유명한 패턴으로 소프트웨어 개발에서 사용되고 있습니다.  하지만, 모바일 OS에서는 MVC를 대신해서 MVVM이 대중적으로 자리를 잡았습니다.  그렇지만 우리가 이러한...</p>
+                <p>start.spring.io에서 프로젝트 생성     Project : 사용할 빌드 자동화 도구   Language : 사용할 언어   Spring Boot : 스프링부트 버전   Group : 일반적으로 프로젝트의 도메인 이름을 거꾸로 써서 사용     예시 : jacksonjang.io 라면, io.jacksonjang           Artif...</p>
               </div>
             </div>
           </a>
@@ -3283,22 +3313,18 @@
 
   
     <a
-      href="/posts/xcode-console-not-showing/"
+      href="/posts/database-replication-with-spring-boot/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>[Xcode] Console 로그를 볼 수 없을 때</p>
+      <p>Spring Boot와 함께 Database Replication 사용하기</p>
     </a>
   
 
   
-    <a
-      href="/posts/cdn-jsdelivr-net-error/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>[Frontend] cdn.jsdelivr.net SSL 에러 사태</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 

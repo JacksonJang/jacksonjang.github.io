@@ -1,5 +1,13 @@
 [
   {
+    "title": "JPA N+1 문제 해결하기",
+    "url": "/posts/spring-jpa-n+1/",
+    "categories": "Spring Boot",
+    "tags": "Spring Boot, JPA",
+    "date": "2026-01-26 05:00:00 +0900",
+    "content": "N+1 문제란? N+1 문제는 데이터를 1건 조회했을 때, 연관된 데이터를 가져오기 위해 N번의 쿼리가 추가로 실행되는 현상입니다.  N+1 문제 발생 예시 팀(Team)이 10개 있다고 가정하고  팀(Team) 목록을 조회한 뒤, 각 팀의 멤버(Member)를 조회하면  총 11번(1+10(N))의 쿼리가 발생합니다.  왜 11번의 쿼리가 발생하게 ..."
+  },
+  {
     "title": "Spring Boot와 함께 Database Replication 사용하기",
     "url": "/posts/database-replication-with-spring-boot/",
     "categories": "Spring Boot",
