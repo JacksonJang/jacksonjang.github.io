@@ -13,7 +13,6 @@ tags:
 ---
 
 앞서 정리한 [Database Replication 사용하기(with MySQL)](/posts/database-replication/) 글에서 살펴본 것처럼,
-<br />
 Spring Boot 환경에서도 동일하게 적용할 수 있습니다.
 
 `Master/Source`와 `Slave/Replica`의 명칭 관련해서는 설명의 편의를 위해 `Master`와 `Replica`를 사용하겠습니다.
@@ -23,16 +22,17 @@ Spring Boot 환경에서도 동일하게 적용할 수 있습니다.
 ## @Transactional을 이용해서 사용하기
 `Spring Boot`에서는 `@Transactional` 을 통해 `Master`로 보낼지, `Replica`로 보낼지 정할 수 있습니다.
 
-`Spring Boot`에서는 기본적으로 DB(DataSource)에 연결할지 결정하는 기능은 내장되어 있지 않기 때문에 <br />
-`readOnly = false`가 `Master DataSource`로 <br />
+`Spring Boot`에서는 기본적으로 DB(DataSource)에 연결할지 결정하는 기능은 내장되어 있지 않기 때문에
+`readOnly = false`가 `Master DataSource`로
 `readOnly = true`가 `Replica DataSource`로 연결되는 설정이 필요합니다.
 
 그럴려면 `AbstractRoutingDataSource` 를 상속 받아서 사용할 수 있게 해줘야 합니다.
 
 ## AbstractRoutingDataSource 란?
-`AbstractRoutingDataSource`는 `getConnection()`(DB 연결이 필요한 순간) 시점에 <br />
-`determineCurrentLookupKey()`로 현재 트랜잭션 컨텍스트(예: readOnly)에서 라우팅 키를 결정하고, <br />
-그 키에 매핑된 DataSource로 위임하는 추상 클래스입니다.<br /><br />
+`AbstractRoutingDataSource`는 `getConnection()`(DB 연결이 필요한 순간) 시점에
+`determineCurrentLookupKey()`로 현재 트랜잭션 컨텍스트(예: readOnly)에서 라우팅 키를 결정하고,
+그 키에 매핑된 DataSource로 위임하는 추상 클래스입니다.
+
 이 메커니즘을 통해 Write는 `Master`로, 읽기는 `Replica` 로 보낼 수 있습니다.
 
 
@@ -79,7 +79,7 @@ public class MasterDataSourceProps extends DataSourceProps { }
 @Setter
 public class ReplicaDataSourceProps extends DataSourceProps{ }
 ```
-공통 DataSource 설정을 위해 `DataSourceProps` 선언하고, 이를 상속 받아서 <br />
+공통 DataSource 설정을 위해 `DataSourceProps` 선언하고, 이를 상속 받아서
 `MasterDataSourceProps` 와 `ReplicaDataSourceProps`을 선언합니다.
 
 

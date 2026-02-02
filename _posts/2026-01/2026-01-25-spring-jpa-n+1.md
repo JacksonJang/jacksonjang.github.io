@@ -19,9 +19,7 @@ tags:
 
 ## N+1 문제 발생 예시
 `팀(Team)`이 10개 있다고 가정하고
-
 `팀(Team) 목록을 조회`한 뒤, 각 팀의 `멤버(Member)를 조회`하면
-
 총 **11번(1+10(N))의 쿼리가 발생**합니다.
 
 ### 왜 11번의 쿼리가 발생하게 되는가?
@@ -140,13 +138,13 @@ HHH90003004: firstResult/maxResults specified with
 collection fetch; applying in memory
 ```
 테스트를 실행하게 되면 이런 메시지를 얻을 수 있습니다.
-<br />
+
 위 뜻을 해석하면, 페이징(LIMIT/OFFSET)을 요청했지만
 - LIMIT : setFirstResult()
 - OFFSET : setMaxResults()
 
-Collection 에 fetch join을 같이 썼으니 `DB에서 페이징 못하고 메모리에서 처리`한다.
-<br />
+`Collection fetch join`과 같이 썼으니 `DB 레벨에서 페이징을 처리하지 못하고 메모리에 로드한 후 페이징을 적용`한다.
+
 즉, 메모리에서 처리한다는 건 일단 `전부 다 조회한다`는 뜻입니다.
 
 #### 로그 확인

@@ -17,16 +17,13 @@ tags:
 
 ## Database Replication 이란?
 사용자가 많은 서비스에서는 하나의 DB로 모든 요청을 처리하기 어려울 수 있습니다. 그래서 이를 해결하기 위해 고안된 기술이 `Database Replication`입니다.
-<br />
 
 `Database`를 `Replication`(복제)해서 DB Read/Write 역할을 나눠서 성능과 안정성을 증가시키고, 일반적으로 Source/Replica 구조를 사용하며 다음과 같은 역할을 수행합니다.
 
 - Source(혹은 Master) : Write(INSERT, UPDATE, DELETE)
 - Replica(혹은 Slave) : Read(SELECT)
-<br />
 
 *참고 : MySQL 8.0 이후로 `Master/Slave` -> `Source/Replica` 로 변경되었습니다.
-<br />
 그렇지만, 설명의 편의성을 위해 `Master/Slave`로 설명하겠습니다.
 
 ## 테스트 진행
@@ -77,7 +74,6 @@ volumes:
 ```
 
 `docker-compose.yml`을 복사해서 파일 생성 후 `docker-compse up -d` 후에 아래 명령어를 통해 복제 전용 계정을 마스터에 생성합니다.
-<br />
 -> 이렇게 복제 전용 계정을 생성하는 이유는 `REPLICATION SLAVE` 와 `REPLICATION CLIENT`의 권한만 필요하기 때문에 전용 계정을 생성하는 게 좋습니다.
 
 ### 복제 전용 계정 생성(Master DB에서 진행)
@@ -120,7 +116,6 @@ docker exec -it mysql-replica mysql -uroot -prootpass -e "
 "
 ```
 `SOURCE_LOG_FILE` = `File`
-<br />
 `SOURCE_LOG_POS` = `Position`
 
 이 때, [Master 바이너리](#master-바이너리-로그-위치-확인)에서 기록했었던 `File`과 `Position` 을 작성하면 됩니다.
@@ -130,9 +125,7 @@ docker exec -it mysql-replica mysql -uroot -prootpass -e "
 docker exec -it mysql-replica mysql -uroot -prootpass -e "SHOW REPLICA STATUS\G" | sed -n '1,120p'
 ```
 `Replica_IO_Running`, `Replica_SQL_Running` 가 `YES`
-<br />
 `Seconds_Behind_Source` 가 0이면 됩니다.
-<br />
 (NULL 이면 실패)
 
 ### 테스트 시작~
@@ -140,22 +133,16 @@ docker exec -it mysql-replica mysql -uroot -prootpass -e "SHOW REPLICA STATUS\G"
 CREATE TABLE IF NOT EXISTS t(id INT PRIMARY KEY, v VARCHAR(50))
 ```
 위 명령어를 `Master`에서 실행시켜서 자동으로 `Slave(Replica)`에 생성된 것을 확인했습니다^^
-<br />
 <img src="{{ page.post_assets }}/check-replication.png">
 
 ~~신기하네요~~
-
-<br />
-<br />
 
 그렇다면, 반대로 `Slave`에서 테이블을 생성하려고 한다면?
 
 <img src="{{ page.post_assets }}/replica-create.png">
 
 사진처럼 정상적으로 테이블이 생성되고 `Master`에서는 생성되지 않은 모습을 볼 수 있습니다.
-<br />
 그런데 앞서 우리는 [Database Replication 이란?](#database-replication-이란) 섹션에서 `Slave`는 `Read`의 역할만 한다는 것을 확인했습니다.
-<br />
 
 그럼 `read_only`가 `ON` 상태가 아닐까요?
 
@@ -166,7 +153,6 @@ docker exec -it mysql-replica mysql -uroot -prootpass -e "SHOW VARIABLES LIKE 'r
 <img src="{{ page.post_assets }}/read-only-check.png">
 
 확인한 결과 이미 `read_only`가 `ON` 상태로 된 것을 확인할 수 있습니다.
-<br />
 그렇다면, 왜 이런 현상이 발생할까요?
 
 정답은 `super-read-only` 값을 설정하지 않아서 그렇습니다.

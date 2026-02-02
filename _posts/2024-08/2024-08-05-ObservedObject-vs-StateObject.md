@@ -34,9 +34,7 @@ public protocol ObservableObject : AnyObject {
 }
 ```
 ObservableObject 는 AnyObject를 상속받은 프로토콜 입니다.
-<br />
 주로 `상태 관리`, `데이터 바인딩` 역할을 하는 `Publisher`를 포함한 객체입니다.
-<br />
 그리고 여기서 `상태 관리`, `데이터 바인딩` 에 대한 관리는 `@StateObject`, `@ObservedObject`를 사용해서 가능합니다.
 
 예시를 진행하기 위해 간단한 모델을 생성하곘습니다
@@ -51,7 +49,6 @@ struct CustomModel: Identifiable {
 
 ## @StateObject
 부모 뷰에서 해당 객체를 소유하고 관리합니다.
-<br />
 즉, 뷰가 생성될 때 객체도 생성되며, 뷰가 사라질 때 객체도 같이 소멸되며 부모 뷰의 생명주기와 함께 유지됩니다.
 
 ### @StateObject 예시코드
@@ -86,7 +83,6 @@ struct ContentView: View {
 
 ## @ObservedObject
 부모 뷰에서 전달된 ObservableObject를 자식 뷰에서 감지할 때 사용합니다.
-<br />
 부모 뷰에서 자식 뷰에게 @StateObject를 전달하면, 자식 뷰에서는 @ObservedObject를 이용해서 참조하게 됩니다.
 
 ### @ObservedObject 예시코드
