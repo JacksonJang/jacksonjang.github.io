@@ -816,9 +816,7 @@
     <h2 id="왜-필요해요"><span class="me-2">왜 필요해요?</span><a href="#왜-필요해요" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p>프로젝트를 진행하다 보면 에러 응답 포맷을 변경해야 하는 상황이 생길 수 있습니다. 예를 들어, 고객 요구사항 변경, 공통 응답 규격 개편, 코드 리팩터링 등..</p>
 
-<p>이때 모든 컨트롤러에 동일한 보일러플레이트 코드가 존재해서 수정할 때 유지보수 비용이 커집니다.
-<br />
-<br /></p>
+<p>이때 모든 컨트롤러에 동일한 보일러플레이트 코드가 존재해서 수정할 때 유지보수 비용이 커집니다.</p>
 
 <h2 id="try-catch-문"><span class="me-2">try-catch 문</span><a href="#try-catch-문" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <div class="language-java highlighter-rouge"><div class="code-header">
@@ -868,12 +866,9 @@
 
 <span class="o">}</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p>위와 같이 공통적인 에러를 처리할 때 각 메서드마다 <code class="language-plaintext highlighter-rouge">try-catch</code> 구문을 작성하는 방식은 실제로 간단하지만, 프로젝트의 규모가 커질수록 유지보수가 어려워지는 예시를 보여주고 있습니다.
-<br /></p>
+<p>위와 같이 공통적인 에러를 처리할 때 각 메서드마다 <code class="language-plaintext highlighter-rouge">try-catch</code> 구문을 작성하는 방식은 실제로 간단하지만, 프로젝트의 규모가 커질수록 유지보수가 어려워지는 예시를 보여주고 있습니다.</p>
 
-<p>그렇다면, <code class="language-plaintext highlighter-rouge">@ExceptionHandler</code> 와 <code class="language-plaintext highlighter-rouge">@ControllerAdvice</code> 를 같이 사용하면 어떻게 될까요?
-<br />
-<br /></p>
+<p>그렇다면, <code class="language-plaintext highlighter-rouge">@ExceptionHandler</code> 와 <code class="language-plaintext highlighter-rouge">@ControllerAdvice</code> 를 같이 사용하면 어떻게 될까요?</p>
 
 <h2 id="exceptionhandler--controlleradvice-사용"><span class="me-2">@ExceptionHandler + @ControllerAdvice 사용</span><a href="#exceptionhandler--controlleradvice-사용" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <div class="language-java highlighter-rouge"><div class="code-header">
@@ -895,13 +890,10 @@
 </pre></td></tr></tbody></table></code></div></div>
 <p><code class="language-plaintext highlighter-rouge">Exception</code> 에러 처리를 공통적으로 한번 묶어서 사용하니 이전보다 깔끔해 졌습니다.</p>
 
-<p>이제 <code class="language-plaintext highlighter-rouge">@ExcpetionHandler</code> 와 <code class="language-plaintext highlighter-rouge">@ControllerAdvice</code> 가 무엇이고, 어떤 역할을 하는지 각각 알아보겠습니다.
-<br />
-<br /></p>
+<p>이제 <code class="language-plaintext highlighter-rouge">@ExcpetionHandler</code> 와 <code class="language-plaintext highlighter-rouge">@ControllerAdvice</code> 가 무엇이고, 어떤 역할을 하는지 각각 알아보겠습니다.</p>
 
 <h2 id="exceptionhandler-란"><span class="me-2">@ExceptionHandler 란?</span><a href="#exceptionhandler-란" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><code class="language-plaintext highlighter-rouge">Spring MVC</code>에서 <code class="language-plaintext highlighter-rouge">컨트롤러 메서드</code>에서 발생한 예외를 처리하기 위해 사용하는 어노테이션입니다.
-<br />
+<p><code class="language-plaintext highlighter-rouge">Spring MVC</code>에서 <code class="language-plaintext highlighter-rouge">컨트롤러 메서드</code>에서 발생한 예외를 처리하기 위해 사용하는 어노테이션입니다.<br />
 선언한 컨트롤러에서만 발생하는 예외에 대해 처리한다고 보시면 됩니다.</p>
 
 <h3 id="exceptionhandler-예시코드"><span class="me-2">@ExceptionHandler 예시코드</span><a href="#exceptionhandler-예시코드" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
@@ -926,17 +918,12 @@
     <span class="k">return</span> <span class="s">"에러 발생: "</span> <span class="o">+</span> <span class="n">e</span><span class="o">.</span><span class="na">getMessage</span><span class="o">();</span>
   <span class="o">}</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p><br />
-<br /></p>
 
 <h2 id="controlleradvice-란"><span class="me-2">@ControllerAdvice 란?</span><a href="#controlleradvice-란" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p><code class="language-plaintext highlighter-rouge">Spring MVC</code>에서 <code class="language-plaintext highlighter-rouge">모든 컨트롤러</code>에 전역적으로 적용할 수 있는 기능을 제공하는 어노테이션입니다.</p>
 
-<p>에러 처리 외에도 데이터 바인딩, 전역 모델 속성도 추가할 수 있지만
-<br />
-<code class="language-plaintext highlighter-rouge">에러 처리</code>외 나머지 기능은 다른 글을 통해 소개할게요.
-<br />
-<br /></p>
+<p>에러 처리 외에도 데이터 바인딩, 전역 모델 속성도 추가할 수 있지만<br />
+<code class="language-plaintext highlighter-rouge">에러 처리</code>외 나머지 기능은 다른 글을 통해 소개할게요.</p>
 
 <h3 id="controlleradvice-예시코드"><span class="me-2">@ControllerAdvice 예시코드</span><a href="#controlleradvice-예시코드" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <div class="language-java highlighter-rouge"><div class="code-header">
@@ -956,9 +943,7 @@
   <span class="o">}</span>
 <span class="o">}</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p>위 코드는 <a href="#exceptionhandler--controlleradvice-사용">@ExceptionHandler + @ControllerAdvice 사용</a>에서 보셨던 코드와 동일합니다.
-<br />
-<br /></p>
+<p>위 코드는 <a href="#exceptionhandler--controlleradvice-사용">@ExceptionHandler + @ControllerAdvice 사용</a>에서 보셨던 코드와 동일합니다.</p>
 
 <h2 id="에러-처리-순서에-대해-주의하세요"><span class="me-2">에러 처리 순서에 대해 주의하세요!</span><a href="#에러-처리-순서에-대해-주의하세요" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p><code class="language-plaintext highlighter-rouge">@ExceptionHandler</code>와 <code class="language-plaintext highlighter-rouge">@ControllerAdvice</code>를 사용할 때, 주의할 내용이 있습니다.</p>
@@ -1005,7 +990,7 @@
 <p>아무리 <code class="language-plaintext highlighter-rouge">@ExceptionHandler</code>, <code class="language-plaintext highlighter-rouge">@ControllerAdvice</code> 를 사용한다고 해도 컨트롤러 메서드 안에 <code class="language-plaintext highlighter-rouge">try-catch</code> 를 사용한다면 <code class="language-plaintext highlighter-rouge">try-catch</code>가 우선적으로 적용됩니다.</p>
 
 <h2 id="restcontrolleradvice-란"><span class="me-2">@RestControllerAdvice 란?</span><a href="#restcontrolleradvice-란" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><code class="language-plaintext highlighter-rouge">@ControllerAdvice</code> 외 <code class="language-plaintext highlighter-rouge">@RestControllerAdvice</code> 도 있습니다.
+<p><code class="language-plaintext highlighter-rouge">@ControllerAdvice</code> 외 <code class="language-plaintext highlighter-rouge">@RestControllerAdvice</code> 도 있습니다.<br />
 <code class="language-plaintext highlighter-rouge">@RestControllerAdvice</code>는 단순하게 <code class="language-plaintext highlighter-rouge">@ControllerAdvice</code> 와 <code class="language-plaintext highlighter-rouge">@ResponseBody</code> 를 합친 어노테이션입니다.</p>
 
 <div class="language-java highlighter-rouge"><div class="code-header">
@@ -1024,13 +1009,11 @@
 <span class="kd">public</span> <span class="nd">@interface</span> <span class="nc">RestControllerAdvice</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>개인적으로 실무에서는 <code class="language-plaintext highlighter-rouge">@RestControllerAdvice</code>를 주로 사용하고 있어요.
-<br />
-<br /></p>
+<p>개인적으로 실무에서는 <code class="language-plaintext highlighter-rouge">@RestControllerAdvice</code>를 주로 사용하고 있어요.</p>
 
 <h2 id="예외-처리하는-우선순위-요약"><span class="me-2">예외 처리하는 우선순위 요약</span><a href="#예외-처리하는-우선순위-요약" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>우선순위가 높은 순서대로 나열했습니다.
-<br /></p>
+<p>우선순위가 높은 순서대로 나열했습니다.</p>
+
 <ol>
   <li>메서드 내부의 <a href="#try-catch-문">try-catch</a></li>
   <li><a href="#exceptionhandler-란"><code class="language-plaintext highlighter-rouge">@ExceptionHandler</code>(컨트롤러 내부 정의)</a></li>
@@ -1073,14 +1056,11 @@
 <span class="o">}</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<p><code class="language-plaintext highlighter-rouge">@Order</code>를 사용하면 여러 개의 <code class="language-plaintext highlighter-rouge">@ControllerAdvice</code>, <code class="language-plaintext highlighter-rouge">@RestControllerAdvice</code>가 존재할 때 순서를 정할 수 있습니다.
-<br />
+<p><code class="language-plaintext highlighter-rouge">@Order</code>를 사용하면 여러 개의 <code class="language-plaintext highlighter-rouge">@ControllerAdvice</code>, <code class="language-plaintext highlighter-rouge">@RestControllerAdvice</code>가 존재할 때 순서를 정할 수 있습니다.<br />
 (<a href="#예외-처리하는-우선순위-요약"><code class="language-plaintext highlighter-rouge">예외 처리하는 우선순위 요약</code></a>에 해당하는 1, 2번은 불가능)</p>
 
-<p><code class="language-plaintext highlighter-rouge">@Order</code> 의 설명을 보면, <code class="language-plaintext highlighter-rouge">Lower values have higher priority.</code> 로 되어 있습니다.
-<br />
-즉, <code class="language-plaintext highlighter-rouge">작은 값은 큰 우선순위를 갖는다.</code>라고 해석할 수 있으며,
-<br />
+<p><code class="language-plaintext highlighter-rouge">@Order</code> 의 설명을 보면, <code class="language-plaintext highlighter-rouge">Lower values have higher priority.</code> 로 되어 있습니다.<br />
+즉, <code class="language-plaintext highlighter-rouge">작은 값은 큰 우선순위를 갖는다.</code>라고 해석할 수 있으며,<br />
 아래처럼 <code class="language-plaintext highlighter-rouge">ErrorHandler</code>를 1순위로 줄 수 있습니다.</p>
 
 <div class="language-java highlighter-rouge"><div class="code-header">
@@ -3166,7 +3146,7 @@
 
               <h4 class="pt-0 my-2">JPA N+1 문제 해결하기</h4>
               <div class="text-muted">
-                <p>N+1 문제란? N+1 문제는 데이터를 1건 조회했을 때, 연관된 데이터를 가져오기 위해 N번의 쿼리가 추가로 실행되는 현상입니다.  N+1 문제 발생 예시 팀(Team)이 10개 있다고 가정하고  팀(Team) 목록을 조회한 뒤, 각 팀의 멤버(Member)를 조회하면  총 11번(1+10(N))의 쿼리가 발생합니다.  왜 11번의 쿼리가 발생하게 ...</p>
+                <p>N+1 문제란? N+1 문제는 데이터를 1건 조회했을 때, 연관된 데이터를 가져오기 위해 N번의 쿼리가 추가로 실행되는 현상입니다.  N+1 문제 발생 예시 팀(Team)이 10개 있다고 가정하고 팀(Team) 목록을 조회한 뒤, 각 팀의 멤버(Member)를 조회하면 총 11번(1+10(N))의 쿼리가 발생합니다.  왜 11번의 쿼리가 발생하게 되는...</p>
               </div>
             </div>
           </a>
@@ -3194,7 +3174,7 @@
 
               <h4 class="pt-0 my-2">Spring Boot와 함께 Database Replication 사용하기</h4>
               <div class="text-muted">
-                <p>앞서 정리한 Database Replication 사용하기(with MySQL) 글에서 살펴본 것처럼,  Spring Boot 환경에서도 동일하게 적용할 수 있습니다.  Master/Source와 Slave/Replica의 명칭 관련해서는 설명의 편의를 위해 Master와 Replica를 사용하겠습니다. (MySQL 8.0 이후로 Master/Slav...</p>
+                <p>앞서 정리한 Database Replication 사용하기(with MySQL) 글에서 살펴본 것처럼, Spring Boot 환경에서도 동일하게 적용할 수 있습니다.  Master/Source와 Slave/Replica의 명칭 관련해서는 설명의 편의를 위해 Master와 Replica를 사용하겠습니다. (MySQL 8.0 이후로 Master/Slave...</p>
               </div>
             </div>
           </a>

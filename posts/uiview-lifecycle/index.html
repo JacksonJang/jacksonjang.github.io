@@ -836,8 +836,8 @@
 
 <span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">coder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p><code class="language-plaintext highlighter-rouge">init?(coder: NSCoder)</code>는 스토리보드를 통해 생성할 때 호출됩니다.
-<br />
+<p><code class="language-plaintext highlighter-rouge">init?(coder: NSCoder)</code>는 스토리보드를 통해 생성할 때 호출됩니다.<br />
+<br /><br />
 <code class="language-plaintext highlighter-rouge">init(frame: CGRect)</code> 는 코드 베이스로 생성할 때 호출됩니다.</p>
 
 <h2 id="willmovetosuperview"><span class="me-2"><a href="https://developer.apple.com/documentation/uikit/uiview/1622629-willmove">willMove(toSuperview:)</a></span><a href="#willmovetosuperview" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
@@ -846,7 +846,7 @@
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre><span class="kd">open</span> <span class="kd">func</span> <span class="nf">willMove</span><span class="p">(</span><span class="n">toSuperview</span> <span class="nv">newSuperview</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?)</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p>뷰가 뷰 계층에 추가되기 전에 호출됩니다.
+<p>뷰가 뷰 계층에 추가되기 전에 호출됩니다.<br />
 만약 <code class="language-plaintext highlighter-rouge">newSuperview</code>가 <code class="language-plaintext highlighter-rouge">nil</code>이라면, 뷰가 뷰 계층에서 제거되는 것을 의미한다고 보시면 됩니다.</p>
 
 <h2 id="didmovetosuperview"><span class="me-2"><a href="https://developer.apple.com/documentation/uikit/uiview/1622433-didmovetosuperview">didMoveToSuperview()</a></span><a href="#didmovetosuperview" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
@@ -890,8 +890,8 @@
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre><span class="kd">open</span> <span class="kd">func</span> <span class="nf">draw</span><span class="p">(</span><span class="n">_</span> <span class="nv">rect</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p>뷰가 추가되어 화면에 추가되어 좌표 설정이 되면 호출됩니다.
-<br />
+<p>뷰가 추가되어 화면에 추가되어 좌표 설정이 되면 호출됩니다.<br />
+<br /><br />
 추가적으로, <code class="language-plaintext highlighter-rouge">setNeedsDisplay()</code> 메서드가 호출될 때 자동으로 draw 메서드가 호출됩니다.</p>
 <p />
 

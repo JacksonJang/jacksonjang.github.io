@@ -751,18 +751,18 @@
   <p>Ubuntu 20 버전을 사용하고 있습니다.</p>
 </blockquote>
 
-<p>난 오늘 실수로 sudo chmod 777 /usr/bin/ 을 통해 sudo 권한을 강제로 바꿔버려서 제목과 같은 에러를 겪어 버렸습니다..
-매우매우 치명적인 실수라 처음부터 다시 설치할까 싶었지만, 이 에러를 해결할 수 있을까 라는 생각이 들어서 직접 해결해
+<p>난 오늘 실수로 sudo chmod 777 /usr/bin/ 을 통해 sudo 권한을 강제로 바꿔버려서 제목과 같은 에러를 겪어 버렸습니다..<br />
+매우매우 치명적인 실수라 처음부터 다시 설치할까 싶었지만, 이 에러를 해결할 수 있을까 라는 생각이 들어서 직접 해결해<br />
 보기로 했습니다.</p>
 
-<p>방법을 찾아보니 Ubuntu 설치가 가능한 부팅 USB가 필요했었습니다.
+<p>방법을 찾아보니 Ubuntu 설치가 가능한 부팅 USB가 필요했었습니다.<br />
 다행히 설치할 때 포함된 Ubuntu USB가 있어서 굳이 따로 준비하진 않았습니다.</p>
 
 <h2 id="ubuntu-usb-부팅-시작설치화면-접근"><span class="me-2">Ubuntu USB 부팅 시작(설치화면 접근)</span><a href="#ubuntu-usb-부팅-시작설치화면-접근" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p>Ubuntu USB 부팅을 시작하면 “GNU GRUB” 화면에서 ubuntu, ubuntu(safe graphics), OEM install 등이 뜨게 되는데, ubuntu를 클릭해서 설치 화면으로 진입합니다.</p>
 
 <h2 id="ubuntu-설치화면에서-디스크-확인-먼저"><span class="me-2">Ubuntu 설치화면에서 디스크 확인 먼저</span><a href="#ubuntu-설치화면에서-디스크-확인-먼저" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>여기서는 Ubuntu 설치에 대한 화면을 볼 수 있습니다.
+<p>여기서는 Ubuntu 설치에 대한 화면을 볼 수 있습니다.<br />
 만약 Ubuntu Desktop 이라면, Ctrl + Alt + T 를 통해 터미널에 접근이 가능합니다.</p>
 
 <p>그럼 <strong>ubuntu@ubuntu:</strong> 상태의 터미널 창을 통해 시스템 마운트의 구성을 확인하실 수 있습니다.</p>
@@ -795,7 +795,7 @@
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>sudo chmod 4755 /mnt/usr/bin/sudo
 </pre></td></tr></tbody></table></code></div></div>
-<p>위 명령어를 통해 권한을 올바르게 설정합니다.
+<p>위 명령어를 통해 권한을 올바르게 설정합니다.<br />
 <strong>4755</strong> 권한 설정은 보안상 중요한 실행 파일에 자주 사용되는데, 특정 명령어를 루트 권한 또는 다른 사용자의 권한으로 실행할 수 있게 하기 위함입니다.</p>
 
   </div>

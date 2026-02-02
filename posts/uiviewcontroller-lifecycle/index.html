@@ -813,7 +813,7 @@
 
     <span class="kd">open</span> <span class="kd">func</span> <span class="nf">viewDidDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p>위에처럼 정의되어 있는 모습을 확인할 수 있습니다.
+<p>위에처럼 정의되어 있는 모습을 확인할 수 있습니다.<br />
 예전에는 <code class="language-plaintext highlighter-rouge">@MainActor</code>는 Swift 5.5에서 나온 개념으로 <strong>메인 쓰레드에서 실행되도록 보장하는 역할</strong> 이라고 보시면 됩니다.</p>
 
 <p>이제 하나씩 자세히 살펴 보겠습니다.</p>
@@ -858,7 +858,7 @@ you must not override this method.
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre><span class="kd">open</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p>viewDidLoad는 UIViewController의 view가 메모리에 올라가면 호출됩니다.
+<p>viewDidLoad는 UIViewController의 view가 메모리에 올라가면 호출됩니다.<br />
 위에서 이미 loadView를 통해 view가 올라가졌으니 viewDidLoad로 왔겠죠??</p>
 
 <p>위에서 설명한 메서드(init, loadView, viewDidLoad)들은 최초 1번만 호출됩니다.</p>
@@ -869,8 +869,8 @@ you must not override this method.
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre><span class="kd">open</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p>화면에 보이기 직전에 호출됩니다.
-<br />
+<p>화면에 보이기 직전에 호출됩니다.<br />
+<br /><br />
 그치만, 너무 오래 걸리는 작업을 여기에 넣게되면 버벅거리는걸 느끼게 될 수 있어서 가급적이면 viewDidLoad에서 처리하는게 좋아요.</p>
 <p />
 

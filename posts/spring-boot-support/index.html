@@ -1149,38 +1149,38 @@
 </ul>
 
 <h2 id="시작"><span class="me-2">시작</span><a href="#시작" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>안녕하세요.
-<br />
-다소 제목이 자극적이게 느껴질 수도 있겠지만, 시대가 빠르게 변화하면서 스프링부트도 빠르게 변화하고 있습니다. 
-<br />
+<p>안녕하세요.<br />
+<br /><br />
+다소 제목이 자극적이게 느껴질 수도 있겠지만, 시대가 빠르게 변화하면서 스프링부트도 빠르게 변화하고 있습니다. <br />
+<br /><br />
 보통 일반적인 경우로 스프링부트 2.7 버전을 많이 사용 했으며, 실제로 스프링부트 강의들도 보면 2.x 버전이 상당히 많습니다.(저 같은 경우엔 그랬습니다.)</p>
 
 <h2 id="startspringio"><span class="me-2"><a href="https://start.spring.io/">start.spring.io</a></span><a href="#startspringio" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><a href="/assets/posts/2024-04-08/spring_io_create.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-08/spring_io_create.png" loading="lazy"></a>
-프로젝트 생성을 해볼려고 하는데.. 어?
-<br />
-스프링부트 2.x 버전의 프로젝트를 더 이상 생성할 수 없더라고요..?
-<br />
+<p><a href="/assets/posts/2024-04-08/spring_io_create.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-08/spring_io_create.png" loading="lazy"></a><br />
+프로젝트 생성을 해볼려고 하는데.. 어?<br />
+<br /><br />
+스프링부트 2.x 버전의 프로젝트를 더 이상 생성할 수 없더라고요..?<br />
+<br /><br />
 그래서 조금 더 찾아보니까</p>
 <p />
 
-<p><a href="/assets/posts/2024-04-08/spring_io_stackoverflow.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-08/spring_io_stackoverflow.png" loading="lazy"></a>
+<p><a href="/assets/posts/2024-04-08/spring_io_stackoverflow.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-08/spring_io_stackoverflow.png" loading="lazy"></a><br />
 <a href="https://stackoverflow.com/questions/77538583/did-spring-initializr-stop-support-for-spring-boot-2-x">Stack Overflow</a>에서도 누군가가 질문을 했더라고요</p>
 
-<p>StackOverflow로는 자세히 알 수 없어서 공식 홈페이지를 찾아보니
-<br />
-<a href="/assets/posts/2024-04-08/spring_io_support.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-08/spring_io_support.png" loading="lazy"></a>
+<p>StackOverflow로는 자세히 알 수 없어서 공식 홈페이지를 찾아보니<br />
+<br /><br />
+<a href="/assets/posts/2024-04-08/spring_io_support.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-08/spring_io_support.png" loading="lazy"></a><br />
 2023년 11월부터 지원 중단했었습니다.</p>
 
 <h2 id="그럼-앞으로-어떻게-해야될까"><span class="me-2">“그럼 앞으로 어떻게 해야될까?”</span><a href="#그럼-앞으로-어떻게-해야될까" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><a href="/assets/posts/2024-04-08/springboot_youtube_java_17.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-08/springboot_youtube_java_17.png" loading="lazy"></a>
+<p><a href="/assets/posts/2024-04-08/springboot_youtube_java_17.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-08/springboot_youtube_java_17.png" loading="lazy"></a><br />
 <a href="https://youtu.be/HrRQExD3xow?t=1199">스프링부트 공식 유튜브 영상</a>에서도 SpringBoot3는 JDK17이 필요하다고 언급됩니다.</p>
 
 <p><strong>JDK17</strong>로 변경해서 사용합시다.</p>
 
 <h2 id="jdk17로-인해-톰캣도-변경이-필요하다"><span class="me-2">JDK17로 인해 톰캣도 변경이 필요하다</span><a href="#jdk17로-인해-톰캣도-변경이-필요하다" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><a href="/assets/posts/2024-04-08/apache-tomcat9.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-08/apache-tomcat9.png" loading="lazy"></a>
-[<a href="https://tomcat.apache.org/tomcat-9.0-doc/index.html">Tomcat 9.0 Document</a>]
+<p><a href="/assets/posts/2024-04-08/apache-tomcat9.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-08/apache-tomcat9.png" loading="lazy"></a><br />
+[<a href="https://tomcat.apache.org/tomcat-9.0-doc/index.html">Tomcat 9.0 Document</a>]<br />
 이전 SpringBoot2는 Servlet 4.0을 지원하고 있어서 Tomcat9 버전까지는 지원이 가능했습니다.</p>
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
         <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
@@ -1188,18 +1188,18 @@
 </pre></td><td class="rouge-code"><pre>Apache Tomcat version 9.0 implements the Servlet 4.0
 </pre></td></tr></tbody></table></code></div></div>
 
-<p><a href="/assets/posts/2024-04-08/springboot_docs.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-08/springboot_docs.png" loading="lazy"></a>
+<p><a href="/assets/posts/2024-04-08/springboot_docs.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-08/springboot_docs.png" loading="lazy"></a><br />
 <a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/">공식 홈페이지의 docs</a>에도 명시되어 있듯이 현재 SpringBoot3는 Servlet 5.0 이상을 지원하고 있으며, Tomcat 10.1을 지원한다고 명시되어 있습니다.</p>
 <blockquote>
   <p>Servlet 5.0은 <strong>javax.</strong>* 에서 <strong>jakarta.servlet</strong> 으로 변경된 버전입니다.</p>
 </blockquote>
 
-<p><br />
+<p><br /><br />
 따라서 앞으로는 스프링부트3 프로젝트를 JDK17과 함께 만들어서 사용합시다!</p>
 <p />
 
-<p>관련된 링크도 첨부할게요
-<br />
+<p>관련된 링크도 첨부할게요<br />
+<br /><br />
 관련링크 : <a href="https://spring.io/projects/spring-boot#support">https://spring.io/projects/spring-boot#support</a></p>
 
   </div>

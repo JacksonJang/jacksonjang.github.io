@@ -789,10 +789,8 @@ public protocol ObservableObject : AnyObject {
     var objectWillChange: Self.ObjectWillChangePublisher { get }
 }
 </pre></td></tr></tbody></table></code></div></div>
-<p>ObservableObject 는 AnyObject를 상속받은 프로토콜 입니다.
-<br />
-주로 <code class="language-plaintext highlighter-rouge">상태 관리</code>, <code class="language-plaintext highlighter-rouge">데이터 바인딩</code> 역할을 하는 <code class="language-plaintext highlighter-rouge">Publisher</code>를 포함한 객체입니다.
-<br />
+<p>ObservableObject 는 AnyObject를 상속받은 프로토콜 입니다.<br />
+주로 <code class="language-plaintext highlighter-rouge">상태 관리</code>, <code class="language-plaintext highlighter-rouge">데이터 바인딩</code> 역할을 하는 <code class="language-plaintext highlighter-rouge">Publisher</code>를 포함한 객체입니다.<br />
 그리고 여기서 <code class="language-plaintext highlighter-rouge">상태 관리</code>, <code class="language-plaintext highlighter-rouge">데이터 바인딩</code> 에 대한 관리는 <code class="language-plaintext highlighter-rouge">@StateObject</code>, <code class="language-plaintext highlighter-rouge">@ObservedObject</code>를 사용해서 가능합니다.</p>
 
 <p>예시를 진행하기 위해 간단한 모델을 생성하곘습니다</p>
@@ -812,8 +810,7 @@ public protocol ObservableObject : AnyObject {
 </pre></td></tr></tbody></table></code></div></div>
 
 <h2 id="stateobject"><span class="me-2">@StateObject</span><a href="#stateobject" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>부모 뷰에서 해당 객체를 소유하고 관리합니다.
-<br />
+<p>부모 뷰에서 해당 객체를 소유하고 관리합니다.<br />
 즉, 뷰가 생성될 때 객체도 생성되며, 뷰가 사라질 때 객체도 같이 소멸되며 부모 뷰의 생명주기와 함께 유지됩니다.</p>
 
 <h3 id="stateobject-예시코드"><span class="me-2">@StateObject 예시코드</span><a href="#stateobject-예시코드" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
@@ -873,8 +870,7 @@ public protocol ObservableObject : AnyObject {
 </pre></td></tr></tbody></table></code></div></div>
 
 <h2 id="observedobject"><span class="me-2">@ObservedObject</span><a href="#observedobject" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>부모 뷰에서 전달된 ObservableObject를 자식 뷰에서 감지할 때 사용합니다.
-<br />
+<p>부모 뷰에서 전달된 ObservableObject를 자식 뷰에서 감지할 때 사용합니다.<br />
 부모 뷰에서 자식 뷰에게 @StateObject를 전달하면, 자식 뷰에서는 @ObservedObject를 이용해서 참조하게 됩니다.</p>
 
 <h3 id="observedobject-예시코드"><span class="me-2">@ObservedObject 예시코드</span><a href="#observedobject-예시코드" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>

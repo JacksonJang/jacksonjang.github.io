@@ -749,8 +749,8 @@
 
   <div class="content">
     <h2 id="scheduler"><span class="me-2">Scheduler</span><a href="#scheduler" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><code class="language-plaintext highlighter-rouge">Scheduler</code>는 특정 코드를 실행할 때 사용할 스레드 또는 큐를 결정하는 역할을 합니다.
-<br />
+<p><code class="language-plaintext highlighter-rouge">Scheduler</code>는 특정 코드를 실행할 때 사용할 스레드 또는 큐를 결정하는 역할을 합니다.<br />
+<br /><br />
 RxSwift에서 Scheduler를 사용함으로서 동시성을 쉽게 처리할 수 있습니다.</p>
 
 <h2 id="mainscheduler"><span class="me-2">MainScheduler</span><a href="#mainscheduler" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
@@ -773,8 +773,8 @@ RxSwift에서 Scheduler를 사용함으로서 동시성을 쉽게 처리할 수 
 </pre></td></tr></tbody></table></code></div></div>
 
 <h2 id="concurrentdispatchqueuescheduler"><span class="me-2">ConcurrentDispatchQueueScheduler</span><a href="#concurrentdispatchqueuescheduler" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>동시성 실행을 허용합니다.
-<br />
+<p>동시성 실행을 허용합니다.<br />
+<br /><br />
 즉, 병렬로 여러 작업들을 동시에 처리할 수 있습니다.</p>
 
 <div class="language-swift highlighter-rouge"><div class="code-header">
@@ -796,8 +796,8 @@ RxSwift에서 Scheduler를 사용함으로서 동시성을 쉽게 처리할 수 
 </pre></td></tr></tbody></table></code></div></div>
 
 <h2 id="serialdispatchqueuescheduler"><span class="me-2">SerialDispatchQueueScheduler</span><a href="#serialdispatchqueuescheduler" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>백그라운드에서 순서대로 직렬로 실행하도록 설계되어 있습니다.
-<br />
+<p>백그라운드에서 순서대로 직렬로 실행하도록 설계되어 있습니다.<br />
+<br /><br />
 즉, 병렬이 아닌 직렬이기 때문에 하나의 작업이 완료될 때까지 다음 작업이 시작되지 않으므로 작업 순서가 중요할 때 사용됩니다.</p>
 
 <p><code class="language-plaintext highlighter-rouge">SerialDispatchQueueScheduler</code>는 <code class="language-plaintext highlighter-rouge">백그라운드</code> 쓰레드이기 때문에 메인 쓰레드와 같이 사용해도 상관 없습니다.</p>
@@ -819,7 +819,7 @@ RxSwift에서 Scheduler를 사용함으로서 동시성을 쉽게 처리할 수 
 </pre></td></tr></tbody></table></code></div></div>
 
 <h2 id="operationqueuescheduler"><span class="me-2">OperationQueueScheduler</span><a href="#operationqueuescheduler" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><del><code class="language-plaintext highlighter-rouge">NSOperationQueue</code> 기반으로 작업을 스케줄링합니다.</del>
+<p><del><code class="language-plaintext highlighter-rouge">NSOperationQueue</code> 기반으로 작업을 스케줄링합니다.</del><br />
 <code class="language-plaintext highlighter-rouge">OperationQueue</code> 기반으로 작업을 스케줄링합니다.</p>
 
 <p><code class="language-plaintext highlighter-rouge">OperationQueue</code>는 작업을 큐에 추가하고 우선순위를 설정하며 병렬 또는 직렬로 실행할 수 있게 하는 API입니다.</p>

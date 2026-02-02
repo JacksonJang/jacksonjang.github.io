@@ -705,13 +705,13 @@
 
   <div class="content">
     <h2 id="subject-란"><span class="me-2">Subject 란?</span><a href="#subject-란" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><code class="language-plaintext highlighter-rouge">Subject</code>는 이벤트를 받아서 구독자에게 전달할 수 있으며 직접 스트림을 생성할 수 있습니다.
-<br />
+<p><code class="language-plaintext highlighter-rouge">Subject</code>는 이벤트를 받아서 구독자에게 전달할 수 있으며 직접 스트림을 생성할 수 있습니다.<br />
+<br /><br />
 한 마디로 구독자들은 Subject를 구독할 수 있으며, 특정 작업이나 동작이 발생 했을 때 Subject로 전달하고, 이를 구독한 구독자들(Observer들)에게 방출됩니다.</p>
 
 <h2 id="subject의-종류"><span class="me-2">Subject의 종류</span><a href="#subject의-종류" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">PublishSubject</code> : 구독 후에 발생하는 이벤트만 방출합니다.(즉 초기 값은 없음)
+  <li><code class="language-plaintext highlighter-rouge">PublishSubject</code> : 구독 후에 발생하는 이벤트만 방출합니다.(즉 초기 값은 없음)<br />
 구독 전에 이벤트를 전달해도 구독자는 구독을 하지 않았기 때문에 받을 수 없습니다.</li>
 </ul>
 
@@ -794,8 +794,8 @@ PublishSubject: response 2
 </pre></td></tr></tbody></table></code></div></div>
 
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">ReplaySubject</code> : 설정한 버퍼의 크기를 가지고 있으며, 구독자가 구독할 때 버퍼에 저장된 이벤트를 재생(Replay)할 수 있습니다.
-<br />
+  <li><code class="language-plaintext highlighter-rouge">ReplaySubject</code> : 설정한 버퍼의 크기를 가지고 있으며, 구독자가 구독할 때 버퍼에 저장된 이벤트를 재생(Replay)할 수 있습니다.<br />
+<br /><br />
 만약 이벤트를 저장할 때 설정한 버퍼의 크기를 초과한다면, 이전에 저장된 버퍼는 삭제가 되고 가장 최근의 이벤트로 남습니다.</li>
 </ul>
 
@@ -834,8 +834,8 @@ ReplaySubject: Event 3
 </pre></td></tr></tbody></table></code></div></div>
 
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">AsyncSubject</code>: 스트림이 완료된 후 마지막 이벤트를 구독자에게 방출합니다.
-<br />
+  <li><code class="language-plaintext highlighter-rouge">AsyncSubject</code>: 스트림이 완료된 후 마지막 이벤트를 구독자에게 방출합니다.<br />
+<br /><br />
 <strong>완료되기 전까지는 이벤트 방출이 안됩니다.</strong>(완료된 시점에 딱 1번만 방출합니다.)</li>
 </ul>
 

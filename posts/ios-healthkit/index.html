@@ -914,22 +914,22 @@
 
 <h2 id="프로젝트-설정"><span class="me-2">프로젝트 설정</span><a href="#프로젝트-설정" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <h3 id="healthkit-추가"><span class="me-2">HealthKit 추가</span><a href="#healthkit-추가" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p><a href="/assets/posts/2024-04-14/add-HealthKit.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-14/add-HealthKit.png" loading="lazy"></a>
-<br />
+<p><a href="/assets/posts/2024-04-14/add-HealthKit.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-14/add-HealthKit.png" loading="lazy"></a><br />
+<br /><br />
 <strong>Project Targets -&gt; Signing &amp; Capabilities -&gt; Plus 버튼 클릭 -&gt; HealthKit 선택</strong></p>
 
 <h3 id="infoplist-추가"><span class="me-2">info.plist 추가</span><a href="#infoplist-추가" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>HealthKit을 사용하려면 info.plist에 권한 문구를 추가해야 합니다.
-Key : <strong>NSHealthUpdateUsageDescription</strong>
-<br />
-Value : <strong>문구</strong>
-<br />
+<p>HealthKit을 사용하려면 info.plist에 권한 문구를 추가해야 합니다.<br />
+Key : <strong>NSHealthUpdateUsageDescription</strong><br />
+<br /><br />
+Value : <strong>문구</strong><br />
+<br /><br />
 (예시 : 건강 정보 업데이트 때문에 앱에 대한 권한 요청을 합니다.)</p>
 
-<p>Key : <strong>NSHealthShareUsageDescription</strong>
-<br />
-Value : <strong>문구</strong>
-<br />
+<p>Key : <strong>NSHealthShareUsageDescription</strong><br />
+<br /><br />
+Value : <strong>문구</strong><br />
+<br /><br />
 (예시 : 건강 정보 공유 때문에 앱에 대한 권한을 요청합니다.)</p>
 
 <p>만약 추가하지 않으면 아래와 같은 에러가 나타납니다.</p>
@@ -967,8 +967,8 @@ Value : <strong>문구</strong>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre><span class="k">let</span> <span class="nv">healthStore</span> <span class="o">=</span> <span class="kt">HKHealthStore</span><span class="p">()</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p>제일 먼저 <code class="language-plaintext highlighter-rouge">HKHealthStore</code>에 대해 알아야 합니다.
-<br />
+<p>제일 먼저 <code class="language-plaintext highlighter-rouge">HKHealthStore</code>에 대해 알아야 합니다.<br />
+<br /><br />
 <code class="language-plaintext highlighter-rouge">HKHealthStore</code>는 건강 데이터를 읽거나 쓸 수 있게 도와주는 클래스이며, 사용하기 전에 권한 요청을 해야 사용 가능합니다.</p>
 
 <p>그렇다면, 권한 설정을 어떻게 하는지 알아보겠습니다.</p>
@@ -1079,8 +1079,8 @@ Value : <strong>문구</strong>
      */</span>
     <span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">sampleType</span><span class="p">:</span> <span class="kt">HKSampleType</span><span class="p">,</span> <span class="nv">predicate</span><span class="p">:</span> <span class="kt">NSPredicate</span><span class="p">?,</span> <span class="nv">limit</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">sortDescriptors</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSSortDescriptor</span><span class="p">]?,</span> <span class="nv">resultsHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">HKSampleQuery</span><span class="p">,</span> <span class="p">[</span><span class="kt">HKSample</span><span class="p">]?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p>위를 보면 <strong>샘플 타입</strong>이 존재합니다.
-<br />
+<p>위를 보면 <strong>샘플 타입</strong>이 존재합니다.<br />
+<br /><br />
 <strong>샘플 타입</strong>은 아까 위에서 봤던 <a href="#hkquantitytype를-예시로-사용하기">HKQuantityType</a>부분을 사용하면 됩니다.</p>
 
 <p>조건식은 따로 지정 안하므로 <code class="language-plaintext highlighter-rouge">nil</code>로 지정하고, limit은 <code class="language-plaintext highlighter-rouge">HKObjectQueryNoLimit</code>를 추가해서 제한없이 가져오게 설정해서 <code class="language-plaintext highlighter-rouge">HKSampleQuery</code>를 만들겠습니다.</p>

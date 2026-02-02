@@ -930,7 +930,7 @@
   <p>매우 귀찮은 작업임이 분명하다</p>
 </blockquote>
 
-<p><a href="/assets/posts/2024-04-03/mail.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-03/mail.png" loading="lazy"></a> <br />
+<p><a href="/assets/posts/2024-04-03/mail.png" class="popup img-link shimmer"><img width="600px" src="/assets/posts/2024-04-03/mail.png" loading="lazy"></a> <br /><br />
 앱을 심사 받으려고 하니까, <strong>ITMS-91053: Missing api declaration</strong>의 장문 메일이 왔었습니다.</p>
 
 <p><a href="https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_use_of_required_reason_api">애플의 문서 내용 중 일부</a></p>
@@ -955,12 +955,12 @@
 <p>이제 어느 정도 필수로 <strong>PrivacyInfo.xcprivacy</strong>를 사용해야 한다는 것을 강조 드린 것 같으니 바로 시작하겠습니다.</p>
 
 <h2 id="reason-api-scanner-사용하기"><span class="me-2">Reason API Scanner 사용하기</span><a href="#reason-api-scanner-사용하기" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>어느 무림 고수가 쉘 스크립트를 통해 자동으로 필수 사유 API 를 찾는 스크립트를 만들었습니다.
-<br />
-이것을 이용해서 간단하게 사용하고 있는 API Type들을 찾을 예정입니다.
-<br />
-밑에 설명하기에 앞서 이 프로그램으로 먼저 실행해서 돌리면서 차근차근 설명을 보시면 될 것 같습니다.
-<br />
+<p>어느 무림 고수가 쉘 스크립트를 통해 자동으로 필수 사유 API 를 찾는 스크립트를 만들었습니다.<br />
+<br /><br />
+이것을 이용해서 간단하게 사용하고 있는 API Type들을 찾을 예정입니다.<br />
+<br /><br />
+밑에 설명하기에 앞서 이 프로그램으로 먼저 실행해서 돌리면서 차근차근 설명을 보시면 될 것 같습니다.<br />
+<br /><br />
 <strong>생각보다 스캐너가 오래 걸림</strong></p>
 
 <p>쉘 스크립트 주소 : <a href="https://github.com/Wooder/ios_17_required_reason_api_scanner">https://github.com/Wooder/ios_17_required_reason_api_scanner</a></p>
@@ -975,15 +975,15 @@
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>sh required_reason_api_text_scanner.sh ./
 </pre></td></tr></tbody></table></code></div>    </div>
-    <p><a href="/assets/posts/2024-04-03/scanner.png" class="popup img-link shimmer"><img src="/assets/posts/2024-04-03/scanner.png" loading="lazy"></a> <br />
-위 과정을 진행하면 사진과 같이 스캔이 이루어 집니다.
-<br />
+    <p><a href="/assets/posts/2024-04-03/scanner.png" class="popup img-link shimmer"><img src="/assets/posts/2024-04-03/scanner.png" loading="lazy"></a> <br /><br />
+위 과정을 진행하면 사진과 같이 스캔이 이루어 집니다.<br />
+<br /><br />
 그럼 이제 스캔하는 동안 자세한 설명을 봅시다!</p>
   </li>
 </ol>
 
 <h2 id="privacyinfoxcprivacy-파일-생성하기"><span class="me-2">PrivacyInfo.xcprivacy 파일 생성하기</span><a href="#privacyinfoxcprivacy-파일-생성하기" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><a href="/assets/posts/2024-04-03/new_privacy.png" class="popup img-link shimmer"><img src="/assets/posts/2024-04-03/new_privacy.png" loading="lazy"></a> <br />
+<p><a href="/assets/posts/2024-04-03/new_privacy.png" class="popup img-link shimmer"><img src="/assets/posts/2024-04-03/new_privacy.png" loading="lazy"></a> <br /><br />
 프로젝트의 새 파일 추가를 통해 <strong>App Privacy</strong>를 추가합니다.</p>
 
 <p>반드시, 타겟 설정을 진행해 주셔야 합니다.</p>
@@ -1001,8 +1001,8 @@
 </blockquote>
 
 <h2 id="api-의-타입에-대해서는-공식-문서에서"><span class="me-2">API 의 타입에 대해서는 공식 문서에서..</span><a href="#api-의-타입에-대해서는-공식-문서에서" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>내용이 너무 많기 때문에 간단히 사용하는 방법만 말씀 드렸습니다.
-어떤 타입을 넣어야 할지 모르겠다면, 아까 <a href="#reason-api-scanner-간단한-사용-예시">스캔 했던 것</a>을 살펴보면서 대입하면 됩니다.
+<p>내용이 너무 많기 때문에 간단히 사용하는 방법만 말씀 드렸습니다.<br />
+어떤 타입을 넣어야 할지 모르겠다면, 아까 <a href="#reason-api-scanner-간단한-사용-예시">스캔 했던 것</a>을 살펴보면서 대입하면 됩니다.<br />
 <a href="https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_use_of_required_reason_api">https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_use_of_required_reason_api</a></p>
 
 <p>밑에는 임시로 적용한 예시입니다. 참고용으로만 확인해 주세요!</p>

@@ -822,7 +822,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="1000 words"
+  title="1013 words"
 >
   <em>5 min</em> read</span>
 
@@ -860,11 +860,9 @@
 <p><code class="language-plaintext highlighter-rouge">N+1 문제</code>는 데이터를 <code class="language-plaintext highlighter-rouge">1건 조회</code>했을 때, 연관된 데이터를 가져오기 위해 <code class="language-plaintext highlighter-rouge">N번의 쿼리가 추가로 실행되는 현상</code>입니다.</p>
 
 <h2 id="n1-문제-발생-예시"><span class="me-2">N+1 문제 발생 예시</span><a href="#n1-문제-발생-예시" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><code class="language-plaintext highlighter-rouge">팀(Team)</code>이 10개 있다고 가정하고</p>
-
-<p><code class="language-plaintext highlighter-rouge">팀(Team) 목록을 조회</code>한 뒤, 각 팀의 <code class="language-plaintext highlighter-rouge">멤버(Member)를 조회</code>하면</p>
-
-<p>총 <strong>11번(1+10(N))의 쿼리가 발생</strong>합니다.</p>
+<p><code class="language-plaintext highlighter-rouge">팀(Team)</code>이 10개 있다고 가정하고<br />
+<code class="language-plaintext highlighter-rouge">팀(Team) 목록을 조회</code>한 뒤, 각 팀의 <code class="language-plaintext highlighter-rouge">멤버(Member)를 조회</code>하면<br />
+총 <strong>11번(1+10(N))의 쿼리가 발생</strong>합니다.</p>
 
 <h3 id="왜-11번의-쿼리가-발생하게-되는가"><span class="me-2">왜 11번의 쿼리가 발생하게 되는가?</span><a href="#왜-11번의-쿼리가-발생하게-되는가" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <div class="language-java highlighter-rouge"><div class="code-header">
@@ -1028,7 +1026,7 @@
   <li>각 <code class="language-plaintext highlighter-rouge">Team</code>당 <code class="language-plaintext highlighter-rouge">Member</code> 50명</li>
 </ul>
 
-<p><strong>원하는 결과</strong>
+<p><strong>원하는 결과</strong><br />
 <code class="language-plaintext highlighter-rouge">Team</code> 10개 조회 (<code class="language-plaintext highlighter-rouge">Member</code> 포함해서 약 500 rows)</p>
 
 <h4 id="테스트-시작"><span class="me-2">테스트 시작!</span><a href="#테스트-시작" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
@@ -1057,17 +1055,17 @@
 </pre></td><td class="rouge-code"><pre>HHH90003004: firstResult/maxResults specified with 
 collection fetch; applying in memory
 </pre></td></tr></tbody></table></code></div></div>
-<p>테스트를 실행하게 되면 이런 메시지를 얻을 수 있습니다.
-<br />
-위 뜻을 해석하면, 페이징(LIMIT/OFFSET)을 요청했지만</p>
+<p>테스트를 실행하게 되면 이런 메시지를 얻을 수 있습니다.</p>
+
+<p>위 뜻을 해석하면, 페이징(LIMIT/OFFSET)을 요청했지만</p>
 <ul>
   <li>LIMIT : setFirstResult()</li>
   <li>OFFSET : setMaxResults()</li>
 </ul>
 
-<p>Collection 에 fetch join을 같이 썼으니 <code class="language-plaintext highlighter-rouge">DB에서 페이징 못하고 메모리에서 처리</code>한다.
-<br />
-즉, 메모리에서 처리한다는 건 일단 <code class="language-plaintext highlighter-rouge">전부 다 조회한다</code>는 뜻입니다.</p>
+<p><code class="language-plaintext highlighter-rouge">Collection fetch join</code>과 같이 썼으니 <code class="language-plaintext highlighter-rouge">DB 레벨에서 페이징을 처리하지 못하고 메모리에 로드한 후 페이징을 적용</code>한다.</p>
+
+<p>즉, 메모리에서 처리한다는 건 일단 <code class="language-plaintext highlighter-rouge">전부 다 조회한다</code>는 뜻입니다.</p>
 
 <h4 id="로그-확인-2"><span class="me-2">로그 확인</span><a href="#로그-확인-2" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 <div class="language-sql highlighter-rouge"><div class="code-header">
@@ -3236,7 +3234,7 @@ collection fetch; applying in memory
 
               <h4 class="pt-0 my-2">Spring Boot와 함께 Database Replication 사용하기</h4>
               <div class="text-muted">
-                <p>앞서 정리한 Database Replication 사용하기(with MySQL) 글에서 살펴본 것처럼,  Spring Boot 환경에서도 동일하게 적용할 수 있습니다.  Master/Source와 Slave/Replica의 명칭 관련해서는 설명의 편의를 위해 Master와 Replica를 사용하겠습니다. (MySQL 8.0 이후로 Master/Slav...</p>
+                <p>앞서 정리한 Database Replication 사용하기(with MySQL) 글에서 살펴본 것처럼, Spring Boot 환경에서도 동일하게 적용할 수 있습니다.  Master/Source와 Slave/Replica의 명칭 관련해서는 설명의 편의를 위해 Master와 Replica를 사용하겠습니다. (MySQL 8.0 이후로 Master/Slave...</p>
               </div>
             </div>
           </a>
@@ -3264,7 +3262,7 @@ collection fetch; applying in memory
 
               <h4 class="pt-0 my-2">[Spring Boot] 에러를 효과적으로 처리하는 2가지 방법(@ExceptionHandler, @ControllerAdvice 사용)</h4>
               <div class="text-muted">
-                <p>왜 필요해요? 프로젝트를 진행하다 보면 에러 응답 포맷을 변경해야 하는 상황이 생길 수 있습니다. 예를 들어, 고객 요구사항 변경, 공통 응답 규격 개편, 코드 리팩터링 등..  이때 모든 컨트롤러에 동일한 보일러플레이트 코드가 존재해서 수정할 때 유지보수 비용이 커집니다.    try-catch 문 @RestController public class...</p>
+                <p>왜 필요해요? 프로젝트를 진행하다 보면 에러 응답 포맷을 변경해야 하는 상황이 생길 수 있습니다. 예를 들어, 고객 요구사항 변경, 공통 응답 규격 개편, 코드 리팩터링 등..  이때 모든 컨트롤러에 동일한 보일러플레이트 코드가 존재해서 수정할 때 유지보수 비용이 커집니다.  try-catch 문 @RestController public class T...</p>
               </div>
             </div>
           </a>

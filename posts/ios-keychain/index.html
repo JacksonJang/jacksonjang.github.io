@@ -731,8 +731,8 @@
 </blockquote>
 
 <h2 id="keychain-정의"><span class="me-2">Keychain 정의</span><a href="#keychain-정의" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>Keychain은 비밀번호나 인증 토큰과 같은 민감한 정보를 안전하게 저장할 수 있게 도와주는 Security 프레임워크의 기능입니다.
-<br />
+<p>Keychain은 비밀번호나 인증 토큰과 같은 민감한 정보를 안전하게 저장할 수 있게 도와주는 Security 프레임워크의 기능입니다.<br />
+<br /><br />
 Apple Document : <a href="https://developer.apple.com/documentation/security/keychain_services/">https://developer.apple.com/documentation/security/keychain_services</a></p>
 
 <blockquote>
@@ -775,7 +775,7 @@ Apple Document : <a href="https://developer.apple.com/documentation/security/key
   </li>
   <li>데이터 저장
     <ul>
-      <li>여기서 실제 Keychain 저장을 합니다.
+      <li>여기서 실제 Keychain 저장을 합니다.<br />
 SecItemAdd(query as CFDictionary, nil)</li>
     </ul>
   </li>
@@ -787,7 +787,7 @@ SecItemAdd(query as CFDictionary, nil)</li>
     <ul>
       <li>kSecClass : 아까 저장할 때 설정했던 kSecClassGenericPassword 를 입력해 줍시다.</li>
       <li>kSecAttrAccount : 저장할 계정 및 아이디</li>
-      <li>kSecMatchLimit : 검색 쿼리가 반환할 결과의 수를 제한하는 데 사용 되는데, 우리는 한 건에 대해서만 받아올 예정이니 kSecMatchLimitOne 를 사용해 줍시다.
+      <li>kSecMatchLimit : 검색 쿼리가 반환할 결과의 수를 제한하는 데 사용 되는데, 우리는 한 건에 대해서만 받아올 예정이니 kSecMatchLimitOne 를 사용해 줍시다.<br />
 (다른 속성도 많은데 kSecMatchLimitAll 도 쓸 수 있습니다.)</li>
       <li>kSecReturnData : Data로 반환 받을지 설정
         <div class="language-swift highlighter-rouge"><div class="code-header">
@@ -827,7 +827,7 @@ SecItemAdd(query as CFDictionary, nil)</li>
 <h2 id="keychain-저장-및-조회-예시"><span class="me-2">Keychain 저장 및 조회 예시</span><a href="#keychain-저장-및-조회-예시" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p>이론보다는 역시 실습이 최고겠죠?</p>
 
-<p>저 같은 경우에는 Storyboard 예시가 아닌, code based 로 간단한 예시를 만들었습니다.
+<p>저 같은 경우에는 Storyboard 예시가 아닌, code based 로 간단한 예시를 만들었습니다.<br />
 따라서, 직접 사용하게 되실 때 적절히 입맛에 맞게 사용하시면 될 것 같습니다.</p>
 
 <div class="language-swift highlighter-rouge"><div class="code-header">

@@ -931,10 +931,10 @@
 <h2 id="realm-저장"><span class="me-2">Realm 저장</span><a href="#realm-저장" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p>실제 <a href="https://github.com/realm/realm-swift">공식 Realm Github</a> 에서는 저장할 때, <code class="language-plaintext highlighter-rouge">update: .modified</code> 파라미터 없이 <code class="language-plaintext highlighter-rouge">realm.add(user)</code> 로만 사용되어 있다.</p>
 
-<p>이는 기본적으로 update 파라미터는 error로 설정되어 있다.
-<br />
-(아래사진 참조)
-<br />
+<p>이는 기본적으로 update 파라미터는 error로 설정되어 있다.<br />
+<br /><br />
+(아래사진 참조)<br />
+<br /><br />
 <a href="/assets/posts/2024-03-21/realm-add.png" class="popup img-link shimmer"><img src="/assets/posts/2024-03-21/realm-add.png" loading="lazy"></a></p>
 
 <p>따라서, 중복으로 저장된다면 에러가 발생하므로 저는 아래와 같이 중복으로 저장되어 있다면 modified 하는 것을 추천드립니다.</p>
@@ -961,8 +961,8 @@
 </pre></td></tr></tbody></table></code></div></div>
 
 <h2 id="realm-예제"><span class="me-2">Realm 예제</span><a href="#realm-예제" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>저장과 조회에 대한 간단한 예시 코드를 작성했습니다.
-<br />
+<p>저장과 조회에 대한 간단한 예시 코드를 작성했습니다.<br />
+<br /><br />
 <a href="https://github.com/JacksonJang/RealmExample.git">https://github.com/JacksonJang/RealmExample.git</a></p>
 
 <h2 id="끝"><span class="me-2">끝</span><a href="#끝" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>

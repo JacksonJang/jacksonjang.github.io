@@ -1740,9 +1740,9 @@
     <p>CoreData를 사용할 일이 있어서 공부할 겸 포스팅하게 되었습니다.</p>
 
 <h2 id="core-data-프로젝트-생성"><span class="me-2">Core Data 프로젝트 생성</span><a href="#core-data-프로젝트-생성" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><a href="/assets/posts/2024-05-15/01-project.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/01-project.png" loading="lazy"></a> <br />
-프로젝트를 생성할 떄, 위와 같이 Storage에 <code class="language-plaintext highlighter-rouge">Core Data</code>를 체크해서 생성해주면 됩니다.
-<br />
+<p><a href="/assets/posts/2024-05-15/01-project.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/01-project.png" loading="lazy"></a> <br /><br />
+프로젝트를 생성할 떄, 위와 같이 Storage에 <code class="language-plaintext highlighter-rouge">Core Data</code>를 체크해서 생성해주면 됩니다.<br />
+<br /><br />
 저는 우선 <strong>CoreDataExample</strong>이라는 이름으로 프로젝트 생성을 진행하겠습니다.</p>
 
 <p>그러면 아래와 같이 정상적으로 생성된 것을 확인할 수 있습니다.</p>
@@ -1776,23 +1776,23 @@
 <h3 id="만약-이미-생성된-프로젝트라면"><span class="me-2">만약 이미 생성된 프로젝트라면?</span><a href="#만약-이미-생성된-프로젝트라면" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <p>이미 위와 같이 <code class="language-plaintext highlighter-rouge">Core Data</code> 프로젝트를 생성 했을 때와 동일하게 생성하면 됩니다.</p>
 
-<p>순서대로 말씀드리자면,
-<br />
+<p>순서대로 말씀드리자면,<br />
+<br /><br />
 <strong>File</strong> -&gt; <strong>New</strong> -&gt; <strong>File</strong> 을 통해 <code class="language-plaintext highlighter-rouge">Data Model</code>을 선택해서 <strong>xcdatamodeld</strong> 확장자의 모델을 추가합니다.</p>
 
 <p>이 파일은 <a href="#프로젝트-구조">프로젝트 구조</a>에서 보았던, 맨 아래에 해당하는 파일입니다. 여기서 실질적인 Core Data 와 관련된 모델에 대한 작업을 진행합니다.</p>
 
-<p><a href="/assets/posts/2024-05-15/03-coredata.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/03-coredata.png" loading="lazy"></a> <br />
+<p><a href="/assets/posts/2024-05-15/03-coredata.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/03-coredata.png" loading="lazy"></a> <br /><br />
 03-coredata.png</p>
 
 <h2 id="본격적으로-사용해-보자"><span class="me-2">본격적으로 사용해 보자!</span><a href="#본격적으로-사용해-보자" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><code class="language-plaintext highlighter-rouge">People</code>이라는 모델을 생성해서 name과 age를 추가하는 간단한 모델 생성을 진행하곘습니다.
-<br />
-<strong>xcdatamodeld</strong> 확장자로 생성된 CoreDataExample을 클릭해서 보면 다음과 같은 화면을 볼 수 있습니다.
-<a href="/assets/posts/2024-05-15/04-coredata.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/04-coredata.png" style="height:400px" loading="lazy"></a> <br />
+<p><code class="language-plaintext highlighter-rouge">People</code>이라는 모델을 생성해서 name과 age를 추가하는 간단한 모델 생성을 진행하곘습니다.<br />
+<br /><br />
+<strong>xcdatamodeld</strong> 확장자로 생성된 CoreDataExample을 클릭해서 보면 다음과 같은 화면을 볼 수 있습니다.<br />
+<a href="/assets/posts/2024-05-15/04-coredata.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/04-coredata.png" style="height:400px" loading="lazy"></a> <br /><br />
 그럼 위와 같이 <strong>Add Entity</strong>를 클릭하면</p>
 
-<p><a href="/assets/posts/2024-05-15/05-entity.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/05-entity.png" loading="lazy"></a> <br />
+<p><a href="/assets/posts/2024-05-15/05-entity.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/05-entity.png" loading="lazy"></a> <br /><br />
  <code class="language-plaintext highlighter-rouge">Entities</code>안에 새로운 <code class="language-plaintext highlighter-rouge">Entity</code>가 생성된 것을 확인하실 수 있습니다.</p>
 
 <p><code class="language-plaintext highlighter-rouge">Entity</code> 이름을 <code class="language-plaintext highlighter-rouge">People</code>로 변경해 주고, Attributes 안에 <code class="language-plaintext highlighter-rouge">name</code>, <code class="language-plaintext highlighter-rouge">age</code>를 각각 생성합니다.</p>
@@ -1815,7 +1815,7 @@
 <h3 id="manualnone"><span class="me-2">Manual/None</span><a href="#manualnone" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <p>Xcode가 자동으로 Entity에 대해 생성하지 않고, 직접 수동으로 관리합니다.</p>
 
-<p><a href="/assets/posts/2024-05-15/07-editor.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/07-editor.png" loading="lazy"></a> <br />
+<p><a href="/assets/posts/2024-05-15/07-editor.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/07-editor.png" loading="lazy"></a> <br /><br />
 그래서 <strong>Editor</strong> -&gt; <strong>Create NSManagedObject SubClass…</strong>를 통해 CoreData의 모델을 수동으로 생성해야 합니다.</p>
 
 <h3 id="class-definition"><span class="me-2">Class Definition</span><a href="#class-definition" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
@@ -1831,7 +1831,7 @@
 
 <p>각각에 대한 파일 생성되는 폴더는 <strong>DerivedData</strong> 폴더에서 확인 가능합니다.</p>
 
-<p><a href="/assets/posts/2024-05-15/08-class.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/08-class.png" loading="lazy"></a> <br />
+<p><a href="/assets/posts/2024-05-15/08-class.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/08-class.png" loading="lazy"></a> <br /><br />
 그럼 위와 같이 3개의 파일이 생성됩니다.</p>
 
 <ul>
@@ -1910,12 +1910,12 @@
 <span class="p">}</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<p><code class="language-plaintext highlighter-rouge">Category/Extension</code>는 <a href="#완성된-people-모델">모델 생성</a>에서 작성한 <code class="language-plaintext highlighter-rouge">NSManagedObject</code> 타입의 클래스가 직접 선언되어야 합니다.
-<br />
+<p><code class="language-plaintext highlighter-rouge">Category/Extension</code>는 <a href="#완성된-people-모델">모델 생성</a>에서 작성한 <code class="language-plaintext highlighter-rouge">NSManagedObject</code> 타입의 클래스가 직접 선언되어야 합니다.<br />
+<br /><br />
 왜냐하면 class의 extension만 생성하기 때문에 아래처럼 선언해 주어야 정상적으로 실행 가능합니다.</p>
 
-<p>빌드하면 다음과 같은 파일들이 생성되는 것을 확인할 수 있습니다.
-<a href="/assets/posts/2024-05-15/09-extension.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/09-extension.png" loading="lazy"></a> <br />
+<p>빌드하면 다음과 같은 파일들이 생성되는 것을 확인할 수 있습니다.<br />
+<a href="/assets/posts/2024-05-15/09-extension.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/09-extension.png" loading="lazy"></a> <br /><br />
 그럼 위와 같이 3개의 파일이 생성됩니다.</p>
 
 <ul>
@@ -1980,7 +1980,7 @@
 <h2 id="manualnone-사용"><span class="me-2">Manual/None 사용</span><a href="#manualnone-사용" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p>제 경우에는 <code class="language-plaintext highlighter-rouge">Codegen</code>에 대해서 제대로 공부하지않고, <code class="language-plaintext highlighter-rouge">Class Definition</code>를 사용하면서 수동으로 <code class="language-plaintext highlighter-rouge">Manual/None</code> 방식으로 사용하려다가 오류가 발생 했었는데, 저와 같은 오류를 겪지 않길 바라며.. 오류 대처법도 적겠습니다.</p>
 
-<p><a href="/assets/posts/2024-05-15/10-manual-error.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/10-manual-error.png" style="height:400px" loading="lazy"></a> <br />
+<p><a href="/assets/posts/2024-05-15/10-manual-error.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/10-manual-error.png" style="height:400px" loading="lazy"></a> <br /><br />
 <code class="language-plaintext highlighter-rouge">Class Definition</code>으로 설정하고 <a href="#manualnone">Manual/None 모델 생성</a>하는 방법을 생성하면 위와 같이 정상적으로 생성된 것처럼 보이지만.. 다음과 같은 에러를 마주하실 것 입니다.</p>
 
 <p><a href="/assets/posts/2024-05-15/10-manual-error2.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/10-manual-error2.png" loading="lazy"></a> <br /></p>
@@ -1999,17 +1999,17 @@
 
 <p><a href="#manualnone">Manual/None 모델 생성</a>에 대한 설명이 부실하게 느껴질 수 있어서 생성하는 방법도 간단히 올리겠습니다.</p>
 
-<p><strong>Editor</strong> -&gt; <strong>Create NSManagedObject SubClass…</strong>를 통해 클릭했다면 다음과 같은 화면을 마주칠 수 있습니다.
-<a href="/assets/posts/2024-05-15/11-manual.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/11-manual.png" style="height:400px" loading="lazy"></a> <br />
+<p><strong>Editor</strong> -&gt; <strong>Create NSManagedObject SubClass…</strong>를 통해 클릭했다면 다음과 같은 화면을 마주칠 수 있습니다.<br />
+<a href="/assets/posts/2024-05-15/11-manual.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/11-manual.png" style="height:400px" loading="lazy"></a> <br /><br />
 Next를 누르시고..(추가를 원하는 Core Data)</p>
 
-<p><a href="/assets/posts/2024-05-15/12-select-model.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/12-select-model.png" style="height:400px" loading="lazy"></a> <br />
+<p><a href="/assets/posts/2024-05-15/12-select-model.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/12-select-model.png" style="height:400px" loading="lazy"></a> <br /><br />
 Next를 누르시면..(추가를 원하는 Entity 설정)</p>
 
-<p><a href="/assets/posts/2024-05-15/13-model-location.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/13-model-location.png" style="height:400px" loading="lazy"></a> <br />
+<p><a href="/assets/posts/2024-05-15/13-model-location.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/13-model-location.png" style="height:400px" loading="lazy"></a> <br /><br />
 위와 같이 추가할 경로에 추가할 수 있습니다.</p>
 
-<p><a href="/assets/posts/2024-05-15/14-build-complete.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/14-build-complete.png" style="height:400px" loading="lazy"></a> <br />
+<p><a href="/assets/posts/2024-05-15/14-build-complete.png" class="popup img-link shimmer"><img src="/assets/posts/2024-05-15/14-build-complete.png" style="height:400px" loading="lazy"></a> <br /><br />
 그러면 위와 같이 빌드 성공을 할 수 있습니다!</p>
 
 <p><del>금방 끝날 것 같았는데 꽤 길어졌네요ㅠ</del></p>

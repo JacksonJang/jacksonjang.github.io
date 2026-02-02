@@ -880,15 +880,15 @@
   <p>error: Sandbox: rsync.samba(5159) deny(1) file-write-create /Users/janghyowon/Library/Developer/Xcode/DerivedData</p>
 </blockquote>
 
-<p>Xcode 15.0.1 기준으로 빌드하니까 위와 같은 에러가 발생했었습니다.
-<br />
+<p>Xcode 15.0.1 기준으로 빌드하니까 위와 같은 에러가 발생했었습니다.<br />
+<br /><br />
 우선 에러를 해결하고 싶어하셔서 들어오셨을테니 해결법부터 말씀드리자면</p>
 
-<p><a href="/assets/posts/2024-04-28/Build_Settings.png" class="popup img-link shimmer"><img src="/assets/posts/2024-04-28/Build_Settings.png" loading="lazy"></a>
+<p><a href="/assets/posts/2024-04-28/Build_Settings.png" class="popup img-link shimmer"><img src="/assets/posts/2024-04-28/Build_Settings.png" loading="lazy"></a><br />
 <strong>해결법</strong> : Project TARGETS -&gt; Build Settings -&gt; ENABLE_USER_SCRIPT_SANDBOXING 검색 후 -&gt; <strong>YES</strong> 를 <strong>NO</strong> 로 변경</p>
 
-<p>그리고 다시 빌드!
-<a href="/assets/posts/2024-04-28/Build_Success.png" class="popup img-link shimmer"><img src="/assets/posts/2024-04-28/Build_Success.png" loading="lazy"></a>
+<p>그리고 다시 빌드!<br />
+<a href="/assets/posts/2024-04-28/Build_Success.png" class="popup img-link shimmer"><img src="/assets/posts/2024-04-28/Build_Success.png" loading="lazy"></a><br />
 간단하죠?</p>
 
 <h2 id="관련링크"><span class="me-2">관련링크</span><a href="#관련링크" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>

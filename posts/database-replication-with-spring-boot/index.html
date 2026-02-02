@@ -769,27 +769,27 @@
   
 
   <div class="content">
-    <p>앞서 정리한 <a href="/posts/database-replication/">Database Replication 사용하기(with MySQL)</a> 글에서 살펴본 것처럼,
-<br />
+    <p>앞서 정리한 <a href="/posts/database-replication/">Database Replication 사용하기(with MySQL)</a> 글에서 살펴본 것처럼,<br />
 Spring Boot 환경에서도 동일하게 적용할 수 있습니다.</p>
 
-<p><code class="language-plaintext highlighter-rouge">Master/Source</code>와 <code class="language-plaintext highlighter-rouge">Slave/Replica</code>의 명칭 관련해서는 설명의 편의를 위해 <code class="language-plaintext highlighter-rouge">Master</code>와 <code class="language-plaintext highlighter-rouge">Replica</code>를 사용하겠습니다.
+<p><code class="language-plaintext highlighter-rouge">Master/Source</code>와 <code class="language-plaintext highlighter-rouge">Slave/Replica</code>의 명칭 관련해서는 설명의 편의를 위해 <code class="language-plaintext highlighter-rouge">Master</code>와 <code class="language-plaintext highlighter-rouge">Replica</code>를 사용하겠습니다.<br />
 (MySQL 8.0 이후로 <code class="language-plaintext highlighter-rouge">Master/Slave</code> -&gt; <code class="language-plaintext highlighter-rouge">Source/Replica</code> 로 변경되었습니다.)</p>
 
 <h2 id="transactional을-이용해서-사용하기"><span class="me-2">@Transactional을 이용해서 사용하기</span><a href="#transactional을-이용해서-사용하기" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p><code class="language-plaintext highlighter-rouge">Spring Boot</code>에서는 <code class="language-plaintext highlighter-rouge">@Transactional</code> 을 통해 <code class="language-plaintext highlighter-rouge">Master</code>로 보낼지, <code class="language-plaintext highlighter-rouge">Replica</code>로 보낼지 정할 수 있습니다.</p>
 
-<p><code class="language-plaintext highlighter-rouge">Spring Boot</code>에서는 기본적으로 DB(DataSource)에 연결할지 결정하는 기능은 내장되어 있지 않기 때문에 <br />
-<code class="language-plaintext highlighter-rouge">readOnly = false</code>가 <code class="language-plaintext highlighter-rouge">Master DataSource</code>로 <br />
+<p><code class="language-plaintext highlighter-rouge">Spring Boot</code>에서는 기본적으로 DB(DataSource)에 연결할지 결정하는 기능은 내장되어 있지 않기 때문에<br />
+<code class="language-plaintext highlighter-rouge">readOnly = false</code>가 <code class="language-plaintext highlighter-rouge">Master DataSource</code>로<br />
 <code class="language-plaintext highlighter-rouge">readOnly = true</code>가 <code class="language-plaintext highlighter-rouge">Replica DataSource</code>로 연결되는 설정이 필요합니다.</p>
 
 <p>그럴려면 <code class="language-plaintext highlighter-rouge">AbstractRoutingDataSource</code> 를 상속 받아서 사용할 수 있게 해줘야 합니다.</p>
 
 <h2 id="abstractroutingdatasource-란"><span class="me-2">AbstractRoutingDataSource 란?</span><a href="#abstractroutingdatasource-란" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><code class="language-plaintext highlighter-rouge">AbstractRoutingDataSource</code>는 <code class="language-plaintext highlighter-rouge">getConnection()</code>(DB 연결이 필요한 순간) 시점에 <br />
-<code class="language-plaintext highlighter-rouge">determineCurrentLookupKey()</code>로 현재 트랜잭션 컨텍스트(예: readOnly)에서 라우팅 키를 결정하고, <br />
-그 키에 매핑된 DataSource로 위임하는 추상 클래스입니다.<br /><br />
-이 메커니즘을 통해 Write는 <code class="language-plaintext highlighter-rouge">Master</code>로, 읽기는 <code class="language-plaintext highlighter-rouge">Replica</code> 로 보낼 수 있습니다.</p>
+<p><code class="language-plaintext highlighter-rouge">AbstractRoutingDataSource</code>는 <code class="language-plaintext highlighter-rouge">getConnection()</code>(DB 연결이 필요한 순간) 시점에<br />
+<code class="language-plaintext highlighter-rouge">determineCurrentLookupKey()</code>로 현재 트랜잭션 컨텍스트(예: readOnly)에서 라우팅 키를 결정하고,<br />
+그 키에 매핑된 DataSource로 위임하는 추상 클래스입니다.</p>
+
+<p>이 메커니즘을 통해 Write는 <code class="language-plaintext highlighter-rouge">Master</code>로, 읽기는 <code class="language-plaintext highlighter-rouge">Replica</code> 로 보낼 수 있습니다.</p>
 
 <h2 id="테스트-진행"><span class="me-2">테스트 진행</span><a href="#테스트-진행" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <h3 id="routingdatasource-생성"><span class="me-2">RoutingDataSource 생성</span><a href="#routingdatasource-생성" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
@@ -868,7 +868,7 @@ Spring Boot 환경에서도 동일하게 적용할 수 있습니다.</p>
 <span class="nd">@Setter</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="nc">ReplicaDataSourceProps</span> <span class="kd">extends</span> <span class="nc">DataSourceProps</span><span class="o">{</span> <span class="o">}</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p>공통 DataSource 설정을 위해 <code class="language-plaintext highlighter-rouge">DataSourceProps</code> 선언하고, 이를 상속 받아서 <br />
+<p>공통 DataSource 설정을 위해 <code class="language-plaintext highlighter-rouge">DataSourceProps</code> 선언하고, 이를 상속 받아서<br />
 <code class="language-plaintext highlighter-rouge">MasterDataSourceProps</code> 와 <code class="language-plaintext highlighter-rouge">ReplicaDataSourceProps</code>을 선언합니다.</p>
 
 <h3 id="datasourceconfig-설정"><span class="me-2">DataSourceConfig 설정</span><a href="#datasourceconfig-설정" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
@@ -971,7 +971,7 @@ Spring Boot 환경에서도 동일하게 적용할 수 있습니다.</p>
   <span class="o">}</span>
 <span class="o">}</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p><code class="language-plaintext highlighter-rouge">RoutingDataSource</code>이랑 <code class="language-plaintext highlighter-rouge">DataSourceConfig</code> 설정을 끝냈다면, <br />
+<p><code class="language-plaintext highlighter-rouge">RoutingDataSource</code>이랑 <code class="language-plaintext highlighter-rouge">DataSourceConfig</code> 설정을 끝냈다면, <br /><br />
 <code class="language-plaintext highlighter-rouge">application.properties</code> 설정도 진행합니다.</p>
 
 <h3 id="applicationproperties"><span class="me-2">application.properties</span><a href="#applicationproperties" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
@@ -1043,7 +1043,7 @@ Isolation level: undefined/unknown
 Minimum pool size: undefined/unknown
 Maximum pool size: undefined/unknown
 </pre></td></tr></tbody></table></code></div></div>
-<p>이렇게 <code class="language-plaintext highlighter-rouge">undefined/unknown</code>로 나오는 현상은 <code class="language-plaintext highlighter-rouge">LazyConnectionDataSourceProxy</code>를 사용했기 때문에 <br />
+<p>이렇게 <code class="language-plaintext highlighter-rouge">undefined/unknown</code>로 나오는 현상은 <code class="language-plaintext highlighter-rouge">LazyConnectionDataSourceProxy</code>를 사용했기 때문에 <br /><br />
 부팅 시점에는 하이버네이트가 프록시만 보게 되고, <code class="language-plaintext highlighter-rouge">getConnection()</code>이 호출되기 전까지 실제 커넥션이 생성되지 않기 때문입니다.</p>
 
 <p>자, 이제 설정이 끝났으니 실제 서비스로 사용을 시작할게요.</p>
@@ -3147,7 +3147,7 @@ Maximum pool size: undefined/unknown
 
               <h4 class="pt-0 my-2">JPA N+1 문제 해결하기</h4>
               <div class="text-muted">
-                <p>N+1 문제란? N+1 문제는 데이터를 1건 조회했을 때, 연관된 데이터를 가져오기 위해 N번의 쿼리가 추가로 실행되는 현상입니다.  N+1 문제 발생 예시 팀(Team)이 10개 있다고 가정하고  팀(Team) 목록을 조회한 뒤, 각 팀의 멤버(Member)를 조회하면  총 11번(1+10(N))의 쿼리가 발생합니다.  왜 11번의 쿼리가 발생하게 ...</p>
+                <p>N+1 문제란? N+1 문제는 데이터를 1건 조회했을 때, 연관된 데이터를 가져오기 위해 N번의 쿼리가 추가로 실행되는 현상입니다.  N+1 문제 발생 예시 팀(Team)이 10개 있다고 가정하고 팀(Team) 목록을 조회한 뒤, 각 팀의 멤버(Member)를 조회하면 총 11번(1+10(N))의 쿼리가 발생합니다.  왜 11번의 쿼리가 발생하게 되는...</p>
               </div>
             </div>
           </a>
@@ -3175,7 +3175,7 @@ Maximum pool size: undefined/unknown
 
               <h4 class="pt-0 my-2">[Spring Boot] 에러를 효과적으로 처리하는 2가지 방법(@ExceptionHandler, @ControllerAdvice 사용)</h4>
               <div class="text-muted">
-                <p>왜 필요해요? 프로젝트를 진행하다 보면 에러 응답 포맷을 변경해야 하는 상황이 생길 수 있습니다. 예를 들어, 고객 요구사항 변경, 공통 응답 규격 개편, 코드 리팩터링 등..  이때 모든 컨트롤러에 동일한 보일러플레이트 코드가 존재해서 수정할 때 유지보수 비용이 커집니다.    try-catch 문 @RestController public class...</p>
+                <p>왜 필요해요? 프로젝트를 진행하다 보면 에러 응답 포맷을 변경해야 하는 상황이 생길 수 있습니다. 예를 들어, 고객 요구사항 변경, 공통 응답 규격 개편, 코드 리팩터링 등..  이때 모든 컨트롤러에 동일한 보일러플레이트 코드가 존재해서 수정할 때 유지보수 비용이 커집니다.  try-catch 문 @RestController public class T...</p>
               </div>
             </div>
           </a>

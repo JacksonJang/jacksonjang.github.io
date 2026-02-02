@@ -811,7 +811,7 @@
   <p>Observer 란 이벤트 스트림을 구독하는데 사용합니다. 데이터의 변화를 감지하고 이에 대한 작업을 수행할 수 있습니다.</p>
 </blockquote>
 
-<p><br />
+<p><br /><br />
 각 이벤트는 다음과 같이 나뉘게 됩니다.</p>
 <ul>
   <li><code class="language-plaintext highlighter-rouge">onNext</code>: Observable이나 Subject가 새로운 값을 방출할 때마다 호출합니다.</li>
@@ -872,13 +872,13 @@
   <li>Hot Observable : 구독자가 구독을 <strong>시작하기 전</strong>에 이벤트가 발생하며, 이벤트 스트림은 구독자와 상관없이 지속됩니다.</li>
 </ul>
 
-<p>갑자기 웬 뜨겁고 차가운 것을 갖고 오는지 궁금하실 수 있습니다.
-<br />
+<p>갑자기 웬 뜨겁고 차가운 것을 갖고 오는지 궁금하실 수 있습니다.<br />
+<br /><br />
 RxSwift 공식 문서의 <a href="https://github.com/ReactiveX/RxSwift/blob/main/Documentation/HotAndColdObservables.md">HotAndColdObservables.md</a>를 살펴보면, 자세하게 나와있지만 제가 쉽게 풀어서 설명하겠습니다.</p>
 
 <h2 id="cold-observable"><span class="me-2">Cold Observable</span><a href="#cold-observable" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><code class="language-plaintext highlighter-rouge">Cold</code>는 말 그대로 차가운 것이기 때문에 <strong>구독을 하지 않으면 절대 방출되지 않는다.</strong>
-<br />
+<p><code class="language-plaintext highlighter-rouge">Cold</code>는 말 그대로 차가운 것이기 때문에 <strong>구독을 하지 않으면 절대 방출되지 않는다.</strong><br />
+<br /><br />
 구독자(Observer)가 구독(Subscribe)을 하게 되면 차가웠던 게 녹는 것처럼 방출됩니다.</p>
 
 <p>간단한 예시로 <code class="language-plaintext highlighter-rouge">Observable.create</code>, <code class="language-plaintext highlighter-rouge">Observable.just</code>, <code class="language-plaintext highlighter-rouge">Observable.from</code> 등등을 의미합니다.</p>
@@ -944,8 +944,8 @@ RxSwift 공식 문서의 <a href="https://github.com/ReactiveX/RxSwift/blob/main
 </pre></td></tr></tbody></table></code></div></div>
 
 <h2 id="hot-observable"><span class="me-2">Hot Observable</span><a href="#hot-observable" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><code class="language-plaintext highlighter-rouge">Hot</code>은 말 그대로 뜨거운 것이기 때문에 <strong>구독 따위 필요 없이 항상 방출합니다</strong>
-<br />
+<p><code class="language-plaintext highlighter-rouge">Hot</code>은 말 그대로 뜨거운 것이기 때문에 <strong>구독 따위 필요 없이 항상 방출합니다</strong><br />
+<br /><br />
 한마디로 구독자(Observer)의 구독(Subscribe)이 필요 없이 스스로가 알아서 불처럼 방출한다고 생각하시면 됩니다.</p>
 
 <p>만약 구독 전에 onNext를 했더라면, 구독자는 onNext한 것에 대한 이벤트를 받을 수 없습니다.</p>

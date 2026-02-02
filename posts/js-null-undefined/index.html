@@ -923,7 +923,6 @@
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre><span class="kd">let</span> <span class="nx">x</span><span class="p">;</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p><br /></p>
 
 <h2 id="null-의미"><span class="me-2">null 의미</span><a href="#null-의미" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p><code class="language-plaintext highlighter-rouge">null</code>은 <code class="language-plaintext highlighter-rouge">변수를 선언하고 빈 값을 할당한 상태</code>입니다.</p>
@@ -932,13 +931,10 @@
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre><span class="kd">let</span> <span class="nx">x</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p><br /></p>
 
 <h2 id="위-차이에-대해-구분하는-테스트하기typeof-사용"><span class="me-2">위 차이에 대해 구분하는 테스트하기(typeof 사용)</span><a href="#위-차이에-대해-구분하는-테스트하기typeof-사용" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><code class="language-plaintext highlighter-rouge">JavaScript</code>에서는 <code class="language-plaintext highlighter-rouge">typeof</code> 라는 연산자가 있습니다.
-<br />
-이 연산자를 이용해서 타입들에 대해 볼 수 있는데 아래와 같이 Console 창에서 바로 확인 가능합니다.
-<br />
+<p><code class="language-plaintext highlighter-rouge">JavaScript</code>에서는 <code class="language-plaintext highlighter-rouge">typeof</code> 라는 연산자가 있습니다.<br />
+이 연산자를 이용해서 타입들에 대해 볼 수 있는데 아래와 같이 Console 창에서 바로 확인 가능합니다.<br />
 <a href="/assets/posts/2025-07-27/typeof.png" class="popup img-link shimmer"><img src="/assets/posts/2025-07-27/typeof.png" loading="lazy"></a></p>
 
 <div class="language-js highlighter-rouge"><div class="code-header">
@@ -953,26 +949,18 @@
 <span class="k">typeof</span> <span class="nx">test</span>         <span class="c1">// 'string'</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>여기서 왜 <code class="language-plaintext highlighter-rouge">null</code> 이 <code class="language-plaintext highlighter-rouge">object</code> 타입인지 궁금하신 분들이 계실겁니다.
-<br />
-<code class="language-plaintext highlighter-rouge">null</code>이 <code class="language-plaintext highlighter-rouge">object</code> 타입인 것은 <b>자바스크립트의 초창기 설계 실수(버그)</b> 때문에 <code class="language-plaintext highlighter-rouge">typeof</code> 연산자를 썼을 때 결과가 다르게 나오게 된 것입니다.
-<br />
-<br />
-그럼 수정하면 되지 않나요? 라고 생각하실 수 있습니다. (저 또한 그랬죠)
-<br />
-<br />
-당시 자바스크립트는 값을 내부적으로 태그(타입 태그)와 함께 저장했는데, 
-<br />null의 태그가 0으로 설정되었고, 객체의 태그 또한 0으로 시작하는 비트 패턴을 사용했기 때문에 <code class="language-plaintext highlighter-rouge">typeof null</code>을 하면 <code class="language-plaintext highlighter-rouge">object</code>가 반환되게 된 거예요.
-<br />
-<br />
-이 <code class="language-plaintext highlighter-rouge">typeof null</code>의 결과 값을 바꾸게 되면 기존 웹사이트의 수많은 코드가 깨져서 사이드 이펙트를 불러올 수 있어서 변경하지 못하고 있습니다ㅎㅎ;(웃픈 사실)
-<br />
-<br /></p>
+<p>여기서 왜 <code class="language-plaintext highlighter-rouge">null</code> 이 <code class="language-plaintext highlighter-rouge">object</code> 타입인지 궁금하신 분들이 계실겁니다.<br />
+<code class="language-plaintext highlighter-rouge">null</code>이 <code class="language-plaintext highlighter-rouge">object</code> 타입인 것은 <b>자바스크립트의 초창기 설계 실수(버그)</b> 때문에 <code class="language-plaintext highlighter-rouge">typeof</code> 연산자를 썼을 때 결과가 다르게 나오게 된 것입니다.</p>
+
+<p>그럼 수정하면 되지 않나요? 라고 생각하실 수 있습니다. (저 또한 그랬죠)</p>
+
+<p>당시 자바스크립트는 값을 내부적으로 태그(타입 태그)와 함께 저장했는데, <br />
+null의 태그가 0으로 설정되었고, 객체의 태그 또한 0으로 시작하는 비트 패턴을 사용했기 때문에 <code class="language-plaintext highlighter-rouge">typeof null</code>을 하면 <code class="language-plaintext highlighter-rouge">object</code>가 반환되게 된 거예요.</p>
+
+<p>이 <code class="language-plaintext highlighter-rouge">typeof null</code>의 결과 값을 바꾸게 되면 기존 웹사이트의 수많은 코드가 깨져서 사이드 이펙트를 불러올 수 있어서 변경하지 못하고 있습니다ㅎㅎ;(웃픈 사실)</p>
 
 <h3 id="javascript-원시타입"><span class="me-2">javascript 원시타입</span><a href="#javascript-원시타입" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>하지만 <code class="language-plaintext highlighter-rouge">null</code>과 <code class="language-plaintext highlighter-rouge">undefined</code> 타입에 관련된 내용은 <a href="https://tc39.es/ecma262/#sec-ecmascript-overview">ECMAScript 참고자료</a> 링크를 통해서 확인할 수 있었습니다.
-<br />
-<br /></p>
+<p>하지만 <code class="language-plaintext highlighter-rouge">null</code>과 <code class="language-plaintext highlighter-rouge">undefined</code> 타입에 관련된 내용은 <a href="https://tc39.es/ecma262/#sec-ecmascript-overview">ECMAScript 참고자료</a> 링크를 통해서 확인할 수 있었습니다.</p>
 
 <p>위 <a href="https://tc39.es/ecma262/#sec-ecmascript-overview">참고자료</a>의 내용 중 이에 대해 언급하는 내용으로 다음과 같이 작성되어 있습니다.</p>
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
@@ -980,30 +968,20 @@
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>A primitive value is a member of one of the following built-in types: Undefined, Null, Boolean, Number, BigInt, String, and Symbol.
 </pre></td></tr></tbody></table></code></div></div>
-<p><br /></p>
 
-<p>해석하자면,
-<br />
-<b>원시타입(Primitive type) 값은 다음과 같은 내장 타입 중 하나에 속하는 값이다: Undefined, Null, Boolean, Number, BigInt, String, and Symbol.</b>
-<br />
-<br /></p>
+<p>해석하자면,<br />
+<b>원시타입(Primitive type) 값은 다음과 같은 내장 타입 중 하나에 속하는 값이다: Undefined, Null, Boolean, Number, BigInt, String, and Symbol.</b></p>
 
-<p>여기서 우리는 <code class="language-plaintext highlighter-rouge">null</code>과 <code class="language-plaintext highlighter-rouge">undefined</code>는 <code class="language-plaintext highlighter-rouge">Primitive type</code> 이라는 것을 알 수 있죠.
-<br /></p>
+<p>여기서 우리는 <code class="language-plaintext highlighter-rouge">null</code>과 <code class="language-plaintext highlighter-rouge">undefined</code>는 <code class="language-plaintext highlighter-rouge">Primitive type</code> 이라는 것을 알 수 있죠.</p>
 
 <h2 id="동등-비교-vs-일치-비교-연산자-차이"><span class="me-2">동등 비교(==) vs 일치 비교(===) 연산자 차이</span><a href="#동등-비교-vs-일치-비교-연산자-차이" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><code class="language-plaintext highlighter-rouge">null</code>와 <code class="language-plaintext highlighter-rouge">undefined</code>는 <code class="language-plaintext highlighter-rouge">값이 없음</code>을 나타냅니다.
-<br />
-따라서, <code class="language-plaintext highlighter-rouge">null == undefined</code> 를 하게 되면 <code class="language-plaintext highlighter-rouge">true</code>의 값을 얻게되죠.
-<br />
-<br />
-그런데 <code class="language-plaintext highlighter-rouge">null === undefined</code> 의 경우에는 다릅니다.
-<br />
-위에서 살펴보았듯이 <code class="language-plaintext highlighter-rouge">null</code>은 <code class="language-plaintext highlighter-rouge">object</code>타입이고, <code class="language-plaintext highlighter-rouge">undefined</code>는 <code class="language-plaintext highlighter-rouge">undefined</code> 타입이라는 것을 <code class="language-plaintext highlighter-rouge">typeof</code>을 통해 알게 되었었죠.
-<br />
-<br />
-그러므로 결과는 당연히 <code class="language-plaintext highlighter-rouge">null === undefined</code> 는 <code class="language-plaintext highlighter-rouge">false</code>의 값을 얻게됩니다.
-<br /></p>
+<p><code class="language-plaintext highlighter-rouge">null</code>와 <code class="language-plaintext highlighter-rouge">undefined</code>는 <code class="language-plaintext highlighter-rouge">값이 없음</code>을 나타냅니다.<br />
+따라서, <code class="language-plaintext highlighter-rouge">null == undefined</code> 를 하게 되면 <code class="language-plaintext highlighter-rouge">true</code>의 값을 얻게되죠.</p>
+
+<p>그런데 <code class="language-plaintext highlighter-rouge">null === undefined</code> 의 경우에는 다릅니다.<br />
+위에서 살펴보았듯이 <code class="language-plaintext highlighter-rouge">null</code>은 <code class="language-plaintext highlighter-rouge">object</code>타입이고, <code class="language-plaintext highlighter-rouge">undefined</code>는 <code class="language-plaintext highlighter-rouge">undefined</code> 타입이라는 것을 <code class="language-plaintext highlighter-rouge">typeof</code>을 통해 알게 되었었죠.</p>
+
+<p>그러므로 결과는 당연히 <code class="language-plaintext highlighter-rouge">null === undefined</code> 는 <code class="language-plaintext highlighter-rouge">false</code>의 값을 얻게됩니다.</p>
 
 <div class="language-js highlighter-rouge"><div class="code-header">
         <span data-label-text="JavaScript"><i class="fas fa-code fa-fw small"></i></span>
@@ -1012,7 +990,6 @@
 </pre></td><td class="rouge-code"><pre><span class="kc">null</span> <span class="o">==</span> <span class="kc">undefined</span>   <span class="c1">// true</span>
 <span class="kc">null</span> <span class="o">===</span> <span class="kc">undefined</span>   <span class="c1">// false</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p><br /></p>
 
 <h2 id="jsonstringify-사용"><span class="me-2">JSON.stringify 사용</span><a href="#jsonstringify-사용" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <h3 id="객체일-때"><span class="me-2">객체일 때</span><a href="#객체일-때" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
@@ -1021,30 +998,26 @@
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre><span class="kd">const</span> <span class="nx">data</span> <span class="o">=</span> <span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="kc">undefined</span><span class="p">,</span> <span class="na">age</span><span class="p">:</span> <span class="kc">null</span> <span class="p">};</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p><code class="language-plaintext highlighter-rouge">name</code> 과 <code class="language-plaintext highlighter-rouge">age</code> 를 가진 객체 <code class="language-plaintext highlighter-rouge">data</code> 가 있다고 가정하겠습니다.
-<br />
-위의 결과를 출력하면</p>
+<p><code class="language-plaintext highlighter-rouge">name</code> 과 <code class="language-plaintext highlighter-rouge">age</code> 를 가진 객체 <code class="language-plaintext highlighter-rouge">data</code> 가 있다고 가정하겠습니다.</p>
+
+<p>위의 결과를 출력하면</p>
 <div class="language-js highlighter-rouge"><div class="code-header">
         <span data-label-text="JavaScript"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">JSON</span><span class="p">.</span><span class="nf">stringify</span><span class="p">(</span><span class="nx">data</span><span class="p">));</span> <span class="c1">// {"age":null}</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p><code class="language-plaintext highlighter-rouge">undefined</code> 로 지정된 <code class="language-plaintext highlighter-rouge">name</code> 이 사라진 것을 볼 수 있습니다.
-<br />
-<br />
-왜 그런걸까요?
-<br />
-<br /></p>
+<p><code class="language-plaintext highlighter-rouge">undefined</code> 로 지정된 <code class="language-plaintext highlighter-rouge">name</code> 이 사라진 것을 볼 수 있습니다.</p>
+
+<p>왜 그런걸까요?</p>
 
 <h3 id="json-표준-문서"><span class="me-2">JSON 표준 문서</span><a href="#json-표준-문서" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>JSON 형식에서는 <b><code class="language-plaintext highlighter-rouge">undefined</code>라는 값이 존재하지 않고 있다</b>는 것입니다.
-<br />
-위 내용에 대해서는 <a href="https://ecma-international.org/wp-content/uploads/ECMA-404.pdf">JSON 표준 ECMA-404 문서</a>에서 확인 가능합니다.
-<br />
-<br />
-하지만, 이 또한 친절한 잭슨씨가 내용을 갖고 왔습니다^^
-<br />
-<a href="/assets/posts/2025-07-27/JSON_Standard.png" class="popup img-link shimmer"><img src="/assets/posts/2025-07-27/JSON_Standard.png" loading="lazy"></a>
+<p>JSON 형식에서는 <b><code class="language-plaintext highlighter-rouge">undefined</code>라는 값이 존재하지 않고 있다</b>는 것입니다.</p>
+
+<p>위 내용에 대해서는 <a href="https://ecma-international.org/wp-content/uploads/ECMA-404.pdf">JSON 표준 ECMA-404 문서</a>에서 확인 가능합니다.</p>
+
+<p>하지만, 이 또한 친절한 잭슨씨가 내용을 갖고 왔습니다^^</p>
+
+<p><a href="/assets/posts/2025-07-27/JSON_Standard.png" class="popup img-link shimmer"><img src="/assets/posts/2025-07-27/JSON_Standard.png" loading="lazy"></a><br />
 위 내용을 확인해 보면, JSON 의 표준은 다음과 같이 표시된 것을 볼 수 있습니다.</p>
 <ul>
   <li>객체(Obejct)</li>
@@ -1056,14 +1029,11 @@
 </ul>
 
 <h3 id="하지만-배열일-때는-undefined가-포함됩니다-단"><span class="me-2">하지만, 배열일 때는 undefined가 포함됩니다! 단…</span><a href="#하지만-배열일-때는-undefined가-포함됩니다-단" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>위 <a href="#json-표준-문서">JSON 표준 문서</a>에서 알아 봤듯이 JSON은 <code class="language-plaintext highlighter-rouge">undefined</code>를 허용하고 있지 않습니다.
-<br />
-그렇지만, 배열에 포함된 undefined 요소를 생략하면 순서가 깨지므로 
-<br />
-JSON으로 변환 시 <code class="language-plaintext highlighter-rouge">undefined</code> -&gt; <code class="language-plaintext highlighter-rouge">null</code> 로 변환하는 것이죠.
-<br />
-<br />
-다음은 관련된 예시입니다.</p>
+<p>위 <a href="#json-표준-문서">JSON 표준 문서</a>에서 알아 봤듯이 JSON은 <code class="language-plaintext highlighter-rouge">undefined</code>를 허용하고 있지 않습니다.<br />
+그렇지만, 배열에 포함된 undefined 요소를 생략하면 순서가 깨지므로 <br />
+JSON으로 변환 시 <code class="language-plaintext highlighter-rouge">undefined</code> -&gt; <code class="language-plaintext highlighter-rouge">null</code> 로 변환하는 것이죠.</p>
+
+<p>다음은 관련된 예시입니다.</p>
 <div class="language-js highlighter-rouge"><div class="code-header">
         <span data-label-text="JavaScript"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
@@ -1079,17 +1049,14 @@ JSON으로 변환 시 <code class="language-plaintext highlighter-rouge">undefin
 </pre></td></tr></tbody></table></code></div></div>
 
 <h2 id="결론"><span class="me-2">결론</span><a href="#결론" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><code class="language-plaintext highlighter-rouge">null</code>과 <code class="language-plaintext highlighter-rouge">undefined</code>의 차이는 <b>값을 명시적으로 할당했는지 여부</b>에 따라 구분된다는 점을 <a href="#null-의미">null의 의미</a> 와 <a href="#undefined-의미">undefined 의미</a>에서 살펴보았습니다.
-<br />
-<br />
-또한 <code class="language-plaintext highlighter-rouge">undefined</code>, <code class="language-plaintext highlighter-rouge">null</code>이 <a href="#javascript-원시타입">원시타입</a>에 속하지만, <code class="language-plaintext highlighter-rouge">typeof null</code>의 결과가 <code class="language-plaintext highlighter-rouge">object</code>로 출력되는 것은 자바스크립트 초기 설계상의 실수라는 점도 확인했습니다.
-<br />
-<br />
-그리고 <a href="#동등-비교-vs-일치-비교-연산자-차이">동등 비교(==) vs 일치 비교(===) 연산자</a>를 통한 차이로 <code class="language-plaintext highlighter-rouge">null</code>, <code class="language-plaintext highlighter-rouge">undefined</code>의 값과 타입 비교 차이를 이해했으며,
+<p><code class="language-plaintext highlighter-rouge">null</code>과 <code class="language-plaintext highlighter-rouge">undefined</code>의 차이는 <b>값을 명시적으로 할당했는지 여부</b>에 따라 구분된다는 점을 <a href="#null-의미">null의 의미</a> 와 <a href="#undefined-의미">undefined 의미</a>에서 살펴보았습니다.</p>
+
+<p>또한 <code class="language-plaintext highlighter-rouge">undefined</code>, <code class="language-plaintext highlighter-rouge">null</code>이 <a href="#javascript-원시타입">원시타입</a>에 속하지만, <code class="language-plaintext highlighter-rouge">typeof null</code>의 결과가 <code class="language-plaintext highlighter-rouge">object</code>로 출력되는 것은 자바스크립트 초기 설계상의 실수라는 점도 확인했습니다.</p>
+
+<p>그리고 <a href="#동등-비교-vs-일치-비교-연산자-차이">동등 비교(==) vs 일치 비교(===) 연산자</a>를 통한 차이로 <code class="language-plaintext highlighter-rouge">null</code>, <code class="language-plaintext highlighter-rouge">undefined</code>의 값과 타입 비교 차이를 이해했으며,<br />
 <a href="#jsonstringify-사용">JSON.stringify 사용</a> 예시를 통해 <code class="language-plaintext highlighter-rouge">객체</code>와 <code class="language-plaintext highlighter-rouge">배열</code>에서 각각 어떻게 처리되는지도 알아보았습니다.</p>
 
-<p>이 글이 이해에 도움이 되었길 바랍니다.
-<br />
+<p>이 글이 이해에 도움이 되었길 바랍니다.<br />
 감사합니다!</p>
 
   </div>
