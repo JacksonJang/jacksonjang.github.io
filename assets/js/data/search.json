@@ -1,5 +1,13 @@
 [
   {
+    "title": "Spring Data JPA - OSIV(Open Session In View) 정리(+논란 포함)",
+    "url": "/posts/spring-data-jpa-osiv-mode/",
+    "categories": "Spring Boot",
+    "tags": "Spring Boot, JPA, OSIV",
+    "date": "2026-02-03 04:00:00 +0900",
+    "content": "OSIV 활성화 시 나타나는 메시지 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this w..."
+  },
+  {
     "title": "JPA N+1 문제 해결하기",
     "url": "/posts/spring-jpa-n+1/",
     "categories": "Spring Boot",
