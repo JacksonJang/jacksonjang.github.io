@@ -18,17 +18,16 @@ tags:
 | 전파 타입 | 기존 트랜잭션 있음 | 기존 트랜잭션 없음 |
 |---|---|---|
 | **REQUIRED** | 기존 트랜잭션 참여 | 새 트랜잭션 생성 |
-| **REQUIRES_NEW** | 기존 중단 + 새 트랜잭션 생성 | 새 트랜잭션 생성 |
+| **REQUIRES_NEW** | 기존 일시 중지 + 새 트랜잭션 생성 | 새 트랜잭션 생성 |
 | **SUPPORTS** | 기존 트랜잭션 참여 | 트랜잭션 없이 실행 |
-| **NOT_SUPPORTED** | 기존 중단 + 트랜잭션 없이 실행 | 트랜잭션 없이 실행 |
+| **NOT_SUPPORTED** | 기존 일시 중지 + 트랜잭션 없이 실행 | 트랜잭션 없이 실행 |
 | **MANDATORY** | 기존 트랜잭션 참여 | 예외 발생 |
 | **NEVER** | 예외 발생 | 트랜잭션 없이 실행 |
-| **NESTED** | Savepoint 생성 (중첩) | 새 트랜잭션 생성 |
 
 ## @Transactional 전파(Propagation)란?
-`@Transactional`의 `전파(Propagation)`는 **트랜잭션이 이미 존재할 때, 새로운 트랜잭션을 어떻게 처리할지** 결정하는 설정입니다.
+`@Transactional` `전파(Propagation)`는 트랜잭션 메서드가 호출될 때, 현재 트랜잭션 존재 여부에 따라 **기존 트랜잭션에 참여할지**, **새로운 트랜잭션을 생성할지**, 또는 **트랜잭션 없이 실행할지**를 결정하는 규칙입니다.
 
-예를 들어, `A 메서드`에서 `B 메서드`를 호출할 때 A의 트랜잭션을 그대로 사용할지 아니면 B에서 새로운 트랜잭션을 생성할지를 정할 수 있습니다.
+예를 들어서, `A 메서드`에서 `B 메서드`를 호출할 때 A의 트랜잭션을 그대로 사용할지 아니면 B에서 새로운 트랜잭션을 생성할지를 정할 수 있습니다.
 
 ```java
 @Transactional
@@ -64,8 +63,7 @@ Propagation propagation() default Propagation.REQUIRED;
 ## 전파 타입 종류
 
 ### REQUIRED (기본값)
-**기존 트랜잭션이 있으면 참여하고, 없으면 새로 생성합니다.**
-
+**기존 트랜잭션이 있으면 참여**하고 **없으면 새로 생성**합니다.
 가장 많이 사용되는 기본 전파 타입입니다.
 ```java
 @Transactional(propagation = Propagation.REQUIRED)
@@ -74,11 +72,7 @@ public void createOrder(OrderRequest request) {
 }
 ```
 
-동작 방식:
-- 기존 트랜잭션 **있음** → 기존 트랜잭션에 참여
-- 기존 트랜잭션 **없음** → 새 트랜잭션 생성
-
-**주의할 점:** 기존 트랜잭션에 참여한 경우, 내부 메서드에서 예외가 발생하면 **전체 트랜잭션이 롤백**됩니다.
+**주의할 점:** 기존 트랜잭션에 참여했을 때 내부 메서드에서 예외가 발생하면 **전체 트랜잭션이 롤백**됩니다.
 
 
 ### REQUIRES_NEW
@@ -108,6 +102,11 @@ public void processOrder(OrderRequest request) {
 ```
 
 즉, `REQUIRES_NEW`는 기존 트랜잭션과 **완전히 독립적**이기 때문에 내부 트랜잭션의 커밋/롤백이 외부 트랜잭션에 영향을 주지 않습니다.
+
+(추가 설명 예정)
+- 남발하면 DB 커넥션 급증
+- 트랜잭션 중첩 증가
+- 성능 떨어짐
 
 
 ### SUPPORTS
@@ -183,40 +182,6 @@ public String checkHealthStatus() {
 
 `MANDATORY`와 정반대 개념입니다.
 
-
-### NESTED
-**기존 트랜잭션 내에서 중첩 트랜잭션(Savepoint)을 생성합니다.**
-
-```java
-@Transactional(propagation = Propagation.NESTED)
-public void addBonusPoint(Long userId, int point) {
-    pointRepository.save(new Point(userId, point));
-}
-```
-
-동작 방식:
-- 기존 트랜잭션 **있음** → Savepoint를 생성하고 중첩 트랜잭션 실행
-- 기존 트랜잭션 **없음** → 새 트랜잭션 생성 (`REQUIRED`와 동일)
-
-```java
-@Transactional
-public void processPayment(PaymentRequest request) {
-    paymentRepository.save(request.toEntity()); // 결제 저장
-
-    try {
-        pointService.addBonusPoint(request.getUserId(), 100); // 중첩 트랜잭션
-    } catch (Exception e) {
-        // 포인트 적립 실패해도 결제는 유지됨
-        // Savepoint까지만 롤백
-    }
-}
-```
-
-`REQUIRES_NEW`와의 차이점:
-- `REQUIRES_NEW` : 완전히 독립된 트랜잭션 → 외부 트랜잭션이 롤백되어도 내부 트랜잭션은 유지
-- `NESTED` : 부모 트랜잭션에 종속 → **부모가 롤백되면 중첩 트랜잭션도 롤백**
-
-> **주의:** `NESTED`는 JDBC Savepoint를 사용하기 때문에 JPA에서는 지원이 제한적입니다. `JpaTransactionManager`는 JDBC Savepoint를 지원하지만, JTA 환경에서는 사용할 수 없습니다.
 
 ## 주의할 점
 ### 같은 클래스 내부 호출 시 전파가 적용되지 않는다
