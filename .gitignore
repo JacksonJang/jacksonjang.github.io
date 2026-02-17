@@ -10,5 +10,6 @@ node_modules
 *.sh
 .DS_Store
 .jekyll-cache
+nul
 */.DS_Store
 */*/.DS_Store

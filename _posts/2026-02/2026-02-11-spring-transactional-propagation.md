@@ -79,6 +79,7 @@ public void createOrder(OrderRequest request) {
 **항상 새로운 트랜잭션을 생성하고, 기존 트랜잭션은 일시 중단합니다.**
 
 ```java
+// logService
 @Transactional(propagation = Propagation.REQUIRES_NEW)
 public void saveLog(String message) {
     logRepository.save(new Log(message));
@@ -86,8 +87,8 @@ public void saveLog(String message) {
 ```
 
 동작 방식:
-- 기존 트랜잭션 **있음** → 기존 트랜잭션 일시 중단 + 새 트랜잭션 생성
-- 기존 트랜잭션 **없음** → 새 트랜잭션 생성
+- 기존 트랜잭션 **있음** : 기존 트랜잭션 일시 중단 + 새 트랜잭션 생성
+- 기존 트랜잭션 **없음** : 새 트랜잭션 생성
 
 ```java
 @Transactional
@@ -103,11 +104,38 @@ public void processOrder(OrderRequest request) {
 
 즉, `REQUIRES_NEW`는 기존 트랜잭션과 **완전히 독립적**이기 때문에 내부 트랜잭션의 커밋/롤백이 외부 트랜잭션에 영향을 주지 않습니다.
 
-(추가 설명 예정)
-- 남발하면 DB 커넥션 급증
-- 트랜잭션 중첩 증가
-- 성능 떨어짐
+#### REQUIRES_NEW 주의사항
+**완전히 독립적**이기 때문에 에러가 발생해도 이미 커밋되어 롤백 불가능하기 때문에 데이터 정합성 문제를 유발시킬 수 있습니다.
 
+또한, DB커넥션 고갈 위험도 있습니다.
+`REQUIRES_NEW`는 호출되면 기존 트랜잭션의 커넥션을 유지한 상태로 새로운 커넥션을 추가로 획득합니다.
+
+```java
+@Transactional
+public void processOrder(OrderRequest request) {
+    // 커넥션 1개 사용 중
+
+    logService.saveLog("주문 생성");
+    // 기존 커넥션 보유 + 새 커넥션 1개 추가 = 총 2개 점유
+
+    notificationService.sendNotification(request);
+    // sendNotification 메서드도 REQUIRES_NEW 일 때,
+    // 1개 추가 = 총 3개 점유 가능
+}
+```
+> 즉, 하나의 요청이 동시에 2개 이상의 커넥션을 점유하게 됩니다.
+
+너무 자주 사용할 시에는 **오버헤드가 발생**할 수 있습니다.
+```java
+@Transactional
+public void batchProcess(List<Item> items) {
+    for (Item item : items) {
+        // 1000개 아이템이면 1000개의 트랜잭션 생성 + 커넥션 획득/반환 반복
+        itemService.processItem(item); // REQUIRES_NEW
+    }
+}
+```
+왜냐하면 트랜잭션을 새로 생성할 때마다 `커넥션 획득/반환 비용`, `트랜잭션 시작/커밋 비용(BEGIN/COMMIT)`, `기존 트랜잭션 일시 중단(suspend)` 등 오버헤드를 일으켜 성능을 저하시키기 때문입니다.
 
 ### SUPPORTS
 **기존 트랜잭션이 있으면 참여하고, 없으면 트랜잭션 없이 실행합니다.**
@@ -120,8 +148,8 @@ public List<Order> getOrders() {
 ```
 
 동작 방식:
-- 기존 트랜잭션 **있음** → 기존 트랜잭션에 참여
-- 기존 트랜잭션 **없음** → 트랜잭션 없이 실행
+- 기존 트랜잭션 **있음** : 기존 트랜잭션에 참여
+- 기존 트랜잭션 **없음** : 트랜잭션 없이 실행
 
 
 ### NOT_SUPPORTED
@@ -136,8 +164,8 @@ public void sendNotification(String userId) {
 ```
 
 동작 방식:
-- 기존 트랜잭션 **있음** → 기존 트랜잭션 일시 중단 + 트랜잭션 없이 실행
-- 기존 트랜잭션 **없음** → 트랜잭션 없이 실행
+- 기존 트랜잭션 **있음** : 기존 트랜잭션 일시 중단 + 트랜잭션 없이 실행
+- 기존 트랜잭션 **없음** : 트랜잭션 없이 실행
 
 외부 시스템 호출처럼 트랜잭션이 필요 없는 작업에 활용할 수 있습니다.
 
@@ -155,8 +183,8 @@ public void deductStock(Long productId, int quantity) {
 ```
 
 동작 방식:
-- 기존 트랜잭션 **있음** → 기존 트랜잭션에 참여
-- 기존 트랜잭션 **없음** → `IllegalTransactionStateException` 발생
+- 기존 트랜잭션 **있음** : 기존 트랜잭션에 참여
+- 기존 트랜잭션 **없음** : `IllegalTransactionStateException` 발생
 
 ```java
 // 트랜잭션 없이 호출하면 예외 발생!
@@ -177,8 +205,8 @@ public String checkHealthStatus() {
 ```
 
 동작 방식:
-- 기존 트랜잭션 **있음** → `IllegalTransactionStateException` 발생
-- 기존 트랜잭션 **없음** → 트랜잭션 없이 실행
+- 기존 트랜잭션 **있음** : `IllegalTransactionStateException` 발생
+- 기존 트랜잭션 **없음** : 트랜잭션 없이 실행
 
 `MANDATORY`와 정반대 개념입니다.
 
@@ -231,3 +259,4 @@ public class LogService {
     }
 }
 ```
+`self-invocation` 문제는 다른 포스트에서 자세히 작성하겠습니다.
