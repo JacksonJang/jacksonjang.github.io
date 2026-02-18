@@ -1,5 +1,21 @@
 [
   {
+    "title": "Spring @Transactional 사용 시 주의사항",
+    "url": "/posts/spring-transactional-pitfalls/",
+    "categories": "Spring Boot",
+    "tags": "Spring, Transactional",
+    "date": "2026-02-18 21:00:00 +0900",
+    "content": "@Transactional이란? @Transactional은 Spring에서 트랜잭션을 선언적으로 관리할 수 있게 해주는 어노테이션입니다. 클래스 또는 메서드에 붙이게 되면 해당 범위 내에서 실행되는 DB 작업들이 하나의 트랜잭션으로 묶이게 됩니다.  @Transactional public void addData(String data) {     re..."
+  },
+  {
+    "title": "@Transactional 전파 타입(Propagation) 정리",
+    "url": "/posts/spring-transactional-propagation/",
+    "categories": "Spring Boot",
+    "tags": "Spring Boot, Transaction",
+    "date": "2026-02-12 04:00:00 +0900",
+    "content": "전파 타입(Propagation) 요약                 전파 타입       기존 트랜잭션 있음       기존 트랜잭션 없음                       REQUIRED       기존 트랜잭션 참여       새 트랜잭션 생성                 REQUIRES_NEW       기존 일시 중지 + 새 트랜잭션 생성..."
+  },
+  {
     "title": "Spring Data JPA - OSIV(Open Session In View) 정리(+논란 포함)",
     "url": "/posts/spring-data-jpa-osiv-mode/",
     "categories": "Spring Boot",

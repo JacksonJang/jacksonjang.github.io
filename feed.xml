@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Jacksonjang Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-02-02T20:10:47+09:00</updated>
+  <updated>2026-02-18T21:23:06+09:00</updated>
   <author>
     <name>Jacksonjang</name>
     <uri>/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Spring @Transactional 사용 시 주의사항</title>
+    <link href="/posts/spring-transactional-pitfalls/" rel="alternate" type="text/html" title="Spring @Transactional 사용 시 주의사항" />
+    <published>2026-02-18T21:00:00+09:00</published>
+  
+    <updated>2026-02-18T21:00:00+09:00</updated>
+  
+    <id>/posts/spring-transactional-pitfalls/</id>
+    <content type="text/html" src="/posts/spring-transactional-pitfalls/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Spring Boot" />
+    
+  
+
+  <summary>@Transactional이란? @Transactional은 Spring에서 트랜잭션을 선언적으로 관리할 수 있게 해주는 어노테이션입니다. 클래스 또는 메서드에 붙이게 되면 해당 범위 내에서 실행되는 DB 작업들이 하나의 트랜잭션으로 묶이게 됩니다.  @Transactional public void addData(String data) {     repository.save(data); }  위 코드에선 예외가 발생하면 롤백이 진행됩니다. 단, Checked Exception 이면 롤백이 안됩니다.  Checked Exception 문제를 포함한 다양한 문제에 대해 알아보겠습니다.  @Transactional 사용 시 주의사항                 #       주의사항       원인     ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>@Transactional 전파 타입(Propagation) 정리</title>
+    <link href="/posts/spring-transactional-propagation/" rel="alternate" type="text/html" title="@Transactional 전파 타입(Propagation) 정리" />
+    <published>2026-02-12T04:00:00+09:00</published>
+  
+    <updated>2026-02-12T04:00:00+09:00</updated>
+  
+    <id>/posts/spring-transactional-propagation/</id>
+    <content type="text/html" src="/posts/spring-transactional-propagation/" />
+    <author>
+      <name>JacksonJang</name>
+    </author>
+
+  
+    
+    <category term="Spring Boot" />
+    
+  
+
+  <summary>전파 타입(Propagation) 요약                 전파 타입       기존 트랜잭션 있음       기존 트랜잭션 없음                       REQUIRED       기존 트랜잭션 참여       새 트랜잭션 생성                 REQUIRES_NEW       기존 일시 중지 + 새 트랜잭션 생성       새 트랜잭션 생성                 SUPPORTS       기존 트랜잭션 참여       트랜잭션 없이 실행                 NOT_SUPPORTED       기존 일시 중지 + 트랜잭션 없이 실행       트랜잭션 없이 실행                 MANDATORY       기존 트랜잭션 참여       ...</summary>
+
+  </entry>
 
   
   <entry>
@@ -87,54 +135,6 @@
   
 
   <summary>앞서 정리한 Database Replication 사용하기(with MySQL) 글에서 살펴본 것처럼, Spring Boot 환경에서도 동일하게 적용할 수 있습니다.  Master/Source와 Slave/Replica의 명칭 관련해서는 설명의 편의를 위해 Master와 Replica를 사용하겠습니다. (MySQL 8.0 이후로 Master/Slave -&amp;amp;gt; Source/Replica 로 변경되었습니다.)  @Transactional을 이용해서 사용하기 Spring Boot에서는 @Transactional 을 통해 Master로 보낼지, Replica로 보낼지 정할 수 있습니다.  Spring Boot에서는 기본적으로 DB(DataSource)에 연결할지 결정하는 기능은 내장되어 있지 않기 때문에 ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Database Replication 사용하기(with MySQL)</title>
-    <link href="/posts/database-replication/" rel="alternate" type="text/html" title="Database Replication 사용하기(with MySQL)" />
-    <published>2025-08-09T22:00:00+09:00</published>
-  
-    <updated>2025-08-09T22:00:00+09:00</updated>
-  
-    <id>/posts/database-replication/</id>
-    <content type="text/html" src="/posts/database-replication/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="DevOps" />
-    
-  
-
-  <summary>고객사의 대규모 서비스를 도입하게 되어, 관련 내용을 정리하게 되었습니다.  Database Replication 이란? 사용자가 많은 서비스에서는 하나의 DB로 모든 요청을 처리하기 어려울 수 있습니다. 그래서 이를 해결하기 위해 고안된 기술이 Database Replication입니다.  Database를 Replication(복제)해서 DB Read/Write 역할을 나눠서 성능과 안정성을 증가시키고, 일반적으로 Source/Replica 구조를 사용하며 다음과 같은 역할을 수행합니다.     Source(혹은 Master) : Write(INSERT, UPDATE, DELETE)   Replica(혹은 Slave) : Read(SELECT)   *참고 : MySQL 8.0 이후로 Master/S...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[Spring Boot] 에러를 효과적으로 처리하는 2가지 방법(@ExceptionHandler, @ControllerAdvice 사용)</title>
-    <link href="/posts/spring-boot-error-handler/" rel="alternate" type="text/html" title="[Spring Boot] 에러를 효과적으로 처리하는 2가지 방법(@ExceptionHandler, @ControllerAdvice 사용)" />
-    <published>2025-08-03T23:00:00+09:00</published>
-  
-    <updated>2025-08-03T23:00:00+09:00</updated>
-  
-    <id>/posts/spring-boot-error-handler/</id>
-    <content type="text/html" src="/posts/spring-boot-error-handler/" />
-    <author>
-      <name>JacksonJang</name>
-    </author>
-
-  
-    
-    <category term="Spring Boot" />
-    
-  
-
-  <summary>왜 필요해요? 프로젝트를 진행하다 보면 에러 응답 포맷을 변경해야 하는 상황이 생길 수 있습니다. 예를 들어, 고객 요구사항 변경, 공통 응답 규격 개편, 코드 리팩터링 등..  이때 모든 컨트롤러에 동일한 보일러플레이트 코드가 존재해서 수정할 때 유지보수 비용이 커집니다.  try-catch 문 @RestController public class TryCatchController {    @GetMapping(&amp;quot;/tryCatch&amp;quot;)   public String tryCatch() {     try {       throw new IllegalArgumentException(&amp;quot;IllegalArgument 에러&amp;quot;);     } catch (Exception e) {       return &amp;quot;에러가 발생했...</summary>
 
   </entry>
 
