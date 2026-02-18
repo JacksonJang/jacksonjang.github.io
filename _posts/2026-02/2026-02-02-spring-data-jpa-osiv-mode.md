@@ -82,9 +82,8 @@ public OrderResponse getOrder(Long id) {
 이를 해결하기 위해 이전에 작성한 [JPA N+1 문제 해결하기](/posts/spring-jpa-n+1) 포스팅을 참고하시면 됩니다.
 
 
-# 커넥션 풀 고갈 방지
-`OSIV`가 활성화(`true`)된 경우 HTTP 요청이 시작되면 데이터베이스 커넥션을 획득하고 응답이 완료될 때까지 보유합니다. 이후에 데이터베이스 작업이 끝난 후에도 View 렌더링, JSON 직렬화 등의 긴 시간 동안 커넥션을 점유하게 돼서 문제가 발생하는데..
-
-`OSIV`를 비활성화(`false`)하면 트랜잭션이 종료되는 즉시 커넥션이 반환되어서 **커넥션 풀의 회전율이 향상**됩니다.
-
-그래서 `OSIV = false` 설정은 초기 개발 비용(명시적 Fetch 전략 수립)을 요구하지만, **프로덕션 환경의 안정성과 성능을 위한 필수적인 선택**이라고 봅니다.
+# 커넥션 풀 고갈 문제는 이미 해결된 상태
+`Hibernate 5.2+` (Spring Boot 2+)에서 커넥션 핸들링 모드가 바뀌었습니다.
+`hibernate.connection.handling_mode`의 기본값이 `DELAYED_ACQUISITION_AND_RELEASE_AFTER_TRANSACTION`으로 설정되면서
+커넥션 획득은 실제 DB 접근 시점까지 지연되고 트랜잭션 종료 시 반환됩니다.
+출처 : [https://docs.hibernate.org/orm/6.6/javadocs/org/hibernate/cfg/JdbcSettings.html](https://docs.hibernate.org/orm/6.6/javadocs/org/hibernate/cfg/JdbcSettings.html)
