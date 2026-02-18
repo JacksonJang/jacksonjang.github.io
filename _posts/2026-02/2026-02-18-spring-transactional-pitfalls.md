@@ -24,23 +24,21 @@ public void addData(String data) {
 }
 ```
 위 코드에선 예외가 발생하면 롤백이 진행됩니다.
+단, Checked Exception 이면 롤백이 안됩니다.
 
-Spring은 내부적으로 **AOP 프록시**를 사용하여 트랜잭션을 관리하고 있는데
-이 프록시 기반 동작 방식 때문에 몇 가지 주의사항이 존재합니다.
+Checked Exception 문제를 포함한 다양한 문제에 대해 알아보겠습니다.
 
 
 ## @Transactional 사용 시 주의사항
 
 | # | 주의사항 | 원인 | 해결 |
 |---|---------|------|------|
-| 1 | **private** 메서드 무시됨 | 프록시가 오버라이드 불가 | public 사용 |
-| 2 | **final** 클래스/메서드 무시됨 | 프록시가 상속/오버라이드 불가 | final 제거 |
-| 3 | **Self-Invocation** 무시됨 | 내부 호출은 프록시 안 거침 | 별도 서비스 분리 |
-| 4 | **Checked Exception** 롤백 안 됨 | 기본 롤백 대상 아님 | rollbackFor 지정 |
-| 5 | **try-catch**로 삼키면 롤백 안 됨 | 스프링이 예외 감지 못 함 | throw로 다시 던지기 |
-| 6 | **멀티스레드** 전파 안 됨 | ThreadLocal에 트랜잭션 저장 | 동기 처리 또는 별도 설계 |
-| 7 | **@Async** 메서드 전파 안 됨 | 비동기는 별도 스레드 | 명시적 트랜잭션 생성 |
-| 8 | **timeout 미설정** | 무한 대기로 장애 유발 | timeout 명시적 설정 |
+| [1](#1-private-메서드에서는-transactional-무시됨) | **private** 메서드 무시됨 | 프록시가 오버라이드 불가 | public 사용 |
+| [2](#2-final-클래스메서드에-transactional-무시됨) | **final** 클래스/메서드 무시됨 | 프록시가 상속/오버라이드 불가 | final 제거 |
+| [3](#3-self-invocation-내부-호출-시-transactional-무시됨) | **Self-Invocation** 무시됨 | 내부 호출은 프록시 안 거침 | 별도 서비스 분리 |
+| [4](#4-checked-exception은-롤백되지-않음) | **Checked Exception** 롤백 안 됨 | 기본 롤백 대상 아님 | rollbackFor 지정 |
+| [5](#5-try-catch로-예외를-삼키면-롤백-안-됨) | **try-catch**로 삼키면 롤백 안 됨 | 스프링이 예외 감지 못 함 | throw로 다시 던지기 |
+| [6](#8-timeout-미설정-시-무한-대기-위험) | **timeout 미설정** | 무한 대기로 장애 유발 | timeout 명시적 설정 |
 
 
 ### 1. private 메서드에서는 @Transactional 무시됨
@@ -169,7 +167,7 @@ public class PaymentService {
 #### Spring 구현 코드 확인
 
 ##### final 클래스인 경우
-`Enhancer`가 프록시 클래스를 생성할 때, 부모 클래스가 `final`이면 `IllegalArgumentException` 예외를 발생시킵니다.
+`CGLIB`의`Enhancer`가 프록시 클래스를 생성할 때, 부모 클래스가 `final`이면 `IllegalArgumentException` 예외를 발생시킵니다.
 
 ```java
 // Enhancer.java
@@ -215,46 +213,62 @@ private static void getMethods(Class superclass, Class[] interfaces, List method
 ```
 
 ### 3. Self-Invocation (내부 호출) 시 @Transactional 무시됨
-같은 클래스 내에서 메서드를 호출하면, 프록시를 거치지 않고 `this`로 직접 호출되기 때문에 트랜잭션이 적용되지 않습니다.
+`@Transactional`은 **Spring AOP 프록시**를 통해 동작하기 때문에
+같은 클래스 내부에서 메서드를 호출하면 프록시를 거치지 않아 트랜잭션이 적용되지 않습니다.
 
+#### 문제 코드
 ```java
 @Service
-public class UserService {
+public class OrderService {
 
-    public void register(User user) {
-        // this.saveUser()로 호출되므로 프록시를 거치지 않음
-        saveUser(user);
+    public void createOrder(OrderRequest request) {
+        // 내부 호출 -> 프록시를 거치지 않음!
+        saveOrder(request);
     }
 
     @Transactional
-    public void saveUser(User user) {
-        userRepository.save(user);
+    public void saveOrder(OrderRequest request) {
+        orderRepository.save(request.toEntity());
     }
 }
 ```
+`createOrder()`에서 `saveOrder()`를 호출해도 **트랜잭션이 적용되지 않습니다.**
+왜냐하면 내부 호출은 `this.saveOrder()`로 실행되기 때문에 프록시 객체를 거치지 않기 때문입니다.
 
-#### 해결: 별도 서비스로 분리
+#### 왜 프록시를 거쳐야 하는가?
+Spring은 `@Transactional`이 붙은 빈을 프록시 객체로 감싸서 관리합니다.
+외부에서 호출하면 **프록시 -> 트랜잭션 시작 -> 실제 메서드 실행 -> 커밋/롤백** 순서로 동작하지만,
+같은 클래스 내부에서 호출하면 프록시를 우회하여 직접 메서드가 실행됩니다.
+
+```
+[외부 호출] // 트랜잭션 적용됨 
+Controller -> Proxy(OrderService) -> saveOrder() 
+
+[내부 호출] // 트랜잭션 미적용
+createOrder() -> this.saveOrder()
+```
+
+#### 해결 방법
+클래스를 분리하여 외부 호출로 변경합니다.
+
 ```java
 @Service
 @RequiredArgsConstructor
-public class UserService {
+public class OrderService {
 
-    private final UserPersistenceService persistenceService;
+    private final OrderInternalService orderInternalService;
 
-    public void register(User user) {
-        persistenceService.saveUser(user);
+    public void createOrder(OrderRequest request) {
+        orderInternalService.saveOrder(request);
     }
 }
 
 @Service
-@RequiredArgsConstructor
-public class UserPersistenceService {
-
-    private final UserRepository userRepository;
+public class OrderInternalService {
 
     @Transactional
-    public void saveUser(User user) {
-        userRepository.save(user);
+    public void saveOrder(OrderRequest request) {
+        orderRepository.save(request.toEntity());
     }
 }
 ```
@@ -264,6 +278,42 @@ public class UserPersistenceService {
 Spring의 `@Transactional`은 기본적으로 **Unchecked Exception** (`RuntimeException`, `Error`)만 롤백합니다.
 `Checked Exception`이 발생하면 트랜잭션이 커밋됩니다.
 
+Spring 내부 코드에서도 `Unchecked Exception`에 대한 분기 처리를 확인할 수 있습니다.
+```java
+// DefaultTransactionAttribute.java
+public boolean rollbackOn(Throwable ex) {
+    return (ex instanceof RuntimeException || ex instanceof Error);
+}
+
+// TransactionAspectSupport.java
+protected void completeTransactionAfterThrowing(
+    @Nullable TransactionInfo txInfo,
+    InvocationCallback invocation, Throwable ex) {
+        if (txInfo.transactionAttribute != null && 
+            // 여기서 rollbackOn 부분에서 분기 처리
+            txInfo.transactionAttribute.rollbackOn(ex)) {
+                invocation.onRollback(ex, txInfo.getTransactionStatus());
+                try {
+                    txInfo.getTransactionManager().rollback(txInfo.getTransactionStatus());
+                }
+                catch (TransactionSystemException ex2) {
+                    logger.error("Application exception overridden by rollback exception", ex);
+                    ex2.initApplicationException(ex);
+                    throw ex2;
+                }
+                catch (RuntimeException | Error ex2) {
+                    logger.error("Application exception overridden by rollback exception", ex);
+                    throw ex2;
+                }
+        }
+}
+```
+
+Spring `@Transactional`이 `Checked Exception`에서 커밋하는 이유는
+Java 설계 철학상 `Checked Exception`은 복구 가능한 예외로 간주되기 때문입니다.
+"복구할 수 있으니 롤백까지는 필요 없다"는 판단이지만 `@Transactional(rollbackFor = Exception.class)`처럼 `Checked Exception`에서도 롤백되도록 명시하는 게 좋습니다.
+
+#### 문제 코드
 ```java
 @Service
 public class FileService {
@@ -277,7 +327,9 @@ public class FileService {
 }
 ```
 
-#### 해결: rollbackFor 지정
+#### 해결 방법
+`rollbackFor`를 지정하면 안전하게 해결할 수 있습니다.
+
 ```java
 @Transactional(rollbackFor = Exception.class)
 public void saveWithFile(Data data) throws IOException {
@@ -286,9 +338,12 @@ public void saveWithFile(Data data) throws IOException {
 }
 ```
 
-
 ### 5. try-catch로 예외를 삼키면 롤백 안 됨
-예외를 `try-catch`로 잡아서 처리하면, 스프링이 예외를 감지하지 못해 트랜잭션이 정상 커밋됩니다.
+`try-catch`로 작성하고나서 `catch` 문에 `throw` 를 하지 않으면
+스프링이 예외를 감지하지 못해 트랜잭션이 정상 커밋됩니다.
+
+왜냐하면 프록시는 메서드 내부 구현을 들여다보지 않습니다.
+메서드 경계에서 예외가 전파되었는지 여부만으로 커밋/롤백을 판단하기 때문에 `throw`를 하지 않으면 프록시에게는 구분할 방법이 없는 것입니다.
 
 ```java
 @Service
@@ -308,7 +363,8 @@ public class OrderService {
 }
 ```
 
-#### 해결: 예외를 다시 던지기
+#### 해결 방법
+catch 문에서 예외를 삼키지 않고 던져주면 해결됩니다.
 ```java
 @Transactional
 public void placeOrder(Order order) {
@@ -322,114 +378,7 @@ public void placeOrder(Order order) {
 }
 ```
 
-
-### 6. 멀티스레드 환경에서 트랜잭션 전파 안 됨
-Spring의 트랜잭션 컨텍스트는 `ThreadLocal`에 저장됩니다.
-새로운 스레드에서는 부모 스레드의 트랜잭션을 공유하지 않으므로, 별도의 트랜잭션으로 동작합니다.
-
-```java
-@Service
-public class NotificationService {
-
-    @Transactional
-    public void sendNotifications(List<User> users) {
-        // 새로운 스레드에서 실행되므로 부모 트랜잭션과 무관
-        users.parallelStream().forEach(user -> {
-            notificationRepository.save(new Notification(user));
-        });
-    }
-}
-```
-
-#### 해결: 동기 처리
-```java
-@Transactional
-public void sendNotifications(List<User> users) {
-    users.forEach(user -> {
-        notificationRepository.save(new Notification(user));
-    });
-}
-```
-
-비동기 처리가 반드시 필요한 경우, 각 스레드에서 별도의 `@Transactional` 메서드를 호출하도록 설계해야 합니다.
-
-
-### 7. @Async 메서드에서 트랜잭션 전파 안 됨
-`@Async`가 붙은 메서드는 별도의 스레드에서 실행되므로, 호출한 메서드의 트랜잭션이 전파되지 않습니다.
-6번(멀티스레드)과 원리는 같지만, `@Async`는 Spring에서 자주 사용되므로 별도로 주의가 필요합니다.
-
-```java
-@Service
-public class EmailService {
-
-    // 호출자의 트랜잭션이 전파되지 않음
-    @Async
-    public void sendEmail(User user) {
-        // 별도 스레드에서 실행 -> 트랜잭션 없음
-        emailLogRepository.save(new EmailLog(user));
-    }
-}
-```
-
-#### 해결: @Async 메서드 내에서 명시적으로 트랜잭션 선언
-```java
-@Async
-@Transactional
-public void sendEmail(User user) {
-    emailLogRepository.save(new EmailLog(user));
-}
-```
-
-#### 주의: @Async + @Transactional 조합 시 Self-Invocation
-`@Async`와 `@Transactional` 모두 프록시 기반이므로, 같은 클래스 내부에서 호출하면 둘 다 동작하지 않습니다.
-
-```java
-@Service
-public class OrderService {
-
-    @Transactional
-    public void placeOrder(Order order) {
-        orderRepository.save(order);
-        // Self-Invocation으로 @Async, @Transactional 모두 무시됨
-        sendOrderConfirmation(order);
-    }
-
-    @Async
-    @Transactional
-    public void sendOrderConfirmation(Order order) {
-        // ...
-    }
-}
-```
-
-#### 해결: 별도 서비스로 분리
-```java
-@Service
-@RequiredArgsConstructor
-public class OrderService {
-
-    private final OrderNotificationService notificationService;
-
-    @Transactional
-    public void placeOrder(Order order) {
-        orderRepository.save(order);
-        notificationService.sendOrderConfirmation(order);
-    }
-}
-
-@Service
-public class OrderNotificationService {
-
-    @Async
-    @Transactional
-    public void sendOrderConfirmation(Order order) {
-        // 프록시를 통해 호출되므로 @Async, @Transactional 모두 정상 동작
-    }
-}
-```
-
-
-### 8. timeout 미설정 시 무한 대기 위험
+### 6. timeout 미설정 시 무한 대기 위험
 `@Transactional`의 기본 timeout은 데이터베이스 또는 트랜잭션 매니저의 기본값을 따릅니다.
 명시적으로 설정하지 않으면 데드락이나 느린 쿼리로 인해 무한 대기 상태에 빠질 수 있습니다.
 
@@ -446,7 +395,9 @@ public class ReportService {
 }
 ```
 
-#### 해결: timeout 명시적 설정 (단위: 초)
+#### 해결 방법
+timeout 명시적 설정하면 됩니다.
+제일 좋은 방법은 [전역 timeout 설정](#전역-timeout-설정)으로 해결하면 됩니다.
 ```java
 @Transactional(timeout = 30)
 public Report generateReport(Long reportId) {
@@ -494,18 +445,3 @@ public class TransactionConfig {
     }
 }
 ```
-
-
-## 정리
-`@Transactional`은 Spring의 **AOP 프록시** 기반으로 동작하기 때문에, 프록시의 한계를 이해하고 사용해야 합니다.
-
-| # | 핵심 포인트 |
-|---|-----------|
-| 1 | 프록시가 개입할 수 있도록 **public** 메서드에 적용 |
-| 2 | **final** 키워드 사용 지양 |
-| 3 | 내부 호출(Self-Invocation) 대신 **별도 서비스 분리** |
-| 4 | Checked Exception도 롤백하려면 **rollbackFor** 지정 |
-| 5 | 예외를 삼키지 말고 **다시 던지기** |
-| 6 | 멀티스레드 환경에서는 트랜잭션 전파가 안 되므로 **별도 설계** 필요 |
-| 7 | @Async 메서드는 **별도 트랜잭션** 필요하며, Self-Invocation 주의 |
-| 8 | **timeout**을 명시적으로 설정하여 무한 대기 방지 |
